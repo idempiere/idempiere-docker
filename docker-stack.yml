@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  idempiere:
+    image: idempiere:6.2
+    ports:
+      - 8080:8080
+      - 8443:8443
+      - 12612:12612
+    environment:
+      - TZ=America/Guayaquil
+
+  postgres:
+    image: postgres:9.6
+    ports:
+      - 5432:5432
+    environment:
+      - TZ=America/Guayaquil
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - idempiere_data:/var/lib/postgresql/data
+
+volumes:
+  idempiere_data:
