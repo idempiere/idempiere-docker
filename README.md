@@ -9,7 +9,7 @@ $ docker swarm init
 $ make build run
 ```
 
-Open in the browser: [http://localhost:8080/webui/](http://localhost:8080/webui/)
+Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
 
 ## Default Accounts
 
