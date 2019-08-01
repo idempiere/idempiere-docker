@@ -1,6 +1,6 @@
-# Dockerizing iDempiere 6.2
+# Docker iDempiere 6.2
 
-- [Docker Hub](https://hub.docker.com/r/ingeint/idempiere)
+- [Docker Hub](https://hub.docker.com/r/ingeinthub/idempiere)
 
 ## Getting Started
 
@@ -36,10 +36,10 @@ the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-en
 
 ## Using from Docker Hub
 
-Image: `ingeint/idempiere`.
+Image: `ingeinthub/idempiere`.
 
 ```bash
-$ docker pull ingeint/idempiere
+$ docker pull ingeinthub/idempiere
 ```
 
 Stack:
@@ -49,7 +49,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: ingeint/idempiere:6.2
+    image: ingeinthub/idempiere:6.2
     ports:
       - 8080:8080
 ```
