@@ -5,6 +5,7 @@ pipeline {
     environment {
         PROJECT_NAME = 'idempiere'
         TAG_NAME = "${GIT_BRANCH == 'master' ? 'latest' : GIT_BRANCH}"
+        REGISTRY_PASS = credentials('ingeint-registry-pass')
     }
     stages {
         stage('Publish to Registry') {
