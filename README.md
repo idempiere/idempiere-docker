@@ -1,4 +1,4 @@
-# Docker iDempiere 6.2
+# Docker iDempiere 7.1
 
 - [Docker Hub](https://hub.docker.com/r/ingeinthub/idempiere)
 
@@ -49,14 +49,14 @@ version: '3.7'
 
 services:
   idempiere:
-    image: ingeinthub/idempiere:6.2
+    image: ingeinthub/idempiere:7.1
     ports:
       - 8080:8080
 ```
 
 ## Make Commands
 
-`make build` creates iDempiere docker image (with labels `idempiere:6.2` and `idempiere:latest`)
+`make build` creates iDempiere docker image (with labels `idempiere:7.1` and `idempiere:latest`)
 
 `make run` runs iDempiere docker stack (includes `postgres:9.6`)
 
@@ -75,7 +75,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiere:6.2
+    image: idempiere:7.1
     ports:
       - 8080:8080
       - 8443:8443
@@ -102,7 +102,7 @@ volumes:
 | Variable | Default Value | Description |
 | - | - | - |
 | IDEMPIERE_HOME | /idempiere | Path to iDempiere |
-| IDEMPIERE_VERSION | 6.2 | iDempiere Version |
+| IDEMPIERE_VERSION | 7.1 | iDempiere Version |
 | IDEMPIERE_PORT | 8080 | HTTP port for iDempiere |
 | IDEMPIERE_SSL_PORT | 8443 | HTTPS port for iDempiere |
 | KEY_STORE_PASS | myPassword | Password for java key store (SSL Certificate) |
@@ -191,7 +191,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiere:6.2
+    image: idempiere:7.1
     ports:
       - 8080:8080
       - 8443:8443
