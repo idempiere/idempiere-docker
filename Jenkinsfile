@@ -11,7 +11,7 @@ pipeline {
         stage('Publish to Registry') {
             steps {
                 sh 'docker login $REGISTRY_REPOSITORY -u $REGISTRY_USER -p $REGISTRY_PASS'
-                sh 'docker build -t $REGISTRY_REPOSITORY/$PROJECT_NAME:$TAG_NAME  .'
+                sh 'docker build -t $REGISTRY_REPOSITORY/$PROJECT_NAME:$TAG_NAME .'
                 sh 'docker push $REGISTRY_REPOSITORY/$PROJECT_NAME:$TAG_NAME'
             }
         }
