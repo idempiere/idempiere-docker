@@ -67,12 +67,18 @@ if [[ "$1" == "idempiere" ]]; then
         ./RUN_ImportIdempiere.sh
         echo "Synchronizing database..."
         ./RUN_SyncDB.sh
+        cd ..
+        echo "Signing database..."
+        ./sign-database-build.sh
     else
         echo "Database '$DB_NAME' is found..."
         if [[ "$MIGRATE_EXISTING_DATABASE" == "true" ]]; then
             cd utils
             echo "MIGRATE_EXISTING_DATABASE is equal to 'true'. Synchronizing database..."
             ./RUN_SyncDB.sh
+            cd ..
+            echo "Signing database..."
+            ./sign-database-build.sh
         else
             echo "MIGRATE_EXISTING_DATABASE is equal to 'false'. Skipping..."
         fi

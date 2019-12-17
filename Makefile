@@ -14,4 +14,6 @@ log:
 	@ docker service logs -f idempiere_idempiere
 
 clean:
-	@ docker volume rm idempiere_idempiere_data
+	@ docker volume rm idempiere_idempiere_data || true
+	@ docker volume rm idempiere_idempiere_plugins || true
+	@ docker volume rm idempiere_idempiere_config || true

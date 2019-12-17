@@ -150,7 +150,19 @@ iDempiere Plugins:
 
 ```yaml
 volumes:
-  - idempiere_plugins:/idempiere/configuration
+  - idempiere_config:/idempiere/configuration
+  - idempiere_plugins:/idempiere/plugins/customs
+```
+
+`idempiere_config` saves the plugins configuration and `idempiere_plugins` is
+the path to contain the jar plugin.
+
+Other way to share plugins:
+
+```yaml
+volumes:
+  - idempiere_config:/idempiere/configuration
+  - ./plugins:/idempiere/plugins/customs
 ```
 
 ## Run as Debug
