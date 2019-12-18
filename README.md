@@ -54,6 +54,8 @@ services:
 
 volumes:
   idempiere_data:
+  idempiere_plugins:
+  idempiere_config:
 ```
 
 ```bash
