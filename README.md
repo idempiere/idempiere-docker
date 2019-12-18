@@ -6,50 +6,26 @@
 
 ```
 $ docker swarm init
-$ make build run
+```
+
+### Using Docker Commands
+
+iDempiere Docker uses a postgres admin password and user example `POSTGRES_PASSWORD=postgres`, if you use diferent configuration
+see [Environment Variables](#environment-variables):
+
+```bash
+$ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:9.6
+```
+
+```bash
+$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres ingeinthub/idempiere:7.1
 ```
 
 Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
 
-## Default Accounts
+### Using Docker Stack
 
-The following users and passwords are part of the initial seed database:
-
-| Usage | User | Password |
-| - | - | - |
-| System Management | System | System |
-| System Management or any role/company | SuperUser | System |
-| Sample Client Administration | GardenAdmin | GardenAdmin |
-| Sample Client User | GardenUser | GardenUser |
-
-## How it works
-
-iDempiere starts looking for an existing database, if it don't exist
-iDempiere will create a seed database.
-
-> If the database exists iDempiere won't migrate it, you must do it manually, or using `MIGRATE_EXISTING_DATABASE=true`.
-
-Before starting, it will configure all the settings according to
-the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-entrypoint.sh) file.
-
-> This project has not support for oracle database.
-
-## Using from Docker Hub
-
-Image: `ingeinthub/idempiere`.
-
-```bash
-$ docker pull ingeinthub/idempiere
-```
-```bash
-$ docker run -d -e POSTGRES_USER=adempiere -e POSTGRES_PASSWORD=adempiere -e POSTGRES_DB=idempiere -p 5435:5432 --name dbidempiere postgres:10 
-```
-
-```bash
-$ docker run -d --name idempiere -p 8090:8080 -e DB_PORT=5435 ingeinthub/idempiere:7.1
-```
-
-Stack:
+Create a `docker-stack.yml` file:
 
 ```yaml
 version: '3.7'
@@ -57,38 +33,15 @@ version: '3.7'
 services:
   idempiere:
     image: ingeinthub/idempiere:7.1
-    ports:
-      - 8080:8080
-```
-
-## Make Commands
-
-`make build` creates iDempiere docker image (with labels `idempiere:7.1` and `idempiere:latest`)
-
-`make run` runs iDempiere docker stack (includes `postgres:9.6`)
-
-`make stop` stops the stack
-
-`make log` shows the logs of iDempiere
-
-`make bash` creates a terminal within iDempiere docker image
-
-## Docker Stack
-
-This is an example of how deploy iDempiere using a docker stack file:
-
-```yaml
-version: '3.7'
-
-services:
-  idempiere:
-    image: idempiere:7.1
+    volumes:
+      - idempiere_config:/idempiere/configuration
+      - idempiere_plugins:/idempiere/plugins/customs
+    environment:
+      - TZ=America/Guayaquil
     ports:
       - 8080:8080
       - 8443:8443
       - 12612:12612
-    environment:
-      - TZ=America/Guayaquil
 
   postgres:
     image: postgres:9.6
@@ -103,6 +56,39 @@ services:
 volumes:
   idempiere_data:
 ```
+
+```bash
+$ docker stack deploy -c docker-stack.yml idempiere
+```
+
+### Using Makefile to Create from Dockerfile
+
+```
+$ make build run
+```
+
+Command list:
+
+`make build` creates iDempiere docker image (with labels `idempiere:7.1` and `idempiere:latest`)
+
+`make run` runs iDempiere docker stack (includes `postgres:9.6`)
+
+`make stop` stops the stack
+
+`make log` shows the logs of iDempiere
+
+`make bash` creates a terminal within iDempiere docker image
+
+## Default Accounts
+
+The following users and passwords are part of the initial seed database:
+
+| Usage | User | Password |
+| - | - | - |
+| System Management | System | System |
+| System Management or any role/company | SuperUser | System |
+| Sample Client Administration | GardenAdmin | GardenAdmin |
+| Sample Client User | GardenUser | GardenUser |
 
 ## Environment Variables
 
@@ -143,6 +129,18 @@ volumes:
 | 8443 | Default HTTPS port for iDempiere |
 | 12612 | Default OSGI port for telnet connection |
 | 4554 | Default remote debug port |
+
+## How it works
+
+iDempiere starts looking for an existing database, if it don't exist
+iDempiere will create a seed database.
+
+> If the database exists iDempiere won't migrate it, you must do it manually, or using `MIGRATE_EXISTING_DATABASE=true`.
+
+Before starting, it will configure all the settings according to
+the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-entrypoint.sh) file.
+
+> This project has not support for oracle database.
 
 ## Volumes
 
