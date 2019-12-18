@@ -41,6 +41,13 @@ Image: `ingeinthub/idempiere`.
 ```bash
 $ docker pull ingeinthub/idempiere
 ```
+```bash
+$ docker run -d -e POSTGRES_USER=adempiere -e POSTGRES_PASSWORD=adempiere -e POSTGRES_DB=idempiere -p 5435:5432 --name dbidempiere postgres:10 
+```
+
+```bash
+$ docker run -d --name idempiere -p 8090:8080 -e DB_PORT=5435 ingeinthub/idempiere:7.1
+```
 
 Stack:
 
