@@ -20,6 +20,8 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres ingeinthub/idempiere:7.1
 ```
 
+For persistent data see the section [Volumes](#volumes).
+
 Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
 
 #### Using Docker Stack
@@ -145,19 +147,31 @@ the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-en
 
 ## Volumes
 
-Postgres Data:
+#### Postgres Data
 
 ```yaml
 volumes:
   - idempiere_data:/var/lib/postgresql/data
 ```
 
-iDempiere Plugins:
+Or adding to bash command:
+
+```bash
+-v idempiere_data:/var/lib/postgresql/data
+```
+
+#### iDempiere Plugins
 
 ```yaml
 volumes:
   - idempiere_config:/idempiere/configuration
   - idempiere_plugins:/idempiere/plugins/customs
+```
+
+Or adding to bash command:
+
+```bash
+-v idempiere_config:/idempiere/configuration -v idempiere_plugins:/idempiere/plugins/customs
 ```
 
 `idempiere_config` saves the plugins configuration and `idempiere_plugins` is
@@ -169,6 +183,10 @@ Other way to share plugins:
 volumes:
   - idempiere_config:/idempiere/configuration
   - ./plugins:/idempiere/plugins/customs
+```
+
+```bash
+-v idempiere_config:/idempiere/configuration -v ./plugins:/idempiere/plugins/customs
 ```
 
 ## Run as Debug
@@ -210,20 +228,18 @@ version: '3.7'
 services:
   idempiere:
     image: idempiere:7.1
-    ports:
-      - 8080:8080
-      - 8443:8443
-      - 12612:12612
     environment:
       - TZ=America/Guayaquil
       - DB_ADMIN_PASS_FILE=/run/secrets/db_admin_pass
     secrets:
       - db_admin_pass
+    ports:
+      - 8080:8080
+      - 8443:8443
+      - 12612:12612
 
   postgres:
     image: postgres:9.6
-    volumes:
-      - idempiere_data:/var/lib/postgresql/data
     environment:
       - TZ=America/Guayaquil
       - POSTGRES_PASSWORD_FILE=/run/secrets/db_admin_pass
