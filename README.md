@@ -8,7 +8,7 @@
 $ docker swarm init
 ```
 
-### Using Docker Commands
+#### Using Docker Commands
 
 iDempiere Docker uses a postgres admin password and user example `POSTGRES_PASSWORD=postgres`, if you use diferent configuration
 see [Environment Variables](#environment-variables):
@@ -23,7 +23,7 @@ $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres ingeinthu
 
 Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
 
-### Using Docker Stack
+#### Using Docker Stack
 
 Create a `docker-stack.yml` file:
 
@@ -61,7 +61,7 @@ volumes:
 $ docker stack deploy -c docker-stack.yml idempiere
 ```
 
-### Using Makefile to Create from Dockerfile
+#### Using Makefile to Create from Dockerfile
 
 ```
 $ make build run
