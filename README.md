@@ -10,8 +10,7 @@ $ docker swarm init
 
 #### Using Docker Commands
 
-iDempiere Docker uses a postgres admin password and user example `POSTGRES_PASSWORD=postgres`, if you use diferent configuration
-see [Environment Variables](#environment-variables):
+iDempiere Docker uses a postgres admin password and user to create a clean database, example `POSTGRES_PASSWORD=postgres`, if you are using a different configuration you need to see [Environment Variables](#environment-variables):
 
 ```bash
 $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:9.6
