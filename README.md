@@ -15,6 +15,7 @@ iDempiere Docker uses a postgres admin password and user to create a clean datab
 ```bash
 $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:9.6
 ```
+> Remenber to change the postgres port in case you have one previously running, example `-p 5433:5432`
 
 ```bash
 $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres ingeinthub/idempiere:7.1
@@ -23,6 +24,21 @@ $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres ingeinthu
 For persistent data see the section [Volumes](#volumes).
 
 Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
+
+#### Using Docker Commands With an External DB
+
+```bash
+$ docker run -d --name idempiere -p 8080:8080 --network host\
+  -e DB_HOST=127.0.0.1\
+  -e DB_PORT=5432\
+  -e DB_NAME=idempiere\
+  -e DB_USER=adempiere\
+  -e DB_PASS=adempiere\
+  -e DB_ADMIN_PASS=postgres\
+  ingeinthub/idempiere:7.1
+```
+
+For secrets see the section [Docker Secrets](#docker-secrets).
 
 #### Using Docker Stack
 
