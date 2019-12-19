@@ -205,6 +205,19 @@ volumes:
 -v idempiere_config:/idempiere/configuration -v ./plugins:/idempiere/plugins/customs
 ```
 
+#### iDempiere Logs
+
+```yaml
+volumes:
+  - idempiere_log:/idempiere/log
+```
+
+Or adding to bash command:
+
+```bash
+-v idempiere_log:/idempiere/log
+```
+
 ## Run as Debug
 
 Adding `command` yml property:
