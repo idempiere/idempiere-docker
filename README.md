@@ -80,7 +80,7 @@ services:
     image: idempiereofficial/idempiere:7.1
     volumes:
       - idempiere_config:/opt/idempiere/configuration
-      - idempiere_plugins:/opt/idempiere/plugins/customs
+      - idempiere_plugins:/opt/idempiere/plugins
     environment:
       - TZ=America/Guayaquil
     ports:
@@ -142,6 +142,7 @@ The following users and passwords are part of the initial seed database:
 | Variable | Default Value | Description |
 | - | - | - |
 | IDEMPIERE_HOME | /opt/idempiere | Path to iDempiere |
+| IDEMPIERE_PLUGINS_HOME | /opt/idempiere/plugins | Path to iDempiere plugins |
 | IDEMPIERE_VERSION | 7.1 | iDempiere Version |
 | IDEMPIERE_PORT | 8080 | HTTP port for iDempiere |
 | IDEMPIERE_SSL_PORT | 8443 | HTTPS port for iDempiere |
@@ -209,28 +210,28 @@ Or adding to bash command:
 ```yaml
 volumes:
   - idempiere_config:/opt/idempiere/configuration
-  - idempiere_plugins:/opt/idempiere/plugins/customs
+  - idempiere_plugins:/opt/idempiere/plugins
 ```
 
 Or adding to bash command:
 
 ```bash
--v idempiere_config:/opt/idempiere/configuration -v idempiere_plugins:/opt/idempiere/plugins/customs
+-v idempiere_config:/opt/idempiere/configuration -v idempiere_plugins:/opt/idempiere/plugins
 ```
 
 `idempiere_config` saves the plugins configuration and `idempiere_plugins` is
-the path to contain the jar plugin.
+the path to contain the jar plugin (this one is used to install new plugins).
 
 Other way to share plugins:
 
 ```yaml
 volumes:
   - idempiere_config:/opt/idempiere/configuration
-  - ./plugins:/opt/idempiere/plugins/customs
+  - ./plugins:/opt/idempiere/plugins
 ```
 
 ```bash
--v idempiere_config:/opt/idempiere/configuration -v ./plugins:/opt/idempiere/plugins/customs
+-v idempiere_config:/opt/idempiere/configuration -v ./plugins:/opt/idempiere/plugins
 ```
 
 #### iDempiere Logs

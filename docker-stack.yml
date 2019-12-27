@@ -11,7 +11,7 @@ services:
       - TZ=America/Guayaquil
     volumes:
       - idempiere_config:/opt/idempiere/configuration
-      - idempiere_plugins:/opt/idempiere/plugins/customs
+      - idempiere_plugins:/opt/idempiere/plugins
 
   postgres:
     image: postgres:9.6
