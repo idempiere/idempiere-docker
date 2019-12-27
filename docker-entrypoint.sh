@@ -2,7 +2,7 @@
 
 set -Eeo pipefail
 
-echo "iDempiere Docker Documentation https://bitbucket.org/ingeint/docker-idempiere"
+echo "iDempiere Docker Documentation https://github.com/idempiere/idempiere-docker"
 
 KEY_STORE_PASS=${KEY_STORE_PASS:-myPassword}
 KEY_STORE_ON=${KEY_STORE_ON:-idempiere.org}

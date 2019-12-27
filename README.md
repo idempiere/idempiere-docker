@@ -1,6 +1,32 @@
 # Docker iDempiere 7.1
 
-- [Docker Hub](https://hub.docker.com/r/ingeinthub/idempiere)
+- [Docker Hub](https://hub.docker.com/r/idempiereofficial/idempiere)
+- [Repository](https://github.com/idempiere/idempiere-docker)
+- [iDempiere](https://github.com/idempiere/idempiere)
+
+## Features
+
+- Docker secrets
+- Plugins volumes for persistent plugins
+- Entrypoint Standard
+- Exposed port
+- Environment variables
+- Auto create and sign db
+- Auto migration db
+- Openjdk 11
+- Continuous integration capable
+- Inheritance capable
+- Standard output log
+
+## To do
+- Oracle DB capable
+- On/Off logs to file
+- Console setup bypass
+- Add TELNET_HOST env var in core idempiere-server.sh file
+- Import dump from volume
+- Download iDempiere compile from env variable
+- Add parameter stop after init
+- Add trigger build from official jenkins
 
 ## Getting Started
 
@@ -18,10 +44,12 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 > Remenber to change the postgres port in case you have one previously running, example `-p 5433:5432`
 
 ```bash
-$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres ingeinthub/idempiere:7.1
+$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:7.1
 ```
 
 For persistent data see the section [Volumes](#volumes).
+
+Start containers automatically [here](https://docs.docker.com/config/containers/start-containers-automatically/).
 
 Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
 
@@ -35,7 +63,7 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
   -e DB_USER=adempiere\
   -e DB_PASS=adempiere\
   -e DB_ADMIN_PASS=postgres\
-  ingeinthub/idempiere:7.1
+  idempiereofficial/idempiere:7.1
 ```
 
 For secrets see the section [Docker Secrets](#docker-secrets).
@@ -49,7 +77,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: ingeinthub/idempiere:7.1
+    image: idempiereofficial/idempiere:7.1
     volumes:
       - idempiere_config:/idempiere/configuration
       - idempiere_plugins:/idempiere/plugins/customs
