@@ -3,12 +3,12 @@ FROM openjdk:11-jdk
 LABEL maintainer="saul.pina@ingeint.com"
 
 ENV IDEMPIERE_VERSION 7.1
-ENV IDEMPIERE_HOME /idempiere
+ENV IDEMPIERE_HOME /opt/idempiere
 
 WORKDIR $IDEMPIERE_HOME
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends postgresql-client-9.6 && \
+    apt-get install -y --no-install-recommends postgresql-client && \
     rm -rf /var/lib/apt/lists/*
 
 RUN wget -q "https://ufpr.dl.sourceforge.net/project/idempiere/v${IDEMPIERE_VERSION}/daily-server/idempiereServer${IDEMPIERE_VERSION}Daily.gtk.linux.x86_64.zip" -O /tmp/idempiere-server.zip && \

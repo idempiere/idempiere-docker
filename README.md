@@ -30,10 +30,6 @@
 
 ## Getting Started
 
-```
-$ docker swarm init
-```
-
 #### Using Docker Commands
 
 iDempiere Docker uses a postgres admin password and user to create a clean database, example `POSTGRES_PASSWORD=postgres`, if you are using a different configuration you need to see [Environment Variables](#environment-variables):
@@ -41,7 +37,7 @@ iDempiere Docker uses a postgres admin password and user to create a clean datab
 ```bash
 $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:9.6
 ```
-> Remenber to change the postgres port in case you have one previously running, example `-p 5433:5432`
+> Remember to change the postgres port in case you have one previously running, example `-p 5433:5432`
 
 ```bash
 $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:7.1
@@ -69,6 +65,10 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
 For secrets see the section [Docker Secrets](#docker-secrets).
 
 #### Using Docker Stack
+
+```
+$ docker swarm init
+```
 
 Create a `docker-stack.yml` file:
 
@@ -141,7 +141,7 @@ The following users and passwords are part of the initial seed database:
 
 | Variable | Default Value | Description |
 | - | - | - |
-| IDEMPIERE_HOME | /idempiere | Path to iDempiere |
+| IDEMPIERE_HOME | /opt/idempiere | Path to iDempiere |
 | IDEMPIERE_VERSION | 7.1 | iDempiere Version |
 | IDEMPIERE_PORT | 8080 | HTTP port for iDempiere |
 | IDEMPIERE_SSL_PORT | 8443 | HTTPS port for iDempiere |
