@@ -79,8 +79,8 @@ services:
   idempiere:
     image: idempiereofficial/idempiere:7.1
     volumes:
-      - idempiere_config:/idempiere/configuration
-      - idempiere_plugins:/idempiere/plugins/customs
+      - idempiere_config:/opt/idempiere/configuration
+      - idempiere_plugins:/opt/idempiere/plugins/customs
     environment:
       - TZ=America/Guayaquil
     ports:
@@ -208,14 +208,14 @@ Or adding to bash command:
 
 ```yaml
 volumes:
-  - idempiere_config:/idempiere/configuration
-  - idempiere_plugins:/idempiere/plugins/customs
+  - idempiere_config:/opt/idempiere/configuration
+  - idempiere_plugins:/opt/idempiere/plugins/customs
 ```
 
 Or adding to bash command:
 
 ```bash
--v idempiere_config:/idempiere/configuration -v idempiere_plugins:/idempiere/plugins/customs
+-v idempiere_config:/opt/idempiere/configuration -v idempiere_plugins:/opt/idempiere/plugins/customs
 ```
 
 `idempiere_config` saves the plugins configuration and `idempiere_plugins` is
@@ -225,25 +225,25 @@ Other way to share plugins:
 
 ```yaml
 volumes:
-  - idempiere_config:/idempiere/configuration
-  - ./plugins:/idempiere/plugins/customs
+  - idempiere_config:/opt/idempiere/configuration
+  - ./plugins:/opt/idempiere/plugins/customs
 ```
 
 ```bash
--v idempiere_config:/idempiere/configuration -v ./plugins:/idempiere/plugins/customs
+-v idempiere_config:/opt/idempiere/configuration -v ./plugins:/opt/idempiere/plugins/customs
 ```
 
 #### iDempiere Logs
 
 ```yaml
 volumes:
-  - idempiere_log:/idempiere/log
+  - idempiere_log:/opt/idempiere/log
 ```
 
 Or adding to bash command:
 
 ```bash
--v idempiere_log:/idempiere/log
+-v idempiere_log:/opt/idempiere/log
 ```
 
 ## Run as Debug
