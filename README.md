@@ -18,16 +18,6 @@
 - Inheritance capable
 - Standard output log
 
-## To do
-- Oracle DB capable
-- On/Off logs to file
-- Console setup bypass
-- Add TELNET_HOST env var in core idempiere-server.sh file
-- Import dump from volume
-- Download iDempiere compile from env variable
-- Add parameter stop after init
-- Add trigger build from official jenkins
-
 ## Getting Started
 
 #### Using Docker Commands
@@ -37,7 +27,8 @@ iDempiere Docker uses a postgres admin password and user to create a clean datab
 ```bash
 $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:9.6
 ```
-> Remember to change the postgres port in case you have one previously running, example `-p 5433:5432`
+> Remember to change the postgres port in case you have one previously running, example `-p 5433:5432`.
+> You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
 $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:7.1
@@ -143,6 +134,7 @@ The following users and passwords are part of the initial seed database:
 | - | - | - |
 | IDEMPIERE_HOME | /opt/idempiere | Path to iDempiere |
 | IDEMPIERE_PLUGINS_HOME | /opt/idempiere/plugins | Path to iDempiere plugins |
+| IDEMPIERE_LOGS_HOME | /opt/idempiere/log | Path to iDempiere logs |
 | IDEMPIERE_VERSION | 7.1 | iDempiere Version |
 | IDEMPIERE_PORT | 8080 | HTTP port for iDempiere |
 | IDEMPIERE_SSL_PORT | 8443 | HTTPS port for iDempiere |
@@ -313,3 +305,13 @@ secrets:
   db_admin_pass:
     external: true
 ```
+
+## To do
+- Oracle DB capable
+- On/Off logs to file
+- Console setup bypass
+- Add TELNET_HOST env var in core idempiere-server.sh file
+- Import dump from volume
+- Download iDempiere compile from env variable
+- Add parameter stop after init
+- Add trigger build from official jenkins
