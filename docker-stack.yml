@@ -7,6 +7,7 @@ services:
       - 8080:8080
       - 8443:8443
       - 12612:12612
+      - 631:1631
     environment:
       - TZ=America/Guayaquil
     volumes:
@@ -14,7 +15,7 @@ services:
       - idempiere_plugins:/opt/idempiere/plugins
 
   postgres:
-    image: postgres:9.6
+    image: postgres:12
     ports:
       - 5432:5432
     environment:

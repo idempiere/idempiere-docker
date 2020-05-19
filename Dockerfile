@@ -10,7 +10,7 @@ ENV IDEMPIERE_LOGS_HOME $IDEMPIERE_HOME/log
 WORKDIR $IDEMPIERE_HOME
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends postgresql-client && \
+    apt-get install -y --no-install-recommends postgresql-client cups && \	
     rm -rf /var/lib/apt/lists/*
 
 RUN wget -q "https://ufpr.dl.sourceforge.net/project/idempiere/v${IDEMPIERE_VERSION}/daily-server/idempiereServer${IDEMPIERE_VERSION}Daily.gtk.linux.x86_64.zip" -O /tmp/idempiere-server.zip && \

@@ -25,7 +25,7 @@
 iDempiere Docker uses a postgres admin password and user to create a clean database, example `POSTGRES_PASSWORD=postgres`, if you are using a different configuration you need to see [Environment Variables](#environment-variables):
 
 ```bash
-$ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:9.6
+$ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:12
 ```
 > Remember to change the postgres port in case you have one previously running, example `-p 5433:5432`.
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
@@ -80,7 +80,7 @@ services:
       - 12612:12612
 
   postgres:
-    image: postgres:9.6
+    image: postgres:12
     volumes:
       - idempiere_data:/var/lib/postgresql/data
     environment:
@@ -289,7 +289,7 @@ services:
       - 12612:12612
 
   postgres:
-    image: postgres:9.6
+    image: postgres:12
     environment:
       - TZ=America/Guayaquil
       - POSTGRES_PASSWORD_FILE=/run/secrets/db_admin_pass
