@@ -109,7 +109,7 @@ Command list:
 
 `make build` creates iDempiere docker image (with labels `idempiere:7.1` and `idempiere:latest`)
 
-`make run` runs iDempiere docker stack (includes `postgres:9.6`)
+`make run` runs iDempiere docker stack (includes `postgres:12`)
 
 `make stop` stops the stack
 
