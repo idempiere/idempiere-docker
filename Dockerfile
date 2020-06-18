@@ -20,6 +20,7 @@ RUN wget -q $IDEMPIERE_DAILY -O /tmp/idempiere-server.zip && \
     unzip -q -o /tmp/idempiere-server.zip -d /tmp && \
     mv /tmp/idempiere.gtk.linux.x86_64/idempiere-server/* $IDEMPIERE_HOME && \
     rm -rf /tmp/idempiere*
+RUN cat $IDEMPIERE_HOME/MD5SUMS
 RUN ln -s $IDEMPIERE_HOME/idempiere-server.sh /usr/bin/idempiere
 
 COPY docker-entrypoint.sh $IDEMPIERE_HOME
