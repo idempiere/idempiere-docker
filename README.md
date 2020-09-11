@@ -17,6 +17,7 @@
 - Continuous integration capable
 - Inheritance capable
 - Standard output log
+- Support branches: master and release-7.1
 
 ## Getting Started
 
@@ -160,6 +161,7 @@ The following users and passwords are part of the initial seed database:
 | DEBUG_PORT| 4554 | Port for remote debug |
 | TELNET_PORT | 12612 | OSGI port for telnet connection |
 | MIGRATE_EXISTING_DATABASE | false | Migrate the existing database to latest version |
+| IDEMPIERE_DAILY | https://jenkins.idempiere.org | iDempire Build URL |
 
 ## Default Ports
 
@@ -306,12 +308,24 @@ secrets:
     external: true
 ```
 
+## Docker Tags
+
+Brach [master](https://github.com/idempiere/idempiere) tag `latest`:
+
+```
+$ docker pull idempiereofficial/idempiere:latest
+```
+
+Bransh [release-7.1](https://github.com/idempiere/idempiere/tree/release-7.1) tag `7.1`:
+
+```
+$ docker pull idempiereofficial/idempiere:7.1
+```
+
 ## To do
 - Oracle DB capable
 - On/Off logs to file
 - Console setup bypass
 - Add TELNET_HOST env var in core idempiere-server.sh file
 - Import dump from volume
-- Download iDempiere compile from env variable
 - Add parameter stop after init
-- Add trigger build from official jenkins
