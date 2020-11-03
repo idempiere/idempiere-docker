@@ -1,4 +1,4 @@
-# Docker iDempiere 7.1
+# Docker iDempiere 8.1
 
 - [Docker Hub](https://hub.docker.com/r/idempiereofficial/idempiere)
 - [Repository](https://github.com/idempiere/idempiere-docker)
@@ -17,7 +17,7 @@
 - Continuous integration capable
 - Inheritance capable
 - Standard output log
-- Support branches: master and release-7.1
+- Support branches: master and release-8.1
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
-$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:7.1
+$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.1
 ```
 
 For persistent data see the section [Volumes](#volumes).
@@ -51,7 +51,7 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
   -e DB_USER=adempiere\
   -e DB_PASS=adempiere\
   -e DB_ADMIN_PASS=postgres\
-  idempiereofficial/idempiere:7.1
+  idempiereofficial/idempiere:8.1
 ```
 
 For secrets see the section [Docker Secrets](#docker-secrets).
@@ -69,7 +69,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:7.1
+    image: idempiereofficial/idempiere:8.1
     volumes:
       - idempiere_config:/opt/idempiere/configuration
       - idempiere_plugins:/opt/idempiere/plugins
@@ -108,7 +108,7 @@ $ make build run
 
 Command list:
 
-`make build` creates iDempiere docker image (with labels `idempiere:7.1` and `idempiere:latest`)
+`make build` creates iDempiere docker image (with labels `idempiere:8.1` and `idempiere:latest`)
 
 `make run` runs iDempiere docker stack (includes `postgres:12`)
 
@@ -136,7 +136,7 @@ The following users and passwords are part of the initial seed database:
 | IDEMPIERE_HOME | /opt/idempiere | Path to iDempiere |
 | IDEMPIERE_PLUGINS_HOME | /opt/idempiere/plugins | Path to iDempiere plugins |
 | IDEMPIERE_LOGS_HOME | /opt/idempiere/log | Path to iDempiere logs |
-| IDEMPIERE_VERSION | 7.1 | iDempiere Version |
+| IDEMPIERE_VERSION | 8.1 | iDempiere Version |
 | IDEMPIERE_PORT | 8080 | HTTP port for iDempiere |
 | IDEMPIERE_SSL_PORT | 8443 | HTTPS port for iDempiere |
 | KEY_STORE_PASS | myPassword | Password for java key store (SSL Certificate) |
@@ -279,7 +279,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiere:7.1
+    image: idempiere:8.1
     environment:
       - TZ=America/Guayaquil
       - DB_ADMIN_PASS_FILE=/run/secrets/db_admin_pass
@@ -316,10 +316,10 @@ Brach [master](https://github.com/idempiere/idempiere) tag `latest`:
 $ docker pull idempiereofficial/idempiere:latest
 ```
 
-Bransh [release-7.1](https://github.com/idempiere/idempiere/tree/release-7.1) tag `7.1`:
+Bransh [release-8.1](https://github.com/idempiere/idempiere/tree/release-8.1) tag `8.1`:
 
 ```
-$ docker pull idempiereofficial/idempiere:7.1
+$ docker pull idempiereofficial/idempiere:8.1
 ```
 
 ## To do

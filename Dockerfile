@@ -2,7 +2,7 @@ FROM openjdk:11-jdk
 
 LABEL maintainer="saul.pina@ingeint.com"
 
-ENV IDEMPIERE_VERSION 7.1
+ENV IDEMPIERE_VERSION 8.1
 ENV IDEMPIERE_HOME /opt/idempiere
 ENV IDEMPIERE_PLUGINS_HOME $IDEMPIERE_HOME/plugins
 ENV IDEMPIERE_LOGS_HOME $IDEMPIERE_HOME/log
@@ -11,11 +11,7 @@ ENV IDEMPIERE_DAILY https://jenkins.idempiere.org/job/iDempiere/ws/org.idempiere
 WORKDIR $IDEMPIERE_HOME
 
 RUN apt-get update && \
-<<<<<<< HEAD
-    apt-get install -y --no-install-recommends postgresql-client cups && \	
-=======
     apt-get install -y --no-install-recommends nano postgresql-client && \
->>>>>>> 641f5ebe36ce049e148647fde5e87fcc51c69595
     rm -rf /var/lib/apt/lists/*
 
 RUN wget -q $IDEMPIERE_DAILY -O /tmp/idempiere-server.zip && \

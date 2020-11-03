@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:7.1
+    image: idempiereofficial/idempiere:8.1
     ports:
       - 8080:8080
       - 8443:8443
