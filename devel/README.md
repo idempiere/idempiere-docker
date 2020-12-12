@@ -1,13 +1,6 @@
 # Development Mode
 
-
-#### Using Makefile to Create from Dockerfile
-
-```
-$ make build run
-```
-
-Command list (valid parameter: `DOCKER_TAG`):
+### Command list (valid parameter: `DOCKER_TAG`):
 
 `make build` creates iDempiere docker image with tag `idempiere:daily`
 
@@ -21,6 +14,6 @@ Command list (valid parameter: `DOCKER_TAG`):
 
 `make compose-down` stops iDempiere docker stack
 
-Example using parameter `DOCKER_TAG` (all make commands support this argument):
+### Example using parameter `DOCKER_TAG` (all make commands support this argument):
 
 `make build DOCKER_TAG=8.1` creates iDempiere docker image with tag `idempiere:8.1`
