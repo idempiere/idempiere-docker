@@ -1,6 +1,6 @@
 FROM openjdk:11-jdk
 
-LABEL maintainer="saul.pina@ingeint.com"
+LABEL maintainer="orlando.curieles@ingeint.com"
 
 ENV IDEMPIERE_VERSION 8.1
 ENV IDEMPIERE_HOME /opt/idempiere

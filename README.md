@@ -1,23 +1,8 @@
-# Docker iDempiere 8.1
+# Docker iDempiere
 
 - [Docker Hub](https://hub.docker.com/r/idempiereofficial/idempiere)
 - [Repository](https://github.com/idempiere/idempiere-docker)
 - [iDempiere](https://github.com/idempiere/idempiere)
-
-## Features
-
-- Docker secrets
-- Plugins volumes for persistent plugins
-- Entrypoint Standard
-- Exposed port
-- Environment variables
-- Auto create and sign db
-- Auto migration db
-- Openjdk 11
-- Continuous integration capable
-- Inheritance capable
-- Standard output log
-- Support branches: master and release-8.1
 
 ## Getting Started
 
@@ -56,11 +41,7 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
 
 For secrets see the section [Docker Secrets](#docker-secrets).
 
-#### Using Docker Stack
-
-```
-$ docker swarm init
-```
+#### Using Docker Stack (Docker Swarm or Docker Compose)
 
 Create a `docker-stack.yml` file:
 
@@ -96,27 +77,15 @@ volumes:
   idempiere_config:
 ```
 
+Docker swarm enabled:
 ```bash
 $ docker stack deploy -c docker-stack.yml idempiere
 ```
 
-#### Using Makefile to Create from Dockerfile
-
+Docker compose:
+```bash
+$ docker-compose -f docker-stack.yml up
 ```
-$ make build run
-```
-
-Command list:
-
-`make build` creates iDempiere docker image (with labels `idempiere:8.1` and `idempiere:latest`)
-
-`make run` runs iDempiere docker stack (includes `postgres:12`)
-
-`make stop` stops the stack
-
-`make log` shows the logs of iDempiere
-
-`make bash` creates a terminal within iDempiere docker image
 
 ## Default Accounts
 
@@ -136,7 +105,7 @@ The following users and passwords are part of the initial seed database:
 | IDEMPIERE_HOME | /opt/idempiere | Path to iDempiere |
 | IDEMPIERE_PLUGINS_HOME | /opt/idempiere/plugins | Path to iDempiere plugins |
 | IDEMPIERE_LOGS_HOME | /opt/idempiere/log | Path to iDempiere logs |
-| IDEMPIERE_VERSION | 8.1 | iDempiere Version |
+| IDEMPIERE_VERSION | Docke Tag | iDempiere Version |
 | IDEMPIERE_PORT | 8080 | HTTP port for iDempiere |
 | IDEMPIERE_SSL_PORT | 8443 | HTTPS port for iDempiere |
 | KEY_STORE_PASS | myPassword | Password for java key store (SSL Certificate) |
@@ -172,7 +141,7 @@ The following users and passwords are part of the initial seed database:
 | 12612 | Default OSGI port for telnet connection |
 | 4554 | Default remote debug port |
 
-## How it works
+## How does it work?
 
 iDempiere starts looking for an existing database, if it don't exist
 iDempiere will create a seed database.
@@ -279,7 +248,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiere:8.1
+    image: idempiereofficial/idempiere:8.1
     environment:
       - TZ=America/Guayaquil
       - DB_ADMIN_PASS_FILE=/run/secrets/db_admin_pass
@@ -322,6 +291,20 @@ Bransh [release-8.1](https://github.com/idempiere/idempiere/tree/release-8.1) ta
 $ docker pull idempiereofficial/idempiere:8.1
 ```
 
+## Features
+
+- Docker secrets
+- Plugins volumes for persistent plugins
+- Entrypoint Standard
+- Exposed port
+- Environment variables
+- Auto create and sign db
+- Auto migration db
+- Openjdk 11
+- Continuous integration capable
+- Inheritance capable
+- Standard output log
+
 ## To do
 - Oracle DB capable
 - On/Off logs to file
@@ -329,3 +312,7 @@ $ docker pull idempiereofficial/idempiere:8.1
 - Add TELNET_HOST env var in core idempiere-server.sh file
 - Import dump from volume
 - Add parameter stop after init
+
+## Development Resources
+
+In [devel](devel) folder.

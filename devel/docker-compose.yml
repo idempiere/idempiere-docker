@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:8.1
+    image: idempiere:${DOCKER_TAG}
     ports:
       - 8080:8080
       - 8443:8443
@@ -15,7 +15,7 @@ services:
       - idempiere_plugins:/opt/idempiere/plugins
 
   postgres:
-    image: postgres:12
+    image: postgres:${POSTGRES_VERSION}
     ports:
       - 5432:5432
     environment:
