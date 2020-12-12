@@ -17,3 +17,5 @@
 ### Example using parameter `DOCKER_TAG` (all make commands support this argument):
 
 `make build DOCKER_TAG=8.1` creates iDempiere docker image with tag `idempiere:8.1`
+
+`make compose-up DOCKER_REPOSITORY=idempiereofficial/idempiere DOCKER_TAG=7.1` runs iDempiere's stack with tag `idempiereofficial/idempiere:7.1`

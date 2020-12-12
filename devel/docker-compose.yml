@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiere:${DOCKER_TAG}
+    image: ${DOCKER_REPOSITORY}:${DOCKER_TAG}
     ports:
       - 8080:8080
       - 8443:8443

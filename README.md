@@ -20,14 +20,12 @@
 ## iDempiere
 
 -	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
--	[`6.2`](https://github.com/idempiere/idempiere-docker/tree/master/6.2)
 -	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/7.1)
 -	[`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
 
 ## iDempiere Source
 
 -	[`source-master`](https://github.com/idempiere/idempiere-docker/tree/master/source-master)
--	[`source-release-6.2`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-6.2)
 -	[`source-release-7.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-7.1)
 -	[`source-release-8.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.1)
 
