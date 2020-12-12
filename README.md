@@ -6,7 +6,7 @@
 -	**Where to get help**:  
 	[iDempire Community Forums](https://www.idempiere.org/forums/) or [Mattermost Support Channel](https://mattermost.idempiere.org/idempiere/channels/support)
 
-- **Where to file issues**:
+- **Where to file issues**:  
   [Mattermost Support Channel](https://mattermost.idempiere.org/idempiere/channels/support) or [Github Issues](https://github.com/idempiere/idempiere-docker/issues)
 
 - **Official Links**:  
