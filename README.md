@@ -33,7 +33,7 @@ For more information [here](https://www.idempiere.org/about/).
 
 # Getting Started
 
-#### Using Docker Commands
+### Using Docker Commands
 
 iDempiere Docker uses a postgres admin password and user to create a clean database, example `POSTGRES_PASSWORD=postgres`, if you are using a different configuration you need to see [Environment Variables](#environment-variables):
 
@@ -49,11 +49,11 @@ $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiere
 
 For persistent data see the section [Volumes](#volumes).
 
-Start containers automatically [here](https://docs.docker.com/config/containers/start-containers-automatically/).
+Starting containers automatically [here](https://docs.docker.com/config/containers/start-containers-automatically/).
 
 Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
 
-#### Using Docker Commands With an External DB
+### Using Docker Commands With an External DB
 
 ```bash
 $ docker run -d --name idempiere -p 8080:8080 --network host\
@@ -68,7 +68,7 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
 
 For secrets see the section [Docker Secrets](#docker-secrets).
 
-#### Using Docker Stack (Docker Swarm or Docker Compose)
+### Using Docker Stack (Docker Swarm or Docker Compose)
 
 Create a `docker-stack.yml` file:
 
@@ -105,11 +105,13 @@ volumes:
 ```
 
 Docker swarm enabled:
+
 ```bash
 $ docker stack deploy -c docker-stack.yml idempiere
 ```
 
 Docker compose:
+
 ```bash
 $ docker-compose -f docker-stack.yml up
 ```
@@ -182,7 +184,7 @@ the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-en
 
 # Volumes
 
-#### Postgres Data
+### Postgres Data
 
 ```yaml
 volumes:
@@ -195,7 +197,7 @@ Or adding to bash command:
 -v idempiere_data:/var/lib/postgresql/data
 ```
 
-#### iDempiere Plugins
+### iDempiere Plugins
 
 ```yaml
 volumes:
@@ -224,7 +226,7 @@ volumes:
 -v idempiere_config:/opt/idempiere/configuration -v ./plugins:/opt/idempiere/plugins
 ```
 
-#### iDempiere Logs
+### iDempiere Logs
 
 ```yaml
 volumes:
@@ -251,7 +253,7 @@ As an alternative to passing sensitive information via environment variables,
 causing the initialization script to load the values for those variables
 from files present in the container. See [Docker Secrets](https://docs.docker.com/engine/swarm/secrets/) and [Docker PosgreSQL](https://hub.docker.com/_/postgres).
 
-#### Variable list:
+### Variable list:
 
 | Variable | Original variable |
 | - | - |
@@ -260,7 +262,7 @@ from files present in the container. See [Docker Secrets](https://docs.docker.co
 | MAIL_PASS_FILE | MAIL_PASS |
 | KEY_STORE_PASS_FILE | KEY_STORE_PASS |
 
-#### Example:
+### Example:
 
 Create the secret:
 
