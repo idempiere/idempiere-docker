@@ -7,14 +7,20 @@
 $ make build run
 ```
 
-Command list:
+Command list (valid parameter: `DOCKER_TAG`):
 
-`make build` creates iDempiere docker image (with labels `idempiere:8.1` and `idempiere:latest`)
+`make build` creates iDempiere docker image with tag `idempiere:daily`
 
-`make run` runs iDempiere docker stack (includes `postgres:12`)
+`make up` runs iDempiere, includes `postgres:12` and `idempiere:daily`
 
-`make stop` stops the stack
-
-`make log` shows the logs of iDempiere
+`make down` stops iDempiere
 
 `make bash` creates a terminal within iDempiere docker image
+
+`make compose-up` runs iDempiere docker stack
+
+`make compose-down` stops iDempiere docker stack
+
+Example using parameter `DOCKER_TAG` (all make commands support this argument):
+
+`make build DOCKER_TAG=8.1` creates iDempiere docker image with tag `idempiere:8.1`

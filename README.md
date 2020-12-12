@@ -1,10 +1,37 @@
-# Docker iDempiere
+# Quick reference
 
-- [Docker Hub](https://hub.docker.com/r/idempiereofficial/idempiere)
-- [Repository](https://github.com/idempiere/idempiere-docker)
-- [iDempiere](https://github.com/idempiere/idempiere)
+-	**Maintained by**:  
+	[INGEINT](https://ingeint.com)
 
-## Getting Started
+-	**Where to get help**:  
+	[iDempire Community Forums](https://www.idempiere.org/forums/) or [Mattermost Support Channel](https://mattermost.idempiere.org/idempiere/channels/support)
+
+- **Where to file issues**:
+  [Mattermost Support Channel](https://mattermost.idempiere.org/idempiere/channels/support) or [Github Issues](https://github.com/idempiere/idempiere-docker/issues)
+
+- **Official Links**:  
+  [Docker Hub](https://hub.docker.com/r/idempiereofficial/idempiere),
+  [Repository](https://github.com/idempiere/idempiere-docker),
+  [iDempiere](https://github.com/idempiere/idempiere)
+
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
+-	[`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
+-	[`8.1-source`](https://github.com/idempiere/idempiere-docker/tree/master/8.1-source)
+-	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
+-	[`7.1-source`](https://github.com/idempiere/idempiere-docker/tree/master/8.1-source)
+
+# What is iDempiere?
+
+iDempiere is a powerful, open-source ERP/CRM/SCM system supported by a skilful community. The project focuses on high-quality software, a philosophy of openness and its collaborative community that includes subject matter specialists, implementors, developers and end-users.
+
+iDempiere has earned a strong reputation for its high-quality, architectural design, reliability, robust feature set, extensibility, and the commitment of the open-source community behind the project to consistently develop and improve the software with performant and innovative solutions.
+
+For more information [here](https://www.idempiere.org/about/).
+
+# Getting Started
 
 #### Using Docker Commands
 
@@ -87,7 +114,7 @@ Docker compose:
 $ docker-compose -f docker-stack.yml up
 ```
 
-## Default Accounts
+# Default Accounts
 
 The following users and passwords are part of the initial seed database:
 
@@ -98,7 +125,7 @@ The following users and passwords are part of the initial seed database:
 | Sample Client Administration | GardenAdmin | GardenAdmin |
 | Sample Client User | GardenUser | GardenUser |
 
-## Environment Variables
+# Environment Variables
 
 | Variable | Default Value | Description |
 | - | - | - |
@@ -132,7 +159,7 @@ The following users and passwords are part of the initial seed database:
 | MIGRATE_EXISTING_DATABASE | false | Migrate the existing database to latest version |
 | IDEMPIERE_DAILY | https://jenkins.idempiere.org | iDempire Build URL |
 
-## Default Ports
+# Default Ports
 
 | Port | Description |
 | - | - |
@@ -141,7 +168,7 @@ The following users and passwords are part of the initial seed database:
 | 12612 | Default OSGI port for telnet connection |
 | 4554 | Default remote debug port |
 
-## How does it work?
+# How does it work?
 
 iDempiere starts looking for an existing database, if it don't exist
 iDempiere will create a seed database.
@@ -153,7 +180,7 @@ the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-en
 
 > This project has not support for oracle database.
 
-## Volumes
+# Volumes
 
 #### Postgres Data
 
@@ -210,14 +237,14 @@ Or adding to bash command:
 -v idempiere_log:/opt/idempiere/log
 ```
 
-## Run as Debug
+# Run as Debug
 
 Adding `command` yml property:
 ```yaml
 command: idempiere debug
 ```
 
-## Docker Secrets
+# Docker Secrets
 
 As an alternative to passing sensitive information via environment variables,
 `_FILE` may be appended to some of the previously listed environment variables,
@@ -277,21 +304,7 @@ secrets:
     external: true
 ```
 
-## Docker Tags
-
-Brach [master](https://github.com/idempiere/idempiere) tag `latest`:
-
-```
-$ docker pull idempiereofficial/idempiere:latest
-```
-
-Bransh [release-8.1](https://github.com/idempiere/idempiere/tree/release-8.1) tag `8.1`:
-
-```
-$ docker pull idempiereofficial/idempiere:8.1
-```
-
-## Features
+# Features
 
 - Docker secrets
 - Plugins volumes for persistent plugins
@@ -305,7 +318,7 @@ $ docker pull idempiereofficial/idempiere:8.1
 - Inheritance capable
 - Standard output log
 
-## To do
+# To do
 - Oracle DB capable
 - On/Off logs to file
 - Console setup bypass
@@ -313,6 +326,6 @@ $ docker pull idempiereofficial/idempiere:8.1
 - Import dump from volume
 - Add parameter stop after init
 
-## Development Resources
+# Development Resources
 
 In [devel](devel) folder.
