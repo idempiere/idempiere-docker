@@ -31,6 +31,8 @@ iDempiere has earned a strong reputation for its high-quality, architectural des
 
 For more information [here](https://www.idempiere.org/about/).
 
+![logo](https://www.idempiere.org/wp-content/uploads/2020/03/cropped-taglinef3-scaled-1.jpg)
+
 # Getting Started
 
 ### Using Docker Commands
