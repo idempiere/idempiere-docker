@@ -17,11 +17,17 @@
 
 # Supported tags and respective `Dockerfile` links
 
+## iDempiere
+
 -	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
 -	[`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
--	[`8.1-source`](https://github.com/idempiere/idempiere-docker/tree/master/8.1-source)
 -	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
--	[`7.1-source`](https://github.com/idempiere/idempiere-docker/tree/master/8.1-source)
+
+## iDempiere Source
+
+-	[`source-master`](https://github.com/idempiere/idempiere-docker/tree/master/source-master)
+-	[`source-release-8.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.1)
+-	[`source-release-7.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-7.1)
 
 # What is iDempiere?
 
@@ -161,7 +167,9 @@ The following users and passwords are part of the initial seed database:
 | DEBUG_PORT| 4554 | Port for remote debug |
 | TELNET_PORT | 12612 | OSGI port for telnet connection |
 | MIGRATE_EXISTING_DATABASE | false | Migrate the existing database to latest version |
-| IDEMPIERE_DAILY | https://jenkins.idempiere.org | iDempire Build URL |
+| IDEMPIERE_BUILD | | iDempiere Build URL |
+| IDEMPIERE_REPOSITORY | | iDempiere Repository Path (for source image) |
+| IDEMPIERE_BRACH | | iDempiere Source Branch (for source image) |
 
 # Default Ports
 

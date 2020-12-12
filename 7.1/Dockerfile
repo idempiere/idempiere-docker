@@ -6,7 +6,7 @@ ENV IDEMPIERE_VERSION 7.1
 ENV IDEMPIERE_HOME /opt/idempiere
 ENV IDEMPIERE_PLUGINS_HOME $IDEMPIERE_HOME/plugins
 ENV IDEMPIERE_LOGS_HOME $IDEMPIERE_HOME/log
-ENV IDEMPIERE_DAILY https://jenkins.idempiere.org/job/iDempiere7.1/ws/org.idempiere.p2/target/products/org.adempiere.server.product/idempiereServer.gtk.linux.x86_64.zip
+ENV IDEMPIERE_BUILD https://jenkins.idempiere.org/job/iDempiere7.1/ws/org.idempiere.p2/target/products/org.adempiere.server.product/idempiereServer.gtk.linux.x86_64.zip
 
 WORKDIR $IDEMPIERE_HOME
 
@@ -14,7 +14,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends nano postgresql-client && \
     rm -rf /var/lib/apt/lists/*
 
-RUN wget -q $IDEMPIERE_DAILY -O /tmp/idempiere-server.zip && \
+RUN wget -q $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip && \
     echo "Hash: $(md5sum /tmp/idempiere-server.zip)" > $IDEMPIERE_HOME/MD5SUMS && \
     echo "Date: $(date)" >> $IDEMPIERE_HOME/MD5SUMS && \
     unzip -q -o /tmp/idempiere-server.zip -d /tmp && \
