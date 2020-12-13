@@ -196,7 +196,7 @@ the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-en
 
 ### Postgres Data
 
-Docker stak:
+Docker stack:
 
 ```yaml
 volumes:
@@ -211,7 +211,7 @@ Or adding to bash command:
 
 ### iDempiere Plugins
 
-Docker stak:
+Docker stack:
 
 ```yaml
 volumes:
@@ -244,7 +244,7 @@ Or adding to bash command:
 
 ### iDempiere Logs
 
-Docker stak:
+Docker stack:
 
 ```yaml
 volumes:
