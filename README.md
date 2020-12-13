@@ -4,7 +4,7 @@
 	[INGEINT](https://ingeint.com)
 
 -	**Where to get help**:  
-	[iDempire Community Forums](https://www.idempiere.org/forums/) or [Mattermost Support Channel](https://mattermost.idempiere.org/idempiere/channels/support)
+	[iDempiere Community Forums](https://www.idempiere.org/forums/) or [Mattermost Support Channel](https://mattermost.idempiere.org/idempiere/channels/support)
 
 - **Where to file issues**:  
   [Mattermost Support Channel](https://mattermost.idempiere.org/idempiere/channels/support) or [Github Issues](https://github.com/idempiere/idempiere-docker/issues)
@@ -19,11 +19,15 @@
 
 ## iDempiere
 
+Productive iDempiere Environment
+
 -	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
 -	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/7.1)
 -	[`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
 
 ## iDempiere Source
+
+iDempiere's Source Code for Development Environment
 
 -	[`source-master`](https://github.com/idempiere/idempiere-docker/tree/master/source-master)
 -	[`source-release-7.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-7.1)
@@ -168,8 +172,6 @@ The following users and passwords are part of the initial seed database:
 | TELNET_PORT | 12612 | OSGI port for telnet connection |
 | MIGRATE_EXISTING_DATABASE | false | Migrate the existing database to latest version |
 | IDEMPIERE_BUILD | | iDempiere Build URL |
-| IDEMPIERE_REPOSITORY | | iDempiere Repository Path (for source image) |
-| IDEMPIERE_BRACH | | iDempiere Source Branch (for source image) |
 
 # Default Ports
 
@@ -330,6 +332,28 @@ secrets:
   db_admin_pass:
     external: true
 ```
+
+# Using iDempiere's sources docker image
+
+Use this images for development purposes.
+
+### Use next tags to download the sources
+
+-	[`source-master`](https://github.com/idempiere/idempiere-docker/tree/master/source-master) corresponding to [iDempiere master brach](https://github.com/idempiere/idempiere/tree/master)
+-	[`source-release-7.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-7.1) corresponding to [iDempiere release-7.1 brach](https://github.com/idempiere/idempiere/tree/release-7.1)
+-	[`source-release-8.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.1) corresponding to [iDempiere release-8.1 brach](https://github.com/idempiere/idempiere/tree/release-8.1)
+
+### Env Variables
+
+| Variable | Default Value | Description |
+| - | - | - |
+| IDEMPIERE_REPOSITORY | /source/idempiere | iDempiere Repository Path |
+| IDEMPIERE_BRACH | | iDempiere Source Branch |
+| SCAFFOLD_REPOSITORY | /source/idempiere-plugin-scaffold | INGEINT Scaffolding Repository Path |
+| SCAFFOLD_BRANCH | | INGEINT Scaffolding Source Branch |
+| SOURCE_PATH | /source | Sources path |
+
+For more information about the scaffold go [here](https://github.com/ingeint/idempiere-plugin-scaffold)
 
 # Features
 
