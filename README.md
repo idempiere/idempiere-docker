@@ -196,6 +196,8 @@ the `setup.sh` or `console-setup.sh` files. See [docker-entrypoint.sh](docker-en
 
 ### Postgres Data
 
+Docker stak:
+
 ```yaml
 volumes:
   - idempiere_data:/var/lib/postgresql/data
@@ -208,6 +210,8 @@ Or adding to bash command:
 ```
 
 ### iDempiere Plugins
+
+Docker stak:
 
 ```yaml
 volumes:
@@ -224,7 +228,7 @@ Or adding to bash command:
 `idempiere_config` saves the plugins configuration and `idempiere_plugins` is
 the path to contain the jar plugin (this one is used to install new plugins).
 
-Other way to share plugins:
+Other way to share plugins (current folder):
 
 ```yaml
 volumes:
@@ -232,11 +236,15 @@ volumes:
   - ./plugins:/opt/idempiere/plugins
 ```
 
+Or adding to bash command:
+
 ```bash
 -v idempiere_config:/opt/idempiere/configuration -v ./plugins:/opt/idempiere/plugins
 ```
 
 ### iDempiere Logs
+
+Docker stak:
 
 ```yaml
 volumes:
@@ -252,8 +260,15 @@ Or adding to bash command:
 # Run as Debug
 
 Adding `command` yml property:
+
 ```yaml
 command: idempiere debug
+```
+
+Or adding to bash command:
+
+```
+docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.1 idempiere debug
 ```
 
 # Docker Secrets
@@ -319,15 +334,15 @@ secrets:
 # Features
 
 - Docker secrets
-- Plugins volumes for persistent plugins
-- Entrypoint Standard
+- Volumes for persistent plugins
+- Volumes for persistent logs
+- Standard Entrypoint
 - Exposed port
 - Environment variables
 - Auto create and sign db
 - Auto migration db
 - Openjdk 11
 - Continuous integration capable
-- Inheritance capable
 - Standard output log
 
 # To do
