@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Country">
+ <row id="100" trl="Y">
+  <value column="Name" original="United States">США</value>
+  <value column="Description" original="United States of America">Соединённые Штаты Америки</value>
+  <value column="RegionName" original="State">Область/штат</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Germany - Deutschland">Германия</value>
+  <value column="Description" original=""/>
+  <value column="RegionName" original="Bundesland"/>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Canada">Канада</value>
+  <value column="Description" original=""/>
+  <value column="RegionName" original="Province">Провинция</value>
+ </row>
+ <row id="247" trl="Y">
+  <value column="Name" original="Mexico">Мексика</value>
+  <value column="Description" original="Mexico">Мексика</value>
+  <value column="RegionName" original="State">Штат</value>
+ </row>
+ <row id="286" trl="Y">
+  <value column="Name" original="Russian Federation">Российская Федерация</value>
+  <value column="Description" original="Russian Federation">Российская Федерация</value>
+  <value column="RegionName" original="Federal Subject"/>
+ </row>
+</idempiereTrl>

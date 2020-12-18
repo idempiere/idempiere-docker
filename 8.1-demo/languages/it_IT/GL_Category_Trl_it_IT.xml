@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="GL_Category">
+ <row id="0" trl="N">
+  <value column="Name" original="None">None</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Manual">Manual</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="AR Invoice">AR Invoice</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="AR Receipt">AR Receipt</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Material Management">Material Management</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="AP Invoice">AP Invoice</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="AP Payment">AP Payment</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Payroll">Payroll</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Manufacturing">Manufacturing</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Distribution">Distribution</value>
+ </row>
+</idempiereTrl>

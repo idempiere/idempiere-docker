@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ja_JP" table="AD_FieldGroup">
+ <row id="101" trl="N">
+  <value column="Name" original="Status">ステータス</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Quantities">数量</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Amounts">金額</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Reference">リファレンス</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="History">履歴</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Product">品目</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Business Partner">取引先</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="Warehouse">倉庫</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="Bank Accounts">銀行(アカウント)勘定科目</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Cash Book Accounts">現金出納張</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Tax Accounts">税金勘定科目</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="Project Accounts">プロジェクト勘定科目</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="General">一般</value>
+ </row>
+ <row id="114" trl="N">
+  <value column="Name" original="Action">アクション</value>
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="Standard Cost">標準原価</value>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="Actual Costs">実績原価</value>
+ </row>
+ <row id="117" trl="N">
+  <value column="Name" original="Statistics">統計</value>
+ </row>
+ <row id="118" trl="N">
+  <value column="Name" original="Defaults">デフォルト</value>
+ </row>
+ <row id="119" trl="N">
+  <value column="Name" original="Request Management">リクエスト管理</value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Web Store">ウェブストア</value>
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="Internal">内部</value>
+ </row>
+ <row id="122" trl="N">
+  <value column="Name" original="External">外部</value>
+ </row>
+ <row id="123" trl="N">
+  <value column="Name" original="Common">共通</value>
+ </row>
+ <row id="124" trl="N">
+  <value column="Name" original="Shipment">納品</value>
+ </row>
+ <row id="125" trl="N">
+  <value column="Name" original="Document">ドキュメント</value>
+ </row>
+ <row id="126" trl="N">
+  <value column="Name" original="Line">詳細行</value>
+ </row>
+ <row id="127" trl="N">
+  <value column="Name" original="Simulation">シミュレーション</value>
+ </row>
+ <row id="128" trl="N">
+  <value column="Name" original="Calculations">計算</value>
+ </row>
+ <row id="129" trl="N">
+  <value column="Name" original="Proxy">プロキシ</value>
+ </row>
+ <row id="130" trl="N">
+  <value column="Name" original="Delivery">出荷</value>
+ </row>
+ <row id="131" trl="N">
+  <value column="Name" original="Invoicing">請求</value>
+ </row>
+ <row id="132" trl="N">
+  <value column="Name" original="Only ..">限定</value>
+ </row>
+ <row id="133" trl="N">
+  <value column="Name" original="Selection">選択</value>
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="Workflow">ワークフロー</value>
+ </row>
+ <row id="135" trl="N">
+  <value column="Name" original="Access">アクセス</value>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="Allow Info In Role">取引情報表示許可</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Accounts">勘定科目</value>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Setup">セットアップ</value>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Dates">日付</value>
+ </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Revaluation Accounts">Revaluation Accounts</value>
+ </row>
+ <row id="50005" trl="N">
+  <value column="Name" original="Contract">Contract</value>
+ </row>
+ <row id="50006" trl="N">
+  <value column="Name" original="Options">Options</value>
+ </row>
+ <row id="50007" trl="N">
+  <value column="Name" original="General Ledger">General Ledger</value>
+ </row>
+ <row id="50008" trl="N">
+  <value column="Name" original="Machines">Machines</value>
+ </row>
+ <row id="50009" trl="N">
+  <value column="Name" original="Database">Database</value>
+ </row>
+ <row id="50010" trl="N">
+  <value column="Name" original="Manufacturing Accounts">Manufacturing</value>
+ </row>
+ <row id="50012" trl="N">
+  <value column="Name" original="Logo">Logo</value>
+ </row>
+ <row id="50016" trl="N">
+  <value column="Name" original="Location">所在地</value>
+ </row>
+ <row id="50017" trl="N">
+  <value column="Name" original="Fixed Asset">固定資産</value>
+ </row>
+ <row id="50018" trl="N">
+  <value column="Name" original="Maintenance">メンテナンス</value>
+ </row>
+ <row id="50019" trl="N">
+  <value column="Name" original="Funding">Funding</value>
+ </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Depreciation">償却</value>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Swing Position">Swing-UIの配置</value>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Web Position">Web-UIの配置</value>
+ </row>
+ <row id="200003" trl="N">
+  <value column="Name" original="User Locking">ユーザーロック情報</value>
+ </row>
+ <row id="200004" trl="N">
+  <value column="Name" original="Overwritten From Column">カラムの設定を上書き</value>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Customer Information">得意先情報</value>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Vendor Information">仕入先情報</value>
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Sales Information">販売情報</value>
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="Document Preferences">証票参照情報</value>
+ </row>
+ <row id="200009" trl="N">
+  <value column="Name" original="Charge Account">摘要科目マスタ勘定科目</value>
+ </row>
+ <row id="200010" trl="N">
+  <value column="Name" original="Business Partner Accounts">取引先勘定科目</value>
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="Product Accounts">品目勘定科目</value>
+ </row>
+ <row id="200012" trl="N">
+  <value column="Name" original="Warehouse Accounts">倉庫勘定科目</value>
+ </row>
+ <row id="200013" trl="N">
+  <value column="Name" original="Product Category Accounts">品目カテゴリ勘定科目</value>
+ </row>
+ <row id="200014" trl="N">
+  <value column="Name" original="Business Partner Group Accounts">取引先グループ勘定科目</value>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Technical">テクニカル</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Foreign Key">Foreign Key</value>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="Background Job">バックグランドジョッブ</value>
+ </row>
+ <row id="200022" trl="N">
+  <value column="Name" original="Placeholders">Placeholders</value>
+ </row>
+</idempiereTrl>

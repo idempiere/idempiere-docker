@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="C_Region">
+ <row id="102" trl="N">
+  <value column="Name" original="CT">CT</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="CA">CA</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="MA">MA</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="ME">ME</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="NH">NH</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="RI">RI</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="NY">NY</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="NJ">NJ</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="PA">PA</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="VA">VA</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="WV">WV</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="FL">FL</value>
+ </row>
+ <row id="114" trl="N">
+  <value column="Name" original="AL">AL</value>
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="DE">DE</value>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="WA">WA</value>
+ </row>
+ <row id="118" trl="N">
+  <value column="Name" original="AK">AK</value>
+ </row>
+ <row id="119" trl="N">
+  <value column="Name" original="TN">TN</value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="GA">GA</value>
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="ND">ND</value>
+ </row>
+ <row id="122" trl="N">
+  <value column="Name" original="SD">SD</value>
+ </row>
+ <row id="123" trl="N">
+  <value column="Name" original="MN">MN</value>
+ </row>
+ <row id="124" trl="N">
+  <value column="Name" original="IA">IA</value>
+ </row>
+ <row id="125" trl="N">
+  <value column="Name" original="IN">IN</value>
+ </row>
+ <row id="126" trl="N">
+  <value column="Name" original="OH">OH</value>
+ </row>
+ <row id="127" trl="N">
+  <value column="Name" original="IL">IL</value>
+ </row>
+ <row id="128" trl="N">
+  <value column="Name" original="SC">SC</value>
+ </row>
+ <row id="129" trl="N">
+  <value column="Name" original="NC">NC</value>
+ </row>
+ <row id="130" trl="N">
+  <value column="Name" original="KY">KY</value>
+ </row>
+ <row id="131" trl="N">
+  <value column="Name" original="LA">LA</value>
+ </row>
+ <row id="132" trl="N">
+  <value column="Name" original="TX">TX</value>
+ </row>
+ <row id="133" trl="N">
+  <value column="Name" original="OK">OK</value>
+ </row>
+ <row id="135" trl="N">
+  <value column="Name" original="MS">MS</value>
+ </row>
+ <row id="136" trl="N">
+  <value column="Name" original="MT">MT</value>
+ </row>
+ <row id="137" trl="N">
+  <value column="Name" original="MO">MO</value>
+ </row>
+ <row id="138" trl="N">
+  <value column="Name" original="KS">KS</value>
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="NE">NE</value>
+ </row>
+ <row id="140" trl="N">
+  <value column="Name" original="WY">WY</value>
+ </row>
+ <row id="141" trl="N">
+  <value column="Name" original="NM">NM</value>
+ </row>
+ <row id="142" trl="N">
+  <value column="Name" original="OR">OR</value>
+ </row>
+ <row id="144" trl="N">
+  <value column="Name" original="AR">AR</value>
+ </row>
+ <row id="145" trl="N">
+  <value column="Name" original="AZ">AZ</value>
+ </row>
+ <row id="146" trl="N">
+  <value column="Name" original="UT">UT</value>
+ </row>
+ <row id="147" trl="N">
+  <value column="Name" original="ID">ID</value>
+ </row>
+ <row id="148" trl="N">
+  <value column="Name" original="NV">NV</value>
+ </row>
+ <row id="149" trl="N">
+  <value column="Name" original="CO">CO</value>
+ </row>
+ <row id="150" trl="N">
+  <value column="Name" original="HI">HI</value>
+ </row>
+ <row id="152" trl="N">
+  <value column="Name" original="MI">MI</value>
+ </row>
+ <row id="153" trl="N">
+  <value column="Name" original="WI">WI</value>
+ </row>
+ <row id="154" trl="N">
+  <value column="Name" original="MD">MD</value>
+ </row>
+ <row id="155" trl="N">
+  <value column="Name" original="VT">VT</value>
+ </row>
+ <row id="156" trl="N">
+  <value column="Name" original="Alberta">Alberta</value>
+ </row>
+ <row id="157" trl="N">
+  <value column="Name" original="British Columbia">British Columbia</value>
+ </row>
+ <row id="158" trl="N">
+  <value column="Name" original="Manitoba">Manitoba</value>
+ </row>
+ <row id="159" trl="N">
+  <value column="Name" original="New Brunswick">New Brunswick</value>
+ </row>
+ <row id="160" trl="N">
+  <value column="Name" original="Newfoundland and Labrador">Newfoundland and Labrador</value>
+ </row>
+ <row id="161" trl="N">
+  <value column="Name" original="Nova Scotia">Nova Scotia</value>
+ </row>
+ <row id="162" trl="N">
+  <value column="Name" original="Northwest Territories">Northwest Territories</value>
+ </row>
+ <row id="163" trl="N">
+  <value column="Name" original="Nunavut">Nunavut</value>
+ </row>
+ <row id="164" trl="N">
+  <value column="Name" original="Ontario">Ontario</value>
+ </row>
+ <row id="165" trl="N">
+  <value column="Name" original="Prince Edward Island">Prince Edward Island</value>
+ </row>
+ <row id="166" trl="N">
+  <value column="Name" original="Québec">Québec</value>
+ </row>
+ <row id="167" trl="N">
+  <value column="Name" original="Saskatchewan">Saskatchewan</value>
+ </row>
+ <row id="168" trl="N">
+  <value column="Name" original="Yukon">Yukon</value>
+ </row>
+ <row id="169" trl="N">
+  <value column="Name" original="VIC">VIC</value>
+ </row>
+ <row id="170" trl="N">
+  <value column="Name" original="NSW">NSW</value>
+ </row>
+ <row id="171" trl="N">
+  <value column="Name" original="SA">SA</value>
+ </row>
+ <row id="172" trl="N">
+  <value column="Name" original="NT">NT</value>
+ </row>
+ <row id="173" trl="N">
+  <value column="Name" original="WA">WA</value>
+ </row>
+ <row id="174" trl="N">
+  <value column="Name" original="QLD">QLD</value>
+ </row>
+ <row id="175" trl="N">
+  <value column="Name" original="TAS">TAS</value>
+ </row>
+ <row id="176" trl="N">
+  <value column="Name" original="ACT">ACT</value>
+ </row>
+ <row id="177" trl="N">
+  <value column="Name" original="AGS">AGS</value>
+ </row>
+ <row id="178" trl="N">
+  <value column="Name" original="B.C.">B.C.</value>
+ </row>
+ <row id="179" trl="N">
+  <value column="Name" original="B.C.S">B.C.S</value>
+ </row>
+ <row id="180" trl="N">
+  <value column="Name" original="CAMP">CAMP</value>
+ </row>
+ <row id="181" trl="N">
+  <value column="Name" original="COL">COL</value>
+ </row>
+ <row id="182" trl="N">
+  <value column="Name" original="CHIS">CHIS</value>
+ </row>
+ <row id="183" trl="N">
+  <value column="Name" original="CHIH">CHIH</value>
+ </row>
+ <row id="184" trl="N">
+  <value column="Name" original="D.F.">D.F.</value>
+ </row>
+ <row id="185" trl="N">
+  <value column="Name" original="DGO">DGO</value>
+ </row>
+ <row id="186" trl="N">
+  <value column="Name" original="GTO">GTO</value>
+ </row>
+ <row id="187" trl="N">
+  <value column="Name" original="GRO">GRO</value>
+ </row>
+ <row id="188" trl="N">
+  <value column="Name" original="HGO">HGO</value>
+ </row>
+ <row id="189" trl="N">
+  <value column="Name" original="JAL">JAL</value>
+ </row>
+ <row id="190" trl="N">
+  <value column="Name" original="MEX">MEX</value>
+ </row>
+ <row id="191" trl="N">
+  <value column="Name" original="MICH">MICH</value>
+ </row>
+ <row id="192" trl="N">
+  <value column="Name" original="MOR">MOR</value>
+ </row>
+ <row id="193" trl="N">
+  <value column="Name" original="NAY">NAY</value>
+ </row>
+ <row id="194" trl="N">
+  <value column="Name" original="N.L.">N.L.</value>
+ </row>
+ <row id="195" trl="N">
+  <value column="Name" original="OAX">OAX</value>
+ </row>
+ <row id="196" trl="N">
+  <value column="Name" original="PUE">PUE</value>
+ </row>
+ <row id="197" trl="N">
+  <value column="Name" original="QRO">QRO</value>
+ </row>
+ <row id="198" trl="N">
+  <value column="Name" original="Q.ROO">Q.ROO</value>
+ </row>
+ <row id="199" trl="N">
+  <value column="Name" original="S.L.P.">S.L.P.</value>
+ </row>
+ <row id="200" trl="N">
+  <value column="Name" original="SIN">SIN</value>
+ </row>
+ <row id="201" trl="N">
+  <value column="Name" original="SON">SON</value>
+ </row>
+ <row id="202" trl="N">
+  <value column="Name" original="TAB">TAB</value>
+ </row>
+ <row id="203" trl="N">
+  <value column="Name" original="TAMPS">TAMPS</value>
+ </row>
+ <row id="204" trl="N">
+  <value column="Name" original="TLAX">TLAX</value>
+ </row>
+ <row id="205" trl="N">
+  <value column="Name" original="VER">VER</value>
+ </row>
+ <row id="206" trl="N">
+  <value column="Name" original="YUC">YUC</value>
+ </row>
+ <row id="207" trl="N">
+  <value column="Name" original="ZAC">ZAC</value>
+ </row>
+ <row id="208" trl="N">
+  <value column="Name" original="COAH">COAH</value>
+ </row>
+ <row id="209" trl="N">
+  <value column="Name" original="Buenos Aires">Buenos Aires</value>
+ </row>
+ <row id="210" trl="N">
+  <value column="Name" original="Catamarca ">Catamarca </value>
+ </row>
+ <row id="211" trl="N">
+  <value column="Name" original="Chaco ">Chaco </value>
+ </row>
+ <row id="212" trl="N">
+  <value column="Name" original="Chubut ">Chubut </value>
+ </row>
+ <row id="213" trl="N">
+  <value column="Name" original="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</value>
+ </row>
+ <row id="214" trl="N">
+  <value column="Name" original="Córdoba ">Córdoba </value>
+ </row>
+ <row id="215" trl="N">
+  <value column="Name" original="Corrientes ">Corrientes </value>
+ </row>
+ <row id="216" trl="N">
+  <value column="Name" original="Entre Ríos">Entre Ríos</value>
+ </row>
+ <row id="217" trl="N">
+  <value column="Name" original="Formosa ">Formosa </value>
+ </row>
+ <row id="218" trl="N">
+  <value column="Name" original="Jujuy ">Jujuy </value>
+ </row>
+ <row id="219" trl="N">
+  <value column="Name" original="La Pampa">La Pampa</value>
+ </row>
+ <row id="220" trl="N">
+  <value column="Name" original="La Rioja">La Rioja</value>
+ </row>
+ <row id="221" trl="N">
+  <value column="Name" original="Mendoza">Mendoza</value>
+ </row>
+ <row id="222" trl="N">
+  <value column="Name" original="Misiones">Misiones</value>
+ </row>
+ <row id="223" trl="N">
+  <value column="Name" original="Neuquén">Neuquén</value>
+ </row>
+ <row id="224" trl="N">
+  <value column="Name" original="Río Negro ">Río Negro </value>
+ </row>
+ <row id="225" trl="N">
+  <value column="Name" original="Salta">Salta</value>
+ </row>
+ <row id="226" trl="N">
+  <value column="Name" original="San Juan">San Juan</value>
+ </row>
+ <row id="227" trl="N">
+  <value column="Name" original="San Luis ">San Luis </value>
+ </row>
+ <row id="228" trl="N">
+  <value column="Name" original="Santa Cruz">Santa Cruz</value>
+ </row>
+ <row id="229" trl="N">
+  <value column="Name" original="Santa Fe">Santa Fe</value>
+ </row>
+ <row id="230" trl="N">
+  <value column="Name" original="Santiago del Estero">Santiago del Estero</value>
+ </row>
+ <row id="231" trl="N">
+  <value column="Name" original="Tierra del Fuego">Tierra del Fuego</value>
+ </row>
+ <row id="232" trl="N">
+  <value column="Name" original="Antártida e Islas del Atlántico Sur ">Antártida e Islas del Atlántico Sur </value>
+ </row>
+ <row id="233" trl="N">
+  <value column="Name" original="Tucumán">Tucumán</value>
+ </row>
+ <row id="234" trl="N">
+  <value column="Name" original="Álava ">Álava </value>
+ </row>
+ <row id="235" trl="N">
+  <value column="Name" original="Albacete">Albacete</value>
+ </row>
+ <row id="236" trl="N">
+  <value column="Name" original="Alicante">Alicante</value>
+ </row>
+ <row id="237" trl="N">
+  <value column="Name" original="Almería ">Almería </value>
+ </row>
+ <row id="238" trl="N">
+  <value column="Name" original="Asturias ">Asturias </value>
+ </row>
+ <row id="239" trl="N">
+  <value column="Name" original="Ávila">Ávila</value>
+ </row>
+ <row id="240" trl="N">
+  <value column="Name" original="Badajoz">Badajoz</value>
+ </row>
+ <row id="241" trl="N">
+  <value column="Name" original="Islas Baleares">Islas Baleares</value>
+ </row>
+ <row id="242" trl="N">
+  <value column="Name" original="Barcelona">Barcelona</value>
+ </row>
+ <row id="243" trl="N">
+  <value column="Name" original="Burgos">Burgos</value>
+ </row>
+ <row id="244" trl="N">
+  <value column="Name" original="Cáceres ">Cáceres </value>
+ </row>
+ <row id="245" trl="N">
+  <value column="Name" original="Cádiz">Cádiz</value>
+ </row>
+ <row id="246" trl="N">
+  <value column="Name" original="Cantabria">Cantabria</value>
+ </row>
+ <row id="247" trl="N">
+  <value column="Name" original="Castellón">Castellón</value>
+ </row>
+ <row id="248" trl="N">
+  <value column="Name" original="Ceuta">Ceuta</value>
+ </row>
+ <row id="249" trl="N">
+  <value column="Name" original="Ciudad Real">Ciudad Real</value>
+ </row>
+ <row id="250" trl="N">
+  <value column="Name" original="Córdoba">Córdoba</value>
+ </row>
+ <row id="251" trl="N">
+  <value column="Name" original="La Coruña">La Coruña</value>
+ </row>
+ <row id="252" trl="N">
+  <value column="Name" original="Cuenca">Cuenca</value>
+ </row>
+ <row id="253" trl="N">
+  <value column="Name" original="Gerona">Gerona</value>
+ </row>
+ <row id="254" trl="N">
+  <value column="Name" original="Granada">Granada</value>
+ </row>
+ <row id="255" trl="N">
+  <value column="Name" original="Guadalajara">Guadalajara</value>
+ </row>
+ <row id="256" trl="N">
+  <value column="Name" original="Guipúzcoa">Guipúzcoa</value>
+ </row>
+ <row id="257" trl="N">
+  <value column="Name" original="Huelva">Huelva</value>
+ </row>
+ <row id="258" trl="N">
+  <value column="Name" original="Huesca">Huesca</value>
+ </row>
+ <row id="259" trl="N">
+  <value column="Name" original="Jaén">Jaén</value>
+ </row>
+ <row id="260" trl="N">
+  <value column="Name" original="León">León</value>
+ </row>
+ <row id="261" trl="N">
+  <value column="Name" original="Lérida">Lérida</value>
+ </row>
+ <row id="262" trl="N">
+  <value column="Name" original="Lugo">Lugo</value>
+ </row>
+ <row id="263" trl="N">
+  <value column="Name" original="Madrid">Madrid</value>
+ </row>
+ <row id="264" trl="N">
+  <value column="Name" original="Málaga">Málaga</value>
+ </row>
+ <row id="265" trl="N">
+  <value column="Name" original="Melilla">Melilla</value>
+ </row>
+ <row id="266" trl="N">
+  <value column="Name" original="Murcia">Murcia</value>
+ </row>
+ <row id="267" trl="N">
+  <value column="Name" original="Navarra">Navarra</value>
+ </row>
+ <row id="268" trl="N">
+  <value column="Name" original="Orense">Orense</value>
+ </row>
+ <row id="269" trl="N">
+  <value column="Name" original="Palencia">Palencia</value>
+ </row>
+ <row id="270" trl="N">
+  <value column="Name" original="Las Palmas">Las Palmas</value>
+ </row>
+ <row id="271" trl="N">
+  <value column="Name" original="Pontevedra">Pontevedra</value>
+ </row>
+ <row id="272" trl="N">
+  <value column="Name" original="La Rioja">La Rioja</value>
+ </row>
+ <row id="273" trl="N">
+  <value column="Name" original="Salamanca">Salamanca</value>
+ </row>
+ <row id="274" trl="N">
+  <value column="Name" original="Santa Cruz de Tenerife">Santa Cruz de Tenerife</value>
+ </row>
+ <row id="275" trl="N">
+  <value column="Name" original="Segovia">Segovia</value>
+ </row>
+ <row id="276" trl="N">
+  <value column="Name" original="Sevilla">Sevilla</value>
+ </row>
+ <row id="277" trl="N">
+  <value column="Name" original="Soria">Soria</value>
+ </row>
+ <row id="278" trl="N">
+  <value column="Name" original="Tarragona">Tarragona</value>
+ </row>
+ <row id="279" trl="N">
+  <value column="Name" original="Teruel">Teruel</value>
+ </row>
+ <row id="280" trl="N">
+  <value column="Name" original="Toledo">Toledo</value>
+ </row>
+ <row id="281" trl="N">
+  <value column="Name" original="Valencia">Valencia</value>
+ </row>
+ <row id="282" trl="N">
+  <value column="Name" original="Valladolid">Valladolid</value>
+ </row>
+ <row id="283" trl="N">
+  <value column="Name" original="Vizcaya">Vizcaya</value>
+ </row>
+ <row id="284" trl="N">
+  <value column="Name" original="Zamora">Zamora</value>
+ </row>
+ <row id="285" trl="N">
+  <value column="Name" original="Zaragoza">Zaragoza</value>
+ </row>
+ <row id="286" trl="N">
+  <value column="Name" original="DC">DC</value>
+ </row>
+ <row id="396" trl="N">
+  <value column="Name" original="北海道">北海道</value>
+ </row>
+ <row id="397" trl="N">
+  <value column="Name" original="青森">青森</value>
+ </row>
+ <row id="398" trl="N">
+  <value column="Name" original="岩手県">岩手県</value>
+ </row>
+ <row id="399" trl="N">
+  <value column="Name" original="宮城県">宮城県</value>
+ </row>
+ <row id="400" trl="N">
+  <value column="Name" original="秋田県">秋田県</value>
+ </row>
+ <row id="401" trl="N">
+  <value column="Name" original="山形県">山形県</value>
+ </row>
+ <row id="402" trl="N">
+  <value column="Name" original="福島県">福島県</value>
+ </row>
+ <row id="403" trl="N">
+  <value column="Name" original="茨城県">茨城県</value>
+ </row>
+ <row id="404" trl="N">
+  <value column="Name" original="群馬県">群馬県</value>
+ </row>
+ <row id="405" trl="N">
+  <value column="Name" original="埼玉県">埼玉県</value>
+ </row>
+ <row id="406" trl="N">
+  <value column="Name" original="千葉県">千葉県</value>
+ </row>
+ <row id="407" trl="N">
+  <value column="Name" original="東京都">東京都</value>
+ </row>
+ <row id="408" trl="N">
+  <value column="Name" original="神奈川">神奈川</value>
+ </row>
+ <row id="409" trl="N">
+  <value column="Name" original="新潟県">新潟県</value>
+ </row>
+ <row id="410" trl="N">
+  <value column="Name" original="富山県">富山県</value>
+ </row>
+ <row id="411" trl="N">
+  <value column="Name" original="石川県">石川県</value>
+ </row>
+ <row id="412" trl="N">
+  <value column="Name" original="福井県">福井県</value>
+ </row>
+ <row id="413" trl="N">
+  <value column="Name" original="山梨県">山梨県</value>
+ </row>
+ <row id="414" trl="N">
+  <value column="Name" original="岐阜県">岐阜県</value>
+ </row>
+ <row id="415" trl="N">
+  <value column="Name" original="静岡県">静岡県</value>
+ </row>
+ <row id="416" trl="N">
+  <value column="Name" original="愛知県">愛知県</value>
+ </row>
+ <row id="417" trl="N">
+  <value column="Name" original="三重県">三重県</value>
+ </row>
+ <row id="418" trl="N">
+  <value column="Name" original="滋賀県">滋賀県</value>
+ </row>
+ <row id="419" trl="N">
+  <value column="Name" original="京都府">京都府</value>
+ </row>
+ <row id="420" trl="N">
+  <value column="Name" original="大阪府">大阪府</value>
+ </row>
+ <row id="421" trl="N">
+  <value column="Name" original="兵庫県">兵庫県</value>
+ </row>
+ <row id="422" trl="N">
+  <value column="Name" original="奈良県">奈良県</value>
+ </row>
+ <row id="423" trl="N">
+  <value column="Name" original="和歌山県">和歌山県</value>
+ </row>
+ <row id="424" trl="N">
+  <value column="Name" original="鳥取県">鳥取県</value>
+ </row>
+ <row id="425" trl="N">
+  <value column="Name" original="島根県">島根県</value>
+ </row>
+ <row id="426" trl="N">
+  <value column="Name" original="岡山県">岡山県</value>
+ </row>
+ <row id="427" trl="N">
+  <value column="Name" original="広島県">広島県</value>
+ </row>
+ <row id="428" trl="N">
+  <value column="Name" original="山口県">山口県</value>
+ </row>
+ <row id="429" trl="N">
+  <value column="Name" original="徳島県">徳島県</value>
+ </row>
+ <row id="430" trl="N">
+  <value column="Name" original="香川県">香川県</value>
+ </row>
+ <row id="431" trl="N">
+  <value column="Name" original="愛媛県">愛媛県</value>
+ </row>
+ <row id="432" trl="N">
+  <value column="Name" original="高知県">高知県</value>
+ </row>
+ <row id="433" trl="N">
+  <value column="Name" original="福岡県">福岡県</value>
+ </row>
+ <row id="434" trl="N">
+  <value column="Name" original="佐賀県">佐賀県</value>
+ </row>
+ <row id="435" trl="N">
+  <value column="Name" original="長崎県">長崎県</value>
+ </row>
+ <row id="436" trl="N">
+  <value column="Name" original="熊本県">熊本県</value>
+ </row>
+ <row id="437" trl="N">
+  <value column="Name" original="大分県">大分県</value>
+ </row>
+ <row id="438" trl="N">
+  <value column="Name" original="宮崎県">宮崎県</value>
+ </row>
+ <row id="439" trl="N">
+  <value column="Name" original="鹿児島県">鹿児島県</value>
+ </row>
+ <row id="440" trl="N">
+  <value column="Name" original="沖縄県">沖縄県</value>
+ </row>
+ <row id="441" trl="N">
+  <value column="Name" original="AC">AC</value>
+ </row>
+ <row id="442" trl="N">
+  <value column="Name" original="AL">AL</value>
+ </row>
+ <row id="443" trl="N">
+  <value column="Name" original="AP">AP</value>
+ </row>
+ <row id="444" trl="N">
+  <value column="Name" original="AM">AM</value>
+ </row>
+ <row id="445" trl="N">
+  <value column="Name" original="BA">BA</value>
+ </row>
+ <row id="446" trl="N">
+  <value column="Name" original="CE">CE</value>
+ </row>
+ <row id="447" trl="N">
+  <value column="Name" original="DF">DF</value>
+ </row>
+ <row id="448" trl="N">
+  <value column="Name" original="ES">ES</value>
+ </row>
+ <row id="449" trl="N">
+  <value column="Name" original="GO">GO</value>
+ </row>
+ <row id="450" trl="N">
+  <value column="Name" original="MA">MA</value>
+ </row>
+ <row id="451" trl="N">
+  <value column="Name" original="MT">MT</value>
+ </row>
+ <row id="452" trl="N">
+  <value column="Name" original="MS">MS</value>
+ </row>
+ <row id="453" trl="N">
+  <value column="Name" original="MG">MG</value>
+ </row>
+ <row id="454" trl="N">
+  <value column="Name" original="PA">PA</value>
+ </row>
+ <row id="455" trl="N">
+  <value column="Name" original="PB">PB</value>
+ </row>
+ <row id="456" trl="N">
+  <value column="Name" original="PR">PR</value>
+ </row>
+ <row id="457" trl="N">
+  <value column="Name" original="PE">PE</value>
+ </row>
+ <row id="458" trl="N">
+  <value column="Name" original="PI">PI</value>
+ </row>
+ <row id="459" trl="N">
+  <value column="Name" original="RJ">RJ</value>
+ </row>
+ <row id="460" trl="N">
+  <value column="Name" original="RN">RN</value>
+ </row>
+ <row id="461" trl="N">
+  <value column="Name" original="RS">RS</value>
+ </row>
+ <row id="462" trl="N">
+  <value column="Name" original="RO">RO</value>
+ </row>
+ <row id="463" trl="N">
+  <value column="Name" original="RR">RR</value>
+ </row>
+ <row id="464" trl="N">
+  <value column="Name" original="SC">SC</value>
+ </row>
+ <row id="465" trl="N">
+  <value column="Name" original="SP">SP</value>
+ </row>
+ <row id="466" trl="N">
+  <value column="Name" original="SE">SE</value>
+ </row>
+ <row id="467" trl="N">
+  <value column="Name" original="TO">TO</value>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="栃木県">栃木県</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="長野県">長野県</value>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Baden-Württemberg">Baden-Württemberg</value>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Bayern">Bayern</value>
+ </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Berlin">Berlin</value>
+ </row>
+ <row id="50005" trl="N">
+  <value column="Name" original="Brandenburg">Brandenburg</value>
+ </row>
+ <row id="50006" trl="N">
+  <value column="Name" original="Bremen">Bremen</value>
+ </row>
+ <row id="50007" trl="N">
+  <value column="Name" original="Hamburg">Hamburg</value>
+ </row>
+ <row id="50008" trl="N">
+  <value column="Name" original="Hessen">Hessen</value>
+ </row>
+ <row id="50009" trl="N">
+  <value column="Name" original="Mecklenburg-Vorpommern">Mecklenburg-Vorpommern</value>
+ </row>
+ <row id="50010" trl="N">
+  <value column="Name" original="Niedersachsen">Niedersachsen</value>
+ </row>
+ <row id="50011" trl="N">
+  <value column="Name" original="Nordrhein-Westfalen">Nordrhein-Westfalen</value>
+ </row>
+ <row id="50012" trl="N">
+  <value column="Name" original="Rheinland-Pfalz">Rheinland-Pfalz</value>
+ </row>
+ <row id="50013" trl="N">
+  <value column="Name" original="Saarland">Saarland</value>
+ </row>
+ <row id="50014" trl="N">
+  <value column="Name" original="Sachsen">Sachsen</value>
+ </row>
+ <row id="50015" trl="N">
+  <value column="Name" original="Sachsen-Anhalt">Sachsen-Anhalt</value>
+ </row>
+ <row id="50016" trl="N">
+  <value column="Name" original="Schleswig-Holstein">Schleswig-Holstein</value>
+ </row>
+ <row id="50017" trl="N">
+  <value column="Name" original="Thüringen">Thüringen</value>
+ </row>
+ <row id="50018" trl="N">
+  <value column="Name" original="Адыгея (Адыгея) Республика">Адыгея (Адыгея) Республика</value>
+ </row>
+ <row id="50019" trl="N">
+  <value column="Name" original="Башкортостан Республика">Башкортостан Республика</value>
+ </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Бурятия Республика">Бурятия Республика</value>
+ </row>
+ <row id="50021" trl="N">
+  <value column="Name" original="Алтай Республика">Алтай Республика</value>
+ </row>
+ <row id="50022" trl="N">
+  <value column="Name" original="Дагестан Республика">Дагестан Республика</value>
+ </row>
+ <row id="50023" trl="N">
+  <value column="Name" original="Ингушетия Республика">Ингушетия Республика</value>
+ </row>
+ <row id="50024" trl="N">
+  <value column="Name" original="Кабардино-Балкарская Республика">Кабардино-Балкарская Республика</value>
+ </row>
+ <row id="50025" trl="N">
+  <value column="Name" original="Калмыкия Республика">Калмыкия Республика</value>
+ </row>
+ <row id="50026" trl="N">
+  <value column="Name" original="Карачаево-Черкесская Республика">Карачаево-Черкесская Республика</value>
+ </row>
+ <row id="50027" trl="N">
+  <value column="Name" original="Карелия Республика">Карелия Республика</value>
+ </row>
+ <row id="50028" trl="N">
+  <value column="Name" original="Коми Республика">Коми Республика</value>
+ </row>
+ <row id="50029" trl="N">
+  <value column="Name" original="Марий Эл Республика">Марий Эл Республика</value>
+ </row>
+ <row id="50030" trl="N">
+  <value column="Name" original="Мордовия Республика">Мордовия Республика</value>
+ </row>
+ <row id="50031" trl="N">
+  <value column="Name" original="Саха /Якутия/ Республика">Саха /Якутия/ Республика</value>
+ </row>
+ <row id="50032" trl="N">
+  <value column="Name" original="Северная Осетия - Алания Республика">Северная Осетия - Алания Республика</value>
+ </row>
+ <row id="50033" trl="N">
+  <value column="Name" original="Татарстан (Татарстан) Республика">Татарстан (Татарстан) Республика</value>
+ </row>
+ <row id="50034" trl="N">
+  <value column="Name" original="Тыва Республика">Тыва Республика</value>
+ </row>
+ <row id="50035" trl="N">
+  <value column="Name" original="Удмуртская Республика">Удмуртская Республика</value>
+ </row>
+ <row id="50036" trl="N">
+  <value column="Name" original="Хакасия Республика">Хакасия Республика</value>
+ </row>
+ <row id="50037" trl="N">
+  <value column="Name" original="Чеченская Республика">Чеченская Республика</value>
+ </row>
+ <row id="50038" trl="N">
+  <value column="Name" original="Чувашская Республика">Чувашская Республика</value>
+ </row>
+ <row id="50039" trl="N">
+  <value column="Name" original="Алтайский край">Алтайский край</value>
+ </row>
+ <row id="50040" trl="N">
+  <value column="Name" original="Краснодарский край">Краснодарский край</value>
+ </row>
+ <row id="50041" trl="N">
+  <value column="Name" original="Красноярский край">Красноярский край</value>
+ </row>
+ <row id="50042" trl="N">
+  <value column="Name" original="Приморский край">Приморский край</value>
+ </row>
+ <row id="50043" trl="N">
+  <value column="Name" original="Ставропольский край">Ставропольский край</value>
+ </row>
+ <row id="50044" trl="N">
+  <value column="Name" original="Хабаровский край">Хабаровский край</value>
+ </row>
+ <row id="50045" trl="N">
+  <value column="Name" original="Амурская область">Амурская область</value>
+ </row>
+ <row id="50046" trl="N">
+  <value column="Name" original="Архангельская область">Архангельская область</value>
+ </row>
+ <row id="50047" trl="N">
+  <value column="Name" original="Астраханская область">Астраханская область</value>
+ </row>
+ <row id="50048" trl="N">
+  <value column="Name" original="Белгородская область">Белгородская область</value>
+ </row>
+ <row id="50049" trl="N">
+  <value column="Name" original="Брянская область">Брянская область</value>
+ </row>
+ <row id="50050" trl="N">
+  <value column="Name" original="Владимирская область">Владимирская область</value>
+ </row>
+ <row id="50051" trl="N">
+  <value column="Name" original="Волгоградская область">Волгоградская область</value>
+ </row>
+ <row id="50052" trl="N">
+  <value column="Name" original="Вологодская область">Вологодская область</value>
+ </row>
+ <row id="50053" trl="N">
+  <value column="Name" original="Воронежская область">Воронежская область</value>
+ </row>
+ <row id="50054" trl="N">
+  <value column="Name" original="Ивановская область">Ивановская область</value>
+ </row>
+ <row id="50055" trl="N">
+  <value column="Name" original="Иркутская область">Иркутская область</value>
+ </row>
+ <row id="50056" trl="N">
+  <value column="Name" original="Калининградская область">Калининградская область</value>
+ </row>
+ <row id="50057" trl="N">
+  <value column="Name" original="Калужская область">Калужская область</value>
+ </row>
+ <row id="50058" trl="N">
+  <value column="Name" original="Камчатский край">Камчатский край</value>
+ </row>
+ <row id="50059" trl="N">
+  <value column="Name" original="Кемеровская область">Кемеровская область</value>
+ </row>
+ <row id="50060" trl="N">
+  <value column="Name" original="Кировская область">Кировская область</value>
+ </row>
+ <row id="50061" trl="N">
+  <value column="Name" original="Костромская область">Костромская область</value>
+ </row>
+ <row id="50062" trl="N">
+  <value column="Name" original="Курганская область">Курганская область</value>
+ </row>
+ <row id="50063" trl="N">
+  <value column="Name" original="Курская область">Курская область</value>
+ </row>
+ <row id="50064" trl="N">
+  <value column="Name" original="Ленинградская область">Ленинградская область</value>
+ </row>
+ <row id="50065" trl="N">
+  <value column="Name" original="Липецкая область">Липецкая область</value>
+ </row>
+ <row id="50066" trl="N">
+  <value column="Name" original="Магаданская область">Магаданская область</value>
+ </row>
+ <row id="50067" trl="N">
+  <value column="Name" original="Московская область">Московская область</value>
+ </row>
+ <row id="50068" trl="N">
+  <value column="Name" original="Мурманская область">Мурманская область</value>
+ </row>
+ <row id="50069" trl="N">
+  <value column="Name" original="Нижегородская область">Нижегородская область</value>
+ </row>
+ <row id="50070" trl="N">
+  <value column="Name" original="Новгородская область">Новгородская область</value>
+ </row>
+ <row id="50071" trl="N">
+  <value column="Name" original="Новосибирская область">Новосибирская область</value>
+ </row>
+ <row id="50072" trl="N">
+  <value column="Name" original="Омская область">Омская область</value>
+ </row>
+ <row id="50073" trl="N">
+  <value column="Name" original="Оренбургская область">Оренбургская область</value>
+ </row>
+ <row id="50074" trl="N">
+  <value column="Name" original="Орловская область">Орловская область</value>
+ </row>
+ <row id="50075" trl="N">
+  <value column="Name" original="Пензенская область">Пензенская область</value>
+ </row>
+ <row id="50076" trl="N">
+  <value column="Name" original="Пермский край">Пермский край</value>
+ </row>
+ <row id="50077" trl="N">
+  <value column="Name" original="Псковская область">Псковская область</value>
+ </row>
+ <row id="50078" trl="N">
+  <value column="Name" original="Ростовская область">Ростовская область</value>
+ </row>
+ <row id="50079" trl="N">
+  <value column="Name" original="Рязанская область">Рязанская область</value>
+ </row>
+ <row id="50080" trl="N">
+  <value column="Name" original="Самарская область">Самарская область</value>
+ </row>
+ <row id="50081" trl="N">
+  <value column="Name" original="Саратовская область">Саратовская область</value>
+ </row>
+ <row id="50082" trl="N">
+  <value column="Name" original="Сахалинская область">Сахалинская область</value>
+ </row>
+ <row id="50083" trl="N">
+  <value column="Name" original="Свердловская область">Свердловская область</value>
+ </row>
+ <row id="50084" trl="N">
+  <value column="Name" original="Смоленская область">Смоленская область</value>
+ </row>
+ <row id="50085" trl="N">
+  <value column="Name" original="Тамбовская область">Тамбовская область</value>
+ </row>
+ <row id="50086" trl="N">
+  <value column="Name" original="Тверская область">Тверская область</value>
+ </row>
+ <row id="50087" trl="N">
+  <value column="Name" original="Томская область">Томская область</value>
+ </row>
+ <row id="50088" trl="N">
+  <value column="Name" original="Тульская область">Тульская область</value>
+ </row>
+ <row id="50089" trl="N">
+  <value column="Name" original="Тюменская область">Тюменская область</value>
+ </row>
+ <row id="50090" trl="N">
+  <value column="Name" original="Ульяновская область">Ульяновская область</value>
+ </row>
+ <row id="50091" trl="N">
+  <value column="Name" original="Челябинская область">Челябинская область</value>
+ </row>
+ <row id="50092" trl="N">
+  <value column="Name" original="Забайкальский край">Забайкальский край</value>
+ </row>
+ <row id="50093" trl="N">
+  <value column="Name" original="Ярославская область">Ярославская область</value>
+ </row>
+ <row id="50094" trl="N">
+  <value column="Name" original="Москва город">Москва город</value>
+ </row>
+ <row id="50095" trl="N">
+  <value column="Name" original="Санкт-Петербург город">Санкт-Петербург город</value>
+ </row>
+ <row id="50096" trl="N">
+  <value column="Name" original="Еврейская автономная область">Еврейская автономная область</value>
+ </row>
+ <row id="50097" trl="N">
+  <value column="Name" original="Забайкальский край Агинский Бурятский округ">Забайкальский край Агинский Бурятский округ</value>
+ </row>
+ <row id="50098" trl="N">
+  <value column="Name" original="Ненецкий автономный округ">Ненецкий автономный округ</value>
+ </row>
+ <row id="50099" trl="N">
+  <value column="Name" original="Иркутская область Усть-Ордынский Бурятский округ">Иркутская область Усть-Ордынский Бурятский округ</value>
+ </row>
+ <row id="50100" trl="N">
+  <value column="Name" original="Ханты-Мансийский автономный округ - Югра">Ханты-Мансийский автономный округ - Югра</value>
+ </row>
+ <row id="50101" trl="N">
+  <value column="Name" original="Чукотский автономный округ">Чукотский автономный округ</value>
+ </row>
+ <row id="50102" trl="N">
+  <value column="Name" original="Ямало-Ненецкий автономный округ">Ямало-Ненецкий автономный округ</value>
+ </row>
+ <row id="50103" trl="N">
+  <value column="Name" original="Байконур город">Байконур город</value>
+ </row>
+</idempiereTrl>

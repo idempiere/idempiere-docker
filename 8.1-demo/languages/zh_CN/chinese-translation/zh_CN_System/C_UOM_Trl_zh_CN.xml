@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_UOM">
+ <row id="100" trl="Y">
+  <value column="Name" original="Each">件</value>
+  <value column="Description" original="">个/Each/pcs</value>
+  <value column="UOMSymbol" original="Ea ">Ea</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Hour">小时</value>
+  <value column="Description" original="">60分钟</value>
+  <value column="UOMSymbol" original="h  ">h</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Day">日</value>
+  <value column="Description" original="">24小时</value>
+  <value column="UOMSymbol" original="d  ">d</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Minutes">分钟</value>
+  <value column="Description" original="(lowest unit for resorce assigments)">(资源分配的最小单位)</value>
+  <value column="UOMSymbol" original="m  ">m  </value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Work Day">工作日</value>
+  <value column="Description" original="8 hour">8 小时</value>
+  <value column="UOMSymbol" original="D  ">D</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Week">周</value>
+  <value column="Description" original="">7天</value>
+  <value column="UOMSymbol" original="w  ">w</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Month">月</value>
+  <value column="Description" original="30 days">30 天</value>
+  <value column="UOMSymbol" original="m  ">m</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Working Month">工作月</value>
+  <value column="Description" original="20 days">20 天</value>
+  <value column="UOMSymbol" original="M  ">M</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Year">年</value>
+  <value column="Description" original="">365 天</value>
+  <value column="UOMSymbol" original="y  ">y  </value>
+ </row>
+ <row trl="Y" uuid="1ff9d2f0-9296-42de-8f87-7b21f8b5d380">
+  <value column="Name" original="Ton">吨</value>
+  <value column="Description" original="">公吨</value>
+  <value column="UOMSymbol" original="T">T</value>
+ </row>
+ <row trl="Y" uuid="87f127e6-b091-4ddb-a034-aa63a763fa49">
+  <value column="Name" original="Kilogram">千克</value>
+  <value column="Description" original="">公斤</value>
+  <value column="UOMSymbol" original="kg">kg</value>
+ </row>
+ <row trl="Y" uuid="2e859417-2745-4d6a-b05f-1c4b0ded07ae">
+  <value column="Name" original="Kilometers">公里</value>
+  <value column="Description" original="">千米</value>
+  <value column="UOMSymbol" original="km">km</value>
+ </row>
+</idempiereTrl>

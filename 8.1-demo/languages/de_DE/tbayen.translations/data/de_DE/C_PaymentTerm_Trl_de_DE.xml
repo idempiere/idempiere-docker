@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 1.0a_2012-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="de_DE" table="C_PaymentTerm">
+ <row id="100" trl="Y">
+  <value column="Name" original="30 Net">30 Netto</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Immediate">Sofort</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="2%10 Net 30">2%10 Netto 30</value>
+  <value column="Description" original="2% discount if paid in 10 days, net due in 30 days">2% Skonto bei Zahlung innerhalb von 10 Tagen, netto fällig in 30 Tagen</value>
+  <value column="DocumentNote" original="Payment Term Note: Long Term Contracts are eligible for payment discounts.">Anmerkung zu den Zahlungsbedingungen: Langfristige Verträge sind skontofähig</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="30 Days Net">30 Tage netto</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="50% Immediate - 50% in 30 days">50% Sofort - 50% in 30 Tagen</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+</idempiereTrl>

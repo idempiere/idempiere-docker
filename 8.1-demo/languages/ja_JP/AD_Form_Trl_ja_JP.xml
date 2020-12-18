@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ja_JP" table="AD_Form">
+ <row id="100" trl="Y">
+  <value column="Name" original="Generate Invoices (manual)">売上請求伝票作成(マニュアル)</value>
+  <value column="Description" original="Select and generate invoices"/>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for."/>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Import File Loader">データインポート処理</value>
+  <value column="Description" original="Load flat Files into import tables"/>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading]."/>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Material Transactions">在庫取引管理台帳照会</value>
+  <value column="Description" original="Material Transactions">在庫取引管理台帳照会では、組織、移動タイプ、日付(From～To)、保管場所、品目を指定して在庫取引管理台帳の記帳を照会する事ができます。</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Payment Allocation">消込処理</value>
+  <value column="Description" original="Allocate invoices and payments"/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Generate Charges">摘要科目マスタ作成</value>
+  <value column="Description" original="Generate Charges from natural accounts"/>
+  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account."/>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Payment Print/Export">まとめ支払伝票の作成準備データ-印刷/エクスポート</value>
+  <value column="Description" original="Print or export your payments"/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Payment Selection (manual)">支払伝票作成(マニュアル)</value>
+  <value column="Description" original="Manual Payment Selection"/>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection."/>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Matching PO-Receipt-Invoice">発注-入荷-請求照合</value>
+  <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices"/>
+  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected."/>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Translation Import/Export">翻訳インポート/エクスポート</value>
+  <value column="Description" original="Import or Export Language Translation"/>
+  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage."/>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Generate Shipments (manual)">出荷納品伝票作成(マニュアル)</value>
+  <value column="Description" original="Select and generate shipments"/>
+  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for."/>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="SQL Process">SQL プロセス</value>
+  <value column="Description" original="Process SQL Statements"/>
+  <value column="Help" original="Process SQL DDL Statements"/>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Merge Entities">取引先・品目マスタ統合</value>
+  <value column="Description" original="Merge From Entity to To Entity - Delete From"/>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;"/>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="POS">POS</value>
+  <value column="Description" original="Point Of Sales Terminal"/>
+  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized."/>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="BOM Drop">部品表分割表示</value>
+  <value column="Description" original="Drop (expand) Bill of Materials"/>
+  <value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!"/>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Tree Maintenance">ツリーメンテナンス</value>
+  <value column="Description" original="Maintain Trees"/>
+  <value column="Help" original="View and change trees. Maintain the entries in their specific Windows."/>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Workflow Editor">ワークフローエディタ</value>
+  <value column="Description" original="Edit Workflows"/>
+  <value column="Help" original="Edit the graphical layout of workflows"/>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Workflow Activities">未処理WFアクティビティ</value>
+  <value column="Description" original="My active workflow activities">承認もしくは否認が必要なWFアクティビティ</value>
+  <value column="Help" original="View active worflow activities"/>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Archive Viewer">アーカイブ</value>
+  <value column="Description" original="View automatically archived Documents"/>
+  <value column="Help" original="Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document."/>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Performance Indicators">パフォーマンスインジケータ</value>
+  <value column="Description" original="View Performance Indicators"/>
+  <value column="Help" original="View all Performance Indicators and Goals"/>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Product Attribute Grid">属性図</value>
+  <value column="Description" original="Maintain Products with Attributes in a Table Grid"/>
+  <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid."/>
+ </row>
+ <row id="53001" trl="N">
+  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve"><![CDATA[部品表(BOM & Formula)情報]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field."/>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it"/>
+ </row>
+ <row id="53002" trl="N">
+  <value column="Name" original="Product Configuration BOM">Product Configuration BOM</value>
+  <value column="Description" original="This form let create a product configure with multy level using options and variants"/>
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item."/>
+ </row>
+ <row id="53003" trl="N">
+  <value column="Name" original="MRP Info">MRP情報</value>
+  <value column="Description" original="Show the detail of MRP calculation"/>
+  <value column="Help" original="Show the detail of MRP calculation"/>
+ </row>
+ <row id="53004" trl="N">
+  <value column="Name" original="Planned Order Approval ">Planned Order Approval </value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates."/>
+  <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.&#10;&#10;When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process."/>
+ </row>
+ <row id="53005" trl="N">
+  <value column="Name" original="CRP Info">CRP情報</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource."/>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource."/>
+ </row>
+ <row id="53006" trl="N">
+  <value column="Name" original="Resource Load View">リソース負荷表示</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource."/>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource."/>
+ </row>
+ <row id="53007" trl="N">
+  <value column="Name" original="Order Receipt &amp; Issue">製造指図伝票へ投入</value>
+  <value column="Description" original="Order Receipt &amp; Issue"/>
+  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;"/>
+ </row>
+ <row id="53008" trl="N">
+  <value column="Name" original="Generate Movement Manual">Generate Movement Manual</value>
+  <value column="Description" original="Generate Movement to a Order Distribution"/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53009" trl="N">
+  <value column="Name" original="Payroll Action Notice">Payroll Action Notice</value>
+  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee"/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53012" trl="N">
+  <value column="Name" original="Material Receipt Distribution Order">Material Receipt Distribution Order</value>
+  <value column="Description" original="Material Receipt Distribution Order"/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53013" trl="N">
+  <value column="Name" original="Manufacturing Workflow Editor">生産管理ワークフローエディター</value>
+  <value column="Description" original="Edit Manufacturing Workflows"/>
+  <value column="Help" original="Edit the graphical layout of manufacturing workflows"/>
+ </row>
+ <row id="53016" trl="N">
+  <value column="Name" original="Accounting Fact Reconcilation (manual)">Accounting Fact Reconcilation (manual)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53017" trl="N">
+  <value column="Name" original="BOM Viewer">部品表ビュアー</value>
+  <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field."/>
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in."/>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Setup Wizard">Setup Wizard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Reset Password">パスワードとメール変更</value>
+  <value column="Description" original="Reset Password">パスワードとメールの設定を変更する</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Report Wizard">Report Wizard</value>
+  <value column="Description" original="Report Wizard"/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Tab Editor">Tab Editor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Bank Statement Create From Batch">VCreateFromBatchStatementUI</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="Captured Process Parameter">Captured Process Parameter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200009" trl="N">
+  <value column="Name" original="Compare Field Suggestion">Compare Field Suggestion</value>
+  <value column="Description" original="Review field changes for label, descriptipn and help">Review field changes for label, descriptipn and help</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200010" trl="N">
+  <value column="Name" original="Compare Context Help Suggestion">Compare Context Help Suggestion</value>
+  <value column="Description" original="Review changes for context help">Review changes for context help</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="idempiereMonitor">idempiereMonitor</value>
+  <value column="Description" original="Form to configure access to /idempiereMonitor - do not add to menu">Form to configure access to /idempiereMonitor - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="N">
+  <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
+  <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Form to configure access to /osgi/system/console - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

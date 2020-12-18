@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Region">
+ <row id="50018" trl="N">
+  <value column="Name" original="Адыгея (Адыгея) Республика">Адыгея Республика</value>
+ </row>
+ <row id="50019" trl="N">
+  <value column="Name" original="Башкортостан Республика">Башкортостан Республика</value>
+ </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Бурятия Республика">Бурятия Республика</value>
+ </row>
+ <row id="50021" trl="N">
+  <value column="Name" original="Алтай Республика">Алтай Республика</value>
+ </row>
+ <row id="50022" trl="N">
+  <value column="Name" original="Дагестан Республика">Дагестан Республика</value>
+ </row>
+ <row id="50023" trl="N">
+  <value column="Name" original="Ингушетия Республика">Ингушетия Республика</value>
+ </row>
+ <row id="50024" trl="N">
+  <value column="Name" original="Кабардино-Балкарская Республика">Кабардино-Балкарская Республика</value>
+ </row>
+ <row id="50025" trl="N">
+  <value column="Name" original="Калмыкия Республика">Калмыкия Республика</value>
+ </row>
+ <row id="50026" trl="N">
+  <value column="Name" original="Карачаево-Черкесская Республика">Карачаево-Черкесская Республика</value>
+ </row>
+ <row id="50027" trl="N">
+  <value column="Name" original="Карелия Республика">Карелия Республика</value>
+ </row>
+ <row id="50028" trl="N">
+  <value column="Name" original="Коми Республика">Коми Республика</value>
+ </row>
+ <row id="50029" trl="N">
+  <value column="Name" original="Марий Эл Республика">Марий Эл Республика</value>
+ </row>
+ <row id="50030" trl="N">
+  <value column="Name" original="Мордовия Республика">Мордовия Республика</value>
+ </row>
+ <row id="50031" trl="N">
+  <value column="Name" original="Саха /Якутия/ Республика">Саха /Якутия/ Республика</value>
+ </row>
+ <row id="50032" trl="N">
+  <value column="Name" original="Северная Осетия - Алания Республика">Северная Осетия - Алания Республика</value>
+ </row>
+ <row id="50033" trl="N">
+  <value column="Name" original="Татарстан (Татарстан) Республика">Татарстан Республика</value>
+ </row>
+ <row id="50034" trl="N">
+  <value column="Name" original="Тыва Республика">Тыва Республика</value>
+ </row>
+ <row id="50035" trl="N">
+  <value column="Name" original="Удмуртская Республика">Удмуртская Республика</value>
+ </row>
+ <row id="50036" trl="N">
+  <value column="Name" original="Хакасия Республика">Хакасия Республика</value>
+ </row>
+ <row id="50037" trl="N">
+  <value column="Name" original="Чеченская Республика">Чеченская Республика</value>
+ </row>
+ <row id="50038" trl="N">
+  <value column="Name" original="Чувашская Республика">Чувашская Республика</value>
+ </row>
+ <row id="50039" trl="N">
+  <value column="Name" original="Алтайский край">Алтайский край</value>
+ </row>
+ <row id="50040" trl="N">
+  <value column="Name" original="Краснодарский край">Краснодарский край</value>
+ </row>
+ <row id="50041" trl="N">
+  <value column="Name" original="Красноярский край">Красноярский край</value>
+ </row>
+ <row id="50042" trl="N">
+  <value column="Name" original="Приморский край">Приморский край</value>
+ </row>
+ <row id="50043" trl="N">
+  <value column="Name" original="Ставропольский край">Ставропольский край</value>
+ </row>
+ <row id="50044" trl="N">
+  <value column="Name" original="Хабаровский край">Хабаровский край</value>
+ </row>
+ <row id="50045" trl="N">
+  <value column="Name" original="Амурская область">Амурская область</value>
+ </row>
+ <row id="50046" trl="N">
+  <value column="Name" original="Архангельская область">Архангельская область</value>
+ </row>
+ <row id="50047" trl="N">
+  <value column="Name" original="Астраханская область">Астраханская область</value>
+ </row>
+ <row id="50048" trl="N">
+  <value column="Name" original="Белгородская область">Белгородская область</value>
+ </row>
+ <row id="50049" trl="N">
+  <value column="Name" original="Брянская область">Брянская область</value>
+ </row>
+ <row id="50050" trl="N">
+  <value column="Name" original="Владимирская область">Владимирская область</value>
+ </row>
+ <row id="50051" trl="N">
+  <value column="Name" original="Волгоградская область">Волгоградская область</value>
+ </row>
+ <row id="50052" trl="N">
+  <value column="Name" original="Вологодская область">Вологодская область</value>
+ </row>
+ <row id="50053" trl="N">
+  <value column="Name" original="Воронежская область">Воронежская область</value>
+ </row>
+ <row id="50054" trl="N">
+  <value column="Name" original="Ивановская область">Ивановская область</value>
+ </row>
+ <row id="50055" trl="N">
+  <value column="Name" original="Иркутская область">Иркутская область</value>
+ </row>
+ <row id="50056" trl="N">
+  <value column="Name" original="Калининградская область">Калининградская область</value>
+ </row>
+ <row id="50057" trl="N">
+  <value column="Name" original="Калужская область">Калужская область</value>
+ </row>
+ <row id="50058" trl="N">
+  <value column="Name" original="Камчатский край">Камчатский край</value>
+ </row>
+ <row id="50059" trl="N">
+  <value column="Name" original="Кемеровская область">Кемеровская область</value>
+ </row>
+ <row id="50060" trl="N">
+  <value column="Name" original="Кировская область">Кировская область</value>
+ </row>
+ <row id="50061" trl="N">
+  <value column="Name" original="Костромская область">Костромская область</value>
+ </row>
+ <row id="50062" trl="N">
+  <value column="Name" original="Курганская область">Курганская область</value>
+ </row>
+ <row id="50063" trl="N">
+  <value column="Name" original="Курская область">Курская область</value>
+ </row>
+ <row id="50064" trl="N">
+  <value column="Name" original="Ленинградская область">Ленинградская область</value>
+ </row>
+ <row id="50065" trl="N">
+  <value column="Name" original="Липецкая область">Липецкая область</value>
+ </row>
+ <row id="50066" trl="N">
+  <value column="Name" original="Магаданская область">Магаданская область</value>
+ </row>
+ <row id="50067" trl="N">
+  <value column="Name" original="Московская область">Московская область</value>
+ </row>
+ <row id="50068" trl="N">
+  <value column="Name" original="Мурманская область">Мурманская область</value>
+ </row>
+ <row id="50069" trl="N">
+  <value column="Name" original="Нижегородская область">Нижегородская область</value>
+ </row>
+ <row id="50070" trl="N">
+  <value column="Name" original="Новгородская область">Новгородская область</value>
+ </row>
+ <row id="50071" trl="N">
+  <value column="Name" original="Новосибирская область">Новосибирская область</value>
+ </row>
+ <row id="50072" trl="N">
+  <value column="Name" original="Омская область">Омская область</value>
+ </row>
+ <row id="50073" trl="N">
+  <value column="Name" original="Оренбургская область">Оренбургская область</value>
+ </row>
+ <row id="50074" trl="N">
+  <value column="Name" original="Орловская область">Орловская область</value>
+ </row>
+ <row id="50075" trl="N">
+  <value column="Name" original="Пензенская область">Пензенская область</value>
+ </row>
+ <row id="50076" trl="N">
+  <value column="Name" original="Пермский край">Пермский край</value>
+ </row>
+ <row id="50077" trl="N">
+  <value column="Name" original="Псковская область">Псковская область</value>
+ </row>
+ <row id="50078" trl="N">
+  <value column="Name" original="Ростовская область">Ростовская область</value>
+ </row>
+ <row id="50079" trl="N">
+  <value column="Name" original="Рязанская область">Рязанская область</value>
+ </row>
+ <row id="50080" trl="N">
+  <value column="Name" original="Самарская область">Самарская область</value>
+ </row>
+ <row id="50081" trl="N">
+  <value column="Name" original="Саратовская область">Саратовская область</value>
+ </row>
+ <row id="50082" trl="N">
+  <value column="Name" original="Сахалинская область">Сахалинская область</value>
+ </row>
+ <row id="50083" trl="N">
+  <value column="Name" original="Свердловская область">Свердловская область</value>
+ </row>
+ <row id="50084" trl="N">
+  <value column="Name" original="Смоленская область">Смоленская область</value>
+ </row>
+ <row id="50085" trl="N">
+  <value column="Name" original="Тамбовская область">Тамбовская область</value>
+ </row>
+ <row id="50086" trl="N">
+  <value column="Name" original="Тверская область">Тверская область</value>
+ </row>
+ <row id="50087" trl="N">
+  <value column="Name" original="Томская область">Томская область</value>
+ </row>
+ <row id="50088" trl="N">
+  <value column="Name" original="Тульская область">Тульская область</value>
+ </row>
+ <row id="50089" trl="N">
+  <value column="Name" original="Тюменская область">Тюменская область</value>
+ </row>
+ <row id="50090" trl="N">
+  <value column="Name" original="Ульяновская область">Ульяновская область</value>
+ </row>
+ <row id="50091" trl="N">
+  <value column="Name" original="Челябинская область">Челябинская область</value>
+ </row>
+ <row id="50092" trl="N">
+  <value column="Name" original="Забайкальский край">Забайкальский край</value>
+ </row>
+ <row id="50093" trl="N">
+  <value column="Name" original="Ярославская область">Ярославская область</value>
+ </row>
+ <row id="50094" trl="N">
+  <value column="Name" original="Москва город">Москва город</value>
+ </row>
+ <row id="50095" trl="N">
+  <value column="Name" original="Санкт-Петербург город">Санкт-Петербург город</value>
+ </row>
+ <row id="50096" trl="N">
+  <value column="Name" original="Еврейская автономная область">Еврейская Аобл</value>
+ </row>
+ <row id="50097" trl="N">
+  <value column="Name" original="Забайкальский край Агинский Бурятский округ">Таймырский (Долгано-Ненецкий) АО</value>
+ </row>
+ <row id="50098" trl="N">
+  <value column="Name" original="Ненецкий автономный округ">Ненецкий АО</value>
+ </row>
+ <row id="50099" trl="N">
+  <value column="Name" original="Иркутская область Усть-Ордынский Бурятский округ">Эвенкийский АО</value>
+ </row>
+ <row id="50100" trl="N">
+  <value column="Name" original="Ханты-Мансийский автономный округ - Югра">Ханты-Мансийский АО</value>
+ </row>
+ <row id="50101" trl="N">
+  <value column="Name" original="Чукотский автономный округ">Чукотский АО</value>
+ </row>
+ <row id="50102" trl="N">
+  <value column="Name" original="Ямало-Ненецкий автономный округ">Ямало-Ненецкий АО</value>
+ </row>
+ <row id="50103" trl="N">
+  <value column="Name" original="Байконур город">Байконур город</value>
+ </row>
+</idempiereTrl>

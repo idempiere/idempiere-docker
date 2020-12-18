@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_Chart">
+ <row id="50000" trl="N">
+  <value column="Name" original="My Sales Pipeline">Môj Obchodný Tok</value>
+  <value column="Description" original=""/>
+  <value column="DomainLabel" original="Sales Stage">Stav Predaja</value>
+  <value column="RangeLabel" original="Value">Hodnota</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="My Opportunities by Campaign">Moje Príležitosti podľa Kampaní</value>
+  <value column="Description" original=""/>
+  <value column="DomainLabel" original="Opportunity">Príležitosti</value>
+  <value column="RangeLabel" original="Campaign">Kampaň</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Sales YTD">Predaj Obj. YTD</value>
+  <value column="Description" original=""/>
+  <value column="DomainLabel" original="Month">Mesiac</value>
+  <value column="RangeLabel" original="Value">Hodnota</value>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="My Open Requests">Moje Otvorené Požiadavky</value>
+  <value column="Description" original=""/>
+  <value column="DomainLabel" original=""/>
+  <value column="RangeLabel" original=""/>
+ </row>
+</idempiereTrl>

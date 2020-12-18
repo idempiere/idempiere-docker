@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_WF_Node">
+ <row id="116" trl="Y">
+  <value column="Name" original="Accounting Schema">Схема бухгалтерского учета</value>
+  <value column="Description" original="Project as Account Segment">Проект сегмент счета</value>
+  <value column="Help" original="To enable accounting reporting of projects, create and enable a project segment in the account elements.">Для возможности иметь бухг. отчетность по проектам. Создание и представление сегмента проекта в виде бухг. элементов.</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="System Elements">Элементы системы</value>
+  <value column="Description" original="Translate System Elements">Перевод элементов системы</value>
+  <value column="Help" original="System Elements are used to centrally define field labels, description and help. When translating an Element, the appropriate information of Fields in Windows, Parameters and Reports are translated (overwritten)">Элементы системы, которые используются для централизованно определяемых меток полей, описаний и помощи. Когда переводится элемент, который определяет значение полей в окнах, параметрах и отчетах, то его значение (переведенное) перезаписывается</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Messages">Сообщения</value>
+  <value column="Description" original="Translate Messages">Перевод сообщений</value>
+  <value column="Help" original="Translate the messages used in Windows, Forms and Processes">Перевод сообщений, которые используются в окнах, формах и процессах</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Reference">Ссылка</value>
+  <value column="Description" original="Translate References">Перевод ссылок</value>
+  <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">Ссылки, которые используются как предопределенные списки выборки. Вам нужно только перевести элементы списка!!!</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Window &amp; Tab"><![CDATA[Окно & вкладка]]></value>
+  <value column="Description" original="Translate Windows and Tabs">Перевод окон и вкладок</value>
+  <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">Перевод названия, описания и помощи для окон и вкладок. Некоторые из полей уже переведены, если они обслуживаются централизовано.</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Form">Форма</value>
+  <value column="Description" original="Translate Forms">Перевод форм</value>
+  <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">Формы - это специальные окна и вам нужно перевести эти названия, описания и помощь.</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Report &amp; Process">Отчет и процесс</value>
+  <value column="Description" original="Translate Reports and Processes">Перевод отчетов и процессов</value>
+  <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">Перевод названия, описания и помощи для процессов и отчетов. Вам не нужно переводить параметры, если они обслуживаются централизованно.</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="User">Контактное лицо</value>
+  <value column="Description" original="Define Sales Representative as User">Определение торгового представителя, как пользователя</value>
+  <value column="Help" original="Users can log into the system and have access to functionality via one or more roles. Select the Business Partner you just set up. This enables the user to be treated as sales rep in the system.">Пользователи могут заходить в систему и иметь доступ к функционалу через одну или более роль. Это дает возможность пользователю иметь доступ к отчетам о продажах в данной системе.</value>
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Business Partner">Бизнес-партнер</value>
+  <value column="Description" original="Set up Sales Representative as Business Partner">Определение торгового представителя, как бизнес-партнера</value>
+  <value column="Help" original="Set up the sales representative as Employee and Sales Representative in the Employee tab.  Also set up the Vendor part, if you want to create payments.">Установка торгового представителя, как сотрудника. Это помещает торгового представителя в список сотрудников. Так же производится установка в поставщики, если вы хотите производить оплаты.</value>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Workflow">Бизнес-процесс</value>
+  <value column="Description" original="Translate Workflows">Перевод workflow</value>
+  <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">Перевод названия, описания и помощи workflows и их узлов. Вам нужно перевести только элементы списка!!!</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Check Client Setup">Проверить настройки клиента</value>
+  <value column="Description" original="Check Client setup for Requests">Проверка настроек клиента для запросов</value>
+  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">Вам нужно иметь почтовый сервер и email адрес, с которого запросы и напоминания будут отправляться. Дополнительно, если  вы определяете mail user-а и password, то запросы будут читаться из mail users's папки и импортироваться в систему.</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Check Users">Проверить пользователей</value>
+  <value column="Description" original="Check users for Request processing">Проверка пользователей для выполнения запросов</value>
+  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">Убедитесь, чтобы эти пользователи имели email адрес и были назначены супервайзером.</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Check Business Partners">Проверить бизнес-партнеров</value>
+  <value column="Description" original="Check Business Partners for Request processing">Проверка бизнес-партнеров для выполнения запросов</value>
+  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">Вы можете отправить EMail-ы своим бизнес-партнерам. Убедитесь, что ваши бизнес-партнеры и/или контакты имеют email адреса.</value>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Tax Category">Категория налога</value>
+  <value column="Description" original="Maintain Tax Categories">Утвердить категории налогов</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.</value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Product">Продукт</value>
+  <value column="Description" original="Maintain Products">Утвердить продукты</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.</value>
+ </row>
+ <row id="168" trl="Y">
+  <value column="Name" original="Charge">Расходы</value>
+  <value column="Description" original="Maintain Charges">Утвердить расходы</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Затраты на банк, поставщика, отгрузку и т.д.</value>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Tax Rate">Налоговая ставка</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Утвердить налоги и их ставки</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.</value>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Accounting Schema">Схема бухгалтерского учета</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Утвердить схему бухгалтерского учета - Чтобы изменения стали действительными, требуется перезайти в систему</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.
+Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">Настройка производственного процесса</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Настройка производственного процесса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">Настроить дискретное производство</value>
+  <value column="Description" original="Setup Manufacturing Management">Настройка управления производством</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Setup">Настройки ведомости материалов и формулы</value>
+  <value column="Description" original="Setup Manufacturing Management">Настройка управления производством</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Warehouse &amp; Locators">Склад и локаторы</value>
+  <value column="Description" original="Warehouse &amp; Locators">Склад и локаторы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Resource Type">Тип ресурсов</value>
+  <value column="Description" original="Resource Type">Тип ресурсов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">Бизнес-процессы производства</value>
+  <value column="Description" original="Manufacturing Workflows">Бизнес-процессы производства</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Manufacturing Resource">Производственные ресурсы</value>
+  <value column="Description" original="Manufacturing Resource">Производственные ресурсы</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Unit of Measure">Единица измерения</value>
+  <value column="Description" original="Maintain Unit of Measure ">Утвердить единицу меры </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Product">Продукт</value>
+  <value column="Description" original="Maintain Products">Утвердить продукты</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Настройка Планирования потребности в материалах</value>
+  <value column="Description" original="Setup Material Requirement Planning">Настройка пранирования потребности в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Capacity Requirement Planning Setup">Планирование потребности в производственных мощностях</value>
+  <value column="Description" original="Setup Capacity Requirement Planning">Настройка планирования производственных мощностей</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Forecast">Прогноз</value>
+  <value column="Description" original="Forecast">Прогноз</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">Настройка управления производством</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">Представляет набор методов, которые используют данные из спецификации, запасов и т.е. для расчета потребностей в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Notice">Уведомление</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">Представляет набор методов, которые используют данные из спецификации, запасов и т.е. для расчета потребностей в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50014" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">Настроить дискретное производство</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">Представляет набор методов, которые используют данные из спецификации, запасов и т.е. для расчета потребностей в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Настройка Планирования потребности в материалах</value>
+  <value column="Description" original="Setup Material Requirement Planning">Настройка пранирования потребности в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">Настройка производственного процесса</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Настройка производственного процесса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Calculate Capacity Plan">Рассчитать план производительности</value>
+  <value column="Description" original="Calculate Capacity Plan">Рассчитать план производительности</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Resource Load View">Просмотр загрузки ресурсов</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Она показывает графически необходимость и доступностть для каждого временного промежутка производства ресурса</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Настройка Планирования потребности в материалах</value>
+  <value column="Description" original="Setup Material Requirement Planning">Настройка пранирования потребности в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">Настройка управления производством</value>
+  <value column="Description" original="Setup Manufacturing Management">Настройка управления производством</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Distribution Management Setup">Настроить управление распределением</value>
+  <value column="Description" original="Setup Distribution Management">Настроить управление распределением</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Planned Order Approval">Планируемые оплаты заказа</value>
+  <value column="Description" original="Planned Order Approval">Планируемые оплаты заказа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50023" trl="Y">
+  <value column="Name" original="MRP Notice">Замечания по планированию требований к материалу</value>
+  <value column="Description" original="MRP Notice">Замечания по планированию требований к материалу</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50024" trl="Y">
+  <value column="Name" original="MRP Info">Информация о планировании материальных потребностей</value>
+  <value column="Description" original="MRP Info">Информация о планировании материальных потребностей</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50025" trl="Y">
+  <value column="Name" original="Calculate Distribution Plan">Рассчитать план распределения</value>
+  <value column="Description" original="Calculate Distribution Plan">Рассчитать план распределения</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50027" trl="Y">
+  <value column="Name" original="(DocComplete)">(Документ завершен)</value>
+  <value column="Description" original="(Standard Node)">(Стандартный этап)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50028" trl="Y">
+  <value column="Name" original="(DocPrepare)">(Подготовка документа)</value>
+  <value column="Description" original="(Standard Node)">(Стандартный этап)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50029" trl="Y">
+  <value column="Name" original="(Start)">(Начало)</value>
+  <value column="Description" original="(Standard Node)">(Стандартный этап)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50034" trl="Y">
+  <value column="Name" original="Freight Category">Категория фрахта</value>
+  <value column="Description" original="Maintain Freight Categories">Утвердить категории фрахта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50035" trl="Y">
+  <value column="Name" original="Inventory Move">Перемещение инвентаря</value>
+  <value column="Description" original="Inventory Move">Перемещение инвентаря</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50036" trl="Y">
+  <value column="Name" original="Shipper">Грузоотправитель</value>
+  <value column="Description" original="Maintain Shippers">Ведение грузоотправителей</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50049" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Показать в двух различных панелях связь с компонентом-родителем для продукта, введенного в поле "Продукт".</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50050" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info"><![CDATA[Спецификация & Формула]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Показать в двух различных панелях связь с компонентом-родителем для продукта, введенного в поле "Продукт".</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50051" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula">Спецификации продуктов и формулы</value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula ">Ведение ведомости материалов и формулы продукта </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50052" trl="Y">
+  <value column="Name" original="Product Planning">Планирование продукта</value>
+  <value column="Description" original="Product Planning">Планирование продукта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50053" trl="Y">
+  <value column="Name" original="Calculate Low Level">Рассчитать нижний уровень</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">Представляет набор методов, которые используют данные из спецификации, запасов и т.е. для расчета потребностей в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50054" trl="Y">
+  <value column="Name" original="Calculate Material Plan">Рассчитать материальный план</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">Представляет набор методов, которые используют данные из спецификации, запасов и т.е. для расчета потребностей в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50055" trl="Y">
+  <value column="Name" original="Planned Order Approval">Планируемые оплаты заказа</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">Представляет набор методов, которые используют данные из спецификации, запасов и т.е. для расчета потребностей в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50056" trl="Y">
+  <value column="Name" original="MRP Info">Информация о планировании материальных потребностей</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">Представляет набор методов, которые используют данные из спецификации, запасов и т.е. для расчета потребностей в материалах</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50057" trl="Y">
+  <value column="Name" original="Print &amp; Release Order">Напечатать и отправить Заказ</value>
+  <value column="Description" original="Print &amp; Release Order">Напечатать и отправить Заказ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50058" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue">Отпуск заказнных позиций</value>
+  <value column="Description" original="Order Receipt &amp; Issue">Отпуск заказнных позиций</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50059" trl="Y">
+  <value column="Name" original="Manufacturing Order">Производственный заказ</value>
+  <value column="Description" original="Manufacturing Order">Производственный заказ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50060" trl="Y">
+  <value column="Name" original="Component Check">Проверить компоненты</value>
+  <value column="Description" original="Component Check">Проверить компоненты</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50061" trl="Y">
+  <value column="Name" original="Generate Movement">Создать перемещение</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Сгенерировать и напечатать Перемещение из открытых заказов на распределение.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50062" trl="Y">
+  <value column="Name" original="Generate Movement Manual">Создать перемещение(в ручную)</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Создать перемещение</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50063" trl="Y">
+  <value column="Name" original="Distribution Order">Заказ на распределение</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Заказ на распределение позволяет создать заказ между складов, чтобы удовлетворить спрос. </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50064" trl="Y">
+  <value column="Name" original="Import Proccesor">Import Proccesor</value>
+  <value column="Description" original="Import Proccesor">Import Proccesor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50065" trl="Y">
+  <value column="Name" original="Import Processor Type">Импортировать тип процессора</value>
+  <value column="Description" original="Import Processor Type">Импортировать тип процессора</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50066" trl="Y">
+  <value column="Name" original="Export Format">Формат экспорта</value>
+  <value column="Description" original="Export Format">Формат экспорта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50067" trl="Y">
+  <value column="Name" original="Export Processor">Процессор экспорта</value>
+  <value column="Description" original="Export Processor">Процессор экспорта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50068" trl="Y">
+  <value column="Name" original="Export Processor Type">Тип процессора экспорта</value>
+  <value column="Description" original="Export Processor Type">Тип процессора экспорта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50069" trl="Y">
+  <value column="Name" original="Replication Strategy">Стратегия дублирования</value>
+  <value column="Description" original="Replication Strategy">Стратегия дублирования</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50074" trl="Y">
+  <value column="Name" original="Payroll">Платежная ведомость</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50075" trl="Y">
+  <value column="Name" original="Payroll Concept Category">Категория концепции платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50076" trl="Y">
+  <value column="Name" original="Payroll Contract">Контракт платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50077" trl="Y">
+  <value column="Name" original="Payroll Process">Обработка платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50078" trl="Y">
+  <value column="Name" original="Payroll Table">Таблица платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50079" trl="Y">
+  <value column="Name" original="Payroll Department">Отдел платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50080" trl="Y">
+  <value column="Name" original="Payroll Employee">Служащий платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50081" trl="Y">
+  <value column="Name" original="Payroll Action Notice">Заметка о действиях платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50082" trl="Y">
+  <value column="Name" original="Payroll Table Type">Тип таблицы платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50083" trl="Y">
+  <value column="Name" original="Payroll Job">Работа платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50084" trl="Y">
+  <value column="Name" original="Payroll Concept Catalog">Каталог концепции платежной ведомости</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50099" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50100" trl="N">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50101" trl="N">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50102" trl="N">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50103" trl="N">
+  <value column="Name" original="Activation Approval">Activation Approval</value>
+  <value column="Description" original="Approve asset activation">Approve asset activation</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50104" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50105" trl="N">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50106" trl="N">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50107" trl="N">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50108" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50109" trl="N">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50110" trl="N">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50111" trl="N">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50112" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50113" trl="N">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50114" trl="N">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50115" trl="N">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50116" trl="N">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50117" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50118" trl="N">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50119" trl="N">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

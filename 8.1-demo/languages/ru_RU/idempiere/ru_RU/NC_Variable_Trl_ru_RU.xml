@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="NC_Variable">
+ <row id="1" trl="Y">
+  <value column="Name" original="BIS_DBLINK">Имя внешней БД</value>
+  <value column="Description" original="DBLNK of external system for data loading">Имя внешней БД для загрузки данных АСР</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="2" trl="Y">
+  <value column="Name" original="MAX_DAY_CALL_LIST">Актальность в днях</value>
+  <value column="Description" original="Maximum number of days of data relevance in AUTO_CALL_LIST">Максимальное количество дней актуальности данных загружаемых заданий</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="3" trl="Y">
+  <value column="Name" original="DEFAULT_PRIORITY">Приоритет по умолчанию</value>
+  <value column="Description" original="Default priority in queue">Приоритет в очереди по умолчанию в функции расчёта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="4" trl="Y">
+  <value column="Name" original="PHONES_REGEXP_PSTN">Выражение для фиксированного номера</value>
+  <value column="Description" original="REGEXP for fixed numbering">REGEXP для фиксированной нумерации функции расчёта приоритета</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="5" trl="Y">
+  <value column="Name" original="PHONES_REGEXP_MOBILE">Выражение для мобильного номера</value>
+  <value column="Description" original="REGEXP for mobile numbering">REGEXP для мобильной нумерации функции расчёта приоритета</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

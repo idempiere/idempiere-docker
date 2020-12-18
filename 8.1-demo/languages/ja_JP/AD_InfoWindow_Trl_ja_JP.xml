@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ja_JP" table="AD_InfoWindow">
+ <row id="200000" trl="N">
+  <value column="Name" original="Product Info">品目情報</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Business Partner Info">取引先情報</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Order Info">受注/発注伝票</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200003" trl="N">
+  <value column="Name" original="Invoice Info">売上/仕入請求情報</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200004" trl="N">
+  <value column="Name" original="Shipment Info">入荷/出荷納品伝票</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Payment Info">入金/支払伝票</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Resource Info">リソース情報</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Asset Info">資産マスタ情報</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200013" trl="N">
+  <value column="Name" original="Role (All)">Role (All)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200014" trl="N">
+  <value column="Name" original="Support Users vs Roles">Support Users vs Roles</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

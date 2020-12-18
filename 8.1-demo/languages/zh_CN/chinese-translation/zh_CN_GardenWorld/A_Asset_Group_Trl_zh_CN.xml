@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="A_Asset_Group">
+ <row id="100" trl="N">
+  <value column="Name" original="Documentation">文档</value>
+  <value column="Description" original="Download Documentation">下载文档</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="Buildings">建筑物</value>
+  <value column="Description" original="Buildings">建筑物</value>
+  <value column="Help" original="All Buildings">所有的建筑物</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Software">软件</value>
+  <value column="Description" original="Software">软件</value>
+  <value column="Help" original="Software">软件</value>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Documentation">文档</value>
+  <value column="Description" original="Download Documentation">下载文档</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Data Processing Equipment">数据处理设备</value>
+  <value column="Description" original="Data Processing Equipment">数据处理设备</value>
+  <value column="Help" original="Group defines Data Processing Equipment">该组定义了数据处理设备</value>
+ </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Furniture">办公设备</value>
+  <value column="Description" original="Furniture">办公设备</value>
+  <value column="Help" original="Office furniture including office and shop">办公设备(包含办公室和门店)</value>
+ </row>
+ <row id="50005" trl="N">
+  <value column="Name" original="Fixtures">固定装置</value>
+  <value column="Description" original="Fixtures">固定装置</value>
+  <value column="Help" original="Fixtures including tools &amp; dies">固定装置包含工具和模具</value>
+ </row>
+ <row id="50006" trl="N">
+  <value column="Name" original="Vehicles">运输设备</value>
+  <value column="Description" original="Trucks Cars Vans Forklifts">卡车、汽车、货车、叉车</value>
+  <value column="Help" original="All vehicles">所有的运输设备</value>
+ </row>
+ <row id="50007" trl="N">
+  <value column="Name" original="Equipment">轻型设备</value>
+  <value column="Description" original="Equipment">轻型设备</value>
+  <value column="Help" original="Light equipment including  test equipment and computers">轻型设备包含机器设备(网络分析仪、频谱仪、信号发生器、噪声源、校准件、仪表仪器等)和办公设备(个人电脑等)</value>
+ </row>
+ <row trl="Y" uuid="c7e106a8-50b1-42f8-a17a-89aa7eee7015">
+  <value column="Name" original="默认">默认</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

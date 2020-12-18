@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 1.0a_2012-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="de_DE" table="PA_DashboardContent">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Activities">Aktivitäten</value>
+  <value column="Description" original="Workflow activities, notices and requests">Workflow-Aktivitäten, Hinweise und Anfragen</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Favourites">Favoriten</value>
+  <value column="Description" original="User favourities">Eigene Favoriten</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Views">Ansichten</value>
+  <value column="Description" original="Info views">Info Ansichten</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Performance">Leistung</value>
+  <value column="Description" original="Performance meters">Leistungsindikatoren</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Calendar">Kalender</value>
+  <value column="Description" original="Request Calendar">Anfragekalender</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Recent Items">Zuletzt verwendet</value>
+  <value column="Description" original="Recent items">Zuletzt verwendet</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Menu">Menü</value>
+  <value column="Description" original="Menu">Menü</value>
+ </row>
+</idempiereTrl>

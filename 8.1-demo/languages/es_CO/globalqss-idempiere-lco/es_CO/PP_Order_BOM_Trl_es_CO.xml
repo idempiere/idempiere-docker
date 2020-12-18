@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="PP_Order_BOM">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Fertilizer #50">Fertilizante #50</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">50 # Bolsa de fertilizante para césped</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Fertilizer #70">Fertilizante #70</value>
+  <value column="Description" original="70 # Bag of Lawn Fertilizer">70 # Bolsa de fertilizante para césped</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

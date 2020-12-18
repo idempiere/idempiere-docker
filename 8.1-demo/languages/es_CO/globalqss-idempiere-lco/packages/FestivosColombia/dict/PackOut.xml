@@ -1,0 +1,2227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idempiere Name="FestivosColombia" Version="1.0" idempiereVersion="" DataBaseVersion="" Description="Días Festivos en Colombia" Author="" AuthorEmail="info@globalqss.com" CreatedDate="2013-08-08 11:33:33.864" UpdatedDate="2013-08-08 11:48:52.744" PackOutVersion="100" Client="11-GardenWorld-GardenWorld">
+    <SQLMandatory type="custom">
+        <DBType>ALL</DBType>
+        <statement><![CDATA[UPDATE ad_column SET isupdateable = 'Y' WHERE ad_column_id IN (827, 836)]]></statement>
+    </SQLMandatory>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-01-01 00:00:00.0</Date1>
+        <Name>2006 - Año Nuevo</Name>
+        <C_NonBusinessDay_UU>8e7337e9-b03c-4bea-9472-c26887b473d4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-01-09 00:00:00.0</Date1>
+        <Name>2006 - Epifanía - Reyes Magos</Name>
+        <C_NonBusinessDay_UU>10201f11-352e-444b-b38e-54220ae76f87</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-03-20 00:00:00.0</Date1>
+        <Name>2006 - San José</Name>
+        <C_NonBusinessDay_UU>dcbb3e16-f5ea-495f-9589-7b9deebe280c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-04-13 00:00:00.0</Date1>
+        <Name>2006 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>aab1ec48-3cca-406f-9ab1-3e31b119033f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-04-14 00:00:00.0</Date1>
+        <Name>2006 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>a6f6096e-ab77-4646-9469-2ea83f17738f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-05-01 00:00:00.0</Date1>
+        <Name>2006 - Fiesta del Trabajo</Name>
+        <C_NonBusinessDay_UU>8796cc54-96ea-4a3c-b39a-d8ed267c9802</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-05-29 00:00:00.0</Date1>
+        <Name>2006 - Ascensión</Name>
+        <C_NonBusinessDay_UU>932b5705-e1f3-4b87-8409-e1f6690119d5</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-06-19 00:00:00.0</Date1>
+        <Name>2006 - Día del Corpus</Name>
+        <C_NonBusinessDay_UU>a85dbc1f-c62a-43dd-895a-0d9e2d4cfa54</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-06-26 00:00:00.0</Date1>
+        <Name>2006 - Sagrado Corazón</Name>
+        <C_NonBusinessDay_UU>f8041002-eb39-4d4a-b597-d8596985ba39</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-07-03 00:00:00.0</Date1>
+        <Name>2006 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>0c14ebc5-51be-41b5-8579-f26c32d9d0d2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-07-20 00:00:00.0</Date1>
+        <Name>2006 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>9d20d573-4a6e-49ef-b5cd-d2743e484353</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-08-07 00:00:00.0</Date1>
+        <Name>2006 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>9e432637-1d83-4f8f-8921-6d80ede1d789</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-08-21 00:00:00.0</Date1>
+        <Name>2006 - Asunción</Name>
+        <C_NonBusinessDay_UU>1ca90be8-72c5-43a0-a5cc-615f9ad76e16</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-10-16 00:00:00.0</Date1>
+        <Name>2006 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>05196208-fef0-48ee-92d4-2136d213190c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-11-06 00:00:00.0</Date1>
+        <Name>2006 - Todos los santos</Name>
+        <C_NonBusinessDay_UU>56201bbf-09e7-449e-88d7-beadcb9a6289</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-11-13 00:00:00.0</Date1>
+        <Name>2006 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>66c80551-86b4-4611-8483-24c6ed592ff8</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-12-08 00:00:00.0</Date1>
+        <Name>2006 - La Inmaculada</Name>
+        <C_NonBusinessDay_UU>782b9750-93f6-4b63-82b1-facddfcd4aa7</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2006-12-25 00:00:00.0</Date1>
+        <Name>2006 - Navidad</Name>
+        <C_NonBusinessDay_UU>21d8b363-e40f-4c39-96d7-2d89bb7729b7</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-01-01 00:00:00.0</Date1>
+        <Name>2007 - Año Nuevo</Name>
+        <C_NonBusinessDay_UU>a0ab1d77-968a-41d7-a5d6-718a24b296df</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-01-08 00:00:00.0</Date1>
+        <Name>2007 - Epifanía - Reyes Magos</Name>
+        <C_NonBusinessDay_UU>f5fcaac8-5114-46a6-a554-610ae4fbee3a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-03-19 00:00:00.0</Date1>
+        <Name>2007 - San José</Name>
+        <C_NonBusinessDay_UU>60f71432-dfd7-45b0-aba5-e2dfdb2d2820</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-04-05 00:00:00.0</Date1>
+        <Name>2007 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>178fccdd-30c0-4d69-9bbd-dfd8b4a42be7</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-04-06 00:00:00.0</Date1>
+        <Name>2007 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>dd701d70-0cfb-4995-b3a3-cb853650fb9a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-05-01 00:00:00.0</Date1>
+        <Name>2007 - Fiesta del Trabajo</Name>
+        <C_NonBusinessDay_UU>ffe3826e-e335-4926-bed1-ff1b85fc12bc</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-05-21 00:00:00.0</Date1>
+        <Name>2007 - Ascensión</Name>
+        <C_NonBusinessDay_UU>9656b3f1-a56b-4ba1-940d-60f76ecc862b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-06-11 00:00:00.0</Date1>
+        <Name>2007 - Día del Corpus</Name>
+        <C_NonBusinessDay_UU>36a75528-aa2b-4b69-ac3b-febd09f6f732</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-06-18 00:00:00.0</Date1>
+        <Name>2007 - Sagrado Corazón</Name>
+        <C_NonBusinessDay_UU>f3cd57a6-afa7-4113-b92b-7e3f65f5034f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-07-02 00:00:00.0</Date1>
+        <Name>2007 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>f4ab02eb-2c27-4296-a97e-24bb1b06d619</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-07-20 00:00:00.0</Date1>
+        <Name>2007 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>b983c0f7-04b5-4280-a863-1b7ad26a4f49</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-08-07 00:00:00.0</Date1>
+        <Name>2007 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>03ca4d07-b1be-4029-aee7-770b7b261c98</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-08-20 00:00:00.0</Date1>
+        <Name>2007 - Asunción</Name>
+        <C_NonBusinessDay_UU>fc17766b-ecc3-4348-8f73-d6e37a0ed5b5</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-10-15 00:00:00.0</Date1>
+        <Name>2007 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>6bd40a55-c56d-406d-91b1-e7b5f715eae2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-11-05 00:00:00.0</Date1>
+        <Name>2007 - Todos los santos</Name>
+        <C_NonBusinessDay_UU>87df6a1a-e9ee-4f8c-a7c1-5fa9d6618348</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-11-12 00:00:00.0</Date1>
+        <Name>2007 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>59b8955e-dfdd-4e19-85d1-fbdd131daf05</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-12-08 00:00:00.0</Date1>
+        <Name>2007 - La Inmaculada</Name>
+        <C_NonBusinessDay_UU>de043802-f277-4128-9c10-640553b0b576</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2007-12-25 00:00:00.0</Date1>
+        <Name>2007 - Navidad</Name>
+        <C_NonBusinessDay_UU>708ba20c-d0a2-493c-ab22-11de733273aa</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-01-01 00:00:00.0</Date1>
+        <Name>2008 - Año Nuevo</Name>
+        <C_NonBusinessDay_UU>06f0ed65-f0f8-4d78-a35c-c9690a9d81a8</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-01-07 00:00:00.0</Date1>
+        <Name>2008 - Epifanía - Reyes Magos</Name>
+        <C_NonBusinessDay_UU>5e745f90-8f8b-4a04-9226-0954e61f8313</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-03-24 00:00:00.0</Date1>
+        <Name>2008 - San José</Name>
+        <C_NonBusinessDay_UU>fd2e635d-7991-447a-a144-41849f7ea01b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-03-20 00:00:00.0</Date1>
+        <Name>2008 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>4afb400e-61d2-44e1-9a04-1e46c04d58a2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-03-21 00:00:00.0</Date1>
+        <Name>2008 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>2ece9607-07bf-4d75-b3ce-a34d3cf3db93</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-05-01 00:00:00.0</Date1>
+        <Name>2008 - Fiesta del Trabajo</Name>
+        <C_NonBusinessDay_UU>4c500201-a298-49bd-be6d-93c182a26905</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-05-05 00:00:00.0</Date1>
+        <Name>2008 - Ascensión</Name>
+        <C_NonBusinessDay_UU>d3e05afc-9821-4717-8ddf-cedff52c94e0</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-05-26 00:00:00.0</Date1>
+        <Name>2008 - Día del Corpus</Name>
+        <C_NonBusinessDay_UU>37e298e6-5333-4984-8fe3-e965c2940ede</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-06-16 00:00:00.0</Date1>
+        <Name>2008 - Sagrado Corazón</Name>
+        <C_NonBusinessDay_UU>628754be-d5f5-47fa-9e68-09d0f0e061a4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-06-30 00:00:00.0</Date1>
+        <Name>2008 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>32345a25-d74b-44d6-9671-b4b0d99fd6b0</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-07-20 00:00:00.0</Date1>
+        <Name>2008 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>7f0b5446-26ae-47da-b845-6ec9be8008ef</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-08-07 00:00:00.0</Date1>
+        <Name>2008 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>0bbae0b9-4f33-432f-ac25-5f9bf5090f54</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-08-18 00:00:00.0</Date1>
+        <Name>2008 - Asunción</Name>
+        <C_NonBusinessDay_UU>cf8ccf18-4ec1-43ec-a13e-35d180728ac4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-10-13 00:00:00.0</Date1>
+        <Name>2008 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>399f19d2-72a2-485c-a68e-ee55aca1b6f7</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-11-03 00:00:00.0</Date1>
+        <Name>2008 - Todos los santos</Name>
+        <C_NonBusinessDay_UU>eb660139-b1cd-44e3-bf88-a6da763be84e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-11-17 00:00:00.0</Date1>
+        <Name>2008 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>5d112bba-4818-4ec9-9958-d610eb001094</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-12-08 00:00:00.0</Date1>
+        <Name>2008 - La Inmaculada</Name>
+        <C_NonBusinessDay_UU>530450c0-ab96-413c-abe2-ff0b55d11bf6</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2008-12-25 00:00:00.0</Date1>
+        <Name>2008 - Navidad</Name>
+        <C_NonBusinessDay_UU>8fe2a101-328a-4450-868b-9740f78a2fb2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-01-01 00:00:00.0</Date1>
+        <Name>2009 - Año Nuevo</Name>
+        <C_NonBusinessDay_UU>fc5f582b-e1d7-481a-955e-02c6990a105c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-01-12 00:00:00.0</Date1>
+        <Name>2009 - Epifanía - Reyes Magos</Name>
+        <C_NonBusinessDay_UU>152cb619-e98c-499c-924a-9096f879b449</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-03-23 00:00:00.0</Date1>
+        <Name>2009 - San José</Name>
+        <C_NonBusinessDay_UU>1e5bfa60-b8b0-4a63-b17d-b49c4e11d37e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-04-09 00:00:00.0</Date1>
+        <Name>2009 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>39e61497-0781-45b7-9351-7ae678d839a5</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-04-10 00:00:00.0</Date1>
+        <Name>2009 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>aeab28e8-f6f7-4e67-be23-2bb74e2946ea</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-05-01 00:00:00.0</Date1>
+        <Name>2009 - Fiesta del Trabajo</Name>
+        <C_NonBusinessDay_UU>9cf0799d-74ca-4e90-83a3-50df350fe8a7</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-05-25 00:00:00.0</Date1>
+        <Name>2009 - Ascensión</Name>
+        <C_NonBusinessDay_UU>931c4278-ef8e-428d-a4b8-a6f15b8f5b2a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-06-15 00:00:00.0</Date1>
+        <Name>2009 - Día del Corpus</Name>
+        <C_NonBusinessDay_UU>248124b3-9768-4d04-b858-ba70f29a2649</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-06-22 00:00:00.0</Date1>
+        <Name>2009 - Sagrado Corazón</Name>
+        <C_NonBusinessDay_UU>84ca3cdb-e224-42e7-b7c2-b6b87838372c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-06-29 00:00:00.0</Date1>
+        <Name>2009 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>28226ad7-2ca6-4b65-b9ee-cc55a25e9a96</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-07-20 00:00:00.0</Date1>
+        <Name>2009 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>cfda9d18-d15b-427e-a947-9b8e9eb24bca</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-08-07 00:00:00.0</Date1>
+        <Name>2009 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>6d8f8e32-965f-4f6a-a3f9-ed48c26b163e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-08-17 00:00:00.0</Date1>
+        <Name>2009 - Asunción</Name>
+        <C_NonBusinessDay_UU>10d8dbce-aa5e-4fe6-b217-e242fd9f06ff</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-10-12 00:00:00.0</Date1>
+        <Name>2009 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>96ddf30e-efcd-4590-b796-dd35ff7e4a91</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-11-02 00:00:00.0</Date1>
+        <Name>2009 - Todos los santos</Name>
+        <C_NonBusinessDay_UU>2a7bbf4b-ce37-4b40-959d-efdaaec23d38</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-11-16 00:00:00.0</Date1>
+        <Name>2009 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>fcf8728d-53ee-4a12-baff-5c50be716abb</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-12-08 00:00:00.0</Date1>
+        <Name>2009 - La Inmaculada</Name>
+        <C_NonBusinessDay_UU>d7decc0b-9bcb-4dbe-b4a1-10718b7c4116</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2009-12-25 00:00:00.0</Date1>
+        <Name>2009 - Navidad</Name>
+        <C_NonBusinessDay_UU>a4ed7a1d-5bdf-4c61-a827-042510ac0afe</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-01-01 00:00:00.0</Date1>
+        <Name>2010 - Año Nuevo</Name>
+        <C_NonBusinessDay_UU>2f2d5606-00f7-452d-93fc-b7e2074a9f53</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-01-11 00:00:00.0</Date1>
+        <Name>2010 - Epifanía - Reyes Magos</Name>
+        <C_NonBusinessDay_UU>16e25405-f306-442e-b21b-83bec07895be</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-03-22 00:00:00.0</Date1>
+        <Name>2010 - San José</Name>
+        <C_NonBusinessDay_UU>ef9db0d9-9494-489d-9226-d711fe72013c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-04-01 00:00:00.0</Date1>
+        <Name>2010 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>bab1cf44-adec-46d8-a535-0a97f645c074</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-04-02 00:00:00.0</Date1>
+        <Name>2010 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>7746ff72-f81d-45df-a8b3-320ba9f88777</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-05-01 00:00:00.0</Date1>
+        <Name>2010 - Fiesta del Trabajo</Name>
+        <C_NonBusinessDay_UU>443111a9-2cc7-4964-8f43-b732fe8cf1b9</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-05-17 00:00:00.0</Date1>
+        <Name>2010 - Ascensión</Name>
+        <C_NonBusinessDay_UU>b687360b-95fb-488e-8e30-39caae2fc7bb</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-06-07 00:00:00.0</Date1>
+        <Name>2010 - Día del Corpus</Name>
+        <C_NonBusinessDay_UU>3d1312ff-dec4-4607-9cd5-a3437fd47af4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-06-14 00:00:00.0</Date1>
+        <Name>2010 - Sagrado Corazón</Name>
+        <C_NonBusinessDay_UU>6b62c1be-cc66-45f8-91b0-f12b5d85e032</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-07-05 00:00:00.0</Date1>
+        <Name>2010 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>a4d886b4-14bb-4f63-982d-58046ef05229</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-07-20 00:00:00.0</Date1>
+        <Name>2010 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>865c3ee9-64e8-4559-9c91-d3e80922add8</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-08-07 00:00:00.0</Date1>
+        <Name>2010 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>e6a33d32-410f-4e12-bf9a-5554bfc08459</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-08-16 00:00:00.0</Date1>
+        <Name>2010 - Asunción</Name>
+        <C_NonBusinessDay_UU>3fdfc8a4-1bf5-43ad-ade8-17a530339e6f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-10-18 00:00:00.0</Date1>
+        <Name>2010 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>8fde0d96-a6ce-4e2f-adf9-86a6b179d237</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-11-01 00:00:00.0</Date1>
+        <Name>2010 - Todos los santos</Name>
+        <C_NonBusinessDay_UU>fac0bcde-df89-411a-b492-e692f068a7ef</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-11-15 00:00:00.0</Date1>
+        <Name>2010 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>76900fec-530f-4d00-920a-186491ab3ac2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-12-08 00:00:00.0</Date1>
+        <Name>2010 - La Inmaculada</Name>
+        <C_NonBusinessDay_UU>fe986171-6e0c-44b4-a58f-53f0c7f99dc4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2010-12-25 00:00:00.0</Date1>
+        <Name>2010 - Navidad</Name>
+        <C_NonBusinessDay_UU>5571bbc8-6967-42f2-89c2-b8dc2fe883ab</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-01-01 00:00:00.0</Date1>
+        <Name>2011 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>85856c5b-639a-44dc-95e5-2c5c5200dc22</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-01-10 00:00:00.0</Date1>
+        <Name>2011 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>366b2aa8-707d-43da-89cc-cf43c64f392b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-03-21 00:00:00.0</Date1>
+        <Name>2011 - San José</Name>
+        <C_NonBusinessDay_UU>ed95c9de-0e28-4f49-9c22-d3038b1d2c96</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-04-21 00:00:00.0</Date1>
+        <Name>2011 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>5bf3b284-5b73-46c7-962a-8c6c54a575f0</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-04-22 00:00:00.0</Date1>
+        <Name>2011 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>a0811110-0294-4fff-a41e-6002b2fadd13</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-04-24 00:00:00.0</Date1>
+        <Name>2011 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>ae7d9fe9-4456-427e-8005-147679b13644</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-05-01 00:00:00.0</Date1>
+        <Name>2011 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>b2a46f82-fdf2-47a7-978c-533072447b21</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-06-06 00:00:00.0</Date1>
+        <Name>2011 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>38e75416-aefd-41a7-af63-5b66d00b3a40</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-06-27 00:00:00.0</Date1>
+        <Name>2011 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>df18f6b5-ee86-4d61-848e-8ec661f8ed78</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-07-04 00:00:00.0</Date1>
+        <Name>2011 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>83e66bd5-ab4e-4442-99dc-52672b9c90f9</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-07-20 00:00:00.0</Date1>
+        <Name>2011 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>2e4d8cbf-b71c-4a81-b827-13c720b50e7f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-08-07 00:00:00.0</Date1>
+        <Name>2011 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>9025b808-25a9-46d4-87c7-e70d6f6c0044</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-08-15 00:00:00.0</Date1>
+        <Name>2011 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>ed6e2d8e-0532-453a-891a-61c262ca0298</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-10-17 00:00:00.0</Date1>
+        <Name>2011 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>d37ac1d5-1406-4bc7-9ecc-6d4221f7361f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-11-07 00:00:00.0</Date1>
+        <Name>2011 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>fea22a11-6c0d-493c-a0ad-b8c3dd2d16fb</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-11-14 00:00:00.0</Date1>
+        <Name>2011 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>124a1f4b-7041-4057-b899-cce346ad805e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-12-08 00:00:00.0</Date1>
+        <Name>2011 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>60fe6993-d5d2-4c9f-98e9-614b868b8460</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2011-12-25 00:00:00.0</Date1>
+        <Name>2011 - Navidad</Name>
+        <C_NonBusinessDay_UU>be5282a1-a1ea-4ded-94ed-5672c9308a8a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-01-01 00:00:00.0</Date1>
+        <Name>2012 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>f2f076b7-272a-49e1-a228-bcc48f5e9f78</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-01-09 00:00:00.0</Date1>
+        <Name>2012 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>2aa5e8d3-7cb8-4db0-84ce-0fa526654858</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-03-19 00:00:00.0</Date1>
+        <Name>2012 - San José</Name>
+        <C_NonBusinessDay_UU>9931622e-2694-4da9-a8b6-23fe03c043d6</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-04-05 00:00:00.0</Date1>
+        <Name>2012 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>1b7ab820-b4e7-4009-9e32-6d4300e4275f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-04-06 00:00:00.0</Date1>
+        <Name>2012 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>34ad75f1-fa66-4ad4-8550-fad510003a38</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-04-08 00:00:00.0</Date1>
+        <Name>2012 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>0a430e3a-8699-4dee-982e-c07d4aab6c64</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-05-01 00:00:00.0</Date1>
+        <Name>2012 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>9cb439e5-beec-4d06-ba00-0522d72877e2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-05-21 00:00:00.0</Date1>
+        <Name>2012 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>58144eae-1e6c-458a-8f05-e3a2b18e6856</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-06-11 00:00:00.0</Date1>
+        <Name>2012 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>3656f0ab-0776-4e8c-8500-3b08b93b66f4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-06-18 00:00:00.0</Date1>
+        <Name>2012 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>65b38b88-63e7-4a56-8caf-a6bd85a88797</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-07-02 00:00:00.0</Date1>
+        <Name>2012 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>85510097-9f6d-401d-b2a1-55d79b31716e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-07-20 00:00:00.0</Date1>
+        <Name>2012 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>515a2aed-e6bd-40a5-83c2-dbc5f9588887</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-08-07 00:00:00.0</Date1>
+        <Name>2012 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>4366c2a4-3867-4904-9bde-0e614233c082</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-08-20 00:00:00.0</Date1>
+        <Name>2012 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>249c7b14-1c56-43fc-8f1f-7ee986e223e9</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-10-15 00:00:00.0</Date1>
+        <Name>2012 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>f7888e65-db12-40c8-b19e-5675b465d02a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-11-05 00:00:00.0</Date1>
+        <Name>2012 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>24b116c0-df14-43db-8b6d-cca405e9b228</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-11-12 00:00:00.0</Date1>
+        <Name>2012 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>9a992a19-e7ae-4109-9d5c-927b3de53f8c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-12-08 00:00:00.0</Date1>
+        <Name>2012 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>fadb614a-a1a7-461c-af52-edff742ec1c2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2012-12-25 00:00:00.0</Date1>
+        <Name>2012 - Navidad</Name>
+        <C_NonBusinessDay_UU>ab2ea9ca-acbc-4244-b725-64cbcd976577</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-01-01 00:00:00.0</Date1>
+        <Name>2013 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>df25e26f-c847-4cc3-939d-15615012e512</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-01-07 00:00:00.0</Date1>
+        <Name>2013 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>c60294a3-9ec4-4a06-a9e2-9e9741941a2c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-03-25 00:00:00.0</Date1>
+        <Name>2013 - San José</Name>
+        <C_NonBusinessDay_UU>131333e3-eab5-4241-8791-98db6980a31f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-03-28 00:00:00.0</Date1>
+        <Name>2013 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>b0abaf99-6dc0-4c91-b0d1-af8847fb9e06</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-03-29 00:00:00.0</Date1>
+        <Name>2013 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>87ea2e55-b035-41a6-ac7a-4ac5708d9fbd</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-03-31 00:00:00.0</Date1>
+        <Name>2013 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>5f179b1f-9bd4-41f7-8ec8-82a352db589e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-05-01 00:00:00.0</Date1>
+        <Name>2013 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>443d3f6b-aabc-4a7e-88d4-861e542a75ee</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-05-13 00:00:00.0</Date1>
+        <Name>2013 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>95b7e8ae-611e-4351-ac87-d4d6e5e179b1</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-06-03 00:00:00.0</Date1>
+        <Name>2013 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>03a68264-ed70-42eb-8ae5-9daf6b44ab76</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-06-10 00:00:00.0</Date1>
+        <Name>2013 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>7d47c404-bb99-47df-ae06-18ec077c8455</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-07-01 00:00:00.0</Date1>
+        <Name>2013 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>6d45680c-68f3-4467-92f4-05124e9a1c50</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-07-20 00:00:00.0</Date1>
+        <Name>2013 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>3e7e80b0-472c-4836-909d-9156294f80ee</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-08-07 00:00:00.0</Date1>
+        <Name>2013 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>70440ddf-9807-4b04-b338-a18fef13513f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-08-19 00:00:00.0</Date1>
+        <Name>2013 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>814a38c9-6142-4a57-8f69-dd569266cb89</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-10-14 00:00:00.0</Date1>
+        <Name>2013 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>45614ba1-24f8-435a-ba33-4d211cb7b4f7</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-11-04 00:00:00.0</Date1>
+        <Name>2013 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>b4ce19e9-4b40-43ac-8cd6-f1718c28f240</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-11-11 00:00:00.0</Date1>
+        <Name>2013 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>b4972821-0059-4d54-8730-45d4ddf66c1a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-12-08 00:00:00.0</Date1>
+        <Name>2013 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>9c462ea2-436b-4edd-b88c-113eaf0d6782</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2013-12-25 00:00:00.0</Date1>
+        <Name>2013 - Navidad</Name>
+        <C_NonBusinessDay_UU>c5bc505a-791e-45dd-8dae-0c27f2e8206d</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-01-01 00:00:00.0</Date1>
+        <Name>2014 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>9d033ea2-4d85-44e8-9ca2-9f4ab4f6fb0e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-01-06 00:00:00.0</Date1>
+        <Name>2014 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>338d5a63-e583-4590-99a0-5f0aab45dfc4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-03-24 00:00:00.0</Date1>
+        <Name>2014 - San José</Name>
+        <C_NonBusinessDay_UU>46458064-a999-4aa4-b0b1-f7bde8259de9</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-04-17 00:00:00.0</Date1>
+        <Name>2014 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>ea582ad8-0f85-427d-9c00-377040f9416c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-04-18 00:00:00.0</Date1>
+        <Name>2014 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>fb3c0ec5-2e43-4bde-bf57-3036f5c26d12</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-04-20 00:00:00.0</Date1>
+        <Name>2014 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>b4ec55b7-d6d6-4a47-915e-f668bdec1aac</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-05-01 00:00:00.0</Date1>
+        <Name>2014 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>442753e1-2b4a-4fef-b830-1c4bd79232bb</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-06-02 00:00:00.0</Date1>
+        <Name>2014 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>9fdd8ba8-fe86-4c4a-a85a-ab165484f9ee</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-06-23 00:00:00.0</Date1>
+        <Name>2014 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>553e2d41-b47c-473b-b2ce-12f8e0ed2b89</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-06-30 00:00:00.0</Date1>
+        <Name>2014 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>072fc903-bb75-44c3-8a2b-8377449d3c97</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-07-20 00:00:00.0</Date1>
+        <Name>2014 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>8ceffad2-be9e-44e6-9f2f-60f0c5fa770e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-08-07 00:00:00.0</Date1>
+        <Name>2014 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>bf7168da-32c6-4bda-969a-e39bca2346a1</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-08-18 00:00:00.0</Date1>
+        <Name>2014 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>62badc2c-bf59-42ed-a37c-62e02a042af4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-10-13 00:00:00.0</Date1>
+        <Name>2014 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>1bd96e62-ccac-4046-bca7-2e0d8a3462be</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-11-03 00:00:00.0</Date1>
+        <Name>2014 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>f8136c03-f8fa-450e-a138-bd83b9064ab2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-11-17 00:00:00.0</Date1>
+        <Name>2014 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>411f2ef1-4268-4fdc-ad55-6b303c280f63</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-12-08 00:00:00.0</Date1>
+        <Name>2014 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>3c909d12-0aff-4899-b505-da7beace885a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2014-12-25 00:00:00.0</Date1>
+        <Name>2014 - Navidad</Name>
+        <C_NonBusinessDay_UU>ba7ebdc3-2d1b-4b9e-8b83-10c233a1e1c5</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-01-01 00:00:00.0</Date1>
+        <Name>2015 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>4ab28225-153c-4461-9ea5-0f4ad75c9259</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-01-12 00:00:00.0</Date1>
+        <Name>2015 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>9b8c2118-635a-45ab-933f-9feece657f9b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-03-23 00:00:00.0</Date1>
+        <Name>2015 - San José</Name>
+        <C_NonBusinessDay_UU>2f37c1ea-9754-4a33-8100-09e6fb0bd8c3</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-04-02 00:00:00.0</Date1>
+        <Name>2015 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>9ae7e451-8a62-4dd0-8974-79d38fe5f2ec</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-04-03 00:00:00.0</Date1>
+        <Name>2015 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>30b25d72-4563-4a7d-80f1-7d5f70bfe129</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-04-05 00:00:00.0</Date1>
+        <Name>2015 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>ade38dd7-0892-403e-9b4a-78ba72665f59</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-05-01 00:00:00.0</Date1>
+        <Name>2015 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>9b96541f-2ca1-4988-9423-031666e9ae51</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-05-18 00:00:00.0</Date1>
+        <Name>2015 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>273dbef3-a33a-4f26-9d14-39e78c850296</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-06-08 00:00:00.0</Date1>
+        <Name>2015 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>116f599c-7bdb-49f1-9198-7f42ecdbf406</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-06-15 00:00:00.0</Date1>
+        <Name>2015 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>60f89fa4-4728-441b-bbdc-877073007aab</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-06-29 00:00:00.0</Date1>
+        <Name>2015 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>c9af0db9-0b7b-4051-81cf-490eb7702fe4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-07-20 00:00:00.0</Date1>
+        <Name>2015 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>dcf0b2df-8562-472c-9900-d874ec58a130</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-08-07 00:00:00.0</Date1>
+        <Name>2015 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>e1b7a0bb-a49e-4b72-b26e-797ce66aead0</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-08-17 00:00:00.0</Date1>
+        <Name>2015 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>0dadde36-5930-4d5f-8843-1264aa8ec98c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-10-12 00:00:00.0</Date1>
+        <Name>2015 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>b2d8e24d-0918-42cb-b66b-07200b18433f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-11-02 00:00:00.0</Date1>
+        <Name>2015 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>21f4aa17-ff60-456c-98c1-674b0df27a8b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-11-16 00:00:00.0</Date1>
+        <Name>2015 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>9d951361-7be1-4d93-bc52-97052ce16c39</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-12-08 00:00:00.0</Date1>
+        <Name>2015 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>0b963dc3-9667-4269-abab-fb556a9c29c6</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2015-12-25 00:00:00.0</Date1>
+        <Name>2015 - Navidad</Name>
+        <C_NonBusinessDay_UU>c381c14b-98d0-4ed9-b98e-c97dbd63344a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-01-01 00:00:00.0</Date1>
+        <Name>2016 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>d606037d-0d21-48d7-b43d-77f9a5030b17</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-01-11 00:00:00.0</Date1>
+        <Name>2016 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>ef0af428-2cc1-467b-ae9f-c8ee222a4b48</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-03-21 00:00:00.0</Date1>
+        <Name>2016 - San José</Name>
+        <C_NonBusinessDay_UU>48f321de-88d9-4a5d-94fb-5d12ed43be8c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-03-24 00:00:00.0</Date1>
+        <Name>2016 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>5d7b4500-6195-485f-b9fb-104e79943b57</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-03-25 00:00:00.0</Date1>
+        <Name>2016 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>6b56a24d-ea02-432a-bda0-75ed7642d463</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-03-27 00:00:00.0</Date1>
+        <Name>2016 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>c9f4d7d1-6e8c-474d-a3c8-2796f2d30d20</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-05-01 00:00:00.0</Date1>
+        <Name>2016 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>4d79865e-c8c3-4dfb-b5de-3b54326e0e06</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-05-09 00:00:00.0</Date1>
+        <Name>2016 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>ecc33651-df5d-4193-a99b-f8ec7a646394</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-05-30 00:00:00.0</Date1>
+        <Name>2016 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>e8258452-84f5-426e-a62e-9996e6592207</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-06-06 00:00:00.0</Date1>
+        <Name>2016 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>505b22eb-68ed-4542-96ce-bf7bee5caf05</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-07-04 00:00:00.0</Date1>
+        <Name>2016 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>3e3dd527-3931-42ed-8a62-5d2f03a12480</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-07-20 00:00:00.0</Date1>
+        <Name>2016 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>748ddf0c-d50b-4c8e-a231-6a8d5bd755eb</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-08-07 00:00:00.0</Date1>
+        <Name>2016 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>4794261f-a1db-48e0-930c-fc3a82cfc2f0</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-08-15 00:00:00.0</Date1>
+        <Name>2016 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>07a0960d-eb49-45f6-a825-9d18f55ae598</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-10-17 00:00:00.0</Date1>
+        <Name>2016 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>3aa94b74-a9d2-4716-9445-e1dba71ce1a3</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-11-07 00:00:00.0</Date1>
+        <Name>2016 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>4d147d42-afbc-478d-b8d4-f0c321317365</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-11-14 00:00:00.0</Date1>
+        <Name>2016 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>e5697005-ca67-4a89-919f-c22d563e8c0a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-12-08 00:00:00.0</Date1>
+        <Name>2016 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>48172563-76e2-44af-bdd1-705ff6444d67</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2016-12-25 00:00:00.0</Date1>
+        <Name>2016 - Navidad</Name>
+        <C_NonBusinessDay_UU>2e042624-a3f6-41be-80d6-328f3157fbb9</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-01-01 00:00:00.0</Date1>
+        <Name>2017 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>49a57c3d-736a-4a71-bf25-10d9eef0f55c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-01-09 00:00:00.0</Date1>
+        <Name>2017 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>9f20b7d9-2c33-4a70-99ba-d542373d4ba1</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-03-20 00:00:00.0</Date1>
+        <Name>2017 - San José</Name>
+        <C_NonBusinessDay_UU>7e236ac9-8d31-4d05-b2f8-9c14196d0fdc</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-04-13 00:00:00.0</Date1>
+        <Name>2017 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>37a3b046-e69f-461b-a0ec-0527a2b42364</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-04-14 00:00:00.0</Date1>
+        <Name>2017 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>4e384755-cfd1-4d94-a26b-698c9e3387f6</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-04-16 00:00:00.0</Date1>
+        <Name>2017 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>3ab27e76-2288-4060-9768-e8c3370ccec2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-05-01 00:00:00.0</Date1>
+        <Name>2017 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>19c82bce-9dad-40d3-a797-ea01a59674b0</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-05-29 00:00:00.0</Date1>
+        <Name>2017 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>e3f3413f-ae40-4b72-9dca-0a206a8c9f5d</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-06-19 00:00:00.0</Date1>
+        <Name>2017 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>f5456ae9-36d8-40c8-ad71-e3dbe4548043</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-06-26 00:00:00.0</Date1>
+        <Name>2017 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>73cfb4d8-fa1c-40eb-a63b-6e641410327a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-07-03 00:00:00.0</Date1>
+        <Name>2017 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>088092d7-ec0f-4bbc-a256-d10ba76f1180</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-07-20 00:00:00.0</Date1>
+        <Name>2017 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>194c3918-8995-45c4-a732-8d21d27c17a6</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-08-07 00:00:00.0</Date1>
+        <Name>2017 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>52416620-7059-41d8-942c-df49148c095a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-08-21 00:00:00.0</Date1>
+        <Name>2017 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>eaddf074-e55d-44af-a8c5-55fd5fa07cd3</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-10-16 00:00:00.0</Date1>
+        <Name>2017 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>9be993fa-96c6-4d88-84fc-fd76ee24684b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-11-06 00:00:00.0</Date1>
+        <Name>2017 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>4fa73deb-a65d-4038-ba02-b13ff210fe96</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-11-13 00:00:00.0</Date1>
+        <Name>2017 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>656ec230-da1a-4f22-8abb-e4928423df8c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-12-08 00:00:00.0</Date1>
+        <Name>2017 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>807cb756-2474-43a0-b9ad-9fa51c9e3640</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2017-12-25 00:00:00.0</Date1>
+        <Name>2017 - Navidad</Name>
+        <C_NonBusinessDay_UU>f340b3d3-96bd-4d5e-8756-246183d31aa7</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-01-01 00:00:00.0</Date1>
+        <Name>2018 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>f28433bd-178b-4862-b060-b0341041061d</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-01-08 00:00:00.0</Date1>
+        <Name>2018 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>1e5a661b-0be4-4587-b6d5-ba760751d725</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-03-19 00:00:00.0</Date1>
+        <Name>2018 - San José</Name>
+        <C_NonBusinessDay_UU>4d5d810a-b591-4640-832a-c41130dc7e8f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-03-29 00:00:00.0</Date1>
+        <Name>2018 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>7acf815a-98c7-4c03-84d2-a69bb3d16155</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-03-30 00:00:00.0</Date1>
+        <Name>2018 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>d1494443-c0f2-466e-95eb-62bef9501408</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-04-01 00:00:00.0</Date1>
+        <Name>2018 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>76ac5e4c-3476-4fc5-a650-4e0462734296</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-05-01 00:00:00.0</Date1>
+        <Name>2018 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>3589cc31-b8ae-4005-aecd-c104ac88cf17</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-05-14 00:00:00.0</Date1>
+        <Name>2018 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>6053cb9f-0a33-4bf4-a291-047f29daf9db</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-06-04 00:00:00.0</Date1>
+        <Name>2018 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>b303c984-4169-49c9-a73b-6eb82ad1884b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-06-11 00:00:00.0</Date1>
+        <Name>2018 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>ad3df4c4-857e-4458-bf0a-71be8ddfaa7a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-07-02 00:00:00.0</Date1>
+        <Name>2018 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>86a48108-3bb1-4045-b6c2-996719aa5fed</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-07-20 00:00:00.0</Date1>
+        <Name>2018 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>a2bdb754-2b85-4a46-b2f9-1d7bf6ad94fd</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-08-07 00:00:00.0</Date1>
+        <Name>2018 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>ba08fb26-c94f-4482-b56c-d55028dcd5f5</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-08-20 00:00:00.0</Date1>
+        <Name>2018 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>0b5f899a-8ffa-4714-9901-6ce56a59624a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-10-15 00:00:00.0</Date1>
+        <Name>2018 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>8614d7bb-5b0b-4a75-893d-f1c034c9e263</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-11-05 00:00:00.0</Date1>
+        <Name>2018 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>25444d43-f925-403f-86ea-2067dc826c7e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-11-12 00:00:00.0</Date1>
+        <Name>2018 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>063e895b-c9a5-49d0-b2cb-acbaee01b4de</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-12-08 00:00:00.0</Date1>
+        <Name>2018 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>01af7f9d-f259-44e2-8155-b2383adc5ee1</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2018-12-25 00:00:00.0</Date1>
+        <Name>2018 - Navidad</Name>
+        <C_NonBusinessDay_UU>0534b3a7-ab2c-484e-86d4-be26a0d1909f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-01-01 00:00:00.0</Date1>
+        <Name>2019 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>d42618bb-7018-4ab2-96ad-cdded4939453</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-01-07 00:00:00.0</Date1>
+        <Name>2019 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>6d637043-4575-4928-ab55-25f252a717ef</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-03-25 00:00:00.0</Date1>
+        <Name>2019 - San José</Name>
+        <C_NonBusinessDay_UU>c416068f-7a68-4aee-92a0-80446b7905cc</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-04-18 00:00:00.0</Date1>
+        <Name>2019 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>cf346289-6c40-4692-b15a-66280301ca9d</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-04-19 00:00:00.0</Date1>
+        <Name>2019 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>15bff993-d729-4841-a4bc-83035a5fbf8f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-04-21 00:00:00.0</Date1>
+        <Name>2019 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>1a8b5dd2-067a-48f5-b513-15f00301c883</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-05-01 00:00:00.0</Date1>
+        <Name>2019 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>5dc26c20-b64f-465e-aaa3-51276a132ca8</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-06-03 00:00:00.0</Date1>
+        <Name>2019 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>ca8369b6-a748-4169-9572-46540f91b73a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-06-24 00:00:00.0</Date1>
+        <Name>2019 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>4e36b377-c00a-40a8-877e-68a13af017a4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-07-01 00:00:00.0</Date1>
+        <Name>2019 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>a963cd3b-779a-40a7-9c1a-15f43bcb6ed5</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-07-20 00:00:00.0</Date1>
+        <Name>2019 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>10fc75ef-9002-4529-9d80-0df9059a9e72</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-08-07 00:00:00.0</Date1>
+        <Name>2019 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>cda4cf16-72e7-4136-9b2e-09c649a3e7e5</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-08-19 00:00:00.0</Date1>
+        <Name>2019 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>38c3350b-a388-4353-b13e-d8a82f692854</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-10-14 00:00:00.0</Date1>
+        <Name>2019 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>3995ea30-73b2-4cc5-a075-6a30c66e8b4a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-11-04 00:00:00.0</Date1>
+        <Name>2019 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>c2634d59-8ccb-491f-b9b1-f679e59409c0</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-11-11 00:00:00.0</Date1>
+        <Name>2019 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>b17b4b8f-6242-455e-bf11-dff88607b05a</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-12-08 00:00:00.0</Date1>
+        <Name>2019 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>3fd121c1-baf3-42e0-a7c0-8585483cbc3e</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2019-12-25 00:00:00.0</Date1>
+        <Name>2019 - Navidad</Name>
+        <C_NonBusinessDay_UU>f2b11919-e69b-4a21-88d9-343109c58f82</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-01-01 00:00:00.0</Date1>
+        <Name>2020 - Año nuevo</Name>
+        <C_NonBusinessDay_UU>e85a3e7a-885a-4290-845c-b378beb06362</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-01-06 00:00:00.0</Date1>
+        <Name>2020 - Epifanía - Día de los Reyes Magos</Name>
+        <C_NonBusinessDay_UU>38859ea8-b907-4588-bfd2-ab037079b064</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-03-23 00:00:00.0</Date1>
+        <Name>2020 - San José</Name>
+        <C_NonBusinessDay_UU>e1d619a2-1df3-42cb-87b9-4cf4a574b86b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-04-09 00:00:00.0</Date1>
+        <Name>2020 - Jueves Santo</Name>
+        <C_NonBusinessDay_UU>5a843313-cbfa-413a-8975-d68f4febed81</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-04-10 00:00:00.0</Date1>
+        <Name>2020 - Viernes Santo</Name>
+        <C_NonBusinessDay_UU>5d4c6146-678c-45f5-beb2-ccfa0e1c6c27</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-04-12 00:00:00.0</Date1>
+        <Name>2020 - Domingo de Pascua</Name>
+        <C_NonBusinessDay_UU>9f7da5a4-2215-4d4d-974f-7ca05454242f</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-05-01 00:00:00.0</Date1>
+        <Name>2020 - Día del trabajo</Name>
+        <C_NonBusinessDay_UU>c58ecf34-3d03-408a-837e-d81ba8a41bbd</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-05-25 00:00:00.0</Date1>
+        <Name>2020 - Ascensión de Jesús</Name>
+        <C_NonBusinessDay_UU>a2bddc45-b6c7-4307-b9ca-fd64e38354fb</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-06-15 00:00:00.0</Date1>
+        <Name>2020 - Corpus Christi</Name>
+        <C_NonBusinessDay_UU>aeef0088-83af-4588-9550-c4b09346f5f2</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-06-22 00:00:00.0</Date1>
+        <Name>2020 - Sagrado Corazón de Jesús</Name>
+        <C_NonBusinessDay_UU>d2548179-9d71-4c41-b7db-9e6df1d1a881</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-06-29 00:00:00.0</Date1>
+        <Name>2020 - San Pedro y San Pablo</Name>
+        <C_NonBusinessDay_UU>b731552d-f455-49d4-a2dc-1340a22f9327</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-07-20 00:00:00.0</Date1>
+        <Name>2020 - Día de la independencia</Name>
+        <C_NonBusinessDay_UU>0ae5e6cc-39dc-480a-bd6e-3cccb08f50ca</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-08-07 00:00:00.0</Date1>
+        <Name>2020 - Batalla de Boyacá</Name>
+        <C_NonBusinessDay_UU>5f2da2e1-e81c-433a-98e3-39e048d36b56</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-08-17 00:00:00.0</Date1>
+        <Name>2020 - Asunción de la Virgen</Name>
+        <C_NonBusinessDay_UU>240f0b92-3de2-4e2c-8e1f-231cf094ec4c</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-10-12 00:00:00.0</Date1>
+        <Name>2020 - Día de la raza</Name>
+        <C_NonBusinessDay_UU>7d35fcd7-5656-449b-9416-7f48dfc5b8a4</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-11-02 00:00:00.0</Date1>
+        <Name>2020 - Todos los Santos</Name>
+        <C_NonBusinessDay_UU>46151380-c07f-4206-8211-20d95e3fa8ee</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-11-16 00:00:00.0</Date1>
+        <Name>2020 - Independencia de Cartagena</Name>
+        <C_NonBusinessDay_UU>77d46d71-45a6-4445-a662-c15ca126ef4b</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-12-08 00:00:00.0</Date1>
+        <Name>2020 - Inmaculada Concepción</Name>
+        <C_NonBusinessDay_UU>091a34f7-1a52-4497-b275-0f4746bcda85</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <C_NonBusinessDay type="table">
+        <AD_Org_ID>0</AD_Org_ID>
+        <Date1>2020-12-25 00:00:00.0</Date1>
+        <Name>2020 - Navidad</Name>
+        <C_NonBusinessDay_UU>4f54d2a2-c212-47ca-a65d-d069669d8ccc</C_NonBusinessDay_UU>
+        <IsActive>true</IsActive>
+        <C_Calendar_ID reference="id">102</C_Calendar_ID>
+    </C_NonBusinessDay>
+    <SQLMandatory type="custom">
+        <DBType>ALL</DBType>
+        <statement><![CDATA[UPDATE ad_column SET isupdateable = 'N' WHERE ad_column_id IN (827, 836)]]></statement>
+    </SQLMandatory>
+</idempiere>

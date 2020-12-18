@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="AD_InfoColumn">
+ <row id="200005" trl="Y">
+  <value column="Name" original="Vendor">Proveedor</value>
+  <value column="Description" original="Current Vendor">Proveedor Actual</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="D">D</value>
+  <value column="Description" original="This product is no longer available">Este producto está descontinunado</value>
+  <value column="Help" original="The Discontinued check box indicates a product that has been discontinued.">La marca de descontinuado indica que un producto ha sido descontinuado.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+</idempiereTrl>

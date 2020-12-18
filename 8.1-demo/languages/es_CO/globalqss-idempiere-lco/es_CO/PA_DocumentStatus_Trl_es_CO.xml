@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="PA_DocumentStatus">
+ <row id="200000" trl="Y">
+  <value column="Name" original="Sales Orders received today">Órdenes de Venta recibidas hoy</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Pending Customer Shipments">Despachos de Cliente Pendientes</value>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Notice">Avisos</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Request">Solicitudes</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Workflow Activities">Actividades de Flujo de Trabajo</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Unprocessed Documents">Documentos sin Procesar</value>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="PP_Order_BOM">
+ <row trl="N" uuid="d5b6eb19-753e-47fb-900f-aae65f44aa6e">
+  <value column="Name" original="Patio Chair">Patio Chair</value>
+  <value column="Description" original="Nice Chair for outdoors">Nice Chair for outdoors</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="cffe9d88-d151-492f-9379-afe91f95aab9">
+  <value column="Name" original="Assembly Back Leg">Assembly Back Leg</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="16a95c5d-aba7-43dc-930d-56d792f084f5">
+  <value column="Name" original="Assembly Front Leg">Assembly Front Leg</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c06f70c8-467a-4c55-a018-d497f6ec15e5">
+  <value column="Name" original="Fertilizer #50">Fertilizer #50</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">50 # Bag of Lawn Fertilizer</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2a8d1d94-686b-4b20-bcfe-0078b3c225d0">
+  <value column="Name" original="Lawn Fertilizer">Lawn Fertilizer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="17de9067-bbd2-4053-bf76-e678e5ed7ec5">
+  <value column="Name" original="Fertilizer #50">Fertilizer #50</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">50 # Bag of Lawn Fertilizer</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5f6599d7-b43e-4427-9727-9ec60a0aa635">
+  <value column="Name" original="Lawn Fertilizer">Lawn Fertilizer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="09c92196-a8ac-47ce-8028-be3cb2c0386f">
+  <value column="Name" original="Fertilizer 100# BOM 1">Fertilizer 100# BOM 1</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c1660a18-df4f-47bb-a556-655512bf2b26">
+  <value column="Name" original="Fertilizer 100# BOM 1">Fertilizer 100# BOM 1</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a517f486-366a-4316-8fb3-cbccd37c9716">
+  <value column="Name" original="Fertilizer #50">Fertilizer #50</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">50 # Bag of Lawn Fertilizer</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c81acd48-088d-4fcd-9ddd-f5641028b6c5">
+  <value column="Name" original="Lawn Fertilizer">Lawn Fertilizer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bd300455-0ceb-4e73-97e4-d923e898925d">
+  <value column="Name" original="Fertilizer #50">Fertilizer #50</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">50 # Bag of Lawn Fertilizer</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c8163ac4-a85d-42a8-bb63-bcdecd22ff9b">
+  <value column="Name" original="Lawn Fertilizer">Lawn Fertilizer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c400f543-2a4d-4b35-9a3d-fec5993c1101">
+  <value column="Name" original="Fertilizer #50">Fertilizer #50</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">50 # Bag of Lawn Fertilizer</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="28d5a996-c62e-4bbd-a0cf-0544b7645e2e">
+  <value column="Name" original="Lawn Fertilizer">Lawn Fertilizer</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

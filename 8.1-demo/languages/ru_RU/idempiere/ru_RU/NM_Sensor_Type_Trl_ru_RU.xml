@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="NM_Sensor_Type">
+ <row id="1" trl="N">
+  <value column="Name" original="ДУТ">ДУТ</value>
+  <value column="Value" original="DUT">DUT</value>
+  <value column="Description" original="Датчик уровня топлива"/>
+  <value column="Help" original="ДУТ требует интервальной калибровки"/>
+ </row>
+ <row id="2" trl="N">
+  <value column="Name" original="Зажигание">Зажигание</value>
+  <value column="Value" original="IGN">IGN</value>
+  <value column="Description" original="Датчик включения зажигания"/>
+  <value column="Help" original="Датчик включения зажигания требует определения дискретных значений"/>
+ </row>
+ <row id="3" trl="N">
+  <value column="Name" original="ДРТ">ДРТ</value>
+  <value column="Value" original="DRT">DRT</value>
+  <value column="Description" original="Датчик расхода топлива"/>
+  <value column="Help" original="Датчик требует калибровки единицы отcчёта"/>
+ </row>
+ <row id="4" trl="N">
+  <value column="Name" original="ТЕМП">ТЕМП</value>
+  <value column="Value" original="TEMP">TEMP</value>
+  <value column="Description" original="Датчик температуры"/>
+  <value column="Help" original="Температурный сенсор требует интервальной калибровки"/>
+ </row>
+ <row id="5" trl="N">
+  <value column="Name" original="Кнопка">Кнопка</value>
+  <value column="Value" original="BUT">BUT</value>
+  <value column="Description" original="Сигнальная кнопка"/>
+  <value column="Help" original="Сигнальная кнопка"/>
+ </row>
+ <row id="6" trl="N">
+  <value column="Name" original="Кнопка статуса">Кнопка статуса</value>
+  <value column="Value" original="BUS">BUS</value>
+  <value column="Description" original="Кнопка статуса (занят/свободен)"/>
+  <value column="Help" original="Кнопка статуса системы"/>
+ </row>
+</idempiereTrl>

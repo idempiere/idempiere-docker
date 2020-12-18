@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="AD_Field">
+ <row id="1546" trl="N">
+  <value column="Name" original="Link Column">Link Column</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Link Column for Multi-Parent tables</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="3665" trl="N">
+  <value column="Name" original="Start Node">Start Node</value>
+  <value column="Description" original="Workflow Node, step or process">Workflow Node, step or process</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">The Workflow Node indicates a unique step or process in a Workflow.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4055" trl="N">
+  <value column="Name" original="Tax Amount">Tax Amount</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">Tax Amount for Credit Card transaction</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4121" trl="Y">
+  <value column="Name" original="Account Conversion Date">Date comptable</value>
+  <value column="Description" original="Accounting Conversion Date"/>
+  <value column="Help" original="The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account."/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4462" trl="Y">
+  <value column="Name" original="Business Partner / Sales Rep">Tiers à commissionner</value>
+  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission"/>
+  <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">Le tiers doit être fournisseur.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4725" trl="Y">
+  <value column="Name" original="Acknowledge">Accuser réception</value>
+  <value column="Description" original="System Notice acknowledged"/>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Une fois cette case cochée, la notification peut être supprimée.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="5092" trl="N">
+  <value column="Name" original="Driving Column">Driving Column</value>
+  <value column="Description" original="Column which controls all tabs in the workbench">Column which controls all tabs in the workbench</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="5899" trl="N">
+  <value column="Name" original="System Name">System Name</value>
+  <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">Name your Adempiere System installation, e.g. Joe Block, Inc.</value>
+  <value column="Help" original="The name if the system to differentiate support contracts">The name if the system to differentiate support contracts</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="6344" trl="N">
+  <value column="Name" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="8985" trl="N">
+  <value column="Name" original="Document No">Document No</value>
+  <value column="Description" original="Document sequence number of the document">Document sequence number of the document</value>
+  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)." xml:space="preserve"><![CDATA[The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in "<>".
+
+If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_<TableName>", where TableName is the actual name of the table (e.g. C_Order).]]></value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="9615" trl="N">
+  <value column="Name" original="Representative/Agent">Commercial</value>
+  <value column="Description" original="Sales Representative or Company Agent"/>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">Un commercial doit être enregistré comme utilisateur de l'application.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="10097" trl="N">
+  <value column="Name" original="Value">Value</value>
+  <value column="Description" original="Condition Value">Condition Value</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="10769" trl="N">
+  <value column="Name" original="Schema Type">Discount Type</value>
+  <value column="Description" original="Type of trade schema calculation">Type of trade discount calculation</value>
+  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">Type of procedure used to calculate the trade discount percentage</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="10886" trl="N">
+  <value column="Name" original="Overwrite Project">Overwrite Project</value>
+  <value column="Description" original="Overwrite the account segment Project with the value specified">Overwrite the account segment Project with the value specified</value>
+  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="11264" trl="N">
+  <value column="Name" original="Column SQL">Column SQL</value>
+  <value column="Description" original="Virtual Column (r/o)">Virtual Column (r/o)</value>
+  <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&#10;You can also use the syntax @SQL= to define a UI virtual column - this is calculated on the fly and can use context variables in the query, virtual UI columns are not searchable, and they are not shown in reports." xml:space="preserve"><![CDATA[You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.<br>
+Example: "Updated-Created" would list the age of the entry in days]]></value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="11799" trl="N">
+  <value column="Name" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="12732" trl="N">
+  <value column="Name" original="Language">Language</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="13179" trl="N">
+  <value column="Name" original="UserName">UserName</value>
+  <value column="Description" original="UserName / Login to use for login">UserName / Login to use for login</value>
+  <value column="Help" original="UserName / Login to use for the login&#10;Email of the responsible person for the system (registered in WebStore)">UserName / Login to use for the login
+Email of the responsible person for the system (registered in WebStore)</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="13424" trl="N">
+  <value column="Name" original="Mandatory Overwrite">Mandatory Overwrite</value>
+  <value column="Description" original="Overwrite Field Mandatory status">Overwrite Field Mandatory status</value>
+  <value column="Help" original="The field must have a value for the record to be saved to the database.">The field must have a value for the record to be saved to the database.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="13425" trl="N">
+  <value column="Name" original="Reference Overwrite">Reference Overwrite</value>
+  <value column="Description" original="System Reference - optional Overwrite">System Reference - optional Overwrite</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">You can overwrite the Display Type, but only use this if you aware of the consequences.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50066" trl="N">
+  <value column="Name" original="AD_Package_Exp_ID">AD_Package_Exp_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50067" trl="N">
+  <value column="Name" original="Processed">Processed</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50068" trl="N">
+  <value column="Name" original="IsActive">IsActive</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50069" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50070" trl="N">
+  <value column="Name" original="Organization">Organization</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50071" trl="N">
+  <value column="Name" original="Name of Package">Name of Package</value>
+  <value column="Description" original="Name of Package">Name of Package</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50075" trl="N">
+  <value column="Name" original="Creation Directory">Creation Directory</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50076" trl="N">
+  <value column="Name" original="Created By">Created By</value>
+  <value column="Description" original="User who created the package">User who created the package</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50077" trl="N">
+  <value column="Name" original="Create Date">Create Date</value>
+  <value column="Description" original="Date when Package was created">Date when Package was created</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50080" trl="N">
+  <value column="Name" original="Processed By">Processed By</value>
+  <value column="Description" original="User who Processed the package">User who Processed the package</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50081" trl="N">
+  <value column="Name" original="Processed Date">Processed Date</value>
+  <value column="Description" original="Date when the package was processed">Date when the package was processed</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50082" trl="N">
+  <value column="Name" original="Description of Package">Description of Package</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50085" trl="N">
+  <value column="Name" original="Export Package">Export Package</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50086" trl="N">
+  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_Package_Exp_Detail_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50087" trl="N">
+  <value column="Name" original="Item Name">Item Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50088" trl="N">
+  <value column="Name" original="Processing">Processing</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50089" trl="N">
+  <value column="Name" original="IsActive">IsActive</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50090" trl="N">
+  <value column="Name" original="Processed">Processed</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50091" trl="N">
+  <value column="Name" original="Package Build ID">Package Build ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50092" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50093" trl="N">
+  <value column="Name" original="Organization">Organization</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50096" trl="N">
+  <value column="Name" original="Type">Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50097" trl="N">
+  <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50099" trl="N">
+  <value column="Name" original="Source File Directory">Source File Directory</value>
+  <value column="Description" original="Current location of source file">Current location of source file</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50103" trl="N">
+  <value column="Name" original="Table">Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50108" trl="N">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50109" trl="N">
+  <value column="Name" original="Process">Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50110" trl="N">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50112" trl="N">
+  <value column="Name" original="Workbench">Workbench</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50117" trl="N">
+  <value column="Name" original="Notes">Notes</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50166" trl="Y">
+  <value column="Name" original="Configured Value">Clé de recherche</value>
+  <value column="Description" original="Value for the configuration key">Clé de recherche de l'enregistrement. Est unique</value>
+  <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)">Permet de rechercher facilement un enregistrement
+Si le champ est laissé vide lors de la création, l'application en génère une automatiquement.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53246" trl="Y">
+  <value column="Name" original="Reference List">Action</value>
+  <value column="Description" original="Reference List based on Table"/>
+  <value column="Help" original="The Reference List field indicates a list of reference values from a database tables.  Reference lists populate drop down list boxes in data entry screens"/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53360" trl="N">
+  <value column="Name" original="Value">Value</value>
+  <value column="Description" original="Condition Value">Condition Value</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53375" trl="N">
+  <value column="Name" original="Resource">Resource</value>
+  <value column="Description" original="Resource">Resource</value>
+  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53378" trl="N">
+  <value column="Name" original="Business Partner ">Business Partner </value>
+  <value column="Description" original="Identifies a Business Partner to Subcontrating">Identifies a Business Partner to Subcontrating</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53380" trl="N">
+  <value column="Name" original="Valid from">Valid from</value>
+  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid From date indicates the first day of a date range.
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53381" trl="N">
+  <value column="Name" original="Valid to">Valid to</value>
+  <value column="Description" original="Valid to including this date (last day)">Valid to including this date (last day)</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid To date indicates the last day of a date range
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53449" trl="N">
+  <value column="Name" original="Start Node">Start Node</value>
+  <value column="Description" original="Workflow Node step or process">Workflow Node step or process</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">The Workflow Node indicates a unique step or process in a Workflow.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53480" trl="N">
+  <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53490" trl="N">
+  <value column="Name" original="Valid from">Valid from</value>
+  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+
+The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53512" trl="N">
+  <value column="Name" original="Warehouse">Warehouse</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.
+
+Warehouse place where you locate and control the products</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53513" trl="N">
+  <value column="Name" original="Resource">Resource</value>
+  <value column="Description" original="Resource">Resource</value>
+  <value column="Help" original="A manufacturing resource is a place where a product will be made.">A manufacturing resource is a place where a product will be made.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53517" trl="N">
+  <value column="Name" original="BOM &amp; Formula" xml:space="preserve"><![CDATA[BOM & Formula]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product." xml:space="preserve"><![CDATA[The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM & Formula for the entity will be the BOM/Formula which has the same name as the product.]]></value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53518" trl="N">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="Workflow or combination of tasks">Workflow or combination of tasks</value>
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
+
+The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53523" trl="N">
+  <value column="Name" original="Promised Delivery Time">Promised Delivery Time</value>
+  <value column="Description" original="Promised days between order and delivery">Promised days between order and delivery</value>
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.
+
+You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53533" trl="N">
+  <value column="Name" original="Working Time">Working Time</value>
+  <value column="Description" original="Workflow Simulation Execution Time">Workflow Simulation Execution Time</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Amount of time the performer of the activity needs to perform the task in Duration Unit
+
+In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53653" trl="N">
+  <value column="Name" original="Acknowledge">Acknowledge</value>
+  <value column="Description" original="System Notice acknowledged">System Notice acknowledged</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">The Acknowledged checkbox indicates if this notice does not need to be retained.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53742" trl="N">
+  <value column="Name" original="Accumulated Qty">Accumulated Qty</value>
+  <value column="Description" original="Total Quantity">Total Quantity</value>
+  <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">Sum of the quantities
+
+This field shows the sum of the quantities of the product that have had movements.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53744" trl="N">
+  <value column="Name" original="Accumulated Amt">Accumulated Amt</value>
+  <value column="Description" original="Total Amount">Total Amount</value>
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">Sum of all amounts
+
+This field shows the sum of the amounts of the product that have had movements.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53904" trl="N">
+  <value column="Name" original="Version No">Version No</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54035" trl="N">
+  <value column="Name" original="Ordered Quantity">Ordered Quantity</value>
+  <value column="Description" original="Ordered Quantity">Ordered Quantity</value>
+  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">The Ordered Quantity indicates the quantity of a product that was ordered.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54038" trl="N">
+  <value column="Name" original="Instance">Instance</value>
+  <value column="Description" original="Product Attribute Set Instance">Product Attribute Set Instance</value>
+  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54039" trl="N">
+  <value column="Name" original="Instance To">Instance To</value>
+  <value column="Description" original="Target Product Attribute Set Instance">Target Product Attribute Set Instance</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54133" trl="N">
+  <value column="Name" original="Resource/Plant">Resource/Plant</value>
+  <value column="Description" original="Resource/Plant">Resource/Plant</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54139" trl="N">
+  <value column="Name" original="Date Ordered">Date Ordered</value>
+  <value column="Description" original="Date of Order">Date of Order</value>
+  <value column="Help" original="Indicates the Date an item was ordered.&#10;Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.">Indicates the Date an item was ordered.
+Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54140" trl="N">
+  <value column="Name" original="Date Promised">Date Promised</value>
+  <value column="Description" original="Date Order was promised">Date Order was promised</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">The Date Promised indicates the date, if any, that an Order was promised for.
+Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54145" trl="N">
+  <value column="Name" original="Date Start">Date Start</value>
+  <value column="Description" original="Indicate the real date to start">Indicate the real date to start</value>
+  <value column="Help" original="It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.">It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54146" trl="N">
+  <value column="Name" original="Finish Date">Finish Date</value>
+  <value column="Description" original="Finish or (planned) completion date">Finish or (planned) completion date</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">The finish date is used to indicate when the project is expected to be completed or has been completed.
+
+To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54196" trl="N">
+  <value column="Name" original="Company Agent">Company Agent</value>
+  <value column="Description" original="Company Agent">Company Agent</value>
+  <value column="Help" original="Company Agent to Distribution Order">Company Agent to Distribution Order</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54205" trl="N">
+  <value column="Name" original="Transit Warehouse">Transit Warehouse</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54381" trl="N">
+  <value column="Name" original="Target Warehouse">Target Warehouse</value>
+  <value column="Description" original="Target Warehouse and Service Point">Target Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="55187" trl="N">
+  <value column="Name" original="Create from a Window">Create from a Window</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56011" trl="N">
+  <value column="Name" original="Current Period">Current Period</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56190" trl="N">
+  <value column="Name" original="Period 1 %">Period 1 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56191" trl="N">
+  <value column="Name" original="Period 2 %">Period 2 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56192" trl="N">
+  <value column="Name" original="Period 3 %">Period 3 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56193" trl="N">
+  <value column="Name" original="Period 4 %">Period 4 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56194" trl="N">
+  <value column="Name" original="Period 5 %">Period 5 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56195" trl="N">
+  <value column="Name" original="Period 6 %">Period 6 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56196" trl="N">
+  <value column="Name" original="Period 7 %">Period 7 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56197" trl="N">
+  <value column="Name" original="Period 8 %">Period 8 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56198" trl="N">
+  <value column="Name" original="Period 9 %">Period 9 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56199" trl="N">
+  <value column="Name" original="Period 10 %">Period 10 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56200" trl="N">
+  <value column="Name" original="Period 11 %">Period 11 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56201" trl="N">
+  <value column="Name" original="Period 12 %">Period 12 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56202" trl="N">
+  <value column="Name" original="Period 13 %">Period 13 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56203" trl="N">
+  <value column="Name" original="Period 14 %">Period 14 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56207" trl="N">
+  <value column="Name" original="Script">Script</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56210" trl="N">
+  <value column="Name" original="Name">Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="57331" trl="N">
+  <value column="Name" original="Acknowledge">Acknowledge</value>
+  <value column="Description" original="System Notice acknowledged">System Notice acknowledged</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">The Acknowledged checkbox indicates if this notice does not need to be retained.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="57761" trl="N">
+  <value column="Name" original="Customer Return">Shipment/Receipt</value>
+  <value column="Description" original="Customer Return Document">Material Shipment Document</value>
+  <value column="Help" original="The Customer Return">The Material Shipment / Receipt </value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="57900" trl="N">
+  <value column="Name" original="Return to Vendor">Receipt</value>
+  <value column="Description" original="Return to Vendor Document">Material Receipt Document</value>
+  <value column="Help" original="The Return to Vendor">The Material Shipment / Receipt </value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="58101" trl="N">
+  <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="58114" trl="N">
+  <value column="Name" original="Valid from">Valid from</value>
+  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+
+The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="58771" trl="N">
+  <value column="Name" original="Import Product Planning Data">Import Product Planning Data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59028" trl="N">
+  <value column="Name" original="Account Date">Account Date</value>
+  <value column="Description" original="Accounting Date">Accounting Date</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59306" trl="N">
+  <value column="Name" original="ID">ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59449" trl="N">
+  <value column="Name" original="Import Inventory Move">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59499" trl="N">
+  <value column="Name" original="Import Fixed Asset">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59500" trl="N">
+  <value column="Name" original="Processed">Processed</value>
+  <value column="Description" original="The document has been processed">The document has been processed</value>
+  <value column="Help" original="The Processed checkbox indicates that a document has been processed.">The Processed checkbox indicates that a document has been processed.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59822" trl="N">
+  <value column="Name" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="60944" trl="N">
+  <value column="Name" original="Copy From Cash Plan">Copy From Cash Plan</value>
+  <value column="Description" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+  <value column="Help" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62015" trl="N">
+  <value column="Name" original="Create/Update Production lines">Create/Update Production lines</value>
+  <value column="Description" original="Process which will create production lines based on BOM, or recreate with an optional adjusted quantity">Process which will create production lines based on BOM, or recreate with an optional adjusted quantity</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62016" trl="N">
+  <value column="Name" original="Complete Production">Complete Production</value>
+  <value column="Description" original="Complete Production">Complete Production</value>
+  <value column="Help" original="Indication that this is complete">Indication that this is complete</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62236" trl="N">
+  <value column="Name" original="Sales Rep Name">Sales Rep Name</value>
+  <value column="Description" original="Sales Representative Name">Sales Representative Name</value>
+  <value column="Help" original="The name of the sales rep that this dashboard relates to.">The name of the sales rep that this dashboard relates to.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62779" trl="N">
+  <value column="Name" original="Language">Language</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62991" trl="N">
+  <value column="Name" original="Expected Close">Expected Close</value>
+  <value column="Description" original="Expected Close">Expected Close</value>
+  <value column="Help" original="The Expected Close Date indicates the expected last or final date">The Expected Close Date indicates the expected last or final date</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200585" trl="N">
+  <value column="Name" original="Only Currency">Only Currency</value>
+  <value column="Description" original="Restrict accepting only this currency">Restrict accepting only this currency</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">The Only Currency field indicates that this bank account accepts only the currency identified here.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200723" trl="N">
+  <value column="Name" original="Void It">Void It</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200816" trl="N">
+  <value column="Name" original="Only Currency">Currency</value>
+  <value column="Description" original="Restrict accepting only this currency">The Currency for this record</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">Indicates the Currency to be used when processing or reporting on this record</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200858" trl="N">
+  <value column="Name" original="Reference Overwrite">Reference</value>
+  <value column="Description" original="System Reference - optional Overwrite">System Reference and Validation</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">The Reference could be a display type, list or table validation.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200948" trl="N">
+  <value column="Name" original="Attachment Store">AD_StorageProvider_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201245" trl="N">
+  <value column="Name" original="Ship Date (For FedEx only)">Ship Date</value>
+  <value column="Description" original="Shipment Date/Time">Shipment Date/Time</value>
+  <value column="Help" original="Actual Date/Time of Shipment (pick up)">Actual Date/Time of Shipment (pick up)</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201255" trl="N">
+  <value column="Name" original="Duties Shipper Account (For FedEx only)">Duties Shipper Account</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201256" trl="N">
+  <value column="Name" original="Partner Location (For UPS only)">Partner Location</value>
+  <value column="Description" original="Identifies the (ship to) address for this Business Partner">Identifies the (ship to) address for this Business Partner</value>
+  <value column="Help" original="The Partner address indicates the location of a Business Partner">The Partner address indicates the location of a Business Partner</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201262" trl="N">
+  <value column="Name" original="Future Day Shipment (For FedEx only)">Future Day Shipment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201264" trl="N">
+  <value column="Name" original="Home Delivery Premium Type (For FedEx only)">Home Delivery Premium Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201265" trl="N">
+  <value column="Name" original="Phone Number (For FedEx only)">Phone Number</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201266" trl="N">
+  <value column="Name" original="Date (For FedEx only)">Date</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201267" trl="N">
+  <value column="Name" original="Hazardous Materials (For FedEx only)">Hazardous Materials</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201268" trl="N">
+  <value column="Name" original="Dot Hazard Class or Division (For FedEx only)">Dot Hazard Class or Division</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201269" trl="N">
+  <value column="Name" original="Cargo Aircraft Only (For FedEx only)">Cargo Aircraft Only</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201270" trl="N">
+  <value column="Name" original="Accessible (For FedEx only)">Accessible</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201271" trl="N">
+  <value column="Name" original="Dry Ice (For FedEx only)">Dry Ice</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201272" trl="N">
+  <value column="Name" original="Dry Ice Weight (For FedEx only)">Dry Ice Weight</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201273" trl="N">
+  <value column="Name" original="Hold At Location (For FedEx only)">Hold At Location</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201274" trl="N">
+  <value column="Name" original="Hold Address (For FedEx only)">Hold Address</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201354" trl="N">
+  <value column="Name" original="Added Handling (For UPS only)">Added Handling</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201355" trl="N">
+  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">Delivery Confirmation Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201358" trl="N">
+  <value column="Name" original="Verbal Confirmation (For UPS only)">Verbal Confirmation</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202210" trl="N">
+  <value column="Name" original="Index Validate">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202234" trl="N">
+  <value column="Name" original="Sql WHERE">Sql WHERE</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">Fully qualified SQL WHERE clause</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means &quot;tablename.columnname&quot;.">The Where Clause indicates the SQL WHERE clause to use for record selection. The WHERE clause is added to the query. Fully qualified means "tablename.columnname".</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202235" trl="N">
+  <value column="Name" original="Sql FROM">Sql FROM</value>
+  <value column="Description" original="SQL FROM clause">SQL FROM clause</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. Do not include the FROM itself.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202252" trl="N">
+  <value column="Name" original="View Validate">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202325" trl="N">
+  <value column="Name" original="Cost Adjustment">Phys.Inventory</value>
+  <value column="Description" original="Inventory Cost Adjustment">Parameters for a Physical Inventory</value>
+  <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">The Physical Inventory indicates a unique parameters for a physical inventory.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202443" trl="N">
+  <value column="Name" original="Purchase Order Line">Purchase Order Line</value>
+  <value column="Description" original="Purchase Order Line">Purchase Order Line</value>
+  <value column="Help" original="The Purchase Order Line is a unique identifier for a line in an order.">The Purchase Order Line is a unique identifier for a line in an order.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="203108" trl="N">
+  <value column="Name" original="ViewID Column">ViewID Column</value>
+  <value column="Description" original="Name of unique column in a view. value of this column will save to t_selection table">Name of unique column in a view. value of this column will save to t_selection table</value>
+  <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="203325" trl="N">
+  <value column="Name" original="Country Group">Country Group</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="203326" trl="N">
+  <value column="Name" original="To">To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="205154" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="205174" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="205898" trl="N">
+  <value column="Name" original="Display Search Key">Display Search Key</value>
+  <value column="Description" original="Displays Search Key in the tree">Displays Search Key in the tree</value>
+  <value column="Help" original="The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name">The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name</value>
+  <value column="Placeholder" original=""/>
+ </row>
+</idempiereTrl>

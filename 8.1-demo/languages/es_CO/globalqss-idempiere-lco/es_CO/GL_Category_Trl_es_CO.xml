@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="GL_Category">
+ <row id="0" trl="Y">
+  <value column="Name" original="None">Ninguna</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="Manual">Manual</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="AR Invoice">AR Invoice</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="AR Receipt">AR Receipt</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Material Management">Material Management</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="AP Invoice">AP Invoice</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="AP Payment">AP Payment</value>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="Payroll">Payroll</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Manufacturing">Manufacturing</value>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Distribution">Distribution</value>
+ </row>
+</idempiereTrl>

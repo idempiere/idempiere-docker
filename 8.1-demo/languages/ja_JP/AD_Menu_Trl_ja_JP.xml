@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ja_JP" table="AD_Menu">
+ <row id="100" trl="Y">
+  <value column="Name" original="Invoice Inquiry">請求レポート照会</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Application Dictionary">アプリケーション辞書</value>
+  <value column="Description" original="Maintain Application Dictionary">アプリケーション辞書</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="General Rules">全般設定</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Client Rules">クライアント</value>
+  <value column="Description" original="Maintain Client Rules">クライアント設定をします。</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Data">データ</value>
+  <value column="Description" original="Maintain Data">データを設定します。</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Performance Measurement">パフォーマンス測定</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Utility">ユーティリティ</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Project Management">プロジェクト管理</value>
+  <value column="Description" original="">プロジェクト管理</value>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="System Rules">システム設定</value>
+  <value column="Description" original="General System Rules">システム設定</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Data Import">データインポート</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Accounting Rules">会計設定</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Business Partner Rules">取引先管理セットアップ</value>
+  <value column="Description" original="">取引先を管理するための設定をします。</value>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Quote-to-Invoice">販売管理</value>
+  <value column="Description" original="">販売管理</value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Material Management Rules">品目マスタ管理</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Organization Rules">組織管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Material Management">在庫管理</value>
+  <value column="Description" original="">在庫管理</value>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Requisition-to-Invoice">購買管理</value>
+  <value column="Description" original="">購買管理</value>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="System Admin">システム管理</value>
+  <value column="Description" original="">システム管理</value>
+ </row>
+ <row id="236" trl="N">
+  <value column="Name" original="Open Items">債権債務管理＆資金管理</value>
+  <value column="Description" original="">債権債務管理＆資金管理</value>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Partner Relations">取引先管理</value>
+  <value column="Description" original="Customer Relations and Partner Management">取引先管理</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Service">サービス</value>
+  <value column="Description" original="Service Management">サービス</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Sales and Marketing">販売管理設定</value>
+  <value column="Description" original="">販売管理設定</value>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Performance Analysis">会計管理</value>
+  <value column="Description" original="">会計管理</value>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Financial Reporting">会計レポート</value>
+  <value column="Description" original="">会計レポート</value>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Printing">印刷設定</value>
+  <value column="Description" original="Print Definition"/>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Assets">資産管理</value>
+  <value column="Description" original="">資産管理</value>
+ </row>
+ <row id="357" trl="Y">
+  <value column="Name" original="Product Attributes">品目属性管理</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Security">セキュリティ管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="456" trl="Y">
+  <value column="Name" original="Server">サーバ</value>
+  <value column="Description" original="iDempiere Server Maintenance">Compiereサーバを設定します。</value>
+ </row>
+ <row id="457" trl="Y">
+  <value column="Name" original="Sales Orders">受注管理</value>
+  <value column="Description" original="">受注管理</value>
+ </row>
+ <row id="458" trl="Y">
+  <value column="Name" original="Sales Invoices">売上請求管理</value>
+  <value column="Description" original="">売上請求管理</value>
+ </row>
+ <row id="459" trl="Y">
+  <value column="Name" original="Shipments">出荷納品管理</value>
+  <value column="Description" original="">出荷納品管理</value>
+ </row>
+ <row id="501" trl="Y">
+  <value column="Name" original="Workflow">ワークフロー管理</value>
+  <value column="Description" original="iDempiere Workflow">ワークフロー管理</value>
+ </row>
+ <row id="522" trl="Y">
+  <value column="Name" original="Costing">原価管理</value>
+  <value column="Description" original="">
+		</value>
+ </row>
+ <row id="528" trl="Y">
+  <value column="Name" original="Request">リクエスト管理</value>
+  <value column="Description" original="">リクエスト管理</value>
+ </row>
+ <row id="566" trl="Y">
+  <value column="Name" original="Collaboration">コラボレーション</value>
+  <value column="Description" original="Collaboration and Content Management">コラボレーション、コンテントマネージメント</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Application Packaging">アプリケーション パッケージング</value>
+  <value column="Description" original="Import and export packaging">パッケージのエクスポートとインポートを行います</value>
+ </row>
+ <row id="53098" trl="N">
+  <value column="Name" original="Replication Data">Replication Data</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53133" trl="N">
+  <value column="Name" original="Customer Service">Customer Service</value>
+  <value column="Description" original="Customer Related Assets">Customer Related Assets</value>
+ </row>
+ <row id="53139" trl="N">
+  <value column="Name" original="Asset Transactions ">資産取引(計上・分割・除却・移動）</value>
+  <value column="Description" original="Asset Transactions (Addition, Disposal, Split &amp; Transfer)">資産取引(計上・分割・除却・移動）</value>
+ </row>
+ <row id="53149" trl="N">
+  <value column="Name" original="Depreciation Processing">償却処理</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">償却処理</value>
+ </row>
+ <row id="53155" trl="N">
+  <value column="Name" original="Reporting">Reporting</value>
+  <value column="Description" original="Reporting for fixed assets">Reporting for fixed assets</value>
+ </row>
+ <row id="53171" trl="N">
+  <value column="Name" original="Depreciation Setup">償却設定</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">償却設定</value>
+ </row>
+ <row id="53242" trl="N">
+  <value column="Name" original="Returns">返品管理</value>
+  <value column="Description" original="">返品管理</value>
+ </row>
+ <row id="53247" trl="N">
+  <value column="Name" original="EDI">EDI</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53296" trl="N">
+  <value column="Name" original="Manufacturing">生産管理(Manufacturing Lite)</value>
+  <value column="Description" original="">生産管理</value>
+ </row>
+ <row id="53363" trl="N">
+  <value column="Name" original="Sales Management">見込顧客管理</value>
+  <value column="Description" original="">見込顧客管理</value>
+ </row>
+</idempiereTrl>

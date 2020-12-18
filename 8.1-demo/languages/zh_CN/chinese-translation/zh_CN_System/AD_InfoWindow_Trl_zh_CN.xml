@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_InfoWindow">
+ <row id="200000" trl="Y">
+  <value column="Name" original="Product Info">产品信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Business Partner Info">业务伙伴</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Order Info">订单信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Invoice Info">发票信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Shipment Info">收发信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Payment Info">付款信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Resource Info">资源信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Asset Info">资产信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7d84229d-cf1f-479d-92c4-5226916b2b49">
+  <value column="Name" original="MRP Info">MRP 信息</value>
+  <value column="Description" original="Display MRP Info and Calculate Material Plan">Display MRP Info and Calculate Material Plan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6f9eb400-522a-4080-9f12-900c3c707e68">
+  <value column="Name" original="Generate Handling Units from Scanner">生成处理单元标签</value>
+  <value column="Description" original="">从条码枪生成处理单元标签</value>
+  <value column="Help" original="Users are able to create new Handling Units from scanned Batches. As output of this process are newly generated Handling Units and Inventory Moves from Transit Warehouse to Destination Warehouse based on scanned Distribution Orders.&#10;">Users are able to create new Handling Units from scanned Batches. As output of this process are newly generated Handling Units and Inventory Moves from Transit Warehouse to Destination Warehouse based on scanned Distribution Orders.
+</value>
+ </row>
+ <row trl="N" uuid="0a229594-d067-4a12-8ebd-605ee92a1430">
+  <value column="Name" original="Generate In/Outbound Order">生成入库/出库订单</value>
+  <value column="Description" original="This Window allows to generate a new document as the result of gathering Sales Orders, Manufacturing Orders, Distribution Orders based on several criteria.">生成联合了各种单据的入库订单</value>
+  <value column="Help" original="Warehouse, Order, Document Type, Promised Date range, Ordered Dates, Business Partner, Country, Zip Code, Product and Shipper, these parameters can be configured leveraging the Smart Browse artifact.&#10;Thus, it is required to previously define those parameters to be used in orther to determine wich products are to be included in the Picking Orders, these paraneters are:&#10;&#10;*Area Type&#10;*Section type&#10;*Overwrite Delivery Rule&#10;*Generate Picking List&#10;*Print Picking List&#10;*Stand-by Location&#10;*Document Status for the Picking Order">Warehouse, Order, Document Type, Promised Date range, Ordered Dates, Business Partner, Country, Zip Code, Product and Shipper, these parameters can be configured leveraging the Smart Browse artifact.
+Thus, it is required to previously define those parameters to be used in orther to determine wich products are to be included in the Picking Orders, these paraneters are:
+
+*Area Type
+*Section type
+*Overwrite Delivery Rule
+*Generate Picking List
+*Print Picking List
+*Stand-by Location
+*Document Status for the Picking Order</value>
+ </row>
+ <row trl="Y" uuid="2b6d5ee7-2c43-454d-9d81-014642066b99">
+  <value column="Name" original="Outbound Orders To Shipments">生成发货单</value>
+  <value column="Description" original="">从出库订单生成发货单</value>
+  <value column="Help" original="User able to create Shipments based on outbound orders. Output: Shipment to Customer">用户可以根据出库订单创建发货单（客户）。</value>
+ </row>
+ <row trl="N" uuid="84059d94-76d3-457a-9b49-30ca8bfb9930">
+  <value column="Name" original="Generate Movement Manual IW">生成移库单</value>
+  <value column="Description" original="Generate Movements from Distribution Order">Generate Movements from Distribution Order</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="30653f75-a278-4409-9ccd-71dd39a3bfec">
+  <value column="Name" original="IN/Outbound Order Info">出入订单</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="67af828a-46fc-48c9-9f7c-8b0b7de811c8">
+  <value column="Name" original="Distribution Order Info">配送订单</value>
+  <value column="Description" original="The Distribution Info window displays basic information on Distribution Orders and provides a quick method to search for them.">The Distribution Info window displays basic information on Distribution Orders and provides a quick method to search for them.</value>
+  <value column="Help" original="The Distribution Info window displays basic information on Distribution Orders and provides a quick method to search for them.">The Distribution Info window displays basic information on Distribution Orders and provides a quick method to search for them.</value>
+ </row>
+ <row trl="N" uuid="e303a152-d65d-415a-96d1-7d4c1395e24c">
+  <value column="Name" original="User/Contact">用户信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="bf60d308-e171-4ab3-a827-efa17a203607">
+  <value column="Name" original="Order Lines Info">订单明细</value>
+  <value column="Description" original="The Order Line Info window displays information related to customer and vendor Order Lines.">The Order Line Info window displays information related to customer and vendor Order Lines.</value>
+  <value column="Help" original="The Order Line Info window displays information related to customer and vendor Order Lines.">The Order Line Info window displays information related to customer and vendor Order Lines.</value>
+ </row>
+ <row trl="N" uuid="b9b41d99-1208-4347-af5b-0c54721b558c">
+  <value column="Name" original="Purchasing">采购信息</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="016a495f-ef4b-4f5d-94cd-83a45ab905f5">
+  <value column="Name" original="Payment Selection Info">付款选择</value>
+  <value column="Description" original="The PaySelection Info window displays information related to Payment Selections.">The PaySelection Info window displays information related to Payment Selections.</value>
+  <value column="Help" original="The PaySelection Info window displays information related to Payment Selections.">The PaySelection Info window displays information related to Payment Selections.</value>
+ </row>
+ <row trl="N" uuid="f01898ca-7398-4090-82c2-88bb6461a77d">
+  <value column="Name" original="Transactions (Out)">出库事务</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5941878c-743e-43df-a072-e44eadfdc80d">
+  <value column="Name" original="Distr. Order Lines">配送明细</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,300 @@
+[Account_Value],[Account_Name],[Account_Description],[Account_Type],[Account_Sign],[Account_Document],[Account_Summary],[Default_Account],[Account_Parent],[Balance Sheet],[Balance Sheet_Name],[US 1120 Balance Sheet],US 1120 Balance Sheet_Name,[Profit & Loss],[Profit & Loss_Name],[US 1120 Income Statement],[US 1120 Income Statement_Name],[Cash Flow],[Cash Flow_Name],,,,
+Aktiva,Aktiva,Aktiva,Asset,,,Yes,,,Aktiva,Aktiva,,,,,,,,,,,,
+AA,A. Anlagevermögen,A. Anlagevermögen,Asset,,,Yes,,Aktiva,AA,A. Anlagevermögen,,,,,,,,,,,,
+AA-I,I. Immaterielle Vermögensgegenstände,I. Immaterielle Vermögensgegenstände,Asset,,,Yes,,AA,AA-I,I. Immaterielle Vermögensgegenstände,,,,,,,,,,,,
+AA-I-1,1. Selbst geschaffene gewerbliche Schutzrechte,1. Selbst geschaffene gewerbliche Schutzrechte und ähnliche Rechte und Werte,Asset,,,Yes,,AA-I,AA-I-1,1. Selbst geschaffene gewerbliche Schutzrechte,,,,,,,,,,,,
+AA-I-2,"2. erworbene Konzessionen, gewerbliche Schutzrechte","2. entgeltlich erworbene Konzessionen, gewerbliche Schutzrechte und ähnliche Rechte und Werte sowie Lizenzen an solchen Rechten und Werten",Asset,,,Yes,,AA-I,AA-I-2,"2. erworbene Konzessionen, gewerbliche Schutzrechte",,,,,,,,,,,,
+AA-I-3,3. Geschäfts- oder Firmenwert,3. Geschäfts- oder Firmenwert,Asset,,,Yes,,AA-I,AA-I-3,3. Geschäfts- oder Firmenwert,,,,,,,,,,,,
+AA-I-4,4. geleistete Anzahlungen,4. geleistete Anzahlungen,Asset,,,Yes,,AA-I,AA-I-4,4. geleistete Anzahlungen,,,,,,,,,,,,
+AA-II,II. Sachanlagen,II. Sachanlagen,Asset,,,Yes,,AA,AA-II,II. Sachanlagen,,,,,,,,,,,,
+AA-II-1,"1. Grundstücke, grundstücksgleiche Rechte, Bauten","1. Grundstücke, grundstücksgleiche Rechte und Bauten einschließlich der Bauten auf fremden Grundstücken",Asset,,,Yes,,AA-II,AA-II-1,"1. Grundstücke, grundstücksgleiche Rechte, Bauten",,,,,,,,,,,,
+AA-II-2,2. technische Anlagen und Maschinen,2. technische Anlagen und Maschinen,Asset,,,Yes,,AA-II,AA-II-2,2. technische Anlagen und Maschinen,,,,,,,,,,,,
+AA-II-3,"3. andere Anlagen, Betriebs- und Geschäftsausstatt.","3. andere Anlagen, Betriebs- und Geschäftsausstattung",Asset,,,Yes,,AA-II,AA-II-3,"3. andere Anlagen, Betriebs- und Geschäftsausstatt.",,,,,,,,,,,,
+AA-II-4,4. geleistete Anzahlungen und Anlagen im Bau,4. geleistete Anzahlungen und Anlagen im Bau,Asset,,,Yes,,AA-II,AA-II-4,4. geleistete Anzahlungen und Anlagen im Bau,,,,,,,,,,,,
+AA-III,III. Finanzanlagen,III. Finanzanlagen,Asset,,,Yes,,AA,AA-III,III. Finanzanlagen,,,,,,,,,,,,
+AA-III-1,1. Anteile an verbundenen Unternehmen,1. Anteile an verbundenen Unternehmen,Asset,,,Yes,,AA-III,AA-III-1,1. Anteile an verbundenen Unternehmen,,,,,,,,,,,,
+AA-III-2,2. Ausleihungen an verbundene Unternehmen,2. Ausleihungen an verbundene Unternehmen,Asset,,,Yes,,AA-III,AA-III-2,2. Ausleihungen an verbundene Unternehmen,,,,,,,,,,,,
+AA-III-3,3. Beteiligungen,3. Beteiligungen,Asset,,,Yes,,AA-III,AA-III-3,3. Beteiligungen,,,,,,,,,,,,
+AA-III-4,"4. Ausleihungen an Unternehmen, mit Beteiligung","4. Ausleihungen an Unternehmen, mit denen ein Beteiligungsverhältnis besteht",Asset,,,Yes,,AA-III,AA-III-4,"4. Ausleihungen an Unternehmen, mit Beteiligung",,,,,,,,,,,,
+AA-III-5,5. Wertpapiere des Anlagevermögens,5. Wertpapiere des Anlagevermögens,Asset,,,Yes,,AA-III,AA-III-5,5. Wertpapiere des Anlagevermögens,,,,,,,,,,,,
+AA-III-6,6. sonstige Ausleihungen,6. sonstige Ausleihungen,Asset,,,Yes,,AA-III,AA-III-6,6. sonstige Ausleihungen,,,,,,,,,,,,
+AB,B. Umlaufvermögen,B. Umlaufvermögen,Asset,,,Yes,,Aktiva,AB,B. Umlaufvermögen,,,,,,,,,,,,
+AB-I,I. Vorräte,I. Vorräte,Asset,,,Yes,,AB,AB-I,I. Vorräte,,,,,,,,,,,,
+AB-I-1,1. Roh- Hilfs- und Betriebsstoffe,1. Roh- Hilfs- und Betriebsstoffe,Asset,,,Yes,,AB-I,AB-I-1,1. Roh- Hilfs- und Betriebsstoffe,,,,,,,,,,,,
+AB-I-2,"2. unfertige Erzeugnisse, unfertige Leistungen","2. unfertige Erzeugnisse, unfertige Leistungen",Asset,,,Yes,,AB-I,AB-I-2,"2. unfertige Erzeugnisse, unfertige Leistungen",,,,,,,,,,,,
+AB-I-3,3. fertige Erzeugnisse und Waren,3. fertige Erzeugnisse und Waren,Asset,,,Yes,,AB-I,AB-I-3,3. fertige Erzeugnisse und Waren,,,,,,,,,,,,
+AB-I-4,4. geleistete Anzahlungen,4. geleistete Anzahlungen,Asset,,,Yes,,AB-I,AB-I-4,4. geleistete Anzahlungen,,,,,,,,,,,,
+AB-II,II. Forderungen und sonstige Vermögensgegenstände,II. Forderungen und sonstige Vermögensgegenstände,Asset,,,Yes,,AB,AB-II,II. Forderungen und sonstige Vermögensgegenstände,,,,,,,,,,,,
+AB-II-1,1. Forderungen aus Lieferungen und Leistungen,1. Forderungen aus Lieferungen und Leistungen,Asset,,,Yes,,AB-II,AB-II-1,1. Forderungen aus Lieferungen und Leistungen,,,,,,,,,,,,
+AB-II-2,2. Forderungen gegen verbundene Unternehmen,2. Forderungen gegen verbundene Unternehmen,Asset,,,Yes,,AB-II,AB-II-2,2. Forderungen gegen verbundene Unternehmen,,,,,,,,,,,,
+AB-II-3,"3. Forderungen gegen Unternehmen, mit Beteiligung","3. Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht",Asset,,,Yes,,AB-II,AB-II-3,"3. Forderungen gegen Unternehmen, mit Beteiligung",,,,,,,,,,,,
+AB-II-4,4. sonstige Vermögensgegenstände,4. sonstige Vermögensgegenstände,Asset,,,Yes,,AB-II,AB-II-4,4. sonstige Vermögensgegenstände,,,,,,,,,,,,
+AB-III,III. Wertpapiere,III. Wertpapiere,Asset,,,Yes,,AB,AB-III,III. Wertpapiere,,,,,,,,,,,,
+AB-III-1,1. Anteile an verbundenen Unternehmen,1. Anteile an verbundenen Unternehmen,Asset,,,Yes,,AB-III,AB-III-1,1. Anteile an verbundenen Unternehmen,,,,,,,,,,,,
+AB-III-2,2. sonstige Wertpapiere,2. sonstige Wertpapiere,Asset,,,Yes,,AB-III,AB-III-2,2. sonstige Wertpapiere,,,,,,,,,,,,
+AB-IV,"IV. Kassenbestand, Guthaben bei Kreditinstituten","IV. Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks",Asset,,,Yes,,AB,AB-IV,"IV. Kassenbestand, Guthaben bei Kreditinstituten",,,,,,,,,,,,
+AC,C. Rechnungsabgrenzungsposten,C. Rechnungsabgrenzungsposten,Asset,,,Yes,,Aktiva,AC,C. Rechnungsabgrenzungsposten,,,,,,,,,,,,
+AD,D. Aktive latente Steuern,D. Aktive latente Steuern,Asset,,,Yes,,Aktiva,AD,D. Aktive latente Steuern,,,,,,,,,,,,
+AE,E. Aktiver Unterschied aus Vermögensverrechnung,E. Aktiver Unterschiedsbetrag aus der Vermögensverrechnung,Asset,,,Yes,,Aktiva,AE,E. Aktiver Unterschied aus Vermögensverrechnung,,,,,,,,,,,,
+Passiva,Passiva,Passiva,Liability,,,Yes,,,Passiva,Passiva,,,,,,,,,,,,
+PA,A. Eigenkapital,A. Eigenkapital,Owner's Equity,,,Yes,,Passiva,PA,A. Eigenkapital,,,,,,,,,,,,
+PA-I,I. Gezeichnetes Kapital,I. Gezeichnetes Kapital,Owner's Equity,,,Yes,,PA,PA-I,I. Gezeichnetes Kapital,,,,,,,,,,,,
+PA-II,II. Kapitalrücklage,II. Kapitalrücklage,Owner's Equity,,,Yes,,PA,PA-II,II. Kapitalrücklage,,,,,,,,,,,,
+PA-III,III. Gewinnrücklagen,III. Gewinnrücklagen,Owner's Equity,,,Yes,,PA,PA-III,III. Gewinnrücklagen,,,,,,,,,,,,
+PA-III-1,1. gesetzliche Rücklage,1. gesetzliche Rücklage,Owner's Equity,,,Yes,,PA-III,PA-III-1,1. gesetzliche Rücklage,,,,,,,,,,,,
+PA-III-2,2. Rücklage für Anteile an herrschendem Untern.,2. Rücklage für Anteile an einem herrschenden oder mehrheitlich beteiligten Unternehmen,Owner's Equity,,,Yes,,PA-III,PA-III-2,2. Rücklage für Anteile an herrschendem Untern.,,,,,,,,,,,,
+PA-III-3,3. satzungsmäßige Rücklagen,3. satzungsmäßige Rücklagen,Owner's Equity,,,Yes,,PA-III,PA-III-3,3. satzungsmäßige Rücklagen,,,,,,,,,,,,
+PA-III-4,4. andere Gewinnrücklagen,4. andere Gewinnrücklagen,Owner's Equity,,,Yes,,PA-III,PA-III-4,4. andere Gewinnrücklagen,,,,,,,,,,,,
+PA-IV,IV Gewinnvortrag/Verlustvortrag,IV Gewinnvortrag/Verlustvortrag,Owner's Equity,,,Yes,,PA,PA-IV,IV Gewinnvortrag/Verlustvortrag,,,,,,,,,,,,
+PA-V,V. Jahresüberschuß/Jahresfehlbetrag,V. Jahresüberschuß/Jahresfehlbetrag,Owner's Equity,,,Yes,,PA,PA-V,V. Jahresüberschuß/Jahresfehlbetrag,,,,,,,,,,,,
+PB,B. Rückstellungen,B. Rückstellungen,Liability,,,Yes,,Passiva,PB,B. Rückstellungen,,,,,,,,,,,,
+PB-1,1. Rückstellungen für Pensionen und ähnliches,1. Rückstellungen für Pensionen und ähnliche Verpflichtungen,Liability,,,Yes,,PB,PB-1,1. Rückstellungen für Pensionen und ähnliches,,,,,,,,,,,,
+PB-2,2. Steuerrückstellungen,2. Steuerrückstellungen,Liability,,,Yes,,PB,PB-2,2. Steuerrückstellungen,,,,,,,,,,,,
+PB-3,3. sonstige Rückstellungen,3. sonstige Rückstellungen,Liability,,,Yes,,PB,PB-3,3. sonstige Rückstellungen,,,,,,,,,,,,
+PC,C. Verbindlichkeiten,C. Verbindlichkeiten,Liability,,,Yes,,Passiva,PC,C. Verbindlichkeiten,,,,,,,,,,,,
+PC-1,1. Anleihen,1. Anleihen,Liability,,,Yes,,PC,PC-1,1. Anleihen,,,,,,,,,,,,
+PC-1-a,- davon konvertibel,- davon konvertibel,Liability,,,Yes,,PC-1,PC-1-a,- davon konvertibel,,,,,,,,,,,,
+PC-1-b,- sonstige,- sonstige,Liability,,,Yes,,PC-1,PC-1-b,- sonstige,,,,,,,,,,,,
+PC-2,2. Verbindlichkeiten gegenüber Kreditinstituten,2. Verbindlichkeiten gegenüber Kreditinstituten,Liability,,,Yes,,PC,PC-2,2. Verbindlichkeiten gegenüber Kreditinstituten,,,,,,,,,,,,
+PC-3,3. erhaltene Anzahlungen auf Bestellungen,3. erhaltene Anzahlungen auf Bestellungen,Liability,,,Yes,,PC,PC-3,3. erhaltene Anzahlungen auf Bestellungen,,,,,,,,,,,,
+PC-4,4. Verbindlichkeiten aus Lieferungen und Leistungen,4. Verbindlichkeiten aus Lieferungen und Leistungen,Liability,,,Yes,,PC,PC-4,4. Verbindlichkeiten aus Lieferungen und Leistungen,,,,,,,,,,,,
+PC-5,5. Verbindlichkeiten aus Wechseln,5. Verbindlichkeiten aus der Annahme gezogener Wechsel und der Ausstellung eigener Wechsel,Liability,,,Yes,,PC,PC-5,5. Verbindlichkeiten aus Wechseln,,,,,,,,,,,,
+PC-6,6. Verbindlichkeiten ggü. verbundenen Unternehmen,6. Verbindlichkeiten gegenüber verbundenen Unternehmen,Liability,,,Yes,,PC,PC-6,6. Verbindlichkeiten ggü. verbundenen Unternehmen,,,,,,,,,,,,
+PC-7,7. Verbindlichkeiten ggü. Unternehmen mit Beteiligung,"7. Verbindlichkeiten gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht",Liability,,,Yes,,PC,PC-7,7. Verbindlichkeiten ggü. Unternehmen mit Beteiligung,,,,,,,,,,,,
+PC-8,8. sonstige Verbindlichkeiten,8. sonstige Verbindlichkeiten,Liability,,,Yes,,PC,PC-8,8. sonstige Verbindlichkeiten,,,,,,,,,,,,
+PC-8-a,- davon aus Steuern,- davon aus Steuern,Liability,,,Yes,,PC-8,PC-8-a,- davon aus Steuern,,,,,,,,,,,,
+PC-8-b,- davon im Rahmen der sozialen Sicherheit,- davon im Rahmen der sozialen Sicherheit,Liability,,,Yes,,PC-8,PC-8-b,- davon im Rahmen der sozialen Sicherheit,,,,,,,,,,,,
+PC-8-c,- sonstige,- sonstige,Liability,,,Yes,,PC-8,PC-8-c,- sonstige,,,,,,,,,,,,
+PD,D. Rechnungsabgrenzungsposten,D. Rechnungsabgrenzungsposten,Liability,,,Yes,,Passiva,PD,D. Rechnungsabgrenzungskosten,,,,,,,,,,,,
+PE,E. passive latente Steuern,E. passive latente Steuern,Liability,,,Yes,,Passiva,PE,E. passive latente Steuern,,,,,,,,,,,,
+U-VER,Unbenutzte Konten Vermögen,Unbenutzte Konten Vermögen,Asset,,,Yes,,Aktiva,,,,,,,,,,,,,,
+U-EK,Unbenutzte Konten Eigenkapital,Unbenutzte Konten Eigenkapital,Owner's Equity,,,Yes,,Passiva,,,,,,,,,,,,,,
+U-FK,Unbenutzte Konten Fremdkapital,Unbenutzte Konten Fremdkapital,Liability,,,Yes,,Passiva,,,,,,,,,,,,,,
+U-AUF,Unbenutzte Konten Aufwand,Unbenutzte Konten Aufwand,Expense,,,Yes,,GV-20,,,,,,,,,,,,,,
+U-ERT,Unbenutzte Konten Ertrag,Unbenutzte Konten Ertrag,Revenue,,,Yes,,GV-20,,,,,,,,,,,,,,
+U-SON,Unbenutzte Konten Sonstige,Unbenutzte Konten Sonstige,Memo,,,Yes,,Passiva,,,,,,,,,,,,,,
+GV-1,1. Umsatzerlöse,Umsatzerlöse,Expense,,,Yes,,GV-RE,,,,,GV-1,1. Umsatzerlöse,,,,,,,,
+GV-2,2. Erhöh./Verm. Bestand an Erzeugnissen,Erhöhung oder Verminderung des Bestands an fertigen und unfertigen Erzeugnissen,Expense,,,Yes,,GV-RE,,,,,GV-2,2. Erhöh./Verm. Bestand an Erzeugnissen,,,,,,,,
+GV-3,3. andere aktivierte Eigenleistungen,andere aktivierte Eigenleistungen,Revenue,,,Yes,,GV-RE,,,,,GV-3,3. andere aktivierte Eigenleistungen,,,,,,,,
+GV-4,4. sonstige betriebliche Erträge,sonstige betriebliche Erträge,Revenue,,,Yes,,GV-RE,,,,,GV-4,4. sonstige betriebliche Erträge,,,,,,,,
+GV-5,5. Materialaufwand,Materialaufwand,Expense,,,Yes,,GV-RE,,,,,GV-5,5. Materialaufwand,,,,,,,,
+GV-5-a,5. a) Aufwendungen Rohstoffe und bezogene Waren,"Aufwendungen für Roh-, Hilfs- und Betriebsstoffe und für bezogene Waren",Expense,,,Yes,,GV-5,,,,,GV-5-a,5. a) Aufwendungen Rohstoffe und bezogene Waren,,,,,,,,
+GV-5-b,5. b) Aufwendungen für bezogene Leistungen,Aufwendungen für bezogene Leistungen,Expense,,,Yes,,GV-5,,,,,GV-5-b,5. b) Aufwendungen für bezogene Leistungen,,,,,,,,
+GV-RE,Rohergebnis nach Gesamtkostenverfahren,Rohergebnis nach Gesamtkostenverfahren,Revenue,,,Yes,,GV-BE,,,,,GV-RE,Rohergebnis nach Gesamtkostenverfahren,,,,,,,,
+GV-6,6. Personalaufwand,Personalaufwand,Expense,,,Yes,,GV-BE,,,,,GV-6,6. Personalaufwand,,,,,,,,
+GV-6-a,6. a) Löhne und Gehälter,Löhne und Gehälter,Expense,,,Yes,,GV-6,,,,,GV-6-a,6. a) Löhne und Gehälter,,,,,,,,
+GV-6-b,6. b) soziale Abgaben und Altersversorgung,soziale Abgaben und Aufwendungen für Altersversorgung und für Unterstützung,Expense,,,Yes,,GV-6,,,,,GV-6-b,6. b) soziale Abgaben und Altersversorgung,,,,,,,,
+GV-6-b-z1,6. b) – davon für Altersversorgung,davon für Altersversorgung,Expense,,,Yes,,GV-6-b,,,,,GV-6-b-z1,6. b) – davon für Altersversorgung,,,,,,,,
+GV-6-b-z2,6. b) – davon restliche,davon restliche,Expense,,,Yes,,GV-6-b,,,,,GV-6-b-z1,6. b) – davon für Altersversorgung,,,,,,,,
+GV-7,7. Abschreibungen,Abschreibungen,Expense,,,Yes,,GV-BE,,,,,GV-7,7. Abschreibungen,,,,,,,,
+GV-7-a,7. a) auf immat. Anlagevermögen und Sachanlagen,auf immaterielle Vermögensgegenstände des Anlagevermögens und Sachanlagen,Expense,,,Yes,,GV-7,,,,,GV-7-a,7. a) auf immat. Anlagevermögen und Sachanlagen,,,,,,,,
+GV-7-b,7. b) auf Vermögensgegenstände des Umlaufvermögens,"auf Vermögensgegenstände des Umlaufvermögens, soweit diese die in der Kapitalgesellschaft üblichen Abschreibungen überschreiten",Expense,,,Yes,,GV-7,,,,,GV-7-b,7. b) auf Vermögensgegenstände des Umlaufvermögens,,,,,,,,
+GV-8,8. sonstige betriebliche Aufwendungen,sonstige betriebliche Aufwendungen,Expense,,,Yes,,GV-BE,,,,,GV-8,8. sonstige betriebliche Aufwendungen,,,,,,,,
+GV-BE,Betriebsergebnis nach GuV,Betriebsergebnis nach GuV,Revenue,,,Yes,,GV-14,,,,,GV-BE,Betriebsergebnis nach GuV,,,,,,,,
+GV-9,9. Erträge aus Beteiligungen,Erträge aus Beteiligungen,Revenue,,,Yes,,GV-14,,,,,GV-9,9. Erträge aus Beteiligungen,,,,,,,,
+GV-9-z1,9. - davon aus verbundenen Unternehmen,davon aus verbundenen Unternehmen,Revenue,,,Yes,,GV-9,,,,,GV-9-z1,9. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-9-z2,9. - davon aus verbundenen Unternehmen,davon aus verbundenen Unternehmen,Revenue,,,Yes,,GV-9,,,,,GV-9-z1,9. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-10,10. Erträge aus Wertpapieren und Ausleihungen,"Erträge aus anderen Wertpapieren und Ausleihungen des Finanzanlagevermögens,",Revenue,,,Yes,,GV-14,,,,,GV-10,10. Erträge aus Wertpapieren und Ausleihungen,,,,,,,,
+GV-10-z1,10. - davon aus verbundenen Unternehmen,davon aus verbundenen Unternehmen,Revenue,,,Yes,,GV-10,,,,,GV-10-z1,10. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-10-z2,10. - davon restliche,davon restliche,Revenue,,,Yes,,GV-10,,,,,GV-10-z1,10. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-11,11. sonstige Zinsen und ähnliche Erträge,sonstige Zinsen und ähnliche Erträge,Revenue,,,Yes,,GV-14,,,,,GV-11,11. sonstige Zinsen und ähnliche Erträge,,,,,,,,
+GV-11-z1,11. - davon aus verbundenen Unternehmen,davon aus verbundenen Unternehmen,Revenue,,,Yes,,GV-11,,,,,GV-11-z1,11. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-11-z2,11. - davon restliche,davon restliche,Revenue,,,Yes,,GV-11,,,,,GV-11-z1,11. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-12,12. Abschreib. auf Finanzanlagen des Umlaufvermögens,Abschreibungen auf Finanzanlagen und auf Wertpapiere des Umlaufvermögens,Expense,,,Yes,,GV-14,,,,,GV-12,12. Abschreib. auf Finanzanlagen des Umlaufvermögens,,,,,,,,
+GV-13,13. Zinsen und ähnliche Aufwendungen,Zinsen und ähnliche Aufwendungen,Expense,,,Yes,,GV-14,,,,,GV-13,13. Zinsen und ähnliche Aufwendungen,,,,,,,,
+GV-13-z1,13. - davon aus verbundenen Unternehmen,davon aus verbundenen Unternehmen,Expense,,,Yes,,GV-13,,,,,GV-13-z1,13. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-13-z2,13. - davon restliche,davon restliche,Expense,,,Yes,,GV-13,,,,,GV-13-z1,13. - davon aus verbundenen Unternehmen,,,,,,,,
+GV-14,14. Ergebnis der gewöhnlichen Geschäftstätigkeit,Ergebnis der gewöhnlichen Geschäftstätigkeit,Revenue,,,Yes,,GV-17,,,,,GV-14,14. Ergebnis der gewöhnlichen Geschäftstätigkeit,,,,,,,,
+GV-15,15. außerordentliche Erträge,außerordentliche Erträge,Revenue,,,Yes,,GV-17,,,,,GV-15,15. außerordentliche Erträge,,,,,,,,
+GV-16,16. außerordentliche Aufwendungen,außerordentliche Aufwendungen,Expense,,,Yes,,GV-17,,,,,GV-16,16. außerordentliche Aufwendungen,,,,,,,,
+GV-17,17. außerordentliches Ergebnis,außerordentliches Ergebnis,Revenue,,,Yes,,GV-20,,,,,GV-17,17. außerordentliches Ergebnis,,,,,,,,
+GV-18,18. Steuern vom Einkommen und vom Ertrag,Steuern vom Einkommen und vom Ertrag,Expense,,,Yes,,GV-20,,,,,GV-18,18. Steuern vom Einkommen und vom Ertrag,,,,,,,,
+GV-19,19. sonstige Steuern,sonstige Steuern,Expense,,,Yes,,GV-20,,,,,GV-19,19. sonstige Steuern,,,,,,,,
+GV-20,20. Jahresüberschuß/Jahresfehlbetrag,Jahresüberschuß/Jahresfehlbetrag,Revenue,,,Yes,,PA-V,,,,,GV-20,20. Jahresüberschuß/Jahresfehlbetrag,,,,,,,,
+0240,Geschäftsbauten u. Grundstücke,Geschäftsbauten,Asset,,,No,,AA-II-1,,,,,,,,,, ,KO,Aktiv – Anlage,"Werte Bauten u. Grundstücke alle + Mehrwertkonten Richter, HJ Bayen",1 bis 16
+0440,Maschinen (Stapler),Maschinen,Asset,,,No,,AA-II-2,,,,,,,,,,,,Aktiv – Anlage,z.B. Stapler,200
+0520,Pkw,Pkw,Asset,,,No,,AA-II-2,,,,,,,,,,,KO,Aktiv – Anlage,Werte PKW und LKW waren vorher zusammen auf einem Konto gebucht,220
+0540,Lkw,Lkw,Asset,,,No,,AA-II-2,,,,,,,,,,,KO,Aktiv – Anlage,Werte PKW und LKW waren vorher zusammen auf einem Konto gebucht,220
+0630,Betriebsausstattung,Betriebsausstattung ,Asset,,,No,,AA-II-3,,,,,,,,,,,KO,Aktiv – Anlage,"Ausstattung BL über 410,00 € nicht Büro","302, 304"
+0640,Ladeneinrichtungen,Ladeneinrichtungen,Asset,,,No,,AA-II-3,,,,,,,,,,,KO,Aktiv – Anlage,"Ausstattung über 410,00 € NICHT BL (z.B. Hülser u. König)","310, 320"
+0650,"Büroeinrichtung, Maschinen (über 410,00 €)",Büroeinrichtungen,Asset,,,No,,AA-II-3,,,,,,,,,,,ggf. KO,Aktiv – Anlage,"Einrichtungen u. Maschinen Büro BL über 410,00 €","300, 301"
+0670,"GWG (bis 410,00 €)",Geringwertige Wirtschaftsgüter,Asset,,,No,,AA-II-3,,,,,,,,,,,KO,Aktiv – Anlage,"Einrichtung, Maschinen für BL und andere Grund. + Leihmaterial + MW HJ Bayen ","231, 232, 303"
+0680,Einbauten in fremde Grundstücke,Einbauten in fremde Grundstücke,Asset,,,No,,AA-II-3,,,,,,,,,,,Objekt,Aktiv – Anlage,"Einbauten in fremde Gast. (z.B. Theke, Inventar, Geräte) über 410,00 €",343 bis 399
+0690,Sonstige Betriebs- und Geschäftsausstattung,Sonstige Betriebs- und Geschäftsausstattung,Asset,,,No,,AA-II-3,,,,,,,,,,,,Aktiv – Anlage," – Leihmaterial über 410,00 €  (beweglich ohne Festeinbau / Vertrag)",230
+0860,Beteiligungen an Personengesellschaften,Beteiligungen an Personengesellschaften,Asset,,,No,,AA-III-3,,,,,,,,,,,,Aktiv – Anlage, – GEVA,"1160, 1161"
+0900,Wertpapiere des Anlagevermögens,Wertpapiere des Anlagevermögens,Asset,,,No,,AA-III-5,,,,,,,,,,,,Aktiv – Anlage,"Hier ist auch der Wertpapieren-Mehrwert Richter und HJ Bayen verbucht worden, da diese Konten im Zuge des Abschlußes 2012 eh auf das Wertpapierkonto durch Herrn August verteilt werden.","1200, 1201, 1202"
+1000,* Roh-- Hilfs- und Betriebsstoffe (Bestand),* Roh-- Hilfs- und Betriebsstoffe (Bestand),Asset,,Yes,No,P_ASSET_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1040,* Unfertige Erzeugnisse/unfertige Leistungen,* Unfertige Erzeugnisse/unfertige Leistungen (Bestand),Asset,,Yes,No,NOTINVOICEDRECEIVABLES_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1080,* Unfertige Leistungen,* Unfertige Leistungen,Asset,,Yes,No,PJ_WIP_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1110,* Fertige Erzeugnisse (Bestand),* Fertige Erzeugnisse (Bestand),Asset,,Yes,No,PJ_ASSET_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1140,Waren (Bestand),Waren (Bestand),Asset,,Yes,No,W_INVENTORY_ACCT,AB-I-3,,,,,,,,,,,,Aktiv – Umlauf,,3099
+1141,* Lager Bestandswert Korrektur,* Lager Bestandswert Korrektur,Asset,,Yes,No,W_INVACTUALADJUST_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1142,* Lager Differenzkorrektur Gewinn / Verlust,* Lager Differenzkorrektur Gewinn / Verlust,Expense,,Yes,No,W_DIFFERENCES_ACCT,U-AUF,,,,,,,,,,,,Aktiv – Umlauf,,
+1143,* Lager Differenzkorrektur Marktwert,* Lager Differenzkorrektur Marktwert,Expense,,Yes,No,W_REVALUATION_ACCT,U-AUF,,,,,,,,,,,,Aktiv – Umlauf,,
+1144,* Lager Bestand Zwischenkonto,* Lager Bestand Zwischenkonto,Asset,,Yes,No,P_INVENTORYCLEARING_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1180,* Geleistete Anzahlungen auf Vorräte,* Geleistete Anzahlungen auf Vorräte,Asset,,Yes,No,V_PREPAYMENT_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1200,Forderungen aus Lieferung u.Leistung,Forderungen aus Lieferungen und Leistungen,Asset,,Yes,No,C_RECEIVABLE_ACCT,AB-II-1,,,,,,,,,,,,Aktiv – Umlauf,,1000
+1206,* Forderungen aus Dienstleistungen,Forderungen aus Lieferungen und Leistungen,Asset,,Yes,No,C_RECEIVABLE_SERVICES_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1240,Forderungen zweifelhaft,Zweifelhafte Forderungen,Asset,,,No,,AB-II-1,,,,,,,,,,,,Aktiv – Umlauf,Einzelwertberichtigungen auf Forderungen,
+1246,WB-Einzel Forderungen bis 1 Jahr,Einzelwertberichtigungen auf Forderungen mit einer Restlaufzeit bis zu 1 Jahr,Asset,,,No,,AB-II-1,,,,,,,,,,,,Aktiv – Umlauf,,
+1248,WB-Pauschal Forderungen bis 1 Jahr,Pauschalwertberichtigung auf Forderung mit einer Restlaufzeit bis zu 1 Jahr,Asset,,,No,,AB-II-1,,,,,,,,,,,,Aktiv – Umlauf,,
+1250,WB-Einzel Waren-Forderungen,Wertberichtigungen auf Forderungen,Asset,,,No,,AB-II-1,,,,,,,,,,,,Aktiv – Umlauf,,900
+1251,WB-Einzel Darlehen-Forderungen,Wertberichtigungen auf Forderungen,Asset,,,No,,AB-II-1,,,,,,,,,,,,Aktiv – Umlauf,,903
+1260,* Forderungen gegen verbundene Unternehm.,Forderungen gegen verbundene Unternehmen,Asset,,Yes,No,INTERCOMPANYDUEFROM_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1300,Forderungen sonstige,Sonstige Forderungen / Vermögensgegenstände,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,1100
+1302,Forderungen Mietrückstände,Sonstige Forderungen – Forderungen Mietrückstände,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,
+1303,Boni-Guthaben Lieferanten,Sonstige Forderungen – Boni-Guthaben Lieferanten,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,
+1360,Forderungen aus Darlehen an Kunden,Darlehen – Forderungskonto,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,1001
+1370,Aufgeld Sammelkonto – Forderungen,Durchlaufende Posten,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,1999
+1400,*** Vorsteuer abziehbar,Abziehbare Vorsteuer / Tax to be re-imbursed - before tax declaration,Asset,,Yes,No,T_CREDIT_ACCT,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,
+1401,Vorsteuer 7%,Abziehbare Vorsteuer 7%,Asset,,Yes,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,1921
+1402,Vorsteuer innerg. Erwerb,Abziehbare Vorsteuer innergemeinsch. Erwerb,Asset,,Yes,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,
+1403,Vorsteuer 19% nicht autom.,Abziehbare Vorsteuer 19% nicht automatisch,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,1924
+1405,Vorsteuer 16%,Abziehbare Vorsteuer 16%,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,
+1406,Vorsteuer 19%,Abziehbare Vorsteuer 19%,Asset,,Yes,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,"1922, 1927"
+1422,Umsatzsteuer Forderungen aus Vorjahr,Umsatzsteuer Forderungen aus Vorjahr,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,1930
+1435,Gewerbesteuer Überzahlung – Forderung,Forderungen aus Gewerbesteuer-Überzahlungen,Asset,,,No,,AB-II-4,,,,,,,,,,,,Aktiv – Umlauf,,1106
+1600,Kasse ,Kasse / Petty Cash Account,Asset,,Yes,No,CB_ASSET_ACCT,AB-IV,,,,,,,,,,,,Aktiv – Umlauf,,1500
+1800,*** Bank,Bank ,Asset,,Yes,No,B_ASSET_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,"– wird nicht bebucht, konkrete Banken unter 1810, 1820, etc.",
+1801,Bankbewegungen noch nicht abgeglichen,Bank transactions in transit,Asset,,Yes,No,B_INTRANSIT_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1802,* nicht identifizierte Bankzahlungen,Receipts from unidentified customer,Asset,,Yes,No,B_UNIDENTIFIED_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1803,nicht zugeordnete Eingangszahlungen Bank,Received unallocated payments,Asset,,Yes,No,B_UNALLOCATEDCASH_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1804,nicht zugeordnete Ausgangszahlung Bank,Selected invoices for payment ,Liability,,Yes,No,B_PAYMENTSELECT_ACCT,U-FK,,,,,,,,,,,,Aktiv – Umlauf,,
+1805,* Geldtransit,Petty Cash Transfer,Asset,,Yes,No,CB_CASHTRANSFER_ACCT,U-VER,,,,,,,,,,,,Aktiv – Umlauf,,
+1806,Umbuchungen Storno etc.,Umbuchungen Storno etc.,Asset,,,No,,AB-IV,,,,,,,,,,,,Aktiv – Umlauf,,1800
+1900,Aktive Rechnungsabgrenzung,Aktive Rechnungsabgrenzung,Asset,,,No,,AC,,,,,,,,,,,,Aktiv – Umlauf,,930
+2000,Festkapital Vollhafter,Festkapital Vollhafter,Owner's Equity,,,No,,PA-I,,,,,,,,,,,,Passiv – Eigen K.,,800
+2970,* Gewinnvortrag vor Verwendung,Year end processing to balance account (Retained Earnings),Liability,,Yes,No,INCOMESUMMARY_ACCT,U-FK,,,,,,,,,,,,Passiv – Eigen K.,,
+3030,Rückstellung Gewerbesteuer,Gewerbesteuerrückstellung,Liability,,,No,,PB-2,,,,,,,,,,,,Passiv – Fremd K.,,920
+3072,Rückstellung Resturlaub,Rückstellung Resturlaub,Liability,,,No,,PB-3,,,,,,,,,,,,Passiv – Fremd K.,,960
+3073,Rückstellung Berufsgenossenschaft,Rückstellung Berufsgenossenschaft,Liability,,,No,,PB-3,,,,,,,,,,,,Passiv – Fremd K.,,
+3090,* Rückstellungen Gewährleistungen GK 6790,Rückstellungen für Gewährleistungen / Withholding for 1099 or Quality Guarantee,Liability,,Yes,No,WITHHOLDING_ACCT,U-FK,,,,,,,,,,,,Passiv – Fremd K.,,
+3095,Rückstellung f. Abschuss und Prüfkosten,Rückstellungen für Abschluss- und Prüfungskosten,Liability,,,No,,PB-3,,,,,,,,,,,,Passiv – Fremd K.,,985
+3250,* Erhaltene Anzahlungen auf Bestellungen,Erhaltene Anzahlungen auf Bestellungen / Prepayments for future revenue,Liability,,Yes,No,C_PREPAYMENT_ACCT,U-FK,,,,,,,,,,,,Passiv – Fremd K.,,
+3300,Verbindlichkeiten aus Lief. und Leistungen ,Verbindlichkeiten aus Lieferung und Leistung / Accounts Payables,Liability,,Yes,No,V_LIABILITY_ACCT,PC-4,,,,,,,,,,,,Passiv – Fremd K.,,1700
+3301,* Lieferan. Verbindlichkeiten Dienstleistungen,Verbindlichkeiten aus LL / Accounts Payables for non-product revenue,Liability,,Yes,No,V_LIABILITY_SERVICES_ACCT,U-FK,,,,,,,,,,,,Passiv – Fremd K.,,
+3400,* Verbindlich. gegenüber verbu Unternehmen,* Verbindlichkeiten gegenüber verbundenen Unternehmen / Default Payables account for intercompany trx,Liability,,Yes,No,INTERCOMPANYDUETO_ACCT,U-FK,,,,,,,,,,,,Passiv – Fremd K.,,
+3500,Verbindlichkeiten sonstige,Sonstige Verbindlichkeiten,Liability,,,No,,PC-8-c,,,,,,,,,,,,Passiv – Fremd K.,,"1900, 1704"
+3504,Verbindlichkeiten sonstige 1-5 J.,Sonstige Verbindlichkeiten Restlaufzeit 1 bis 5 Jahre,Liability,,,No,,PC-8-c,,,,,,,,,,,,Passiv – Fremd K.,Boni-Guthaben Kunden,
+3550,Erhaltene Kautionen,Erhaltene Kautionen,Liability,,,No,,PC-8-c,,,,,,,,,,,,Passiv – Fremd K.,,
+3565,Verbindlichkeiten aus Darlehen von Liefer.,Verbindlichkeiten aus Darlehen von Lieferanten,Liability,,,No,,PC-8-c,,,,,,,,,,,,Passiv – Fremd K.,,1701
+3730,Lohn- und Kirchensteuer – VB,Verbindlichkeiten Lohn- und Kirchensteuer,Liability,,,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,Sonstige Verbindlichkeiten Lohnsteuer,
+3800,*** Umsatzsteuer,Umsatzsteuer,Liability,,Yes,No,T_DUE_ACCT,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,
+3801,Umsatzsteuer 7%,Umsatzsteuer 7%,Liability,,Yes,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,
+3802,Umsatzsteuer aus innergem. Erwerb,Umsatzsteuer aus innergem. Erwerb,Liability,,Yes,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,
+3803,Umsatzsteuer 19% nicht automatisch,Umsatzsteuer 19% nicht automatisch,Liability,,,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,
+3805,Umsatzsteuer 16%,Umsatzsteuer 16% nicht automatisch,Liability,,,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,1910
+3806,Umsatzsteuer 19%,Umsatzsteuer 19%,Liability,,Yes,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,1917
+3820,Umsatzsteuer Vorauszahlungen,Umsatzsteuer- Vorauszahlungen,Liability,,,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,1929
+3841,Umsatzsteuer Vorjahr,Umsatzsteuer Vorjahr,Liability,,,No,,PC-8-a,,,,,,,,,,,,Passiv – Fremd K.,,1931
+3900,Passive Rechnungsabgrenzung,Passive Rechnungsabgrenzung,Liability,,,No,,PD,,,,,,,,,,,,Passiv – Fremd K.,,
+4400,Warenverkauf Erlöse,Erlöse 19 % USt.,Revenue,,Yes,No,P_REVENUE_ACCT,GV-1,,,,,,,,,,,,H – Ertrag ,,8000
+4401,* Vorausberechnete Einnahmen,We have invoiced but not delivered yet,Revenue,,Yes,No,UNEARNEDREVENUE_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4402,* Sonstige Einnahmen,Default other revenue,Revenue,,Yes,No,CH_REVENUE_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4403,* Konto Kasse Ertrag,Default other revenue for petty cash transactions,Revenue,,Yes,No,CB_RECEIPT_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4404,Warenverkauf Erlöse aus Kostenbeteiligung,Warenverkauf Erlöse aus Kostenbeteiligung,Revenue,,Yes,No,,GV-1,,,,,,,,,,,,H – Ertrag ,,8080
+4499,* Nicht abgerechnete Einnahmen,We delivered but have not invoiced yet,Revenue,,Yes,No,NOTINVOICEDREVENUE_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4620,Privatentnahme Ware 19%,Entnahme durch den Unternehmer für Zwecke außerhalb des Unternehmens (Waren) 19% USt,Revenue,,,No,,GV-1,,,,,,,,,,,,H – Ertrag ,,
+4705,Erlösschmälerungen aus steuerfr. Umsätzen,Erlösschmälerungen aus steuerfreien Umsätzen § 4 Nr. 1a UStG (z.B. Kundenboni MwSt-frei),Revenue,,,No,,GV-1,,,,,,,,,,,,H – Ertrag ,,
+4736,Gewährte Skonti 19% USt,Gewährte Skonti 19% USt,Revenue,,Yes,No,PAYDISCOUNT_EXP_ACCT,GV-1,,,,,,,,,,,,H – Ertrag ,,8401
+4737,Gewährte Skonti 16% USt,Gewährte Skonti 16% USt,Revenue,,,No,,GV-1,,,,,,,,,,,,H – Ertrag ,,8407
+4760,Gewährte Boni 19% USt,Gewährte Boni 19% USt,Expense,,,No,,GV-1,,,,,,,,,,,,H – Ertrag ,,8400
+4770,* Gewährte Rabatte,Gewärte Rabatte / Granted Trade discounts (corrects Product Revenue),Expense,,Yes,No,P_TRADEDISCOUNTGRANT_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4840,* Erträge aus Kursdifferenzen,Erträge aus Kursdifferenzen / Foreign currency bank account loss,Expense,,Yes,No,B_REVALUATIONLOSS_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4845,Erlöse aus Verkauf Sachanlagen 19% USt.,Erlöse aus Verkäufen Sachanlagevermögen 19% USt. (bei Buchgewinn),Revenue,,,No,,GV-4,,,,,,,,,,,,H – Ertrag ,,
+4855,Anlagenabgänge Sachanlagen,Anlagenabgänge Sachanlagen (Restbuchwert bei Buchgewinn),Revenue,,,No,,GV-4,,,,,,,,,,,,H – Ertrag ,,
+4861,Mieteinnahmen USt-frei,Erlöse aus Vermietung und Verpachtung Ust-frei,Revenue,,,No,,GV-4,,,,,,,,,,,,H – Ertrag ,,"2520, 2530, 2540, 2550, 2560, 2601, 2730 – 33"
+4862,Mieteinnahmen USt-pflichtig,Erlöse aus Vermietung und Verpachtung USt-pflichtig,Revenue,,,No,,GV-4,,,,,,,,,,,,H – Ertrag ,,"2600, 2700, 2710"
+4871,* Nicht realisierbare Währungsdifferenzen,Difference between foreign currency receivables/payables and current rate,Revenue,,Yes,No,UNREALIZEDGAIN_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4872,* Realisierte Währungsdifferenzen,Difference between invoice and payment currency,Revenue,,Yes,No,REALIZEDGAIN_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4873,* Produkt Rechnung Preisdifferenz,Difference between product cost and invoice price (IPV),Expense,,Yes,No,P_INVOICEPRICEVARIANCE_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4874,* Realisierte Währungsdifferenzen,Difference between invoice and payment currency,Expense,,Yes,No,REALIZEDLOSS_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4875,* Erträge a. Währungsumstellung auf Euro,Erträge a. Währungsumstellung auf Euro,Expense,,Yes,No,P_PURCHASEPRICEVARIANCE_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4877,* Bank Währungsverlust (Konto),Difference between payment and bank account currency,Expense,,Yes,No,B_SETTLEMENTLOSS_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4878,* Währungsdifferenz zum Kontenausgleich,Rounding difference to make journal balance in accounting currency,Expense,,Yes,No,CURRENCYBALANCING_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4879,* Nicht realisierbare Währungsdifferenzen,Difference between foreign currency receivables/payables and current rate,Expense,,Yes,No,UNREALIZEDLOSS_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+4881,* Bank Bewertungsertrag,Foreign currency bank account gain,Revenue,,Yes,No,B_REVALUATIONGAIN_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4883,* Kassendifferenzen,Petty Cash Differences,Expense,,Yes,No,CB_DIFFERENCES_ACCT,U-ERT,,,,,,,,,,,,H – Ertrag ,,
+4935,Erträge aus Auflösung steuerlicher Rücklagen,Erträge aus Auflösung steuerlicher Rücklagen (Auflösung Wertberichtigungen),Revenue,,,No,,GV-4,,,,,,,,,,,,H – Ertrag ,,
+5400,* Wareneinkauf diverse,Wareneingang 19 % Vorsteuer,Expense,,Yes,No,DEFAULT_ACCT,U-ERT,,,,,,,,,,,,S – Aufwand,,
+5401,* Produkt Ausgaben,Default Product or Service costs (I.e. not on inventory),Expense,,Yes,No,P_EXPENSE_ACCT,U-ERT,,,,,,,,,,,,S – Aufwand,,
+5402,* Produkt Vertriebsausgaben,Cost of Goods Sold,Expense,,Yes,No,P_COGS_ACCT,U-ERT,,,,,,,,,,,,S – Aufwand,,
+5403,* Konto Kasse Aufwand,Default other expense for petty cash transactions,Expense,,Yes,No,CB_EXPENSE_ACCT,U-ERT,,,,,,,,,,,,S – Aufwand,,
+5404,* Einkauf Preisvarianz Ausgleich,Offset Account for Purchase price variance (PPV) ,Expense,,Yes,No,PPVOFFSET_ACCT,U-ERT,,,,,,,,,,,,S – Aufwand,,
+5405,* Vom Lief geliefert aber noch n. Abgerechnet,Received products/services from vendors but not invoiced,Expense,Natural,Yes,No,NOTINVOICEDRECEIPTS_ACCT,U-ERT,,,,,,,,,,,,S – Aufwand,,
+5736,Erhaltene Skonti 19% Vorsteuer,Granted early payment discount from vendors,Expense,,Yes,No,PAYDISCOUNT_REV_ACCT,GV-5-a,,,,,,,,,,,,S – Aufwand,,3408
+5760,Boni 19% erhaltene ,erhaltene Boni 19% Vorsteuer,Revenue,,,No,,GV-5-a,,,,,,,,,,,,S – Aufwand,,"3400, 3407"
+5770,Rabatte erhaltene,Received Trade Discounts (corrects Product expense),Revenue,,Yes,No,P_TRADEDISCOUNTREC_ACCT,GV-5-a,,,,,,,,,,,,S – Aufwand,,
+5800,* Bezugsnebenkosten,Product Cost Adjustments,Expense,,Yes,No,P_COSTADJUSTMENT_ACCT,GV-5-a,,,,,,,,,,,,S – Aufwand,,
+5801,* Landed Cost Clearing,Default Landed Cost Clearing,Expense,,Yes,No,P_LANDEDCOSTCLEARING_ACCT,GV-5-a,,,,,,,,,,,,S – Aufwand,,
+5810,Einkaufsfrachten Wareneinkauf,Wareneinkauf Einkaufsfrachten,Expense,,,No,,GV-5-a,,,,,,,,,,,,S – Aufwand,,3070
+6000,Löhne und Gehälter,Löhne und Gehälter,Expense,,Yes,No,E_EXPENSE_ACCT,GV-6-a,,,,,,,,,,,,S – Aufwand,,5000
+6070,Löhne KK Erstattungen,Krankengeldzusschüsse,Expense,,,No,,GV-6-a,,,,,,,,,,,,S – Aufwand,,5002
+6130,"Freiwillige soziale Aufwendungen, Lst-frei","Freiwillige soziale Aufwendungen, Lst-frei",Expense,,,No,,GV-6-b-z2,,,,,,,,,,,,S – Aufwand,,5001
+6140,Aufwendungen für Altersvorsorge (Vers.),Aufwendungen für Altersvorsorge,Expense,,,No,,GV-6-b-z1,,,,,,,,,,,,S – Aufwand,Versicherungen,
+6220,Abschreibungen auf Sachanlagen,Abschreibung auf immaterielle Vermögensgegenstände,Expense,,,No,,GV-7-a,,,,,,,,,,,,S – Aufwand,,
+6280,Forderungsverluste aus Darlehen,Forderungsverluste soweit unüblich hoch,Expense,,,No,,GV-7-b,,,,,,,,,,,,S – Aufwand,z.B. Darlehen o. USt.,5711
+6286,Forderungsverluste aus Ware USt.-pflichtig,Forderungsverluste USt.-pflichtig soweit unüblich hoch,Expense,,,No,,GV-7-b,,,,,,,,,,,,S – Aufwand,z.B. Ware mit USt.,
+6300,* Sonstige betriebliche Aufwendungen,Default other expense,Expense,Natural,Yes,No,CH_EXPENSE_ACCT,GV-8,,,,,,,,,,,,S – Aufwand,,
+6320,Heizung,Heizung,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5101
+6325,Gas- Strom- Wasser,Gas- Strom- Wasser,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5102
+6335,Instandhaltung betrieblicher Räume,Instandhaltung betrieblicher Räume,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5100
+6350,Grundstücksaufwendungen betrieblich,Grundstücksaufwendungen betrieblich,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,2200 bis 2260
+6400,Versicherungen allgemein,Versicherungen,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5805
+6420,Beiträge ,Beiträge ,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5201
+6520,Kfz-Versicherungen,Kfz-Versicherungen,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5602
+6530,Laufende Kfz-Betriebskosten,Laufende Kfz-Betriebskosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5600
+6540,Kfz-Reparaturen,Kfz-Reparaturen,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5607 bis 5642
+6600,Werbekosten Inserate etc.,Werbekosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,"5401, 5430"
+6601,Werbekosten Gastro-Kunden (Anzeigen),Werbekosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,Werbekosten Gastro-Kunden (Anzeigen),
+6610,Geschenke abzugsfähig (auch Blumen),Geschenke abzugsfähig ohne § 37b EStG,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5400
+6630,Kosten für Anbahnung von Geschäften,Repräsentationskosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5420
+6640,Bewirtungskosten,Bewirtungskosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5421
+6650,Reisekosten Arbeitnehmer,Reisekosten Arbeitnehmer,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5411
+6663,Reisekosten Arbeitnehmer Fahrkosten,Reisekosten Arbeitnehmer Fahrkosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5410
+6668,Kilometergelderstattung Arbeitnehmer,Kilometergelderstattung Arbeitnehmer,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,
+6673,Reisekosten Unternehmer Fahrkosten,Reisekosten Unternehmer Fahrkosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5412
+6800,Porto,Porto,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5802
+6805,Telefon,Telefon,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5803
+6815,Büromaterial,Bürobedarf,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5801
+6816,EDV-Kosten,Bürobedarf,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5804
+6825,Rechts- und Beratungskosten,Rechts- und Beratungskosten,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,5806
+6850,Allgemeine Verwaltung Betriebskosten,Sonstiger Betriebsbedarf,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,"5800, 5807"
+6855,Nebenkosten des Geldverkehrs,Nebenkosten des Gedverkehrs,Expense,,,No,B_EXPENSE_ACCT,GV-8,,,,,,,,,,,,S – Aufwand,"Bankgebühren, etc.",5302
+6858,Wertpapier – Aufwendungen,Wertpapier – Aufwendungen,Expense,,,No,,GV-8,,,,,,,,,,,,S – Aufwand,,2010
+6930,* Forderungsverluste (übliche Höhe),Forderungsverluste (übliche Höhe),Expense,,Yes,No,WRITEOFF_ACCT,U-ERT,,,,,,,,,,,,S – Aufwand,,
+7010,Wertpapier-Erträge,Wertpapier-Erträge,Revenue,,,No,,GV-10-z2,,,,,,,,,,,,H – Ertrag ,,2400
+7020,Zinserträge Zinsabschlagsteuer,Zins- und Dividendenerträge,Revenue,,,No,,GV-10-z2,,,,,,,,,,,,H – Ertrag ,,
+7021,Zinserträge Solidaritätszuschlag,Zins- und Dividendenerträge,Revenue,,,No,,GV-10-z2,,,,,,,,,,,,H – Ertrag ,,
+7100,Zinsen sonst. Und ähnliche Erträge,Sonstige Zinsen und ähnliche Erträge,Revenue,,,No,B_INTERESTREV_ACCT,GV-11-z2,,,,,,,,,,,,H – Ertrag ,,
+7107,Zinserträge,Zinserträge – steuerfrei,Revenue,,,No,,GV-11-z2,,,,,,,,,,,,H – Ertrag ,,4700
+7130,* Diskonterträge,Diskonterträge / Difference between payment and bank account currency,Revenue,,Yes,No,B_SETTLEMENTGAIN_ACCT,U-AUF,,,,,,,,,,,,H – Ertrag ,,
+7301,Zinsen auf Tantiemekonten,Zinsen und ähnliche Aufwendungen,Expense,,,No,,GV-11-z2,,,,,,,,,,,,S – Aufwand,,
+7310,* Zinsaufwand kurzf Verbindl. /Fremdkapital,Zinsaufwand kurzf Verbindl. /Fremdkapital / Interest paid,Expense,,Yes,No,B_INTERESTEXP_ACCT,U-AUF,,,,,,,,,,,,S – Aufwand,,5301
+7320,Zinsaufwand für langfr. Verbindlichkeiten,Zinsaufwendungen für langfristige Verbindlichkeiten,Expense,,,No,,GV-11-z2,,,,,,,,,,,,S – Aufwand,,
+7400,außerordentliche Erträge,außerordentliche Erträge,Revenue,,,No,,GV-15,,,,,,,,,,,,H – Ertrag ,,4600
+7500,außerordentliche Aufwendungen,außerordentliche Aufwendungen,Expense,,,No,,GV-16,,,,,,,,,,,,S – Aufwand,,3409
+7610,Gewerbesteuer ,Gewerbesteuer ,Expense,,,No,,GV-18,,,,,,,,,,,,S – Aufwand,,5200
+7650,* Sonstige Steuern ,Sonstige Steuern / Sales Tax paid to vendors,Expense,,Yes,No,T_EXPENSE_ACCT,U-AUF,,,,,,,,,,,,S – Aufwand,,
+7685,Kfz-Steuer,Kfz-Steuer,Expense,,,No,,GV-19,,,,,,,,,,,,S – Aufwand,,5601
+8900,*** Zwischenkonto Belegdifferenzen,Difference to make journal balance in source currency - needs to be solved,Asset,,Yes,No,SUSPENSEBALANCING_ACCT,U-VER,,,,,,,,,,,,Vortrags – Konto,,
+9000,Schlussbilanz – Saldenvorträge,Schlussbilanz,Owner's Equity,,,No,,PA-V,,,,,,,,,,,,Vortrags – Konto,,
+9001,Eröffnungsbilanz – Saldenvorträge,Eröffnungsbilanz,Owner's Equity,,,No,,PA-V,,,,,,,,,,,,Vortrags – Konto,,9100
+9002,Eröffnungsbilanz – Zwischenkonto,"altes Konto 9101 müsste immer den Saldo 0,00 Euro aufweisen",Owner's Equity,,,No,,PA-V,,,,,,,,,,,,Vortrags – Konto,,9101
+9007,G + V Vortragskonto – Saldenvorträge,G + V Vortragskonto,Owner's Equity,,,No,RETAINEDEARNING_ACCT,PA-IV,,,,,,,,,,,,Vortrags – Konto,,
+9900,* SO Commitment,* SO Commitment,Memo,,Yes,No,COMMITMENTOFFSETSALES_ACCT,U-SON,,,,,,,,,,,,Vortrags – Konto,,
+9902,* Burden (Absorbed),Burden Absorbed account,Expense,,Yes,No,P_BURDEN_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9902,* PO Commitment,* PO Commitment,Memo,,Yes,No,COMMITMENTOFFSET_ACCT,U-SON,,,,,,,,,,,,Vortrags – Konto,,
+9903,* Cost Of Production,Cost Of Production Account,Expense,,Yes,No,P_COSTOFPRODUCTION_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9904,* Floor Stock,Floor Stock Account,Asset,,Yes,No,P_FLOORSTOCK_ACCT,U-VER,,,,,,,,,,,,Vortrags – Konto,,
+9905,* Labor (Absorbed),Labor Absorbed account,Expense,,Yes,No,P_LABOR_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9906,* Method Change Variance,Account for Method Change Variance,Expense,,Yes,No,P_METHODCHANGEVARIANCE_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9907,* Mix Variance,Account for Mix Variance,Expense,,Yes,No,P_MIXVARIANCE_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9908,* Outside Processing (Subcontract),Outside Processing Account,Expense,,Yes,No,P_OUTSIDEPROCESSING_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9909,* Overhead (Applied),Overhead Applied account,Expense,,Yes,No,P_OVERHEAD_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9920,* Rate Variance,Account for Rate Variance,Expense,,Yes,No,P_RATEVARIANCE_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9921,* Scrap,Scrap Account,Expense,,Yes,No,P_SCRAP_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9922,* Using Variance,Account for Using Variance,Expense,,Yes,No,P_USAGEVARIANCE_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9923,* Work In Process,Work In Process Account,Asset,,Yes,No,P_WIP_ACCT,U-VER,,,,,,,,,,,,Vortrags – Konto,,
+9924,* Average Cost Variance,Account for Average Cost Variance,Expense,,Yes,No,P_AVERAGECOSTVARIANCE_ACCT,U-AUF,,,,,,,,,,,,Vortrags – Konto,,
+9999,Durchlaufende Posten ohne Mehrwertsteuer,Durchlaufende Posten ohne Mehrwertsteuer,Asset,,,No,,AB-IV,,,,,,,,,,,,Vortrags – Konto,,

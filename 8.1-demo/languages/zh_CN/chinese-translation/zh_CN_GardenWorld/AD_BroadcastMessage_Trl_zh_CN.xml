@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_BroadcastMessage">
+ <row trl="N" uuid="cba84674-d1e1-4011-a72f-b1f2388650a2"/>
+ <row trl="N" uuid="275eb0dd-ecf4-432f-8db8-58eb446ef280"/>
+ <row trl="N" uuid="cd91b9c3-c6c3-4e9d-9acc-06b214e37fba"/>
+</idempiereTrl>

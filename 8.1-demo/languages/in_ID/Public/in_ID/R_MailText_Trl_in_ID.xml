@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="R_MailText">
+ <row id="200000" trl="N">
+  <value column="MailText" original="Dear @Name@,&#10;&#10;You are receiving this email because you (or somebody pretending to be you) said you have lost your iDempiere password.&#10;&#10;To access your iDempiere, use the temporary password from @AD_Client_ID&lt;Name&gt;@ below:&#10;@#NewPassword@&#10;&#10;Once you login, you will be directed to change password screen. Please change your password to something you can remember.&#10;&#10;Sincerely,&#10;The iDempiere Accounts Team&#10;&#10;Note: This email address cannot accept replies." xml:space="preserve"><![CDATA[Dear @Name@,
+
+You are receiving this email because you (or somebody pretending to be you) said you have lost your iDempiere password.
+
+To access your iDempiere, use the temporary password from @AD_Client_ID<Name>@ below:
+@#NewPassword@
+
+Once you login, you will be directed to change password screen. Please change your password to something you can remember.
+
+Sincerely,
+The iDempiere Accounts Team
+
+Note: This email address cannot accept replies.]]></value>
+  <value column="Name" original="Reset Password">Reset Password</value>
+  <value column="MailHeader" original="iDempiere Reset Password ">iDempiere Reset Password </value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+</idempiereTrl>

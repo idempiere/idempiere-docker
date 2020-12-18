@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 1.0a_2012-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="de_DE" table="R_MailText">
+ <row id="100" trl="Y">
+  <value column="MailText" original="Dear @Name@,&#10;&#10;Thank you for your order.&#10;&#10;Best regards,&#10;  The GardenWorld Team">Liebe/r @Name@,
+
+Vielen Dank für Ihren Auftrag.
+
+Mit freundlichen Grüßen,
+Das GardenWorld Team</value>
+  <value column="Name" original="Order Confirmation">Auftragsbestätigung</value>
+  <value column="MailHeader" original="Order Confirmation">Auftragsbestätigung</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="MailText" original="Dear @Name@,&#10;&#10;You are receiving this email because you (or somebody pretending to be you) said you have lost your iDempiere password.&#10;&#10;To access your iDempiere, use the temporary password from @AD_Client_ID&lt;Name&gt;@ below:&#10;@Password@&#10;&#10;Once you login, you will be directed to change password screen. Please change your password to something you can remember.&#10;&#10;Sincerely,&#10;The iDempiere Accounts Team&#10;&#10;Note: This email address cannot accept replies."><![CDATA[Liebe/r @Name@,
+
+Sie erhalten diese E-Mail weil Sie (oder jemand der vorgibt Sie zu sein) uns mitgeteilt hat, dass Sie Ihre iDempiere Passwort verloren haben.
+Um auf iDempiere zuzugreifen benutzen Sie bitte dieses temporäre Passwort von @AD_Client_ID<Name>@:
+@Password@
+
+Nach dem Login werden Sie gebeten das Passwort zu ändern. Bitte wählen Sie ein Passwort an das Sie sich erinnern können.
+
+Mit freundlichen Grüssen,
+Das iDempiere Team
+
+Hinweis: Diese E-Mail-Adresse kann keine Antworten verarbeiten.]]></value>
+  <value column="Name" original="Reset Password">Passwort zurücksetzen</value>
+  <value column="MailHeader" original="iDempiere Reset Password ">iDempiere Passwort zurücksetzen</value>
+  <value column="MailText2" original=""/>
+  <value column="MailText3" original=""/>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idempiere Name="GeografiaColombiaCapitales" Version="1.0" idempiereVersion="" DataBaseVersion="" Description="Geografía Capitales Colombia" Author="" AuthorEmail="info@globalqss.com" CreatedDate="2013-08-08 11:56:37.264" UpdatedDate="2013-08-08 11:59:47.859" PackOutVersion="100" Client="0-SYSTEM-System">
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>05001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">37375263-310e-4d02-8898-2a816b325c38</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>96b09a53-0ca3-4f07-9abf-67bbe3932b62</C_City_UU>
+        <Name>MEDELLÍN</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>08001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">e34f6000-5511-4027-8e1e-3b697569520f</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>98cf23b4-76ad-4fa2-9b59-bf9e228595c7</C_City_UU>
+        <Name>BARRANQUILLA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>11001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">eda02e6d-0ff6-4f40-9073-4d9a0e7c7cd1</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>e98cfa8a-efdb-482c-baab-fbc7d775f125</C_City_UU>
+        <Name>BOGOTÁ</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>13001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">296ca964-4037-419d-8680-003dab587c74</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>3cab5593-5fcb-4186-8c6c-2d7fecdac9aa</C_City_UU>
+        <Name>CARTAGENA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>15001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">d3361c61-1e78-4899-9281-06b80670c25d</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>f224b130-9f4a-4eb1-834a-a6235b592816</C_City_UU>
+        <Name>TUNJA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>17001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">fc89a575-3b4b-49c2-8d43-b92ecc9fae69</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>7bc86e6e-4eaf-4b81-9b90-9fc437c9a95c</C_City_UU>
+        <Name>MANIZALES</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>18001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">fd10aa38-9b97-4a4d-af2b-8b8493101c6c</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>65fdab2c-c746-46ec-8bfa-2b480a49a073</C_City_UU>
+        <Name>FLORENCIA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>19001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">d73f44bc-2a0a-4241-a7df-4f953b7541df</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>1eadabac-caf3-4620-b1f9-cb78af520e12</C_City_UU>
+        <Name>POPAYÁN</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>20001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">c4e51844-76f9-4334-9c9c-b3c1b2863641</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>a81a2ced-60a5-4416-95eb-3e0c0fe771fe</C_City_UU>
+        <Name>VALLEDUPAR</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>23001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">af5c45f8-6dae-405d-bcd6-fc625af97645</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>91e04f2a-5277-45dd-a01c-ad01e2921e49</C_City_UU>
+        <Name>MONTERÍA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>27001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">76942396-3fee-4968-b7ab-34da5b0ce1e4</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>0ca99767-0af1-4994-8b6e-a3f84c481f21</C_City_UU>
+        <Name>QUIBDÓ</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>41001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">d6837959-4eea-492a-9682-1c147f565001</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>2e70ed20-c21a-421b-a4fa-21ee93328c28</C_City_UU>
+        <Name>NEIVA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>44001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">68f64691-e6ee-4751-aab9-3ac8fd09bab8</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>fb6be3ad-1931-47f9-ace1-4b490a4003c2</C_City_UU>
+        <Name>RIOHACHA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>47001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">67717ed1-eb80-4a39-8d6d-d4fb7e8bf4f0</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>4c18869c-f786-4a7e-8a94-bfe07f2ec547</C_City_UU>
+        <Name>SANTA MARTA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>50001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">a14dadca-8cad-4afa-9b63-05020874b89f</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>8f0f0e3d-0265-47ec-9ebf-be95c5398cbf</C_City_UU>
+        <Name>VILLAVICENCIO</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>52001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">0f101b83-c041-4d9c-9351-ad71d9a09fe0</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>722490d3-3fdd-4049-853a-f2a45603f812</C_City_UU>
+        <Name>PASTO</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>54001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">21782e7c-e79e-40be-b7e1-ca5fff2406df</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>cb8eb582-5642-4be6-b6f9-511b665b478f</C_City_UU>
+        <Name>CÚCUTA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>63001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">1cfa1f8e-56bd-4284-86ef-d541681fd93c</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>f37be378-1f44-4ecc-bae5-c14d63d39323</C_City_UU>
+        <Name>ARMENIA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>66001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">436807e8-70c7-49ac-9531-0344ac724b50</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>c84abf1c-35e8-4ea4-87f0-58bba7f1d748</C_City_UU>
+        <Name>PEREIRA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>68001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">04ba142c-c430-4716-ae33-9a19c5df4434</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>642562d7-38cd-4f37-b993-eac19c18db90</C_City_UU>
+        <Name>BUCARAMANGA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>70001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">deee0c36-ba46-4423-92fa-73c38983a6f1</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>7a66f4d7-30e9-4ef8-8257-ce93feaec26e</C_City_UU>
+        <Name>SINCELEJO</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>73001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">a36c60d0-d472-4cd8-b55a-646cb701db0c</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>637af1d1-1b67-4398-baf4-1ec691762f6e</C_City_UU>
+        <Name>IBAGUÉ</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>76001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">8c73c3ec-1777-4b6a-85bf-adc020ef8296</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>d55131a6-4aca-47a2-af94-bb627fbfb585</C_City_UU>
+        <Name>CALI</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>81001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">a06f94e6-79be-4f30-b0e7-4b89ee772128</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>a035eaed-2578-4886-971b-d35be0767f16</C_City_UU>
+        <Name>ARAUCA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>85001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">e707706d-ed1c-4949-a261-f9d3cf46a9f9</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>ca1ba3db-b220-440b-bd23-f77bd4961ec7</C_City_UU>
+        <Name>YOPAL</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>86001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">64dcf5ef-78be-44bd-a08e-652d75eda922</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>86b56c55-d424-4a68-9757-ac1a17ade81e</C_City_UU>
+        <Name>MOCOA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>88001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">3bca93ee-a8e9-45f3-bc44-779765e5d6d8</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>e3fdca0a-b4e8-4fb1-8053-44dddd922222</C_City_UU>
+        <Name>SAN ANDRÉS</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>91001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">8c3da3cc-9b16-4b1e-aafc-f06b5bdea8d5</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>681e45d1-9381-43d4-b7b5-df71d33e55ee</C_City_UU>
+        <Name>LETICIA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>94001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">a1804300-649b-42e7-94cc-16dd3f96783e</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>bac48b49-a562-43cb-b3b5-31935f7df6d9</C_City_UU>
+        <Name>INÍRIDA</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>95001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">af2ada76-13e4-476c-a1ad-698fec933a79</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>213ac40c-1426-418b-a635-01416fc15d68</C_City_UU>
+        <Name>SAN JOSÉ DEL GUAVIARE</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>97001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">74e8e4d6-9aca-4399-a057-9e5b27e63ec1</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>426e1f5f-529b-4d0a-9e61-a5bc73c35feb</C_City_UU>
+        <Name>MITÚ</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+    <C_City type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Postal>99001</Postal>
+        <C_Region_ID reference="uuid" reference-key="C_Region">1d2c330b-b712-44e3-adea-568519f02356</C_Region_ID>
+        <AreaCode/>
+        <C_City_UU>a3333e19-9cbc-412d-b7f4-da5c5808a2e3</C_City_UU>
+        <Name>PUERTO CARREÑO</Name>
+        <Locode/>
+        <Coordinates/>
+        <IsActive>true</IsActive>
+        <C_Country_ID reference="id">156</C_Country_ID>
+    </C_City>
+</idempiere>

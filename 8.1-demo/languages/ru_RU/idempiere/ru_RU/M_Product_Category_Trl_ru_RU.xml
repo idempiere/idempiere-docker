@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="M_Product_Category">
+ <row trl="N" uuid="1a45d3cc-410f-4ad9-934b-8d88807e1066">
+  <value column="Name" original="Стандарт">Стандарт</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="237b6425-1f34-438f-9cd6-b16040d04710">
+  <value column="Name" original="Навигационные модули">Навигационные модули</value>
+  <value column="Description" original="Модули навигационные">Модули навигационные</value>
+ </row>
+ <row trl="N" uuid="a6491699-a691-47ec-a904-38d6ef085718">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="99287a58-8391-4ae7-bf48-c209ad648882">
+  <value column="Name" original="Стандартный">Стандартный</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

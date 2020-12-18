@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?pde version="3.8"?><target name="idempiere-8.1" sequenceNumber="92">
+<locations>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+		<unit id="org.adempiere.base.feature.feature.group"/>
+		<unit id="org.adempiere.payment.processor.feature.feature.group"/>
+		<unit id="org.adempiere.pipo.feature.feature.group"/>
+		<unit id="org.adempiere.replication.feature.feature.group"/>
+		<unit id="org.adempiere.replication.server.feature.feature.group"/>
+		<unit id="org.adempiere.report.jasper.feature.feature.group"/>
+		<unit id="org.adempiere.server.feature.feature.group"/>
+		<unit id="org.adempiere.ui.zk.feature.feature.group"/>
+		<unit id="org.compiere.db.provider.feature.feature.group"/>
+		<unit id="org.eclipse.equinox.executable.feature.group"/>
+		<unit id="org.idempiere.eclipse.platform.feature.feature.group"/>
+		<unit id="org.idempiere.equinox.p2.director.feature.feature.group"/>
+		<unit id="org.idempiere.felix.webconsole.feature.feature.group"/>
+		<unit id="org.idempiere.hazelcast.service.feature.feature.group"/>
+		<unit id="org.idempiere.zk.feature.feature.group"/>
+		<repository location="file:../iDempiere8.1/org.idempiere.p2/target/repository"/>
+	</location>
+</locations>
+<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+</target>

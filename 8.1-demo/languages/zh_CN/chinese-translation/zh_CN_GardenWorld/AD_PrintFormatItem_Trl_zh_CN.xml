@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormatItem">
+ <row id="2147" trl="Y">
+  <value column="Name" original="Rectangle">矩形</value>
+  <value column="PrintName" original="Rectangle">矩形</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2148" trl="Y">
+  <value column="Name" original="Product Image">附加图片</value>
+  <value column="PrintName" original="Product Image">附加图片</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2325" trl="Y">
+  <value column="Name" original="DocumentNo Barcode">单号</value>
+  <value column="PrintName" original="DocumentNo Barcode">单号</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2326" trl="Y">
+  <value column="Name" original="UPC">条码</value>
+  <value column="PrintName" original="UPC">条码</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="2327" trl="Y">
+  <value column="Name" original="Postal">邮寄地址</value>
+  <value column="PrintName" original="Postal">邮寄地址</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row trl="Y" uuid="9d15d119-7e56-4676-8ca2-59d220d355d9">
+  <value column="Name" original="Master BOM">主BOM</value>
+  <value column="PrintName" original="Master BOM">主BOM</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+</idempiereTrl>

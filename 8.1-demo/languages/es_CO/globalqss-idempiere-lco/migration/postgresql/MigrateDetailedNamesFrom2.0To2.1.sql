@@ -1,0 +1,1 @@
+ALTER TABLE lco_taxidtype DROP CONSTRAINT lco_taxidtype_isdigitchecked_check;

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 6.2_2019-01-06 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="fr_FR" table="C_Greeting">
+ <row id="300000" trl="N">
+  <value column="Name" original="Madame">Madame</value>
+  <value column="Greeting" original="Madame">Madame</value>
+ </row>
+ <row id="300001" trl="N">
+  <value column="Name" original="Mademoiselle">Mademoiselle</value>
+  <value column="Greeting" original="Mademoiselle">Mademoiselle</value>
+ </row>
+ <row id="300002" trl="N">
+  <value column="Name" original="Monsieur">Monsieur</value>
+  <value column="Greeting" original="Monsieur">Monsieur</value>
+ </row>
+ <row id="300003" trl="N">
+  <value column="Name" original="Chère Madame">Chère Madame</value>
+  <value column="Greeting" original="Chère Madame">Chère Madame</value>
+ </row>
+ <row id="300004" trl="N">
+  <value column="Name" original="Chère Mademoiselle">Chère Mademoiselle</value>
+  <value column="Greeting" original="Chère Mademoiselle">Chère Mademoiselle</value>
+ </row>
+ <row id="300005" trl="N">
+  <value column="Name" original="Cher Monsieur">Cher Monsieur</value>
+  <value column="Greeting" original="Cher Monsieur">Cher Monsieur</value>
+ </row>
+ <row id="300006" trl="N">
+  <value column="Name" original="Cher Ami">Cher Ami</value>
+  <value column="Greeting" original="Cher Ami">Cher Ami</value>
+ </row>
+ <row id="300007" trl="N">
+  <value column="Name" original="Chère Amie">Chère Amie</value>
+  <value column="Greeting" original="Chère Amie">Chère Amie</value>
+ </row>
+ <row id="300008" trl="N">
+  <value column="Name" original="Cher Confrère">Cher Confrère</value>
+  <value column="Greeting" original="Cher Confrère">Cher Confrère</value>
+ </row>
+ <row id="300009" trl="N">
+  <value column="Name" original="Mon Cher Confrère">Mon Cher Confrère</value>
+  <value column="Greeting" original="Mon Cher Confrère">Mon Cher Confrère</value>
+ </row>
+ <row id="300010" trl="N">
+  <value column="Name" original="Cher Maître">Cher Maître</value>
+  <value column="Greeting" original="Cher Maître">Cher Maître</value>
+ </row>
+ <row id="300011" trl="N">
+  <value column="Name" original="Mon Cher Maître">Mon Cher Maître</value>
+  <value column="Greeting" original="Mon Cher Maître">Mon Cher Maître</value>
+ </row>
+ <row id="300012" trl="N">
+  <value column="Name" original="Monsieur le Bâtonnier et Cher Confrère">Monsieur le Bâtonnier et Cher Confrère</value>
+  <value column="Greeting" original="Monsieur le Bâtonnier et Cher Confrère">Monsieur le Bâtonnier et Cher Confrère</value>
+ </row>
+ <row id="300013" trl="N">
+  <value column="Name" original="Madame le Bâtonnier et Cher Confrère">Madame le Bâtonnier et Cher Confrère</value>
+  <value column="Greeting" original="Madame le Bâtonnier et Cher Confrère">Madame le Bâtonnier et Cher Confrère</value>
+ </row>
+ <row id="300014" trl="N">
+  <value column="Name" original="Monsieur le Doyen des Juges d'Instruction">Monsieur le Doyen des Juges d'Instruction</value>
+  <value column="Greeting" original="Monsieur le Doyen des Juges d'Instruction">Monsieur le Doyen des Juges d'Instruction</value>
+ </row>
+ <row id="300015" trl="N">
+  <value column="Name" original="Madame le Doyen des Juges d'Instruction">Madame le Doyen des Juges d'Instruction</value>
+  <value column="Greeting" original="Madame le Doyen des Juges d'Instruction">Madame le Doyen des Juges d'Instruction</value>
+ </row>
+ <row id="300016" trl="N">
+  <value column="Name" original="Monsieur le Greffier">Monsieur le Greffier</value>
+  <value column="Greeting" original="Monsieur le Greffier">Monsieur le Greffier</value>
+ </row>
+ <row id="300017" trl="N">
+  <value column="Name" original="Madame le Greffier">Madame le Greffier</value>
+  <value column="Greeting" original="Madame le Greffier">Madame le Greffier</value>
+ </row>
+ <row id="300018" trl="N">
+  <value column="Name" original="Monsieur le Contrôleur">Monsieur le Contrôleur</value>
+  <value column="Greeting" original="Monsieur le Contrôleur">Monsieur le Contrôleur</value>
+ </row>
+ <row id="300019" trl="N">
+  <value column="Name" original="Madame le Contrôleur">Madame le Contrôleur</value>
+  <value column="Greeting" original="Madame le Contrôleur">Madame le Contrôleur</value>
+ </row>
+ <row id="300020" trl="N">
+  <value column="Name" original="Monsieur l'Inspecteur">Monsieur l'Inspecteur</value>
+  <value column="Greeting" original="Monsieur l'Inspecteur">Monsieur l'Inspecteur</value>
+ </row>
+ <row id="300021" trl="N">
+  <value column="Name" original="Madame l'Inspecteur">Madame l'Inspecteur</value>
+  <value column="Greeting" original="Madame l'Inspecteur">Madame l'Inspecteur</value>
+ </row>
+ <row id="300022" trl="N">
+  <value column="Name" original="Monsieur le Directeur Départemental du Travail">Monsieur le Directeur Départemental du Travail</value>
+  <value column="Greeting" original="Monsieur le Directeur Départemental du Travail">Monsieur le Directeur Départemental du Travail</value>
+ </row>
+ <row id="300023" trl="N">
+  <value column="Name" original="Madame le Directeur Départemental du Travail">Madame le Directeur Départemental du Travail</value>
+  <value column="Greeting" original="Madame le Directeur Départemental du Travail">Madame le Directeur Départemental du Travail</value>
+ </row>
+ <row id="300024" trl="N">
+  <value column="Name" original="Monsieur le Ministre">Monsieur le Ministre</value>
+  <value column="Greeting" original="Monsieur le Ministre">Monsieur le Ministre</value>
+ </row>
+ <row id="300025" trl="N">
+  <value column="Name" original="Madame le Ministre">Madame le Ministre</value>
+  <value column="Greeting" original="Madame le Ministre">Madame le Ministre</value>
+ </row>
+ <row id="300026" trl="N">
+  <value column="Name" original="Monsieur le Président">Monsieur le Président</value>
+  <value column="Greeting" original="Monsieur le Président">Monsieur le Président</value>
+ </row>
+ <row id="300027" trl="N">
+  <value column="Name" original="Madame le Président">Madame le Président</value>
+  <value column="Greeting" original="Madame le Président">Madame le Président</value>
+ </row>
+ <row id="300028" trl="N">
+  <value column="Name" original="Monsieur le Secrétaire Général">Monsieur le Secrétaire Général</value>
+  <value column="Greeting" original="Monsieur le Secrétaire Général">Monsieur le Secrétaire Général</value>
+ </row>
+ <row id="300029" trl="N">
+  <value column="Name" original="Madame le Secrétaire Général">Madame le Secrétaire Général</value>
+  <value column="Greeting" original="Madame le Secrétaire Général">Madame le Secrétaire Général</value>
+ </row>
+ <row id="300030" trl="N">
+  <value column="Name" original="Monsieur le Directeur">Monsieur le Directeur</value>
+  <value column="Greeting" original="Monsieur le Directeur">Monsieur le Directeur</value>
+ </row>
+ <row id="300031" trl="N">
+  <value column="Name" original="Madame le Directeur">Madame le Directeur</value>
+  <value column="Greeting" original="Madame le Directeur">Madame le Directeur</value>
+ </row>
+ <row id="300032" trl="N">
+  <value column="Name" original="Monsieur le Professeur">Monsieur le Professeur</value>
+  <value column="Greeting" original="Monsieur le Professeur">Monsieur le Professeur</value>
+ </row>
+ <row id="300033" trl="N">
+  <value column="Name" original="Madame le Professeur">Madame le Professeur</value>
+  <value column="Greeting" original="Madame le Professeur">Madame le Professeur</value>
+ </row>
+ <row id="300034" trl="N">
+  <value column="Name" original="Monsieur le Juge Départiteur">Monsieur le Juge Départiteur</value>
+  <value column="Greeting" original="Monsieur le Juge Départiteur">Monsieur le Juge Départiteur</value>
+ </row>
+ <row id="300035" trl="N">
+  <value column="Name" original="Madame le Juge Départiteur">Madame le Juge Départiteur</value>
+  <value column="Greeting" original="Madame le Juge Départiteur">Madame le Juge Départiteur</value>
+ </row>
+ <row id="300036" trl="N">
+  <value column="Name" original="Monsieur le Conseiller Rapporteur">Monsieur le Conseiller Rapporteur</value>
+  <value column="Greeting" original="Monsieur le Conseiller Rapporteur">Monsieur le Conseiller Rapporteur</value>
+ </row>
+ <row id="300037" trl="N">
+  <value column="Name" original="Madame le Conseiller Rapporteur">Madame le Conseiller Rapporteur</value>
+  <value column="Greeting" original="Madame le Conseiller Rapporteur">Madame le Conseiller Rapporteur</value>
+ </row>
+ <row id="300038" trl="N">
+  <value column="Name" original="Monsieur le Directeur des Affaires Sanitaires et Sociales">Monsieur le Directeur des Affaires Sanitaires et Sociales</value>
+  <value column="Greeting" original="Monsieur le Directeur des Affaires Sanitaires et Sociales">Monsieur le Directeur des Affaires Sanitaires et Sociales</value>
+ </row>
+ <row id="300039" trl="N">
+  <value column="Name" original="Madame le Directeur des Affaires Sanitaires et Sociales">Madame le Directeur des Affaires Sanitaires et Sociales</value>
+  <value column="Greeting" original="Madame le Directeur des Affaires Sanitaires et Sociales">Madame le Directeur des Affaires Sanitaires et Sociales</value>
+ </row>
+ <row id="300040" trl="N">
+  <value column="Name" original="Monsieur le Maire">Monsieur le Maire</value>
+  <value column="Greeting" original="Monsieur le Maire">Monsieur le Maire</value>
+ </row>
+ <row id="300041" trl="N">
+  <value column="Name" original="Madame le Maire">Madame le Maire</value>
+  <value column="Greeting" original="Madame le Maire">Madame le Maire</value>
+ </row>
+ <row id="300042" trl="N">
+  <value column="Name" original="Monsieur le Député">Monsieur le Député</value>
+  <value column="Greeting" original="Monsieur le Député">Monsieur le Député</value>
+ </row>
+ <row id="300043" trl="N">
+  <value column="Name" original="Madame le Député">Madame le Député</value>
+  <value column="Greeting" original="Madame le Député">Madame le Député</value>
+ </row>
+ <row id="300044" trl="N">
+  <value column="Name" original="Monsieur le Sénateur">Monsieur le Sénateur</value>
+  <value column="Greeting" original="Monsieur le Sénateur">Monsieur le Sénateur</value>
+ </row>
+ <row id="300045" trl="N">
+  <value column="Name" original="Madame le Sénateur">Madame le Sénateur</value>
+  <value column="Greeting" original="Madame le Sénateur">Madame le Sénateur</value>
+ </row>
+ <row id="300046" trl="N">
+  <value column="Name" original="Mon père">Mon père</value>
+  <value column="Greeting" original="Mon père">Mon père</value>
+ </row>
+ <row id="300047" trl="N">
+  <value column="Name" original="Ma mère">Ma mère</value>
+  <value column="Greeting" original="Ma mère">Ma mère</value>
+ </row>
+ <row id="300048" trl="N">
+  <value column="Name" original="Ma Soeur">Ma Soeur</value>
+  <value column="Greeting" original="Ma Soeur">Ma Soeur</value>
+ </row>
+ <row id="300049" trl="N">
+  <value column="Name" original="AUTRES">AUTRES</value>
+  <value column="Greeting" original="AUTRES">AUTRES</value>
+ </row>
+ <row id="300050" trl="N">
+  <value column="Name" original="Madame, Monsieur">Madame, Monsieur</value>
+  <value column="Greeting" original="Madame, Monsieur">Madame, Monsieur</value>
+ </row>
+ <row id="300051" trl="N">
+  <value column="Name" original="Mon frère">Mon frère</value>
+  <value column="Greeting" original="Mon frère">Mon frère</value>
+ </row>
+ <row id="300052" trl="N">
+  <value column="Name" original="Monsieur le Président Directeur Général">Monsieur le Président Directeur Général</value>
+  <value column="Greeting" original="Monsieur le Président Directeur Général">Monsieur le Président Directeur Général</value>
+ </row>
+ <row id="300053" trl="N">
+  <value column="Name" original="Chère Madame, Cher Monsieur,">Chère Madame, Cher Monsieur,</value>
+  <value column="Greeting" original="Chère Madame, Cher Monsieur,">Chère Madame, Cher Monsieur,</value>
+ </row>
+ <row id="300054" trl="N">
+  <value column="Name" original="Madame, Mademoiselle,">Madame, Mademoiselle,</value>
+  <value column="Greeting" original="Madame, Mademoiselle,">Madame, Mademoiselle,</value>
+ </row>
+ <row id="300055" trl="N">
+  <value column="Name" original="Mademoiselle, Monsieur,">Mademoiselle, Monsieur,</value>
+  <value column="Greeting" original="Mademoiselle, Monsieur,">Mademoiselle, Monsieur,</value>
+ </row>
+ <row id="300056" trl="N">
+  <value column="Name" original="Mon Cher Confrère et Chère Madame,">Mon Cher Confrère et Chère Madame,</value>
+  <value column="Greeting" original="Mon Cher Confrère et Chère Madame,">Mon Cher Confrère et Chère Madame,</value>
+ </row>
+ <row id="300057" trl="N">
+  <value column="Name" original="Mes Chers Maitres,">Mes Chers Maitres,</value>
+  <value column="Greeting" original="Mes Chers Maitres,">Mes Chers Maitres,</value>
+ </row>
+ <row id="300058" trl="N">
+  <value column="Name" original="Mes Chers Confrères,">Mes Chers Confrères,</value>
+  <value column="Greeting" original="Mes Chers Confrères,">Mes Chers Confrères,</value>
+ </row>
+ <row id="300059" trl="N">
+  <value column="Name" original="Monsieur l'Expert,">Monsieur l'Expert,</value>
+  <value column="Greeting" original="Monsieur l'Expert,">Monsieur l'Expert,</value>
+ </row>
+ <row id="300060" trl="N">
+  <value column="Name" original="Monsieur le Procureur de la République">Monsieur le Procureur de la République</value>
+  <value column="Greeting" original="Monsieur le Procureur de la République">Monsieur le Procureur de la République</value>
+ </row>
+ <row id="300061" trl="N">
+  <value column="Name" original="Madame le Procureur de la République">Madame le Procureur de la République</value>
+  <value column="Greeting" original="Madame le Procureur de la République">Madame le Procureur de la République</value>
+ </row>
+ <row id="300062" trl="N">
+  <value column="Name" original="Monsieur le Préfet">Monsieur le Préfet</value>
+  <value column="Greeting" original="Monsieur le Préfet">Monsieur le Préfet</value>
+ </row>
+ <row id="300063" trl="N">
+  <value column="Name" original="Madame le Préfet">Madame le Préfet</value>
+  <value column="Greeting" original="Madame le Préfet">Madame le Préfet</value>
+ </row>
+ <row id="300064" trl="N">
+  <value column="Name" original="Docteur">Docteur</value>
+  <value column="Greeting" original="Docteur">Docteur</value>
+ </row>
+ <row id="300065" trl="N">
+  <value column="Name" original="Cher Docteur">Cher Docteur</value>
+  <value column="Greeting" original="Cher Docteur">Cher Docteur</value>
+ </row>
+ <row id="300066" trl="N">
+  <value column="Name" original="Madame et Monsieur">Madame et Monsieur</value>
+  <value column="Greeting" original="Madame et Monsieur">Madame et Monsieur</value>
+ </row>
+ <row id="300067" trl="N">
+  <value column="Name" original="Maître">Maître</value>
+  <value column="Greeting" original="Maître">Maître</value>
+ </row>
+ <row id="300068" trl="N">
+  <value column="Name" original="Soeur">Soeur</value>
+  <value column="Greeting" original="Soeur">Soeur</value>
+ </row>
+ <row id="300069" trl="N">
+  <value column="Name" original="Frère">Frère</value>
+  <value column="Greeting" original="Frère">Frère</value>
+ </row>
+ <row id="300070" trl="N">
+  <value column="Name" original="Mère">Mère</value>
+  <value column="Greeting" original="Mère">Mère</value>
+ </row>
+ <row id="300071" trl="N">
+  <value column="Name" original="Père">Père</value>
+  <value column="Greeting" original="Père">Père</value>
+ </row>
+</idempiereTrl>

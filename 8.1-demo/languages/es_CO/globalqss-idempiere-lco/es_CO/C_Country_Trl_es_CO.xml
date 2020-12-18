@@ -1,0 +1,3463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="C_Country">
+ <row id="100" trl="Y">
+  <value column="Name" original="United States">Estados Unidos</value>
+  <value column="Description" original="United States of America">Estados Unidos de America</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">State</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Germany - Deutschland">Alemania</value>
+  <value column="Description" original=""/>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="Bundesland">Estado</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="France">Francia</value>
+  <value column="Description" original="France">Francia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Belgium">Belgica</value>
+  <value column="Description" original=""/>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Nederland">Holanda</value>
+  <value column="Description" original=""/>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Spain">España</value>
+  <value column="Description" original=""/>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Switzerland">Suiza</value>
+  <value column="Description" original=""/>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Austria">Austria</value>
+  <value column="Description" original="Österreich">Austria</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Canada">Canadá</value>
+  <value column="Description" original=""/>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="Province">Provincia</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Afghanistan">Afganistán</value>
+  <value column="Description" original="Afghanistan">Afganistán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Albania">Albania</value>
+  <value column="Description" original="Albania">Albania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Algeria">Argelia</value>
+  <value column="Description" original="Algeria">Argelia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="American Samoa">Samoa Americana</value>
+  <value column="Description" original="American Samoa">Samoa Americana</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Andorra">Andorra</value>
+  <value column="Description" original="Andorra">Andorra</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Angola">Angola</value>
+  <value column="Description" original="Angola">Angola</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Anguilla">Anguila</value>
+  <value column="Description" original="Anguilla">Anguila</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Antarctica">Antártida</value>
+  <value column="Description" original="Antarctica">Antártida</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Antigua And Barbuda">Antigua y Barbuda</value>
+  <value column="Description" original="Antigua And Barbuda">Antigua y Barbuda</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Argentina">Argentina</value>
+  <value column="Description" original="Argentina">Argentina</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="Provincia ">Provincia</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Armenia">Armenia</value>
+  <value column="Description" original="Armenia">Armenia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Aruba">Aruba</value>
+  <value column="Description" original="Aruba">Aruba</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Australia">Australia</value>
+  <value column="Description" original="Australia">Australia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Azerbaijan">Azerbaiyán</value>
+  <value column="Description" original="Azerbaijan">Azerbaiyán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Bahamas">Bahamas</value>
+  <value column="Description" original="Bahamas">Bahamas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Bahrain">Bahréin</value>
+  <value column="Description" original="Bahrain">Bahréin</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Bangladesh">Bangladesh</value>
+  <value column="Description" original="Bangladesh">Bangladesh</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Barbados">Barbados</value>
+  <value column="Description" original="Barbados">Barbados</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Belarus">Bielorrusia</value>
+  <value column="Description" original="Belarus">Bielorrusia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Belize">Belice</value>
+  <value column="Description" original="Belize">Belice</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Benin">Benín</value>
+  <value column="Description" original="Benin">Benín</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Bermuda">Bermudas</value>
+  <value column="Description" original="Bermuda">Bermudas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Bhutan">Bután</value>
+  <value column="Description" original="Bhutan">Bután</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Bolivia">Bolivia</value>
+  <value column="Description" original="Bolivia">Bolivia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="136" trl="Y">
+  <value column="Name" original="Bosnia And Herzegovina">Bosnia y Herzegovina</value>
+  <value column="Description" original="Bosnia And Herzegovina">Bosnia y Herzegovina</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="137" trl="Y">
+  <value column="Name" original="Botswana">Botsuana</value>
+  <value column="Description" original="Botswana">Botsuana</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="138" trl="Y">
+  <value column="Name" original="Bouvet Island">Isla Bouvet</value>
+  <value column="Description" original="Bouvet Island">Isla Bouvet</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Brazil">Brasil</value>
+  <value column="Description" original="Brazil">Brasil</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="Estado"/>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="British Indian Ocean Territory">Territorio Británico del Océano Índico</value>
+  <value column="Description" original="British Indian Ocean Territory">Territorio Británico del Océano Índico</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Brunei Darussalam">Brunéi</value>
+  <value column="Description" original="Brunei Darussalam">Brunéi</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Bulgaria">Bulgaria</value>
+  <value column="Description" original="Bulgaria">Bulgaria</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Burkina Faso">Burkina Faso</value>
+  <value column="Description" original="Burkina Faso">Burkina Faso</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="144" trl="Y">
+  <value column="Name" original="Burundi">Burundi</value>
+  <value column="Description" original="Burundi">Burundi</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="145" trl="Y">
+  <value column="Name" original="Cambodia">Camboya</value>
+  <value column="Description" original="Cambodia">Camboya</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Cameroon">Camerún</value>
+  <value column="Description" original="Cameroon">Camerún</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="Cape Verde">Cabo Verde</value>
+  <value column="Description" original="Cape Verde">Cabo Verde</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="Cayman Islands">Islas Caimán</value>
+  <value column="Description" original="Cayman Islands">Islas Caimán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="150" trl="Y">
+  <value column="Name" original="Central African Republic">República Centroafricana</value>
+  <value column="Description" original="Central African Republic">República Centroafricana</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Chad">Chad</value>
+  <value column="Description" original="Chad">Chad</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Chile">Chile</value>
+  <value column="Description" original="Chile">Chile</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="China">China</value>
+  <value column="Description" original="China">China</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="Christmas Island">Isla de Navidad</value>
+  <value column="Description" original="Christmas Island">Isla de Navidad</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Cocos (keeling) Islands">Islas Cocos (Keeling)</value>
+  <value column="Description" original="Cocos (keeling) Islands">Islas Cocos (Keeling)</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Colombia">Colombia</value>
+  <value column="Description" original="Colombia">Colombia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="Department">Departamento</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Comoros">Comoras</value>
+  <value column="Description" original="Comoros">Comoras</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Congo">Congo</value>
+  <value column="Description" original="Congo">Congo</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Congo The Democratic Republic Of The">República Democrática del Congo</value>
+  <value column="Description" original="Congo The Democratic Republic Of The">República Democrática del Congo</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Cook Islands">Islas Cook</value>
+  <value column="Description" original="Cook Islands">Islas Cook</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Costa Rica">Costa Rica</value>
+  <value column="Description" original="Costa Rica">Costa Rica</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="162" trl="Y">
+  <value column="Name" original="Cote D'ivoire">Costa de Marfil</value>
+  <value column="Description" original="Cote D'ivoire">Costa de Marfil</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Croatia">Croacia</value>
+  <value column="Description" original="Croatia">Croacia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Cuba">Cuba</value>
+  <value column="Description" original="Cuba">Cuba</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Cyprus">Chipre</value>
+  <value column="Description" original="Cyprus">Chipre</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Czech Republic">República Checa</value>
+  <value column="Description" original="Czech Republic">República Checa</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Denmark">Dinamarca</value>
+  <value column="Description" original="Denmark">Dinamarca</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="168" trl="Y">
+  <value column="Name" original="Djibouti">Yibuti</value>
+  <value column="Description" original="Djibouti">Yibuti</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Dominica">Dominica</value>
+  <value column="Description" original="Dominica">Dominica</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Dominican Republic">República Dominicana</value>
+  <value column="Description" original="Dominican Republic">República Dominicana</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="171" trl="Y">
+  <value column="Name" original="Ecuador">Ecuador</value>
+  <value column="Description" original="Ecuador">Ecuador</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Egypt">Egipto</value>
+  <value column="Description" original="Egypt">Egipto</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="173" trl="Y">
+  <value column="Name" original="El Salvador">El Salvador</value>
+  <value column="Description" original="El Salvador">El Salvador</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Equatorial Guinea">Guinea Ecuatorial</value>
+  <value column="Description" original="Equatorial Guinea">Guinea Ecuatorial</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Eritrea">Eritrea</value>
+  <value column="Description" original="Eritrea">Eritrea</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Estonia">Estonia</value>
+  <value column="Description" original="Estonia">Estonia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="177" trl="Y">
+  <value column="Name" original="Ethiopia">Etiopía</value>
+  <value column="Description" original="Ethiopia">Etiopía</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Falkland Islands (malvinas)">Islas Malvinas</value>
+  <value column="Description" original="Falkland Islands (malvinas)">Islas Malvinas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="179" trl="Y">
+  <value column="Name" original="Faroe Islands">Islas Feroe</value>
+  <value column="Description" original="Faroe Islands">Islas Feroe</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Fiji">Fiyi</value>
+  <value column="Description" original="Fiji">Fiyi</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="181" trl="Y">
+  <value column="Name" original="Finland">Finlandia</value>
+  <value column="Description" original="Finland">Finlandia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="French Guiana">Guayana Francesa</value>
+  <value column="Description" original="French Guiana">Guayana Francesa</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="184" trl="Y">
+  <value column="Name" original="French Polynesia">Polinesia Francesa</value>
+  <value column="Description" original="French Polynesia">Polinesia Francesa</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="185" trl="Y">
+  <value column="Name" original="French Southern Territories">Tierras Australes y Antárticas Francesas</value>
+  <value column="Description" original="French Southern Territories">Tierras Australes y Antárticas Francesas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="186" trl="Y">
+  <value column="Name" original="Gabon">Gabón</value>
+  <value column="Description" original="Gabon">Gabón</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="187" trl="Y">
+  <value column="Name" original="Gambia">Gambia</value>
+  <value column="Description" original="Gambia">Gambia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="188" trl="Y">
+  <value column="Name" original="Georgia">Georgia</value>
+  <value column="Description" original="Georgia">Georgia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="190" trl="Y">
+  <value column="Name" original="Ghana">Ghana</value>
+  <value column="Description" original="Ghana">Ghana</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="191" trl="Y">
+  <value column="Name" original="Gibraltar">Gibraltar</value>
+  <value column="Description" original="Gibraltar">Gibraltar</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="192" trl="Y">
+  <value column="Name" original="Greece">Grecia</value>
+  <value column="Description" original="Greece">Grecia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="193" trl="Y">
+  <value column="Name" original="Greenland">Groenlandia</value>
+  <value column="Description" original="Greenland">Groenlandia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="194" trl="Y">
+  <value column="Name" original="Grenada">Granada</value>
+  <value column="Description" original="Grenada">Granada</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="195" trl="Y">
+  <value column="Name" original="Guadeloupe">Guadalupe</value>
+  <value column="Description" original="Guadeloupe">Guadalupe</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="196" trl="Y">
+  <value column="Name" original="Guam">Guam</value>
+  <value column="Description" original="Guam">Guam</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="197" trl="Y">
+  <value column="Name" original="Guatemala">Guatemala</value>
+  <value column="Description" original="Guatemala">Guatemala</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="198" trl="Y">
+  <value column="Name" original="Guinea">Guinea</value>
+  <value column="Description" original="Guinea">Guinea</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="199" trl="Y">
+  <value column="Name" original="Guinea-bissau">Guinea-Bissau</value>
+  <value column="Description" original="Guinea-bissau">Guinea-Bissau</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="200" trl="Y">
+  <value column="Name" original="Guyana">Guyana</value>
+  <value column="Description" original="Guyana">Guyana</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="201" trl="Y">
+  <value column="Name" original="Haiti">Haití</value>
+  <value column="Description" original="Haiti">Haití</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="202" trl="Y">
+  <value column="Name" original="Heard Island And Mcdonald Islands">Islas Heard y McDonald</value>
+  <value column="Description" original="Heard Island And Mcdonald Islands">Islas Heard y McDonald</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Holy See (vatican City State)">Santa Sede (Estado de la Ciudad del Vaticano)</value>
+  <value column="Description" original="Holy See (vatican City State)">Holy See (Estado de la Ciudad del Vaticano)</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="204" trl="Y">
+  <value column="Name" original="Honduras">Honduras</value>
+  <value column="Description" original="Honduras">Honduras</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="205" trl="Y">
+  <value column="Name" original="Hong Kong">Hong Kong</value>
+  <value column="Description" original="Hong Kong">Hong Kong</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="206" trl="Y">
+  <value column="Name" original="Hungary">Hungría</value>
+  <value column="Description" original="Hungary">Hungría</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="207" trl="Y">
+  <value column="Name" original="Iceland">Islandia</value>
+  <value column="Description" original="Iceland">Islandia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="208" trl="Y">
+  <value column="Name" original="India">India</value>
+  <value column="Description" original="India">India</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="209" trl="Y">
+  <value column="Name" original="Indonesia">Indonesia</value>
+  <value column="Description" original="Indonesia">Indonesia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="210" trl="Y">
+  <value column="Name" original="Iran Islamic Republic Of">República Islámica de Irán</value>
+  <value column="Description" original="Iran Islamic Republic Of">República Islámica de Irán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="211" trl="Y">
+  <value column="Name" original="Iraq">Iraq</value>
+  <value column="Description" original="Iraq">Iraq</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="212" trl="Y">
+  <value column="Name" original="Ireland">Irlanda</value>
+  <value column="Description" original="Ireland">Irlanda</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="213" trl="Y">
+  <value column="Name" original="Israel">Israel</value>
+  <value column="Description" original="Israel">Israel</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="214" trl="Y">
+  <value column="Name" original="Italy">Italia</value>
+  <value column="Description" original="Italy">Italia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="215" trl="Y">
+  <value column="Name" original="Jamaica">Jamaica</value>
+  <value column="Description" original="Jamaica">Jamaica</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="216" trl="Y">
+  <value column="Name" original="Japan">Japón</value>
+  <value column="Description" original="Japan">Japón</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="Prefecture">Prefectura</value>
+ </row>
+ <row id="217" trl="Y">
+  <value column="Name" original="Jordan">Jordania</value>
+  <value column="Description" original="Jordan">Jordania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="Kazakhstan">Kazajistán</value>
+  <value column="Description" original="Kazakhstan">Kazajistán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="219" trl="Y">
+  <value column="Name" original="Kenya">Kenia</value>
+  <value column="Description" original="Kenya">Kenia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="220" trl="Y">
+  <value column="Name" original="Kiribati">Kiribati</value>
+  <value column="Description" original="Kiribati">Kiribati</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="221" trl="Y">
+  <value column="Name" original="Korea Democratic People's Republic Of">República Popular Democrática de Corea</value>
+  <value column="Description" original="Korea Democratic People's Republic Of">República Popular Democrática de Corea</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="222" trl="Y">
+  <value column="Name" original="Korea Republic Of">República de Corea</value>
+  <value column="Description" original="Korea Republic Of">República de Corea</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="223" trl="Y">
+  <value column="Name" original="Kuwait">Kuwait</value>
+  <value column="Description" original="Kuwait">Kuwait</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="224" trl="Y">
+  <value column="Name" original="Kyrgyzstan">Kirguistán</value>
+  <value column="Description" original="Kyrgyzstan">Kirguistán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="225" trl="Y">
+  <value column="Name" original="Lao People's Democratic Republic">República Democrática Popular Lao</value>
+  <value column="Description" original="Lao People's Democratic Republic">República Democrática Popular Lao</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="226" trl="Y">
+  <value column="Name" original="Latvia">Letonia</value>
+  <value column="Description" original="Latvia">Letonia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="Lebanon">Líbano</value>
+  <value column="Description" original="Lebanon">Líbano</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="228" trl="Y">
+  <value column="Name" original="Lesotho">Lesoto</value>
+  <value column="Description" original="Lesotho">Lesoto</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="229" trl="Y">
+  <value column="Name" original="Liberia">Liberia</value>
+  <value column="Description" original="Liberia">Liberia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="230" trl="Y">
+  <value column="Name" original="Libyan Arab Jamahiriya">Libia</value>
+  <value column="Description" original="Libyan Arab Jamahiriya">Libia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="231" trl="Y">
+  <value column="Name" original="Liechtenstein">Liechtenstein</value>
+  <value column="Description" original="Liechtenstein">Liechtenstein</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="232" trl="Y">
+  <value column="Name" original="Lithuania">Lituania</value>
+  <value column="Description" original="Lithuania">Lituania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Luxembourg">Luxemburgo</value>
+  <value column="Description" original="Luxembourg">Luxemburgo</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="234" trl="Y">
+  <value column="Name" original="Macao">Macao</value>
+  <value column="Description" original="Macao">Macao</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="235" trl="Y">
+  <value column="Name" original="Macedonia Former Yugoslav Republic Of">Antigua República Yugoslava de Macedonia</value>
+  <value column="Description" original="Macedonia Former Yugoslav Republic Of">Antigua República Yugoslava de Macedonia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Madagascar">Madagascar</value>
+  <value column="Description" original="Madagascar">Madagascar</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="237" trl="Y">
+  <value column="Name" original="Malawi">Malaui</value>
+  <value column="Description" original="Malawi">Malaui</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="238" trl="Y">
+  <value column="Name" original="Malaysia">Malasia</value>
+  <value column="Description" original="Malaysia">Malasia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="239" trl="Y">
+  <value column="Name" original="Maldives">Maldivas</value>
+  <value column="Description" original="Maldives">Maldivas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="240" trl="Y">
+  <value column="Name" original="Mali">Malí</value>
+  <value column="Description" original="Mali">Malí</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="241" trl="Y">
+  <value column="Name" original="Malta">Malta</value>
+  <value column="Description" original="Malta">Malta</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="242" trl="Y">
+  <value column="Name" original="Marshall Islands">Islas Marshall</value>
+  <value column="Description" original="Marshall Islands">Islas Marshall</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="243" trl="Y">
+  <value column="Name" original="Martinique">Martinica</value>
+  <value column="Description" original="Martinique">Martinica</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="244" trl="Y">
+  <value column="Name" original="Mauritania">Mauritania</value>
+  <value column="Description" original="Mauritania">Mauritania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="245" trl="Y">
+  <value column="Name" original="Mauritius">Mauricio</value>
+  <value column="Description" original="Mauritius">Mauricio</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="246" trl="Y">
+  <value column="Name" original="Mayotte">Mayotte</value>
+  <value column="Description" original="Mayotte">Mayotte</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="247" trl="Y">
+  <value column="Name" original="Mexico">México</value>
+  <value column="Description" original="Mexico">México</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+ <row id="248" trl="Y">
+  <value column="Name" original="Micronesia Federated States Of">Estados Federados de Micronesia</value>
+  <value column="Description" original="Micronesia Federated States Of">Estados Federados de Micronesia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="249" trl="Y">
+  <value column="Name" original="Moldova Republic Of">República de Moldavia</value>
+  <value column="Description" original="Moldova Republic Of">República de Moldavia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="250" trl="Y">
+  <value column="Name" original="Monaco">Mónaco</value>
+  <value column="Description" original="Monaco">Mónaco</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="251" trl="Y">
+  <value column="Name" original="Mongolia">Mongolia</value>
+  <value column="Description" original="Mongolia">Mongolia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="252" trl="Y">
+  <value column="Name" original="Montserrat">Montserrat</value>
+  <value column="Description" original="Montserrat">Montserrat</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="253" trl="Y">
+  <value column="Name" original="Morocco">Marruecos</value>
+  <value column="Description" original="Morocco">Marruecos</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="254" trl="Y">
+  <value column="Name" original="Mozambique">Mozambique</value>
+  <value column="Description" original="Mozambique">Mozambique</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="255" trl="Y">
+  <value column="Name" original="Myanmar">Birmania</value>
+  <value column="Description" original="Myanmar">Birmania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="256" trl="Y">
+  <value column="Name" original="Namibia">Namibia</value>
+  <value column="Description" original="Namibia">Namibia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="257" trl="Y">
+  <value column="Name" original="Nauru">Nauru</value>
+  <value column="Description" original="Nauru">Nauru</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="258" trl="Y">
+  <value column="Name" original="Nepal">Nepal</value>
+  <value column="Description" original="Nepal">Nepal</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="260" trl="Y">
+  <value column="Name" original="Netherlands Antilles">Antillas Neerlandesas</value>
+  <value column="Description" original="Netherlands Antilles">Antillas Neerlandesas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="261" trl="Y">
+  <value column="Name" original="New Caledonia">Nueva Caledonia</value>
+  <value column="Description" original="New Caledonia">Nueva Caledonia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="262" trl="Y">
+  <value column="Name" original="New Zealand">Nueva Zelanda</value>
+  <value column="Description" original="New Zealand">Nueva Zelanda</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Nicaragua">Nicaragua</value>
+  <value column="Description" original="Nicaragua">Nicaragua</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="264" trl="Y">
+  <value column="Name" original="Niger">Níger</value>
+  <value column="Description" original="Niger">Níger</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="265" trl="Y">
+  <value column="Name" original="Nigeria">Nigeria</value>
+  <value column="Description" original="Nigeria">Nigeria</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="266" trl="Y">
+  <value column="Name" original="Niue">Niue</value>
+  <value column="Description" original="Niue">Niue</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="267" trl="Y">
+  <value column="Name" original="Norfolk Island">Isla Norfolk</value>
+  <value column="Description" original="Norfolk Island">Isla Norfolk</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="268" trl="Y">
+  <value column="Name" original="Northern Mariana Islands">Islas Marianas del Norte</value>
+  <value column="Description" original="Northern Mariana Islands">Islas Marianas del Norte</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="269" trl="Y">
+  <value column="Name" original="Norway">Noruega</value>
+  <value column="Description" original="Norway">Noruega</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="270" trl="Y">
+  <value column="Name" original="Oman">Omán</value>
+  <value column="Description" original="Oman">Omán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Pakistan">Pakistán</value>
+  <value column="Description" original="Pakistan">Pakistán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Palau">Palaos</value>
+  <value column="Description" original="Palau">Palaos</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="273" trl="Y">
+  <value column="Name" original="Palestinian Territory Occupied">Territorios Ocupados Palestinos</value>
+  <value column="Description" original="Palestinian Territory Occupied">Territorios Ocupados Palestinos</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="274" trl="Y">
+  <value column="Name" original="Panama">Panamá</value>
+  <value column="Description" original="Panama">Panamá</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="275" trl="Y">
+  <value column="Name" original="Papua New Guinea">Papúa Nueva Guinea</value>
+  <value column="Description" original="Papua New Guinea">Papúa Nueva Guinea</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="276" trl="Y">
+  <value column="Name" original="Paraguay">Paraguay</value>
+  <value column="Description" original="Paraguay">Paraguay</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="277" trl="Y">
+  <value column="Name" original="Peru">Perú</value>
+  <value column="Description" original="Peru">Perú</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Philippines">Filipinas</value>
+  <value column="Description" original="Philippines">Filipinas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="279" trl="Y">
+  <value column="Name" original="Pitcairn">Islas Pitcairn</value>
+  <value column="Description" original="Pitcairn">Islas Pitcairn</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Poland">Polonia</value>
+  <value column="Description" original="Poland">Polonia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="281" trl="Y">
+  <value column="Name" original="Portugal">Portugal</value>
+  <value column="Description" original="Portugal">Portugal</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="282" trl="Y">
+  <value column="Name" original="Puerto Rico">Puerto Rico</value>
+  <value column="Description" original="Puerto Rico">Puerto Rico</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="283" trl="Y">
+  <value column="Name" original="Qatar">Qatar</value>
+  <value column="Description" original="Qatar">Qatar</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="284" trl="Y">
+  <value column="Name" original="Reunion">Reunión</value>
+  <value column="Description" original="Reunion">Reunión</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="285" trl="Y">
+  <value column="Name" original="Romania">Rumania</value>
+  <value column="Description" original="Romania">Rumania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="286" trl="Y">
+  <value column="Name" original="Russian Federation">Federación de Rusia</value>
+  <value column="Description" original="Russian Federation">Federación de Rusia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="Federal Subject">Sujeto Federal</value>
+ </row>
+ <row id="287" trl="Y">
+  <value column="Name" original="Rwanda">Ruanda</value>
+  <value column="Description" original="Rwanda">Ruanda</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="288" trl="Y">
+  <value column="Name" original="Saint Helena">Santa Helena</value>
+  <value column="Description" original="Saint Helena">Santa Helena</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="289" trl="Y">
+  <value column="Name" original="Saint Kitts And Nevis">San Cristóbal y Nieves</value>
+  <value column="Description" original="Saint Kitts And Nevis">San Cristóbal y Nieves</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="290" trl="Y">
+  <value column="Name" original="Saint Lucia">Santa Lucía</value>
+  <value column="Description" original="Saint Lucia">Santa Lucía</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="291" trl="Y">
+  <value column="Name" original="Saint Pierre And Miquelon">San Pedro y Miguelón</value>
+  <value column="Description" original="Saint Pierre And Miquelon">San Pedro y Miguelón</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="292" trl="Y">
+  <value column="Name" original="Saint Vincent And The Grenadines">San Vicente y las Granadinas</value>
+  <value column="Description" original="Saint Vincent And The Grenadines">San Vicente y las Granadinas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="293" trl="Y">
+  <value column="Name" original="Samoa">Samoa</value>
+  <value column="Description" original="Samoa">Samoa</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="294" trl="Y">
+  <value column="Name" original="San Marino">San Marino</value>
+  <value column="Description" original="San Marino">San Marino</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="295" trl="Y">
+  <value column="Name" original="Sao Tome And Principe">Santo Tomé y Príncipe</value>
+  <value column="Description" original="Sao Tome And Principe">Santo Tomé y Príncipe</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="296" trl="Y">
+  <value column="Name" original="Saudi Arabia">Arabia Saudita</value>
+  <value column="Description" original="Saudi Arabia">Arabia Saudita</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="297" trl="Y">
+  <value column="Name" original="Senegal">Senegal</value>
+  <value column="Description" original="Senegal">Senegal</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="298" trl="Y">
+  <value column="Name" original="Seychelles">Seychelles</value>
+  <value column="Description" original="Seychelles">Seychelles</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="299" trl="Y">
+  <value column="Name" original="Sierra Leone">Sierra Leona</value>
+  <value column="Description" original="Sierra Leone">Sierra Leona</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="300" trl="Y">
+  <value column="Name" original="Singapore">Singapur</value>
+  <value column="Description" original="Singapore">Singapur</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="301" trl="Y">
+  <value column="Name" original="Slovakia">Eslovaquia</value>
+  <value column="Description" original="Slovakia">Eslovaquia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Slovenia">Eslovenia</value>
+  <value column="Description" original="Slovenia">Eslovenia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="303" trl="Y">
+  <value column="Name" original="Solomon Islands">Islas Salomón</value>
+  <value column="Description" original="Solomon Islands">Islas Salomón</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="304" trl="Y">
+  <value column="Name" original="Somalia">Somalia</value>
+  <value column="Description" original="Somalia">Somalia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="305" trl="Y">
+  <value column="Name" original="South Africa">Sudáfrica</value>
+  <value column="Description" original="South Africa">Sudáfrica</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="306" trl="Y">
+  <value column="Name" original="South Georgia And The South Sandwich Islands">Islas Georgias del Sur y Sandwich del Sur</value>
+  <value column="Description" original="South Georgia And The South Sandwich Islands">Islas Georgias del Sur y Sandwich del Sur</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="308" trl="Y">
+  <value column="Name" original="Sri Lanka">Sri Lanka</value>
+  <value column="Description" original="Sri Lanka">Sri Lanka</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="309" trl="Y">
+  <value column="Name" original="Sudan">Sudán</value>
+  <value column="Description" original="Sudan">Sudán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="310" trl="Y">
+  <value column="Name" original="Suriname">Surinam</value>
+  <value column="Description" original="Suriname">Surinam</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="311" trl="Y">
+  <value column="Name" original="Svalbard And Jan Mayen">Svalbard y Jan Mayen</value>
+  <value column="Description" original="Svalbard And Jan Mayen">Svalbard y Jan Mayen</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="312" trl="Y">
+  <value column="Name" original="Swaziland">Suazilandia</value>
+  <value column="Description" original="Swaziland">Suazilandia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="313" trl="Y">
+  <value column="Name" original="Sweden">Suecia</value>
+  <value column="Description" original="Sweden">Suecia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="Syrian Arab Republic">República Árabe Siria</value>
+  <value column="Description" original="Syrian Arab Republic">República Árabe Siria</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="316" trl="Y">
+  <value column="Name" original="Taiwan">Isla de Taiwán</value>
+  <value column="Description" original="Taiwan">Isla de Taiwán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="317" trl="Y">
+  <value column="Name" original="Tajikistan">Tayikistán</value>
+  <value column="Description" original="Tajikistan">Tayikistán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="318" trl="Y">
+  <value column="Name" original="Tanzania United Republic Of">República Unida de Tanzania</value>
+  <value column="Description" original="Tanzania United Republic Of">República Unida de Tanzania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="319" trl="Y">
+  <value column="Name" original="Thailand">Tailandia</value>
+  <value column="Description" original="Thailand">Tailandia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="320" trl="Y">
+  <value column="Name" original="Timor-leste">Timor Oriental</value>
+  <value column="Description" original="Timor-leste">Timor Oriental</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="321" trl="Y">
+  <value column="Name" original="Togo">Togo</value>
+  <value column="Description" original="Togo">Togo</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="322" trl="Y">
+  <value column="Name" original="Tokelau">Tokelau</value>
+  <value column="Description" original="Tokelau">Tokelau</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="323" trl="Y">
+  <value column="Name" original="Tonga">Tonga</value>
+  <value column="Description" original="Tonga">Tonga</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="324" trl="Y">
+  <value column="Name" original="Trinidad And Tobago">Trinidad y Tobago</value>
+  <value column="Description" original="Trinidad And Tobago">Trinidad y Tobago</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="325" trl="Y">
+  <value column="Name" original="Tunisia">Túnez</value>
+  <value column="Description" original="Tunisia">Túnez</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Turkey">Turquía</value>
+  <value column="Description" original="Turkey">Turquía</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="327" trl="Y">
+  <value column="Name" original="Turkmenistan">Turkmenistán</value>
+  <value column="Description" original="Turkmenistan">Turkmenistán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="328" trl="Y">
+  <value column="Name" original="Turks And Caicos Islands">Islas Turcas y Caicos</value>
+  <value column="Description" original="Turks And Caicos Islands">Islas Turcas y Caicos</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="329" trl="Y">
+  <value column="Name" original="Tuvalu">Tuvalu</value>
+  <value column="Description" original="Tuvalu">Tuvalu</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="330" trl="Y">
+  <value column="Name" original="Uganda">Uganda</value>
+  <value column="Description" original="Uganda">Uganda</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="331" trl="Y">
+  <value column="Name" original="Ukraine">Ucrania</value>
+  <value column="Description" original="Ukraine">Ucrania</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="332" trl="Y">
+  <value column="Name" original="United Arab Emirates">Emiratos Árabes Unidos</value>
+  <value column="Description" original="United Arab Emirates">Emiratos Árabes Unidos</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="333" trl="Y">
+  <value column="Name" original="United Kingdom">Reino Unido</value>
+  <value column="Description" original="United Kingdom">Reino Unido</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="335" trl="Y">
+  <value column="Name" original="United States Minor Outlying Islands">Islas Ultramarinas de Estados Unidos</value>
+  <value column="Description" original="United States Minor Outlying Islands">Islas Ultramarinas de Estados Unidos</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="336" trl="Y">
+  <value column="Name" original="Uruguay">Uruguay</value>
+  <value column="Description" original="Uruguay">Uruguay</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="337" trl="Y">
+  <value column="Name" original="Uzbekistan">Uzbekistán</value>
+  <value column="Description" original="Uzbekistan">Uzbekistán</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="338" trl="Y">
+  <value column="Name" original="Vanuatu">Vanuatu</value>
+  <value column="Description" original="Vanuatu">Vanuatu</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="339" trl="Y">
+  <value column="Name" original="Venezuela">Venezuela</value>
+  <value column="Description" original="Venezuela">Venezuela</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="340" trl="Y">
+  <value column="Name" original="Viet Nam">Vietnam</value>
+  <value column="Description" original="Viet Nam">Vietnam</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="341" trl="Y">
+  <value column="Name" original="Virgin Islands British">Islas Vírgenes Británicas</value>
+  <value column="Description" original="Virgin Islands British">Islas Vírgenes Británicas</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="342" trl="Y">
+  <value column="Name" original="Virgin Islands U.s.">Islas Vírgenes de los Estados Unidos</value>
+  <value column="Description" original="Virgin Islands U.s.">Islas Vírgenes de los Estados Unidos</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="343" trl="Y">
+  <value column="Name" original="Wallis And Futuna">Wallis y Futuna</value>
+  <value column="Description" original="Wallis And Futuna">Wallis y Futuna</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="344" trl="Y">
+  <value column="Name" original="Western Sahara">Sahara Occidental</value>
+  <value column="Description" original="Western Sahara">Sahara Occidental</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Yemen">Yemen</value>
+  <value column="Description" original="Yemen">Yemen</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="346" trl="Y">
+  <value column="Name" original="Yugoslavia">Yugoslavia</value>
+  <value column="Description" original="Yugoslavia">Yugoslavia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="347" trl="Y">
+  <value column="Name" original="Zambia">Zambia</value>
+  <value column="Description" original="Zambia">Zambia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="348" trl="Y">
+  <value column="Name" original="Zimbabwe">Zimbabue</value>
+  <value column="Description" original="Zimbabwe">Zimbabue</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="349" trl="Y">
+  <value column="Name" original="Serbia">Serbia</value>
+  <value column="Description" original="Serbia">Serbia</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="350" trl="Y">
+  <value column="Name" original="Montenegro">Montenegro</value>
+  <value column="Description" original="Montenegro">Montenegro</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original=""/>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Åland Islands">Islas de Åland</value>
+  <value column="Description" original="Åland Islands">Islas de Åland</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Saint Barthélemy">San Bartolomé</value>
+  <value column="Description" original="Saint Barthélemy">San Bartolomé</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Guernsey">Guernsey</value>
+  <value column="Description" original=""/>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Isle of Man">Isla de Man</value>
+  <value column="Description" original="Isle of Man">Isla de Man</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Jersey">Bailiazgo de Jersey</value>
+  <value column="Description" original="Jersey">Bailiazgo de Jersey</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Saint Martin">Isla de San Martín</value>
+  <value column="Description" original="Saint Martin">Isla de San Martín</value>
+  <value column="PlaceholderAddress1" original=""/>
+  <value column="PlaceholderAddress2" original=""/>
+  <value column="PlaceholderAddress3" original=""/>
+  <value column="PlaceholderAddress4" original=""/>
+  <value column="PlaceholderAddress5" original=""/>
+  <value column="PlaceholderCity" original=""/>
+  <value column="PlaceholderComments" original=""/>
+  <value column="PlaceholderPostal" original=""/>
+  <value column="PlaceholderPostal_Add" original=""/>
+  <value column="RegionName" original="State">Estado</value>
+ </row>
+</idempiereTrl>

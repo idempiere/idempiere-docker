@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="C_UOM">
+ <row id="100" trl="Y">
+  <value column="Name" original="Each">Unidad</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Ea ">Un </value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Hour">Hora</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="h  ">h  </value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Day">Día</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="d  ">d  </value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Minutes">Minutos</value>
+  <value column="Description" original="(lowest unit for resorce assigments)">(unidad mínima para asignación de recursos)</value>
+  <value column="UOMSymbol" original="m  ">m  </value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Work Day">Día de trabajo</value>
+  <value column="Description" original="8 hour">8 Horas</value>
+  <value column="UOMSymbol" original="D  ">D  </value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Week">Semana</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="w  ">s  </value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Month">Mes</value>
+  <value column="Description" original="30 days">30 días</value>
+  <value column="UOMSymbol" original="m  ">m  </value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Working Month">Mes de Trabajo</value>
+  <value column="Description" original="20 days">20 días</value>
+  <value column="UOMSymbol" original="M  ">M  </value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Year">Año</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="y  ">a  </value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="6-Pack">Paquete de 6</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="6Pk">6Pq</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Mililiter">Mililitro</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="ml">ml</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="kilogram">kilogramo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Kg">Kg</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="milligram">miligramo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="mg">mg</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="litre">litro</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="L">L</value>
+ </row>
+</idempiereTrl>

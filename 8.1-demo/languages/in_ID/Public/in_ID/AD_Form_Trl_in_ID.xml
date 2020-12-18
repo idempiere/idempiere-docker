@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_Form">
+ <row id="100" trl="Y">
+  <value column="Name" original="Generate Invoices (manual)">Buat Invoice (manual)</value>
+  <value column="Description" original="Select and generate invoices">Pilih dan hasilkan faktur</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">Hasilkan Faktur dari Pesanan.
+Pilih pesanan untuk menghasilkan faktur.</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Import File Loader">Import File</value>
+  <value column="Description" original="Load flat Files into import tables">Muat File rata ke dalam tabel impor</value>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading].">Impor File Loader mem-parsing konten file datar dan memuatnya ke tabel impor. Komentar dimulai dengan '[' dan diakhiri dengan ']' dan diabaikan; contoh: [Beberapa Tajuk].</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Material Transactions">Transaksi Material</value>
+  <value column="Description" original="Material Transactions">Transaksi Material</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Payment Allocation">Alokasi Pembayaran</value>
+  <value column="Description" original="Allocate invoices and payments">Alokasikan faktur dan pembayaran</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Generate Charges">Buat Beban dari Akun</value>
+  <value column="Description" original="Generate Charges from natural accounts">Hasilkan Biaya dari akun alami</value>
+  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">Gunakan bagian atas untuk membuat tagihan baru menggunakan akun tagihan umum. Gunakan bagian bawah untuk membuat tagihan berdasarkan akun alami.</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Payment Print/Export">Cetak/Ekspor Pembayaran</value>
+  <value column="Description" original="Print or export your payments">Cetak atau ekspor pembayaran Anda</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Payment Selection (manual)">Seleksi Pembayaran (manual)</value>
+  <value column="Description" original="Manual Payment Selection">Pemilihan Pembayaran Manual</value>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">Pilih faktur vendor untuk pembayaran. Jika Anda tidak melihat faktur, pastikan itu tidak termasuk dalam Seleksi Pembayaran yang berbeda (belum diproses).</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Matching PO-Receipt-Invoice">Validasi PO - Penerimaan - Invoice</value>
+  <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Mencocokkan Pesanan Pembelian, Penerimaan, Faktur Vendor</value>
+  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Pastikan bahwa Tanda Terima dan Faktur diproses. Jika Anda ingin mencocokkan pengiriman sebagian, pastikan bahwa "Jumlah yang Sama" tidak dipilih.</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Translation Import/Export">Impor/Ekspor Terjemahan</value>
+  <value column="Description" original="Import or Export Language Translation">Impor atau Ekspor Terjemahan Bahasa</value>
+  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">Ekspor / Impor Info terjemahan ke / dari xml untuk terjemahan di alat eksternal. Harap dicatat bahwa Bahasa HARUS menjadi Sistem Langage yang diaktifkan dan diverifikasi.</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Generate Shipments (manual)">Buat Pengiriman (manual)</value>
+  <value column="Description" original="Select and generate shipments">Pilih dan hasilkan pengiriman</value>
+  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">Hasilkan Pengiriman dari Pesanan.
+Pilih pesanan untuk menghasilkan pengiriman.</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="SQL Process">Proses SQL</value>
+  <value column="Description" original="Process SQL Statements">Memproses Pernyataan SQL</value>
+  <value column="Help" original="Process SQL DDL Statements">Memproses Pernyataan SQL DDL</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Merge Entities">Gabung Entitas</value>
+  <value column="Description" original="Merge From Entity to To Entity - Delete From">Gabungkan Dari Entitas ke Ke Entitas - Hapus Dari</value>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;">Berbahaya - Ketahuilah apa yang Anda lakukan!
+Semua contoh entitas Dari (mis. Pelanggan A) diubah menjadi entitas Ke (mis. Pelanggan B).
+Entitas Dari (mis. Pelanggan A) dihapus.
+Tidak ada undo atau trace! Harap lakukan pencadangan dulu. Perlu diketahui bahwa Anda mungkin mengubah catatan riwayat (mis. Faktur, dll.)!
+Efek samping: Menggabungkan Produk cenderung mendistorsi biaya produk; Penggabungan Mitra Bisnis dapat menghasilkan saldo item terbuka yang salah. Periksa dengan dukungan pada solusi.
+Batasan: Konflik Akuntansi dan Inventaris tidak terselesaikan dalam versi ini.</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="POS">POS</value>
+  <value column="Description" original="Point Of Sales Terminal">Terminal Penjualan</value>
+  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.">Masukkan Transaksi melalui Terminal POS. Secara otomatis, pemindaian atau gesekan kartu kredit diakui.</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="BOM Drop">Hapus Bom</value>
+  <value column="Description" original="Drop (expand) Bill of Materials">Jatuhkan (perluas) Daftar Bahan</value>
+  <value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!">Masukkan Bill of Material yang diperluas ke dalam Pesanan, Faktur, dll. Dokumen harus dalam tahap Drafed. Pastikan barang-barang yang termasuk dalam BOM ada dalam daftar harga Pesanan, Faktur, dll. Karena jika tidak, harganya akan nol!</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Tree Maintenance">Pemeliharaan Pohon</value>
+  <value column="Description" original="Maintain Trees">Maintain Pohon</value>
+  <value column="Help" original="View and change trees. Maintain the entries in their specific Windows.">Lihat dan ubah pohon. Pertahankan entri dalam Windows spesifik mereka.</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Workflow Editor">Editor Workflow</value>
+  <value column="Description" original="Edit Workflows">Edit Alur Kerja</value>
+  <value column="Help" original="Edit the graphical layout of workflows">Edit tata letak grafis alur kerja</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Workflow Activities">Aktifitas Workflow</value>
+  <value column="Description" original="My active workflow activities">Aktivitas alur kerja aktif saya</value>
+  <value column="Help" original="View active worflow activities">Lihat aktivitas alur kerja aktif</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Archive Viewer">Lihat Arsip</value>
+  <value column="Description" original="View automatically archived Documents">Lihat Dokumen yang diarsipkan secara otomatis</value>
+  <value column="Help" original="Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">Tergantung pada Klien, Arsip Tingkat Otomatis, dokumen dan laporan disimpan dan tersedia untuk dilihat. Di Penampil Laporan Anda dapat mengarsipkan Dokumen atau Laporan secara manual. Anda hanya dapat melihat arsip, jika Anda memiliki akses ke dokumen asli.</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Performance Indicators">Indikator Kinerja</value>
+  <value column="Description" original="View Performance Indicators">Lihat Indikator Kinerja</value>
+  <value column="Help" original="View all Performance Indicators and Goals">Lihat semua Indikator dan Sasaran Kinerja</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Product Attribute Grid">Daftar Atribut Produk</value>
+  <value column="Description" original="Maintain Products with Attributes in a Table Grid">Mempertahankan Produk dengan Atribut dalam Kotak Tabel</value>
+  <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.">Pilih satu atau dua atribut jika Atribut Produk dan menampilkan / memelihara produk dalam baris atau kisi tabel.</value>
+ </row>
+ <row id="53001" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve"><![CDATA[Info BOM & Formula]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Menunjukkan dalam dua panel yang berbeda hubungan induk-komponen untuk produk yang dimasukkan dalam bidang Produk.</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it" xml:space="preserve"><![CDATA[Menu opsi BOM & Formula Review menunjukkan di dua panel yang berbeda hubungan induk-komponen untuk produk yang dimasukkan dalam bidang Produk.
+
+Anda perlu memperkenalkan produk induk yang ingin Anda lihat komponennya lalu klik tombol OK, kemudian seret margin kiri panel ke kanan dan Anda akan memiliki dua panel.
+
+Ketika Anda perlu berkonsultasi dengan ledakan, klik kotak centang ledakan dan masukkan komponen yang ingin Anda berkonsultasi dan centang kotak centang Ledakan.
+
+Anda perlu memperkenalkan produk induk yang ingin Anda lihat komponennya lalu klik tombol OK, kemudian seret margin kiri panel ke kanan dan Anda akan memiliki dua panel.
+
+Panel kiri menunjukkan hierarki BOM dalam bentuk pohon. Panel kanan menunjukkan informasi yang terhubung dengan BOM untuk setiap produk di dalamnya]]></value>
+ </row>
+ <row id="53002" trl="Y">
+  <value column="Name" original="Product Configuration BOM">Konfigurasi Produk BOM</value>
+  <value column="Description" original="This form let create a product configure with multy level using options and variants">Formulir ini memungkinkan membuat konfigurasi produk dengan multi level menggunakan opsi dan varian</value>
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">Bill of Material (CBOM) yang dapat dikonfigurasi digunakan oleh industri yang memiliki banyak pilihan dan produk yang sangat dapat dikonfigurasi.
+
+CBOM digunakan untuk secara dinamis membuat "barang akhir" yang dijual perusahaan. Manfaat menggunakan struktur CBOM adalah mengurangi upaya kerja yang diperlukan untuk mempertahankan struktur produk. BOM yang dapat dikonfigurasi paling sering didorong oleh perangkat lunak "konfigurator", namun dapat diaktifkan secara manual (pemeliharaan manual jarang terjadi karena sulitnya mengelola jumlah permutasi dan kombinasi konfigurasi yang mungkin) Pengembangan CBOM bergantung pada memiliki Modular Struktur BOM ada di tempatnya (lihat Modular BOM). Struktur BOM Modular menyediakan rakitan / sub-sistem yang dapat dipilih untuk "mengonfigurasi" item akhir.</value>
+ </row>
+ <row id="53003" trl="Y">
+  <value column="Name" original="MRP Info">Info MRP</value>
+  <value column="Description" original="Show the detail of MRP calculation">Tampilkan detail perhitungan MRP</value>
+  <value column="Help" original="Show the detail of MRP calculation">Tampilkan detail perhitungan MRP</value>
+ </row>
+ <row id="53004" trl="Y">
+  <value column="Name" original="Planned Order Approval ">Persetujuan Rencana Order</value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">Pesanan manufaktur yang direncanakan adalah pesanan manufaktur yang disarankan oleh proses MRP dan berisi jumlah serta tanggal rilis dan janjinya.</value>
+  <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.&#10;&#10;When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.">Pesanan manufaktur yang direncanakan adalah pesanan manufaktur yang disarankan oleh proses MRP dan berisi jumlah serta tanggal rilis dan janjinya. ketika Anda menyetujui pesanan manufaktur yang direncanakan, Anda mengonversinya dalam pesanan manufaktur dengan status Dalam Proses.
+
+Ketika Anda menyetujui pesanan yang direncanakan, Anda memberi tahu sistem bahwa pesanan manufaktur siap untuk memulai prosesnya dengan persetujuan Anda mengubah status pesanan dari Draft ke Dalam Proses.</value>
+ </row>
+ <row id="53005" trl="Y">
+  <value column="Name" original="CRP Info">Info CRP</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Ini menunjukkan secara grafis waktu yang diperlukan dan tersedia untuk setiap sumber daya manufaktur.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">Ini menunjukkan secara grafis waktu yang diperlukan dan tersedia untuk setiap sumber daya manufaktur.</value>
+ </row>
+ <row id="53006" trl="Y">
+  <value column="Name" original="Resource Load View">Lihat Beban Sumber Daya</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Ini menunjukkan secara grafis waktu yang diperlukan dan tersedia untuk setiap sumber daya manufaktur.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">Ini menunjukkan secara grafis waktu yang diperlukan dan tersedia untuk setiap sumber daya manufaktur.</value>
+ </row>
+ <row id="53007" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Penerimaan & Pengeluaran Order]]></value>
+  <value column="Description" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Tanda Terima & Masalah Pemesanan]]></value>
+  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">Formulir ini menunjukkan pada informasi statis sisi atas di sekitar produk dan sumber daya pabrikan di mana ia harus dibuat, juga menunjukkan ringkasan jumlah yang akan dikontrol dalam MO seperti jumlah Asli dan yang dikirimkan serta Jumlah yang dikirimkan untuk MO terbaru.
+
+Jika proses produksi membutuhkan produksi dalam batch, maka Qty Batch menunjukkan Jumlah batch yang perlu dilakukan lantai toko dan Ukuran Qty Batch berisi ukuran setiap batch yang akan diproduksi.
+
+
+Jika Anda ingin mengeluarkan komponen MO sebelum Anda menerima produk jadi Anda harus mencentang kotak centang Apakah Pengiriman, kasus ini direkomendasikan ketika Anda memiliki waktu tunggu yang lama hingga menengah dan Anda ingin agar jumlah inventaris dapat diandalkan dan dapat diandalkan setiap saat. .
+
+Jika Anda memiliki waktu tunggu yang kecil dan Anda ingin menghemat waktu petugas maka Anda harus mencentang Apakah Backflush centang dan Anda akan menerima produk jadi pada saat yang sama Anda mengeluarkan komponen secara otomatis
+
+Bidang Backflush Group digunakan ketika Anda ingin mengeluarkan hanya komponen milik grup ini. (Karakteristik ini tidak dapat dimasukkan dalam versi saat ini).
+
+Di bagian bawah jendela Anda dapat menemukan daftar setiap komponen MO, ini dapat dimodifikasi sesuai dengan produk dan jumlah nyata yang diberikan ke lantai toko.
+
+Jumlah yang akan dikeluarkan dipilih dengan kotak centang di kolom pertama dari daftar komponen. Jika jumlah aktual berbeda dari jumlah standar yang ditunjukkan pada kolom Qty untuk dikirimkan, Anda harus mengedit bidang ini untuk memasukkan jumlah yang tepat untuk dikeluarkan.
+
+Akhirnya sebuah kotak pesan menanyakan apakah Anda ingin menutup dokumen OM, Anda harus mengklik tombol ok jika MO ini tidak memiliki transaksi lagi dan harus ditutup.</value>
+ </row>
+ <row id="53008" trl="Y">
+  <value column="Name" original="Generate Movement Manual">Menghasilkan Pergerakan Manual</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Hasilkan Gerakan ke Distribusi Pesanan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53009" trl="Y">
+  <value column="Name" original="Payroll Action Notice">Payroll Notice Aksi</value>
+  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">Pemberitahuan Tindakan Penggajian, mari nikmati acara yang terjadi dengan Karyawan mana pun</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53012" trl="Y">
+  <value column="Name" original="Material Receipt Distribution Order">Penerimaan Material Order Distribusi</value>
+  <value column="Description" original="Material Receipt Distribution Order">Pesanan Distribusi Penerimaan Bahan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53013" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Editor">Editor Workflow Manufaktur</value>
+  <value column="Description" original="Edit Manufacturing Workflows">Edit Alur Kerja Pabrikan</value>
+  <value column="Help" original="Edit the graphical layout of manufacturing workflows">Edit tata letak grafis alur kerja pembuatan</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Accounting Fact Reconcilation (manual)">Rekonsiliasi Buku Besar (manual)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="BOM Viewer">Lihat BOM</value>
+  <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">Menunjukkan hubungan orangtua-komponen untuk produk yang dimasukkan dalam bidang Produk.</value>
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">Memilih produk akan menampilkan hierarki komponen dan sub-BOM untuk produk tersebut.
+
+Memilih kotak centang "Di mana Digunakan" akan menampilkan BOM tempat produk ini digunakan.</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Setup Wizard">Setup Wizard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Reset Password">Reset Password</value>
+  <value column="Description" original="Reset Password">Setel Ulang Kata Sandi</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Report Wizard">Report Wizard</value>
+  <value column="Description" original="Report Wizard">Wizard Laporan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Tab Editor">Tab Editor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Bank Statement Create From Batch">Bank Statement Dibuat Dari Batch</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Captured Process Parameter">Parameter Proses Ditangkap</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="Compare Field Suggestion">Compare Field Suggestion</value>
+  <value column="Description" original="Review field changes for label, descriptipn and help">Tinjau perubahan bidang untuk label, uraian, dan bantuan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200010" trl="Y">
+  <value column="Name" original="Compare Context Help Suggestion">Compare Context Help Suggestion</value>
+  <value column="Description" original="Review changes for context help">Tinjau perubahan untuk bantuan konteks</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200011" trl="Y">
+  <value column="Name" original="idempiereMonitor">idempiereMonitor</value>
+  <value column="Description" original="Form to configure access to /idempiereMonitor - do not add to menu">Formulir untuk mengonfigurasi akses ke / idempiereMonitor - jangan tambahkan ke menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
+  <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Formulir untuk mengonfigurasi akses ke / osgi / sistem / konsol - jangan tambahkan ke menu</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

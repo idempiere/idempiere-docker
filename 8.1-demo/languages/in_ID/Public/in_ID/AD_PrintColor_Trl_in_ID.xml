@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_PrintColor">
+ <row id="100" trl="N">
+  <value column="Name" original="Black">Black</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Red">Red</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Green">Green</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Blue">Blue</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Gray dark">Gray dark</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Gray">Gray</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Gray light">Gray light</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="White">White</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="Cyan">Cyan</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Magenta">Magenta</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Orange">Orange</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="Pink">Pink</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="Yellow">Yellow</value>
+ </row>
+ <row id="114" trl="N">
+  <value column="Name" original="Blue dark">Blue dark</value>
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="Gray white">Gray white</value>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="Green dark">Green dark</value>
+ </row>
+ <row id="117" trl="N">
+  <value column="Name" original="Green black">Green black</value>
+ </row>
+ <row id="119" trl="N">
+  <value column="Name" original="Blue black">Blue black</value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Brown">Brown</value>
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="Brown dark">Brown dark</value>
+ </row>
+</idempiereTrl>

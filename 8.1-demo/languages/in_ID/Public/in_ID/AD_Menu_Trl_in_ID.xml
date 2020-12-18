@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_Menu">
+ <row id="100" trl="Y">
+  <value column="Name" original="Invoice Inquiry">Laporan Invoice</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Application Dictionary">Kamus Aplikasi</value>
+  <value column="Description" original="Maintain Application Dictionary">Maintain Application Dictionary</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="General Rules">Aturan Umum</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Client Rules">Aturan Klien</value>
+  <value column="Description" original="Maintain Client Rules">Maintain Client Rules</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Data">Data</value>
+  <value column="Description" original="Maintain Data">Maintain Data</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Performance Measurement">Pengukuran Kinerja</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Utility">Utiliti</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Project Management">Manajemen Proyek</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="System Rules">Aturan Sistem</value>
+  <value column="Description" original="General System Rules">General System Rules</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Data Import">Impor Data</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Accounting Rules">Aturan Akuntansi</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Business Partner Rules">Aturan Rekan Bisnis</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Quote-to-Invoice">Penjualan</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Material Management Rules">Aturan Manajemen Material</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Organization Rules">Aturan Organisasi</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Material Management">Manajemen Material</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Requisition-to-Invoice">Pembelian</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="System Admin">Sistem Admin</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Open Items">Piutang/Hutang (Open Item)</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Partner Relations">Hubungan Partner</value>
+  <value column="Description" original="Customer Relations and Partner Management">Customer Relations and Partner Management</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Service">Service</value>
+  <value column="Description" original="Service Management">Service Management</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Sales and Marketing">Penjualan dan Pemasaran</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Performance Analysis">Analisa Kinerja</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Financial Reporting">Laporan Keuangan</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Printing">Pencetakan</value>
+  <value column="Description" original="Print Definition">Print Definition</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Assets">Aset</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="357" trl="Y">
+  <value column="Name" original="Product Attributes">Atribut Produk</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Security">Keamanan</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="456" trl="Y">
+  <value column="Name" original="Server">Server</value>
+  <value column="Description" original="iDempiere Server Maintenance">iDempiere Server Maintenance</value>
+ </row>
+ <row id="457" trl="Y">
+  <value column="Name" original="Sales Orders">Order Penjualan</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="458" trl="Y">
+  <value column="Name" original="Sales Invoices">Invoice Penjualan</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="459" trl="Y">
+  <value column="Name" original="Shipments">Pengiriman</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="501" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="iDempiere Workflow">iDempiere Workflow</value>
+ </row>
+ <row id="522" trl="Y">
+  <value column="Name" original="Costing">Costing</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="528" trl="Y">
+  <value column="Name" original="Request">Permintaan</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="566" trl="Y">
+  <value column="Name" original="Collaboration">Kolaborasi</value>
+  <value column="Description" original="Collaboration and Content Management">Collaboration and Content Management</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Application Packaging">Paket Aplikasi</value>
+  <value column="Description" original="Import and export packaging">Import and export packaging</value>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Replication Data">Replikasi Data</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53133" trl="Y">
+  <value column="Name" original="Customer Service">Pelayanan Pelanggan</value>
+  <value column="Description" original="Customer Related Assets">Customer Related Assets</value>
+ </row>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Asset Transactions ">Transaksi Aset</value>
+  <value column="Description" original="Asset Transactions (Addition, Disposal, Split &amp; Transfer)" xml:space="preserve"><![CDATA[Asset Transactions (Addition, Disposal, Split & Transfer)]]></value>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Depreciation Processing">Proses Penyusutan</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">Applications to Process Fixed Assets to the GL</value>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Reporting">Pelaporan</value>
+  <value column="Description" original="Reporting for fixed assets">Reporting for fixed assets</value>
+ </row>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Setup">Pengaturan Penyusutan</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">Applications to setup and maintain depreciation</value>
+ </row>
+ <row id="53242" trl="Y">
+  <value column="Name" original="Returns">Retur</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="EDI">EDI</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Manufacturing">Produksi</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53363" trl="Y">
+  <value column="Name" original="Sales Management">Manajemen Penjualan</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200095" trl="Y">
+  <value column="Name" original="Import Template">Template Impor</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

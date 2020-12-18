@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_TaxCategory">
+ <row trl="N" uuid="aaff8e76-09ec-45ce-9827-64dcb6f4b47b">
+  <value column="Name" original="Стандарт">Стандарт</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2dafb8cd-fd9f-4245-8176-648ed07ee40d">
+  <value column="Name" original="Sales Tax">Sales Tax</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="61212c20-c3eb-4755-870e-93604dc2d0ba">
+  <value column="Name" original="Стандартный">Стандартный</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

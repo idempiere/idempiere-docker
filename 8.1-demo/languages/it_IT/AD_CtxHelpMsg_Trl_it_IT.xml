@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_CtxHelpMsg">
+ <row trl="N" uuid="97fb4de3-8a67-4325-92e3-afe67caacd46">
+  <value column="MsgText" original="&lt;p&gt;&#10;&lt;p&gt;&lt;strong&gt;Order  [ODV00]&lt;/strong&gt;&lt;/p&gt;&#10;&lt;p&gt;&lt;em&gt;Order Header&lt;/em&gt;&lt;/p&gt;&#10;&lt;p&gt;The Order Header Tab defines the parameters of an Order. Changing the Organization, Business Partner, Warehouse, Date Promised, etc. changes these values on all the lines. &lt;/p&gt;&#10;&lt;/p&gt;"><![CDATA[<p><strong>Ordine [ODV00]</strong></p>
+
+<p>&nbsp;</p>
+
+<p><em>Tipi di Ordine di vendita</em></p>
+
+<ul>
+	<li>Ordine di Vendita Chiuso</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Video Ciclo Attivo&nbsp;</strong></p>
+]]></value>
+ </row>
+ <row trl="N" uuid="fa189094-4a18-41fb-9d00-8c67c1efac03">
+  <value column="MsgText" original="&lt;p&gt;&lt;em&gt;(Not available)&lt;/em&gt;&lt;/p&gt;"><![CDATA[<p><em>(Non Disponibile)</em></p>]]></value>
+ </row>
+ <row trl="N" uuid="fded57f4-d617-4e57-8739-ea4373819c3b">
+  <value column="MsgText" original="&lt;p&gt;&lt;em&gt;(Not available)&lt;/em&gt;&lt;/p&gt;"><![CDATA[<p><em>aaaaaa</em></p>
+]]></value>
+ </row>
+</idempiereTrl>

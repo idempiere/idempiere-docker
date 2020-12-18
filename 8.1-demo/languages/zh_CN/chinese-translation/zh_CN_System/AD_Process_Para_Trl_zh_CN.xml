@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Process_Para">
+ <row id="161" trl="Y">
+  <value column="Name" original="Business Partner ">业务伙伴 </value>
+  <value column="Description" original="Identifies a Business Partner">标识一个业务伙伴</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">一个商业伙伴是与你进行商业交易的任何人。可以包括供应商、客户、职员或销售人员</value>
+ </row>
+ <row id="211" trl="Y">
+  <value column="Name" original="Sales Transaction">销售事务</value>
+  <value column="Description" original="This is a Sales Transaction">这是一个销售事务</value>
+  <value column="Help" original="The Sales Transaction checkbox indicates if this item is a Sales Transaction.">表示该项是否为一个销售事务</value>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="Delete existing Accounting Entries">删除已存在的会计分录</value>
+  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">所选的会计分录将被删除!  危险 !!!</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Pricelist Version">价格表版本</value>
+  <value column="Description" original="Only used if Price List is used to set future/standard cost price">只使用如果价格表用来设置未来/标准成本价格</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Overwrite Payment Rule">覆盖付款规则</value>
+  <value column="Description" original="Overwrite how to pay the invoice">覆盖如何支付发票</value>
+  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">付款规则指此发票会如何处置，你可以在发票覆盖该值</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="From User">联系人</value>
+  <value column="Description" original="Send EMail from user">内部或业务伙伴的联系人</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">标识内部或业务伙伴的联系人。</value>
+ </row>
+ <row id="398" trl="Y">
+  <value column="Name" original="Statement date">到期日期</value>
+  <value column="Description" original="Date of the statement">账龄计算的截至日期，不填则默认为系统日期</value>
+  <value column="Help" original="The Statement Date field defines the date of the statement.">账龄计算的截至日期，不填则默认为系统日期</value>
+ </row>
+ <row id="405" trl="Y">
+  <value column="Name" original="User/Contact">用户</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">用户可以使用名称和密码登录到系统。对应实际场景，他/她/它既可以是公司系统的内部用户，也可以是业务伙伴的联系人。</value>
+ </row>
+ <row id="452" trl="Y">
+  <value column="Name" original="Maintenance Mode">维护模式</value>
+  <value column="Description" original="Language Maintenance Mode">语言维护模式</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="467" trl="Y">
+  <value column="Name" original="Existing Organization">目标组织</value>
+  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">链接到的目标组织，如果你要链接到一个新组织，则置为空</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">组织是实体或组织的一个单位 - 例如仓库、部门，你可以在组织间共享数据。</value>
+ </row>
+ <row id="468" trl="Y">
+  <value column="Name" original="Organization Type">组织类型</value>
+  <value column="Description" original="Organization Type">新组织的组织类型</value>
+  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">指定新组织的组织类型。</value>
+ </row>
+ <row id="469" trl="Y">
+  <value column="Name" original="Limit Access to Role">角色权限</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">新组织的可访问角色</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">指定可访问新组织的角色，如果留空，则所有（非手动）角色可访问该新建组织。</value>
+ </row>
+ <row id="493" trl="Y">
+  <value column="Name" original="New User/Contact">联系人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">内部或业务伙伴的联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人。</value>
+ </row>
+ <row id="494" trl="Y">
+  <value column="Name" original="New Workflow Responsible">新工作流职责</value>
+  <value column="Description" original="Responsible for Workflow Execution">工作流执行的负责人</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">为工作流最终负责的是实际的用户。工作流负责人允许定义找到该实际用户的方式</value>
+ </row>
+ <row id="496" trl="Y">
+  <value column="Name" original="New User/Contact">联系人</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">内部或业务伙伴的联系人</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">标识内部或业务伙伴的联系人。</value>
+ </row>
+ <row id="497" trl="Y">
+  <value column="Name" original="New Workflow Responsible">新工作流职责</value>
+  <value column="Description" original="Responsible for Workflow Execution">工作流执行的负责人</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">为工作流最终负责的是实际的用户。工作流负责人允许定义找到该实际用户的方式</value>
+ </row>
+ <row id="523" trl="Y">
+  <value column="Name" original="Default Sales Rep">默认销售代表</value>
+  <value column="Description" original="If not defined on Business Partner Level">如果没有定义业务伙伴级别</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="524" trl="Y">
+  <value column="Name" original="Dunning Currency">催款货币</value>
+  <value column="Description" original="Currency to create Dunning Letters">催款函币别</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="580" trl="Y">
+  <value column="Name" original="Orders with unconfirmed Shipments">包含未确认发货的订单</value>
+  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">为未全部发货确认的订单生成发货单</value>
+  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">包含有未确认发货的销售订单，是否创建本次发货（比如：销售订单数量 = 10，未确认发货 = 4，如果可供货则将创建新的发货数量= 6）</value>
+ </row>
+ <row id="581" trl="Y">
+  <value column="Name" original="Document Action">订单状态</value>
+  <value column="Description" original="The targeted status of the document">销售订单的状态</value>
+  <value column="Help" original="You find the current status in the Document Status field. The options are listed in a popup">销售订单的状态</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Role To">目标角色</value>
+  <value column="Description" original="Responsibility Role">目标角色</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Role From">来源角色</value>
+  <value column="Description" original="Responsibility Role">来源角色</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">角色决定安全性，以及含有该角色的用户所具有的系统访问权限</value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="IMAP Password">IMAP 密码</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Request Folder">请求文件夹</value>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder">请求邮件从收件箱文件夹接收，成功处理后，移动到该文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder">文件夹使用“\”来表示层级。比如：“客户\某某公司”。邮件将从收件夹移动到指定的请求邮件文件夹。</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Inbox Folder">收件箱</value>
+  <value column="Description" original="Mail folder, where process will take email and make request">接收邮件，待生成请求的文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer">文件夹使用“\”来表示层级。比如：“客户”。</value>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Error Folder">错误文件夹</value>
+  <value column="Description" original="Mail folder to push unsuccess email  ">发送不成功的邮件文件夹</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer">文件夹使用“\”来表示层级。比如：“客户\失败”。</value>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Shipment Date">发货日期</value>
+  <value column="Description" original="Date printed on shipment">发货单打印的日期</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">装运日期指装运单上的打印日期</value>
+ </row>
+ <row id="53011" trl="Y">
+  <value column="Name" original="Print Unprocessed Entries Only">只打印未处理记录</value>
+  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">打印后催款记录即标识为“已处理”</value>
+  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">这允许你重新打印某个催款条目。</value>
+ </row>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Purchase Price List Version">采购价格表版本</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53030" trl="Y">
+  <value column="Name" original="New Product">新产品</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Action">动作</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Is Print Pack &amp; Tools List">打印工具/包装单</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Is Print Pick List">打印拣货清单</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Is Print Workflow">打印工艺路线</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53127" trl="Y">
+  <value column="Name" original="Generate Fields">生成字段</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53130" trl="Y">
+  <value column="Name" original="Days to keep Log">通知保留天数</value>
+  <value column="Description" original="Number of days to keep the log entries">超过该天数的通知，将被删除。</value>
+  <value column="Help" original="Older Log entries may be deleted">超过该天数的通知，将被删除。</value>
+ </row>
+ <row id="53131" trl="Y">
+  <value column="Name" original="Scripts Path">脚本路径</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Includes only the Tabs that Insert records">只包含新增记录的页签</value>
+  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">为新增记录页签创建导出格式：是</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Includes only the mandatory columns">只包含必填字段</value>
+  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">如果此字段必填，创建一个导出格式行 </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53205" trl="Y">
+  <value column="Name" original="Date Format">日期格式</value>
+  <value column="Description" original="Date format used in the input format">用于输入格式的日期格式</value>
+  <value column="Help" original="The date format is usually detected, but sometimes need to be defined.">日期格式通常自动检测，但有时需要定义。</value>
+ </row>
+ <row id="53219" trl="Y">
+  <value column="Name" original="Based in DRP Demand">基于 DRP 需求</value>
+  <value column="Description" original="Based in DRP Demand">基于 DRP 需求</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53232" trl="Y">
+  <value column="Name" original="Bank Account From">从...银行存款</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53233" trl="Y">
+  <value column="Name" original="Bank Account To">到...银行存款</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53243" trl="Y">
+  <value column="Name" original="Valid from">有效起始</value>
+  <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括当日 (第一天)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">有效起始日期表示日期范围的第一天</value>
+ </row>
+ <row id="53246" trl="Y">
+  <value column="Name" original="Bank Account From">汇出账户</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="Bank Account To">汇入账户</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53263" trl="Y">
+  <value column="Name" original="Account Date">记账日期</value>
+  <value column="Description" original="Optional account date range">可选记账日期范围</value>
+  <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">只有此日期范围内、并且处于开放期间的文件才会被重置</value>
+ </row>
+ <row id="53282" trl="Y">
+  <value column="Name" original="Client Name">实体名称</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53284" trl="Y">
+  <value column="Name" original="Administrative User Name">管理员用户名</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53285" trl="Y">
+  <value column="Name" original="Normal User Name">普通用户名</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53289" trl="Y">
+  <value column="Name" original="City Name">城市名称</value>
+  <value column="Description" original="">可直接输入城市名称</value>
+  <value column="Help" original="">区域列表无法找到目标城市，可直接输入城市名称</value>
+ </row>
+ <row id="53291" trl="Y">
+  <value column="Name" original="BP Accounting">业务伙伴维度</value>
+  <value column="Description" original="Use BP accounting dimension">使用业务伙伴维度</value>
+  <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用业务伙伴科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
+ </row>
+ <row id="53292" trl="Y">
+  <value column="Name" original="Product Accounting">产品维度</value>
+  <value column="Description" original="Use Product accounting dimension">使用产品维度</value>
+  <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用产品科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
+ </row>
+ <row id="53293" trl="Y">
+  <value column="Name" original="Project Accounting">项目维度</value>
+  <value column="Description" original="Use Project accounting dimension">使用项目维度</value>
+  <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用项目科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
+ </row>
+ <row id="53294" trl="Y">
+  <value column="Name" original="Campaign Accounting">营销活动维度</value>
+  <value column="Description" original="Use Campaign accounting dimension">使用营销活动维度</value>
+  <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用竞标科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
+ </row>
+ <row id="53295" trl="Y">
+  <value column="Name" original="Sales Region Accounting">销售区域维度</value>
+  <value column="Description" original="Use Sales Region accounting dimension">使用销售区域维度</value>
+  <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">若该实体使用销售区域科目维度，请定义该值。它可以在此实体的会计科目表窗口修改</value>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Chart of Accounts File">科目表文件</value>
+  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">此实体使用会计科目表文件的存放位置。</value>
+  <value column="Help" original="">【注意】在本阶段，只会导入系统缺省账户所对应的科目。如果要导入所有会计科目，需要从[系统-数据-导入-科目表]位置重新导入其他科目。</value>
+ </row>
+ <row id="53314" trl="Y">
+  <value column="Name" original="Full rebuild">全部重算</value>
+  <value column="Description" original="Delete all existing summary data and recalculate.">删除所有存在的汇总数据并重新计算</value>
+  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">如果没有选择，只有最近期间过账的会计记录会被重新计算</value>
+ </row>
+ <row id="53316" trl="Y">
+  <value column="Name" original="Force">强迫</value>
+  <value column="Description" original="Force rebuild of cube even if locked.">如果被锁定，强制重建立方体</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53485" trl="Y">
+  <value column="Name" original="Periodicity">周期性</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53486" trl="Y">
+  <value column="Name" original="Repetitions">重复</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53516" trl="Y">
+  <value column="Name" original="Recreate">重建</value>
+  <value column="Description" original="Overwrite existing production lines">覆盖现有的生产线</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53517" trl="Y">
+  <value column="Name" original="Production Quantity">生产数量</value>
+  <value column="Description" original="Quantity of products to produce">Quantity of products to produce</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">The Production Quantity identifies the number of products to produce</value>
+ </row>
+ <row id="53526" trl="Y">
+  <value column="Name" original="Is Kanban">看板产品</value>
+  <value column="Description" original="">是否为看板产品</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53582" trl="Y">
+  <value column="Name" original="CreateOpportunity">创建销售机会</value>
+  <value column="Description" original="Create Opportunity">销售机会</value>
+  <value column="Help" original="Create a new Sales Opportunity when converting a lead">当可以转换为一个销售线索时，创建一个新的销售机会</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="New EMail Confirm">新电子邮件地址</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Reset Existing Access">重置已有权限</value>
+  <value column="Description" original="Reset Existing Access">重置用户已存在的权限访问记录</value>
+  <value column="Help" original="">重置用户已存在的权限访问记录</value>
+ </row>
+ <row id="200055" trl="Y">
+  <value column="Name" original="Product">产品</value>
+  <value column="Description" original="Please enter the product (component) you wish to search for">请输入你要搜索的产品（组件）</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200060" trl="Y">
+  <value column="Name" original="Financial Year Month">财务年月</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
+ </row>
+ <row id="200062" trl="Y">
+  <value column="Name" original="Financial Year Month">财务年月</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">唯一的有效日期格式为：YYYY-MM</value>
+ </row>
+ <row id="200071" trl="Y">
+  <value column="Name" original="Document Type">单据类型</value>
+  <value column="Description" original="Inventory Cost Adjustment Document Type">库存成本调整单据类型</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200074" trl="Y">
+  <value column="Name" original="Administrative User Email">管理员邮箱</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200075" trl="Y">
+  <value column="Name" original="Normal User Email">普通用户邮箱</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200076" trl="Y">
+  <value column="Name" original="Entity Type">实体类类型</value>
+  <value column="Description" original="Dictionary Entity Type; Determines ownership and synchronization">筛选列的实体类类型</value>
+  <value column="Help" original="The Entity Types &quot;Dictionary&quot;, &quot;iDempiere&quot; and &quot;Application&quot; might be automatically synchronized and customizations deleted or overwritten.  &#10;&#10;For customizations, copy the entity and select &quot;User&quot;!">只有符合该类型的列才被创建，不是指定页签字段的实体类类型。</value>
+ </row>
+ <row id="200077" trl="Y">
+  <value column="Name" original="Created Since">列创建时间</value>
+  <value column="Description" original="">指定列的创建时间</value>
+  <value column="Help" original="">指定时间，进一步筛选列的范围</value>
+ </row>
+ <row id="200084" trl="Y">
+  <value column="Name" original="Use Default CoA">使用默认科目表（美国）</value>
+  <value column="Description" original="Use Default Chart of Accounts">使用默认的科目表（美国）</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200085" trl="Y">
+  <value column="Name" original="Activity Accounting">作业维度</value>
+  <value column="Description" original="Use Activity accounting dimension">使用作业维度</value>
+  <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client</value>
+ </row>
+ <row id="200086" trl="Y">
+  <value column="Name" original="Inactivate Defaults">不使用缺省科目</value>
+  <value column="Description" original="Inactivate Defaults after Created">【新手建议】使用系统缺省科目</value>
+  <value column="Help" original="">使用缺省科目，系统将自动填入所有自动记账账户（大概100+位置）。如果不使用缺省，用户需要自己手工填入指定的科目。如果正式实施财务模块，需要一一确认所有自动记账账户，可以选择此项。</value>
+ </row>
+ <row id="200102" trl="Y">
+  <value column="Name" original="Cost Adjustment Document Type">成本调整单据类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200121" trl="Y">
+  <value column="Name" original="Inbox As Root Folder">收件箱根目录</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder"/>
+  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
+this field define where request, error,.. occupy.</value>
+ </row>
+ <row trl="Y" uuid="a7c1e584-da75-49dd-8959-899380cd4ee2">
+  <value column="Name" original="Locator Label Types">库位标签类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c6cac623-3618-4878-b80e-ca48b4f7eb5e">
+  <value column="Name" original="Z To">Z To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="82c93f6d-c078-4396-bdf3-12a4c68e928d">
+  <value column="Name" original="Format">格式</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="efa0fab4-dfe5-44f8-90d6-6fd67549d4a9">
+  <value column="Name" original="Sort By">排序</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="71884b37-484a-4d57-a73b-d9966938f6fc">
+  <value column="Name" original="X From">X From</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="c327ff7d-4af1-4a39-b2ff-f2c4c197da63">
+  <value column="Name" original="Z From">Z From</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7452ade1-6b51-445d-8208-06ed65a9182f">
+  <value column="Name" original="Locator">库位</value>
+  <value column="Description" original="Warehouse Locator"/>
+  <value column="Help" original="The Locator indicates where in a Warehouse a product is located.">The Locator indicates where in a Warehouse a product is located.</value>
+ </row>
+ <row trl="N" uuid="b21e0922-6bcf-4471-b1e6-40f5cf2e89ea">
+  <value column="Name" original="Y To">Y To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a1e708a2-48a7-456f-ad1a-0a5513a4720c">
+  <value column="Name" original="Y From">Y From</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="085f2ef8-6f2e-4ad8-b929-cac307dcc08d">
+  <value column="Name" original="X To">X To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4a780a79-6df7-4e0d-a7c2-0dc96d510340">
+  <value column="Name" original="Cancel Handling Unites">取消的处理单元</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="2e1a51cb-a289-46c2-8675-dfa9964a7ebc">
+  <value column="Name" original="Document Type">单据类型</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="158180c8-ced5-4766-a2f7-514c2e6167ad">
+  <value column="Name" original="Locator">库位</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="735e1c71-9a60-4dbe-891f-22b32357c485">
+  <value column="Name" original="Warehouse">仓库</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
+ </row>
+ <row trl="Y" uuid="34b2c1b5-0243-458b-b12f-c40d6313acd6">
+  <value column="Name" original="Delete MRP?">删除MRP</value>
+  <value column="Description" original="Delete previous same but closed records"/>
+  <value column="Help" original="Delete only smiliarly now selected but with status CL or Closed">Delete only smiliarly now selected but with status CL or Closed</value>
+ </row>
+ <row trl="Y" uuid="1a1ed8b2-dbdd-421f-9352-9d2914fbb8c6">
+  <value column="Name" original="Delete MRP?">删除MRP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d4b34a46-8800-4a2a-9a0a-bf517f7adc53">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original="Client/Tenant for this installation.">Client/Tenant for this installation.</value>
+  <value column="Help" original="A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.">A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.</value>
+ </row>
+ <row trl="N" uuid="afced00a-f47f-441c-a7e7-829c69bfad9b">
+  <value column="Name" original="FileName">FileName</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ed3cab6c-bcfb-4c8c-845e-9ce26e0daca6">
+  <value column="Name" original="FilePath">FilePath</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="010b7c95-59b5-45c5-9aa9-a3390059a2d6">
+  <value column="Name" original="Show details">Show details</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0da72422-99ef-45c2-a81e-29b0b730e9f3">
+  <value column="Name" original="Show Organizations">Show Organizations</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a62edd03-525f-43dc-a6d0-b7ff2b4a856c">
+  <value column="Name" original="Date">Date</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="94319f7b-1a2d-4f58-bb4e-b385141c58e3">
+  <value column="Name" original="Action">Action</value>
+  <value column="Description" original="Action">Action</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ddf3e544-ff78-46fe-a752-a1149594e827">
+  <value column="Name" original="Recalculate History">Recalculate History</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d8794356-c897-42a3-8acd-a4118e77bcf1">
+  <value column="Name" original="Qty On Hand">Qty On Hand</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="d686e8ab-7ea6-472b-9613-1bfe3d988b21">
+  <value column="Name" original="Date Ordered">Date Ordered</value>
+  <value column="Description" original="Date of Order">Date of Order</value>
+  <value column="Help" original="Indicates the Date an item was ordered.">Indicates the Date an item was ordered.</value>
+ </row>
+ <row trl="N" uuid="118f377c-9d88-47f6-b2b3-5d134c0404b1">
+  <value column="Name" original="Sales Transaction">Sales Transaction</value>
+  <value column="Description" original="This is a Sales Transaction">This is a Sales Transaction</value>
+  <value column="Help" original="The Sales Transaction checkbox indicates if this item is a Sales Transaction.">The Sales Transaction checkbox indicates if this item is a Sales Transaction.</value>
+ </row>
+ <row trl="N" uuid="4a552768-364f-41a0-9218-44b4e98104c4">
+  <value column="Name" original="Sales Order">Sales Order</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="716523aa-edea-4f47-b390-e09132367be4">
+  <value column="Name" original="Sales Order">Sales Order</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1631e890-b2ca-4fd6-9c79-75e76adf1bea">
+  <value column="Name" original="GenerateHandlingUnit">GenerateHandlingUnit</value>
+  <value column="Description" original="Generate Handling Unit to system">Generate Handling Unit to system</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="afc6b087-d0a7-42b5-a058-7d96974d182c">
+  <value column="Name" original="Do Not Import Errors">Do Not Import Errors</value>
+  <value column="Description" original="Process will ignore previous error records">Process will ignore previous error records</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="56eefde3-46e4-4867-9c0c-9f5668ee05cc">
+  <value column="Name" original="Lead Source">Lead Source</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="30f9589e-10b5-473a-9039-0fdaf196fae4">
+  <value column="Name" original="Lead Status">Lead Status</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="760c5e5f-fbdf-430f-be7a-18863f8d06e8">
+  <value column="Name" original="Type">Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="53e489c0-011f-433d-91da-5b694a49b5cd">
+  <value column="Name" original="Month">Month</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="66d6cdb6-930b-4e46-aece-0f98862d1659">
+  <value column="Name" original="Quarter">Quarter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b28ca587-e653-4899-91aa-d05df82b8883">
+  <value column="Name" original="Email">Email</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="ed0eb72d-1522-4d4c-9e3c-81cdd3e5755f">
+  <value column="Name" original="Time Type">Time Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5b5544a8-fc53-41fc-b1b7-83bb94b972b2">
+  <value column="Name" original="Insert new records">Insert new records</value>
+  <value column="Description" original="New records will be created">New records will be created</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f7a9c237-98c0-4002-83df-a89d61906aef">
+  <value column="Name" original="Delete old/existing records">Delete old/existing records</value>
+  <value column="Description" original="Otherwise records will be added">Otherwise records will be added</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e198e216-5959-493f-b3e0-a1bd51888807">
+  <value column="Name" original="Date">Date</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="204f8042-8fb1-42d0-836c-a9a0be230273">
+  <value column="Name" original="Handling Unit Strategy">Handling Unit Strategy</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b4adb534-5e09-4253-94e9-5371325e723b">
+  <value column="Name" original="Target Location">Target Location</value>
+  <value column="Description" original="Defines logic how the Locator To will be set">Defines logic how the Locator To will be set</value>
+  <value column="Help" original="The following options are available: 1. Target Location from Distribution Order Line 2. Source Location from Distribution Order Line">The following options are available: 1. Target Location from Distribution Order Line 2. Source Location from Distribution Order Line</value>
+ </row>
+ <row trl="N" uuid="7f39d8f3-9f65-440c-ac20-9cf94d85cdbf">
+  <value column="Name" original="Level Calculation Rule">Level Calculation Rule</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0f34581e-9933-4746-935c-74f1fd2e0fe4">
+  <value column="Name" original="Date">Date</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="da2b2099-cddd-4727-97e2-339a9041d04b">
+  <value column="Name" original="GenerateHandlingUnit">GenerateHandlingUnit</value>
+  <value column="Description" original="Generate Handling Unit to system">Generate Handling Unit to system</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4c61b348-7607-4d84-a1a4-32974cca3d64">
+  <value column="Name" original="Do Not Import Errors">Do Not Import Errors</value>
+  <value column="Description" original="Process will ignore previous error records">Process will ignore previous error records</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="216a605f-3c4f-401a-991f-7cd01cc17696">
+  <value column="Name" original="Type">Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="67b4f245-80d2-41cd-ace7-0af7b81923a8">
+  <value column="Name" original="Month">Month</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="34029f18-636b-47ec-96f1-ac28249b323b">
+  <value column="Name" original="Quarter">Quarter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="6c941c08-7ec1-4c71-a312-c5a9a7518178">
+  <value column="Name" original="Quarter">Quarter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="31900d5c-75e5-40e2-b272-b4e6396c5be1">
+  <value column="Name" original="Type">Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="f57d3713-f800-466e-a65f-9b1a0a03d70a">
+  <value column="Name" original="Month">Month</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="59228c62-b170-4c36-8895-77264b5002d8">
+  <value column="Name" original="Document Type">Document Type</value>
+  <value column="Description" original="Document type or rules">Document type or rules</value>
+  <value column="Help" original="The Document Type determines document sequence and processing rules">The Document Type determines document sequence and processing rules</value>
+ </row>
+ <row trl="N" uuid="c5ec0587-5229-4ffb-acad-1e598fa35eae">
+  <value column="Name" original="Sort By">Sort By</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="897122cb-5175-478a-b866-54b526e49dcb">
+  <value column="Name" original="Line From">Line From</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="de59fed2-8e2d-4b24-b000-5ef0f5492526">
+  <value column="Name" original="Line To">Line To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="59949a36-30e0-4aa2-81e8-0b7cb3fea5bf">
+  <value column="Name" original="Format">Format</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5858d182-d639-472d-88ea-5883405eb800">
+  <value column="Name" original="Target Location">Target Location</value>
+  <value column="Description" original="Defines logic how the Locator To will be set">Defines logic how the Locator To will be set</value>
+  <value column="Help" original="The following options are available: 1. Target Location from Distribution Order Line 2. Source Location from Distribution Order Line">The following options are available: 1. Target Location from Distribution Order Line 2. Source Location from Distribution Order Line</value>
+ </row>
+ <row trl="N" uuid="eabfc602-50f8-4202-a56b-24a5ca64dffc">
+  <value column="Name" original="Print Pick List">Print Pick List</value>
+  <value column="Description" original="Indicate if a Pick List is print">Indicate if a Pick List is print</value>
+  <value column="Help" original="When you select this checkbox a Pick list is printed">When you select this checkbox a Pick list is printed</value>
+ </row>
+ <row trl="N" uuid="b4199188-7a6a-4de8-8080-b190ef6b4a48">
+  <value column="Name" original="Stock Keeper">Stock Keeper</value>
+  <value column="Description" original="Stock Keeper / Picker">Stock Keeper / Picker</value>
+  <value column="Help" original="Stock Keeper, who will be picking by Pick list.">Stock Keeper, who will be picking by Pick list.</value>
+ </row>
+ <row trl="N" uuid="fb9883ee-cc55-4c47-af6f-7f2a2f78a1db">
+  <value column="Name" original="Print Pick List">Print Pick List</value>
+  <value column="Description" original="Indicate if a Pick List is print">Indicate if a Pick List is print</value>
+  <value column="Help" original="When you select this checkbox a Pick list is printed">When you select this checkbox a Pick list is printed</value>
+ </row>
+ <row trl="N" uuid="42eac920-01f5-4da6-9efb-58f460d4dc88">
+  <value column="Name" original="Stock Keeper">Stock Keeper</value>
+  <value column="Description" original="Stock Keeper">Stock Keeper</value>
+  <value column="Help" original="The Stock Keeper, who will be picking by Pick list.">The Stock Keeper, who will be picking by Pick list.</value>
+ </row>
+ <row trl="N" uuid="798c1bad-b3dd-4de0-a1db-5c67bc28efe5">
+  <value column="Name" original="Stock Keeper">Stock Keeper</value>
+  <value column="Description" original="Stock Keeper">Stock Keeper</value>
+  <value column="Help" original="Stock Keeper, who will be picking by Pick list.">Stock Keeper, who will be picking by Pick list.</value>
+ </row>
+ <row trl="N" uuid="145d3861-4d74-4e18-9b17-ea869b511299">
+  <value column="Name" original="Time Type">Time Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="48955afb-1574-445b-82e3-b3f78ae5772f">
+  <value column="Name" original="Expense Report Type">Expense Report Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1af7ac98-0786-4c26-86c1-cca43f114a10">
+  <value column="Name" original="Source Warehouse">Source Warehouse</value>
+  <value column="Description" original="Source Warehouse">Source Warehouse</value>
+  <value column="Help" original="From this Warehouse will be products picked.">From this Warehouse will be products picked.</value>
+ </row>
+ <row trl="N" uuid="5ea3daa7-07f8-40c3-b0bf-7f37be2abf63">
+  <value column="Name" original="Import File Name">Import File Name</value>
+  <value column="Description" original="Path to Name">Path to Name</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2a795245-f07c-4fc9-b868-a7678aa210f0">
+  <value column="Name" original="Do Not Import Errors">Do Not Import Errors</value>
+  <value column="Description" original="Process will ignore previous error records">Process will ignore previous error records</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="e0350a95-8f85-45fc-a890-de07d440dd3a">
+  <value column="Name" original="Charset">Charset</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="acffff19-c78b-4db2-8410-b6fe067da29e">
+  <value column="Name" original="Create Handling Units">Create Handling Units</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0e36243b-684a-4259-bd91-9a4b0b7c5adb">
+  <value column="Name" original="Mandatory Product">Mandatory Product</value>
+  <value column="Description" original="Specifies if Product has to already exists in system or not.">Specifies if Product has to already exists in system or not.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a90e3ba4-d9f8-4dd9-a32c-20268ec0b158">
+  <value column="Name" original="Import Format">Import Format</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a28c48c1-e17c-497f-ad3f-2050db7c154d">
+  <value column="Name" original="Orders with unconfirmed Shipments">Orders with unconfirmed Shipments</value>
+  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">Generate shipments for Orders with open delivery confirmations?</value>
+  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).</value>
+ </row>
+ <row trl="N" uuid="b4007900-fa19-43a0-850d-e65b1623f946">
+  <value column="Name" original="Time Type">Time Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="af14e16b-dd70-4ef0-ad94-5fe32f025aa6">
+  <value column="Name" original="Expense Report Type">Expense Report Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="a2c9e039-b73d-472e-98d0-9fe728d0fcf6">
+  <value column="Name" original="Document Type Name">Document Type Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="3aabe11e-4ed2-4ddd-9b0b-3a361ecba86f">
+  <value column="Name" original="Cumulate Lines">Cumulate Lines</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="07f5de63-fa45-4f10-8696-325b7818fec3">
+  <value column="Name" original="Stock Keeper">Stock Keeper</value>
+  <value column="Description" original="Stock Keeper / Picker">Stock Keeper / Picker</value>
+  <value column="Help" original="Stock Keeper, who will be picking by Pick list.">Stock Keeper, who will be picking by Pick list.</value>
+ </row>
+ <row trl="N" uuid="bd8b3a84-81c7-4e2d-92d6-6eeebb85374c">
+  <value column="Name" original="Add product not available lines">Add product not available lines</value>
+  <value column="Description" original="The product not available lines are include in the shipment">The product not available lines are include in the shipment</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="2003f40b-00c3-4d72-bc4d-30cd58712639">
+  <value column="Name" original="Print Labels">Print Labels</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="1e4275e3-addf-4e55-b685-6d270a7fea98">
+  <value column="Name" original="Action">Action</value>
+  <value column="Description" original="Action">Action</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4b255948-4e19-4dc0-ac4c-4f78624a358f">
+  <value column="Name" original="Label Printer">Label Printer</value>
+  <value column="Description" original="Label Printer Definition">Label Printer Definition</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="9a20378c-72ff-49c4-bf19-98bae8bc0a1e">
+  <value column="Name" original="Sort By">Sort By</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

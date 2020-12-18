@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="PP_Product_BOM">
+ <row id="145" trl="N">
+  <value column="Name" original="Patio Furniture Set 0">户外装饰套件</value>
+  <value column="Description" original="1 table, 4 Chairs and 1 Sun Screen">1 个桌子, 4 把椅子和 1 块遮阳幕</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Patio Chair">户外椅</value>
+  <value column="Description" original="Nice Chair for outdoors">户外使用的好椅子</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Assembly Back Leg">后部装配</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Assembly Front Leg">前部装配</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Fertilizer #50">50号肥料</value>
+  <value column="Description" original="50 # Bag of Lawn Fertilizer">草坪肥料 50# 袋装</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Fertilizer #70">70号化肥</value>
+  <value column="Description" original="70 # Bag of Lawn Fertilizer">70#包装草坪化肥</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Lawn Fertilizer">草坪化肥</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="5835dcec-f6c1-4f8b-ab47-af5f8cbedab7">
+  <value column="Name" original="Fertilizer 100# BOM 1">Fertilizer 100# BOM 1</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

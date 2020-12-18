@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="A_Asset_Group">
+ <row id="100" trl="Y">
+  <value column="Name" original="Documentation">Documentation</value>
+  <value column="Description" original="Download Documentation">Download Documentation</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Buildings">Buildings</value>
+  <value column="Description" original="Buildings">Buildings</value>
+  <value column="Help" original="All Buildings">All Buildings</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Software">Software</value>
+  <value column="Description" original="Software">Software</value>
+  <value column="Help" original="Software">Software</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Documentation">Documentation</value>
+  <value column="Description" original="Download Documentation">Download Documentation</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Data Processing Equipment">Data Processing Equipment</value>
+  <value column="Description" original="Data Processing Equipment">Data Processing Equipment</value>
+  <value column="Help" original="Group defines Data Processing Equipment">Group defines Data Processing Equipment</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Furniture">Furniture</value>
+  <value column="Description" original="Furniture">Furniture</value>
+  <value column="Help" original="Office furniture including office and shop">Office furniture including office and shop</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Fixtures">Fixtures</value>
+  <value column="Description" original="Fixtures">Fixtures</value>
+  <value column="Help" original="Fixtures including tools &amp; dies"><![CDATA[Fixtures including tools & dies]]></value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Vehicles">Vehicles</value>
+  <value column="Description" original="Trucks Cars Vans Forklifts">Trucks Cars Vans Forklifts</value>
+  <value column="Help" original="All vehicles">All vehicles</value>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Equipment">Equipment</value>
+  <value column="Description" original="Equipment">Equipment</value>
+  <value column="Help" original="Light equipment including  test equipment and computers">Light equipment including  test equipment and computers</value>
+ </row>
+</idempiereTrl>

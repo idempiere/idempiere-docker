@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_SalesStage">
+ <row trl="N" uuid="246d332d-3c87-4958-b1b8-a4b862d68bbf">
+  <value column="Name" original="Направление КП Клиенту">Направление КП Клиенту</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="47ded0e1-630f-4c0d-bdb7-cb33165d36a7">
+  <value column="Name" original="Закрыто-успешно">Закрыто-успешно</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b60de71b-58ce-483c-93d1-a58af5556864">
+  <value column="Name" original="Закрыто-неуспешно">Закрыто-неуспешно</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

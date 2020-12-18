@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_Form">
+ <row id="100" trl="Y">
+  <value column="Name" original="Generate Invoices (manual)">Generovať Faktúry (manuálne)</value>
+  <value column="Description" original="Select and generate invoices">Vybrať a generovať faktúry</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">Generovanie faktúr z objednávok. Vyberte objednávky pre vygenerovanie faktúr.</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Import File Loader">Načítanie importného súboru</value>
+  <value column="Description" original="Load flat Files into import tables">Načítaj otvorené súbory do importovaných tabuliek</value>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading].">The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading].</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Initial Client Setup">Počiatočné nastavenie klienta</value>
+  <value column="Description" original="Initial new Client/Tenant Setup">Počiatočný nové nastavenie klienta / majiteľa</value>
+  <value column="Help" original="Set up a new Client/Tenant of the system">Nastav nového klienta / majiteľa do systému</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Material Transactions">Materiálové Transakcie</value>
+  <value column="Description" original="Material Transactions">Materiálové Transakcie</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Payment Allocation">Alokácia Platby</value>
+  <value column="Description" original="Allocate invoices and payments">Alokovať faktúry a platby</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Generate Charges">Generovať Poplatky</value>
+  <value column="Description" original="Generate Charges from natural accounts">Generovať Poplatky z účtov</value>
+  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">Použite hornú časť k vytvoreniu nových poplatkov pomocou všeobecných účtov. Pomocou spodnej časti vytvoríte poplatky na základe základného účtu.</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Payment Print/Export">Tlač / Export platby</value>
+  <value column="Description" original="Print or export your payments">Tlač alebo exportuj svoje platby</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Payment Selection (manual)">Príkaz na Úhradu (manuálne)</value>
+  <value column="Description" original="Manual Payment Selection">Manuálny výber platby</value>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">Vyber dodávateľské faktúry pre platbu. Ak nie je vidieť faktúru, je potrebné sa uistiť, že nie je zahrnutá v inom (nespracovanom) príkaze.</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Matching PO-Receipt-Invoice">Párovanie N/OBJ-M/PRIJ-FA</value>
+  <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Spáruj nákupné objednávky, príjemky, dodávateľské faktúry</value>
+  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Uisti sa, že príjemky a faktúry sú spracované. Ak je potrebné spárovať čiastočné dodávky, je treba sa uistiť, že nie je vybrané "rovnaké množstvo".</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Translation Import/Export">Import / Export prekladu</value>
+  <value column="Description" original="Import or Export Language Translation">Importuj alebo exportuj preklad jazyka</value>
+  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Generate Shipments (manual)">Generovať Dodací List (manuálne)</value>
+  <value column="Description" original="Select and generate shipments">Generovať dodací list</value>
+  <value column="Help" original="Generate Shipments from Orders.  &#10;Select the orders to generate the shipments for.">Toto okno umožňuje generovať dodacie listy z objednávky.</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="SQL Process">SQL spracovanie</value>
+  <value column="Description" original="Process SQL Statements">Výpisy SQL spracovania</value>
+  <value column="Help" original="Process SQL DDL Statements">Výpisy SQL DDL spracovania</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Merge Entities">Zlúčenie Entít</value>
+  <value column="Description" original="Merge From Entity to To Entity - Delete From">Zlúčenie Zdrojovej Entity na Entitu Cieľovú</value>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version."><![CDATA[<i>Nebezpečné - Prosím, buďte si vedomí toho, čo robíte!</i>
+Všetky inštancie zo zdrojovej entity (napr. Zákazník A) budú zmenené na cieľovú entitu (napr. Zákazník B). Zo zdrojovej entity (napr. Zákazník A) budú vymazané.
+<p><b>NIE je možné sa vrátiť a nie je možné operáciu odsledovať ! Prosím urobte najprv zálohu</b> Uvedomte si, že môžete zmeniť záznamy histórie. (napr. Faktúry atď.)
+<p><b>Vedľajšie efekty:</b> Zlúčenie Produktov 
+Zlúčenie Produktov by mohlo narušiť nákladové ocenenie; Zlúčenie obchodných partnerov môže mať za následok nesprávne otvorené položky v salde. 
+<p><b>Obmedzenia:</b> Konflikty - účtovné a zásoby - nie sú vyriešené v tejto verzii.]]></value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="POS">Predajné miesto</value>
+  <value column="Description" original="Point Of Sales Terminal">Terminál predajného miesta</value>
+  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.">Vlož operácie cez POS terminál. Automatické, rozpoznanie alebo potiahnutie kreditnej karty sú rozpoznateľné.</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="BOM Drop">Rozpad Kusovníka</value>
+  <value column="Description" original="Drop (expand) Bill of Materials">Rozpad (rozbalenie) kusovníka</value>
+  <value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!">Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!
+</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Tree Maintenance">Spravovanie stromu</value>
+  <value column="Description" original="Maintain Trees">Správa stromov</value>
+  <value column="Help" original="View and change trees. Maintain the entries in their specific Windows.">Zobraz a zmeň stromy. Spravuj jednotky v ich špecifických oknách.</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Workflow Editor">Editor workflow</value>
+  <value column="Description" original="Edit Workflows">Upraviť workflow</value>
+  <value column="Help" original="Edit the graphical layout of workflows">Upraviť grafické zobrazenie workflow</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Workflow Activities">Aktivity Workflowu</value>
+  <value column="Description" original="My active workflow activities">Moje aktívne činnosti workflow</value>
+  <value column="Help" original="View active worflow activities">Zobraz aktívne činnosti workflow</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Archive Viewer">Prehľad archívu</value>
+  <value column="Description" original="View automatically archived Documents">Zobraz automaticky archivované doklady</value>
+  <value column="Help" original="Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Performance Indicators">Indikátory výkonu</value>
+  <value column="Description" original="View Performance Indicators">Zobraz indikátory výkonu</value>
+  <value column="Help" original="View all Performance Indicators and Goals">Zobrazí všetky indikátory výkonu</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Product Attribute Grid">Atribút Produktu - Mriežka</value>
+  <value column="Description" original="Maintain Products with Attributes in a Table Grid">Maintain Products with Attributes in a Table Grid</value>
+  <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.">Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.</value>
+ </row>
+ <row id="53001" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info"><![CDATA[BOM & Formula Info]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it"><![CDATA[The BOM & Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it]]></value>
+ </row>
+ <row id="53002" trl="Y">
+  <value column="Name" original="Product Configuration BOM">Product Configuration BOM</value>
+  <value column="Description" original="This form let create a product configure with multy level using options and variants">This form let create a product configure with multy level using options and variants</value>
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.
+
+The CBOM is used to dynamically create "end-items" that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by "configurator" software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to "configure" an end-item.</value>
+ </row>
+ <row id="53003" trl="Y">
+  <value column="Name" original="MRP Info">Info o MRP</value>
+  <value column="Description" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+  <value column="Help" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+ </row>
+ <row id="53004" trl="Y">
+  <value column="Name" original="Planned Order Approval ">Planned Order Approval </value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.</value>
+  <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.&#10;&#10;When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.">A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.
+
+When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.</value>
+ </row>
+ <row id="53005" trl="Y">
+  <value column="Name" original="CRP Info">Info o CRP</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+ </row>
+ <row id="53006" trl="Y">
+  <value column="Name" original="Resource Load View">Resource Load View</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+ </row>
+ <row id="53007" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Description" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.
+
+If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.
+
+
+If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.
+
+If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components
+
+The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).
+
+At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.
+
+The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.
+
+Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.
+
+</value>
+ </row>
+ <row id="53008" trl="Y">
+  <value column="Name" original="Generate Movement Manual">Generovať Pohyb (manuálne)</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Generovať Pohyb k Distribučnej Objednávke</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53009" trl="Y">
+  <value column="Name" original="Payroll Action Notice">Payroll Action Notice</value>
+  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">Payroll Action Notice let entry the events that happend with any Employee</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53010" trl="Y">
+  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">Generovať Dodávky a Faktúry (manuálne)</value>
+  <value column="Description" original="Select and generate shipments &amp; Invoices"><![CDATA[Select and generate shipments & Invoices]]></value>
+  <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for."><![CDATA[Generate Shipments & Invoices from Orders.  
+Select the orders to generate the shipments & Invoices for.]]></value>
+ </row>
+ <row id="53012" trl="Y">
+  <value column="Name" original="Material Receipt Distribution Order">Príjem Materiálu Distribučnej Objednávky</value>
+  <value column="Description" original="Material Receipt Distribution Order">Príjem Materiálu Distribučnej Objednávky</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53013" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Editor">Manufacturing Workflow Editor</value>
+  <value column="Description" original="Edit Manufacturing Workflows">Edit Manufacturing Workflows</value>
+  <value column="Help" original="Edit the graphical layout of manufacturing workflows">Edit the graphical layout of manufacturing workflows</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Accounting Fact Reconcilation (manual)">Manuálne Párovanie Saldokonta</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53017" trl="N">
+  <value column="Name" original="BOM Viewer">BOM Viewer</value>
+  <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">Shows the parent-component relationship for the product entered in the Product field.</value>
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;
+&#13;
+Selecting the "Where Used" check box will display the BOMs that this product is used in.</value>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Setup Wizard">Setup Wizard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Reset Password">Zmena Hesla</value>
+  <value column="Description" original="Reset Password">Zmena Hesla</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Report Wizard">Sprievodca Zostavou</value>
+  <value column="Description" original="Report Wizard">Sprievodca Zostavou</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Tab Editor">Tab Editor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Bank Statement Create From Batch">VCreateFromBatchStatementUI</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="Captured Process Parameter">Captured Process Parameter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

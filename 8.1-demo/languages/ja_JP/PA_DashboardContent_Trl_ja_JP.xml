@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ja_JP" table="PA_DashboardContent">
+ <row id="50001" trl="N">
+  <value column="Name" original="Favourites">お気に入り</value>
+  <value column="Description" original="User favourities">お気に入り</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Views">検索ウィンドウ</value>
+  <value column="Description" original="Info views">検索ウィンドウ</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Performance">パフォーマンスメーター</value>
+  <value column="Description" original="Performance meters">パフォーマンスメーター</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Calendar">Calendar</value>
+  <value column="Description" original="Request Calendar">Request Calendar</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Running Jobs">実行中のジョブ</value>
+  <value column="Description" original="Running Jobs">実行中のジョブ</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200003" trl="N">
+  <value column="Name" original="Activities">業務状況確認</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+</idempiereTrl>

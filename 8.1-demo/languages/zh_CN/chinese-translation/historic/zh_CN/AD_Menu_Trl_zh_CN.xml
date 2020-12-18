@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Menu">
+ <row id="100" trl="Y">
+  <value column="Name" original="Invoice Inquiry">发票查询</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Application Dictionary">应用字典</value>
+  <value column="Description" original="Maintain Application Dictionary">维护应用字典</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="General Rules">总体规则</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Client Rules">实体规则</value>
+  <value column="Description" original="Maintain Client Rules">维护实体级规则</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Data">数据维护</value>
+  <value column="Description" original="Maintain Data">维护数据</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Performance Measurement">绩效设置</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Utility">实用工具</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Project Management">项目管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="System Rules">系统规则</value>
+  <value column="Description" original="General System Rules">总体系统规则</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Data Import">数据导入</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Accounting Rules">会计规则</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Business Partner Rules">业务伙伴规则</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Quote-to-Invoice">销售管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Material Management Rules">产品规则</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Organization Rules">组织规则</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Material Management">产品管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Requisition-to-Invoice">采购管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="System Admin">系统管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Open Items">未清项</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Partner Relations">伙伴管理</value>
+  <value column="Description" original="Customer Relations and Partner Management">客户关系与伙伴管理</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Service">服务管理</value>
+  <value column="Description" original="Service Management">服务管理</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Sales and Marketing">销售设置</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Performance Analysis">绩效管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Financial Reporting">财务报表</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Printing">打印设置</value>
+  <value column="Description" original="Print Definition">打印定义</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Assets">资产管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="357" trl="Y">
+  <value column="Name" original="Product Attributes">产品属性</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Security">安全性</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="372" trl="Y">
+  <value column="Name" original="Web">Web网络</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="392" trl="Y">
+  <value column="Name" original="Knowledge Base">知识库</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="456" trl="Y">
+  <value column="Name" original="Server">服务器</value>
+  <value column="Description" original="iDempiere Server Maintenance">iDempiere服务器维护</value>
+ </row>
+ <row id="457" trl="Y">
+  <value column="Name" original="Sales Orders">销售订单</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="458" trl="Y">
+  <value column="Name" original="Sales Invoices">销售发票</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="459" trl="Y">
+  <value column="Name" original="Shipments">发货业务</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="460" trl="Y">
+  <value column="Name" original="Market Place">市场场所</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="501" trl="Y">
+  <value column="Name" original="Workflow">工作流</value>
+  <value column="Description" original="iDempiere Workflow">iDempiere工作流</value>
+ </row>
+ <row id="522" trl="Y">
+  <value column="Name" original="Costing">成本核算</value>
+  <value column="Description" original="">产品的成本核算</value>
+ </row>
+ <row id="528" trl="Y">
+  <value column="Name" original="Request">请求管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="566" trl="Y">
+  <value column="Name" original="Collaboration">协同办公</value>
+  <value column="Description" original="Collaboration and Content Management">协作和内容管理</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Application Packaging">应用市场</value>
+  <value column="Description" original="Import and export packaging">导入或导出应用程序包</value>
+ </row>
+ <row id="52001" trl="Y">
+  <value column="Name" original="Web POS">设置Web POS</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Manufacturing Management">制造管理</value>
+  <value column="Description" original="Manufacturing">生产</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Engineering Management">工程管理</value>
+  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">工程管理是指组织对生产、工艺、技术和产品的管理</value>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Resource Manufacturing">资源管理</value>
+  <value column="Description" original="Resource Manufacturing">生产资源管理</value>
+ </row>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Manufacturing Workflow">工艺路线</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formulas">产品清单</value>
+  <value column="Description" original="Bill of Material &amp; Formulas">产品清单与配方</value>
+ </row>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Planning Management">计划管理</value>
+  <value column="Description" original="Using Planning Management you answer the question: When and How Many products we must get?">通过计划管理你可以回答这样的问题: 我们什么时候能得到的多少数量的产品?</value>
+ </row>
+ <row id="53031" trl="Y">
+  <value column="Name" original="Product Planning">产品计划</value>
+  <value column="Description" original="Product Planning">产品计划</value>
+ </row>
+ <row id="53034" trl="Y">
+  <value column="Name" original="MRP">产品需求计划(MRP)</value>
+  <value column="Description" original="Materials Requirements Planning">产品需求计划</value>
+ </row>
+ <row id="53043" trl="Y">
+  <value column="Name" original="CRP">能力需求计划(CRP)</value>
+  <value column="Description" original="Capacity Requirements Planning">能力需求计划</value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="DRP">配送需求计划(DRP)</value>
+  <value column="Description" original="Distribution Resource Planning">配送资源计划</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Production Management">制造管理</value>
+  <value column="Description" original="Production Management">生产管理</value>
+ </row>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Discreet Manufacturing">离散制造</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Management Maintenance">维护管理</value>
+  <value column="Description" original="Management Maintenance">维护管理</value>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="Activity Control">活动控制</value>
+  <value column="Description" original="Activity Control">活动控制</value>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Distribution Management">配送管理</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. "><![CDATA[http://wiki.mbalib.com/wiki/DRP，配送需求计划（distribution requirement planning）简称DRP，是一种既保证有效地满足市场需要，又使得物流资源配置费用最少的计划方法，是MRP原理与方法在物品配送中的运用。它是流通领域中的一种物流技术，是MRP在流通领域应用的直接结果。它主要解决分销物资的供应计划和调度问题，达到保证有效地满足市场需要又使得配置费用最省的目的。<br /> DRP输入：需求数量、库存数量、可供数量，输出：送货计划、采购计划。]]></value>
+ </row>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Quality Management">质量管理</value>
+  <value column="Description" original="Quality Management">质量管理</value>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Standard Costing Management">标准成本管理</value>
+  <value column="Description" original="Standard Costing Management">标准成本管理</value>
+ </row>
+ <row id="53091" trl="Y">
+  <value column="Name" original="Global Tax Management">全局税管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Replication Data">数据复制</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53108" trl="Y">
+  <value column="Name" original="Human Resource &amp; Payroll">人力资源与薪酬</value>
+  <value column="Description" original="Human Resource &amp; Payroll">人力资源与薪酬</value>
+ </row>
+ <row id="53109" trl="Y">
+  <value column="Name" original="Human Resource">人力资源</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53114" trl="Y">
+  <value column="Name" original="Payroll">薪酬</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53133" trl="Y">
+  <value column="Name" original="Customer Service">客户服务</value>
+  <value column="Description" original="Customer Related Assets">客户资产</value>
+ </row>
+ <row id="53136" trl="Y">
+  <value column="Name" original="Asset Revaluation">资产重估</value>
+  <value column="Description" original="Process Asset Revaluations">资产重估</value>
+ </row>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Asset Transactions ">资产事务</value>
+  <value column="Description" original="Asset Transactions (Addition, Disposal, Split &amp; Transfer)">资产事务(增加、处置、分割和转让)</value>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Depreciation Processing">折旧处理</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">应用程序-处理固定资产至总账</value>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Reporting">报表</value>
+  <value column="Description" original="Reporting for fixed assets">固定资产报表</value>
+ </row>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Setup">折旧设置</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">用于设置和维护折旧的程序</value>
+ </row>
+ <row id="53180" trl="Y">
+  <value column="Name" original="Forecast Management">预测管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53242" trl="Y">
+  <value column="Name" original="Returns">退货管理</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="EDI">EDI 日志</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Manufacturing">简单制造</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53363" trl="Y">
+  <value column="Name" original="Sales Management">客户关系</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200095" trl="Y">
+  <value column="Name" original="Import Template">导入CSV模板</value>
+  <value column="Description" original="">导入CSV文件头定义</value>
+ </row>
+</idempiereTrl>

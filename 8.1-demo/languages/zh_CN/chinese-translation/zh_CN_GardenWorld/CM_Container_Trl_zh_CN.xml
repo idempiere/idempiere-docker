@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="CM_Container">
+ <row id="100" trl="Y">
+  <value column="Meta_Description" original=""/>
+  <value column="Meta_Keywords" original=""/>
+  <value column="Name" original="Products">产品</value>
+  <value column="ContainerXML" original=""/>
+  <value column="StructureXML" original=""/>
+  <value column="Title" original=""/>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Meta_Description" original="This is the homesite of GardenWorld, it would be a good idea to place some real content in here">这是园艺世界的主页，将一些真实的内容放置在这里是个不错的主意</value>
+  <value column="Meta_Keywords" original="GardenWorld, iDempiere">花园世界，iDempiere</value>
+  <value column="Name" original="Home of Gardenworld">园艺世界的主页</value>
+  <value column="ContainerXML" original=""/>
+  <value column="StructureXML" original=""/>
+  <value column="Title" original="Home of Gardenworld">园艺世界的主页</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Meta_Description" original="Our plum trees are the best in the world">我们的洋李树是世界一流的</value>
+  <value column="Meta_Keywords" original="plum tree gardenworld">洋李树园艺世界</value>
+  <value column="Name" original="Plum Tree">洋李树</value>
+  <value column="ContainerXML" original=""/>
+  <value column="StructureXML" original=""/>
+  <value column="Title" original="Powerfull Plum Tree">健壮的洋李树</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Meta_Description" original="This is  short summary of the advantages of our wonderfull oak tree">这是对我们奇特的橡树所作的优势简述</value>
+  <value column="Meta_Keywords" original="oak tree gardenworld">橡树园艺世界</value>
+  <value column="Name" original="Oak Tree">橡树</value>
+  <value column="ContainerXML" original=""/>
+  <value column="StructureXML" original=""/>
+  <value column="Title" original=""/>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Meta_Description" original="Error 404">错误 404</value>
+  <value column="Meta_Keywords" original="Gardenadmin, Error 404">GardenAdmin, 错误 404</value>
+  <value column="Name" original="Page not found">页面未找到</value>
+  <value column="ContainerXML" original=""/>
+  <value column="StructureXML" original=""/>
+  <value column="Title" original=""/>
+ </row>
+</idempiereTrl>

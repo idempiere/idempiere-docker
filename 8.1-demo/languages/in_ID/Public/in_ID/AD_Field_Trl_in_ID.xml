@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_Field">
+ <row id="1546" trl="Y">
+  <value column="Name" original="Link Column">Kolom Link</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Link Column for Multi-Parent tables</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="2124" trl="Y">
+  <value column="Name" original="Language">Bahasa</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="3665" trl="Y">
+  <value column="Name" original="Start Node">Node Mulai</value>
+  <value column="Description" original="Workflow Node, step or process">Workflow Node, step or process</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">The Workflow Node indicates a unique step or process in a Workflow.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4055" trl="Y">
+  <value column="Name" original="Tax Amount">Nilai Pajak</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">Tax Amount for Credit Card transaction</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4121" trl="Y">
+  <value column="Name" original="Account Conversion Date">Tanggal Konversi Akun</value>
+  <value column="Description" original="Accounting Conversion Date">Accounting Conversion Date</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.
+The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4462" trl="Y">
+  <value column="Name" original="Business Partner / Sales Rep">Rekan Bisnis/Sales Rep</value>
+  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">Identifies a Business Partner (Sales Rep) receiving the Commission</value>
+  <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">The Business Partner should be a vendor and may be a Sales Representative</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="4725" trl="Y">
+  <value column="Name" original="Acknowledge">Dikonfirmasi</value>
+  <value column="Description" original="System Notice acknowledged">System Notice acknowledged</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">The Acknowledged checkbox indicates if this notice does not need to be retained.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="5092" trl="Y">
+  <value column="Name" original="Driving Column">Kolom Mengemudi</value>
+  <value column="Description" original="Column which controls all tabs in the workbench">Column which controls all tabs in the workbench</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="5899" trl="Y">
+  <value column="Name" original="System Name">Name Sistem</value>
+  <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">Name your iDempiere System installation, e.g. Joe Block, Inc.</value>
+  <value column="Help" original="The name if the system to differentiate support contracts">The name if the system to differentiate support contracts</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="6344" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Atribut Instance Set </value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="8985" trl="Y">
+  <value column="Name" original="Document No">No Dokumen</value>
+  <value column="Description" original="Document sequence number of the document">Document sequence number of the document</value>
+  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)." xml:space="preserve"><![CDATA[The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in "<>".
+
+If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_<TableName>", where TableName is the actual name of the table (e.g. C_Order).]]></value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="9615" trl="Y">
+  <value column="Name" original="Representative/Agent">Perwakilan/Agen</value>
+  <value column="Description" original="Sales Representative or Company Agent">Sales Representative or Company Agent</value>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="10097" trl="Y">
+  <value column="Name" original="Value">Nilai</value>
+  <value column="Description" original="Condition Value">Condition Value</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="10769" trl="Y">
+  <value column="Name" original="Schema Type">Jenis Skema</value>
+  <value column="Description" original="Type of trade schema calculation">Type of trade schema calculation</value>
+  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">Type of procedure used to calculate the trade schema percentage</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="10886" trl="Y">
+  <value column="Name" original="Overwrite Project">Timpa Proyek</value>
+  <value column="Description" original="Overwrite the account segment Project with the value specified">Overwrite the account segment Project with the value specified</value>
+  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="11264" trl="N">
+  <value column="Name" original="Column SQL">Column SQL</value>
+  <value column="Description" original="Virtual Column (r/o)">Virtual Column (r/o)</value>
+  <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&lt;br&gt;&#10;It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.&lt;br&gt;&#10;However, you can use the prefix @SQLFIND= for virtual columns that can be used for queries and reports, they have less impact on the database, but as a field they don't show values.&lt;br&gt;&#10;Additionally, the prefix @SQL= allows to define a virtual UI column, this is calculated on the fly and can use context variables in the query, virtual UI columns are shown in grid just on the current row, they are not searchable, and not shown in reports." xml:space="preserve"><![CDATA[You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.<br>
+Example: "Updated-Created" would list the age of the entry in days.<br>
+It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.<br>
+However, you can use the prefix @SQLFIND= for virtual columns that can be used for queries and reports, they have less impact on the database, but as a field they don't show values.<br>
+Additionally, the prefix @SQL= allows to define a virtual UI column, this is calculated on the fly and can use context variables in the query, virtual UI columns are shown in grid just on the current row, they are not searchable, and not shown in reports.]]></value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="11799" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Atribut Instance Set </value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="12249" trl="N">
+  <value column="Name" original="Validation code">Validation code</value>
+  <value column="Description" original="Validation Code">Validation Code</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">The Validation Code displays the date, time and message of the error.
+
+You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].
+Do not include the WHERE statement and use Fully qualified SQL statements. F.e:
+
+@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ 
+
+will filter orders by active and where the sales representative is the current user.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="12732" trl="Y">
+  <value column="Name" original="Language">Bahasa</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="13179" trl="Y">
+  <value column="Name" original="UserName">Nama User</value>
+  <value column="Description" original="UserName / Login to use for login">UserName / Login to use for login</value>
+  <value column="Help" original="UserName / Login to use for the login&#10;Email of the responsible person for the system (registered in WebStore)">UserName / Login to use for the login
+Email of the responsible person for the system (registered in WebStore)</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="13424" trl="Y">
+  <value column="Name" original="Mandatory Overwrite">Overwrite Mandatori</value>
+  <value column="Description" original="Overwrite Field Mandatory status">Overwrite Field Mandatory status</value>
+  <value column="Help" original="The field must have a value for the record to be saved to the database.">The field must have a value for the record to be saved to the database.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="13425" trl="Y">
+  <value column="Name" original="Reference Overwrite">Reference Overwrite</value>
+  <value column="Description" original="System Reference - optional Overwrite">System Reference - optional Overwrite</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">You can overwrite the Display Type, but only use this if you aware of the consequences.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="13755" trl="Y">
+  <value column="Name" original="Search Key">Kode</value>
+  <value column="Description" original="Search key for the record in the format required">Search key for the record in the format required</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit lower case alpha numeric - max length 8 - can be used for operating system names.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50066" trl="Y">
+  <value column="Name" original="AD_Package_Exp_ID">AD_Package_Exp_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50067" trl="Y">
+  <value column="Name" original="Processed">Diproses</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50068" trl="Y">
+  <value column="Name" original="IsActive">Aktif</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50069" trl="Y">
+  <value column="Name" original="Client">Klien</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50070" trl="Y">
+  <value column="Name" original="Organization">Organisasi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50071" trl="Y">
+  <value column="Name" original="Name of Package">Nama Paket</value>
+  <value column="Description" original="Name of Package">Name of Package</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50075" trl="Y">
+  <value column="Name" original="Creation Directory">Direktori Pengerjaan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50076" trl="Y">
+  <value column="Name" original="Created By">Dibuat oleh</value>
+  <value column="Description" original="User who created the package">User who created the package</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50077" trl="Y">
+  <value column="Name" original="Create Date">Tanggal Buat</value>
+  <value column="Description" original="Date when Package was created">Date when Package was created</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50080" trl="Y">
+  <value column="Name" original="Processed By">Diproses Oleh</value>
+  <value column="Description" original="User who Processed the package">User who Processed the package</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50081" trl="Y">
+  <value column="Name" original="Processed Date">Tanggal Proses</value>
+  <value column="Description" original="Date when the package was processed">Date when the package was processed</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50082" trl="Y">
+  <value column="Name" original="Description of Package">Deskripsi Paket</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50085" trl="Y">
+  <value column="Name" original="Export Package">Paket Ekspor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50086" trl="Y">
+  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_Package_Exp_Detail_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50087" trl="Y">
+  <value column="Name" original="Item Name">Nama Item</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50088" trl="Y">
+  <value column="Name" original="Processing">Proses</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50089" trl="Y">
+  <value column="Name" original="IsActive">Aktif</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50090" trl="Y">
+  <value column="Name" original="Processed">Diproses</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50091" trl="Y">
+  <value column="Name" original="Package Build ID">ID Paket Build</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50092" trl="Y">
+  <value column="Name" original="Client">Klien</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50093" trl="Y">
+  <value column="Name" original="Organization">Organisasi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50096" trl="Y">
+  <value column="Name" original="Type">Jenis</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50097" trl="Y">
+  <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50099" trl="Y">
+  <value column="Name" original="Source File Directory">Direktori Sumber File</value>
+  <value column="Description" original="Current location of source file">Current location of source file</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50103" trl="Y">
+  <value column="Name" original="Table">Tabel</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50108" trl="Y">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50109" trl="Y">
+  <value column="Name" original="Process">Proses</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50110" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50112" trl="Y">
+  <value column="Name" original="Workbench">Meja Kerja</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50117" trl="Y">
+  <value column="Name" original="Notes">Catatan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="50166" trl="Y">
+  <value column="Name" original="Configured Value">Nilai Konfigurasi</value>
+  <value column="Description" original="Value for the configuration key">Value for the configuration key</value>
+  <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)">You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53360" trl="Y">
+  <value column="Name" original="Value">Nilai</value>
+  <value column="Description" original="Condition Value">Condition Value</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53375" trl="Y">
+  <value column="Name" original="Resource">Sumber Daya</value>
+  <value column="Description" original="Resource">Resource</value>
+  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53378" trl="Y">
+  <value column="Name" original="Business Partner ">Rekan Bisnis</value>
+  <value column="Description" original="Identifies a Business Partner to Subcontrating">Identifies a Business Partner to Subcontrating</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53380" trl="Y">
+  <value column="Name" original="Valid from">Berlaku dari</value>
+  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid From date indicates the first day of a date range.
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53381" trl="Y">
+  <value column="Name" original="Valid to">Sampai</value>
+  <value column="Description" original="Valid to including this date (last day)">Valid to including this date (last day)</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid To date indicates the last day of a date range
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53449" trl="Y">
+  <value column="Name" original="Start Node">Node Mulai</value>
+  <value column="Description" original="Workflow Node step or process">Workflow Node step or process</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">The Workflow Node indicates a unique step or process in a Workflow.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53480" trl="Y">
+  <value column="Name" original="Copy BOM Lines From">Copi baris BOM dari</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53490" trl="Y">
+  <value column="Name" original="Valid from">Berlaku dari</value>
+  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+
+The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53512" trl="Y">
+  <value column="Name" original="Warehouse">Gudang</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.
+
+Warehouse place where you locate and control the products</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53513" trl="Y">
+  <value column="Name" original="Resource">Sumber Daya</value>
+  <value column="Description" original="Resource">Resource</value>
+  <value column="Help" original="A manufacturing resource is a place where a product will be made.">A manufacturing resource is a place where a product will be made.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53517" trl="Y">
+  <value column="Name" original="BOM &amp; Formula" xml:space="preserve"><![CDATA[BOM & Formula]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product." xml:space="preserve"><![CDATA[The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM & Formula for the entity will be the BOM/Formula which has the same name as the product.]]></value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53518" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="Workflow or combination of tasks">Workflow or combination of tasks</value>
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
+
+The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53523" trl="Y">
+  <value column="Name" original="Promised Delivery Time">Waktu Dijanjikan  Pengiriman</value>
+  <value column="Description" original="Promised days between order and delivery">Promised days between order and delivery</value>
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.
+
+You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53533" trl="Y">
+  <value column="Name" original="Working Time">Waktu Kerja</value>
+  <value column="Description" original="Workflow Simulation Execution Time">Workflow Simulation Execution Time</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Amount of time the performer of the activity needs to perform the task in Duration Unit
+
+In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53653" trl="Y">
+  <value column="Name" original="Acknowledge">Dikonfirmasi</value>
+  <value column="Description" original="System Notice acknowledged">System Notice acknowledged</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">The Acknowledged checkbox indicates if this notice does not need to be retained.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53742" trl="Y">
+  <value column="Name" original="Accumulated Qty">Jumlah Akumulasi</value>
+  <value column="Description" original="Total Quantity">Total Quantity</value>
+  <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">Sum of the quantities
+
+This field shows the sum of the quantities of the product that have had movements.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53744" trl="Y">
+  <value column="Name" original="Accumulated Amt">Nilai Akumulasi</value>
+  <value column="Description" original="Total Amount">Total Amount</value>
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">Sum of all amounts
+
+This field shows the sum of the amounts of the product that have had movements.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="53904" trl="Y">
+  <value column="Name" original="Version No">Versi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54035" trl="Y">
+  <value column="Name" original="Ordered Quantity">Jumlah Order</value>
+  <value column="Description" original="Ordered Quantity">Ordered Quantity</value>
+  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">The Ordered Quantity indicates the quantity of a product that was ordered.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54038" trl="Y">
+  <value column="Name" original="Instance">Contoh</value>
+  <value column="Description" original="Product Attribute Set Instance">Product Attribute Set Instance</value>
+  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54039" trl="Y">
+  <value column="Name" original="Instance To">Instance To</value>
+  <value column="Description" original="Target Product Attribute Set Instance">Target Product Attribute Set Instance</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54133" trl="Y">
+  <value column="Name" original="Resource/Plant">Resource/Plant</value>
+  <value column="Description" original="Resource/Plant">Resource/Plant</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54139" trl="Y">
+  <value column="Name" original="Date Ordered">Tanggal Order</value>
+  <value column="Description" original="Date of Order">Date of Order</value>
+  <value column="Help" original="Indicates the Date an item was ordered.&#10;Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.">Indicates the Date an item was ordered.
+Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54140" trl="Y">
+  <value column="Name" original="Date Promised">Tanggal Dijanjikan</value>
+  <value column="Description" original="Date Order was promised">Date Order was promised</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">The Date Promised indicates the date, if any, that an Order was promised for.
+Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54145" trl="Y">
+  <value column="Name" original="Date Start">Tanggal Mulai</value>
+  <value column="Description" original="Indicate the real date to start">Indicate the real date to start</value>
+  <value column="Help" original="It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.">It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54146" trl="Y">
+  <value column="Name" original="Finish Date">Tanggal Selesai</value>
+  <value column="Description" original="Finish or (planned) completion date">Finish or (planned) completion date</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">The finish date is used to indicate when the project is expected to be completed or has been completed.
+
+To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54196" trl="Y">
+  <value column="Name" original="Company Agent">Agen Perusahaan</value>
+  <value column="Description" original="Company Agent">Company Agent</value>
+  <value column="Help" original="Company Agent to Distribution Order">Company Agent to Distribution Order</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54205" trl="Y">
+  <value column="Name" original="Transit Warehouse">Gudang Transit</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="54381" trl="Y">
+  <value column="Name" original="Target Warehouse">Gudang Target</value>
+  <value column="Description" original="Target Warehouse and Service Point">Target Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="55187" trl="Y">
+  <value column="Name" original="Create from a Window">Buat dari Window</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56011" trl="Y">
+  <value column="Name" original="Current Period">Periode Berjalan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56190" trl="Y">
+  <value column="Name" original="Period 1 %">Periode 1 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56191" trl="Y">
+  <value column="Name" original="Period 2 %">Periode 2 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56192" trl="Y">
+  <value column="Name" original="Period 3 %">Periode 3 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56193" trl="Y">
+  <value column="Name" original="Period 4 %">Periode 4 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56194" trl="Y">
+  <value column="Name" original="Period 5 %">Periode 5 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56195" trl="Y">
+  <value column="Name" original="Period 6 %">Periode 6 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56196" trl="Y">
+  <value column="Name" original="Period 7 %">Periode 7 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56197" trl="Y">
+  <value column="Name" original="Period 8 %">Periode 8 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56198" trl="Y">
+  <value column="Name" original="Period 9 %">Periode 9 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56199" trl="Y">
+  <value column="Name" original="Period 10 %">Periode 10 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56200" trl="Y">
+  <value column="Name" original="Period 11 %">Periode 11 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56201" trl="Y">
+  <value column="Name" original="Period 12 %">Periode 12 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56202" trl="Y">
+  <value column="Name" original="Period 13 %">Periode 13 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56203" trl="Y">
+  <value column="Name" original="Period 14 %">Periode 14 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56207" trl="Y">
+  <value column="Name" original="Script">Skrip</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="56210" trl="Y">
+  <value column="Name" original="Name">Nama</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="57331" trl="Y">
+  <value column="Name" original="Acknowledge">Dikonfirmasi</value>
+  <value column="Description" original="System Notice acknowledged">System Notice acknowledged</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">The Acknowledged checkbox indicates if this notice does not need to be retained.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="57761" trl="Y">
+  <value column="Name" original="Customer Return">Retur Pelanggan</value>
+  <value column="Description" original="Customer Return Document">Customer Return Document</value>
+  <value column="Help" original="The Customer Return">The Customer Return</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="57900" trl="Y">
+  <value column="Name" original="Return to Vendor">Retur ke Vendor</value>
+  <value column="Description" original="Return to Vendor Document">Return to Vendor Document</value>
+  <value column="Help" original="The Return to Vendor">The Return to Vendor</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="57987" trl="Y">
+  <value column="Name" original="Search Key">Kode</value>
+  <value column="Description" original="Search key for the record in the format required">Search key for the record in the format required</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit lower case alpha numeric - max length 8 - can be used for operating system names.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="58101" trl="Y">
+  <value column="Name" original="Copy BOM Lines From">Copi baris BOM dari</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="58114" trl="Y">
+  <value column="Name" original="Valid from">Berlaku dari</value>
+  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+
+The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="58771" trl="Y">
+  <value column="Name" original="Import Product Planning Data">Impor Data Perencanaan Produk</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59028" trl="Y">
+  <value column="Name" original="Account Date">Tanggal Posting</value>
+  <value column="Description" original="Accounting Date">Accounting Date</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59306" trl="Y">
+  <value column="Name" original="ID">ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59449" trl="Y">
+  <value column="Name" original="Import Inventory Move">Impor Pergerakan Persediaan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59499" trl="Y">
+  <value column="Name" original="Import Fixed Asset">Impor Aktiva Tetap</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59500" trl="Y">
+  <value column="Name" original="Processed">Diproses</value>
+  <value column="Description" original="The document has been processed">The document has been processed</value>
+  <value column="Help" original="The Processed checkbox indicates that a document has been processed.">The Processed checkbox indicates that a document has been processed.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="59822" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Atribut Instance Set </value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="60944" trl="Y">
+  <value column="Name" original="Copy From Cash Plan">Salin Dari Cash Plan</value>
+  <value column="Description" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+  <value column="Help" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62015" trl="Y">
+  <value column="Name" original="Create/Update Production lines">Buat/Perbarui Baris Produksi</value>
+  <value column="Description" original="Process which will create production lines based on BOM, or recreate with an optional adjusted quantity">Process which will create production lines based on BOM, or recreate with an optional adjusted quantity</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62016" trl="Y">
+  <value column="Name" original="Complete Production">Produksi Selesai</value>
+  <value column="Description" original="Complete Production">Complete Production</value>
+  <value column="Help" original="Indication that this is complete">Indication that this is complete</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62236" trl="Y">
+  <value column="Name" original="Sales Rep Name">Nama Sales Rep</value>
+  <value column="Description" original="Sales Representative Name">Sales Representative Name</value>
+  <value column="Help" original="The name of the sales rep that this dashboard relates to.">The name of the sales rep that this dashboard relates to.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62779" trl="Y">
+  <value column="Name" original="Language">Bahasa</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="62991" trl="Y">
+  <value column="Name" original="Expected Close">Tanggal Tutup Diharapkan</value>
+  <value column="Description" original="Expected Close">Expected Close</value>
+  <value column="Help" original="The Expected Close Date indicates the expected last or final date">The Expected Close Date indicates the expected last or final date</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200585" trl="Y">
+  <value column="Name" original="Only Currency">Hanya Mata Uang</value>
+  <value column="Description" original="Restrict accepting only this currency">Restrict accepting only this currency</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">The Only Currency field indicates that this bank account accepts only the currency identified here.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200723" trl="Y">
+  <value column="Name" original="Void It">Batalkan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200816" trl="Y">
+  <value column="Name" original="Only Currency">Hanya Mata Uang</value>
+  <value column="Description" original="Restrict accepting only this currency">Restrict accepting only this currency</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">The Only Currency field indicates that this bank account accepts only the currency identified here.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200858" trl="Y">
+  <value column="Name" original="Reference Overwrite">Reference Overwrite</value>
+  <value column="Description" original="System Reference - optional Overwrite">System Reference - optional Overwrite</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">You can overwrite the Display Type, but only use this if you aware of the consequences.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200948" trl="Y">
+  <value column="Name" original="Attachment Store">Tempat Lampiran</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201245" trl="Y">
+  <value column="Name" original="Ship Date (For FedEx only)">Ship Date (For FedEx only)</value>
+  <value column="Description" original="Shipment Date/Time">Shipment Date/Time</value>
+  <value column="Help" original="Actual Date/Time of Shipment (pick up)">Actual Date/Time of Shipment (pick up)</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201255" trl="Y">
+  <value column="Name" original="Duties Shipper Account (For FedEx only)">Petugas Pengirim(Untuk FedEx saja)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201256" trl="Y">
+  <value column="Name" original="Partner Location (For UPS only)">Lokasi Partner(untuk UPS saja)</value>
+  <value column="Description" original="Identifies the (ship to) address for this Business Partner">Identifies the (ship to) address for this Business Partner</value>
+  <value column="Help" original="The Partner address indicates the location of a Business Partner">The Partner address indicates the location of a Business Partner</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201262" trl="Y">
+  <value column="Name" original="Future Day Shipment (For FedEx only)">Future Day Shipment (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201264" trl="Y">
+  <value column="Name" original="Home Delivery Premium Type (For FedEx only)">Home Delivery Premium Type (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201265" trl="Y">
+  <value column="Name" original="Phone Number (For FedEx only)">Phone Number (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201266" trl="Y">
+  <value column="Name" original="Date (For FedEx only)">Tanggal (Untuk FedEx saja)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201267" trl="Y">
+  <value column="Name" original="Hazardous Materials (For FedEx only)">Bahan Berbahaya ( Untuk FedEx saja)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201268" trl="Y">
+  <value column="Name" original="Dot Hazard Class or Division (For FedEx only)">Dot Hazard Class or Division (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201269" trl="Y">
+  <value column="Name" original="Cargo Aircraft Only (For FedEx only)">Hanya Cargo Aircraft (Untuk FedEx saja)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201270" trl="Y">
+  <value column="Name" original="Accessible (For FedEx only)">Accessible (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201271" trl="Y">
+  <value column="Name" original="Dry Ice (For FedEx only)">Dry Ice (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201272" trl="Y">
+  <value column="Name" original="Dry Ice Weight (For FedEx only)">Dry Ice Weight (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201273" trl="Y">
+  <value column="Name" original="Hold At Location (For FedEx only)">Hold At Location (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201274" trl="Y">
+  <value column="Name" original="Hold Address (For FedEx only)">Hold Address (FedEx)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201354" trl="Y">
+  <value column="Name" original="Added Handling (For UPS only)">Added Handling (For UPS only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201355" trl="Y">
+  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">Delivery Confirmation Type (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="201358" trl="Y">
+  <value column="Name" original="Verbal Confirmation (For UPS only)">Konfirmasi Lisan ( Untuk UPS saja)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202210" trl="Y">
+  <value column="Name" original="Index Validate">Validasi Indeks</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202234" trl="N">
+  <value column="Name" original="Sql WHERE">Sql WHERE</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">Fully qualified SQL WHERE clause</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means &quot;tablename.columnname&quot;.">The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means "tablename.columnname".</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202235" trl="N">
+  <value column="Name" original="Sql FROM">Sql FROM</value>
+  <value column="Description" original="SQL FROM clause">SQL FROM clause</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202252" trl="Y">
+  <value column="Name" original="View Validate">Validasi View</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202325" trl="Y">
+  <value column="Name" original="Cost Adjustment">Penyesuaian Costing</value>
+  <value column="Description" original="Inventory Cost Adjustment">Inventory Cost Adjustment</value>
+  <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">The Inventory Cost Adjustment document allows user to enter cost adjustment for products</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="202443" trl="Y">
+  <value column="Name" original="Purchase Order Line">Baris Order Pembelian</value>
+  <value column="Description" original="Purchase Order Line">Purchase Order Line</value>
+  <value column="Help" original="The Purchase Order Line is a unique identifier for a line in an order.">The Purchase Order Line is a unique identifier for a line in an order.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="203108" trl="Y">
+  <value column="Name" original="ViewID Column">Kolom ViewID</value>
+  <value column="Description" original="Name of unique column in a view. value of this column will save to t_selection table">Name of unique column in a view. value of this column will save to t_selection table</value>
+  <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="203325" trl="Y">
+  <value column="Name" original="Country Group">Grup Negara</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="203326" trl="Y">
+  <value column="Name" original="To">Ke</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="205154" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="205174" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="205898" trl="N">
+  <value column="Name" original="Display Search Key">Display Search Key</value>
+  <value column="Description" original="Displays Search Key in the tree">Displays Search Key in the tree</value>
+  <value column="Help" original="The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name">The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="206305" trl="N">
+  <value column="Name" original="Validation code">Validation code</value>
+  <value column="Description" original="Validation Code">Validation Code</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">The Validation Code displays the date, time and message of the error.
+
+You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].
+Do not include the WHERE statement and use Fully qualified SQL statements. F.e:
+
+@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ 
+
+will filter orders by active and where the sales representative is the current user.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_Tax">
+ <row trl="N" uuid="de38225d-a0d8-4a51-bce2-1ee5ce90b68e">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+  <value column="TaxIndicator" original=""/>
+ </row>
+ <row trl="N" uuid="ffbb068d-fcef-4342-b0b3-de3f11e7ffe9">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+  <value column="TaxIndicator" original=""/>
+ </row>
+ <row trl="N" uuid="df268c83-77fd-438e-9d33-5e9cac7d7819">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+  <value column="TaxIndicator" original=""/>
+ </row>
+</idempiereTrl>

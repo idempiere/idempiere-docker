@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_PrintFormat">
+ <row id="100" trl="Y">
+  <value column="Name" original="Order_Header ** TEMPLATE **">订单_表头 *模板*</value>
+  <value column="Description" original="Standard Order Header">标准订单头信息</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Order_LineTax  ** TEMPLATE **">订单_明细 *模板*</value>
+  <value column="Description" original="Standard Order Line&amp;Tax">标准订单明细信息</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Invoice_Header  ** TEMPLATE **">发票_表头 *模板*</value>
+  <value column="Description" original="Standard Invoice Header">标准发票头信息</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Invoice_LineTax  ** TEMPLATE **">发票_明细税额 *模板*</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines">标准发票明细信息</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="InOut_Header ** TEMPLATE **">收发单_表头 *模板*</value>
+  <value column="Description" original="Standard Shipment Header">标准收发单头信息</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="InOut_Line  ** TEMPLATE **">收发单_明细 *模板*</value>
+  <value column="Description" original="Standard Shipment Lines">标准收发单明细信息</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="PaySelection_Check  ** TEMPLATE **">付款选择_支票  *模板*</value>
+  <value column="Description" original="Standard Check with Remittance Info">标准支票带汇款信息</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="PaySelection_Remittance_Lines  ** TEMPLATE **">付款选择_汇款_明细  *模板*</value>
+  <value column="Description" original="Standard Check/Remittance Lines">标准支票/汇款明细信息</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="PaySelection_Remittance  ** TEMPLATE **">付款选择_汇款  *模板*</value>
+  <value column="Description" original="Standard Remittance Header">标准汇款表头信息</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Statement of Accounts">账户状况表</value>
+  <value column="Description" original="Statement of Accounts">账户状况表</value>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Project_Header ** TEMPLATE **">项目_表头 *模板*</value>
+  <value column="Description" original="Standard Project">标准项目表头信息</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="Project_Details ** TEMPLATE **">项目_明细 *模板*</value>
+  <value column="Description" original="Standard Project Detail">标准项目明细信息</value>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Test Report">测试 Report</value>
+  <value column="Description" original="">Test Report</value>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Test Form">测试 Form</value>
+  <value column="Description" original="">Test Form</value>
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="RfQResponseLine ** TEMPLATE **">询价响应_明细 *模板*</value>
+  <value column="Description" original="Standard RfQ Response Line">标准询价响应明细信息</value>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="RfQResponse ** TEMPLATE **">询价响应_表头 *模板*</value>
+  <value column="Description" original="Standard RfQ Response">标准询价响应表头信息</value>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Dunning_Header ** TEMPLATE **">催款单_表头 *模板*</value>
+  <value column="Description" original="Standard Dunning Letter">标准催款表头信息</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Dunning_Line ** TEMPLATE **">催款单_明细 *模板*</value>
+  <value column="Description" original="Standard Dunning Letter Lines">标准催款单明细信息</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Inventory Move Hdr (Example)">调拨单_表头 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="Inventory Move Line (Example)">调拨单_明细 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Inventory Physical Line (Example)">库存盘点_明细 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Inventory Physical Hdr (Example)">库存盘点_表头 (例子)</value>
+  <value column="Description" original="Example">例子</value>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Reference List">参考列表</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="162" trl="Y">
+  <value column="Name" original="Message">消息报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Process">流程报表</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="MRP Review">MRP报告</value>
+  <value column="Description" original="MRP Detail">MRP明细</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Header ** TEMPLATE **">生产工单_表头 *模板*</value>
+  <value column="Description" original="Manufacturing Order">生产工单表头信息</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine ** TEMPLATE **">生产工单_BOM明细  *模板*</value>
+  <value column="Description" original="Manufacturing Order BOM Line">生产工单BOM明细信息</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review  ">生产工单报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review   Copiar registro 4082309">生产工单检查   **拷贝** 4082309</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Component Check">子件检查报告</value>
+  <value column="Description" original="">产品组件的存货报告</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Order Transactions">订单事务</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Order Transactions Copiar registro 14306576">订单事务 *拷贝* 14306576</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="RV_PP_Operation_Activity &amp;Copy Record 4622012"><![CDATA[制造作业活动 &拷贝记录 4622012]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Operation Activity ** TEMPLATE **">作业活动 *模板*</value>
+  <value column="Description" original="Operation Activity ** TEMPLATE **">作业活动 *模板*</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="DistributionOrder_Line  ** TEMPLATE **">配送单_明细  *模板*</value>
+  <value column="Description" original="Standard Order Line">标准配送单明细信息</value>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="DistributionOrder_Header  ** TEMPLATE **">配送单_表头  *模板*</value>
+  <value column="Description" original="Standard Order Header">标准配送单表头信息</value>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Product Costing">产品成本</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail">多层BOM明细</value>
+  <value column="Description" original="Multi Level BOM &amp; Formula Detail">多层BOM明细</value>
+ </row>
+ <row id="50014" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt &amp;Copy Record 1500673861"><![CDATA[资产处置费用 &拷贝记录 1500673861]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt">资产处置费用</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Asset Transfer Entry">资产转移</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Asset Transfer Entry &amp;Copy Record 733003674"><![CDATA[资产转移 & 拷贝记录 733003674]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Asset Split Entry &amp;Copy Record 895559168"><![CDATA[资产拆分 & 拷贝记录 895559168]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Asset Split Entry">资产拆分</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry &amp;Copy Record 1166440766"><![CDATA[折旧费用 &拷贝记录 1166440766]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry">折旧费用</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast &amp;Copy Record 1622765813"><![CDATA[资产折旧预估 &拷贝记录 1622765813]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50023" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast">资产折旧预估</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50024" trl="Y">
+  <value column="Name" original="RV_Asset_Parent_Report">资产父级报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50025" trl="Y">
+  <value column="Name" original="RV_Depreciation_Table">折旧报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50026" trl="Y">
+  <value column="Name" original="Spread Report">传播报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50027" trl="Y">
+  <value column="Name" original="RV_Asset_Depreciation_Method">资产折旧方法</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50028" trl="Y">
+  <value column="Name" original="RV_Asset_Convention_Rpt">资产转换报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50029" trl="Y">
+  <value column="Name" original="RV_Depreciation_Calculation_Methods">折旧计算方式</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50030" trl="Y">
+  <value column="Name" original="RV_Asset_Group_Defaults">资产组账户报表</value>
+  <value column="Description" original="">资产组的账户设置信息</value>
+ </row>
+ <row id="50031" trl="Y">
+  <value column="Name" original="Inbound Charge Entry Report">入库费用报表</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50032" trl="Y">
+  <value column="Name" original="Forecast Report">预测报表</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50033" trl="Y">
+  <value column="Name" original="Forecast Report by Period">期间预测报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50037" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Node ** TEMPLATE **">生产工单_工序 *模板*</value>
+  <value column="Description" original="Manufacturing Order Node">生产工单工序</value>
+ </row>
+ <row id="50038" trl="Y">
+  <value column="Name" original="Cost BOM Multi Level Review">BOM成本多层报告</value>
+  <value column="Description" original="Cost BOM Multi Level Review">BOM成本多层视图</value>
+ </row>
+ <row id="50040" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Component ** TEMPLATE **">生产工单_BOM明细_子件 *模板*</value>
+  <value column="Description" original="Manufacturing Order BOM Line"/>
+ </row>
+ <row id="50041" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOM_Header ** TEMPLATE **">生产工单_BOM_表头 *模板*</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50042" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Workflow_Header ** TEMPLATE **">生产工单_工艺路线_表头 *模板*</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50043" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Node_Product ** TEMPLATE **">生产工单_工序_产品 *模板*</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50044" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Packing** TEMPLATE **">生产工单_BOM明细_Packing*模板*</value>
+  <value column="Description" original="Manufacturing Order BOM Line"/>
+ </row>
+ <row id="50045" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOM_Header_Packing ** TEMPLATE **">生产工单_BOM_表头_Packing *模板*</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50057" trl="Y">
+  <value column="Name" original="Indented Bill of Material">缩进BOM</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="BOM Line">BOM明细</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Single Level BOM">单层BOM</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Bank Register Report">银行账户报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Product/Component Where Used">产品/子件被用报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Simple Fact View">简单分录报表</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Complex Fact View">复杂分录视图</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8d99d6c9-367e-4c7b-8a2a-c0ae55c989be">
+  <value column="Name" original="Print Format Detail">打印格式明细</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="223ce4f7-a1ff-45cc-983a-40f128cab649">
+  <value column="Name" original="S_Timeexpense_Header_v">服务_时间费用_表头</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="b55b5643-5ed4-4553-b843-e59e421dd2f3">
+  <value column="Name" original="Product Category by Levels">产品类型 （按层）</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="bed5d35e-8d74-4759-bf04-12da35fb67f8">
+  <value column="Name" original="C_Bankstatement_Line_v">对账单明细 **模板**</value>
+  <value column="Description" original="Standard BankStatement Line">对账单明细信息</value>
+ </row>
+ <row trl="Y" uuid="c581ef15-6fc1-4d44-9302-4e609d5aa40f">
+  <value column="Name" original="C_BankStatment_Header_v  **TEMLATE**">对账单表头  **模板**</value>
+  <value column="Description" original="Standard BankStatement Header">对账单表头信息</value>
+ </row>
+ <row trl="Y" uuid="53d74268-2e4e-4320-b07f-ad13aca46e9e">
+  <value column="Name" original="Payment Header  ** TEMPLATE **">支付_表头  ** 模板 **</value>
+  <value column="Description" original="Standard Check with Remittance Info">标准支票带汇款信息</value>
+ </row>
+ <row trl="Y" uuid="b4ac64c4-35ce-460c-a48a-8b20ca2ab912">
+  <value column="Name" original="Invoice Lines by Product and Taxes - Sales">发票明细（按产品和税额） - 销售</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="7d461682-2ad7-4d1f-95c7-26e43a8c6d46">
+  <value column="Name" original="Invoice Lines by Product and Taxes - Purchase">发票明细（按产品和税额） - 采购</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1e801781-a8ab-4590-83e0-01f3bf618fe7">
+  <value column="Name" original="Daily Orders &amp; Receipts/Shipments">订单收发日报</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="71fb818d-e6de-49f8-8794-f6198fe68e28">
+  <value column="Name" original="Database Consistency Report">数据库连续性检查报告</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="45674e39-5883-4f4f-8f4d-702f455aef9d">
+  <value column="Name" original="Cashbook Lines ** TEMPLATE **">Cashbook Lines ** TEMPLATE **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8c8276e2-74e6-4576-afed-40f385907985">
+  <value column="Name" original="Cashbook Header ** TEMPLATE **">Cashbook Header ** TEMPLATE **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="573ed4e4-421b-4d42-a52d-7b2ac46c298a">
+  <value column="Name" original="Cashbook Lines ** TEMPLATE ** no tax">Cashbook Lines ** TEMPLATE ** no tax</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="4ed0c825-f9be-4f4b-8587-200bd392d37b">
+  <value column="Name" original="Cashbook Header ** TEMPLATE ** 2">Cashbook Header ** TEMPLATE ** 2</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="3dcf0ea0-e8e9-4308-b57b-264993a64b06">
+  <value column="Name" original="GL_Journal_Header_v">凭证_表头</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1e9671c9-4c9a-4235-ae5e-22305f8bfd27">
+  <value column="Name" original="按钮">工具栏按钮</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="f502faba-6435-4307-be82-eb52cac67e22">
+  <value column="Name" original="smj_fact_acct">smj_fact_acct</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

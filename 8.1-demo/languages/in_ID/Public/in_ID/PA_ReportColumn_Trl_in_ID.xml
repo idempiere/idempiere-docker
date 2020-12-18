@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="PA_ReportColumn">
+ <row id="100" trl="N">
+  <value column="Name" original="Begin Year Balance">Begin Year Balance</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="101" trl="N">
+  <value column="Name" original="Period Activity">Period Activity</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="End Year Balance">End Year Balance</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="End Total Balance">End Total Balance</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Begin Total Balance">Begin Total Balance</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Period Quantity">Period Quantity</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Budget YTD">Budget YTD</value>
+  <value column="Description" original="Budget Year to Date">Budget Year to Date</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Actual YTD">Actual YTD</value>
+  <value column="Description" original="Actual Year To Date">Actual Year To Date</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="Commitment YTD">Commitment YTD</value>
+  <value column="Description" original="Commitment Year to Date">Commitment Year to Date</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="Reservations YTD">Reservations YTD</value>
+  <value column="Description" original="Reservations Year to Date">Reservations Year to Date</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Budget Spent">Budget Spent</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Budget Available">Budget Available</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.globalqss.idempiere.LCO.feature"
+      label="LCO-feature"
+      version="8.1.0.qualifier"
+      provider-name="GlobalQSS">
+
+   <description>
+      Feature Localization Colombia
+   </description>
+
+   <copyright>
+      Copyright: Quality Systems &amp; Solutions
+   </copyright>
+
+   <license url="">
+      GPLv2
+   </license>
+
+   <plugin
+         id="org.globalqss.idempiere.LCO.detailednames"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.globalqss.idempiere.LCO.magneticmedia"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.globalqss.idempiere.LCO.withholdings"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.globalqss.idempiere.LCO.invoicenumbercontrol"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Martin Schönbeck Beratungen GmbH--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="de_DE" table="AD_FieldGroup">
+ <row id="101" trl="Y">
+  <value column="Name" original="Status">Status</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Quantities">Mengen</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Amounts">Beträge</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Reference">Referenz</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="History">Verlauf</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Product">Artikel</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Business Partner">Geschäftspartner</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Warehouse">Lager</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Bank Accounts">Bankkonten</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Cash Book Accounts">Kassenbuchkonten</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Tax Accounts">Steuerkonten</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Project Accounts">Projektkonten</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="General">Allgemein</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Action">Aktion</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Standard Cost">Standardkosten</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Actual Costs">Tatsächliche Kosten</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Statistics">Statistik</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Defaults">Voreinstellungen</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Request Management">Anfragenverwaltung</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Web Store">Webshop</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Internal">Internes</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="External">Extern</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Common">Gemeinsam</value>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Shipment">Lieferung</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Document">Beleg</value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Line">Position</value>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Simulation">Simulation</value>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Calculations">Kalkulationen</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Proxy">Proxy</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Delivery">Lieferung</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Invoicing">Rechnungsstellung</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Only ..">Nur ...</value>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Selection">Auswahl</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Access">Zugriff</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Allow Info In Role">Info in Rolle erlauben</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Accounts">Konten</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Setup">Einrichtung</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Dates">Datumswerte</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Revaluation Accounts">Aufwertungskonten</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Contract">Vertrag</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Options">Optionen</value>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="General Ledger">Hauptbuch</value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Machines">Maschinen</value>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Database">Datenbank</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Manufacturing Accounts">Fertigungskonten</value>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Logo">Logo</value>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Location">Standort</value>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Fixed Asset">Anlagevermögen</value>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Maintenance">Verwaltung</value>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Funding">Finanzierung</value>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Depreciation">Abschreibung</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Swing Position">Swing-Position</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Web Position">Web-Position</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="User Locking">Benutzersperren</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Overwritten From Column">Überschrieben von Spalte</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Customer Information">Kundeninformation</value>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Vendor Information">Lieferanteninformation</value>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Sales Information">Vertriebsinformation</value>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Document Preferences">Belegvoreinstellungen</value>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="Charge Account">Aufwendungen Gebühren</value>
+ </row>
+ <row id="200010" trl="Y">
+  <value column="Name" original="Business Partner Accounts">Geschäftspartnerkonten</value>
+ </row>
+ <row id="200011" trl="Y">
+  <value column="Name" original="Product Accounts">Artikelkonten</value>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Warehouse Accounts">Lagerkonten</value>
+ </row>
+ <row id="200013" trl="N">
+  <value column="Name" original="Product Category Accounts">Product Category Accounts</value>
+ </row>
+ <row id="200014" trl="N">
+  <value column="Name" original="Business Partner Group Accounts">Business Partner Group Accounts</value>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Technical">Technisch</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Foreign Key">Fremdschlüssel</value>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="Background Job">Hintergrund Job</value>
+ </row>
+ <row id="200022" trl="N">
+  <value column="Name" original="Placeholders">Platzhalter</value>
+ </row>
+</idempiereTrl>

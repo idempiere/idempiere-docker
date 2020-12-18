@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="M_PriceList_Version">
+ <row id="101" trl="N">
+  <value column="Name" original="Standard 2001">标准 2001</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Purchase 2001">采购 2001</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Purchase 2003">采购 2003</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Standard 2003">标准 2003</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Export 2003">出口 2003</value>
+ </row>
+</idempiereTrl>

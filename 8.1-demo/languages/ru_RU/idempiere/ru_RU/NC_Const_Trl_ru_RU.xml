@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="NC_Const">
+ <row id="0" trl="Y">
+  <value column="Name" original="NCC_VERSION">Версия</value>
+  <value column="Description" original="The system version">Версия системы NCC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="1" trl="Y">
+  <value column="Name" original="STATUS_RUN">Запущено</value>
+  <value column="Description" original="Status: the task is running">Статус - задание запущено</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="4" trl="Y">
+  <value column="Name" original="STATUS_OK">Успешно</value>
+  <value column="Description" original="Status: the task finished with success">Статус - задание успешно исполнено</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="5" trl="Y">
+  <value column="Name" original="STATUS_LOAD">Загружено</value>
+  <value column="Description" original="Status: the task is successfully loaded from the source">Статус - задание успешно загружено из внешнего источника</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="6" trl="Y">
+  <value column="Name" original="STATUS_ER">Ошибка</value>
+  <value column="Description" original="Status: the task finished with error">Статус - задание исполнено неуспешно</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="7" trl="Y">
+  <value column="Name" original="STATUS_SKIP">Пропущено</value>
+  <value column="Description" original="Status: the task skiped (success on another number)">Статус - успешное исполнение по другому телефону</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="99" trl="Y">
+  <value column="Name" original="NCC_PATCHES">Патчи</value>
+  <value column="Description" original="The system patches of NCC">Исправления системы NCC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="REL_NC_BRANCH">Филиал</value>
+  <value column="Description" original="Reference to the table NC_Branch">Ссылка на таблицу NC_Branch</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="REL_CALL_ATTEMPT">Таблица попыток оповещения</value>
+  <value column="Description" original="Reference to the table Call_Attempt">Ссылка на таблицу Call_Attempt</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="REL_CALL_LIST">Таблица списка оповещения</value>
+  <value column="Description" original="Reference to the table Call_List">Ссылка на таблицу Call_List</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="REL_CALL_NOTIF_TEMPLATE">Таблица шаблона</value>
+  <value column="Description" original="Reference to the table Call_Notif_Template">Ссылка на таблицу Call_Notif_Template</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="REL_CALL_QUEUE">Таблица очереди заданий</value>
+  <value column="Description" original="Reference to the table Call_Queue">Ссылка на таблицу Call_Queue</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="REL_CALL_SOUND">Таблица голосовых файлов</value>
+  <value column="Description" original="Reference to the table Call_Sound">Ссылка на таблицу Call_Sound</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="REL_CALL_STATUS">Таблица статусов заданий и попыток</value>
+  <value column="Description" original="Reference to the table Call_Status">Ссылка на таблицу Call_Status</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="REL_CALL_TYPE">Таблица типов оповещений</value>
+  <value column="Description" original="Reference to the table Call_Type">Ссылка на таблицу Call_Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="REL_NC_CLIENT">Таблица клиентов для оповещения</value>
+  <value column="Description" original="Reference to the table NC_Client">Ссылка на таблицу NC_Client</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="REL_NC_CLIENT_TYPE">Таблица типов клиентов</value>
+  <value column="Description" original="Reference to the table NC_Client_Type">Ссылка на таблицу NC_Client_Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="REL_NC_PLATFORM">Таблица платформ оповещения</value>
+  <value column="Description" original="Reference to the table NC_Platform">Ссылка на таблицу NC_Platform</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="REL_NC_PLATFORM_ATTRIBUTE_TYPE">Таблица атрибутов платформ</value>
+  <value column="Description" original="Reference to the table NC_Platform_Attribute_Type">Ссылка на таблицу NC_Platform_Attribute_Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="REL_NC_OUTBOUND">Таблица исходящих маршрутов</value>
+  <value column="Description" original="Reference to the table NC_Outbound">Ссылка на таблицу NC_Outbound</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="REL_NC_RULE">Таблица правил исходящих маршрутов</value>
+  <value column="Description" original="Reference to the table NC_Rule">Ссылка на таблицу NC_Rule</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="REL_NC_TRUNK">Таблица каналов оповещения</value>
+  <value column="Description" original="Reference to the table NC_Trunk">Ссылка на таблицу NC_Trunk</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="REL_NC_TRUNK_ATTRIBUTE">Таблица атрибутов канала</value>
+  <value column="Description" original="Reference to the table NC_Trunk_Attribute">Ссылка на таблицу NC_Trunk_Attribute</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="REL_NC_TRUNK_ATTRIBUTE_TYPE">Таблица типов атрибутов канала</value>
+  <value column="Description" original="Reference to the table NC_Trunk_Attribute_Type">Ссылка на таблицу NC_Trunk_Attribute_Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="REL_NC_CAMPAIGN_ATTRIBUTE_TYPE">Таблица типов атрибутов кампании</value>
+  <value column="Description" original="Reference to the table NC_Campaign_Attribute_Type">Ссылка на таблицу NC_Campaign_Attribute_Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="REL_NC_CAMPAIGN">Таблица кампаний оповещения</value>
+  <value column="Description" original="Reference to the table NC_Campaign">Ссылка на таблицу NC_Campaign</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="REL_NC_CAMPAIGN_ATTRIBUTE">Таблица атрибутов кампаний</value>
+  <value column="Description" original="Reference to the table NC_Campaign_Attribute">Ссылка на таблицу NC_Campaign_Attribute</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="REL_NC_RELATION">Таблица ссылок</value>
+  <value column="Description" original="Reference to the table NC_Relation">Ссылка на таблицу NC_Relation</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="REL_NC_CONST">Таблица констант</value>
+  <value column="Description" original="Reference to the table NC_Const">Ссылка на таблицу NC_Const</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="REL_NC_VARIABLE">Таблица переменных</value>
+  <value column="Description" original="Reference to the table NC_Variable">Ссылка на таблицу NC_Variable</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="REL_NC_CALENDAR">Таблица календарей</value>
+  <value column="Description" original="Reference to the table NC_Calendar">Ссылка на таблицу NC_Calendar</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="REL_NC_TIME">Таблица временных интервалов</value>
+  <value column="Description" original="Reference to the table NC_Time">Ссылка на таблицу NC_Time</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="REL_NC_CALLER">Таблица вызывающих номеров</value>
+  <value column="Description" original="Reference to the table NC_Caller">Ссылка на таблицу NC_Caller</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="REL_CALL_PROTOCOL">Таблица протоколов оповещения</value>
+  <value column="Description" original="Reference to the table Call_Protocol">Ссылка на таблицу Call_Protocol</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="REL_NC_TRUNK_TYPE">Таблица типов каналов</value>
+  <value column="Description" original="Reference to the table NC_Trunk_Type">Ссылка на таблицу NC_Trunk_Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="1001" trl="Y">
+  <value column="Name" original="REL_TYPE_CALL_NOTIF">Тип записи - профиль оповещения</value>
+  <value column="Description" original="The link table entry type for the call profile definition">Тип записи таблицы связей для определения профиля оповещения</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="1002" trl="Y">
+  <value column="Name" original="REL_TYPE_CALLER">Тип записи - номер вызывающего</value>
+  <value column="Description" original="The link table entry type for the caller's number definition">Тип записи таблицы связей для определения номера вызывающего абонента</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="1003" trl="Y">
+  <value column="Name" original="REL_TYPE_TRUNK_ROUTE">Тип записи - канал оповещения</value>
+  <value column="Description" original="The link table entry type for the trunk route definition">Тип записи таблицы связей для определения очередного канала для выполнения оповещения</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

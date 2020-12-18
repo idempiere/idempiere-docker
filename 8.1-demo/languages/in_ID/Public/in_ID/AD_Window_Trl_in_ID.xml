@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_Window">
+ <row id="100" trl="Y">
+  <value column="Name" original="Table and Column">Tabel dan Kolom</value>
+  <value column="Description" original="Maintain Tables and Columns">Maintain Tabel dan Kolom</value>
+  <value column="Help" original="The Table and Column Window defines all tables with their columns">Tabel dan Jendela Kolom mendefinisikan semua tabel dengan kolomnya</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Reference">Referensi</value>
+  <value column="Description" original="Maintain System References">Maintain Referensi Sistem</value>
+  <value column="Help" original="The Reference Window defines field/display types and validations. This window is for System Admin use only.">Jendela Referensi mendefinisikan jenis dan validasi bidang / tampilan. Jendela ini hanya untuk penggunaan Admin Sistem.</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Window, Tab &amp; Field" xml:space="preserve"><![CDATA[Window, Tab & Kolom]]></value>
+  <value column="Description" original="Maintain Windows, Tabs &amp; Fields" xml:space="preserve"><![CDATA[Maintain Windows, Tab & Fields]]></value>
+  <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window." xml:space="preserve"><![CDATA[Window, Tab & Kolom Window mendefinisikan presentasi tabel dan kolom dalam setiap jendela.]]></value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Validation Rules">Aturan Validasi</value>
+  <value column="Description" original="Maintain dynamic Validation Rules for columns and fields">Maintain Aturan Validasi dinamis untuk kolom dan bidang</value>
+  <value column="Help" original="The Validation Rules Window defines all dynamic rules used when entering and maintaining columns and fields.  This window is for System Admin use only.">Jendela Aturan Validasi mendefinisikan semua aturan dinamis yang digunakan saat memasukkan dan memelihara kolom dan bidang. Jendela ini hanya untuk penggunaan Admin Sistem.</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Message">Pesan</value>
+  <value column="Description" original="Maintain Information and Error Messages">Maintain Informasi dan Pesan Kesalahan</value>
+  <value column="Help" original="The Message Window defines the Message Text and Message Tips for each system generated message.  It is for System Admin use only.">Jendela Pesan menentukan Teks Pesan dan Tip Pesan untuk setiap pesan yang dihasilkan sistem. Ini hanya untuk penggunaan Admin Sistem.</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original="Maintain Menu">Maintain Menu</value>
+  <value column="Help" original="The Maintain Menu Window defines the Menu which will display.  It is for System Admin use only.  The menu items that each user will see depends upon the security defined.">Jendela Maintain Menu mendefinisikan Menu yang akan ditampilkan. Ini hanya untuk penggunaan Admin Sistem. Item menu yang akan dilihat oleh setiap pengguna tergantung pada keamanan yang ditentukan.</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Language">Bahasa</value>
+  <value column="Description" original="Maintain Languages">Maintain Bahasa</value>
+  <value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">Jendela Bahasa memungkinkan Anda untuk menentukan beberapa bahasa paralel untuk pengguna. Ini memungkinkan pengguna untuk mengakses data yang sama tetapi memiliki jendela, tab dan bidang muncul dalam berbagai bahasa.
+Jika suatu bahasa adalah Bahasa Sistem, Anda dapat mengubah Antarmuka Pengguna ke bahasa ini (setelah terjemahan). Kalau tidak, bahasa ini hanya digunakan untuk mencetak dokumen.
+
+Untuk kode bahasa, kami sarankan menggunakan konvensi Jawa negara dan bahasa (mis. Fr_CN - Kanada Prancis).
+
+Verifikasi terjemahan membuat catatan terjemahan yang hilang. Mulai proses ini setelah membuat bahasa baru.</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Matched Invoices">Invoice Yang Tervalidasi</value>
+  <value column="Description" original="View Matched Invoices">Lihat Faktur yang Cocok</value>
+  <value column="Help" original="View detals of matched invoice lines to material receipt lines">Lihat detail saluran faktur yang cocok dengan jalur penerimaan bahan</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="User">User</value>
+  <value column="Description" original="Maintain Users of the system">Maintain Pengguna sistem</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">Jendela Pengguna memungkinkan Anda mempertahankan Pengguna sistem. Pengguna dapat masuk ke sistem dan memiliki akses ke fungsionalitas melalui satu peran atau lebih. Pengguna juga dapat menjadi kontak mitra bisnis.</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Client">Klien</value>
+  <value column="Description" original="Maintain Clients/Tenants">Maintain Klien / Penyewa</value>
+  <value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">Klien adalah level tertinggi dari entitas bisnis independen. Setiap Klien akan memiliki satu atau lebih Organisasi yang melapor kepadanya. Setiap Klien menentukan parameter akuntansi (Skema Akuntansi, definisi Tree, UOM Non Moneter). Untuk membuat Klien baru, jalankan Pengaturan Klien Awal dengan Peran Administrator Sistem.
+Jangan membuat klien baru di jendela ini, tetapi gunakan "Pengaturan Klien Awal" untuk mengatur keamanan yang diperlukan dan aturan akses. Jika Anda membuat klien baru di sini, Anda tidak akan dapat melihatnya dan infrastruktur klien yang diperlukan tidak akan diatur.</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Organization">Organisasi</value>
+  <value column="Description" original="Maintain Organizations">Menjaga Organisasi</value>
+  <value column="Help" original="The Organization Window allows you to define and maintain Organizational entities.  An Organization is often a legal entity or sub-unit for which documents and transactions are processed">Jendela Organisasi memungkinkan Anda untuk mendefinisikan dan memelihara entitas Organisasi. Suatu Organisasi seringkali merupakan badan hukum atau sub-unit tempat dokumen dan transaksi diproses</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Role">Role</value>
+  <value column="Description" original="Maintain User Responsibilities">Maintain Tanggung Jawab Pengguna</value>
+  <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">Jendela Peran memungkinkan Anda untuk menentukan berbagai peran yang akan dimiliki oleh pengguna sistem ini. Peran mengontrol akses ke jendela, tugas, laporan, dll. Untuk klien, peran Administrator dan Pengguna telah ditentukan sebelumnya. Anda dapat menambahkan peran tambahan untuk mengontrol akses untuk fungsionalitas atau data tertentu.
+Anda dapat menambahkan pengguna ke peran.
+Perhatikan bahwa akses informasi di-cache dan memerlukan login ulang atau reset cache.</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Document Sequence">No Urut Dokumen</value>
+  <value column="Description" original="Maintain System and Document Sequences">Maintain Urutan Sistem dan Dokumen</value>
+  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">Jendela Urutan menentukan bagaimana nomor dokumen akan diurutkan.
+Ubah cara nomor dokumen dihasilkan. Anda dapat menambahkan awalan atau sufiks atau mengubah nomor saat ini.</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="Maintain Workflow">Maintain Alur Kerja</value>
+  <value column="Help" original="The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.">Jendela Workflow mendefinisikan Workflow di sistem, tingkat akses untuk Workflow dan Node atau Langkah-langkah dalam Workflow.</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Task">Tugas</value>
+  <value column="Description" original="Maintain Tasks">Maintain Tugas</value>
+  <value column="Help" original="The Maintain Tasks window defines the different tasks used in workflows and the access level for those tasks.">Jendela Maintain Tasks mendefinisikan berbagai tugas yang digunakan dalam alur kerja dan tingkat akses untuk tugas-tugas tersebut.</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Currency">Mata Uang</value>
+  <value column="Description" original="Maintain Currencies">Maintain Mata Uang</value>
+  <value column="Help" original="The Currency Window defines any currency which will be used in documents or reporting. You would define used currencies on System level and add currencies on Client level only for statistical currencies (e.g. for instable currencies) ">Jendela Mata Uang mendefinisikan mata uang apa pun yang akan digunakan dalam dokumen atau pelaporan. Anda akan mendefinisikan mata uang bekas pada tingkat Sistem dan menambahkan mata uang pada tingkat Klien hanya untuk mata uang statistik (mis. Untuk mata uang yang tidak stabil)</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Currency Rate">Rate Mata Uang</value>
+  <value column="Description" original="Maintain Currency Conversion Rates">Maintain Nilai Konversi Mata Uang</value>
+  <value column="Help" original="The Conversion Rates window is used to define the conversion rates that will be used when converting document amounts from one currency to another. Note that only the multiply rate is used; The divide rate is for visualization only.">Jendela Kurs Konversi digunakan untuk menentukan kurs konversi yang akan digunakan saat mengonversi jumlah dokumen dari satu mata uang ke mata uang lainnya. Perhatikan bahwa hanya laju pengali yang digunakan; Tingkat pembagian hanya untuk visualisasi.</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Calendar Year and Period">Kalender Tahunan Dan Periode</value>
+  <value column="Description" original="Maintain Calendars Years Periods">Menjaga Kalender Periode Tahun</value>
+  <value column="Help" original="The Calendar Year and Periods defines the calendars that will be used for period control and reporting. You can also define non-standard calendars (e.g. business year from July to June).">Tahun dan Periode Kalender menentukan kalender yang akan digunakan untuk kontrol dan pelaporan periode. Anda juga dapat menetapkan kalender non-standar (mis. Tahun bisnis dari Juli hingga Juni).</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Account Element">Elemen Akun</value>
+  <value column="Description" original="Maintain Account Elements">Maintain Elemen Akun</value>
+  <value column="Help" original="The Account Element Window is used to define and maintain the Accounting Element and User Defined Elements. &#10;One of the account segments is your natural account segment (Chart of Account). You may add a new account element for parallel reporting or for user defined accounting segments.">Jendela Elemen Akun digunakan untuk mendefinisikan dan memelihara Elemen Akuntansi dan Elemen yang Ditentukan Pengguna.
+Salah satu segmen akun adalah segmen akun alami Anda (Bagan Akun). Anda dapat menambahkan elemen akun baru untuk pelaporan paralel atau untuk segmen akuntansi yang ditentukan pengguna.</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Unit of Measure">Satuan Unit</value>
+  <value column="Description" original="Maintain Unit of Measure ">Maintain Satuan Ukuran</value>
+  <value column="Help" original="The Unit of Measure Window is used to define non monetary units of measure.  It also defines if conversion between units of measure are allowed and how they are to be performed. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">Jendela Unit Pengukuran digunakan untuk mendefinisikan unit ukuran non moneter. Ini juga menentukan apakah konversi antar unit ukuran diizinkan dan bagaimana mereka dilakukan. Sistem menyediakan beberapa konversi otomatis antara satuan ukuran (mis. Menit, jam, hari, hari kerja, dll.) Jika tidak didefinisikan secara eksplisit di sini.
+Konversi harus langsung (mis. Jika Anda hanya memiliki konversi antara A-B dan B-C, sistem tidak dapat mengonversi A-C, Anda perlu mendefinisikannya secara eksplisit).</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Location">Lokasi</value>
+  <value column="Description" original="Maintain Location Address">Maintain Alamat Lokasi</value>
+  <value column="Help" original="The Location Window defines the address data within the system.  This window is for System Admin only.  Users would access location entries using the location button or tab on the appropriate window (i.e Order Entry or Business Partner)">Jendela Lokasi mendefinisikan data alamat di dalam sistem. Jendela ini hanya untuk Admin Sistem. Pengguna akan mengakses entri lokasi menggunakan tombol atau tab lokasi pada jendela yang sesuai (mis. Entri Pesanan atau Mitra Bisnis)</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Country Region and City">Wilayah Negara dan Kota</value>
+  <value column="Description" original="Maintain Countries Regions and Cities">Maintain Negara Wilayah dan Kota</value>
+  <value column="Help" original="The Countries, Regions and Cities Window defines the different entities that can be used in any address field.  It defines the format of the address as well as associating Regions with Countries and Cities with Regions or Countries. &#10;&lt;p&gt;You would define Countries usually only on System level.">Jendela Negara, Wilayah dan Kota mendefinisikan entitas yang berbeda yang dapat digunakan di bidang alamat apa pun. Ini mendefinisikan format alamat serta mengaitkan Wilayah dengan Negara dan Kota dengan Daerah atau Negara.
+Anda akan mendefinisikan Negara biasanya hanya pada tingkat Sistem.</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Business Partner">Rekan Bisnis</value>
+  <value column="Description" original="Maintain Business Partners">Maintain Mitra Bisnis</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Jendela Mitra Bisnis memungkinkan Anda menentukan pihak mana pun yang bertransaksi dengan Anda. Ini termasuk pelanggan, vendor, dan karyawan. Sebelum memasuki atau mengimpor produk, Anda harus menentukan vendor Anda. Sebelum menghasilkan Pesanan, Anda harus menentukan pelanggan Anda. Jendela ini menampung semua informasi tentang mitra bisnis Anda dan nilai yang dimasukkan akan digunakan untuk menghasilkan semua transaksi dokumen</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Accounting Schema">Skema Akunting</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Maintain Skema Akuntansi - Agar perubahan menjadi efektif, Anda harus masuk kembali</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">Jendela Skema Akuntansi mendefinisikan metode akuntansi dan elemen-elemen yang akan membentuk struktur akun. Buat dan aktifkan elemen untuk akuntansi terperinci untuk Mitra Bisnis, Produk, Lokasi, dll.
+Tinjau dan ubah akun GL dan Default. Akun aktual yang digunakan dalam transaksi tergantung pada organisasi pelaksana; Sebagian besar informasi berasal dari konteks.</value>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Test">Uji</value>
+  <value column="Description" original="Test Screen">Layar Uji</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Attachment">Lampiran</value>
+  <value column="Description" original="Maintain Attachments">Tangani Cantuman</value>
+  <value column="Help" original="For System Maintenance Only.  The Maintain Attachments window is used for diagnostic purposes to display the attributes of an attachment.">Hanya Untuk Pemeliharaan Sistem. Jendela Maintain Attachment digunakan untuk tujuan diagnostik untuk menampilkan atribut lampiran.</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Preference">Preferensi</value>
+  <value column="Description" original="Maintain System Client Org and User Preferences">Maintain Org Klien dan Preferensi Pengguna Sistem</value>
+  <value column="Help" original="System Admin use only.">Sistem Admin hanya digunakan.</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Project">Proyek (Service)</value>
+  <value column="Description" original="Maintain Projects">Mempertahankan Proyek Layanan</value>
+  <value column="Help" original="The Project Window is used to define the projects which will can be tracked by phases and tasks.">Jendela Proyek digunakan untuk menentukan proyek yang akan dapat dilacak berdasarkan fase dan tugas.</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="GL Category">Kategori GL</value>
+  <value column="Description" original="Maintain General Ledger Categories">Maintain Kategori Buku Besar</value>
+  <value column="Help" original="The GL Category Window allows you to define categories to be used in journals.  These categories provide a method of optionally grouping and reporting on journals.">Jendela Kategori GL memungkinkan Anda untuk menentukan kategori yang akan digunakan dalam jurnal. Kategori-kategori ini menyediakan metode pengelompokan dan pelaporan opsional pada jurnal.</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="GL Journal Batch">Jurnal Akunting Batch</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">Masukkan dan ubah Entri Jurnal Manual</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">Jendela Jurnal GL memungkinkan Anda untuk memasukkan dan memodifikasi entri jurnal manual</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Activity (ABC)">Aktivitas (ABC)</value>
+  <value column="Description" original="Maintain Activities for Activity Based Costing">Maintain Aktivitas untuk Penetapan Biaya Berbasis Aktivitas</value>
+  <value column="Help" original="The Activity Based Costing Window defines the different activities for which you want to capture costs.">Jendela Biaya Berdasarkan Aktivitas menentukan berbagai aktivitas yang ingin Anda kumpulkan biaya.</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Document Type">Jenis Dokumen</value>
+  <value column="Description" original="Maintain Document Types">Maintain Jenis Dokumen</value>
+  <value column="Help" original="The Document Type Window defines any document to be used in the system.  Each document type provides the basis for processing of each document and controls the printed name and document sequence used.  ">Jendela Jenis Dokumen menentukan dokumen apa pun untuk digunakan dalam sistem. Setiap jenis dokumen memberikan dasar untuk pemrosesan setiap dokumen dan mengontrol nama cetak dan urutan dokumen yang digunakan.</value>
+ </row>
+ <row id="137" trl="Y">
+  <value column="Name" original="Tax Rate">Rate Pajak</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Maintain Pajak dan Tarifnya</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">Jendela Tarif Pajak menentukan berbagai pajak yang digunakan untuk setiap kategori pajak. Misalnya Pajak Penjualan harus ditentukan untuk setiap Negara bagian di mana ia berlaku.</value>
+ </row>
+ <row id="138" trl="Y">
+  <value column="Name" original="Tax Category">Kategori Pajak</value>
+  <value column="Description" original="Maintain Tax Categories">Maintain Kategori Pajak</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">Jendela Kategori Pajak digunakan untuk masuk dan memelihara Kategori Pajak. Setiap produk dikaitkan dengan kategori pajak yang memfasilitasi reaksi perubahan tarif pajak.</value>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Gudang & Lokasi]]></value>
+  <value column="Description" original="Maintain Warehouses and Locators">Maintain Gudang dan Penunjuk Lokasi</value>
+  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">Jendela Gudang dan Penentu Lokasi menentukan setiap Gudang, setiap Penentu Lokasi untuk Gudang tersebut dan parameter Akuntansi yang akan digunakan untuk inventaris di Gudang tersebut.</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="Product">Produk</value>
+  <value column="Description" original="Maintain Products">Merawat Produk</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">Jendela Produk mendefinisikan semua produk yang digunakan oleh suatu organisasi. Produk-produk ini termasuk yang dijual kepada pelanggan, digunakan dalam pembuatan produk yang dijual kepada pelanggan dan produk yang dibeli oleh suatu organisasi.</value>
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Payment Term">Termin Pembayaran</value>
+  <value column="Description" original="Maintain Payment Terms">Maintain Ketentuan Pembayaran</value>
+  <value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">Jendela Ketentuan Pembayaran menentukan berbagai ketentuan pembayaran yang Anda tawarkan kepada pelanggan dan ditawarkan kepada Anda oleh vendor Anda. Setiap faktur harus mengandung Ketentuan Pembayaran. Pada faktur standar, Nama dan Catatan Dokumen dari Ketentuan Pembayaran dicetak.</value>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Shipper">Pengirim</value>
+  <value column="Description" original="Maintain Shippers">Maintain Pengirim</value>
+  <value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">Jendela Pengirim mendefinisikan berbagai pengiriman yang digunakan oleh Organisasi. Ketika metode pengiriman Pengirim digunakan pada Pesanan, Pengirim yang telah ditentukan harus dipilih.</value>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Sales Order">Order Penjualan</value>
+  <value column="Description" original="Enter and change sales orders">Masukkan dan ubah pesanan penjualan</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  ">Jendela Pesanan memungkinkan Anda untuk memasukkan dan mengubah Pesanan Penjualan.</value>
+ </row>
+ <row id="144" trl="Y">
+  <value column="Name" original="Product Category">Kategori Produk</value>
+  <value column="Description" original="Maintain Product Categories">Maintain Kategori Produk</value>
+  <value column="Help" original="The Product Category allows you to define different groups of products.  These groups can be used in generating Price Lists, defining margins and for easily assigning different accounting parameters for products.">Kategori Produk memungkinkan Anda untuk menentukan berbagai kelompok produk. Grup-grup ini dapat digunakan dalam menghasilkan Daftar Harga, menentukan margin dan untuk dengan mudah menetapkan parameter akuntansi yang berbeda untuk produk.</value>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Price List">Daftar Harga</value>
+  <value column="Description" original="Maintain Product Price Lists">Maintain Daftar Harga Produk</value>
+  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version.">Jendela Daftar Harga memungkinkan Anda membuat daftar harga produk untuk Mitra Bisnis Anda. Daftar harga menentukan mata uang dan perlakuan pajak. Versi daftar harga memungkinkan untuk mempertahankan daftar paralel untuk rentang tanggal yang berbeda. Versi daftar harga terkini digunakan berdasarkan tanggal dokumen.
+
+Semua daftar harga memiliki tiga harga: Daftar, Standar dan Batas
+
+Langkah pertama adalah membuat daftar harga dasar. Anda dapat secara manual menambahkan produk dan memasukkan harga atau membuatnya secara otomatis. Daftar harga dasar seringkali merupakan daftar harga pembelian dengan harga daftar (harga eceran 'resmi'), harga standar (harga pembelian Anda). Harga batas dapat digunakan untuk memeriksa biaya pembelian akhir Anda setelah diskon, rabat, dll.
+ 
+Daftar harga dapat dihitung dan disalin. Untuk mempercepat perhitungan, parameter disimpan dan digunakan saat membuat versi daftar harga baru.</value>
+ </row>
+ <row id="147" trl="Y">
+  <value column="Name" original="Invoice Schedule">Jadwal Invoice</value>
+  <value column="Description" original="Maintain Invoicing Schedule">Maintain Jadwal Faktur</value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">Jendela Jadwal Faktur menentukan frekuensi dan memotong tanggal untuk membuat faktur ringkasan. Jika pelanggan membutuhkan satu faktur untuk beberapa pengiriman, Anda akan menentukan jadwal faktur yang sesuai dan mengaitkannya dengan Pelanggan.</value>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="Marketing Campaign">Kampanye Pemasaran</value>
+  <value column="Description" original="Maintain Marketing Campaigns">Maintain Kampanye Pemasaran</value>
+  <value column="Help" original="The Marketing Campaign Window defines the start and end date for a campaign.  It also gives a running balance of the invoice amounts which referred to this campaign.">Jendela Kampanye Pemasaran menentukan tanggal mulai dan berakhir untuk suatu kampanye. Itu juga memberikan saldo berjalan dari jumlah faktur yang merujuk pada kampanye ini.</value>
+ </row>
+ <row id="150" trl="Y">
+  <value column="Name" original="Marketing Channel">Cara Pemasaran</value>
+  <value column="Description" original="Maintain Marketing  Channels">Pelihara Saluran Pemasaran</value>
+  <value column="Help" original="The Marketing Channel Window defines the different channels used in Marketing Campaigns">Jendela Saluran Pemasaran menentukan berbagai saluran yang digunakan dalam Kampanye Pemasaran</value>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Element">Elemen Sistem</value>
+  <value column="Description" original="Maintain System Elements">Mempertahankan Elemen Sistem</value>
+  <value column="Help" original="The System Element Window is the Central Repository for Field Names Descriptions and Help/Comments">Jendela Elemen Sistem adalah Repositori Pusat untuk Deskripsi Nama Bidang dan Bantuan / Komentar</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Sales Region">Area Penjualan</value>
+  <value column="Description" original="Maintain Sales Regions">Maintain Wilayah Penjualan</value>
+  <value column="Help" original="The Sales Region Window defines the different regions where you do business.  You can generate reports based on Sales Regions">Jendela Wilayah Penjualan menentukan berbagai wilayah tempat Anda melakukan bisnis. Anda dapat menghasilkan laporan berdasarkan Wilayah Penjualan</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Account Combination">Kombinasi Akun</value>
+  <value column="Description" original="Maintain Valid Account Combinations ">Maintain Kombinasi Akun G / L</value>
+  <value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">Jendela Kombinasi Akun menentukan dan menampilkan kombinasi akun yang valid.</value>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="GL Budget">Anggaran GL</value>
+  <value column="Description" original="Maintain General Ledger Budgets">Maintain Anggaran Buku Besar Umum</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Bank / Cash">Bank</value>
+  <value column="Description" original="Maintain Bank / Cash">Maintain Bank</value>
+  <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">Jendela Bank / Kas digunakan untuk menentukan bank dan rekening yang terkait dengan organisasi atau mitra bisnis</value>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Dunning">Penagihan</value>
+  <value column="Description" original="Maintain Dunning Levels">Maintain Level Dunning</value>
+  <value column="Help" original="The Dunning Window defines the parameters that will be used when generating Dunning Letters.  Each customer can be associated with a Dunning Code.  ">Jendela Dunning mendefinisikan parameter yang akan digunakan saat membuat Surat Dunning. Setiap pelanggan dapat dikaitkan dengan Kode Dunning.</value>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Charge">Beban</value>
+  <value column="Description" original="Maintain Charges">Maintain Biaya</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Jendela Biaya menentukan berbagai biaya yang mungkin ditimbulkan. Ini dapat mencakup Biaya Bank, Biaya Vendor dan Biaya Penanganan.</value>
+ </row>
+ <row id="162" trl="Y">
+  <value column="Name" original="Accounting Fact Details">Detail Buku Besar</value>
+  <value column="Description" original="Query Accounting Facts">Fakta Akuntansi Kueri</value>
+  <value column="Help" original="Query the detail accounting transactions">Permintaan detail transaksi akunting</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Tree">Pohon</value>
+  <value column="Description" original="Maintain Tree definition">Maintain definisi Tree</value>
+  <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed.">Jendela Pohon mendefinisikan deskriptor dan gambar yang akan digunakan saat Pohon ditampilkan.</value>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Laporan & Proses]]></value>
+  <value column="Description" original="Maintain Reports &amp; Processes" xml:space="preserve"><![CDATA[Maintain Laporan & Proses]]></value>
+  <value column="Help" original="The Report &amp; Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only." xml:space="preserve"><![CDATA[Jendela Laporan & Proses digunakan untuk menentukan parameter dan aturan akses untuk setiap Laporan dan Proses dalam sistem. Jendela ini hanya untuk penggunaan Admin Sistem.]]></value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Invoice (Customer)">Invoice (Pelanggan)</value>
+  <value column="Description" original="Customer Invoice Entry">Entri Faktur Pelanggan</value>
+  <value column="Help" original="The Customer Invoice Window allows you to display and enter invoices for a customer.  Invoices can also be generated from Sales Orders or Delivery documents.">Jendela Faktur Pelanggan memungkinkan Anda untuk menampilkan dan memasukkan faktur untuk pelanggan. Faktur juga dapat dihasilkan dari Pesanan Penjualan atau dokumen Pengiriman.</value>
+ </row>
+ <row id="168" trl="Y">
+  <value column="Name" original="Physical Inventory">Opname Persediaan</value>
+  <value column="Description" original="Enter Physical Inventory">Masukkan Inventaris Fisik</value>
+  <value column="Help" original="The Physical Inventory Window allows you to generate inventory count lists.  These counts can then be processed which will update the actual inventory with the new counts. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.">Jendela Inventaris Fisik memungkinkan Anda untuk menghasilkan daftar jumlah inventaris. Hitungan ini kemudian dapat diproses yang akan memperbarui inventaris aktual dengan jumlah baru. Biasanya Anda akan membuat jalur penghitungan inventaris secara otomatis. Jika Anda membuatnya secara manual, pastikan nilai buku sudah benar.</value>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Shipment (Customer)">Pengiriman (Pelanggan)</value>
+  <value column="Description" original="Customer Inventory Shipments Customer Returns">Persediaan Barang Pelanggan Pengembalian Pelanggan</value>
+  <value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">Jendela Pengiriman menentukan pengiriman yang dibuat atau dibuat untuk pelanggan. Mereka dihasilkan dari Pesanan Pelanggan. Dokumen Pengiriman akan menghasilkan Faktur Pelanggan.</value>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Inventory Move">Pemindahan Produk</value>
+  <value column="Description" original="Inventory Move">Inventarisasi Pindah</value>
+  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">Inventory Move Window memungkinkan Anda untuk memindahkan inventaris dari satu lokasi atau gudang ke lokasi lain. Setelah baris yang sesuai dimasukkan, pilih tombol 'Proses Pergerakan' akan menyesuaikan inventaris.http: // localhost: 8080 / webui / theme / ferrytheme / images / Next24.png</value>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Import Business Partner">Impor Rekan Bisnis</value>
+  <value column="Description" original="Import Business Partner">Impor Mitra Bisnis</value>
+  <value column="Help" original="The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Jendela Mitra Bisnis Impor adalah tabel sementara yang digunakan saat mengimpor data eksternal ke dalam sistem. Memilih tombol 'Proses' akan menambah atau mengubah catatan yang sesuai.</value>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Revenue Recognition">Pengakuan Pendapatan</value>
+  <value column="Description" original="Revenue Recognition Rules">Aturan Pengakuan Pendapatan</value>
+  <value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">Jendela Pengakuan Pendapatan mendefinisikan interval di mana pendapatan akan diakui. Atau, pengakuan pendapatan dapat dikaitkan dengan tingkat layanan yang disediakan.</value>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Vendor Details">Detail Vendor</value>
+  <value column="Description" original="Maintain Vendor Details">Maintain Detail Vendor</value>
+  <value column="Help" original="The Vendor Details Window allows you to display and maintain all products for a selected Vendor.">Jendela Rincian Vendor memungkinkan Anda untuk menampilkan dan memelihara semua produk untuk Vendor yang dipilih.</value>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Greeting">Mantain Titel</value>
+  <value column="Description" original="Maintain Greetings">Maintain Salam</value>
+  <value column="Help" original="The Greeting Window defines a greeting that is then associated with a Business Partner or Business Partner Contact.">Jendela Ucapan mendefinisikan ucapan yang kemudian dikaitkan dengan Mitra Bisnis atau Kontak Mitra Bisnis.</value>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Report View">View untuk Laporan</value>
+  <value column="Description" original="Maintain Report Views">Maintain Tampilan Laporan</value>
+  <value column="Help" original="The Report View Window defines the views used when generating reports.  This window is for System Admin use only.">Jendela Tampilan Laporan menentukan tampilan yang digunakan saat membuat laporan. Jendela ini hanya untuk penggunaan Admin Sistem.</value>
+ </row>
+ <row id="181" trl="Y">
+  <value column="Name" original="Purchase Order">Order Pembelian</value>
+  <value column="Description" original="Manage Purchase Orders">Kelola Pesanan Pembelian</value>
+  <value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order">Jendela Purchase Order mendefinisikan pesanan pembelian untuk suatu organisasi. Ketika Pesanan Pembelian telah dimasukkan, Anda dapat membuat Dokumen Pengiriman atau Faktur dari Pesanan Pembelian ini</value>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Invoice (Vendor)">Invoice (Vendor)</value>
+  <value column="Description" original="Vendor Invoice Entry">Pemasukan Faktur Vendor</value>
+  <value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts.">Jendela Faktur Vendor memungkinkan Anda untuk menampilkan dan memasukkan Faktur dari Vendor. Vendor Faktur juga dapat dihasilkan dari Pesanan Pembelian atau Kwitansi Pengiriman.</value>
+ </row>
+ <row id="184" trl="Y">
+  <value column="Name" original="Material Receipt">Penerimaan Pembelian</value>
+  <value column="Description" original="Vendor Shipments (Receipts)">Pengiriman Vendor (Tanda Terima)</value>
+  <value column="Help" original="The Vendor Shipment Window defines the receipt of product or material from a Vendor.  The Shipment may be manually entered or may be generated from a Purchase Order or Vendor Invoice.">Jendela Pengiriman Vendor menentukan penerimaan produk atau bahan dari Vendor. Pengiriman dapat secara manual dimasukkan atau dapat dihasilkan dari Pesanan Pembelian atau Faktur Penjual.</value>
+ </row>
+ <row id="187" trl="Y">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original="Special Forms">Formulir Khusus</value>
+  <value column="Help" original="The Forms Window defines any window which is not automatically generated.  For System Admin use only.">Jendela Formulir mendefinisikan jendela apa pun yang tidak secara otomatis dihasilkan. Hanya untuk Admin Sistem.</value>
+ </row>
+ <row id="188" trl="Y">
+  <value column="Name" original="Error Message">Pesan Error</value>
+  <value column="Description" original="Display Error Messages">Tampilkan Pesan Kesalahan</value>
+  <value column="Help" original="The Error Message Window displays all error messages generated.  This is for System Admin use only.  The records must be manually deleted.">Jendela Pesan Kesalahan menampilkan semua pesan kesalahan yang dihasilkan. Ini hanya untuk penggunaan Admin Sistem. Catatan harus dihapus secara manual.</value>
+ </row>
+ <row id="189" trl="Y">
+  <value column="Name" original="Import Loader Format">Impor Loader Format</value>
+  <value column="Description" original="Maintain Import Loader Formats">Maintain Format Pemuat Impor</value>
+  <value column="Help" original="The Import Loader Format Window is used for defining the file layout for product information which will be imported.">Jendela Format Loader Impor digunakan untuk menentukan tata letak file untuk informasi produk yang akan diimpor.</value>
+ </row>
+ <row id="192" trl="Y">
+  <value column="Name" original="Business Partner Group">Grup Rekan Bisnis</value>
+  <value column="Description" original="Maintain Business Partner Groups">Maintain Grup Mitra Bisnis</value>
+  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Jendela Grup Mitra Bisnis memungkinkan Anda untuk menentukan parameter akuntansi di tingkat grup. Jika Anda menentukan parameter akuntansi untuk grup, Mitra Bisnis apa pun yang dimasukkan menggunakan grup ini akan memiliki parameter akuntansi ini secara otomatis terisi. Anda kemudian dapat melakukan modifikasi yang diperlukan di tingkat Mitra Bisnis.</value>
+ </row>
+ <row id="193" trl="Y">
+  <value column="Name" original="Notice">Pemberitahuan</value>
+  <value column="Description" original="View System Notices">Lihat Pemberitahuan Sistem</value>
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.">Sistem membuat pesan saat melakukan proses. Di jendela ini Anda dapat melihatnya.</value>
+ </row>
+ <row id="194" trl="Y">
+  <value column="Name" original="Bank/Cash Statement">Bank Statement</value>
+  <value column="Description" original="Process Bank Statements">Memproses Laporan Bank</value>
+  <value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts.">Jendela Process Bank Statement memungkinkan Anda untuk mendamaikan Laporan Bank Anda. Anda dapat memasukkan item baris dari pernyataan di tab Baris Pernyataan atau memilih tombol 'Buat Dari' untuk secara otomatis menghasilkan pernyataan dari semua pembayaran yang tidak direkonsiliasi ke rekening bank ini. Setelah Anda menyelesaikan rekonsiliasi, pilih tombol 'Pernyataan Proses' untuk menandai pembayaran yang telah direkonsiliasi dan memperbarui akun GL yang sesuai.</value>
+ </row>
+ <row id="195" trl="Y">
+  <value column="Name" original="Payment">Pembayaran</value>
+  <value column="Description" original="Process Payments and Receipts">Memproses Pembayaran dan Penerimaan</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">Jendela Pembayaran Proses memungkinkan Anda memasukkan pembayaran dan balasan untuk faktur. Jika pembayaran untuk satu faktur maka dapat diproses di sini. Jika untuk beberapa faktur atau pembayaran parsial, maka harus diproses di Jendela Alokasi Pembayaran.</value>
+ </row>
+ <row id="200" trl="Y">
+  <value column="Name" original="Field Group">Grup Kolom</value>
+  <value column="Description" original="Define Field Group">Tentukan Grup Bidang</value>
+  <value column="Help" original="The Field Group Window allows you to define subsections in a tab.  For System Admin use only.">Jendela Grup Bidang memungkinkan Anda untuk menentukan subbagian di tab. Hanya untuk Admin Sistem.</value>
+ </row>
+ <row id="201" trl="Y">
+  <value column="Name" original="Request">Permintaan</value>
+  <value column="Description" original="Work on your requests">Kerjakan permintaan Anda</value>
+  <value column="Help" original="The Request Window is used to define and track any request assigned to you.">Jendela Permintaan digunakan untuk mendefinisikan dan melacak setiap permintaan yang diberikan kepada Anda.</value>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Request Processor">Prosesor Permintaan</value>
+  <value column="Description" original="Define Request Processors">Tentukan Prosesor Permintaan</value>
+  <value column="Help" original="The Request Processor Window allows you to define different processes that you want to occur and the frequency and timing of these processes  A Request Processor can be just for a specific Request Type or for all.">Jendela Request Processor memungkinkan Anda untuk menentukan proses yang berbeda yang Anda inginkan terjadi dan frekuensi dan waktu proses ini. Prosesor Permintaan dapat hanya untuk Jenis Permintaan tertentu atau untuk semua.</value>
+ </row>
+ <row id="204" trl="Y">
+  <value column="Name" original="Mail Template">Template Email</value>
+  <value column="Description" original="Maintain Mail Template">Pelihara Template Email</value>
+  <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection.">Templat email dapat berisi variabel pengguna, mitra bisnis, atau objek umum. Prioritas parsing adalah Pengguna / Kontak, Mitra Bisnis dan kemudian objek bisnis yang mendasarinya (seperti Permintaan, Dunning, objek Alur Kerja).
+Jadi, @ Name @ akan menyelesaikan ke nama Pengguna (jika pengguna didefinisikan didefinisikan), maka nama Mitra Bisnis (jika mitra bisnis didefinisikan) dan kemudian Nama objek bisnis jika memiliki Nama.
+Untuk sistem Multi-Bahasa, templat diterjemahkan berdasarkan pilihan bahasa Mitra Bisnis.</value>
+ </row>
+ <row id="205" trl="Y">
+  <value column="Name" original="View Allocation">Lihat Alokasi</value>
+  <value column="Description" original="View and Reverse Allocations ">Lihat dan Alihkan Alokasi</value>
+  <value column="Help" original="The Reverse Allocation Window allows you to view and reverse a payment allocation">Jendela Alokasi Terbalik memungkinkan Anda melihat dan membalikkan alokasi pembayaran</value>
+ </row>
+ <row id="206" trl="Y">
+  <value column="Name" original="Payment Selection">Seleksi Pembayaran</value>
+  <value column="Description" original="Select Invoices for Payment">Pilih Faktur untuk Pembayaran</value>
+  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">Jendela Pemilihan Pembayaran memungkinkan Anda memilih dan memproses faktur yang ingin Anda bayar.
+(a) Anda dapat membuat Seleksi Pembayaran dan memilih faktur secara manual atau menghasilkan saran berdasarkan kriteria. Anda dapat mengubah jumlah yang harus dibayar atau menghapus faktur, Anda tidak ingin membayar.
+
+(B) Jika Anda senang dengan Seleksi Pembayaran, Anda membuat pembayaran.
+
+(c) Anda mencetak atau mengekspor pembayaran Anda di Window Print Print / Export</value>
+ </row>
+ <row id="207" trl="Y">
+  <value column="Name" original="Commission">Komisi</value>
+  <value column="Description" original="Maintain Commissions and Royalties">Maintain Komisi dan Royalti</value>
+  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group).">Tetapkan bagaimana dan kapan Anda ingin komisi dihitung dan kepada siapa membayarnya.
+Jendela Komisi memungkinkan Anda menentukan bagaimana komisi dan royalti akan dibayarkan. Anda dapat membayar beberapa komisi untuk pesanan atau faktur yang sama (mis. Kepada orang yang melakukan transaksi, kepada orang yang bertanggung jawab atas penjualan produk (kategori) dan atau mitra bisnis (grup).</value>
+ </row>
+ <row id="208" trl="Y">
+  <value column="Name" original="Project Reporting">Laporan Proyek</value>
+  <value column="Description" original="Maintain Project Reporting Cycles">Maintain Siklus Pelaporan Proyek</value>
+  <value column="Help" original="The Project Cycle Window defines the steps associated with a specific Project.&#10;You may want to define several Project cycles to differentiate the different types of projects. Project cycles may use all or a subset of the used Project Status (e.g. Your opportunity project cycle may include the steps from prospect to contract - the service cycle may include steps from installation to customer acceptance.">Jendela Siklus Proyek mendefinisikan langkah-langkah yang terkait dengan Proyek tertentu.
+Anda mungkin ingin mendefinisikan beberapa siklus Proyek untuk membedakan berbagai jenis proyek. Siklus proyek dapat menggunakan semua atau sebagian dari Status Proyek yang digunakan (mis. Siklus proyek peluang Anda dapat mencakup langkah-langkah dari prospek hingga kontrak - siklus layanan dapat mencakup langkah-langkah dari pemasangan hingga penerimaan pelanggan.</value>
+ </row>
+ <row id="210" trl="Y">
+  <value column="Name" original="Commission Run">Proses Komisi</value>
+  <value column="Description" original="Check and modify Commissions">Periksa dan modifikasi Komisi</value>
+  <value column="Help" original="The Commission Run Window displays the results of processing commissions.  When the Generate Commission process is selected from the Commissions Window, the results are displayed here. If the result is satisfactory, generate an AP invoice to pay the commission.">Jendela Jalankan Komisi menampilkan hasil pemrosesan komisi. Ketika proses Komisi Hasilkan dipilih dari Jendela Komisi, hasilnya ditampilkan di sini. Jika hasilnya memuaskan, hasilkan faktur AP untuk membayar komisi.</value>
+ </row>
+ <row id="212" trl="Y">
+  <value column="Name" original="Performance Goal">Gol Kinerja</value>
+  <value column="Description" original="Define Performance Goals">Tentukan Sasaran Kinerja</value>
+  <value column="Help" original="The Performance Goal Window allows you to define performance goals or all, a role or a user">Jendela Sasaran Kinerja memungkinkan Anda menentukan sasaran kinerja atau semua, peran atau pengguna</value>
+ </row>
+ <row id="213" trl="Y">
+  <value column="Name" original="Performance Measure Calculation">Perhitungan Ukuran Kinerja </value>
+  <value column="Description" original="Define how you calculate your performance measures">Tentukan bagaimana Anda menghitung ukuran kinerja Anda</value>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">Perhitungan Pengukuran Kinerja mendefinisikan bagaimana pengukuran kinerja akan dihitung.
+Sql perlu mengembalikan nilai tunggal. Silakan periksa contoh.
+Penanggalan tanggal didefinisikan dalam Sasaran.
+Pembatasan untuk Organisasi, Mitra Bisnis, Produk, dll. Adalah sebagai Batasan Sasaran Kinerja.</value>
+ </row>
+ <row id="215" trl="Y">
+  <value column="Name" original="Performance Measure">Mengukur Kinerja</value>
+  <value column="Description" original="Define your Performance Measures">Tentukan Ukuran Kinerja Anda</value>
+  <value column="Help" original="The Performance Measure Window allows you to define the rules and restrictions for performance measurement.  You can, for example, restrict performance measurement to sales for a certain product category for a defined time frame.">Jendela Pengukuran Kinerja memungkinkan Anda untuk menentukan aturan dan batasan untuk pengukuran kinerja. Anda dapat, misalnya, membatasi pengukuran kinerja untuk penjualan untuk kategori produk tertentu untuk jangka waktu yang ditentukan.</value>
+ </row>
+ <row id="216" trl="Y">
+  <value column="Name" original="Financial Report">Laporan Keuangan</value>
+  <value column="Description" original="Maintain Financial Reports">Menyimpan Laporan Keuangan</value>
+  <value column="Help" original="Financial Reports are the combination of a Report Column Set and Line Set.">Laporan Keuangan adalah kombinasi dari Set Kolom Laporan dan Jalur Set.</value>
+ </row>
+ <row id="217" trl="Y">
+  <value column="Name" original="Report Column Set">Set  Kolom Laporan</value>
+  <value column="Description" original="Maintain Financial Report Column Sets">Maintain Set Kolom Laporan Keuangan</value>
+  <value column="Help" original="The Report Column Set defines what data is printed in the columns of a report.">Set Kolom Laporan menentukan data apa yang dicetak dalam kolom laporan.</value>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="Report Line Set">Set Baris Laporan</value>
+  <value column="Description" original="Maintain Financial Report Line Sets">Maintain Set Baris Laporan Keuangan</value>
+  <value column="Help" original="The Line Set determines, which lines are printed in a Financial Report">Set Garis menentukan, garis mana yang dicetak dalam Laporan Keuangan</value>
+ </row>
+ <row id="221" trl="Y">
+  <value column="Name" original="Find (indirect use)">Cari (gunakan tidak langsung)</value>
+  <value column="Description" original="Find Dialog (indirect use)">Temukan Dialog (penggunaan tidak langsung)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="223" trl="Y">
+  <value column="Name" original="Material Transactions (indirect use)">Transaksi Material (penggunaan tidak langsung)</value>
+  <value column="Description" original="Material Transactions (indirect use)">Transaksi Material (penggunaan tidak langsung)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="224" trl="Y">
+  <value column="Name" original="Print Form">Cetak Form</value>
+  <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">Menyimpan Formulir Cetak (Faktur, Cek, ..) yang digunakan</value>
+  <value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*).">Tetapkan dokumen yang Anda gunakan untuk Klien / Organisasi ini. Perhatikan bahwa format cek ditentukan di Jendela Bank (Akun).
+Prioritas tertinggi memiliki Format Cetak, yang Anda tentukan pada Jenis Dokumen (misalnya format Faktur Ekspor spesifik). Level selanjutnya adalah himpunan Format Cetak, yang Anda tentukan untuk pengorganisasian dokumen yang dicetak. Standarnya adalah seperangkat Format Cetak yang ditetapkan untuk semua organisasi Klien (Organisasi = *).</value>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="System Image">Gambar Sistem</value>
+  <value column="Description" original="Maintain Images and Icons">Maintain Gambar dan Ikon</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="228" trl="Y">
+  <value column="Name" original="Matched Purchase Orders">Order Pembelian Yang Tervalidasi</value>
+  <value column="Description" original="View Matched Purchase Orders">Lihat Pesanan Pembelian yang Cocok</value>
+  <value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines">Lihat detail garis pesanan pembelian yang cocok untuk jalur faktur dan jalur penerimaan bahan</value>
+ </row>
+ <row id="229" trl="Y">
+  <value column="Name" original="Window Customization">Kustom Window</value>
+  <value column="Description" original="Define Window Customization for Role/User">Tentukan Kustomisasi Jendela Pengguna</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Nilai-nilai penyesuaian yang ditentukan di sini menimpa / mengganti definisi sistem default jika didefinisikan.</value>
+ </row>
+ <row id="232" trl="Y">
+  <value column="Name" original="Request (all)">Permintaan (semuanya)</value>
+  <value column="Description" original="View and work on all requests">Lihat dan kerjakan semua permintaan</value>
+  <value column="Help" original="This Request window is used to view all available requests">Jendela Permintaan ini digunakan untuk melihat semua permintaan yang tersedia</value>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Discount Schema">Skema Diskon</value>
+  <value column="Description" original="Maintain Trade Discount Schema">Maintain Skema Diskon Perdagangan</value>
+  <value column="Help" original="Trade discount schema calculates the trade discount percentage">Skema diskon perdagangan menghitung persentase diskon perdagangan</value>
+ </row>
+ <row id="234" trl="Y">
+  <value column="Name" original="Expense Type">Jenis Biaya</value>
+  <value column="Description" original="Maintain Expense Report Types">Maintain Jenis Laporan Biaya</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="235" trl="Y">
+  <value column="Name" original="Expense Report">Laporan Biaya</value>
+  <value column="Description" original="Time and Expense Report">Laporan Waktu dan Biaya</value>
+  <value column="Help" original="The time and expense report allows you to capture time spent on a project, billable time and to claim expenses.">Laporan waktu dan pengeluaran memungkinkan Anda untuk menangkap waktu yang dihabiskan untuk suatu proyek, waktu yang dapat ditagih dan untuk mengklaim pengeluaran.</value>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Resource">Sumber Daya</value>
+  <value column="Description" original="Maintain Resources">Maintain Sumber Daya</value>
+  <value column="Help" original="Maintain your Resources. The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">Maintain Sumber Daya Anda. Produk untuk sumber daya secara otomatis dibuat dan disinkronkan. Perbarui Nama, Satuan Ukuran, dll. Di Sumber dan jangan mengubahnya di dalam produk.</value>
+ </row>
+ <row id="237" trl="Y">
+  <value column="Name" original="Resource Type">Jenis Sumber Daya</value>
+  <value column="Description" original="Maintain Resource Types">Maintain Jenis Sumber Daya</value>
+  <value column="Help" original="Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days.">Maintain jenis Sumber Daya dan ketersediaan utama mereka. digunakan untuk menghitung waktu yang tersedia di sumber daya. Ini memungkinkan input waktu mulai dan waktu akhir untuk slot sesuai dengan hari kerja.</value>
+ </row>
+ <row id="238" trl="Y">
+  <value column="Name" original="Print Color">Warna Cetakan</value>
+  <value column="Description" original="Maintain Print Color">Maintain Warna Cetak</value>
+  <value column="Help" original="Colors used for printing">Warna yang digunakan untuk mencetak</value>
+ </row>
+ <row id="239" trl="Y">
+  <value column="Name" original="Print Font">Font Cetakan</value>
+  <value column="Description" original="Maintain Print Font">Maintain Font Cetak</value>
+  <value column="Help" original="Font used for printing">Font yang digunakan untuk mencetak</value>
+ </row>
+ <row id="240" trl="Y">
+  <value column="Name" original="Print Format">Format Cetakan</value>
+  <value column="Description" original="Maintain Print Format">Maintain Format Cetak</value>
+  <value column="Help" original="The print format determines how data is rendered for print.">Format cetak menentukan bagaimana data diberikan untuk dicetak.</value>
+ </row>
+ <row id="241" trl="Y">
+  <value column="Name" original="Print Paper">Kertas Cetakan</value>
+  <value column="Description" original="Maintain Print Paper">Merawat Kertas Cetak</value>
+  <value column="Help" original="Printer Paper Size, Orientation and Margins">Ukuran, Orientasi dan Margin Kertas Printer</value>
+ </row>
+ <row id="242" trl="Y">
+  <value column="Name" original="Expenses (to be invoiced)">Biaya (untuk ditagih)</value>
+  <value column="Description" original="View expenses and charges not invoiced to customers">Lihat pengeluaran dan biaya yang tidak ditagih ke pelanggan</value>
+  <value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">Sebelum membuat faktur kepada pelanggan, periksa jalur pengeluaran yang akan ditagih</value>
+ </row>
+ <row id="243" trl="Y">
+  <value column="Name" original="Print Table Format">Format Cetakan Tabel</value>
+  <value column="Description" original="Define Report Table Format">Tentukan Format Tabel Laporan</value>
+  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">Format Tabel Cetak memungkinkan Anda menentukan bagaimana tajuk tabel, dll. Dicetak. Harap dicatat bahwa Tabel Laporan FOrmat di-cache untuk meningkatkan kinerja.</value>
+ </row>
+ <row id="244" trl="Y">
+  <value column="Name" original="Request Type">Jenis Permintaan</value>
+  <value column="Description" original="Maintain Request Types">Maintain Jenis Permintaan</value>
+  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">Jenis Permintaan digunakan untuk memproses dan mengelompokkan permintaan. Pilihannya adalah Permintaan Akun, Masalah Garansi, dll.</value>
+ </row>
+ <row id="245" trl="Y">
+  <value column="Name" original="Interest Area">Area Interes</value>
+  <value column="Description" original="Interest Area or Topic">Bidang atau Topik Minat</value>
+  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">Bidang Minat mencerminkan minat pada suatu topik melalui kontak. Bidang minat dapat digunakan untuk kampanye pemasaran.</value>
+ </row>
+ <row id="246" trl="Y">
+  <value column="Name" original="System">Sistem</value>
+  <value column="Description" original="System Definition">Definisi Sistem</value>
+  <value column="Help" original="Common System Definition - Only one Record - Do not add additional records.">Definisi Sistem Umum - Hanya satu Catatan - Jangan menambahkan catatan tambahan.</value>
+ </row>
+ <row id="247" trl="Y">
+  <value column="Name" original="Import Product">Impor Produk</value>
+  <value column="Description" original="Import Products">Produk Impor</value>
+  <value column="Help" original="The Import Products Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Jendela Produk Impor adalah tabel sementara yang digunakan saat mengimpor data eksternal ke dalam sistem. Memilih tombol 'Proses' akan menambah atau mengubah catatan yang sesuai.</value>
+ </row>
+ <row id="248" trl="Y">
+  <value column="Name" original="Import Account">Impor Akun</value>
+  <value column="Description" original="Import Natural Account Values">Impor Nilai Akun Alami</value>
+  <value column="Help" original="The Import Natural Account Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Jendela Impor Akun Alami adalah tabel sementara yang digunakan saat mengimpor data eksternal ke dalam sistem. Memilih tombol 'Proses' akan menambah atau mengubah catatan yang sesuai.</value>
+ </row>
+ <row id="249" trl="Y">
+  <value column="Name" original="Import Report Line Set">Impor Set Baris Laporan</value>
+  <value column="Description" original="Import Report Line Sets">Impor Kumpulan Baris Laporan</value>
+  <value column="Help" original="The Import Report Line Set Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Window Set Baris Laporan Impor adalah tabel sementara yang digunakan saat mengimpor data eksternal ke dalam sistem. Memilih tombol 'Proses' akan menambah atau mengubah catatan yang sesuai.</value>
+ </row>
+ <row id="250" trl="Y">
+  <value column="Name" original="System Translation Check">Periksa Terjemahan Sistem</value>
+  <value column="Description" original="Check System Language Translations">Periksa Terjemahan Bahasa Sistem</value>
+  <value column="Help" original="Verify your language translations for selected entities. You should use Translation Export / Import for effective translation. This window allows you to check the translation of the main translation entities.">Verifikasi terjemahan bahasa Anda untuk entitas yang dipilih. Anda harus menggunakan Terjemahan Ekspor / Impor untuk terjemahan yang efektif. Jendela ini memungkinkan Anda memeriksa terjemahan entitas terjemahan utama.</value>
+ </row>
+ <row id="251" trl="Y">
+  <value column="Name" original="Asset">Aset</value>
+  <value column="Description" original="Asset used internally or by customers">Aset digunakan secara internal atau oleh pelanggan</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Aset dapat dibuat dengan membeli atau dengan mengirimkan produk. Aset dapat digunakan secara internal atau menjadi aset pelanggan.</value>
+ </row>
+ <row id="252" trl="Y">
+  <value column="Name" original="Asset Group">Grup Aset</value>
+  <value column="Description" original="Group of Assets">Kelompok dari harta harta</value>
+  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">Grup aset menentukan akun default. Jika grup aset dipilih dalam kategori produk, aset dibuat saat mengirim aset.</value>
+ </row>
+ <row id="254" trl="Y">
+  <value column="Name" original="Expenses (not reimbursed)">Biaya (tidak dikembalikan)</value>
+  <value column="Description" original="View expenses and charges not reimbursed">Lihat pengeluaran dan biaya yang tidak diganti</value>
+  <value column="Help" original="Before reimbursing expenses, check the open expense items">Sebelum mengganti biaya, periksa item pengeluaran terbuka</value>
+ </row>
+ <row id="255" trl="Y">
+  <value column="Name" original="Accounting Fact Balances">Saldo Buku Besar</value>
+  <value column="Description" original="Query Accounting Daily Balances">Neraca Harian Kueri Akuntansi</value>
+  <value column="Help" original="Query daily account balances">Saldo akun harian kueri</value>
+ </row>
+ <row id="256" trl="Y">
+  <value column="Name" original="Attribute Set">Set Atribut</value>
+  <value column="Description" original="Maintain Product Attribute Set">Maintain Set Atribut Produk</value>
+  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define a Attribute Set if you want to enable Serial and Lot Number tracking.">Tentukan Set Atribut Produk untuk menambahkan atribut dan nilai tambahan ke produk. Anda perlu menetapkan Set Atribut jika Anda ingin mengaktifkan pelacakan Serial dan Nomor Lot.</value>
+ </row>
+ <row id="257" trl="Y">
+  <value column="Name" original="Lot">Lot</value>
+  <value column="Description" original="Product Lot Definition">Definisi Lot Produk</value>
+  <value column="Help" original="Maintain the individual Lot of a Product">Maintain Lot Produk secara individu</value>
+ </row>
+ <row id="258" trl="Y">
+  <value column="Name" original="Lot Control">Kontrol Lot</value>
+  <value column="Description" original="Product Lot Control">Kontrol Lot Produk</value>
+  <value column="Help" original="Definition to create Lot numbers for Products">Definisi untuk membuat angka Lot untuk Produk</value>
+ </row>
+ <row id="259" trl="Y">
+  <value column="Name" original="Serial No Control">Kontrol Serial No</value>
+  <value column="Description" original="Product Serial Number Control">Kontrol Nomor Seri Produk</value>
+  <value column="Help" original="Definition to create Serial numbers for Products">Definisi untuk membuat nomor seri untuk Produk</value>
+ </row>
+ <row id="260" trl="Y">
+  <value column="Name" original="Attribute">Atribut</value>
+  <value column="Description" original="Product Attribute">Atribut Produk</value>
+  <value column="Help" original="Product Attribute like Color, Size, etc.">Atribut Produk seperti Warna, Ukuran, dll.</value>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Print Label">Cetak Label</value>
+  <value column="Description" original="Print Label Format">Format Label Cetak</value>
+  <value column="Help" original="Maintain Format to print Labels">Maintain Format untuk mencetak Label</value>
+ </row>
+ <row id="264" trl="Y">
+  <value column="Name" original="Session Audit">Audit Sesi</value>
+  <value column="Description" original="Audit of User Sessions">Audit Sesi Pengguna</value>
+  <value column="Help" original="History of Online or Web Sessions">Sejarah Sesi Online atau Web</value>
+ </row>
+ <row id="265" trl="Y">
+  <value column="Name" original="Project Type">Jenis Proyek</value>
+  <value column="Description" original="Maintain Project Type and Phase">Maintain Jenis dan Fase Proyek</value>
+  <value column="Help" original="Maintain Project Types and their Phases with standard performance information">Maintain Jenis Proyek dan Fase-fase mereka dengan informasi kinerja standar</value>
+ </row>
+ <row id="266" trl="Y">
+  <value column="Name" original="Recurring">Berulang</value>
+  <value column="Description" original="Recurring Document">Dokumen Berulang</value>
+  <value column="Help" original="Create new documents based on existing one">Buat dokumen baru berdasarkan yang sudah ada</value>
+ </row>
+ <row id="267" trl="Y">
+  <value column="Name" original="Import Inventory">Impor Persediaan</value>
+  <value column="Description" original="Import Inventory Transactions">Transaksi Persediaan Impor</value>
+  <value column="Help" original="Validate and Import Inventory Transactions">Validasi dan Transaksi Inventaris Impor</value>
+ </row>
+ <row id="268" trl="Y">
+  <value column="Name" original="Role Data Access">Role Akses Data</value>
+  <value column="Description" original="Maintain Data Access Rules">Maintain Aturan Akses Data</value>
+  <value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">Maintain Akses Data Peran Peran / Tanggung Jawab.
+Perhatikan bahwa akses informasi di-cache dan memerlukan login ulang atau reset cache.</value>
+ </row>
+ <row id="270" trl="Y">
+  <value column="Name" original="Change Audit">Audit Perubahan</value>
+  <value column="Description" original="Audit of data changes">Audit perubahan data</value>
+  <value column="Help" original="Log of data changes">Log perubahan data</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Cost Type">Jenis Costing</value>
+  <value column="Description" original="Maintain Cost Types">Maintain Jenis Biaya</value>
+  <value column="Help" original="You can define multiple cost types. A cost type selected in an Accounting Schema is used for accounting.">Anda dapat menentukan beberapa jenis biaya. Jenis biaya yang dipilih dalam Skema Akuntansi digunakan untuk akuntansi.</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Time Type">Jenis Waktu</value>
+  <value column="Description" original="Maintain Time Recording Type">Maintain Jenis Perekaman Waktu</value>
+  <value column="Help" original="Maintain different types of time for reporting">Maintain berbagai jenis waktu untuk pelaporan</value>
+ </row>
+ <row id="275" trl="Y">
+  <value column="Name" original="Invoice Payment Schedule">Jadwal Pembayaran Invoice</value>
+  <value column="Description" original="Maintain Invoice Payment Schedule">Maintain Jadwal Pembayaran Faktur</value>
+  <value column="Help" original="Maintain Payment Schedule of unpaid invoices">Maintain Jadwal Pembayaran faktur yang belum dibayar</value>
+ </row>
+ <row id="276" trl="Y">
+  <value column="Name" original="Alert">Alarm</value>
+  <value column="Description" original="iDempiere Alert">Lansiran Adempiere</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">iDempiere Alerts memungkinkan Anda menentukan kondisi sistem yang ingin Anda beri tahu</value>
+ </row>
+ <row id="277" trl="Y">
+  <value column="Name" original="Import Bank Statement">Import Bank Statement</value>
+  <value column="Description" original="Import Bank Statements">Laporan Bank Impor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Import GL Journal">Impor Jurnal GL</value>
+  <value column="Description" original="Import General Ledger Journals">Impor Jurnal Buku Besar Umum</value>
+  <value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">Anda mungkin ingin memeriksa saldo impor dengan "Validasi Saja" sebelum mengimpor.
+Jurnal yang Tidak Seimbang diimpor; penanganan didasarkan pada pengaturan Anda untuk proses posting. Pemeriksaan saldo opsional memeriksa keseluruhan impor, bukan kumpulan dan jurnal individual.</value>
+ </row>
+ <row id="279" trl="Y">
+  <value column="Name" original="Import Invoice">Impor Invoice</value>
+  <value column="Description" original="Import Invoices">Impor Faktur</value>
+  <value column="Help" original="Import invoiced loaded">Impor ditagih dimuat</value>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Import Payment">Impor Pembayaran</value>
+  <value column="Description" original="Import Payments">Pembayaran Impor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="281" trl="Y">
+  <value column="Name" original="Import Order">Impor Pesanan</value>
+  <value column="Description" original="Import Orders">Impor Pesanan</value>
+  <value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions.">Harap tetapkan pilihan Y / N dalam format pemuat impor secara eksplisit (mis. Sebagai konstanta) dan jangan biarkan NULL. Nilai NULL berarti "tidak tahu".
+Secara umum, kotak pemilihan tidak dipilih jika nilainya bukan "Y" (mis. Bisa nol atau nilai lainnya). Semua tes dilakukan pada "Y" atau "bukan Y" - mis. Nilai NULL bukan "bukan Y", tetapi NULL (tidak tahu) - lihat pengantar Bahasa SQL.</value>
+ </row>
+ <row id="282" trl="Y">
+  <value column="Name" original="Freight Category">Kategori Angkutan</value>
+  <value column="Description" original="Maintain Freight Categories">Maintain Kategori Pengiriman</value>
+  <value column="Help" original="Freight Categories are used to calculate the Freight for the Shipper selected">Kategori Pengangkutan digunakan untuk menghitung Pengangkutan untuk Pengirim yang dipilih</value>
+ </row>
+ <row id="283" trl="Y">
+  <value column="Name" original="Accounting Dimensions">Dimensi Akuntansi</value>
+  <value column="Description" original="Maintain Non-Account Dimension Trees">Maintain Pohon Dimensi Non-Akun</value>
+  <value column="Help" original="Maintain Trees of non account segment trees.  Account segment trees (as well as user defined dimensions) are mainatained in the Account Element window. Please note that you will not be able to create new entities in this window if you have not default set for all manfatory values!">Pelihara Pohon dari pohon segmen non akun. Pohon segmen akun (serta dimensi yang ditentukan pengguna) dipelihara di jendela Elemen Akun. Harap dicatat bahwa Anda tidak akan dapat membuat entitas baru di jendela ini jika Anda belum menetapkan default untuk semua nilai manfatory!</value>
+ </row>
+ <row id="284" trl="Y">
+  <value column="Name" original="Replication">Replikasi</value>
+  <value column="Description" original="Maintain Data Replication Targets">Maintain Target Replikasi Data</value>
+  <value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system.">Rincian Target Replikasi Data. Siapkan sistem Anda sepenuhnya pada sistem pusat, sebelum mengatur replikasi. Tetapkan target Replikasi di sini dan ekspor database dan impor pada sistem jarak jauh.
+Sebelum (!) Memasukkan transaksi, Mulai Menjalankan Replikasi untuk mengatur sistem jarak jauh.</value>
+ </row>
+ <row id="285" trl="Y">
+  <value column="Name" original="Replication Strategy">Strategi Replikasi</value>
+  <value column="Description" original="Maintain Data Replication Strategy">Maintain Strategi Replikasi Data</value>
+  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">Strategi Replikasi Data menentukan tabel mana dan bagaimana mereka direplikasi. Perhatikan bahwa migrasi tidak menyinkronkan item Kamus Aplikasi.</value>
+ </row>
+ <row id="286" trl="Y">
+  <value column="Name" original="Project (Lines/Issues)">Status Proyek</value>
+  <value column="Description" original="Maintain Sales Order and Work Order Details">Mempertahankan Proyek Pesanan Penjualan dan Perintah Kerja</value>
+  <value column="Help" original="The Project Window is used to maintain details of Projects Lines and Issues accross Phases/Tasks">Jendela Proyek digunakan untuk memelihara rincian Garis dan Masalah Proyek di seluruh Fase / Tugas</value>
+ </row>
+ <row id="291" trl="Y">
+  <value column="Name" original="Business Partner Info">Info Rekan Bisnis</value>
+  <value column="Description" original="Document Information of Business Partners">Informasi Dokumen Mitra Bisnis</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="292" trl="Y">
+  <value column="Name" original="Label Printer">Label Printer</value>
+  <value column="Description" original="Maintain Label Printer Definition">Maintain Definisi Printer Label</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="293" trl="Y">
+  <value column="Name" original="Sales Rep Info">Info Sales Rep.</value>
+  <value column="Description" original="Company Agent (Sales Rep) Information">Informasi Agen Perusahaan (Penjual)</value>
+  <value column="Help" original="This window allows you to view Company agent related information">Jendela ini memungkinkan Anda untuk melihat informasi terkait agen Perusahaan</value>
+ </row>
+ <row id="294" trl="Y">
+  <value column="Name" original="UnPosted Documents">Dokumen yang Belum Di-posting</value>
+  <value column="Description" original="Unposted Documents">Dokumen yang belum diposkan</value>
+  <value column="Help" original="View unposted documents">Lihat dokumen yang belum diposkan</value>
+ </row>
+ <row id="295" trl="Y">
+  <value column="Name" original="Currency Type">Jenis Mata Uang</value>
+  <value column="Description" original="Maintain Currency Conversion Rate Types">Maintain Jenis Nilai Konversi Mata Uang</value>
+  <value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">Jenis Nilai Konversi Mata Uang memungkinkan Anda menentukan berbagai jenis tarif, mis. Harga Spot, Perusahaan dan / atau Jual / Beli.</value>
+ </row>
+ <row id="296" trl="Y">
+  <value column="Name" original="Import Currency Rate">Impor Kurs</value>
+  <value column="Description" original="Import Currency Conversion Rates">Nilai Konversi Mata Uang Impor</value>
+  <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">Kurs diimpor setelah validasi mata uang dan tipe kurs konversi serta kurs. Tingkat pengganda digunakan. Jika tingkat timbal balik harus dibuat, tingkat pembagian digunakan.</value>
+ </row>
+ <row id="297" trl="Y">
+  <value column="Name" original="Workflow Process">Proses Workflow</value>
+  <value column="Description" original="Monitor workflow processes">Monitor proses alur kerja</value>
+  <value column="Help" original="View and Maintain Workflow Process Instance Information">Lihat dan Pertahankan Informasi Proses Alur Proses</value>
+ </row>
+ <row id="298" trl="Y">
+  <value column="Name" original="Workflow Activities (all)">Aktivitas Workflow (semuanya)</value>
+  <value column="Description" original="Monitor all Workflow activities">Pantau semua aktivitas Alur Kerja</value>
+  <value column="Help" original="Maintain all Workflow activities">Maintain semua aktivitas Workflow</value>
+ </row>
+ <row id="299" trl="Y">
+  <value column="Name" original="Workflow Responsible">Penanggung Jawab Workflow</value>
+  <value column="Description" original="Responsible for Workflow Execution">Bertanggung jawab atas Eksekusi Alur Kerja</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Tanggung jawab utama untuk alur kerja adalah dengan pengguna yang sebenarnya. Workflow Responsible memungkinkan Anda menentukan cara untuk menemukan Pengguna yang sebenarnya.</value>
+ </row>
+ <row id="300" trl="Y">
+  <value column="Name" original="Registration Attributes">Atribut Pendaftaran</value>
+  <value column="Description" original="Asset Registration Attributes">Atribut Pendaftaran Aset</value>
+  <value column="Help" original="Define the individual values for the Asset Registration">Tentukan nilai individual untuk Pendaftaran Aset</value>
+ </row>
+ <row id="301" trl="Y">
+  <value column="Name" original="Registration">Registrasi</value>
+  <value column="Description" original="User Asset Registration">Pendaftaran Aset Pengguna</value>
+  <value column="Help" original="User Registration of an Asset">Registrasi Pengguna Aset</value>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Bank Statement Matcher">Pencocokan Bank Statement</value>
+  <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritma untuk mencocokkan Info Pernyataan Bank dengan Mitra Bisnis, Faktur dan Pembayaran</value>
+  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">Algoritma untuk menemukan Mitra Bisnis, Faktur, Pembayaran dalam Laporan Bank yang diimpor</value>
+ </row>
+ <row id="303" trl="Y">
+  <value column="Name" original="Payment Batch">Batch Pembayaran</value>
+  <value column="Description" original="Process Payment Patches for EFT">Proses Pembayaran Patch untuk EFT</value>
+  <value column="Help" original="Electronic Fund Transfer Payment Batch.">Batch Pembayaran Transfer Dana Elektronik.</value>
+ </row>
+ <row id="304" trl="Y">
+  <value column="Name" original="Organization Type">Jenis Organisasi</value>
+  <value column="Description" original="Maintain Organization Types">Maintain Jenis Organisasi</value>
+  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">Jenis Organisasi memungkinkan Anda untuk mengkategorikan organisasi Anda untuk tujuan pelaporan</value>
+ </row>
+ <row id="305" trl="Y">
+  <value column="Name" original="Scheduler">Penjadwalan</value>
+  <value column="Description" original="Maintain Schedule Processes and Logs">Maintain Jadwal Proses dan Log</value>
+  <value column="Help" original="Schedule processes to be executed asynchronously">Jadwalkan proses yang akan dijalankan secara tidak sinkron</value>
+ </row>
+ <row id="306" trl="Y">
+  <value column="Name" original="Workflow Processor">Prosesor Workflow</value>
+  <value column="Description" original="Maintain Workflow Processor and Logs">Mempertahankan Prosesor dan Log Workflow</value>
+  <value column="Help" original="Workflow Processor Server Parameters">Parameter Server Prosesor Workflow</value>
+ </row>
+ <row id="311" trl="Y">
+  <value column="Name" original="Accounting Processor">Prosesor Akuntansi</value>
+  <value column="Description" original="Maintain Accounting Processor and Logs">Maintain Prosesor dan Log Akuntansi</value>
+  <value column="Help" original="Accounting Processor/Server Parameters and Logs">Prosesor Akuntansi / Parameter dan Log Server</value>
+ </row>
+ <row id="312" trl="Y">
+  <value column="Name" original="Alert Processor">Prosesor Peringatan</value>
+  <value column="Description" original="Maintain Alert Processor/Server Parameter and Logs">Maintain Alert Processor / Server Parameter dan Log</value>
+  <value column="Help" original="Alert Processor/Server Parameter">Alert Processor / Parameter Server</value>
+ </row>
+ <row id="313" trl="Y">
+  <value column="Name" original="Partner Relation">Relasi Partner</value>
+  <value column="Description" original="Maintain Business Partner Relations">Menjaga Hubungan Mitra Bisnis</value>
+  <value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.">Relasi Mitra Bisnis memungkinkan untuk mempertahankan aturan Hubungan Pihak Ketiga: siapa yang menerima faktur untuk pengiriman atau membayar faktur.</value>
+ </row>
+ <row id="314" trl="Y">
+  <value column="Name" original="RfQ Topic">Topik RFQ</value>
+  <value column="Description" original="Maintain RfQ Topics and Subscribers">Maintain Topik dan Pelanggan RfQ</value>
+  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">Permintaan untuk Kutipan Topik memungkinkan Anda untuk mempertahankan daftar pelanggan Vendor potensial untuk menanggapi RfQ</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="RfQ">RFQ</value>
+  <value column="Description" original="Manage Request for Quotations">Kelola Permintaan Penawaran</value>
+  <value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">Permintaan Penawaran dikirim ke vendor Topik RfQ. Setelah pemilihan Vendor, secara opsional buat Pesanan Penjualan atau Penawaran untuk Pelanggan serta Pesanan Pembelian untuk Vendor</value>
+ </row>
+ <row id="318" trl="Y">
+  <value column="Name" original="Distribution List">Daftar Distribusi</value>
+  <value column="Description" original="Maintain Distribution Lists">Maintain Daftar Distribusi</value>
+  <value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">Daftar distribusi berisi mitra bisnis dan kuantitas atau rasio distribusi untuk membuat Pesanan</value>
+ </row>
+ <row id="320" trl="Y">
+  <value column="Name" original="Customer RMA">RMA</value>
+  <value column="Description" original="Manage Return Material Authorization">Kelola Otorisasi Material Pengembalian</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Otorisasi Material Pengembalian mungkin diperlukan untuk menerima pengembalian dan untuk membuat Memo Kredit</value>
+ </row>
+ <row id="321" trl="Y">
+  <value column="Name" original="Dunning Run">Proses Penagihan</value>
+  <value column="Description" original="Manage Dunning Runs">Kelola Dunning Runs</value>
+  <value column="Help" original="Manage Dunning Runs">Kelola Dunning Runs</value>
+ </row>
+ <row id="322" trl="Y">
+  <value column="Name" original="Requisition">Permintaan Barang</value>
+  <value column="Description" original="Material Requisition">Permintaan bahan</value>
+  <value column="Help" original="Enter and maintain Material Requisitions. Material Requisition can be created automatically via Replenishment.  You create generate optionally consolidated Purchase Orders.">Masukkan dan pertahankan Daftar Permintaan Bahan. Daftar Permintaan Bahan dapat dibuat secara otomatis melalui Pengisian Ulang. Anda membuat Perintah Pembelian terkonsolidasi secara opsional.</value>
+ </row>
+ <row id="323" trl="Y">
+  <value column="Name" original="GL Distribution">Distribusi GL</value>
+  <value column="Description" original="General Ledger Distribution">Distribusi Buku Besar</value>
+  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">Jika kriteria kombinasi akun dari Distribusi terpenuhi, posting ke kombinasi akun digantikan oleh kombinasi akun dari jalur distribusi. Distribusi adalah operasi satu langkah berdasarkan persentase garis.</value>
+ </row>
+ <row id="324" trl="Y">
+  <value column="Name" original="RfQ Response">Respon RFQ</value>
+  <value column="Description" original="Manage RfQ Responses">Kelola Respons RfQ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="325" trl="Y">
+  <value column="Name" original="Distribution Run">Jalankan Distribusi</value>
+  <value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">Distribution Run membuat Pesanan untuk mendistribusikan produk ke daftar mitra yang dipilih</value>
+  <value column="Help" original="Distribution Run defines how Orders are created based on Distribution Lists">Distribusi Jalankan menentukan bagaimana Pesanan dibuat berdasarkan Daftar Distribusi</value>
+ </row>
+ <row id="327" trl="Y">
+  <value column="Name" original="Counter Document">Dokumen Counter</value>
+  <value column="Description" original="Maintain Counter Document Types">Maintain Jenis Dokumen Penghitung</value>
+  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;If not defined, the first matching document type is used (e.g. AR Invoice - first AP Invoice document type)">Saat menggunakan dokumen eksplisit untuk transaksi antar-org (setelah menautkan Mitra Bisnis ke Organisasi), Anda dapat menentukan jenis dokumen apa yang menjadi dasar dokumen lawan berdasarkan jenis dokumen dari transaksi asli. Contoh: "Pesanan Standar" menciptakan "PO Standar".
+Jika Anda mendefinisikan suatu hubungan di sini, Anda menimpa tipe dokumen counter standar dalam definisi Tipe Dokumen. Ini memungkinkan Anda untuk menentukan pemetaan tertentu.
+Jika tidak ditentukan, jenis dokumen yang cocok pertama digunakan (mis. AR Faktur - jenis dokumen Faktur AP pertama)</value>
+ </row>
+ <row id="328" trl="Y">
+  <value column="Name" original="Forecast">Prediksi</value>
+  <value column="Description" original="Maintain Material Forecast">Maintain Prakiraan Material</value>
+  <value column="Help" original="Material Forecast">Prakiraan Material</value>
+ </row>
+ <row id="330" trl="Y">
+  <value column="Name" original="Ship/Receipt Confirm">Konfirmasi Pengiriman/Penerimaan</value>
+  <value column="Description" original="Material Shipment or Receipt Confirmation">Pengiriman Barang atau Konfirmasi Penerimaan</value>
+  <value column="Help" original="Confirmation of Shipment or Receipt - Created from the Shipment/Receipt">Konfirmasi Pengiriman atau Tanda Terima - Diciptakan dari Pengiriman / Tanda Terima</value>
+ </row>
+ <row id="331" trl="Y">
+  <value column="Name" original="RMA Type">Jenis RMA</value>
+  <value column="Description" original="Return Material Authorization Type">Jenis Otorisasi Material Pengembalian</value>
+  <value column="Help" original="Maintain the types of RMA">Maintain jenis RMA</value>
+ </row>
+ <row id="332" trl="Y">
+  <value column="Name" original="Process Audit">Audit Proses</value>
+  <value column="Description" original="Audit process use">Penggunaan proses audit</value>
+  <value column="Help" original="Process Instance Information">Memproses Informasi Instans</value>
+ </row>
+ <row id="333" trl="Y">
+  <value column="Name" original="Move Confirmation">Konfirmasi Pemindahan</value>
+  <value column="Description" original="Confirm Inventory Moves">Konfirmasikan Pergerakan Inventaris</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">Dokumen secara otomatis dibuat ketika jenis dokumen gerakan menunjukkan Dalam Transit .. Jika ada kuantitas perbedaan, Inventaris Fisik dibuat untuk sumber (dari) gudang. Jika ada jumlah yang dihapus, Inventaris Fisik dibuat untuk gudang target.</value>
+ </row>
+ <row id="334" trl="Y">
+  <value column="Name" original="Import Confirmations">Konfirmasi Impor</value>
+  <value column="Description" original="Import Receipt/Shipment Confirmation Lines">Impor Tanda Terima / Konfirmasi Pengiriman</value>
+  <value column="Help" original="Import Confirmation data of existing Receipt/Shipment Confirmations">Impor data Konfirmasi Penerimaan / Konfirmasi Pengiriman yang ada</value>
+ </row>
+ <row id="337" trl="Y">
+  <value column="Name" original="Price List Schema">Skema Daftar Harga</value>
+  <value column="Description" original="Maintain Price List Schema">Maintain Skema Daftar Harga</value>
+  <value column="Help" original="Price List schema defines calculation rules for price lists">Skema Daftar Harga mendefinisikan aturan perhitungan untuk daftar harga</value>
+ </row>
+ <row id="338" trl="Y">
+  <value column="Name" original="POS Terminal">Terminal POS</value>
+  <value column="Description" original="Maintain your Point of Sales Terminal">Maintain Terminal Point of Sales Anda</value>
+  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">Terminal POS mendefinisikan standar dan fungsi yang tersedia untuk Formulir POS</value>
+ </row>
+ <row id="339" trl="Y">
+  <value column="Name" original="POS Key Layout">Desain POS</value>
+  <value column="Description" original="POS Function Key Layout">Tata Letak Tombol Fungsi POS</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="341" trl="Y">
+  <value column="Name" original="Internal Use Inventory">Pemakaian Internal</value>
+  <value column="Description" original="Enter Internal Use of Inventory">Masukkan Penggunaan Inventaris Internal</value>
+  <value column="Help" original="The Internal Use of Inventory Window allows enter the quantity of used products.">Jendela Penggunaan Inventaris Internal memungkinkan memasukkan jumlah produk yang digunakan.</value>
+ </row>
+ <row id="342" trl="Y">
+  <value column="Name" original="Invoice Batch">Invoice Batch</value>
+  <value column="Description" original="Expense Invoice Batch">Kumpulan Faktur Biaya</value>
+  <value column="Help" original="Enter expense invoices in batch.  After creating the lines, the actual invoices are created when processing the batch">Masukkan faktur biaya dalam batch. Setelah membuat garis, faktur sebenarnya dibuat saat memproses bets</value>
+ </row>
+ <row id="343" trl="Y">
+  <value column="Name" original="Cost Element">Elemen Costing</value>
+  <value column="Description" original="Maintain Product Cost Element">Mempertahankan Elemen Biaya Produk</value>
+  <value column="Help" original="You can define your own product cost elements.">Anda dapat menentukan elemen biaya produk Anda sendiri.</value>
+ </row>
+ <row id="344" trl="Y">
+  <value column="Name" original="Product Costs">Produk Costing</value>
+  <value column="Description" original="Maintain Product Costs">Maintain Biaya Produk</value>
+  <value column="Help" original="Maintain Product Cost Elements">Mempertahankan Elemen Biaya Produk</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Request Category">Kategori Permintaan</value>
+  <value column="Description" original="Maintain Request Category">Maintain Kategori Permintaan</value>
+  <value column="Help" original="Category or Topic of the Request ">Kategori atau Topik Permintaan</value>
+ </row>
+ <row id="346" trl="Y">
+  <value column="Name" original="Request Group">Grup Permintaan</value>
+  <value column="Description" original="Maintain Request Group">Maintain Grup Permintaan</value>
+  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">Kelompok permintaan (mis. Nomor versi, tanggung jawab, ...)</value>
+ </row>
+ <row id="347" trl="Y">
+  <value column="Name" original="Request Resolution">Resolusi Permintaan</value>
+  <value column="Description" original="Maintain Request Resolutions">Maintain Resolusi Permintaan</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">Status resolusi (mis. Tetap, Ditolak, ..)</value>
+ </row>
+ <row id="348" trl="Y">
+  <value column="Name" original="Request Standard Response">Respon Standar Permintaan</value>
+  <value column="Description" original="Maintain Request Standard Response ">Maintain Permintaan Tanggapan Standar</value>
+  <value column="Help" original="Text blocks to be copied into request response text">Blok teks yang akan disalin ke teks respons permintaan</value>
+ </row>
+ <row id="349" trl="Y">
+  <value column="Name" original="Request Status">Status Permintaan</value>
+  <value column="Description" original="Maintain Request Status">Maintain Status Permintaan</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">Status jika permintaan (buka, tutup, selidiki, ..)</value>
+ </row>
+ <row id="350" trl="Y">
+  <value column="Name" original="Web Store">Toko web</value>
+  <value column="Description" original="Define Web Store">Tentukan Toko Web</value>
+  <value column="Help" original="Define the web store setup.  ">Tentukan pengaturan toko web.</value>
+ </row>
+ <row id="351" trl="Y">
+  <value column="Name" original="Position">Posisi</value>
+  <value column="Description" original="Maintain Job Positions">Maintain Posisi Pekerjaan</value>
+  <value column="Help" original="Maintain internal (employee) or external positions">Maintain posisi internal (karyawan) atau eksternal</value>
+ </row>
+ <row id="352" trl="Y">
+  <value column="Name" original="Position Category">Kategori Posisi</value>
+  <value column="Description" original="Maintain Job Position Categories">Maintain Kategori Posisi Pekerjaan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="353" trl="Y">
+  <value column="Name" original="Remuneration">Remunerasi</value>
+  <value column="Description" original="Maintain Remuneration">Maintain Remunerasi</value>
+  <value column="Help" original="Wages and Salaries">Upah dan gaji</value>
+ </row>
+ <row id="355" trl="Y">
+  <value column="Name" original="BOM Change Notice">Catatan Perubahan BOM</value>
+  <value column="Description" original="Maintain Bill of Materials (Engineering) Change Notice (Version)">Maintain Bill of Material (Engineering) Change Notice (Versi)</value>
+  <value column="Help" original="Change notices can be linked to BOMs or be stand alone.">Ubah pemberitahuan dapat dikaitkan dengan BOM atau berdiri sendiri.</value>
+ </row>
+ <row id="356" trl="Y">
+  <value column="Name" original="Change Notice">Catatan Perubahan</value>
+  <value column="Description" original="Maintain (Engineering) Change Notice (Version)">Mempertahankan (Rekayasa) Ubah Pemberitahuan (Versi)</value>
+  <value column="Help" original="Stand-alone change notice - Change notices could also be directly linked to BOMs">Pemberitahuan perubahan yang berdiri sendiri - Ubah pemberitahuan juga dapat langsung ditautkan ke BOM</value>
+ </row>
+ <row id="358" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Atribut Instance Set </value>
+  <value column="Description" original="View Attribute Set Instance detail and use">Lihat detail Contoh Atribut Set dan gunakan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="360" trl="Y">
+  <value column="Name" original="Reporting Hierarchy">Hirarki Laporan</value>
+  <value column="Description" original="Define Reporting Hierarchy">Tentukan Hierarki Pelaporan</value>
+  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">Hierarki Pelaporan memungkinkan Anda memilih Hierarki / Pohon yang berbeda untuk laporan.
+Segmen Akuntansi seperti Organisasi, Akun, Produk dapat memiliki beberapa hierarki untuk mengakomodasi pandangan yang berbeda tentang bisnis</value>
+ </row>
+ <row id="363" trl="Y">
+  <value column="Name" original="System Issue Report">Laporan Masalah Sistem</value>
+  <value column="Description" original="Automatically created or manually entered System Issue Reports">Secara otomatis dibuat atau secara manual dimasukkan Laporan Masalah Sistem</value>
+  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">Masalah Sistem dibuat untuk mempercepat penyelesaian masalah terkait sistem apa pun (bug potensial). Jika diaktifkan, mereka secara otomatis dilaporkan ke iDempiere. Tidak ada data atau informasi rahasia yang ditransfer.</value>
+ </row>
+ <row id="364" trl="Y">
+  <value column="Name" original="Performance Color Schema">Skema Warna Kinerja</value>
+  <value column="Description" original="Maintain Performance Color Schema">Maintain Skema Warna Kinerja</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">Representasi visual kinerja berdasarkan warna. Skema ini sering memiliki tiga tingkatan (mis. Merah-kuning-hijau). iDempiere mendukung dua level (mis. merah-hijau) atau empat level (mis. abu-abu-perunggu-perak-emas). Perhatikan bahwa Ukuran tanpa tujuan diwakili putih. Persentase dapat antara 0 dan tidak terbatas (mis. Di atas 100%).</value>
+ </row>
+ <row id="365" trl="Y">
+  <value column="Name" original="Performance Benchmark">Benchmark Kinerja</value>
+  <value column="Description" original="Performance Benchmark">Tolok Ukur Kinerja</value>
+  <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">Seri Data untuk membandingkan kinerja internal dengan (mis. Harga saham, ...)</value>
+ </row>
+ <row id="366" trl="Y">
+  <value column="Name" original="Performance Ratio">Rasio Kinerja</value>
+  <value column="Description" original="Maintain Performance Ratios">Maintain Rasio Kinerja</value>
+  <value column="Help" original="Calculation instruction for a ratio">Instruksi perhitungan untuk rasio</value>
+ </row>
+ <row id="377" trl="Y">
+  <value column="Name" original="View Chat">Lihat Percakapan</value>
+  <value column="Description" original="View discussions / chats">Lihat diskusi / obrolan</value>
+  <value column="Help" original="View chat / discussion threads">Lihat utas obrolan / diskusi</value>
+ </row>
+ <row id="380" trl="Y">
+  <value column="Name" original="Chat Type">Jenis Percakapan</value>
+  <value column="Description" original="Maintain Chat Types">Maintain Jenis Obrolan</value>
+  <value column="Help" original="Chat Types">Jenis Obrolan</value>
+ </row>
+ <row id="381" trl="Y">
+  <value column="Name" original="Entity Type">Jenis Entitas</value>
+  <value column="Description" original="Maintain System Entity Type">Maintain Jenis Entitas Sistem</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">Jenis entitas menentukan kepemilikan entri Kamus Aplikasi. Jenis "Kamus" dan "iDempiere" tidak boleh digunakan dan dipelihara oleh iDempiere (mis. Semua perubahan dibalik selama migrasi ke definisi saat ini).</value>
+ </row>
+ <row id="385" trl="Y">
+  <value column="Name" original="Info Window">Info Window</value>
+  <value column="Description" original="Define Info and search/select Window">Tentukan Info dan cari / pilih Window</value>
+  <value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">Jendela Info digunakan untuk mencari dan memilih catatan serta menampilkan informasi yang relevan dengan seleksi.</value>
+ </row>
+ <row id="389" trl="Y">
+  <value column="Name" original="LDAP Server">Server LDAP</value>
+  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">LDAP Server untuk mengotentikasi dan mengotorisasi sistem eksternal berdasarkan iDempiere</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">Server LDAP memungkinkan perangkat lunak pihak ketiga (mis. Apache) menggunakan pengguna yang ditentukan dalam sistem untuk mengesahkan dan mengotorisasi mereka. Hanya ada satu server per sistem iDempiere. "O" adalah kunci Klien dan "ou" opsional adalah kunci Area Minat.</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Packages Installed">Paket Terpasang</value>
+  <value column="Description" original="List of packages installed">Daftar paket yang diinstal</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Package Maintenance">Pemeliharaan Paket</value>
+  <value column="Description" original="Package installation history and maintenance">Riwayat dan pemeliharaan instalasi paket</value>
+  <value column="Help" original="Review package installation.  Also perform package rollback if required">Tinjau instalasi paket. Juga lakukan rollback paket jika diperlukan</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Pack Out">Paket Ekspor</value>
+  <value column="Description" original="Create 2pack package">Buat paket 2pack</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Pack In">Paket Impor</value>
+  <value column="Description" original="Imports a package">Mengimpor paket</value>
+  <value column="Help" original="Imports a package previously created by PackOut">Mengimpor paket yang sebelumnya dibuat oleh PackOut</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="System Configurator">Konfigurator Sistem</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Dashboard Content">Konten Dashboard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53003" trl="Y">
+  <value column="Name" original="Model Validator">Model Validator</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53004" trl="Y">
+  <value column="Name" original="Manufacturing Resource">Sumber Daya Manufaktur</value>
+  <value column="Description" original="Manufacturing Resource">Sumber Daya Pabrikan</value>
+  <value column="Help" original="A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.&#10;&#10;It mainly answers the question: Where is the product made?&#10;&#10;A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.">Sumber Daya Manufaktur didefinisikan sebagai segala sesuatu yang diperlukan untuk produksi dan ketidaktersediaannya dapat memengaruhi Rencana Produksi. Sumberdaya Pabrikan dapat berupa: Pabrik, Lini Produksi, Pusat Kerja dan Stasiun Kerja.
+
+Ini terutama menjawab pertanyaan: Di mana produk itu dibuat?
+
+Fasilitas produksi khusus yang terdiri dari satu atau lebih orang dan / atau mesin yang dapat dianggap sebagai satu unit untuk keperluan perencanaan kebutuhan kapasitas dan penjadwalan terperinci.</value>
+ </row>
+ <row id="53005" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">Workflow Manufaktur</value>
+  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Maintain Alur Kerja Pabrikasi (Routing)</value>
+  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufakturs Workflow (Routing) adalah kumpulan informasi yang merinci metode pembuatan item tertentu. Ini termasuk operasi yang akan dilakukan secara berurutan, berbagai pusat kerja yang akan terlibat, dan standar untuk pengaturan dan menjalankan. Di beberapa perusahaan, perutean juga memuat informasi tentang tingkat keahlian operator perkakas, persyaratan operasi pemeriksaan, dll.</value>
+ </row>
+ <row id="53006" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Bill of Material & Formula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Maintain Bill of Material & Formula Produk]]></value>
+  <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">Ini adalah daftar semua subassemblies, perantara, bagian dan bahan baku yang masuk ke perakitan induk yang menunjukkan jumlah masing-masing yang diperlukan untuk membuat perakitan. Ada berbagai format tampilan bill of material, termasuk bill of material level tunggal, bill of material indentasi, modular (perencanaan), bill of material berbiaya, dll. Juga dapat disebut "formula", "resep", "bahan" daftar "di industri tertentu.
+Ini menjawab pertanyaan, apa saja komponen produk?</value>
+ </row>
+ <row id="53007" trl="Y">
+  <value column="Name" original="Product Planning Data">Data Perencanaan Produk</value>
+  <value column="Description" original="Maintain Product Planning Data">Menyimpan Data Perencanaan Produk</value>
+  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">di Window Product Planning Data Anda memasukkan informasi produk yang akan berfungsi sebagai dasar untuk mengeksekusi algoritma Perencanaan Kebutuhan Bahan, bersama dengan MPS, pesanan terbuka dan inventaris</value>
+ </row>
+ <row id="53008" trl="Y">
+  <value column="Name" original="MRP Notice">Catatan MRP</value>
+  <value column="Description" original="View MRP Notices">Lihat Pemberitahuan MRP</value>
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem">Sistem membuat pesan saat melakukan proses. Di jendela ini Anda dapat melihat.
+
+Catatan MRP
+Ini adalah kumpulan pesan yang dihasilkan untuk proses MRP. Ini menunjukkan kepada penjadwalan tindakan yang harus dilakukan untuk mencapai Jadwal Induk Produksi. Pesan tindakan yang ditentukan sebagai disetujui untuk perencana saat dia mendaftar sesi Compiere.
+
+Pesan tindakan yang mungkin adalah:
+
+Pesan Tindakan Kode MRP
+MRP - 001 Kuantitas Awal Kurang Dari Nol.
+MRP - 020 Create - A Supply Order harus dibuat untuk memenuhi proyeksi negatif pada saldo tangan.
+Pesan ini hanya menghasilkan jika Buat Rencana Tidak atau jika perlu baru muncul pagar waktu.
+
+MRP - 030 De Expedite - Mengindikasikan permintaan pesanan karena memang diperlukan
+dan harus ditunda, atau permintaan dijadwal ulang ke tanggal sebelumnya.
+
+MRP - 040 Expedite - Mengindikasikan permintaan pesanan yang harus diterima setelahnya
+dan harus dijadwal ulang ke tanggal sebelumnya, atau permintaan dijadwal ulang ke tanggal kemudian.
+
+MRP - 050 Batal - Mengindikasikan permintaan pesanan telah dijadwalkan tidak perlu dan harus diganti.
+MRP - 060 Rilis Karena Untuk - dirilis jadwal pemesanan harus dirilis.
+MRP - 070 Rilis Past Due For - dikirim saat pesanan selesai dirilis saat jatuh tempo,
+dan harus dirilis atau dipercepat sekarang, atau permintaan dijadwal ulang untuk tanggal berikutnya.
+
+MRP - 080 Jumlah Kurang dari Minimum - pembelian sesuai pesanan dibuat untuk
+jumlah kurang dari jumlah minimum yang ditentukan dalam perencanaan produk
+
+MRP - 090 Jumlah Yang Kurang dari Maksimum - yang diterima pesanan yang dibuat untuk yang diterima
+untuk jumlah yang lebih besar dari jumlah maksimum yang ditentukan dalam perencanaan produk
+
+MRP - 100 Past Due Time Pagar - memenuhi persyaratan materi yang tidak terpenuhi di dalam
+pagar waktu perencanaan untuk item ini. Anda harus menjadwalkan dan meningkatkan pesanan secara manual
+
+isi permintaan ini atau tunda pemenuhan kebutuhan yang mencari permintaan.
+
+MRP - 110 Tidak ada Dem</value>
+ </row>
+ <row id="53009" trl="Y">
+  <value column="Name" original="Manufacturing Order">Order Produksi</value>
+  <value column="Description" original="Maintain Manufacturing Order">Maintain Pesanan Manufaktur</value>
+  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Jadwal Pembuatan adalah kumpulan dokumen dokumen atau identitas jadwal yang menyampaikan wewenang untuk pembuatan komponen atau produk tertentu dalam jumlah tertentu.</value>
+ </row>
+ <row id="53010" trl="Y">
+  <value column="Name" original="Spare parts">Suku Cadang</value>
+  <value column="Description" original="Spare parts">Suku cadang</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53011" trl="Y">
+  <value column="Name" original="Activity Control Report">Laporan Pengendalian Kegiatan</value>
+  <value column="Description" original="Activity Control">Kontrol Kegiatan</value>
+  <value column="Help" original="This window is reported the real issue the shop floor">Jendela ini dilaporkan masalah sebenarnya lantai toko</value>
+ </row>
+ <row id="53013" trl="Y">
+  <value column="Name" original="Quality Specifications">Spesifikasi Kualitas</value>
+  <value column="Description" original="Maintain Quality Specifications">Maintain Spesifikasi Kualitas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Cost Collector">Kolektor Costing</value>
+  <value column="Description" original="The cost collector is a repository of all the MO transactions.">Pengumpul biaya adalah gudang semua transaksi MO.</value>
+  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">Pengumpul biaya adalah gudang semua transaksi MO. Hubungan transaksi nyata ini memungkinkan untuk membandingkannya dengan transaksi standar agar dapat menghitung variasi berdasarkan elemen biaya.</value>
+ </row>
+ <row id="53015" trl="Y">
+  <value column="Name" original="ASP Modules">Modul ASP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="ASP Subscribed Modules">ASP Langganan Modul</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Rule">Aturan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53018" trl="Y">
+  <value column="Name" original="Distribution Network">Jaringan Distribusi</value>
+  <value column="Description" original="Distribution Network define the supply relationships">Jaringan Distribusi menentukan hubungan pasokan</value>
+  <value column="Help" original="Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.">Setiap hubungan dalam jaringan berisi gudang penerima dan sumber gudang serta persentase persediaan. Suatu hubungan adalah hubungan satu arah, hubungan gudang ke gudang.</value>
+ </row>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Migration Scripts">Script migrasi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Export Format">Format Ekspor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53026" trl="Y">
+  <value column="Name" original="Export Processor">Prosesor Ekspor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53027" trl="Y">
+  <value column="Name" original="Export Processor Type">Jenis Prosesor Ekspor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53028" trl="Y">
+  <value column="Name" original="Import Processor">Prosesor Impor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Import Processor Type">Jenis Prosesor Impor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53044" trl="Y">
+  <value column="Name" original="Asset Revaluation Processing">Aset Revaluasi Pengolahan</value>
+  <value column="Description" original="Process Revaluation of Assets">Proses Revaluasi Aset</value>
+  <value column="Help" original="This window allows you to select and process what assets are revalued">Jendela ini memungkinkan Anda untuk memilih dan memproses aset apa yang dinilai kembali</value>
+ </row>
+ <row id="53045" trl="Y">
+  <value column="Name" original="Asset Revaluation Index">Indeks Revaluasi Aset</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">Tetapkan Indeks Aset atau Nilai Revaluasi</value>
+  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">Jendela Asset Revaluasi Index memungkinkan Anda untuk mengatur nilai indeks atau faktor yang akan digunakan dalam revaluasi aset</value>
+ </row>
+ <row id="53046" trl="Y">
+  <value column="Name" original="Transfer Asset Entry">Mentransfer aset Masuk</value>
+  <value column="Description" original="Create Transfer Asset Entry">Buat Entri Transfer Aset</value>
+  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">Jendela Entri Aset Transfer memungkinkan Anda untuk membuat dan mengirim transfer aset ke GL</value>
+ </row>
+ <row id="53047" trl="Y">
+  <value column="Name" original="Disposed Asset Entry">Dijual Aset Masuk</value>
+  <value column="Description" original="Create Disposed Asset Entry">Buat Entri Aset yang Disingkirkan</value>
+  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">Jendela Entri Aset yang Disingkirkan memungkinkan Anda untuk membuat dan memposting aset yang telah dibuang ke GL</value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="Asset Split">Split Aset</value>
+  <value column="Description" original="Split Assets Process">Proses Aset Split</value>
+  <value column="Help" original="The Asset Split window allows you to process asset splits">Jendela Asset Split memungkinkan Anda untuk memproses pemisahan aset</value>
+ </row>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Asset Transfers">Transfer aset</value>
+  <value column="Description" original="Process transfers of assets">Proses transfer aset</value>
+  <value column="Help" original="The Asset Transfer window allows you to transfer assets">Jendela Asset Transfer memungkinkan Anda untuk mentransfer aset</value>
+ </row>
+ <row id="53051" trl="Y">
+  <value column="Name" original="Split Asset Entry">Pembagian Aset</value>
+  <value column="Description" original="Create Split Asset Entries">Pembagian Aset</value>
+  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">Jendela Entri Entri Terpisah memungkinkan Anda untuk membuat dan memposting aset yang telah dibagi ke GL</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Build Depreciation Workfile">Buat Depreciation Workfile</value>
+  <value column="Description" original="Build Depreciation Expense File">Bangun File Biaya Penyusutan</value>
+  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">Jendela Deprecaiton Build Workfile memungkinkan Anda untuk membangun biaya penyusutan saat ini untuk berbagai jenis posting termasuk anggaran aktual dan pajak sebagaimana ditentukan oleh pengguna</value>
+ </row>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Post Depreciation Entry">Posting Penyusutan</value>
+  <value column="Description" original="Create Depreciation Entry">Buat Entri Depresiasi</value>
+  <value column="Help" original="The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL">Jendela Entri Penyusutan memungkinkan Anda untuk membuat dan memposting entri biaya penyusutan ke GL</value>
+ </row>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Build Depreciation Forecast">Membangun Prediksi Penyusutan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53057" trl="Y">
+  <value column="Name" original="Depreciation Period Spread Type">Penyusutan Periode Penyebaran Jenis</value>
+  <value column="Description" original="Period Spread Type">Jenis Penyebaran Periode</value>
+  <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">Jendela Periode Jenis Penyebaran memungkinkan Anda untuk mengatur dan meninjau penyebaran penyusutan berdasarkan periode</value>
+ </row>
+ <row id="53058" trl="Y">
+  <value column="Name" original="Depreciation Methods">Metode Penyusutan</value>
+  <value column="Description" original="Depreciation Methods">Metode Penyusutan</value>
+  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">Jendela metode Depresiasi memungkinkan pengguna untuk meninjau perhitungan depresiasi yang tersedia di Adempiere</value>
+ </row>
+ <row id="53059" trl="Y">
+  <value column="Name" original="Depreciation Tables">Penyusutan Tabel</value>
+  <value column="Description" original="Allows users to create multiple depreciation schedules">Mengizinkan pengguna membuat beberapa jadwal penyusutan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53060" trl="Y">
+  <value column="Name" original="Depreciation First Year Conventions ">Penyusutan Tahun Pertama Konvensi</value>
+  <value column="Description" original="Setup for depreciation Setups">Pengaturan untuk Pengaturan penyusutan</value>
+  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">Mengizinkan pengguna menentukan konvensi penyusutan apa yang tersedia di Adempiere</value>
+ </row>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Depreciation Calculation Method">Penyusutan Metode Perhitungan</value>
+  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Tentukan Metode Perhitungan yang digunakan dalam perhitungan biaya penyusutan</value>
+  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">Jendela Metode Perhitungan Penyusutan memungkinkan pengguna untuk menentukan bagaimana penyesuaian terhadap biaya penyusutan aset tetap ditangani</value>
+ </row>
+ <row id="53062" trl="Y">
+  <value column="Name" original="Charge Type">Jenis Beban</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="House Keeping">House Keeping</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53064" trl="Y">
+  <value column="Name" original="View MRP Records">Lihat Data MRP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53067" trl="Y">
+  <value column="Name" original="Web Service Definition">Definisi Web Service</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Web Service Security">Keamanan Web Service</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Search Definition">Definisi Pencarian</value>
+  <value column="Description" original="Define transactioncodes for the QuickSearch bar">Tetapkan kode transaksi untuk bilah Pencarian Cepat</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Import Price List">Impor Daftar Harga</value>
+  <value column="Description" original="Import Price Lists">Daftar Harga Impor</value>
+  <value column="Help" original="The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Jendela Daftar Harga Impor adalah tabel sementara yang digunakan saat mengimpor data eksternal ke dalam sistem. Memilih tombol 'Proses' akan menambah atau mengubah catatan yang sesuai.</value>
+ </row>
+ <row id="53073" trl="Y">
+  <value column="Name" original="Promotion Group">Grup Promosi</value>
+  <value column="Description" original="Grouping of product for promotion setup">Pengelompokan produk untuk pengaturan promosi</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Promotion">Promosi</value>
+  <value column="Description" original="Setup promotion rule">Siapkan aturan promosi</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53078" trl="Y">
+  <value column="Name" original="Report Cube">Laporan Cube</value>
+  <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Tentukan kubus pelaporan untuk pra-perhitungan data akuntansi ringkasan.</value>
+  <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Data ringkasan akan dihasilkan untuk setiap periode kalender yang dipilih, dikelompokkan berdasarkan dimensi yang dipilih.</value>
+ </row>
+ <row id="53085" trl="Y">
+  <value column="Name" original="MRP Notice (all)">Catatan MRP (semua)</value>
+  <value column="Description" original="View all MRP Notices">Lihat semua Pemberitahuan MRP</value>
+  <value column="Help" original="The system creates notices will running MRP process. In this window you can view them.&#10;">Sistem membuat pemberitahuan akan menjalankan proses MRP. Di jendela ini Anda dapat melihatnya.</value>
+ </row>
+ <row id="53086" trl="Y">
+  <value column="Name" original="My Unprocessed Documents">Dokumenku</value>
+  <value column="Description" original="My Unprocessed Documents">Dokumen Saya yang Belum Diproses</value>
+  <value column="Help" original="View my unprocessed documents">Lihat dokumen saya yang belum diproses</value>
+ </row>
+ <row id="53087" trl="Y">
+  <value column="Name" original="Unprocessed Documents (All)">Dokumen yang belum diolah (Semua)</value>
+  <value column="Description" original="Unprocessed Documents (All)">Dokumen yang Tidak Diproses (Semua)</value>
+  <value column="Help" original="View all unprocessed documents">Lihat semua dokumen yang belum diproses</value>
+ </row>
+ <row id="53097" trl="Y">
+  <value column="Name" original="Customer Return">Retur Pelanggan</value>
+  <value column="Description" original="Customer Return (Receipts)">Pengembalian Pelanggan (Penerimaan)</value>
+  <value column="Help" original="The Customer Return Window defines the receipt of product or material from a Customer Return.">Jendela Pengembalian Pelanggan menentukan penerimaan produk atau bahan dari Pengembalian Pelanggan.</value>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Return to Vendor">Retur ke Vendor</value>
+  <value column="Description" original="Vendor Returns">Pengembalian Vendor</value>
+  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">Jendela Return to Vendor mendefinisikan pengiriman yang dibuat atau dibuat untuk vendor sebagai bagian dari pengembalian.</value>
+ </row>
+ <row id="53099" trl="Y">
+  <value column="Name" original="Vendor RMA">RMA Vendor</value>
+  <value column="Description" original="Manage Return Material Authorization">Kelola Otorisasi Material Pengembalian</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Otorisasi Material Pengembalian mungkin diperlukan untuk menerima pengembalian dan untuk membuat Memo Kredit</value>
+ </row>
+ <row id="53100" trl="Y">
+  <value column="Name" original="My Profile">Profil Saya</value>
+  <value column="Description" original="My user information">Informasi pengguna saya</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53101" trl="Y">
+  <value column="Name" original="Order Source">Sumber Pesanan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53102" trl="Y">
+  <value column="Name" original="Relation Type">Jenis Relasi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53113" trl="Y">
+  <value column="Name" original="Asset Addition">Penambahan Aset</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53114" trl="Y">
+  <value column="Name" original="Asset Disposal">Penghapusan Aset</value>
+  <value column="Description" original="Dispose of Assets">Penghapusan Aset</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53115" trl="Y">
+  <value column="Name" original="Asset Change Account">Aset Ganti Akun</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53117" trl="Y">
+  <value column="Name" original="Asset Funding Mode">Mode Pendanaan Aset</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53118" trl="Y">
+  <value column="Name" original="Revaluation Asset">Revaluasi Aset</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53120" trl="Y">
+  <value column="Name" original="Imported Fixed Asset">Aktiva Tetap Diimport</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53121" trl="Y">
+  <value column="Name" original="Import Inventory Move">Impor Pergerakan Persediaan</value>
+  <value column="Description" original="This window allow import Inventory Move transaction">Jendela ini memungkinkan impor Pindahkan Inventaris impor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53124" trl="Y">
+  <value column="Name" original="Chart">Grafik</value>
+  <value column="Description" original="Chart Definition">Definisi Bagan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53125" trl="Y">
+  <value column="Name" original="Fact Reconciliation">Buku Besar Rekonsiliasi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53127" trl="Y">
+  <value column="Name" original="Production (Single Product)">Produksi (Produk Tunggal)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53128" trl="Y">
+  <value column="Name" original="Parts and BOMs">Bagian dan BOMs</value>
+  <value column="Description" original="Maintain Bill of Materials">Maintain Bill of Material</value>
+  <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">Bill of Material Window mendefinisikan semua tagihan produk dari bahan yang digunakan oleh organisasi untuk manufaktur ringan.</value>
+ </row>
+ <row id="53134" trl="Y">
+  <value column="Name" original="Cash Plan">Rencana Kas</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Quality Test">Uji Kualitas</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53150" trl="Y">
+  <value column="Name" original="Part Type">Jenis Part</value>
+  <value column="Description" original="Manufacturing Part Types">Jenis Bagian Pabrikan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53152" trl="Y">
+  <value column="Name" original="Contact">Kontak</value>
+  <value column="Description" original="Maintain Contacts">Maintain Kontak</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Jendela Kontak memungkinkan Anda mempertahankan Kontak yang merupakan individu yang Anda hadapi. Kontak juga dapat berupa pengguna internal atau eksternal yang dapat masuk ke sistem dan memiliki akses ke fungsi melalui satu peran atau lebih. Kontak juga bisa menjadi kontak mitra bisnis.</value>
+ </row>
+ <row id="53153" trl="Y">
+  <value column="Name" original="Lead">Memimpin</value>
+  <value column="Description" original="Maintain Leads">Maintain Prospek</value>
+  <value column="Help" original="The Lead Window allows you to maintain Sales Leads.  These are unqualified contacts to who you wish to market to. ">Jendela Timbal memungkinkan Anda mempertahankan Prospek Penjualan. Ini adalah kontak yang tidak berkualitas untuk siapa Anda ingin memasarkan.</value>
+ </row>
+ <row id="53154" trl="Y">
+  <value column="Name" original="Sales Stage">Tahap Penjualan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Sales Opportunity">Peluang Penjualan</value>
+  <value column="Description" original="A potential sale">Penjualan potensial</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53156" trl="Y">
+  <value column="Name" original="Sales Rep Dashboard">Dashboard Penjualan</value>
+  <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">Dash Penjualan Rep menyediakan satu lokasi untuk mengelola peluang penjualan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53165" trl="Y">
+  <value column="Name" original="Customer">Pelanggan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Toolbar Button">Tombol Toolbar</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Role Toolbar Button Access">Role Akses Tombol Toolbar</value>
+  <value column="Description" original="Maintain toolbar button access rule">Maintain aturan akses tombol bilah alat</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Password Rule">Aturan Sandi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="GL Journal">Jurnal Akunting</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">Masukkan dan ubah Entri Jurnal Manual</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">Jendela Jurnal GL memungkinkan Anda untuk memasukkan dan memodifikasi entri jurnal manual</value>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Dashboard Preference">Dashboard Pilihan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="POS Payment">Pembayaran POS</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="POS Tender Type">Jenis POS</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Schedule">Jadwal</value>
+  <value column="Description" original="Times for the scheduler">Waktu untuk penjadwal</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200013" trl="Y">
+  <value column="Name" original="GL Journal Generator">Generator Jurnal GL</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200015" trl="Y">
+  <value column="Name" original="Payment Processor">Prosesor Pembayaran</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200016" trl="Y">
+  <value column="Name" original="Active Session">Sesi Aktif</value>
+  <value column="Description" original="List of Current Logged in user">Daftar Pengguna yang Login Saat Ini</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200017" trl="Y">
+  <value column="Name" original="Payment Transaction">Transaksi Pembayaran</value>
+  <value column="Description" original="Payment Transactions">Transaksi Pembayaran</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200018" trl="Y">
+  <value column="Name" original="Online Transaction History">Histori Transaksi Online</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200020" trl="Y">
+  <value column="Name" original="Setup Wizard Maintenance">Setup Wizard Pemeliharaan</value>
+  <value column="Description" original="Maintenance Setup Wizard window">Jendela Wizard Pengaturan Pemeliharaan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200022" trl="Y">
+  <value column="Name" original="Storage Provider">Provider Penyimpanan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200023" trl="Y">
+  <value column="Name" original="Broadcast Message">Kirim Pesan</value>
+  <value column="Description" original="Broadcast Message">Pesan siaran</value>
+  <value column="Help" original="Window allows to enter broadcast messages">Jendela memungkinkan untuk memasukkan pesan siaran</value>
+ </row>
+ <row id="200024" trl="Y">
+  <value column="Name" original="Shipping Processor">Prosesor Pengiriman</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200025" trl="Y">
+  <value column="Name" original="Shipment Package">Paket Pengiriman</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200026" trl="Y">
+  <value column="Name" original="Commodity Shipment">Pengiriman Komoditi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200028" trl="Y">
+  <value column="Name" original="Shipping Processor Configuration">Konfigurasi Prosesor Pengiriman</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200029" trl="Y">
+  <value column="Name" original="Shipper Configuration">Konfigurasi Pengirim</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200030" trl="Y">
+  <value column="Name" original="Shipping Transaction">Transaksi Pengiriman</value>
+  <value column="Description" original="Shipping Transactions">Transaksi Pengiriman</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200031" trl="Y">
+  <value column="Name" original="Payments into Batch">Pembayaran ke Batch</value>
+  <value column="Description" original="Process Payments">Pembayaran proses</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">Jendela Pembayaran Proses memungkinkan Anda memasukkan pembayaran untuk faktur. Jika pembayaran untuk satu faktur maka dapat diproses di sini.</value>
+ </row>
+ <row id="200034" trl="Y">
+  <value column="Name" original="Context Help">Konteks Bantuan</value>
+  <value column="Description" original="Maintain Context Helps">Maintain Konteks Membantu</value>
+  <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">Jendela Bantuan Konteks menentukan teks pesan bantuan konteks untuk ditampilkan di panel bantuan. Ini hanya untuk UI Web.</value>
+ </row>
+ <row id="200036" trl="Y">
+  <value column="Name" original="1099 Box">1099 Box</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200043" trl="Y">
+  <value column="Name" original="Cost Adjustment">Penyesuaian Costing</value>
+  <value column="Description" original="Enter Inventory Cost Adjustment">Masukkan Penyesuaian Biaya Persediaan</value>
+  <value column="Help" original="The Cost Adjustment Window allow user to enter cost adjustment for products">Jendela Penyesuaian Biaya memungkinkan pengguna untuk memasukkan penyesuaian biaya untuk produk</value>
+ </row>
+ <row id="200044" trl="Y">
+  <value column="Name" original="Tax Provider Configuration">Konfigurasi Provider pajak</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200045" trl="Y">
+  <value column="Name" original="Tax Provider">Penyedia pajak</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200046" trl="Y">
+  <value column="Name" original="Address Validation Configuration">Konfigurasi Validasi Alamat</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200047" trl="Y">
+  <value column="Name" original="Address Validation">Validasi Alamat</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200048" trl="Y">
+  <value column="Name" original="Address Transaction">Address Transaction</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200049" trl="Y">
+  <value column="Name" original="Status Line">Status Baris</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200054" trl="Y">
+  <value column="Name" original="Dummy">Tiruan</value>
+  <value column="Description" original="This window if for save preference for process parameter panel and info window in case open from menu (stand alone window)">Jendela ini jika untuk menyimpan preferensi untuk panel parameter proses dan jendela info jika terbuka dari menu (jendela berdiri sendiri)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200059" trl="Y">
+  <value column="Name" original="Recurring Group">Grup Recurring</value>
+  <value column="Description" original="Recurring Group">Grup Berulang</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200061" trl="Y">
+  <value column="Name" original="Country Group">Grup Negara</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200063" trl="Y">
+  <value column="Name" original="Import Template">Template Impor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200073" trl="Y">
+  <value column="Name" original="User Preference">Preferensi Pengguna</value>
+  <value column="Description" original="This window is use to set up the preferences entries for each user.">Jendela ini digunakan untuk mengatur entri preferensi untuk setiap pengguna.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200074" trl="Y">
+  <value column="Name" original="Locator Type">Jenis Lokasi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200083" trl="Y">
+  <value column="Name" original="Menu favourites">Menu favorit</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200086" trl="Y">
+  <value column="Name" original="CSS Style">Gaya CSS</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200087" trl="Y">
+  <value column="Name" original="Field Suggestions">Saran Bidang</value>
+  <value column="Description" original="Suggestions for field name, description and help.">Saran untuk nama bidang, deskripsi, dan bantuan.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200088" trl="Y">
+  <value column="Name" original="Context Help Suggestion">Saran Bantuan Konteks</value>
+  <value column="Description" original="Review context help suggestion from tenant">Tinjau saran bantuan konteks dari penyewa</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200089" trl="Y">
+  <value column="Name" original="Post-it">Post-it</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200090" trl="Y">
+  <value column="Name" original="Document Status">Status Dokumen</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200092" trl="Y">
+  <value column="Name" original="All Clients">Semua Klien</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200093" trl="Y">
+  <value column="Name" original="All Users">Semua pengguna</value>
+  <value column="Description" original="Users from All Clients">Pengguna dari Semua Klien</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200095" trl="Y">
+  <value column="Name" original="Process Customization">Proses Kustom</value>
+  <value column="Description" original="Define Process Customization for Role/User">Tetapkan Kustomisasi Proses untuk Peran / Pengguna</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Nilai-nilai penyesuaian yang ditentukan di sini menimpa / mengganti definisi sistem default jika didefinisikan.</value>
+ </row>
+ <row id="200107" trl="Y">
+  <value column="Name" original="All User Roles">Semua Peran Pengguna</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200108" trl="Y">
+  <value column="Name" original="All Roles">Semua Peran</value>
+  <value column="Description" original="Roles from All Clients">Peran dari Semua Klien</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200109" trl="Y">
+  <value column="Name" original="User Queries">Kueri User</value>
+  <value column="Description" original="View and maintain saved queries">Lihat dan pertahankan kueri yang disimpan</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

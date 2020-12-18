@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="AD_PrintFormat">
+ <row id="100" trl="Y">
+  <value column="Name" original="Order_Header  ** TEMPLATE **">Encabezado_Orden  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Order Header">Encabezado Orden Estándar</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Order_LineTax  ** TEMPLATE **">Lineas Orden  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Order Line&amp;Tax">Lineas Orden Estándar</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Invoice_Header  ** TEMPLATE **">Encabezado Factura  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Invoice Header">Encabezado Factura Estándar</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Invoice_LineTax  ** TEMPLATE **">Líneas Factura  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines">Líneas Factura Estándar</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="InOut_Header ** TEMPLATE **">Encabezado Entradas/Salidas ** PLANTILLA **</value>
+  <value column="Description" original="Standard Shipment Header">Encabezado Despacho Estándar</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="InOut_Line  ** TEMPLATE **">Líneas Entrada/Salida  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Shipment Lines">Líneas Despacho Estándar</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="PaySelection_Check  ** TEMPLATE **">Cheque  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Check with Remittance Info">Cheque Estándar con Información de Remesa</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="PaySelection_Remittance_Lines  ** TEMPLATE **">Líneas Remesa Pago  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Check/Remittance Lines">Líneas Cheque/Remesa Estándar</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="PaySelection_Remittance  ** TEMPLATE **">Remesa  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Remittance Header">Encabezado Remesa Estándar</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Order Header">Order Header</value>
+  <value column="Description" original="Standard Order Header">Standard Order Header</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Order LineTax">Order LineTax</value>
+  <value column="Description" original="Standard Order Line&amp;Tax" xml:space="preserve"><![CDATA[Standard Order Line&Tax]]></value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Invoice Header">Invoice Header</value>
+  <value column="Description" original="Standard Invoice Header">Standard Invoice Header</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Invoice LineTax">Invoice LineTax</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines" xml:space="preserve"><![CDATA[Standard Invoice Line&Tax Lines]]></value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Shipment Header">Shipment Header</value>
+  <value column="Description" original="Standard Shipment Header">Standard Shipment Header</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Shipment Line">Shipment Line</value>
+  <value column="Description" original="Standard Shipment Lines">Standard Shipment Lines</value>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Check">Check</value>
+  <value column="Description" original="Standard Check with Remittance Info">Standard Check with Remittance Info</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Remittance Lines">Remittance Lines</value>
+  <value column="Description" original="Standard Check/Remittance Lines">Standard Check/Remittance Lines</value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Remittance">Remittance</value>
+  <value column="Description" original="Standard Remittance Header">Standard Remittance Header</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Statement of Accounts">Estado de Cuentas</value>
+  <value column="Description" original="Statement of Accounts">Estado de Cuentas</value>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Project_Header ** TEMPLATE **">Encabezado Proyecto ** PLANTILLA **</value>
+  <value column="Description" original="Standard Project">Proyecto Estándar</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="Project_Details ** TEMPLATE **">Detalles Proyecto ** PLANTILLA **</value>
+  <value column="Description" original="Standard Project Detail">Detalles Proyecto Estándar</value>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Test Report">Reporte de Prueba</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Test Form">Forma de Prueba</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="RfQResponseLine ** TEMPLATE **">Línea SCP ** PLANTILLA **</value>
+  <value column="Description" original="Standard RfQ Response Line">Línea Respuesat SCP Estándar</value>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="RfQResponse ** TEMPLATE **">Respuesta SCP ** PLANTILLA **</value>
+  <value column="Description" original="Standard RfQ Response">Respuesta SCP Estándar</value>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Dunning_Header ** TEMPLATE **">Encabezado Cartera ** PLANTILLA **</value>
+  <value column="Description" original="Standard Dunning Letter">Encabezado Cartera Estándar</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Dunning_Line ** TEMPLATE **">Línea Cartera ** PLANTILLA **</value>
+  <value column="Description" original="Standard Dunning Letter Lines">Línea Cartera Estándar</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Inventory Move Hdr (Example)">Encabezado Movimiento Inventario (Ejemplo)</value>
+  <value column="Description" original="Example">Ejemplo</value>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="Inventory Move Line (Example)">Línea Movimiento Inventario (Ejemplo)</value>
+  <value column="Description" original="Example">Ejemplo</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Inventory Physical Line (Example)">Línea Inventario Físico (Ejemplo)</value>
+  <value column="Description" original="Example">Ejemplo</value>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Inventory Physical Hdr (Example)">Encabezado Inventario Físico (Ejemplo)</value>
+  <value column="Description" original="Example">Ejemplo</value>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Reference List">Lista Referencia</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="162" trl="Y">
+  <value column="Name" original="Message">Mensaje</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Report Line">Report Line</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Report Source">Report Source</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Process">Proceso</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="MRP Review">Revisión MRP</value>
+  <value column="Description" original="MRP Detail">Detalle MRP</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Header ** TEMPLATE **">Encabezado Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original="Manufacturing Order">Orden Manufactura</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine ** TEMPLATE **">Línea Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original="Manufacturing Order BOM Line">Línea Orden Manufactura</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review  ">Revisión Ordenes Manufactura</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review   Copiar registro 4082309">Revisión Ordenes Manufactura Copiar registro 4082309</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Component Check">Chequeo Componentes</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Order Transactions">Transacciones Orden</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Order Transactions Copiar registro 14306576">Transacciones Orden Copiar registro 14306576</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="RV_PP_Operation_Activity &amp;Copy Record 4622012">Actividad Operación RV PP Copiar Registro 4622012</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Operation Activity ** TEMPLATE **">Actividad Operación ** PLANTILLA **</value>
+  <value column="Description" original="Operation Activity ** TEMPLATE **">Actividad Operación ** PLANTILLA **</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="DistributionOrder_Line  ** TEMPLATE **">Línea Orden Distribución  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Order Line">Línea Orden Distribución</value>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="DistributionOrder_Header  ** TEMPLATE **">Encabezado Orden Distribución  ** PLANTILLA **</value>
+  <value column="Description" original="Standard Order Header">Encabezado Orden Distribución</value>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Product Costing">Costeo Producto</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[LDM Multi Nivel & Detalle Fórmula]]></value>
+  <value column="Description" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[LDM Multi Nivel & Detalle Fórmula]]></value>
+ </row>
+ <row id="50014" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt &amp;Copy Record 1500673861">Reporte Entrada Activos Copiar Registro 1500673861</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt">Activo Disponer Gastos Entrada Rpt</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Asset Transfer Entry">Entrada Transferencia Activos</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Asset Transfer Entry &amp;Copy Record 733003674">Entrada Transferencia Activos Copiar Registro 733003674</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Asset Split Entry &amp;Copy Record 895559168">Entrada Dividir Activo Copiar Registro 895559168</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Asset Split Entry">Entrada Dividir Activo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry &amp;Copy Record 1166440766">Entrada Gasto Depreciación Copiar Registro 1166440766</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry">Entrada Gasto Depreciación</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast &amp;Copy Record 1622765813">Proyección Depreciación Activo Copiar Registro 1622765813</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50023" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast">Proyección Depreciación Activo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50024" trl="Y">
+  <value column="Name" original="RV_Asset_Parent_Report">Reporte Padre Activos</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50025" trl="Y">
+  <value column="Name" original="RV_Depreciation_Table">Tabla Depreciación</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50026" trl="Y">
+  <value column="Name" original="Spread Report">Reporte Difusión</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50027" trl="Y">
+  <value column="Name" original="RV_Asset_Depreciation_Method">Método Depreciación Activos</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50028" trl="Y">
+  <value column="Name" original="RV_Asset_Convention_Rpt">Convención Activos</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50029" trl="Y">
+  <value column="Name" original="RV_Depreciation_Calculation_Methods">Métodos Cálculo Depreciación</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50030" trl="Y">
+  <value column="Name" original="RV_Asset_Group_Defaults">Grupos por Defecto de Activos</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50031" trl="Y">
+  <value column="Name" original="Inbound Charge Entry Report">Reporte Entrada de Cargos</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50032" trl="Y">
+  <value column="Name" original="Forecast Report">Reporte Proyección</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50033" trl="Y">
+  <value column="Name" original="Forecast Report by Period">Reporte Proyección por Período</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50035" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail &amp;Copy Record 1746519845" xml:space="preserve"><![CDATA[LDM Multi Nivel & Detalle Fórmula (Copia)]]></value>
+  <value column="Description" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[LDM Multi Nivel & Detalle Fórmula]]></value>
+ </row>
+ <row id="50036" trl="Y">
+  <value column="Name" original="Forecast Report &amp;Copy Record 1630346308">Reporte Proyección Copiar Registro 1630346308</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50037" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Node ** TEMPLATE **">Nodo Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original="Manufacturing Order Node">Nodo Orden Manufactura</value>
+ </row>
+ <row id="50038" trl="Y">
+  <value column="Name" original="Cost BOM Multi Level Review">Revisión Costo LDM Multi Nivel</value>
+  <value column="Description" original="Cost BOM Multi Level Review">Revisión Costo LDM Multi Nivel</value>
+ </row>
+ <row id="50040" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Component ** TEMPLATE **">Componente Línea Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original="Manufacturing Order BOM Line">Componente Línea Orden Manufactura</value>
+ </row>
+ <row id="50041" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOM_Header ** TEMPLATE **">Encabezado Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50042" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Workflow_Header ** TEMPLATE **">Encabezado Orden Flujo Manufactura ** PLANTILLA **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50043" trl="Y">
+  <value column="Name" original="Manufacturing_Order_Node_Product ** TEMPLATE **">Nodo Producto Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50044" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Packing** TEMPLATE **">Línea Empaque Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original="Manufacturing Order BOM Line">Línea Empaque Orden Manufactura</value>
+ </row>
+ <row id="50045" trl="Y">
+  <value column="Name" original="Manufacturing_Order_BOM_Header_Packing ** TEMPLATE **">Encabezado Empaque Orden Manufactura ** PLANTILLA **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50051" trl="Y">
+  <value column="Name" original="Accounting Fact Reconciliation">Conciliación Asientos Contables</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50057" trl="Y">
+  <value column="Name" original="Indented Bill of Material">Lista de Materiales Indentada</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="BOM Line">Línea LDM</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Single Level BOM">LDM Nivel Simple</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="1099 Extract">Extracto 1099</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Bank Register Report">Reporte Registro Banco</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Product/Component Where Used">Dónde es usuado Producto/Componente</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Simple Fact View">Vista Simple Asiento</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Complex Fact View">Vista Compleja Asiento</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

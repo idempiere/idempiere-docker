@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_FieldGroup">
+ <row id="101" trl="Y">
+  <value column="Name" original="Status">Stav</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Quantities">Množstvá</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Amounts">Čiastky</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Reference">Referencia</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="History">História</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Product">Produkt</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Business Partner">Obchodný Partner</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Warehouse">Sklad</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Bank Accounts">Banka</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Cash Book Accounts">Úctovanie Peňažnej Knihy</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Tax Accounts">Účtovanie Dane</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Project Accounts">Účtovanie Projektov</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="General">Všeobecný</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Action">Akcia</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Standard Cost">Štandardné Náklady</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Actual Costs">Aktuálne Náklady</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Statistics">Štatistiky</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Defaults">Predvoľby</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Request Management">Manažment Požiadaviek</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Web Store">Webový Obchod</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Internal">Interný</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="External">Externý</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Common">Spoločný</value>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Shipment">Dodanie</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Document">Doklad</value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Line">Riadok</value>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Simulation">Simulácia</value>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Calculations">Výpočty</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Proxy">Proxy</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Delivery">Dodanie</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Invoicing">Fakturácia</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Only ..">Len ..</value>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Selection">Výber</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Access">Prístup</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Allow Info In Role">Povoliť Informácie v Role</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Accounts">Účty</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Setup">Nastavenie</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Dates">Dátumy</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Revaluation Accounts">Účtovanie Precenenia</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Contract">Zmluva</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Options">Možnosti</value>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="General Ledger">Hlavná Kniha</value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Machines">Stroje</value>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Database">Databáza</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Manufacturing Accounts">Účtovanie Výroby</value>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Logo">Logo</value>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Location">Umiestnenie</value>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Fixed Asset">Dlhodobý Majetok</value>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Maintenance">Údržba</value>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Funding">Financovanie</value>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Depreciation">Odpisy</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Swing Position">Swing Pozícia</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Web Position">Pozícia Webu</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="User Locking">Zamykanie Užívateľa</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Overwritten From Column">Prepísať zo stĺpca</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Customer Information">Informácie o Zákazníkovi</value>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Vendor Information">Informácie o Dodávateľovi</value>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Sales Information">Informácie o Predaji</value>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Document Preferences">Predvoľby Dokladov</value>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="Charge Account">Účtovanie Poplatku</value>
+ </row>
+ <row id="200010" trl="Y">
+  <value column="Name" original="Business Partner Accounts">Účtovanie Obchodného Partnera</value>
+ </row>
+ <row id="200011" trl="Y">
+  <value column="Name" original="Product Accounts">Účtovanie Produktov</value>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Warehouse Accounts">Účtovanie Skladu</value>
+ </row>
+ <row id="200013" trl="Y">
+  <value column="Name" original="Product Category Accounts">Účtovanie Skupín Produktov</value>
+ </row>
+ <row id="200014" trl="Y">
+  <value column="Name" original="Business Partner Group Accounts">Účtovanie Skupiny Obch. Partnera </value>
+ </row>
+ <row id="200015" trl="Y">
+  <value column="Name" original="Technical">Technické</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Foreign Key">Foreign Key</value>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="Background Job">Úloha v pozadí</value>
+ </row>
+</idempiereTrl>

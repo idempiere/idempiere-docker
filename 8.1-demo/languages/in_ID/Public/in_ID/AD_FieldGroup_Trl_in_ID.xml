@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_FieldGroup">
+ <row id="101" trl="Y">
+  <value column="Name" original="Status">Status</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Quantities">Jumlah</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Amounts">Harga / Nilai</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Reference">Referensi</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="History">Histori</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Product">Produk</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Business Partner">Rekan Bisnis</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Warehouse">Gudang</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Bank Accounts">Bank</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Cash Book Accounts">Buku Kas</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Tax Accounts">Pajak</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Project Accounts">Proyek</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="General">Umum</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Action">Tindakan</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Standard Cost">Standar Costing</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Actual Costs">Biaya Aktual</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Statistics">Statistik</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Defaults">Default</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Request Management">Manajemen Permintaan</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Web Store">Toko Web</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Internal">Internal</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="External">Eksternal</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Common">Umum</value>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Shipment">Pengiriman</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Document">Dokumen</value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Line">Baris</value>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Simulation">Simulasi</value>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Calculations">Perhitungan</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Proxy">Wakil</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Delivery">Pengiriman</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Invoicing">Invoice</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Only ..">Hanya..</value>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Selection">Seleksi</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Workflow">Flow Kerja</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Access">Akses</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Allow Info In Role">Role Info</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Accounts">Akun</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Setup">Pengaturan</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Dates">Tanggal</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Revaluation Accounts">Akun Revaluasi</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Contract">Kontrak</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Options">Pilihan</value>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="General Ledger">Jurnal Umum</value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Machines">Mesin</value>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Database">Database</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Manufacturing Accounts">Akun Manufacturing</value>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Logo">Logo</value>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Location">Lokasi</value>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Fixed Asset">Aset Tetap</value>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Maintenance">Pemeliharaan</value>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Funding">Pendanaan</value>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Depreciation">Penyusutan</value>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Swing Position">Posisi SWING</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Web Position">Posisi Web</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="User Locking">User Lokal</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Overwritten From Column">Ditimpa Dari Kolom</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Customer Information">Informasi Pelanggan</value>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Vendor Information">Informasi Vendor</value>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Sales Information">Informasi Penjualan</value>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Document Preferences">Dokumen Preferensi </value>
+ </row>
+ <row id="200009" trl="Y">
+  <value column="Name" original="Charge Account">Akun Beban</value>
+ </row>
+ <row id="200010" trl="Y">
+  <value column="Name" original="Business Partner Accounts">Akun Rekan Bisnis</value>
+ </row>
+ <row id="200011" trl="Y">
+  <value column="Name" original="Product Accounts">Akun Produk</value>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Warehouse Accounts">Akun Gudang</value>
+ </row>
+ <row id="200013" trl="Y">
+  <value column="Name" original="Product Category Accounts">Kategori Produk</value>
+ </row>
+ <row id="200014" trl="Y">
+  <value column="Name" original="Business Partner Group Accounts">Akun Bisnis Partner</value>
+ </row>
+ <row id="200015" trl="Y">
+  <value column="Name" original="Technical">Teknis</value>
+ </row>
+ <row id="200016" trl="Y">
+  <value column="Name" original="Foreign Key">Foreign Key</value>
+ </row>
+ <row id="200018" trl="Y">
+  <value column="Name" original="Background Job">Tugas Background</value>
+ </row>
+ <row id="200022" trl="Y">
+  <value column="Name" original="Placeholders">Placeholder</value>
+ </row>
+</idempiereTrl>

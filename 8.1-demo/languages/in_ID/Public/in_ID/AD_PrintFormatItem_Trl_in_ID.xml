@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_PrintFormatItem">
+ <row id="50477" trl="N">
+  <value column="Name" original="VendorProductNo">VendorProductNo</value>
+  <value column="PrintName" original="VendorProductNo">VendorProductNo</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="50992" trl="N">
+  <value column="Name" original="Setup T">Setup T</value>
+  <value column="PrintName" original="Setup">Setup</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51001" trl="N">
+  <value column="Name" original="Cost T">Cost T</value>
+  <value column="PrintName" original="Cost T">Cost T</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51005" trl="N">
+  <value column="Name" original="Cost TL">Cost TL</value>
+  <value column="PrintName" original="Cost TL">Cost TL</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51006" trl="N">
+  <value column="Name" original="Cost LL">Cost LL</value>
+  <value column="PrintName" original="Cost LL">Cost LL</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51013" trl="N">
+  <value column="Name" original="Levels">Levels</value>
+  <value column="PrintName" original="Levels">Levels</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51018" trl="N">
+  <value column="Name" original="Parent">Parent</value>
+  <value column="PrintName" original="Parent">Parent</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51026" trl="N">
+  <value column="Name" original="Acct Schema">Acct Schema</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51066" trl="N">
+  <value column="Name" original="F Cost">F Cost</value>
+  <value column="PrintName" original="F  Cost">F  Cost</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51067" trl="N">
+  <value column="Name" original="F Cost LL">F Cost LL</value>
+  <value column="PrintName" original="F  Cost LL">F  Cost LL</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51068" trl="N">
+  <value column="Name" original="S Cost">S Cost</value>
+  <value column="PrintName" original="S Cost">S Cost</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51069" trl="N">
+  <value column="Name" original="Frozen">Frozen</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51074" trl="N">
+  <value column="Name" original="Description">Description</value>
+  <value column="PrintName" original="Description">Description</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51075" trl="N">
+  <value column="Name" original="Help">Help</value>
+  <value column="PrintName" original="Help">Help</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51076" trl="N">
+  <value column="Name" original="Help">Help</value>
+  <value column="PrintName" original="Help">Help</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="51337" trl="N">
+  <value column="Name" original="PP_Order_Node_ID">PP_Order_Node_ID</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200010" trl="N">
+  <value column="Name" original="Standard Cost">Standard Cost</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="Std Cost Amount Sum">Std Cost Amount Sum</value>
+  <value column="PrintName" original="Std Cost Amount Sum">Std Cost Amount Sum</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200067" trl="N">
+  <value column="Name" original="Report Title">Report Title</value>
+  <value column="PrintName" original="Single Level BOM">Single Level BOM</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200068" trl="N">
+  <value column="Name" original="Label Part Number">Label Part Number</value>
+  <value column="PrintName" original="Part Number">Part Number</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200069" trl="N">
+  <value column="Name" original="Label Product Name">Label Product Name</value>
+  <value column="PrintName" original="Product Name">Product Name</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200070" trl="N">
+  <value column="Name" original="Label Product Category">Label Product Category</value>
+  <value column="PrintName" original="Product Category">Product Category</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200071" trl="N">
+  <value column="Name" original="Label Part Type">Label Part Type</value>
+  <value column="PrintName" original="Part Type">Part Type</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200072" trl="N">
+  <value column="Name" original="Label Unit Of Measure">Label Unit Of Measure</value>
+  <value column="PrintName" original="Unit of Measure">Unit of Measure</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200073" trl="N">
+  <value column="Name" original="Label Locator">Label Locator</value>
+  <value column="PrintName" original="Locator">Locator</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Label Standard Cost">Label Standard Cost</value>
+  <value column="PrintName" original="Standard Cost">Standard Cost</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200075" trl="N">
+  <value column="Name" original="Part Type">Part Type</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200076" trl="N">
+  <value column="Name" original="Standard Cost">Standard Cost</value>
+  <value column="PrintName" original=""/>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200077" trl="N">
+  <value column="Name" original="Label Bill of Materials">Label Bill of Materials</value>
+  <value column="PrintName" original="Bill of Materials">Bill of Materials</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200078" trl="N">
+  <value column="Name" original="Label Manufactured">Label Manufactured</value>
+  <value column="PrintName" original="Manufactured">Manufactured</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200079" trl="N">
+  <value column="Name" original="Label Purchased">Label Purchased</value>
+  <value column="PrintName" original="Purchased">Purchased</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200080" trl="N">
+  <value column="Name" original="Label Sold">Label Sold</value>
+  <value column="PrintName" original="Sold">Sold</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200081" trl="N">
+  <value column="Name" original="Label Kanban">Label Kanban</value>
+  <value column="PrintName" original="Kanban Controlled">Kanban Controlled</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200085" trl="N">
+  <value column="Name" original="Label BOM Verified">Label BOM Verified</value>
+  <value column="PrintName" original="BOM Verified">BOM Verified</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+ <row id="200153" trl="N">
+  <value column="Name" original="Master BOM">Master BOM</value>
+  <value column="PrintName" original="Master BOM">Master BOM</value>
+  <value column="PrintNameSuffix" original=""/>
+ </row>
+</idempiereTrl>

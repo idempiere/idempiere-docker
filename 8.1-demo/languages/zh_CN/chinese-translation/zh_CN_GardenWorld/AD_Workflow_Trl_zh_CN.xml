@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="AD_Workflow">
+ <row id="131" trl="Y">
+  <value column="Name" original="Business Partner Approval">单据值_业务伙伴审批</value>
+  <value column="Description" original="Example Document based workflow">示范基于单据值的工作流</value>
+  <value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">When a new Business Partner is created, it is forwarded for review and credit check</value>
+ </row>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Patio Chair">工艺路线_户外椅</value>
+  <value column="Description" original="Routing for Assembly the Patio Chair">装配路线</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Lawn Fertilizer">工艺路线_草坪化肥</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Fertilizer Packing Process">工艺路线_化肥包装加工</value>
+  <value column="Description" original="Production Line to Packing the Fertilizer Bag 50 and 70 kg ">包装 50、70公斤化肥的生产线 </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Patio Furniture Set">工艺路线_户外装饰套件</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_PaymentTerm">
+ <row trl="Y" uuid="306fe747-366b-4c9c-85b4-97e5f72f8024">
+  <value column="Name" original="Немедленно">Немедленно</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="0561bf5e-32e6-4d12-b141-eb2cc6cab4bf">
+  <value column="Name" original="Immediate">Immediate</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="1c336e7c-68cc-4fab-9638-e183ae342da4">
+  <value column="Name" original="Immediate">Immediate</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+</idempiereTrl>

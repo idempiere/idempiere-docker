@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Localization Colombia - Invoice Number Control
+Bundle-SymbolicName: org.globalqss.idempiere.LCO.invoicenumbercontrol;singleton:=true
+Bundle-Version: 8.1.0.qualifier
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Bundle-Vendor: GlobalQSS
+Require-Bundle: org.adempiere.base;bundle-version="8.1.0",
+ org.adempiere.plugin.utils;bundle-version="8.1.0",
+ org.globalqss.idempiere.LCO.withholdings;bundle-version="8.1.0"
+Export-Package: org.globalqss.model
+Service-Component: OSGI-INF/lco_modelfactory_inc.xml,
+ OSGI-INF/lco_modelvalidator_inc.xml
+Import-Package: org.osgi.service.event
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Automatic-Module-Name: org.globalqss.idempiere.LCO.invoicenumbercontrol
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_Tax">
+ <row id="104" trl="Y">
+  <value column="Name" original="Standard">标准税种</value>
+  <value column="Description" original=""/>
+  <value column="TaxIndicator" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="CT Sales">CT 州营业税</value>
+  <value column="Description" original=""/>
+  <value column="TaxIndicator" original="6%CT">CT的6%</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="GST">联邦营业税</value>
+  <value column="Description" original="Canadian Federal Sales Tax">加拿大联邦营业税</value>
+  <value column="TaxIndicator" original="GST">联邦营业税</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="PST">省税</value>
+  <value column="Description" original="Canadian Provintial Tax">加拿大州税</value>
+  <value column="TaxIndicator" original="PST">省税</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="GST/PST">联邦税/州税</value>
+  <value column="Description" original="Canadian Federal &amp; State Tax">加拿大州税</value>
+  <value column="TaxIndicator" original="Tax">税额</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Exempt">免税</value>
+  <value column="Description" original="Used when Business Partners are exempt from tax">当业务伙伴免税时用到</value>
+  <value column="TaxIndicator" original=""/>
+ </row>
+</idempiereTrl>

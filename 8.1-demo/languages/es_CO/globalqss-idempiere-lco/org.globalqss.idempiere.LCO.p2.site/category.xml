@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <feature url="features/org.globalqss.idempiere.LCO-feature_8.1.0.qualifier.jar" id="org.globalqss.idempiere.LCO.feature" version="8.1.0.qualifier">
+	    <category name="org.globalqss.idempiere.LCO"/>
+    </feature>
+</site>

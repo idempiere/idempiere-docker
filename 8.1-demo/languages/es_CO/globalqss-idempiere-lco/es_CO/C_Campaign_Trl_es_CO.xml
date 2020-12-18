@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="C_Campaign">
+ <row id="101" trl="N">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Spring Mailer">Spring Mailer</value>
+  <value column="Description" original="Brochure Mailing for Spring">Brochure Mailing for Spring</value>
+ </row>
+</idempiereTrl>

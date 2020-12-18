@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="PA_DashboardContent">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Activities">Actividades</value>
+  <value column="Description" original="Workflow activities, notices and requests">Actividades de flujo de trabajo, avisos y solicitudes</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Favourites">Favoritos</value>
+  <value column="Description" original="User favourities">Favoritos de usuario</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Views">Vistas</value>
+  <value column="Description" original="Info views">Vistas de Información</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Performance">Desempeño</value>
+  <value column="Description" original="Performance meters">Indicadores de Desempeño</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Calendar">Calendario</value>
+  <value column="Description" original="Request Calendar">Calendario de Solicitudes</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Recent Items">Registros Recientes</value>
+  <value column="Description" original="Recent items">Registros Recientes</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Menu">Menú</value>
+  <value column="Description" original="Menu">Menú</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Running Jobs">Tareas en Segundo Plano</value>
+  <value column="Description" original="Running Jobs">Tareas en Segundo Plano</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Activities">Actividades</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original=""/>
+ </row>
+</idempiereTrl>

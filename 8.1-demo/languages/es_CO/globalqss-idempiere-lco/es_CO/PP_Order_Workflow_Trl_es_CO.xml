@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="PP_Order_Workflow">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Fertilizer Packing Process">Proceso Empaque Fertilizante</value>
+  <value column="Description" original="Production Line to Packing the Fertilizer Bag 50 and 70 kg ">Línea de Producción para empacar las bolsas de fertilizante de 50 y 70kg</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Fertilizer Packing Process">Proceso Empaque Fertilizante</value>
+  <value column="Description" original="Production Line to Packing the Fertilizer Bag 50 and 70 kg ">Línea de Producción para empacar las bolsas de fertilizante de 50 y 70kg</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

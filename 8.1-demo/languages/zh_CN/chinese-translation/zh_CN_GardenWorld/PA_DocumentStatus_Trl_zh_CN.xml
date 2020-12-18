@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="PA_DocumentStatus">
+ <row id="200000" trl="Y">
+  <value column="Name" original="Sales Orders received today">当日销售订单</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Pending Customer Shipments">未清发货单</value>
+ </row>
+</idempiereTrl>

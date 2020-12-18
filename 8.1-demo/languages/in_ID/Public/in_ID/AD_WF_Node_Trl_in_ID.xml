@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_WF_Node">
+ <row id="116" trl="Y">
+  <value column="Name" original="Accounting Schema">Skema Akuntansi</value>
+  <value column="Description" original="Project as Account Segment">Proyek sebagai Segmen Akun</value>
+  <value column="Help" original="To enable accounting reporting of projects, create and enable a project segment in the account elements.">Untuk mengaktifkan pelaporan akuntansi proyek, buat dan aktifkan segmen proyek di elemen akun.</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="System Elements">Elemen Sistem</value>
+  <value column="Description" original="Translate System Elements">Terjemahkan Elemen Sistem</value>
+  <value column="Help" original="System Elements are used to centrally define field labels, description and help. When translating an Element, the appropriate information of Fields in Windows, Parameters and Reports are translated (overwritten)">Elemen Sistem digunakan untuk mendefinisikan label, deskripsi, dan bantuan bidang secara terpusat. Ketika menerjemahkan suatu Elemen, informasi yang sesuai dari Fields di Windows, Parameter dan Laporan diterjemahkan (ditimpa)</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Messages">Pesan</value>
+  <value column="Description" original="Translate Messages">Terjemahkan Pesan</value>
+  <value column="Help" original="Translate the messages used in Windows, Forms and Processes">Menerjemahkan pesan yang digunakan di Windows, Formulir dan Proses</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Reference">Referensi</value>
+  <value column="Description" original="Translate References">Referensi Terjemahan</value>
+  <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">Referensi digunakan sebagai daftar pilihan yang telah ditentukan sebelumnya. Anda hanya perlu menerjemahkan Elemen Daftar !!</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Window &amp; Tab" xml:space="preserve"><![CDATA[Window & Tab]]></value>
+  <value column="Description" original="Translate Windows and Tabs">Terjemahkan Windows dan Tab</value>
+  <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">Terjemahkan Windows dan Tab...</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original="Translate Forms">Formulir Terjemahan</value>
+  <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">Formulir adalah Windows khusus dan Anda perlu menerjemahkan namanya, deskripsi, dan Bantuan.</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Laporan & Proses]]></value>
+  <value column="Description" original="Translate Reports and Processes">Terjemahkan Laporan dan Proses</value>
+  <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">Terjemahkan Nama, Deskripsi, dan Bantuan untuk Proses dan Laporan. Anda tidak perlu menerjemahkan Parameter, jika dipelihara secara terpusat.</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="User">User</value>
+  <value column="Description" original="Define Sales Representative as User">Tetapkan Perwakilan Penjualan sebagai Pengguna</value>
+  <value column="Help" original="Users can log into the system and have access to functionality via one or more roles. Select the Business Partner you just set up. This enables the user to be treated as sales rep in the system.">Pengguna dapat masuk ke sistem dan memiliki akses ke fungsionalitas melalui satu peran atau lebih. Pilih Mitra Bisnis yang baru saja Anda atur. Ini memungkinkan pengguna untuk diperlakukan sebagai tenaga penjualan dalam sistem.</value>
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Business Partner">Rekan Bisnis</value>
+  <value column="Description" original="Set up Sales Representative as Business Partner">Tetapkan Perwakilan Penjualan sebagai Mitra Bisnis</value>
+  <value column="Help" original="Set up the sales representative as Employee and Sales Representative in the Employee tab.  Also set up the Vendor part, if you want to create payments.">Tetapkan perwakilan penjualan sebagai Karyawan dan Perwakilan Penjualan di tab Karyawan. Siapkan juga bagian Vendor, jika Anda ingin melakukan pembayaran.</value>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="Translate Workflows">Terjemahkan Alur Kerja</value>
+  <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">Terjemahkan Nama, Deskripsi, dan Bantuan Alur Kerja dan Nodes-nya. Anda hanya perlu menerjemahkan Elemen Daftar !!</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Check Client Setup">Cek Pengaturan Klien</value>
+  <value column="Description" original="Check Client setup for Requests">Periksa pengaturan Klien untuk Permintaan</value>
+  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">Anda harus memiliki server email dan alamat email dari mana requets notifikasi dikirim. Secara opsional, jika Anda mendefinisikan pengguna email dan kata sandi, permintaan dibaca dari folder pengguna email dan diimpor ke sistem.</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Check Users">Cek User</value>
+  <value column="Description" original="Check users for Request processing">Periksa pengguna untuk memproses Permintaan</value>
+  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">Harap pastikan bahwa pengguna memiliki alamat email dan penyelia yang ditugaskan.</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Check Business Partners">Cek Rekan Bisnis</value>
+  <value column="Description" original="Check Business Partners for Request processing">Periksa Mitra Bisnis untuk memproses Permintaan</value>
+  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">Anda dapat mengirim EMail ke mitra bisnis. Pastikan, bahwa mitra bisnis dan / atau Kontak memiliki alamat email.</value>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Tax Category">Kategori Pajak</value>
+  <value column="Description" original="Maintain Tax Categories">Maintain Kategori Pajak</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">Jendela Kategori Pajak digunakan untuk masuk dan memelihara Kategori Pajak. Setiap produk dikaitkan dengan kategori pajak yang memfasilitasi reaksi perubahan tarif pajak.</value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Product">Produk</value>
+  <value column="Description" original="Maintain Products">Merawat Produk</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">Jendela Produk mendefinisikan semua produk yang digunakan oleh suatu organisasi. Produk-produk ini termasuk yang dijual kepada pelanggan, digunakan dalam pembuatan produk yang dijual kepada pelanggan dan produk yang dibeli oleh suatu organisasi.</value>
+ </row>
+ <row id="168" trl="Y">
+  <value column="Name" original="Charge">Beban</value>
+  <value column="Description" original="Maintain Charges">Maintain Biaya</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Jendela Biaya menentukan berbagai biaya yang mungkin ditimbulkan. Ini dapat mencakup Biaya Bank, Biaya Vendor dan Biaya Penanganan.</value>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Tax Rate">Rate Pajak</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Maintain Pajak dan Tarifnya</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">Jendela Tarif Pajak menentukan berbagai pajak yang digunakan untuk setiap kategori pajak. Misalnya Pajak Penjualan harus ditentukan untuk setiap Negara bagian di mana ia berlaku.</value>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Accounting Schema">Skema Akuntansi</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Maintain Skema Akuntansi - Agar perubahan menjadi efektif, Anda harus masuk kembali</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">Jendela Skema Akuntansi mendefinisikan metode akuntansi dan elemen-elemen yang akan membentuk struktur akun. Buat dan aktifkan elemen untuk akuntansi terperinci untuk Mitra Bisnis, Produk, Lokasi, dll.
+Tinjau dan ubah akun GL dan Default. Akun aktual yang digunakan dalam transaksi tergantung pada organisasi pelaksana; Sebagian besar informasi berasal dari konteks.</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Pengaturan</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Setup Alur Kerja Pabrikan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">Pengaturan Manufacturing Diskrit</value>
+  <value column="Description" original="Setup Manufacturing Management">Pengaturan Manajemen Manufaktur</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Setup" xml:space="preserve"><![CDATA[Bill of Material & Formula Pengaturan]]></value>
+  <value column="Description" original="Setup Manufacturing Management">Pengaturan Manajemen Manufaktur</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Gudang & Lokasi]]></value>
+  <value column="Description" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Gudang & Penunjuk Lokasi]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Resource Type">Jenis Sumber Daya</value>
+  <value column="Description" original="Resource Type">Jenis Sumber Daya</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">Workflow Manufaktur</value>
+  <value column="Description" original="Manufacturing Workflows">Alur Kerja Pabrikasi</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Manufacturing Resource">Sumber Daya Manufaktur</value>
+  <value column="Description" original="Manufacturing Resource">Sumber Daya Pabrikan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Unit of Measure">Satuan Unit</value>
+  <value column="Description" original="Maintain Unit of Measure ">Maintain Satuan Ukuran</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Product">Produk</value>
+  <value column="Description" original="Maintain Products">Merawat Produk</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Pengaturan MRP</value>
+  <value column="Description" original="Setup Material Requirement Planning">Mengatur Perencanaan Kebutuhan Bahan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Capacity Requirement Planning Setup">Pengaturan CRP</value>
+  <value column="Description" original="Setup Capacity Requirement Planning">Pengaturan Perencanaan Kebutuhan Kapasitas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Forecast">Prediksi</value>
+  <value column="Description" original="Forecast">Menerjemahkan pesan yang digunakan di Windows, Formulir dan Proses...</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">Manajemen Manufaktur Pengaturan</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP adalah serangkaian teknik yang menggunakan Bills of Material, Data Persediaan, dan Jadwal Induk Produksi untuk menghitung persyaratan bahan.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Notice">Pemberitahuan</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP adalah serangkaian teknik yang menggunakan Bills of Material, Data Persediaan, dan Jadwal Induk Produksi untuk menghitung persyaratan bahan.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50014" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">Pengaturan Manufacturing Diskrit</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP adalah serangkaian teknik yang menggunakan Bills of Material, Data Persediaan, dan Jadwal Induk Produksi untuk menghitung persyaratan bahan.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Pengaturan MRP</value>
+  <value column="Description" original="Setup Material Requirement Planning">Mengatur Perencanaan Kebutuhan Bahan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Pengaturan</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Setup Alur Kerja Pabrikan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Calculate Capacity Plan">Hitung CRP</value>
+  <value column="Description" original="Calculate Capacity Plan">Hitung Rencana Kapasitas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Resource Load View">Lihat Beban Sumber Daya</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Ini menunjukkan secara grafis waktu yang diperlukan dan tersedia untuk setiap sumber daya manufaktur.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Pengaturan MRP</value>
+  <value column="Description" original="Setup Material Requirement Planning">Setup Material Requirement Planning</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">Manajemen Manufaktur Pengaturan</value>
+  <value column="Description" original="Setup Manufacturing Management">Pengaturan Manajemen Manufaktur</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Distribution Management Setup">Manajemen Distribusi Pengaturan</value>
+  <value column="Description" original="Setup Distribution Management">Pengaturan Manajemen Distribusi</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Planned Order Approval">Persetujuan Rencana Order</value>
+  <value column="Description" original="Planned Order Approval">Persetujuan Pemesanan yang Direncanakan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50023" trl="Y">
+  <value column="Name" original="MRP Notice">Catatan MRP</value>
+  <value column="Description" original="MRP Notice">Pemberitahuan MRP</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50024" trl="Y">
+  <value column="Name" original="MRP Info">Info MRP</value>
+  <value column="Description" original="MRP Info">Info MRP</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50025" trl="Y">
+  <value column="Name" original="Calculate Distribution Plan">Hitung DRP</value>
+  <value column="Description" original="Calculate Distribution Plan">Hitung Rencana Distribusi</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50027" trl="Y">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original="(Standard Node)">(Standard Node)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50028" trl="Y">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original="(Standard Node)">(Standard Node)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50029" trl="Y">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original="(Standard Node)">(Standard Node)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50034" trl="Y">
+  <value column="Name" original="Freight Category">Kategori Angkutan</value>
+  <value column="Description" original="Maintain Freight Categories">Maintain Kategori Pengiriman</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50035" trl="Y">
+  <value column="Name" original="Inventory Move">Pemindahan Produk</value>
+  <value column="Description" original="Inventory Move">Inventarisasi Pindah</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50036" trl="Y">
+  <value column="Name" original="Shipper">Pengirim</value>
+  <value column="Description" original="Maintain Shippers">Maintain Pengirim</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50049" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[Multi Level BOM & Detail Formula]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Menunjukkan dalam dua panel yang berbeda hubungan induk-komponen untuk produk yang dimasukkan dalam bidang Produk.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50050" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve"><![CDATA[Info BOM & Formula]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Menunjukkan dalam dua panel yang berbeda hubungan induk-komponen untuk produk yang dimasukkan dalam bidang Produk.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50051" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula" xml:space="preserve"><![CDATA[Bill of Material & Formula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Maintain Bill of Material & Formula Produk]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50052" trl="Y">
+  <value column="Name" original="Product Planning">Perencanaan Produk</value>
+  <value column="Description" original="Product Planning">Perencanaan produk</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50053" trl="Y">
+  <value column="Name" original="Calculate Low Level">Hitung Low Level</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP adalah serangkaian teknik yang menggunakan Bills of Material, Data Persediaan, dan Jadwal Induk Produksi untuk menghitung persyaratan bahan.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50054" trl="Y">
+  <value column="Name" original="Calculate Material Plan">Hitung MRP</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP adalah serangkaian teknik yang menggunakan Bills of Material, Data Persediaan, dan Jadwal Induk Produksi untuk menghitung persyaratan bahan.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50055" trl="Y">
+  <value column="Name" original="Planned Order Approval">Persetujuan Rencana Order</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP adalah serangkaian teknik yang menggunakan Bills of Material, Data Persediaan, dan Jadwal Induk Produksi untuk menghitung persyaratan bahan.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50056" trl="Y">
+  <value column="Name" original="MRP Info">Info MRP</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50057" trl="Y">
+  <value column="Name" original="Print &amp; Release Order" xml:space="preserve"><![CDATA[Cetak & Rilis Order]]></value>
+  <value column="Description" original="Print &amp; Release Order" xml:space="preserve"><![CDATA[Print & Release Order]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50058" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Penerimaan & Pengeluaran Order]]></value>
+  <value column="Description" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Tanda Terima & Masalah Pemesanan]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50059" trl="Y">
+  <value column="Name" original="Manufacturing Order">Order Produksi</value>
+  <value column="Description" original="Manufacturing Order">Pesanan manufaktur</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50060" trl="Y">
+  <value column="Name" original="Component Check">Periksa Komponen</value>
+  <value column="Description" original="Component Check">Pemeriksaan Komponen</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50061" trl="Y">
+  <value column="Name" original="Generate Movement">Menghasilkan Pergerakan</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Hasilkan dan cetak Gerakan dari Pesanan Distribusi terbuka</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50062" trl="Y">
+  <value column="Name" original="Generate Movement Manual">Menghasilkan Pergerakan Manual</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Hasilkan Gerakan ke Distribusi Pesanan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50063" trl="Y">
+  <value column="Name" original="Distribution Order">Order Distribusi</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribusi Pesanan memungkinkan membuat Pesanan antar gudang untuk memasok permintaan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50064" trl="Y">
+  <value column="Name" original="Import Proccesor">Impor Proccesor</value>
+  <value column="Description" original="Import Proccesor">Prosesor Impor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50065" trl="Y">
+  <value column="Name" original="Import Processor Type">Jenis Prosesor Impor</value>
+  <value column="Description" original="Import Processor Type">Jenis Prosesor Impor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50066" trl="Y">
+  <value column="Name" original="Export Format">Format Ekspor</value>
+  <value column="Description" original="Export Format">Format Ekspor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50067" trl="Y">
+  <value column="Name" original="Export Processor">Prosesor Ekspor</value>
+  <value column="Description" original="Export Processor">Prosesor Ekspor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50068" trl="Y">
+  <value column="Name" original="Export Processor Type">Jenis Prosesor Ekspor</value>
+  <value column="Description" original="Export Processor Type">Jenis Prosesor Ekspor</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50069" trl="Y">
+  <value column="Name" original="Replication Strategy">Strategi Replikasi</value>
+  <value column="Description" original="Replication Strategy">Strategi Replikasi</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50081" trl="Y">
+  <value column="Name" original="Payroll Action Notice">Payroll Notice Aksi</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50099" trl="Y">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50100" trl="Y">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50101" trl="Y">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50102" trl="Y">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50104" trl="Y">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50105" trl="Y">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50106" trl="Y">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50107" trl="Y">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50108" trl="Y">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50109" trl="Y">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50110" trl="Y">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50111" trl="Y">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50112" trl="Y">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50113" trl="Y">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50114" trl="Y">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50115" trl="Y">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50116" trl="Y">
+  <value column="Name" original="(Start)">(Start)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50117" trl="Y">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50118" trl="Y">
+  <value column="Name" original="(DocComplete)">(DocComplete)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50119" trl="Y">
+  <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

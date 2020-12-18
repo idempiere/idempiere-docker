@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="idempiereDocument.css"?>
+
+<idempiereDocument>
+    <header>FestivosColombia Package Description</header>
+    <H1>Package Name:</H1>
+    <packagename>FestivosColombia</packagename>
+    <H1>Author:</H1>
+    <Name:/>
+    <H1>Email Address:</H1>
+    <Email>info@globalqss.com</Email>
+    <H1>Created:</H1>
+    <Date>2013-08-08 11:33:33.864</Date>
+    <H1>Updated:</H1>
+    <Date>2013-08-08 11:48:52.744</Date>
+    <H1>Description:</H1>
+    <description>Días Festivos en Colombia</description>
+    <H1>Instructions:</H1>
+    <instructions>Este paquete solo funciona para GardenWorld - para otros clientes debe editarlo para apuntar al calendario y cliente correspondientes, así como eliminar los UUID del archivo xml para evitar colisiones.</instructions>
+    <H1>Files in Package:</H1>
+    <file>File: PackOut.xml</file>
+    <filedirectory>Directory: \dict\</filedirectory>
+    <filenotes>Notes: Contains all application/object settings for package</filenotes>
+    <H1>Client:</H1>
+    <Client>11-GardenWorld-GardenWorld</Client>
+</idempiereDocument>

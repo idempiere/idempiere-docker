@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 1.0a_2012-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="de_DE" table="W_Store">
+ <row id="11" trl="Y">
+  <value column="EMailFooter" original=""/>
+  <value column="EMailHeader" original=""/>
+  <value column="WebInfo" original=""/>
+  <value column="WebParam1" original="ADempiere120x60.gif">ADempiere120x60.gif</value>
+  <value column="WebParam2" original="&lt;h1&gt;Web Store&lt;/h1&gt;">
+Webshop</value>
+  <value column="WebParam3" original="Parameter3">Parameter 3</value>
+  <value column="WebParam4" original="Parameter4">Parameter 4</value>
+  <value column="WebParam5" original="Parameter5">Parameter 5</value>
+  <value column="WebParam6" original="Parameter6">Parameter 6</value>
+ </row>
+</idempiereTrl>

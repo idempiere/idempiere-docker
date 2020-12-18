@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GlobalQSS - iDempiere -Smart Suite ERP,CRM and SCM- (c) 1999-2012 iDempiere(r); Implementation: iDempiere - Supported by GlobalQSS - Quality Systems & Solutions-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD idempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">-->
+<idempiereTrl language="es_CO" table="M_PriceList">
+ <row id="101" trl="N">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original="This is the sales price list and we create it based on the Purchase list">This is the sales price list and we create it based on the Purchase list</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Purchase">Purchase</value>
+  <value column="Description" original="This list is created first - the &quot;root&quot; of the other price lists">This list is created first - the "root" of the other price lists</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Export">Export</value>
+  <value column="Description" original="Export Prices in EUR">Export Prices in EUR</value>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="C_UOM">
+ <row id="100" trl="Y">
+  <value column="Name" original="Each">numero</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Ea ">Nr</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Hour">ora</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="h  ">h  </value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Day">giorno</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="d  ">d  </value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Minutes">minuto</value>
+  <value column="Description" original="(lowest unit for resorce assigments)">(lowest unit for resorce assigments)</value>
+  <value column="UOMSymbol" original="m  ">m  </value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Work Day">giorno lavorativo</value>
+  <value column="Description" original="8 hour">8 hour</value>
+  <value column="UOMSymbol" original="D  ">D  </value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Week">settimana</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="w  ">w  </value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Month">mese</value>
+  <value column="Description" original="30 days">30 days</value>
+  <value column="UOMSymbol" original="m  ">m  </value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Working Month">mese lavorativo</value>
+  <value column="Description" original="20 days">20 days</value>
+  <value column="UOMSymbol" original="M  ">M  </value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Year">anno</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="y  ">y  </value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="6-Pack">6-Pack</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="6Pk">6Pk</value>
+ </row>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Mililiter">Mililiter</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="ml">ml</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="kilogram">kilogram</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Kg">Kg</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="milligram">milligram</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="mg">mg</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="litre">litre</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="L">L</value>
+ </row>
+ <row trl="N" uuid="c8815d4d-60e6-490b-b40a-b357ca30c54b">
+  <value column="Name" original="Seconds">secondo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="s">s</value>
+ </row>
+ <row trl="N" uuid="660a871a-e331-4802-9c1c-2bf22df683bc">
+  <value column="Name" original="meter">metro</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="m">m</value>
+ </row>
+ <row trl="N" uuid="4fe97c34-8ecd-4204-bad1-cba093ca676c">
+  <value column="Name" original="millimeter">millimetro</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="mm">mm</value>
+ </row>
+ <row trl="N" uuid="b123114b-2d95-4fa1-85d0-8339f98eddf0">
+  <value column="Name" original="Trimestral">trimestrale</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="QT">QT</value>
+ </row>
+ <row trl="N" uuid="30b9a8e3-edb1-4654-a394-918aa44182c7">
+  <value column="Name" original="grado Celsius">grado celsius</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="°C">°C</value>
+ </row>
+ <row trl="N" uuid="0cf7b57b-a1d7-4ef1-9dd4-3ac1d84b7a48">
+  <value column="Name" original="liter">litro</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="l">l</value>
+ </row>
+ <row trl="N" uuid="0bbe7b1d-7637-43af-9f84-ee6d73e4329e">
+  <value column="Name" original="Kilometro all'ora">kilometro all'ora</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Km/h">Km/h</value>
+ </row>
+ <row trl="N" uuid="4700a33d-5760-4470-9861-11c6f073e887">
+  <value column="Name" original="bar">bar</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="bar">bar</value>
+ </row>
+ <row trl="N" uuid="fbac4910-8378-4c3f-8c4a-9095bcdec229">
+  <value column="Name" original="box">scatola</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="BX">BX</value>
+ </row>
+ <row trl="N" uuid="669f5160-c156-402d-b83f-606a3c266c71">
+  <value column="Name" original="Baril">barile</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="BA">BA</value>
+ </row>
+ <row trl="N" uuid="75af5088-0d94-4f39-8827-03245b5a976c">
+  <value column="Name" original="gram">grammo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="g">g</value>
+ </row>
+ <row trl="N" uuid="96a41203-81f1-4593-a376-b60e6d5164bf">
+  <value column="Name" original="Meter Cube">metro cubo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="mc">mc</value>
+ </row>
+ <row trl="N" uuid="b7394afb-01a4-4594-8448-104c25d3bba4">
+  <value column="Name" original="Kilogram">kilogrammo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Kg">Kg</value>
+ </row>
+ <row trl="N" uuid="d4f25950-5c38-4163-a61a-f4a00f4c7acd">
+  <value column="Name" original="ton">tonnellata</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="t">t</value>
+ </row>
+ <row trl="N" uuid="e0a3e2b0-7bf1-4c0a-855c-909ac0701e8c">
+  <value column="Name" original="square meter">metro quadrato</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="m2">m2</value>
+ </row>
+ <row trl="N" uuid="4169e746-3f90-4106-afe7-917966138ca4">
+  <value column="Name" original="Kilo Meter">kilometro</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Km">Km</value>
+ </row>
+ <row trl="N" uuid="23e0eb45-e9b9-4925-a211-1cce1e30ee44">
+  <value column="Name" original="Square Kilo Meter">kilometro quadrato</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="Km2">Km2</value>
+ </row>
+ <row trl="N" uuid="9712fbbc-4fb0-40c4-ab6d-b3672c1bd665">
+  <value column="Name" original="Meter per second">metri al secondo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="ms">ms</value>
+ </row>
+ <row trl="N" uuid="7aa65128-3d78-42c4-b083-08bd57d16eaf">
+  <value column="Name" original="Milligram">milligrammo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="mg">mg</value>
+ </row>
+ <row trl="N" uuid="26247460-439d-41ee-a9bf-755d934e17bf">
+  <value column="Name" original="Horse">cavallo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="CV">CV</value>
+ </row>
+ <row trl="N" uuid="235d773b-a2f9-4da0-b7b5-ed524d5de30f">
+  <value column="Name" original="Pallet">pallet</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="PAL">PAL</value>
+ </row>
+ <row trl="N" uuid="b90d82c5-6a8f-4c23-9a1c-7ccce53b97e2">
+  <value column="Name" original="Roll">rotolo</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="ROL">ROL</value>
+ </row>
+ <row trl="N" uuid="ea6283a9-18a1-4d17-82cb-9fe4caed72cf">
+  <value column="Name" original="Dozen">dozzina</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="DOZ">DOZ</value>
+ </row>
+ <row trl="N" uuid="6c354d44-dddf-4e58-8db8-db460b3dc2b3">
+  <value column="Name" original="Envelope">busta</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="EN">EN</value>
+ </row>
+ <row trl="N" uuid="bdb761cc-1b65-4f05-ba95-1f7c1d39cb21">
+  <value column="Name" original="Pair">paio</value>
+  <value column="Description" original=""/>
+  <value column="UOMSymbol" original="PA">PA</value>
+ </row>
+</idempiereTrl>

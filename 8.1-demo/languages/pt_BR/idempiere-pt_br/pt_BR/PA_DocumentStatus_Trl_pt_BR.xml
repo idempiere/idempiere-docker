@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="PA_DocumentStatus">
+ <row id="200000" trl="N">
+  <value column="Name" original="Sales Orders received today">Sales Orders received today</value>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Pending Customer Shipments">Pending Customer Shipments</value>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Notice">Aviso</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Request">Solicitação</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Workflow Activities">Atividades de Fluxos de Trabalho</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Unprocessed Documents">Documentos Não Processados</value>
+ </row>
+</idempiereTrl>

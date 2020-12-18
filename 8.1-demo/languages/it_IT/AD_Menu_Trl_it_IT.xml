@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="it_IT" table="AD_Menu">
+ <row id="100" trl="Y">
+  <value column="Name" original="Invoice Inquiry">Report Fatture di Vendita</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Application Dictionary">Dizionario della Applicazione</value>
+  <value column="Description" original="Maintain Application Dictionary">Gestione del dizionario del applicativo</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="General Rules">Configurazione Generale</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Client Rules">Configurazione Azienda</value>
+  <value column="Description" original="Maintain Client Rules">Gestione delle Regole dell'Azienda</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Data">Dati</value>
+  <value column="Description" original="Maintain Data">Gestione dati</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Performance Measurement">Misurazione della Performance</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Utility">Utilità</value>
+  <value column="Description" original="">Utilità</value>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Project Management">Gestione del Progetto</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="System Rules">Configurazione del Sistema</value>
+  <value column="Description" original="General System Rules">Regole generali di sistema</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Data Import">Importazione Dati</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Accounting Rules">Impostazioni Contabilità</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Setup Business Partner">Setup Business Partner</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Quote-to-Invoice">Ciclo Attivo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Material Management Rules">Impostazioni  Materiali</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Organization Rules">Impostazioni Organizzazione</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Material Management">Gestione Materiali</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Requisition-to-Invoice">Ciclo Passivo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="System Admin">Amministrazione del Sistema</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Open Items">Pagamenti e Incassi</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Base Data">Anagrafiche di Base</value>
+  <value column="Description" original="Partner, Product and other basic data">Clienti, Fornitori, Prodotti e altre Anagrafiche di base</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Resource">Risorsa</value>
+  <value column="Description" original="Resource">Risorsa</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Setup Sales and Marketing">Setup Ciclo Attivo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Performance Analysis">Contabilità e Controllo di Gestione</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Financial Reporting">Reporting Finanziario</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Printing">Stampa </value>
+  <value column="Description" original="Print Definition">Definizione stampa</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Assets">Cespite</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="357" trl="Y">
+  <value column="Name" original="Product Attributes">Attributi Prodotto</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Security">Sicurezza</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="372" trl="Y">
+  <value column="Name" original="Web">Web</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="392" trl="Y">
+  <value column="Name" original="Knowledge Base">Conoscenza</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="456" trl="Y">
+  <value column="Name" original="Server">Server</value>
+  <value column="Description" original="iDempiere Server Maintenance">Compiere Server Maintenance</value>
+ </row>
+ <row id="457" trl="Y">
+  <value column="Name" original="Sales Orders">Ordini di Vendita</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="458" trl="Y">
+  <value column="Name" original="Sales Invoices">Fatture di Vendita</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="459" trl="Y">
+  <value column="Name" original="Shipments">Spedizioni</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="460" trl="Y">
+  <value column="Name" original="**Market Place">Gestione Mercati</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="501" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="iDempiere Workflow">Compiere Workflow</value>
+ </row>
+ <row id="522" trl="Y">
+  <value column="Name" original="Costing">Gestione Costi</value>
+  <value column="Description" original="">Gestione Costi Produzione</value>
+ </row>
+ <row id="528" trl="Y">
+  <value column="Name" original="Request">Richieste</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="566" trl="Y">
+  <value column="Name" original="Collaboration">Collaborazione</value>
+  <value column="Description" original="Collaboration and Content Management">Collaborazione</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Application Packaging">Installazione Pacchetti (Pack)</value>
+  <value column="Description" original="Import and export packaging">Installazione Pacchetti (Pack)</value>
+ </row>
+ <row id="52001" trl="Y">
+  <value column="Name" original="*Web POS">*Proprietà Web POS ***</value>
+  <value column="Description" original="">Proprietà Web POS </value>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Manufacturing Management">Gestione Produzione</value>
+  <value column="Description" original="Manufacturing">Gestione Produzione</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Engineering Management">Ingegneria Gestionale</value>
+  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">Ingegneria gestionale prevede la gestione complessiva delle organizzazioni con un orientamento alla produzione, ingegneria, tecnologia o di produzione.</value>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Resource Manufacturing">Risorse di Produzione</value>
+  <value column="Description" original="Resource Manufacturing">Risorse di Produzione</value>
+ </row>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Manufacturing Workflow">Ciclo di Produzione</value>
+  <value column="Description" original="">Ciclo di Produzione</value>
+ </row>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formulas"><![CDATA[Distinta Base & Formule]]></value>
+  <value column="Description" original="Bill of Material &amp; Formulas"><![CDATA[Distinta Base & Formule]]></value>
+ </row>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Planning Management">Gestione della pianificazione</value>
+  <value column="Description" original="Using Planning Management you answer the question: When and How Many products we must get?">Using Planning Management you answer the question: When and How Many products we must get?</value>
+ </row>
+ <row id="53031" trl="Y">
+  <value column="Name" original="Product Planning">Pianificazione Prodotto</value>
+  <value column="Description" original="Product Planning">Pianificazione Prodotto</value>
+ </row>
+ <row id="53034" trl="Y">
+  <value column="Name" original="MRP">MRP</value>
+  <value column="Description" original="Materials Requirements Planning">Materials Requirements Planning</value>
+ </row>
+ <row id="53043" trl="Y">
+  <value column="Name" original="CRP">CRP</value>
+  <value column="Description" original="Capacity Requirements Planning">Requisiti capacità di pianificazione</value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="DRP">DRP</value>
+  <value column="Description" original="Distribution Resource Planning"> Pianificazione distribuzione risorsa</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Production Management">Gestione della Produzione</value>
+  <value column="Description" original="Production Management">Gestione della Produzione</value>
+ </row>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Discreet Manufacturing">Discreto Produzione</value>
+  <value column="Description" original="">Discreto Produzione</value>
+ </row>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Management Maintenance">Gestione Management</value>
+  <value column="Description" original="Management Maintenance">Gestione Management</value>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="Activity Control">Activity Control ****</value>
+  <value column="Description" original="Activity Control">Activity Control</value>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Distribution Management">Gestione Distribuzione </value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Metodo utilizzato in economia aziendale per gli ordini di pianificazione all'interno di un catena di fornitura.</value>
+ </row>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Quality Management">Gestione Qualità</value>
+  <value column="Description" original="Quality Management">Gestione Qualità</value>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Standard Costing Management">Gestione Costi Standard</value>
+  <value column="Description" original="Standard Costing Management">Gestione Costi Standard</value>
+ </row>
+ <row id="53091" trl="Y">
+  <value column="Name" original="Global Tax Management">Global Tax Management(X)</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Replication Data">Replicazione Dati</value>
+  <value column="Description" original="">Replicazione Dati</value>
+ </row>
+ <row id="53108" trl="Y">
+  <value column="Name" original="Human Resource &amp; Payroll">Risorse Umane e Paghe ***</value>
+  <value column="Description" original="Human Resource &amp; Payroll">Risorse Umane e Paghe</value>
+ </row>
+ <row id="53109" trl="Y">
+  <value column="Name" original="Human Resource">Risorse Umane ***</value>
+  <value column="Description" original="">Resorse Attendance</value>
+ </row>
+ <row id="53114" trl="Y">
+  <value column="Name" original="Payroll">Paghe</value>
+  <value column="Description" original="">Paghe</value>
+ </row>
+ <row id="53133" trl="Y">
+  <value column="Name" original="Customer Service">Gestione Cespiti Clienti</value>
+  <value column="Description" original="Customer Related Assets">Gestione Cespiti Clienti</value>
+ </row>
+ <row id="53136" trl="Y">
+  <value column="Name" original="Asset Revaluation">Rivalutazione Cespiti</value>
+  <value column="Description" original="Process Asset Revaluations">Rivalutazione Cespiti</value>
+ </row>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Asset Transactions ">Trasferimenti, Suddivisioni e Cessione Cespiti</value>
+  <value column="Description" original="Asset Transactions (Addition, Disposal, Split &amp; Transfer)">Trasferimenti, Suddivisioni e Cessione Cespiti</value>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Depreciation Processing">Ammortamento</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">Ammortamento</value>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Reporting">Report Cepiti</value>
+  <value column="Description" original="Reporting for fixed assets">Report Cespiti</value>
+ </row>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Setup">Setup Ammortamento Cespite</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">Setup Ammortamento Cespite</value>
+ </row>
+ <row id="53180" trl="Y">
+  <value column="Name" original="Forecast Management">Previsione di Gestione</value>
+  <value column="Description" original="">Previsione di Gestione</value>
+ </row>
+ <row id="53242" trl="Y">
+  <value column="Name" original="Returns">Resi</value>
+  <value column="Description" original="">Resi</value>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="EDI">EDI ***</value>
+  <value column="Description" original="">EDI</value>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Manufacturing">Produzione (light)</value>
+  <value column="Description" original="">Produzione (light)</value>
+ </row>
+ <row id="53363" trl="Y">
+  <value column="Name" original="CRM ">CRM</value>
+  <value column="Description" original="">Gestione Vendite</value>
+ </row>
+ <row id="200095" trl="Y">
+  <value column="Name" original="Import Template">Modello Importazione</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="693166f7-2816-4bcc-b40a-d4373aaec268">
+  <value column="Name" original="Business Partner">Business Partner</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="07b6751f-ab5a-4020-83d9-558f5d86498f">
+  <value column="Name" original="Setup User and Role">Setup Utente e Ruolo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8b480d90-20ba-4949-ae56-b23183744a42">
+  <value column="Name" original="User">Utente</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="eebc47bb-07f1-4ba7-aa7c-099f0c134c55">
+  <value column="Name" original="WorkBench">Scrivania</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="206b52cf-ad24-4978-9ba1-dd80d6506c04">
+  <value column="Name" original="Azienda / Client and Organization">Azienda / Client e Org. e Magazzino</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="438aa282-fa4b-4c44-a241-231a098b8315">
+  <value column="Name" original="Utility">Utility</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="49987b72-f3aa-4e8a-ae01-d50295ffbf0d">
+  <value column="Name" original="Setup Client and Organization">Setup Client e Organizzazione</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="797982ae-9ac8-4bc5-95b4-3173518311f3">
+  <value column="Name" original="Bank / Cash ">Cassa e Banca </value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="cfcfba95-f6de-4a5a-a85d-7e89aa9a859d">
+  <value column="Name" original="Setup Resource">Setup Risorsa</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="395d522a-6017-4871-8e4f-f6f452bec2a7">
+  <value column="Name" original="Expensive">Note Spesa</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="c8f77914-28dc-4a52-95f7-08dabd8ab4a9">
+  <value column="Name" original="Request">Request</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="8605ae55-318b-4db0-8dad-b26695c15387">
+  <value column="Name" original="Setup Request">Setup Richieste</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="0a5857d8-c5f4-401c-bd44-060a032f3773">
+  <value column="Name" original="Archive Document">Archivio Allegati</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="842c6766-6e6e-45b4-9c80-2c2fb0e5a115">
+  <value column="Name" original="Email">Email</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="6650766e-7345-4bb3-9b63-f854537222b4">
+  <value column="Name" original="Sales Rep">Agente</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="099d14b8-f398-41aa-b515-f9210b4253cd">
+  <value column="Name" original="Setup Project">Setup Project</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="541524a1-db0f-49ad-94f7-3ce5ba4e51f6">
+  <value column="Name" original="Report and View">Report Project</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8ba71364-6e72-4222-af5e-17f03ab5c5a5">
+  <value column="Name" original="Project">Project</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="644ed326-0a27-469d-91bc-003f2af55b9f">
+  <value column="Name" original="Commission">Commission</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="ea2911e6-4a85-4fa0-a0c5-a7b353b245ce">
+  <value column="Name" original="Request for Quotation">Rich. di Quotazione Fornitore</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8aff851b-a5eb-42ae-966e-189804a6abb4">
+  <value column="Name" original="Setup Ciclo Passivo">Setup Ciclo Passivo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="4fb38c6b-038a-4f9e-8eb7-2cccab13f2e9">
+  <value column="Name" original="Report Ciclo Passivo">Report Ciclo Passivo</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="4da8a42c-bfc2-475f-9847-448719fa6c1a">
+  <value column="Name" original="Customer Return">Reso Cliente</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="4cb5e4c5-5678-4188-b3f6-d63eb428be01">
+  <value column="Name" original="Ordine di Acquisto">Ordine di Acquisto</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="40089766-bc6f-4882-80c4-df9cc3ed8675">
+  <value column="Name" original="Entrata Merci">Entrata Merci</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8aa018cd-e916-49c1-b718-f1ca11fd5318">
+  <value column="Name" original="Report  Offerta / Ord. di Vendita">Report  Offerta / Ord. di Vendita</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="4a7025d0-94c6-48b0-b32b-9c8245664c8b">
+  <value column="Name" original="POS">POS</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b45186d8-f4f9-4501-85e9-e155017be4f5">
+  <value column="Name" original="Report Spedizione">Report Spedizione</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ff2aa5d0-8ea8-4723-9c3b-2213c1ca4e4d">
+  <value column="Name" original="Report Rich. di Quot.Fornitore">Report Rich. di Quot.Fornitore</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="22f69dbd-3416-40c6-b0cc-badaaef2ec94">
+  <value column="Name" original="Report Entrata Merci">Report Entrata Merci</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8f72df6f-9411-4ff7-aaff-8e467e6cc17d">
+  <value column="Name" original="Fattura Fornitore">Fattura Fornitore</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5fbcbb15-cf65-4f2e-8251-b4b45957b774">
+  <value column="Name" original="Materiali">Materiali</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2132484b-fd9a-4da2-b904-f272d72bdf21">
+  <value column="Name" original="Distinte Base">Distinte Base</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="c759f4c4-8e25-4886-93cd-de43c1d60f76">
+  <value column="Name" original="Inventario">Inventario</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="2600b41d-c48b-4f0f-9b31-c4b8dc87ee88">
+  <value column="Name" original="Report Transazioni Magazzino">Report Transazioni Magazzino</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5f073139-60cf-4da4-9a36-882b495d0b3b">
+  <value column="Name" original="Magazzino">Magazzino</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="e722301b-3908-40e5-aff5-5eed6a0eb92f">
+  <value column="Name" original="Price List">Listino Prezzi</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="bda3582a-996c-4cf4-bc2e-7fb7f8f5ecb7">
+  <value column="Name" original="Report Inventario">Report Inventario</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="84739a66-e799-4426-ade5-6da0a181c06c">
+  <value column="Name" original="Contabilità">Contabilità</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5649941d-25a2-4e44-85df-3ac961fb4896">
+  <value column="Name" original="Report Contabilità">Report Contabilità</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f2232fcf-ea74-4f8b-83b9-9d14ad8e6f95">
+  <value column="Name" original="Setup Email">Setup Email</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="90a1fc91-d250-427a-9686-4d0b12aec642">
+  <value column="Name" original="Report Magazzino">Report Magazzino</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5b3a7587-e63e-45e4-a1ef-7b900994acda">
+  <value column="Name" original="Gestione Costi">Gestione Costi</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="72dde284-6fda-4ca0-8c25-1afb6e2e5fa8">
+  <value column="Name" original="Conferme Magazzino e Report">Conferme Magazzino e Report</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="00e24880-dd89-4a29-8a8b-962ee268dbbc">
+  <value column="Name" original="Setup Produzione light">Setup Produzione light</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="61f30b48-53b1-41c5-8193-f13228fa1334">
+  <value column="Name" original="Report Distinta Base">Report Distinta Base</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="aa5b74fa-731a-499f-9072-a9e22fed8d38">
+  <value column="Name" original="Report Distinta Base">Report Distinta Base</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="96f69870-ac4f-4ad5-9e9f-5391f8b37605">
+  <value column="Name" original="Setup Production">Setup Produzione</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="98fba580-22b4-4399-b2bd-6f0056f58370">
+  <value column="Name" original="Report Pagamento Incassi">Report Pagamento Incassi</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="e9399648-43fd-40c6-aba5-efc5643d23d8">
+  <value column="Name" original="Solleciti">Solleciti</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="dc5ee546-da1c-4608-a122-341a1e42886f">
+  <value column="Name" original="Banca / Cassa">Cassa e Banca</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="dfa439c4-ff02-4c4a-8ffc-7947742a0901">
+  <value column="Name" original="Cash Flow">Cash Flow</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="3720b4e7-e7b0-446d-bf0d-939b499b6b2a">
+  <value column="Name" original="Setup Report ">Setup Report </value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="bfee372e-f70b-4326-b84b-7a69aaae8916">
+  <value column="Name" original="Alert">Alert</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="7d09b3ee-5a7e-4529-869c-2b513e87ac7b">
+  <value column="Name" original="Setup Benchmark">Setup Benchmark</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="ef96b864-ca97-443d-8126-11ab0ace7756">
+  <value column="Name" original="Setup CRM">Setup CRM</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="525dfb15-888c-4f62-b097-0940f87b61c8">
+  <value column="Name" original="Setup Reso">Setup Reso</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="3667a0dc-10e6-49e0-9221-584aa8395057">
+  <value column="Name" original="Setup Reso">Setup Reso</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="c0793d56-4eb9-4b91-99f9-dd5d2a45c909">
+  <value column="Name" original="Setup Note Spesa">Setup Note Spesa</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b94fb6e7-36c4-4377-9f99-ec32ee33f339">
+  <value column="Name" original="Purchase Request">Richiesta di Acquisto</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

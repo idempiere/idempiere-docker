@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="PA_ReportLine">
+ <row id="100" trl="N">
+  <value column="Name" original="1">1</value>
+  <value column="Description" original="Assets">Assets</value>
+ </row>
+ <row id="101" trl="N">
+  <value column="Name" original="11">11</value>
+  <value column="Description" original="Cash">Cash</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="12">12</value>
+  <value column="Description" original="Accounts Receivable">Accounts Receivable</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="13">13</value>
+  <value column="Description" original="Investments">Investments</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="14">14</value>
+  <value column="Description" original="Inventory">Inventory</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="15">15</value>
+  <value column="Description" original="Prepaid Expenses, Deposits &amp; Other Current Assets" xml:space="preserve"><![CDATA[Prepaid Expenses, Deposits & Other Current Assets]]></value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="15_">15_</value>
+  <value column="Description" original="Total Current Assets">Total Current Assets</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="16">16</value>
+  <value column="Description" original="Land and Building">Land and Building</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="17">17</value>
+  <value column="Description" original="Furniture, Fixtures &amp; Equipment" xml:space="preserve"><![CDATA[Furniture, Fixtures & Equipment]]></value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="18">18</value>
+  <value column="Description" original="Accumulated Depreciation">Accumulated Depreciation</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="19">19</value>
+  <value column="Description" original="Other Assets">Other Assets</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="19_">19_</value>
+  <value column="Description" original="Fixed and other Assets">Fixed and other Assets</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="2">2</value>
+  <value column="Description" original="Liabilities">Liabilities</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="21">21</value>
+  <value column="Description" original="Accounts Payable">Accounts Payable</value>
+ </row>
+ <row id="114" trl="N">
+  <value column="Name" original="22">22</value>
+  <value column="Description" original="Accrued Expenses">Accrued Expenses</value>
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="23">23</value>
+  <value column="Description" original="Current Note Payables">Current Note Payables</value>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="24">24</value>
+  <value column="Description" original="Long Term Liabilities">Long Term Liabilities</value>
+ </row>
+ <row id="117" trl="N">
+  <value column="Name" original="3">3</value>
+  <value column="Description" original="Owner's Equity/Net Worth">Owner's Equity/Net Worth</value>
+ </row>
+ <row id="118" trl="N">
+  <value column="Name" original="31">31</value>
+  <value column="Description" original="Capital">Capital</value>
+ </row>
+ <row id="119" trl="N">
+  <value column="Name" original="32">32</value>
+  <value column="Description" original="Current Profit &amp; Loss" xml:space="preserve"><![CDATA[Current Profit & Loss]]></value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="33">33</value>
+  <value column="Description" original="Total Liabilities and Equity">Total Liabilities and Equity</value>
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="1__">1__</value>
+  <value column="Description" original="Toral Assets">Toral Assets</value>
+ </row>
+ <row id="122" trl="N">
+  <value column="Name" original="2__">2__</value>
+  <value column="Description" original="Total Liabilities">Total Liabilities</value>
+ </row>
+ <row id="123" trl="N">
+  <value column="Name" original="4">4</value>
+  <value column="Description" original="Sales">Sales</value>
+ </row>
+ <row id="124" trl="N">
+  <value column="Name" original="49">49</value>
+  <value column="Description" original="Sales Discounts">Sales Discounts</value>
+ </row>
+ <row id="125" trl="N">
+  <value column="Name" original="5">5</value>
+  <value column="Description" original="Cost of Goods Sold">Cost of Goods Sold</value>
+ </row>
+ <row id="126" trl="N">
+  <value column="Name" original="55">55</value>
+  <value column="Description" original="Returns">Returns</value>
+ </row>
+ <row id="127" trl="N">
+  <value column="Name" original="56">56</value>
+  <value column="Description" original="Inventory CoGs">Inventory CoGs</value>
+ </row>
+ <row id="128" trl="N">
+  <value column="Name" original="58">58</value>
+  <value column="Description" original="CoGs Variances">CoGs Variances</value>
+ </row>
+ <row id="129" trl="N">
+  <value column="Name" original="59">59</value>
+  <value column="Description" original="CoGS Discounts">CoGS Discounts</value>
+ </row>
+ <row id="130" trl="N">
+  <value column="Name" original="5_">5_</value>
+  <value column="Description" original="Gross Margin">Gross Margin</value>
+ </row>
+ <row id="131" trl="N">
+  <value column="Name" original="60">60</value>
+  <value column="Description" original="Payroll Expense">Payroll Expense</value>
+ </row>
+ <row id="132" trl="N">
+  <value column="Name" original="61">61</value>
+  <value column="Description" original="Occupancy Cost">Occupancy Cost</value>
+ </row>
+ <row id="133" trl="N">
+  <value column="Name" original="62">62</value>
+  <value column="Description" original="Advertising &amp; Promotion" xml:space="preserve"><![CDATA[Advertising & Promotion]]></value>
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="63">63</value>
+  <value column="Description" original="Telephone and Communication">Telephone and Communication</value>
+ </row>
+ <row id="135" trl="N">
+  <value column="Name" original="64">64</value>
+  <value column="Description" original="Professional Services">Professional Services</value>
+ </row>
+ <row id="136" trl="N">
+  <value column="Name" original="65">65</value>
+  <value column="Description" original="Stationary &amp; Supplies" xml:space="preserve"><![CDATA[Stationary & Supplies]]></value>
+ </row>
+ <row id="137" trl="N">
+  <value column="Name" original="66">66</value>
+  <value column="Description" original="Data Processing Expense">Data Processing Expense</value>
+ </row>
+ <row id="138" trl="N">
+  <value column="Name" original="67">67</value>
+  <value column="Description" original="Depreciation Expense">Depreciation Expense</value>
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="68">68</value>
+  <value column="Description" original="Travel &amp; Entertainment" xml:space="preserve"><![CDATA[Travel & Entertainment]]></value>
+ </row>
+ <row id="140" trl="N">
+  <value column="Name" original="69">69</value>
+  <value column="Description" original="Insurance">Insurance</value>
+ </row>
+ <row id="141" trl="N">
+  <value column="Name" original="70">70</value>
+  <value column="Description" original="Payment Processor Costs">Payment Processor Costs</value>
+ </row>
+ <row id="142" trl="N">
+  <value column="Name" original="71">71</value>
+  <value column="Description" original="Dues &amp; Subscriptions" xml:space="preserve"><![CDATA[Dues & Subscriptions]]></value>
+ </row>
+ <row id="143" trl="N">
+  <value column="Name" original="72">72</value>
+  <value column="Description" original="Office Expense">Office Expense</value>
+ </row>
+ <row id="144" trl="N">
+  <value column="Name" original="73">73</value>
+  <value column="Description" original="Postage &amp; Shipping" xml:space="preserve"><![CDATA[Postage & Shipping]]></value>
+ </row>
+ <row id="145" trl="N">
+  <value column="Name" original="74">74</value>
+  <value column="Description" original="Taxes and Licenses">Taxes and Licenses</value>
+ </row>
+ <row id="146" trl="N">
+  <value column="Name" original="75">75</value>
+  <value column="Description" original="Education">Education</value>
+ </row>
+ <row id="147" trl="N">
+  <value column="Name" original="76">76</value>
+  <value column="Description" original="Equipment Rent">Equipment Rent</value>
+ </row>
+ <row id="148" trl="N">
+  <value column="Name" original="77">77</value>
+  <value column="Description" original="Repairs &amp; Maintenance" xml:space="preserve"><![CDATA[Repairs & Maintenance]]></value>
+ </row>
+ <row id="149" trl="N">
+  <value column="Name" original="78">78</value>
+  <value column="Description" original="Other Operating Expenses">Other Operating Expenses</value>
+ </row>
+ <row id="150" trl="N">
+  <value column="Name" original="79">79</value>
+  <value column="Description" original="Default/Suspense Accounts">Default/Suspense Accounts</value>
+ </row>
+ <row id="151" trl="N">
+  <value column="Name" original="79_">79_</value>
+  <value column="Description" original="Total Operating Expenses">Total Operating Expenses</value>
+ </row>
+ <row id="152" trl="N">
+  <value column="Name" original="79__">79__</value>
+  <value column="Description" original="Operating Income">Operating Income</value>
+ </row>
+ <row id="153" trl="N">
+  <value column="Name" original="80">80</value>
+  <value column="Description" original="Other Income">Other Income</value>
+ </row>
+ <row id="154" trl="N">
+  <value column="Name" original="805">805</value>
+  <value column="Description" original="Currency Gain">Currency Gain</value>
+ </row>
+ <row id="155" trl="N">
+  <value column="Name" original="82">82</value>
+  <value column="Description" original="Other Expense">Other Expense</value>
+ </row>
+ <row id="156" trl="N">
+  <value column="Name" original="825">825</value>
+  <value column="Description" original="Currency Loss">Currency Loss</value>
+ </row>
+ <row id="157" trl="N">
+  <value column="Name" original="82_">82_</value>
+  <value column="Description" original="Net Income before Tax">Net Income before Tax</value>
+ </row>
+ <row id="158" trl="N">
+  <value column="Name" original="89">89</value>
+  <value column="Description" original="Income Tax &amp; Summary" xml:space="preserve"><![CDATA[Income Tax & Summary]]></value>
+ </row>
+ <row id="159" trl="N">
+  <value column="Name" original="89_">89_</value>
+  <value column="Description" original="Net Income">Net Income</value>
+ </row>
+ <row id="160" trl="N">
+  <value column="Name" original="4">4</value>
+  <value column="Description" original="Sales">Sales</value>
+ </row>
+ <row id="162" trl="N">
+  <value column="Name" original="5">5</value>
+  <value column="Description" original="Cost of Goods Sold">Cost of Goods Sold</value>
+ </row>
+ <row id="167" trl="N">
+  <value column="Name" original="Gross Margin">Gross Margin</value>
+  <value column="Description" original="Gross Margin">Gross Margin</value>
+ </row>
+ <row id="177" trl="N">
+  <value column="Name" original="6">6</value>
+  <value column="Description" original="6-Expenses">6-Expenses</value>
+ </row>
+ <row id="188" trl="N">
+  <value column="Name" original="Total Expenses">Total Expenses</value>
+  <value column="Description" original="Total  Expenses">Total  Expenses</value>
+ </row>
+ <row id="189" trl="N">
+  <value column="Name" original="Gross Margin less Expenses">Gross Margin less Expenses</value>
+  <value column="Description" original="Gross Margin less Expenses">Gross Margin less Expenses</value>
+ </row>
+ <row id="190" trl="N">
+  <value column="Name" original="80">80</value>
+  <value column="Description" original="Other Income summarized ">Other Income summarized </value>
+ </row>
+ <row id="192" trl="N">
+  <value column="Name" original="82">82</value>
+  <value column="Description" original="Other Expense">Other Expense</value>
+ </row>
+ <row id="194" trl="N">
+  <value column="Name" original="Net other income (loss)">Net other income (loss)</value>
+  <value column="Description" original="Net Other Income (loss)">Net Other Income (loss)</value>
+ </row>
+ <row id="195" trl="N">
+  <value column="Name" original="89">89</value>
+  <value column="Description" original="Income Tax &amp; Summary" xml:space="preserve"><![CDATA[Income Tax & Summary]]></value>
+ </row>
+ <row id="196" trl="N">
+  <value column="Name" original="Net Income">Net Income</value>
+  <value column="Description" original="Net Income">Net Income</value>
+ </row>
+ <row id="199" trl="N">
+  <value column="Name" original="7-Expenses">7-Expenses</value>
+  <value column="Description" original="Summary of all 7-Expenses">Summary of all 7-Expenses</value>
+ </row>
+ <row id="200" trl="N">
+  <value column="Name" original="Net Income Before Taxes">Net Income Before Taxes</value>
+  <value column="Description" original="Net Income Before Taxes">Net Income Before Taxes</value>
+ </row>
+ <row id="201" trl="N">
+  <value column="Name" original="Depreciation Expense summarized">Depreciation Expense summarized</value>
+  <value column="Description" original="Depreciation Expense summarized">Depreciation Expense summarized</value>
+ </row>
+ <row id="202" trl="N">
+  <value column="Name" original="Accrued A/P increase">Accrued A/P increase</value>
+  <value column="Description" original="Accrued A/P increase">Accrued A/P increase</value>
+ </row>
+ <row id="203" trl="N">
+  <value column="Name" original="Additions to Cash Flow">Additions to Cash Flow</value>
+  <value column="Description" original="Additions to Cash Flow">Additions to Cash Flow</value>
+ </row>
+ <row id="204" trl="N">
+  <value column="Name" original="Cash Flow sub total">Cash Flow sub total</value>
+  <value column="Description" original="Cash Flow sub total">Cash Flow sub total</value>
+ </row>
+ <row id="205" trl="N">
+  <value column="Name" original="Loss on sale of fixed asset">Loss on sale of fixed asset</value>
+  <value column="Description" original="Loss on sale of fixed asset">Loss on sale of fixed asset</value>
+ </row>
+ <row id="206" trl="N">
+  <value column="Name" original="Receivables(A/R, loans, taxes) summarized">Receivables(A/R, loans, taxes) summarized</value>
+  <value column="Description" original="Receivables(A/R, loans, taxes) summarized">Receivables(A/R, loans, taxes) summarized</value>
+ </row>
+ <row id="207" trl="N">
+  <value column="Name" original="Inventory summarized">Inventory summarized</value>
+  <value column="Description" original="Inventory summarized">Inventory summarized</value>
+ </row>
+ <row id="208" trl="N">
+  <value column="Name" original="Prepayments summarized">Prepayments summarized</value>
+  <value column="Description" original="Prepayments summarized">Prepayments summarized</value>
+ </row>
+ <row id="209" trl="N">
+  <value column="Name" original="Accounts Payable summarized">Accounts Payable summarized</value>
+  <value column="Description" original="Accounts Payable summarized">Accounts Payable summarized</value>
+ </row>
+ <row id="210" trl="N">
+  <value column="Name" original="Subtractions to Cash Flow">Subtractions to Cash Flow</value>
+  <value column="Description" original="Subtractions to Cash Flow">Subtractions to Cash Flow</value>
+ </row>
+ <row id="211" trl="N">
+  <value column="Name" original="Cash Flow from Operations">Cash Flow from Operations</value>
+  <value column="Description" original="Cash Flow from Operations">Cash Flow from Operations</value>
+ </row>
+ <row id="212" trl="N">
+  <value column="Name" original="Investments activities summarized">Investments activities summarized</value>
+  <value column="Description" original="Investments activities summarized">Investments activities summarized</value>
+ </row>
+ <row id="214" trl="N">
+  <value column="Name" original="Fixed Asset activity summarized">Fixed Asset activity summarized</value>
+  <value column="Description" original="Fixed Asset activity summarized">Fixed Asset activity summarized</value>
+ </row>
+ <row id="215" trl="N">
+  <value column="Name" original="Equipment activity summarized">Equipment activity summarized</value>
+  <value column="Description" original="Equipment activity summarized">Equipment activity summarized</value>
+ </row>
+ <row id="216" trl="N">
+  <value column="Name" original="Net cash from Investment activity">Net cash from Investment activity</value>
+  <value column="Description" original="Net cash from Investment activity">Net cash from Investment activity</value>
+ </row>
+ <row id="218" trl="N">
+  <value column="Name" original="Loss on sale of fixed asset">Loss on sale of fixed asset</value>
+  <value column="Description" original="Loss on sale of fixed asset">Loss on sale of fixed asset</value>
+ </row>
+ <row id="219" trl="N">
+  <value column="Name" original="Gain in sale of fixed asset">Gain in sale of fixed asset</value>
+  <value column="Description" original="Gain in sale of fixed asset">Gain in sale of fixed asset</value>
+ </row>
+ <row id="220" trl="N">
+  <value column="Name" original="Net gain on sale of fixed assets">Net gain on sale of fixed assets</value>
+  <value column="Description" original="Net gain  on sale of fixed assets">Net gain  on sale of fixed assets</value>
+ </row>
+ <row id="221" trl="N">
+  <value column="Name" original="Accum. Depreciation summarized">Accum. Depreciation summarized</value>
+  <value column="Description" original="Accum. Depreciation summarized">Accum. Depreciation summarized</value>
+ </row>
+ <row id="222" trl="N">
+  <value column="Name" original="Accum. Depreciation summarized for Investments">Accum. Depreciation summarized for Investments</value>
+  <value column="Description" original="Accum. Depreciation summarized for Investments">Accum. Depreciation summarized for Investments</value>
+ </row>
+ <row id="223" trl="N">
+  <value column="Name" original="Common Stock summarized">Common Stock summarized</value>
+  <value column="Description" original="Common Stock summarized">Common Stock summarized</value>
+ </row>
+ <row id="224" trl="N">
+  <value column="Name" original="Cash Dividends summarized">Cash Dividends summarized</value>
+  <value column="Description" original="Cash Dividends summarized">Cash Dividends summarized</value>
+ </row>
+ <row id="225" trl="N">
+  <value column="Name" original="Net cash from financing activity">Net cash from financing activity</value>
+  <value column="Description" original="Net cash from financing activity">Net cash from financing activity</value>
+ </row>
+ <row id="226" trl="N">
+  <value column="Name" original="Cash flow from investing and financing activity">Cash flow from investing and financing activity</value>
+  <value column="Description" original="Cash flow from investing and financing activity">Cash flow from investing and financing activity</value>
+ </row>
+ <row id="227" trl="N">
+  <value column="Name" original="Net  calculated change in cash">Net  calculated change in cash</value>
+  <value column="Description" original="Net calculated change in cash">Net calculated change in cash</value>
+ </row>
+ <row id="230" trl="N">
+  <value column="Name" original="Cash summarized">Cash summarized</value>
+  <value column="Description" original="Cash summarized">Cash summarized</value>
+ </row>
+ <row id="231" trl="N">
+  <value column="Name" original="Amoritization summarized">Amoritization summarized</value>
+  <value column="Description" original="Amoritization summarized">Amoritization summarized</value>
+ </row>
+ <row id="232" trl="N">
+  <value column="Name" original="Uninsured Casualty Loss ">Uninsured Casualty Loss </value>
+  <value column="Description" original="Uninsured Casualty Loss">Uninsured Casualty Loss</value>
+ </row>
+ <row id="233" trl="N">
+  <value column="Name" original="Unrealized Loss">Unrealized Loss</value>
+  <value column="Description" original="Unrealized Loss">Unrealized Loss</value>
+ </row>
+ <row id="234" trl="N">
+  <value column="Name" original="Capital Loss">Capital Loss</value>
+  <value column="Description" original="Capital Loss">Capital Loss</value>
+ </row>
+ <row id="235" trl="N">
+  <value column="Name" original="Unrealized Gain">Unrealized Gain</value>
+  <value column="Description" original="Unrealized Gain">Unrealized Gain</value>
+ </row>
+ <row id="236" trl="N">
+  <value column="Name" original="Fixed Asset Sale Gain">Fixed Asset Sale Gain</value>
+  <value column="Description" original="Fixed Asset Sale Gain">Fixed Asset Sale Gain</value>
+ </row>
+ <row id="237" trl="N">
+  <value column="Name" original="Currency Balancing summarized">Currency Balancing summarized</value>
+  <value column="Description" original="Currency Balancing summarized">Currency Balancing summarized</value>
+ </row>
+ <row id="238" trl="N">
+  <value column="Name" original="Sub total asset changes">Sub total asset changes</value>
+  <value column="Description" original="Sub total asset changes">Sub total asset changes</value>
+ </row>
+ <row id="239" trl="N">
+  <value column="Name" original="Change in Deposits">Change in Deposits</value>
+  <value column="Description" original="Change in Deposits">Change in Deposits</value>
+ </row>
+ <row id="240" trl="N">
+  <value column="Name" original="Unrealized Gain summarized for total cash flow">Unrealized Gain summarized for total cash flow</value>
+  <value column="Description" original="Unrealized Gain summarized for total cash flow">Unrealized Gain summarized for total cash flow</value>
+ </row>
+ <row id="241" trl="N">
+  <value column="Name" original="Unrealized Losses summarized for total Cash flow">Unrealized Losses summarized for total Cash flow</value>
+  <value column="Description" original="Unrealized Losses summarized for total Cash flow">Unrealized Losses summarized for total Cash flow</value>
+ </row>
+ <row id="242" trl="N">
+  <value column="Name" original="Currency Balancing summarized for total Cash flow">Currency Balancing summarized for total Cash flow</value>
+  <value column="Description" original="Unrealized Balancing summarized for total Cash flow">Unrealized Balancing summarized for total Cash flow</value>
+ </row>
+ <row id="243" trl="N">
+  <value column="Name" original="Net total effect of change in Direct Exchange rate">Net total effect of change in Direct Exchange rate</value>
+  <value column="Description" original="Net total effect of change in Direct Exchange rate">Net total effect of change in Direct Exchange rate</value>
+ </row>
+ <row id="244" trl="N">
+  <value column="Name" original="Total Net  Cash Flow">Total Net  Cash Flow</value>
+  <value column="Description" original="Total Net  Cash Flow">Total Net  Cash Flow</value>
+ </row>
+</idempiereTrl>

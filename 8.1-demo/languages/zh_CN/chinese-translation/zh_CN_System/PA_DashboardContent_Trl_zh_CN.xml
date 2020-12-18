@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="PA_DashboardContent">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Activities">待办事宜</value>
+  <value column="Description" original="Workflow activities, notices and requests">工作流活动，通知和请求</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Favourites">收藏夹</value>
+  <value column="Description" original="User favourities">用户收藏夹</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Views">信息查询</value>
+  <value column="Description" original="Info views">信息视图</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Performance">绩效面板</value>
+  <value column="Description" original="Performance meters">绩效</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Recent Items">操作记录</value>
+  <value column="Description" original="Recent items">最近使用功能</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Menu">菜单</value>
+  <value column="Description" original="Menu">菜单</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Running Jobs">后台任务</value>
+  <value column="Description" original="Running Jobs">运行中的批处理</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Activities">待办事宜</value>
+  <value column="Description" original="Document Status">代办事宜</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="63860d80-0cc7-427e-8bdd-06f9708a302a">
+  <value column="Name" original="Calendar">待办日历</value>
+  <value column="Description" original="Request Calendar"/>
+  <value column="HTML" original=""/>
+ </row>
+</idempiereTrl>

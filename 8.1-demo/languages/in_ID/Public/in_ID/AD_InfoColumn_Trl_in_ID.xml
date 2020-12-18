@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="in_ID" table="AD_InfoColumn">
+ <row id="200005" trl="N">
+  <value column="Name" original="Vendor">Vendor</value>
+  <value column="Description" original="Current Vendor">Current Vendor</value>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="D">D</value>
+  <value column="Description" original="This product is no longer available">This product is no longer available</value>
+  <value column="Help" original="The Discontinued check box indicates a product that has been discontinued.">The Discontinued check box indicates a product that has been discontinued.</value>
+  <value column="Placeholder" original=""/>
+ </row>
+ <row id="200155" trl="N">
+  <value column="Name" original="Role Name">Role Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+  <value column="Placeholder" original=""/>
+ </row>
+</idempiereTrl>
