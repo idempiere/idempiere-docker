@@ -24,6 +24,7 @@ Productive iDempiere Environment
 -	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
 -	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/7.1)
 -	[`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
+-     [8.1-demo](If you wanna have your own demo site with some languages loaded)
 
 ## iDempiere Source
 
@@ -50,13 +51,18 @@ For more information [here](https://www.idempiere.org/about/).
 iDempiere Docker uses a postgres admin password and user to create a clean database, example `POSTGRES_PASSWORD=postgres`, if you are using a different configuration you need to see [Environment Variables](#environment-variables):
 
 ```bash
-$ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:12
+$ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:13
 ```
 > Remember to change the postgres port in case you have one previously running, example `-p 5433:5432`.
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
 $ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.1
+```
+or for demo site:
+
+```bash
+$ docker run -d --name idempiere-demo -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.1-demo
 ```
 
 For persistent data see the section [Volumes](#volumes).
