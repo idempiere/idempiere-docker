@@ -58,7 +58,6 @@ if [[ "$1" == "idempiere" ]]; then
         echo "Shutting down..."
         exit 1
     fi
-
     echo -e "$JAVA_HOME\n$IDEMPIERE_HOME\n$KEY_STORE_PASS\n$KEY_STORE_ON\n$KEY_STORE_OU\n$KEY_STORE_O\n$KEY_STORE_L\n$KEY_STORE_S\n$KEY_STORE_C\n$IDEMPIERE_HOST\n$IDEMPIERE_PORT\n$IDEMPIERE_SSL_PORT\nN\n2\n$DB_HOST\n$DB_PORT\n$DB_NAME\n$DB_USER\n$DB_PASS\n$DB_ADMIN_PASS\n$MAIL_HOST\n$MAIL_USER\n$MAIL_PASS\n$MAIL_ADMIN\nY\n" | ./console-setup.sh
 
     if ! PGPASSWORD=$DB_PASS psql -h $DB_HOST -U $DB_USER -d $DB_NAME -c "\q" > /dev/null 2>&1 ; then
@@ -81,26 +80,7 @@ if [[ "$1" == "idempiere" ]]; then
             ./sign-database-build.sh
         else
             echo "MIGRATE_EXISTING_DATABASE is equal to 'false'. Skipping..."
-        fi
-        set -x
-        cat /languages/LangPairs | while read ID_LANG ID_FOLDER
-        do
-            echo "*** Adding language $ID_LANG from folder $ID_FOLDER *** - $(date +'%Y-%m-%d %H:%M:%S')"
-            cd "$ID_FOLDER"
-            if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
-               git pull -v
-            elif hg -q stat > /dev/null 2>&1; then
-               hg -v pull -u
-            else
-                echo "$ID_FOLDER is not git or hg.  *** VERIFY how to update ***"
-            fi
-           cd /$IDEMPIERE_HOME/utils
-           PGPASSWORD=$DB_PASS psql -h $DB_HOST -U $DB_USER -d $DB_NAME  -c "UPDATE AD_Language SET IsSystemLanguage='Y', IsLoginLocale='Y' WHERE AD_Language='$ID_LANG'"
-           bash RUN_TrlImport.sh $ID_LANG $ID_FOLDER
-        done
-        cd /$IDEMPIERE_HOME/utils
-        echo "*** Synchronize Terminology *** - $(date +'%Y-%m-%d %H:%M:%S')"
-        bash RUN_SyncTerm.sh
+        fi       
     fi
 fi
 

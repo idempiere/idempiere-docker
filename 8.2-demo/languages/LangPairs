@@ -1,11 +1,11 @@
-es_CO /languages/es_CO/globalqss-idempiere-lco/es_CO
-de_DE /languages/de_DE/tbayen.translations/data/de_DE
-fr_FR /languages/fr_FR
-in_ID /languages/in_ID/Public/in_ID
-it_IT /languages/it_IT
-ja_JP /languages/ja_JP
-pt_BR /languages/pt_BR/idempiere-pt_br/pt_BR
-ro_RO /languages/ro_RO
-zh_CN /languages/zh_CN/chinese-translation/zh_CN_GardenWorld
-zh_CN /languages/zh_CN/chinese-translation/zh_CN_System
-ar_DZ /languages/ar_DZ/ar_DZ
+es_CO /languages/es_CO/globalqss-idempiere-lco/es_CO https://github.com/globalqss/globalqss-idempiere-lco.git
+de_DE /languages/de_DE/tbayen.translations/data/de_DE https://github.com/bxservice/tbayen.translations.git
+fr_FR /languages/fr_FR https://github.com/nmicoud/fr_FR.git
+in_ID /languages/in_ID/Public/in_ID https://github.com/ferryirawan-idempiere/Public.git
+it_IT /languages/it_IT https://github.com/idempiere-consulting/idempiere-italy-translation.git
+ja_JP /languages/ja_JP https://github.com/JPiere/japanese-translation.git
+pt_BR /languages/pt_BR/idempiere-pt_br/pt_BR https://github.com/devcoffee/idempiere-pt_br
+ro_RO /languages/ro_RO https://github.com/idempiere-consulting/idempiere-romanian-translation
+zh_CN /languages/zh_CN/chinese-translation/zh_CN_GardenWorld https://gitee.com/idchina/chinese-translation.git
+zh_CN /languages/zh_CN/chinese-translation/zh_CN_System https://gitee.com/idchina/chinese-translation.git
+ar_DZ /languages/ar_DZ/ar_DZ https://github.com/djoudi/ar_DZ.git 

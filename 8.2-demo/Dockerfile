@@ -22,6 +22,7 @@ RUN wget -q $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip && \
     rm -rf /tmp/idempiere*
 RUN cat $IDEMPIERE_HOME/MD5SUMS
 RUN ln -s $IDEMPIERE_HOME/idempiere-server.sh /usr/bin/idempiere
+RUN chmod +x $IDEMPIERE_HOME/*.sh
 
 COPY languages /languages
 COPY docker-entrypoint.sh $IDEMPIERE_HOME
