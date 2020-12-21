@@ -1,3 +1,0 @@
-instructions.configure = \
-setStartLevel(startLevel:5); \
-markStarted(started: true);

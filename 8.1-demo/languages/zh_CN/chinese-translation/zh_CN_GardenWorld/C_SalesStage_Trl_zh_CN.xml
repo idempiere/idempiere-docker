@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 4.1_2016-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="zh_CN" table="C_SalesStage">
- <row trl="N" uuid="a2cd7664-d47d-468a-86ed-4f9c0fe53354">
-  <value column="Name" original="阶段1">阶段1</value>
-  <value column="Description" original=""/>
- </row>
-</idempiereTrl>

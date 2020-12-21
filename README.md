@@ -23,8 +23,9 @@ Productive iDempiere Environment
 
 -	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
 -	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/7.1)
--	[`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
--     [8.1-demo](If you wanna have your own demo site with some languages loaded)
+-    [`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
+-	[`8.2`](https://github.com/idempiere/idempiere-docker/tree/master/8.2)
+-     [8.2-demo](If you wanna have your own demo site with some languages loaded)
 
 ## iDempiere Source
 
@@ -33,6 +34,7 @@ iDempiere's Source Code for Development Environment
 -	[`source-master`](https://github.com/idempiere/idempiere-docker/tree/master/source-master)
 -	[`source-release-7.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-7.1)
 -	[`source-release-8.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.1)
+-    [`source-release-8.2`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.2)
 
 # What is iDempiere?
 
@@ -57,12 +59,12 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
-$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.1
+$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.2
 ```
 or for demo site:
 
 ```bash
-$ docker run -d --name idempiere-demo -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.1-demo
+$ docker run -d --name idempiere-demo -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.2-demo
 ```
 
 For persistent data see the section [Volumes](#volumes).
@@ -81,7 +83,7 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
   -e DB_USER=adempiere\
   -e DB_PASS=adempiere\
   -e DB_ADMIN_PASS=postgres\
-  idempiereofficial/idempiere:8.1
+  idempiereofficial/idempiere:8.2
 ```
 
 For secrets see the section [Docker Secrets](#docker-secrets).
@@ -95,7 +97,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:8.1
+    image: idempiereofficial/idempiere:8.2
     volumes:
       - idempiere_config:/opt/idempiere/configuration
       - idempiere_plugins:/opt/idempiere/plugins
@@ -276,7 +278,7 @@ command: idempiere debug
 Or adding to bash command:
 
 ```
-docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.1 idempiere debug
+docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.2 idempiere debug
 ```
 
 # Docker Secrets
@@ -310,7 +312,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:8.1
+    image: idempiereofficial/idempiere:8.2
     environment:
       - TZ=America/Guayaquil
       - DB_ADMIN_PASS_FILE=/run/secrets/db_admin_pass
@@ -347,7 +349,8 @@ Use this images for development purposes.
 
 -	[`source-master`](https://github.com/idempiere/idempiere-docker/tree/master/source-master) corresponding to [iDempiere master brach](https://github.com/idempiere/idempiere/tree/master)
 -	[`source-release-7.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-7.1) corresponding to [iDempiere release-7.1 brach](https://github.com/idempiere/idempiere/tree/release-7.1)
--	[`source-release-8.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.1) corresponding to [iDempiere release-8.1 brach](https://github.com/idempiere/idempiere/tree/release-8.1)
+-    [`source-release-8.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.1) corresponding to [iDempiere release-8.1 brach](https://github.com/idempiere/idempiere/tree/release-8.1)
+-	[`source-release-8.2`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.2) corresponding to [iDempiere release-8.2 brach](https://github.com/idempiere/idempiere/tree/release-8.2)
 
 ### Env Variables
 
