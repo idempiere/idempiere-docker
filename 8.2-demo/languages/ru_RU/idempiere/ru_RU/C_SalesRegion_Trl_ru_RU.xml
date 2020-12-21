@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="C_SalesRegion">
+ <row trl="N" uuid="43bb4861-f3d3-47c6-8b2f-9cadd9faefed">
+  <value column="Name" original="Стандарт">Стандарт</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="93fac714-1e97-4c9f-aad5-ae1a35ddc7c1">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="892144a7-83ce-4dc8-8ac9-db5b2110e427">
+  <value column="Name" original="Стандартный">Стандартный</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

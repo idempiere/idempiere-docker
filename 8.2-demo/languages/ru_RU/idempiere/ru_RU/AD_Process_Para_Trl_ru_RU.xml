@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_Process_Para">
+ <row id="227" trl="Y">
+  <value column="Name" original="Delete existing Accounting Entries">Удалить существующие учетные записи</value>
+  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">ВНИМАНИЕ!!! Выбранные учетные записи будут удалены!</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Pricelist Version">Версия прайс-листа</value>
+  <value column="Description" original="Only used if Price List is used to set future/standard cost price">Используется только если будущие/стандартные расходы устанавливаются с помощью прайс-листа</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Overwrite Payment Rule">Перезаписать правила оплаты</value>
+  <value column="Description" original="Overwrite how to pay the invoice">Перезаписать правила оплаты счетов</value>
+  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">Правила оплаты определяют способ погашения счетов — Вы можете перезаписать значение из накладной.</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="From User">От кого</value>
+  <value column="Description" original="Send EMail from user">Отправить e-mail от имени этого пользователя</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">E-mail отправляется выбранного пользователя — иначе от имени пользователя, указанного в качестве пользователя запроса для Клиента.</value>
+ </row>
+ <row id="452" trl="Y">
+  <value column="Name" original="Maintenance Mode">Способ поддержки</value>
+  <value column="Description" original="Language Maintenance Mode">Способ поддержки языка</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="467" trl="Y">
+  <value column="Name" original="Existing Organization">Существующая организция</value>
+  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">Организация в рамках Клиента — оставьте пустым, если хотите создать новую Организацию</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">Организация — это подразделение Клиента, например, склад, отдел. Вы можете обмениваться данными между организациями.</value>
+ </row>
+ <row id="469" trl="Y">
+  <value column="Name" original="Limit Access to Role">Ограничить доступ к роли</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">Если никакая роль не выбрана, предоставить доступ ко всем ролям клиента, кроме назначаемых вручную</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Роль определяет безопасность и доступ, которыми пользователь, имеющий эту роль, будет обладать в Системе.</value>
+ </row>
+ <row id="493" trl="Y">
+  <value column="Name" original="New User/Contact">Новый Пользователь/Контакт</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы - внутренний или контакт бизнес-партнера</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле Пользователь определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт Бизнес-партнера</value>
+ </row>
+ <row id="494" trl="Y">
+  <value column="Name" original="New Workflow Responsible">Создать ответственность за технологический процесс</value>
+  <value column="Description" original="Responsible for Workflow Execution">Ответственность за выполнение технологического процесса</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Конечная ответственность за бизнес-процесс лежит на действительном пользователе. Ответственный за бизнес-процесс позволяет определять пути для нахождения этого действительного пользователя.</value>
+ </row>
+ <row id="496" trl="Y">
+  <value column="Name" original="New User/Contact">Новый Пользователь/Контакт</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы - внутренний или контакт бизнес-партнера</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле Пользователь определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт Бизнес-партнера</value>
+ </row>
+ <row id="497" trl="Y">
+  <value column="Name" original="New Workflow Responsible">Создать ответственность за технологический процесс</value>
+  <value column="Description" original="Responsible for Workflow Execution">Ответственность за выполнение технологического процесса</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Конечная ответственность за бизнес-процесс лежит на действительном пользователе. Ответственный за бизнес-процесс позволяет определять пути для нахождения этого действительного пользователя.</value>
+ </row>
+ <row id="523" trl="Y">
+  <value column="Name" original="Default Sales Rep">Торговый представитель по умолчанию</value>
+  <value column="Description" original="If not defined on Business Partner Level">Если не определено на уровне Бизнес-партнера</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="524" trl="Y">
+  <value column="Name" original="Dunning Currency">Валюта требования об уплате</value>
+  <value column="Description" original="Currency to create Dunning Letters">Валюта для создания писем с требованиями об уплате</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Role To">В роль</value>
+  <value column="Description" original="Responsibility Role">Функции роли</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Роль определяет безопасность и доступ, которыми пользователь, имеющий эту роль, будет обладать в Системе.</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Role From">Из роли</value>
+  <value column="Description" original="Responsibility Role">Функции роли</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Роль определяет безопасность и доступ, которыми пользователь, имеющий эту роль, будет обладать в Системе.</value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="IMAP Password">Пароль IMAP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Request Folder">Папка запроса</value>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder"/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder"/>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Inbox Folder">Папка Inbox</value>
+  <value column="Description" original="Mail folder, where process will take email and make request"/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer"/>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Error Folder">Папка Error</value>
+  <value column="Description" original="Mail folder to push unsuccess email  "/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer"/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Shipment Date">Дата расходной накладной</value>
+  <value column="Description" original="Date printed on shipment">Дата расходной накладной</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">Дата расходной накладной определяет дату,которая будет напечатана на расходной накладной.</value>
+ </row>
+ <row id="53011" trl="Y">
+  <value column="Name" original="Print Unprocessed Entries Only">Печатать только необработанные записи</value>
+  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">Печатать только необработанные (ненапечатанные) напоминания об уплате долга</value>
+  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Печать только необработанных (ненапечатанных) требований об уплате долга. Позволяет печатать только определенные требования об уплате.</value>
+ </row>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Purchase Price List Version">Версия прайс-листа покупки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53030" trl="Y">
+  <value column="Name" original="New Product">Новый продукт</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Action">Действие</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Is Print Pack &amp; Tools List">Печатать Упаковочный лист</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Is Print Pick List">Печатать Отборочный лист</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Is Print Workflow">Печатать Технологический процесс</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53127" trl="Y">
+  <value column="Name" original="Generate Fields">Создание полей</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53131" trl="Y">
+  <value column="Name" original="Scripts Path">Путь к сценарию</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Includes only the Tabs that Insert records">Включать только вкладки, которые вставляютзаписи</value>
+  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">Создать формат экспорта только для вкладок, которые вставляют записи</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Includes only the mandatory columns">Включать только обязательные столбцы</value>
+  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">Создать строку экспорта формата только для обязательных столбцов </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53219" trl="Y">
+  <value column="Name" original="Based in DRP Demand">Основано на спросе ПРР</value>
+  <value column="Description" original="Based in DRP Demand">Основано на спросе ПРР</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53232" trl="Y">
+  <value column="Name" original="Bank Account From">С банковского счета</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53233" trl="Y">
+  <value column="Name" original="Bank Account To">На банковский счет</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53243" trl="Y">
+  <value column="Name" original="Valid from">Действительно с</value>
+  <value column="Description" original="Valid from including this date (first day)">Действительно с этой даты включительно (начальная дата)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">Дата Действителен с показывает первый день временногро периода</value>
+ </row>
+ <row id="53246" trl="Y">
+  <value column="Name" original="Bank Account From">С банковского счета</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="Bank Account To">На банковский счет</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53263" trl="Y">
+  <value column="Name" original="Account Date">Учетная дата</value>
+  <value column="Description" original="Optional account date range">Диапазон учетных дат</value>
+  <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">Будут сброшены документы только в рамках этого диапазона дат, которые также находятся в открытом периоде</value>
+ </row>
+ <row id="53282" trl="Y">
+  <value column="Name" original="Client Name">Наименование клиента</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53284" trl="Y">
+  <value column="Name" original="Administrative User Name">Имя администратора</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53285" trl="Y">
+  <value column="Name" original="Normal User Name">Имя пользователя</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53289" trl="Y">
+  <value column="Name" original="City Name">Наименование города</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53291" trl="Y">
+  <value column="Name" original="BP Accounting">БП учет</value>
+  <value column="Description" original="Use BP accounting dimension">Использовать учетную размерность для БП</value>
+  <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">Определяет, будет ли Клиент использовать учетную размерность БП. Настройка может быть изменена позже в окне Схема учета.</value>
+ </row>
+ <row id="53292" trl="Y">
+  <value column="Name" original="Product Accounting">Продуктовый учет</value>
+  <value column="Description" original="Use Product accounting dimension">Использовать размерность продуктового учета</value>
+  <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">Определяет, будет ли Клиент использовать размерность продуктового учета. Настройка может быть изменена позже в окне Схема учета.</value>
+ </row>
+ <row id="53293" trl="Y">
+  <value column="Name" original="Project Accounting">Проектный учет</value>
+  <value column="Description" original="Use Project accounting dimension">Использовать размерность проектного учета</value>
+  <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">Определяет, будет ли Клиент использовать размерность проектного учета. Настройка может быть изменена позже в окне Схема учета.</value>
+ </row>
+ <row id="53294" trl="Y">
+  <value column="Name" original="Campaign Accounting">Учет кампаний</value>
+  <value column="Description" original="Use Campaign accounting dimension">Использовать размерность учета кампаний</value>
+  <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">Определяет, будет ли Клиент использовать размерность учета кампаний. Настройка может быть изменена позже в окне Схема учета.</value>
+ </row>
+ <row id="53295" trl="Y">
+  <value column="Name" original="Sales Region Accounting">Учета региона продаж</value>
+  <value column="Description" original="Use Sales Region accounting dimension">Использовать размерность учета региона продаж</value>
+  <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">Определяет, будет ли Клиент использовать размерность учета региона продаж. Настройка может быть изменена позже в окне Схема учета.</value>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Chart of Accounts File">Файл Плана счетов</value>
+  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">Расположение Плана счетов, который будет использоваться этим клиентом. На данном этапе создаются только записи по умолчанию.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53314" trl="Y">
+  <value column="Name" original="Full rebuild">Перестроить полностью</value>
+  <value column="Description" original="Delete all existing summary data and recalculate.">Удалить все существующие итоговые данные и пересчитать.</value>
+  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">Если не выбрано, то будут пересчитаны только те периоды с недавно опубликованными данными бух.учета.</value>
+ </row>
+ <row id="53316" trl="Y">
+  <value column="Name" original="Force">Принудительно</value>
+  <value column="Description" original="Force rebuild of cube even if locked.">Принудительное перестроение, даже если заблокировано</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53485" trl="N">
+  <value column="Name" original="Periodicity">Periodicity</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53486" trl="N">
+  <value column="Name" original="Repetitions">Repetitions</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53516" trl="N">
+  <value column="Name" original="Recreate">Recreate</value>
+  <value column="Description" original="Overwrite existing production lines">Overwrite existing production lines</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53517" trl="Y">
+  <value column="Name" original="Production Quantity">Производство кол-во</value>
+  <value column="Description" original="Quantity of products to produce">Какое количества товара нужно произвести</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">Производство количество - указывает какое количество товара нужно произвести</value>
+ </row>
+ <row id="53526" trl="N">
+  <value column="Name" original="Is Kanban">Is Kanban</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53582" trl="N">
+  <value column="Name" original="CreateOpportunity">CreateOpportunity</value>
+  <value column="Description" original="Create Opportunity">Create Opportunity</value>
+  <value column="Help" original="Create a new Sales Opportunity when converting a lead">Create a new Sales Opportunity when converting a lead</value>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="New EMail Confirm">New EMail Confirm</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Reset Existing Access">Reset Existing Access</value>
+  <value column="Description" original="Reset Existing Access">Reset Existing Access</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200055" trl="N">
+  <value column="Name" original="Product">Product</value>
+  <value column="Description" original="Please enter the product (component) you wish to search for">Please enter the product (component) you wish to search for</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200060" trl="N">
+  <value column="Name" original="Financial Year Month">Financial Year Month</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+ </row>
+ <row id="200062" trl="N">
+  <value column="Name" original="Financial Year Month">Financial Year Month</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+ </row>
+ <row id="200071" trl="N">
+  <value column="Name" original="Document Type">Document Type</value>
+  <value column="Description" original="Inventory Cost Adjustment Document Type">Inventory Cost Adjustment Document Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Administrative User Email">Administrative User Email</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200075" trl="N">
+  <value column="Name" original="Normal User Email">Normal User Email</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200077" trl="N">
+  <value column="Name" original="Created Since">Created Since</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200084" trl="N">
+  <value column="Name" original="Use Default CoA">Use Default CoA</value>
+  <value column="Description" original="Use Default Chart of Accounts">Use Default Chart of Accounts</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200085" trl="N">
+  <value column="Name" original="Activity Accounting">Activity Accounting</value>
+  <value column="Description" original="Use Activity accounting dimension">Use Activity accounting dimension</value>
+  <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ </row>
+ <row id="200086" trl="N">
+  <value column="Name" original="Inactivate Defaults">Inactivate Defaults</value>
+  <value column="Description" original="Inactivate Defaults after Created">Inactivate Defaults after Created</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200102" trl="N">
+  <value column="Name" original="Cost Adjustment Document Type">Cost Adjustment Document Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200121" trl="N">
+  <value column="Name" original="Inbox As Root Folder">Inbox As Root Folder</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder">True if other folder (request, error,..) occupy in inbox folder</value>
+  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
+this field define where request, error,.. occupy.</value>
+ </row>
+ <row id="200226" trl="N">
+  <value column="Name" original="Folder">Folder</value>
+  <value column="Description" original="Path on the server where the pack in files are located">Path on the server where the pack in files are located</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="0c82f4f6-43fd-4b47-95f7-59f81a3a34b2">
+  <value column="Name" original="Payroll Payments">Payroll Payments</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="34b2c1b5-0243-458b-b12f-c40d6313acd6">
+  <value column="Name" original="Delete MRP?">Delete MRP?</value>
+  <value column="Description" original="Delete previous same but closed records">Delete previous same but closed records</value>
+  <value column="Help" original="Delete only smiliarly now selected but with status CL or Closed">Delete only smiliarly now selected but with status CL or Closed</value>
+ </row>
+ <row trl="N" uuid="1a1ed8b2-dbdd-421f-9352-9d2914fbb8c6">
+  <value column="Name" original="Delete MRP?">Delete MRP?</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a99a42ff-faa5-4f61-bd03-a217fb9f63ae">
+  <value column="Name" original="IMAP Host">Хост IMAP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7f4b5d41-24f4-4ec5-94c7-9527cd8bcfdc">
+  <value column="Name" original="IMAP User">Пользователь IMAP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="3cb70c45-0920-4263-bfec-b258f1092dbe">
+  <value column="Name" original="IMAP Password">Пароль IMAP</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="1ea72965-d5df-49ca-8595-bea18121de82">
+  <value column="Name" original="Request Folder">Папка запроса</value>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder"/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder"/>
+ </row>
+ <row trl="Y" uuid="ca6a2438-2836-48f5-b8ff-78b50183b693">
+  <value column="Name" original="Inbox Folder">Папка Inbox</value>
+  <value column="Description" original="Mail folder, where process will take email and make request"/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer"/>
+ </row>
+ <row trl="Y" uuid="11ea99bd-d244-41b4-880c-e0828c49a54f">
+  <value column="Name" original="Error Folder">Папка Error</value>
+  <value column="Description" original="Mail folder to push unsuccess email  "/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer"/>
+ </row>
+ <row trl="N" uuid="c6699c15-2e1e-4b56-9cb8-a07f7f03e2e6">
+  <value column="Name" original="Inbox As Root Folder">Inbox As Root Folder</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder">True if other folder (request, error,..) occupy in inbox folder</value>
+  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
+this field define where request, error,.. occupy.</value>
+ </row>
+ <row trl="Y" uuid="c6d31575-7051-442c-89ce-b9ae479eaf1b">
+  <value column="Name" original="Business Partner ">Бизнес партнер </value>
+  <value column="Description" original="Identifies a Business Partner">Идентифицикация бизнес-партнера</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Бизнес партнер</value>
+ </row>
+ <row trl="Y" uuid="dc31fd15-7209-427d-acb0-d6f22fb12955">
+  <value column="Name" original="Role">Роль</value>
+  <value column="Description" original="Responsibility Role">Функции роли</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Роль определяет безопасность и доступ, которыми пользователь, имеющий эту роль, будет обладать в Системе.</value>
+ </row>
+ <row trl="Y" uuid="4abcda09-e1d4-4cb3-ac16-e00574e615ad">
+  <value column="Name" original="Sales Representative">Торговый представитель</value>
+  <value column="Description" original="Sales Representative or Company Agent">Торговый представитель или агент компании</value>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">Торговый представитель показывает торгового представителя для в этом регионе. Любой торговый представитель должен быть действительным внутренним пользователем.</value>
+ </row>
+ <row trl="Y" uuid="7a4b639c-2090-4b2a-98ca-ee28086a8082">
+  <value column="Name" original="Activity Type">Тип запроса</value>
+  <value column="Description" original="Type of activity (e.g. Call, E-Mail, ..)">Тип запроса (например, наведение справки, жалоба,..)</value>
+  <value column="Help" original="Activity Types are used for processing and categorizing activity. Options are Account Inquiry, Warranty Issue, etc.">Типы запросов используются для обаботки и классификации запросов. Варианты это запрос по счету, гарантийные проблемы, итд.</value>
+ </row>
+ <row trl="Y" uuid="8721de6c-0711-42e7-bfd5-fe82715dbd70">
+  <value column="Name" original="User Importance">Важность для пользователя</value>
+  <value column="Description" original="Priority of the issue for the User">Приоритет вопроса для пользователя</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="4304bc45-21f9-42ab-a9d8-56df6d944b85">
+  <value column="Name" original="Confidentiality">Конфиденциальность</value>
+  <value column="Description" original="Type of Confidentiality">Тип конфиденциальности</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

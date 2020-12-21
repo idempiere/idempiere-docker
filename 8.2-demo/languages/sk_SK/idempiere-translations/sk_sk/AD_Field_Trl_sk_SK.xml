@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_Field">
+ <row id="1546" trl="Y">
+  <value column="Name" original="Link Column">Spoj stĺpec</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Spoj stĺpec pre viacrodičovské tabuľky</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).</value>
+ </row>
+ <row id="2124" trl="Y">
+  <value column="Name" original="Language">Jazyk</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Jazyk pre tohto obchodného partnera, ktorý umožňuje viacjazyčnosť</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+ </row>
+ <row id="3665" trl="Y">
+  <value column="Name" original="Start Node">Začiatok uzlu</value>
+  <value column="Description" original="Workflow Node, step or process">Uzol workflowu, krok alebo spracovanie</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Uzol workflowu vyjadruje jedinečný krok alebo spracovanie vo workflowe.</value>
+ </row>
+ <row id="4055" trl="Y">
+  <value column="Name" original="Tax Amount">Čiastka dane</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">Čiastka dane pre operácie s kreditnou kartou</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">Čiastka dane zobrazuje celkovú čiastku dane. Čiastka dane je používané iba pri spracovaniach s kreditnou kartou.</value>
+ </row>
+ <row id="4121" trl="Y">
+  <value column="Name" original="Account Conversion Date">Dátum účtovania</value>
+  <value column="Description" original="Accounting Conversion Date">Dátum účtovania</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">Dátum použitý pri zápisoch na účty Hlavnej knihy generovaných z daného dokumentu. Tento dátum sa používa aj pri výmenných kurzoch cudzích mien.</value>
+ </row>
+ <row id="4462" trl="Y">
+  <value column="Name" original="Business Partner / Sales Rep">Obchodný Partner / Obchodník</value>
+  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">Identifikácia obchodného partnera (obchodníka) prijímajúceho províziu</value>
+  <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">Obchodným partnerom môže byť dodávateľ a môže byť Obchodník</value>
+ </row>
+ <row id="4725" trl="Y">
+  <value column="Name" original="Acknowledge">Potvrdenie</value>
+  <value column="Description" original="System Notice acknowledged">Systémové hlásenie potvrdené</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Potvrdzovacie pole zobrazuje, či dané hlásenie nepotrebuje byť vybrané.</value>
+ </row>
+ <row id="5092" trl="Y">
+  <value column="Name" original="Driving Column">Driving Column</value>
+  <value column="Description" original="Column which controls all tabs in the workbench">Column which controls all tabs in the workbench</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="5899" trl="Y">
+  <value column="Name" original="System Name">System Name</value>
+  <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">Názov pre ADempiere implementáciu. napr. Zitec,.s.r.o.</value>
+  <value column="Help" original="The name if the system to differentiate support contracts">The name if the system to differentiate support contracts</value>
+ </row>
+ <row id="6344" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Inštancie Atribútov</value>
+  <value column="Description" original="Product Attribute Values">Hodnoty Atribútu Produktu</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">Hodnoty aktuálnych atribútov produktu. Inštancie atribútov produktu sú definované v aktuálnych transakciách.</value>
+ </row>
+ <row id="8985" trl="Y">
+  <value column="Name" original="Document No">Číslo Dokladu</value>
+  <value column="Description" original="Document sequence number of the document">Číslo dokladu číselného radu</value>
+  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)."><![CDATA[Číslo dokumentu je obvykle automaticky generované systémom a stanovené typom dokumentu. Ak dokument nie je uložený, predbežné číslo je znázornené v zátvorkách „<>“. Ak typ vášho dokumentu nemá stanovenú automatickú sekvenciu dokumentu, toto pole je prázdne pri vytváraní nového dokumentu. Toto platí zvyčajne pre dokumenty, ktoré majú externé číslo (napr. dodávateľská faktúra). Ak necháte toto pole prázdne, systém vám vygeneruje číslo dokumentu. Sekvencia dokumentu pre toto núdzové číslo je stanovená v okne „Maintain Sequence“ s názvom „DocumentNo_“, kde TableName je názov tabuľky (napr. C_Order)]]></value>
+ </row>
+ <row id="9615" trl="Y">
+  <value column="Name" original="Representative/Agent">Obchodník</value>
+  <value column="Description" original="Sales Representative or Company Agent">Obchodník alebo Zástupca firmy</value>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">Pole Obchodník určuje obchodníka pre tento región. Každý Obchodník byť platným interným užívateľom.</value>
+ </row>
+ <row id="10097" trl="Y">
+  <value column="Name" original="Value">Hodnota</value>
+  <value column="Description" original="Condition Value">Podmienka hodnoty</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="10769" trl="Y">
+  <value column="Name" original="Schema Type">Typ Zľavy</value>
+  <value column="Description" original="Type of trade schema calculation">Typ výpočtu obchodnej zľavy</value>
+  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">Spôsob požívaný pre výpočet percenta obchodnej zľavy.</value>
+ </row>
+ <row id="10886" trl="Y">
+  <value column="Name" original="Overwrite Project">Prepis projektu</value>
+  <value column="Description" original="Overwrite the account segment Project with the value specified">Prepíš segment projektu účtu so špecifickou hodnotou</value>
+  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">Ak nie je prepísaný, je použitá hodnota pôvodnej kombinácie účtu. Ak je vybraná, ale nie definovaná, segment má nastavenú nulu.</value>
+ </row>
+ <row id="11799" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Inštancie Atribútov</value>
+  <value column="Description" original="Product Attribute Values">Hodnoty Atribútu Produktu</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">Hodnoty aktuálnych atribútov produktu. Inštancie atribútov produktu sú definované v aktuálnych transakciách.</value>
+ </row>
+ <row id="12732" trl="Y">
+  <value column="Name" original="Language">Jazyk</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Jazyk pre tohto obchodného partnera, ktorý umožňuje viacjazyčnosť</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+ </row>
+ <row id="13179" trl="Y">
+  <value column="Name" original="UserName">Užívateľské Meno</value>
+  <value column="Description" original="UserName / Login to use for login">Užívateľské Meno pre prihlásenie</value>
+  <value column="Help" original="UserName / Login to use for the login&#10;Email of the responsible person for the system (registered in WebStore)">Užívateľské Meno pre prihlásenie
+Email osoby zodpovednej za systém (reg. v internetovom obchode)</value>
+ </row>
+ <row id="13424" trl="Y">
+  <value column="Name" original="Mandatory Overwrite">Povinné pole</value>
+  <value column="Description" original="Overwrite Field Mandatory status">Overwrite Field Mandatory status</value>
+  <value column="Help" original="The field must have a value for the record to be saved to the database.">The field must have a value for the record to be saved to the database.</value>
+ </row>
+ <row id="13425" trl="Y">
+  <value column="Name" original="Reference Overwrite">Meniteľná referencia</value>
+  <value column="Description" original="System Reference - optional Overwrite">System Reference - optional Overwrite</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">You can overwrite the Display Type, but only use this if you aware of the consequences.</value>
+ </row>
+ <row id="13755" trl="N">
+  <value column="Name" original="Search Key">Search Key</value>
+  <value column="Description" original="Search key for the record in the format required">Search key for the record in the format required</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit lower case alpha numeric - max length 8 - can be used for operating system names.</value>
+ </row>
+ <row id="50066" trl="Y">
+  <value column="Name" original="AD_Package_Exp_ID">AD_Package_Exp_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50067" trl="Y">
+  <value column="Name" original="Processed">Spracovaný</value>
+  <value column="Description" original="">Doklad bol spracovaný</value>
+  <value column="Help" original="">Zaškrtávacie políčko Spracovaný určuje, že dokument bol spracovaný.</value>
+ </row>
+ <row id="50068" trl="Y">
+  <value column="Name" original="IsActive">Aktívny</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50069" trl="Y">
+  <value column="Name" original="Client">Klient</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50070" trl="Y">
+  <value column="Name" original="Organization">Organizácia</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50071" trl="Y">
+  <value column="Name" original="Name of Package">Názov balíka</value>
+  <value column="Description" original="Name of Package">Názov balíka</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50075" trl="Y">
+  <value column="Name" original="Creation Directory">Cieľový adresár</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50076" trl="Y">
+  <value column="Name" original="Created By">Vytvorený kým</value>
+  <value column="Description" original="User who created the package">User who created the package</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50077" trl="Y">
+  <value column="Name" original="Create Date">Dátum vytvorenia</value>
+  <value column="Description" original="Date when Package was created">Date when Package was created</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50080" trl="Y">
+  <value column="Name" original="Processed By">Vytvorený užívateľom</value>
+  <value column="Description" original="User who Processed the package">User who Processed the package</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50081" trl="Y">
+  <value column="Name" original="Processed Date">Dátum spracovania</value>
+  <value column="Description" original="Date when the package was processed">Date when the package was processed</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50082" trl="Y">
+  <value column="Name" original="Description of Package">Popis balíka</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50085" trl="Y">
+  <value column="Name" original="Export Package">Export Package</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50086" trl="Y">
+  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_Package_Exp_Detail_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50087" trl="Y">
+  <value column="Name" original="Item Name">Názov položky</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50088" trl="Y">
+  <value column="Name" original="Processing">Spracovavanie</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50089" trl="Y">
+  <value column="Name" original="IsActive">Aktívny</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50090" trl="Y">
+  <value column="Name" original="Processed">Spracovaný</value>
+  <value column="Description" original="">Doklad bol spracovaný</value>
+  <value column="Help" original="">Zaškrtávacie políčko Spracovaný určuje, že dokument bol spracovaný.</value>
+ </row>
+ <row id="50091" trl="Y">
+  <value column="Name" original="Package Build ID">Package Build ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50092" trl="Y">
+  <value column="Name" original="Client">Klient</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50093" trl="Y">
+  <value column="Name" original="Organization">Organizácia</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50096" trl="Y">
+  <value column="Name" original="Type">Typ</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50097" trl="Y">
+  <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50099" trl="Y">
+  <value column="Name" original="Source File Directory">Source File Directory</value>
+  <value column="Description" original="Current location of source file">Current location of source file</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50103" trl="Y">
+  <value column="Name" original="Table">Tabuľka</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50108" trl="Y">
+  <value column="Name" original="Form">Formulár</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50109" trl="Y">
+  <value column="Name" original="Process">Proces</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50110" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50112" trl="Y">
+  <value column="Name" original="Workbench">Workbench</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50117" trl="Y">
+  <value column="Name" original="Notes">Poznámky</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50166" trl="Y">
+  <value column="Name" original="Configured Value">Hodnota Konfigurácie</value>
+  <value column="Description" original="Value for the configuration key">Hodnota kľúča konfigurácie</value>
+  <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)"/>
+ </row>
+ <row id="53360" trl="Y">
+  <value column="Name" original="Value">Hodnota</value>
+  <value column="Description" original="Condition Value">Podmienka hodnoty</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53375" trl="Y">
+  <value column="Name" original="Resource">Zdroj</value>
+  <value column="Description" original="Resource">Zdroj</value>
+  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.</value>
+ </row>
+ <row id="53378" trl="Y">
+  <value column="Name" original="Business Partner ">Obchodný Partner</value>
+  <value column="Description" original="Identifies a Business Partner to Subcontrating">Identifies a Business Partner to Subcontrating</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodný partner je každá osoba/entita s ktorou organizcia prichádza do styku.</value>
+ </row>
+ <row id="53380" trl="Y">
+  <value column="Name" original="Valid from">Platný od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platí od tohto dátumu vrátane (prvého dňa)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid From date indicates the first day of a date range.
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+ </row>
+ <row id="53381" trl="Y">
+  <value column="Name" original="Valid to">Platný do</value>
+  <value column="Description" original="Valid to including this date (last day)">Platné k tomuto dátumu vrátane (posledného dňa)</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid To date indicates the last day of a date range
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+ </row>
+ <row id="53449" trl="Y">
+  <value column="Name" original="Start Node">Začiatok uzlu</value>
+  <value column="Description" original="Workflow Node step or process">Workflow Node step or process</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Uzol workflowu vyjadruje jedinečný krok alebo spracovanie vo workflowe.</value>
+ </row>
+ <row id="53480" trl="Y">
+  <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+ </row>
+ <row id="53490" trl="Y">
+  <value column="Name" original="Valid from">Platný od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platí od tohto dátumu vrátane (prvého dňa)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">Dátum Platný od určuje prvý deň obdobia. 
+
+Dátumy Platný od a Platný do určuje platné časové obdobie na použitie BOM v Objednávke Výroby.</value>
+ </row>
+ <row id="53512" trl="Y">
+  <value column="Name" original="Warehouse">Sklad</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Sklad a Stredisko Služieb</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.
+
+Warehouse place where you locate and control the products</value>
+ </row>
+ <row id="53513" trl="Y">
+  <value column="Name" original="Resource">Zdroj</value>
+  <value column="Description" original="Resource">Zdroj</value>
+  <value column="Help" original="A manufacturing resource is a place where a product will be made.">A manufacturing resource is a place where a product will be made.</value>
+ </row>
+ <row id="53517" trl="Y">
+  <value column="Name" original="BOM &amp; Formula"><![CDATA[BOM & Formula]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product."><![CDATA[The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM & Formula for the entity will be the BOM/Formula which has the same name as the product.]]></value>
+ </row>
+ <row id="53518" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="Workflow or combination of tasks">Workflow alebo kombinácia úloh</value>
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
+
+The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.</value>
+ </row>
+ <row id="53523" trl="Y">
+  <value column="Name" original="Promised Delivery Time">Čas prislúbeného dodania</value>
+  <value column="Description" original="Promised days between order and delivery">Počet dní sľúbenia medzi objednávkou a dodania</value>
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.
+
+You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.</value>
+ </row>
+ <row id="53533" trl="Y">
+  <value column="Name" original="Working Time">Pracovný čas</value>
+  <value column="Description" original="Workflow Simulation Execution Time">Workflow Simulation Execution Time</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Amount of time the performer of the activity needs to perform the task in Duration Unit
+
+In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.</value>
+ </row>
+ <row id="53653" trl="Y">
+  <value column="Name" original="Acknowledge">Potvrdenie</value>
+  <value column="Description" original="System Notice acknowledged">Systémové hlásenie potvrdené</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Potvrdzovacie pole zobrazuje, či dané hlásenie nepotrebuje byť vybrané.</value>
+ </row>
+ <row id="53742" trl="Y">
+  <value column="Name" original="Accumulated Qty">Kumulované Množ.</value>
+  <value column="Description" original="Total Quantity">Celkové Množstvo</value>
+  <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">Sum of the quantities
+
+This field shows the sum of the quantities of the product that have had movements.</value>
+ </row>
+ <row id="53744" trl="Y">
+  <value column="Name" original="Accumulated Amt">Kumulovaná Čiastka</value>
+  <value column="Description" original="Total Amount">Celková čiastka</value>
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">Sum of all amounts
+
+This field shows the sum of the amounts of the product that have had movements.</value>
+ </row>
+ <row id="53904" trl="Y">
+  <value column="Name" original="Version No">Č. Verzie</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="54035" trl="Y">
+  <value column="Name" original="Ordered Quantity">Objednané Množstvo</value>
+  <value column="Description" original="Ordered Quantity">Objednané Množstvo</value>
+  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">The Ordered Quantity indicates the quantity of a product that was ordered.</value>
+ </row>
+ <row id="54038" trl="Y">
+  <value column="Name" original="Instance">Instancia</value>
+  <value column="Description" original="Product Attribute Set Instance">Nastavenie Atribútu Produktu - Inštancie</value>
+  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.</value>
+ </row>
+ <row id="54039" trl="Y">
+  <value column="Name" original="Instance To">Instance To</value>
+  <value column="Description" original="Target Product Attribute Set Instance">Target Product Attribute Set Instance</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="54133" trl="Y">
+  <value column="Name" original="Resource/Plant">Resource/Plant</value>
+  <value column="Description" original="Resource/Plant">Resource/Plant</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="54139" trl="Y">
+  <value column="Name" original="Date Ordered">Dátum Objednania</value>
+  <value column="Description" original="Date of Order">Dátum objednávky</value>
+  <value column="Help" original="Indicates the Date an item was ordered.&#10;Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.">Indicates the Date an item was ordered.
+Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.</value>
+ </row>
+ <row id="54140" trl="Y">
+  <value column="Name" original="Date Promised">Dátum Prisľúbenia</value>
+  <value column="Description" original="Date Order was promised">Dátum prisľúbenia na objednávke</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">The Date Promised indicates the date, if any, that an Order was promised for.
+Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.</value>
+ </row>
+ <row id="54145" trl="Y">
+  <value column="Name" original="Date Start">Date Start</value>
+  <value column="Description" original="Indicate the real date to start">Indicate the real date to start</value>
+  <value column="Help" original="It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.">It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.</value>
+ </row>
+ <row id="54146" trl="Y">
+  <value column="Name" original="Finish Date">Dátum ukončenia</value>
+  <value column="Description" original="Finish or (planned) completion date">Finish or (planned) completion date</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">The finish date is used to indicate when the project is expected to be completed or has been completed.
+
+To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.</value>
+ </row>
+ <row id="54196" trl="Y">
+  <value column="Name" original="Company Agent">Zástupca firmy</value>
+  <value column="Description" original="Company Agent">Zástupca Firmy</value>
+  <value column="Help" original="Company Agent to Distribution Order">Zástupca firmy pre Distribučné Objednávky.</value>
+ </row>
+ <row id="54205" trl="Y">
+  <value column="Name" original="Transit Warehouse">Tranzitný Sklad</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Sklad a Stredisko Služieb</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
+ </row>
+ <row id="54381" trl="Y">
+  <value column="Name" original="Target Warehouse">Target Warehouse</value>
+  <value column="Description" original="Target Warehouse and Service Point">Target Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
+ </row>
+ <row id="55187" trl="Y">
+  <value column="Name" original="Create from a Window">Create from a Window</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56011" trl="N">
+  <value column="Name" original="Current Period">Current Period</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56190" trl="Y">
+  <value column="Name" original="Period 1 %">Period 1 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56191" trl="Y">
+  <value column="Name" original="Period 2 %">Period 2 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56192" trl="Y">
+  <value column="Name" original="Period 3 %">Period 3 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56193" trl="Y">
+  <value column="Name" original="Period 4 %">Period 4 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56194" trl="Y">
+  <value column="Name" original="Period 5 %">Period 5 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56195" trl="Y">
+  <value column="Name" original="Period 6 %">Period 6 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56196" trl="Y">
+  <value column="Name" original="Period 7 %">Period 7 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56197" trl="Y">
+  <value column="Name" original="Period 8 %">Period 8 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56198" trl="Y">
+  <value column="Name" original="Period 9 %">Period 9 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56199" trl="Y">
+  <value column="Name" original="Period 10 %">Period 10 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56200" trl="Y">
+  <value column="Name" original="Period 11 %">Period 11 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56201" trl="Y">
+  <value column="Name" original="Period 12 %">Period 12 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56202" trl="Y">
+  <value column="Name" original="Period 13 %">Period 13 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56203" trl="Y">
+  <value column="Name" original="Period 14 %">Period 14 %</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56207" trl="Y">
+  <value column="Name" original="Script">Skript</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56210" trl="Y">
+  <value column="Name" original="Name">Názov</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="57331" trl="Y">
+  <value column="Name" original="Acknowledge">Potvrdenie</value>
+  <value column="Description" original="System Notice acknowledged">Systémové hlásenie potvrdené</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Potvrdzovacie pole zobrazuje, či dané hlásenie nepotrebuje byť vybrané.</value>
+ </row>
+ <row id="57761" trl="Y">
+  <value column="Name" original="Customer Return">Dodací List/Príjemka</value>
+  <value column="Description" original="Customer Return Document">Doklad Dodací List </value>
+  <value column="Help" original="The Customer Return">Dodací List/Príjemka</value>
+ </row>
+ <row id="57900" trl="Y">
+  <value column="Name" original="Return to Vendor">Príjem</value>
+  <value column="Description" original="Return to Vendor Document">Dokument Príjemky Materiálu</value>
+  <value column="Help" original="The Return to Vendor">Dodací List/Príjemka</value>
+ </row>
+ <row id="57987" trl="Y">
+  <value column="Name" original="Search Key">Kľúč hladania</value>
+  <value column="Description" original="Search key for the record in the format required">Vyhľadavací kľúč záznamu v požadovanom formáte</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit lower case alpha numeric - max length 8 - can be used for operating system names.</value>
+ </row>
+ <row id="58101" trl="Y">
+  <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+ </row>
+ <row id="58114" trl="Y">
+  <value column="Name" original="Valid from">Platný od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platí od tohto dátumu vrátane (prvého dňa)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">Dátum Platný od určuje prvý deň obdobia. 
+
+Dátumy Platný od a Platný do určuje platné časové obdobie na použitie BOM v Objednávke Výroby.</value>
+ </row>
+ <row id="58771" trl="Y">
+  <value column="Name" original="Import Product Planning Data">Import Product Planning Data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59028" trl="N">
+  <value column="Name" original="Account Date">Account Date</value>
+  <value column="Description" original="Accounting Date">Accounting Date</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.</value>
+ </row>
+ <row id="59306" trl="N">
+  <value column="Name" original="ID">ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59449" trl="Y">
+  <value column="Name" original="Import Inventory Move">Import Pohybu Zásob</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59499" trl="N">
+  <value column="Name" original="Import Fixed Asset">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59500" trl="N">
+  <value column="Name" original="Processed">Processed</value>
+  <value column="Description" original="The document has been processed">The document has been processed</value>
+  <value column="Help" original="The Processed checkbox indicates that a document has been processed.">The Processed checkbox indicates that a document has been processed.</value>
+ </row>
+ <row id="59822" trl="N">
+  <value column="Name" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+ </row>
+ <row id="60944" trl="N">
+  <value column="Name" original="Copy From Cash Plan">Copy From Cash Plan</value>
+  <value column="Description" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+  <value column="Help" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+ </row>
+ <row id="62015" trl="N">
+  <value column="Name" original="Create/Update Production lines">Create/Update Production lines</value>
+  <value column="Description" original="Process which will create production lines based on BOM, or recreate with an optional adjusted quantity">Process which will create production lines based on BOM, or recreate with an optional adjusted quantity</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="62016" trl="N">
+  <value column="Name" original="Complete Production">Complete Production</value>
+  <value column="Description" original="Complete Production">Complete Production</value>
+  <value column="Help" original="Indication that this is complete">Indication that this is complete</value>
+ </row>
+ <row id="62236" trl="Y">
+  <value column="Name" original="Sales Rep Name">Meno Obchodnáka</value>
+  <value column="Description" original="Sales Representative Name">Meno Obchodníka</value>
+  <value column="Help" original="The name of the sales rep that this dashboard relates to.">Meno obchodníka, ktorého sa tento panel týka.</value>
+ </row>
+ <row id="62779" trl="N">
+  <value column="Name" original="Language">Language</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+ </row>
+ <row id="62991" trl="Y">
+  <value column="Name" original="Expected Close">Predp. Uzatvorenie</value>
+  <value column="Description" original="Expected Close">Expected Close</value>
+  <value column="Help" original="The Expected Close Date indicates the expected last or final date">The Expected Close Date indicates the expected last or final date</value>
+ </row>
+ <row id="200585" trl="Y">
+  <value column="Name" original="Only Currency">Len Mena</value>
+  <value column="Description" original="Restrict accepting only this currency">Obmedziť akceptáciu len na túto menu</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">Pole len Mena znamená, že tento bankový účet prijíma jedine menu tu identifikovanú.</value>
+ </row>
+ <row id="200723" trl="Y">
+  <value column="Name" original="Void It">Storno</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200816" trl="N">
+  <value column="Name" original="Only Currency">Currency</value>
+  <value column="Description" original="Restrict accepting only this currency">The Currency for this record</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">Indicates the Currency to be used when processing or reporting on this record</value>
+ </row>
+ <row id="200858" trl="N">
+  <value column="Name" original="Reference Overwrite">Reference</value>
+  <value column="Description" original="System Reference - optional Overwrite">System Reference and Validation</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">The Reference could be a display type, list or table validation.</value>
+ </row>
+ <row id="200948" trl="N">
+  <value column="Name" original="Attachment Store">AD_StorageProvider_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201245" trl="Y">
+  <value column="Name" original="Ship Date (For FedEx only)">Dátum Dodania (Len FedEx)</value>
+  <value column="Description" original="Shipment Date/Time">Dátum Dodania/Čas</value>
+  <value column="Help" original="Actual Date/Time of Shipment (pick up)">Aktuálny dátum/Čas dodania (pick up)</value>
+ </row>
+ <row id="201255" trl="Y">
+  <value column="Name" original="Duties Shipper Account (For FedEx only)">Zriaďovací účet - Clo (Len FedEx)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201256" trl="N">
+  <value column="Name" original="Partner Location (For UPS only)">Partner Location</value>
+  <value column="Description" original="Identifies the (ship to) address for this Business Partner">Identifies the (ship to) address for this Business Partner</value>
+  <value column="Help" original="The Partner address indicates the location of a Business Partner">The Partner address indicates the location of a Business Partner</value>
+ </row>
+ <row id="201262" trl="N">
+  <value column="Name" original="Future Day Shipment (For FedEx only)">Future Day Shipment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201264" trl="N">
+  <value column="Name" original="Home Delivery Premium Type (For FedEx only)">Home Delivery Premium Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201265" trl="N">
+  <value column="Name" original="Phone Number (For FedEx only)">Phone Number</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201266" trl="N">
+  <value column="Name" original="Date (For FedEx only)">Date</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201267" trl="N">
+  <value column="Name" original="Hazardous Materials (For FedEx only)">Hazardous Materials</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201268" trl="N">
+  <value column="Name" original="Dot Hazard Class or Division (For FedEx only)">Dot Hazard Class or Division</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201269" trl="N">
+  <value column="Name" original="Cargo Aircraft Only (For FedEx only)">Cargo Aircraft Only</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201270" trl="N">
+  <value column="Name" original="Accessible (For FedEx only)">Accessible</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201271" trl="N">
+  <value column="Name" original="Dry Ice (For FedEx only)">Dry Ice</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201272" trl="N">
+  <value column="Name" original="Dry Ice Weight (For FedEx only)">Dry Ice Weight</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201273" trl="N">
+  <value column="Name" original="Hold At Location (For FedEx only)">Hold At Location</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201274" trl="N">
+  <value column="Name" original="Hold Address (For FedEx only)">Hold Address</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201354" trl="N">
+  <value column="Name" original="Added Handling (For UPS only)">Added Handling</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201355" trl="N">
+  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">Delivery Confirmation Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201358" trl="N">
+  <value column="Name" original="Verbal Confirmation (For UPS only)">Verbal Confirmation</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="202210" trl="N">
+  <value column="Name" original="Index Validate">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="202252" trl="N">
+  <value column="Name" original="View Validate">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="202325" trl="Y">
+  <value column="Name" original="Cost Adjustment">Úprava Nákladov</value>
+  <value column="Description" original="Inventory Cost Adjustment"/>
+  <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products"/>
+ </row>
+ <row id="202443" trl="N">
+  <value column="Name" original="Purchase Order Line">Riadky N/OBJ</value>
+  <value column="Description" original="Purchase Order Line">Riadky N/OBJ</value>
+  <value column="Help" original="The Purchase Order Line is a unique identifier for a line in an order.">Riadok Nákupnej Objednávky ako identifikátor riadku objednávky.</value>
+ </row>
+ <row id="203108" trl="N">
+  <value column="Name" original="ViewID Column">ViewID Column</value>
+  <value column="Description" original="Name of unique column in a view. value of this column will save to t_selection table">Name of unique column in a view. value of this column will save to t_selection table</value>
+  <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970</value>
+ </row>
+ <row id="203325" trl="N">
+  <value column="Name" original="Country Group">Country Group</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="203326" trl="N">
+  <value column="Name" original="To">To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

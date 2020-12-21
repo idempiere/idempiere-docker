@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="M_Product">
+ <row trl="N" uuid="250199a8-860f-4165-a768-fae3c9472f48">
+  <value column="Name" original="Стандарт">Стандарт</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="e9c3fc89-a348-40e6-a1fa-5aab0babb0a2">
+  <value column="Name" original="Стандартный ДУТ">Стандартный ДУТ</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="a8de874d-f654-4943-87aa-eb830acfc4e0">
+  <value column="Name" original="Легковая машина">Легковая машина</value>
+  <value column="Description" original="Легковая машина">Легковая машина</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="686fa7c2-cb1a-4347-a95e-92dbf3bad01d">
+  <value column="Name" original="Телтоника FM1100">Телтоника FM1100</value>
+  <value column="Description" original="Телтоника FM1100 (Teltonika)">Телтоника FM1100 (Teltonika)</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="b7bb6fc5-f31d-4c9e-a374-284fecab5bfb">
+  <value column="Name" original="Аварийный коммисар">Аварийный коммисар</value>
+  <value column="Description" original="Выезд аварийного коммисара">Выезд аварийного коммисара</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="Y" uuid="739b39fa-5822-46e3-8b72-d4c56a9cd412">
+  <value column="Name" original="Техпомощь">Техпомощь</value>
+  <value column="Description" original="Выезд технической помощи">Выезд технической помощи</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="91876a7c-9572-4114-87a1-efda9226c12b">
+  <value column="Name" original="Доступ к сервисам">Доступ к сервисам</value>
+  <value column="Description" original="Доступ к сервисам">Доступ к сервисам</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="6c88193d-73b7-4a20-9380-4dbb1e24c742">
+  <value column="Name" original="Кнопка с фиксацией">Кнопка с фиксацией</value>
+  <value column="Description" original="Кнопка с фиксацией состояния">Кнопка с фиксацией состояния</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="c1a59db6-9ad5-486f-bc78-ba7c9adf8b66">
+  <value column="Name" original="Грузовая Б">Грузовая Б</value>
+  <value column="Description" original="Грузовая Б">Грузовая Б</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="58192583-47fd-48a2-98b5-69e988c5f08d">
+  <value column="Name" original="ВЕГА МТ-21">ВЕГА МТ-21</value>
+  <value column="Description" original="Блок мониторинга ВЕГА МТ-21">Блок мониторинга ВЕГА МТ-21</value>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="0e00bbf9-891e-4a49-87b9-8516bef46d5b">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+ <row trl="N" uuid="7421b8db-67b6-46a5-a79f-420f416dd59e">
+  <value column="Name" original="Стандартный">Стандартный</value>
+  <value column="Description" original=""/>
+  <value column="DocumentNote" original=""/>
+ </row>
+</idempiereTrl>

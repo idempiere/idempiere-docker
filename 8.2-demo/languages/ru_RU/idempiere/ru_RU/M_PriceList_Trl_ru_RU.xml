@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="M_PriceList">
+ <row trl="N" uuid="ed44e074-3fd9-4076-a51d-925625b1f6ad">
+  <value column="Name" original="Стандарт">Стандарт</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="570ab165-2c55-4278-91ef-bc6944eb8393">
+  <value column="Name" original="Прайс лист">Прайс лист</value>
+  <value column="Description" original="Прайс лист">Прайс лист</value>
+ </row>
+ <row trl="N" uuid="f02fccb0-fb8e-435a-b4d2-2da3cde4af94">
+  <value column="Name" original="Standard">Standard</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="Y" uuid="1d0e09d0-548e-4abe-b374-485b42edb41a">
+  <value column="Name" original="Pricelist_test1">Pricelist_test1</value>
+  <value column="Description" original="Pricelist_test1">Pricelist_test1</value>
+ </row>
+</idempiereTrl>

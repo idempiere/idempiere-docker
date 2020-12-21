@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="NM_Attribute">
+ <row id="1" trl="N">
+  <value column="Name" original="UNDEF">UNDEF</value>
+  <value column="Description" original="Константа типа неопределённость"/>
+  <value column="Help" original="Константа типа неопределённость"/>
+ </row>
+ <row id="2" trl="N">
+  <value column="Name" original="MIN_SPEED">MIN_SPEED</value>
+  <value column="Description" original="Минимальная скорость движения объекта."/>
+  <value column="Help" original="Минимальная скорость движения объекта для учёта стоянок."/>
+ </row>
+ <row id="3" trl="N">
+  <value column="Name" original="MAX_SPEED">MAX_SPEED</value>
+  <value column="Description" original="Максимальная скорость объекта"/>
+  <value column="Help" original="Максимальная скорость в км/ч"/>
+ </row>
+ <row id="4" trl="N">
+  <value column="Name" original="MIN_COURSE_CHANGE">MIN_COURSE_CHANGE</value>
+  <value column="Description" original="Минимальное изменение курса"/>
+  <value column="Help" original="Минимальное изменение курса для отметки точки в градусах"/>
+ </row>
+ <row id="5" trl="N">
+  <value column="Name" original="MIN_COURSE_LONG">MIN_COURSE_LONG</value>
+  <value column="Description" original="Минимальный пробег без изменения курса для отметки точки"/>
+  <value column="Help" original="Минимальное изменение курса (метры)"/>
+ </row>
+ <row id="6" trl="N">
+  <value column="Name" original="MIN_TIME_INTERVAL">MIN_TIME_INTERVAL</value>
+  <value column="Description" original="Минимальный интервал"/>
+  <value column="Help" original="Минимальный интервал в секундах при котором записи в данных считаются как одна"/>
+ </row>
+ <row id="7" trl="N">
+  <value column="Name" original="MIN_SATELLITE_USED">MIN_SATELLITE_USED</value>
+  <value column="Description" original="Минимальное количество используемых спутников"/>
+  <value column="Help" original="Минимальное количество спутников необходимых для определения координат"/>
+ </row>
+ <row id="8" trl="N">
+  <value column="Name" original="MIN_PARKING_TIME">MIN_PARKING_TIME</value>
+  <value column="Description" original="Минимальная длительность стоянки"/>
+  <value column="Help" original="Минимальная длительность стоянки"/>
+ </row>
+ <row id="9" trl="N">
+  <value column="Name" original="EARTH_RADIUS">EARTH_RADIUS</value>
+  <value column="Description" original="Радиус земли"/>
+  <value column="Help" original="Радиус земли в метрах"/>
+ </row>
+ <row id="10" trl="N">
+  <value column="Name" original="NLS_DATE_FORMAT">NLS_DATE_FORMAT</value>
+  <value column="Description" original="Формат даты в отчётах по умолчанию"/>
+  <value column="Help" original="Формат даты в отчётах по умолчанию"/>
+ </row>
+ <row id="11" trl="N">
+  <value column="Name" original="NOMINATIM_URL">NOMINATIM_URL</value>
+  <value column="Description" original="URL сервера для получение адресной информации."/>
+  <value column="Help" original="URL сервера для получение адресной информации. Пример запроса http://nominatim.openstreetmap.org/reverse?format=xml&amp;lat=54.597361&amp;lon=83.312744&amp;zoom=22&amp;addressdetails=1"/>
+ </row>
+</idempiereTrl>

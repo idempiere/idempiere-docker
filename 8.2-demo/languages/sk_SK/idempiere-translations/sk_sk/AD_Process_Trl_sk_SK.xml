@@ -1,0 +1,2249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_Process">
+ <row id="100" trl="Y">
+  <value column="Name" original="Create Periods ">Vytvoriť Obdobie</value>
+  <value column="Description" original="Create 12 standard calendar periods.">Vytvoriť 12 štandardných kalendárnych období.</value>
+  <value column="Help" original="Creates 12 calendar month long standard periods from the specified start date.  If no start date is specified, 1st of Jan will be used.  The period name will be generated from the start date of each period using the java SimpleDateFormat pattern provided. ">Vytvorí 12 kalendárných mesiacov od zadaného dátumu začatia. Ak nie je určený dátum, 1. Janurá bude použitý. Meno periody bude generované od dátumu začatia z každej periody používajúcej java SimpleDateFormat poskytnutého vzoru.</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Renumber">Prepočítať</value>
+  <value column="Description" original="Renumber Discount entries">Prepočítať položky so zľavami.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Create Price List ">Vytvoriť Cenník</value>
+  <value column="Description" original="Create Prices based on parameters of this version">Vytvoriť ceny na základe parametrov tejto verzie.</value>
+  <value column="Help" original="Create Prices for this pricelist version in the sequence of the Discount Schema Price List.&#10;Lines with a higher sequence overwrite existing prices.  The sequence should be from generic to specific.">Vytvorí ceny pre aktuálnu verziu so sekvenciou Schémy Cenníka. Riadky s vyššou sekvenciou prepíšu existujúce ceny. Sekvencia by mala byť od všeobecných k špecifickým.</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Process Order">Process Order</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Create Inventory Count List ">Vytvoriť zoznam pre spočítanie inventúry</value>
+  <value column="Description" original="Create Inventory Count List">Vytvoriť zoznam pre spočítanie inventúry</value>
+  <value column="Help" original="The inventory count lines are generated.  You can add new lines or delete lines manually.">Riadky Inventúry budú vygenerované. Môžete pridať nové riadky, alebo vymazať riadky manuálne.</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Update Quantity">Aktualizácia Množstva</value>
+  <value column="Description" original="The Book Quantity is updated with current book quantity">Účtované množstvo je aktualizované aktuálnym Účtovaným Množstvom</value>
+  <value column="Help" original="The Update Quantity Process will update the book quantity with the current book quantity.  ">Proces Aktualizácie Množstva aktualizuje Účtované Množstvo aktuálnym účtovaným množstvom.</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Process Inventory Count ">Spracovanie Výpočtu Inventúry</value>
+  <value column="Description" original="Process Inventory count and update Inventory">Spracovanie výpočtu Inventúry a aktualizácia Inventúry</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Add or Copy Accounts">Pridať / Kopírovať Účty</value>
+  <value column="Description" original="Add missing Accounts - or Copy&amp;Overwrite Accounts (DANGEROUS!!)">Pridať chýbajúce účty - alebo prepísať Účty (NEBEZPEČNÉ!!)</value>
+  <value column="Help" original="Either add missing accounts - or copy and overwrite all default accounts.  If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the bank account asset accounts, ...).  If no Accounting Schema is selected all Accounting Schemas will be updated / inserted.">Buď sa doplnia chýbajúce účty - alebo sa skopírujú a prepíšu všetky predvolené účty. Ak skopírujete a prepíšete aktuálne predvolené hodnoty, je doporučené zopakovať predchádzajúce aktualizácie (napr. nastaviť bankové účty, účty aktív, ...). Ak nie je zvolená žiadna Účtovná Schéma všetky Účtovné schémy budú aktualizované.
+</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Process Shipment ">Spracovanie Dodávky</value>
+  <value column="Description" original="Process Shipment/Receipt (Update Inventory)">Spracovanie Dodávky/Príjemky (Akt. Sklad)</value>
+  <value column="Help" original="Process Shipment/Receipt will move products out of/into  inventory and mark line items as shipped/received.">Process Shipment/Receipt will move products out of/into  inventory and mark line items as shipped/received.</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Order Print">Tlač Objednávky</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Process Invoice">Process Invoice</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Copy Accounts">Kopírovať Účty</value>
+  <value column="Description" original="Copy and overwrite Accounts to Business Partners of this group">Kopírovať a prepísať Účty Obchodných Partnerov pre túto skupinu</value>
+  <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)">If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="Copy Window Tabs">Copy Window Tabs</value>
+  <value column="Description" original="Copy all Tabs and Fields from other Window">Copy all Tabs and Fields from other Window</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Copy Tab Fields">Copy Tab Fields</value>
+  <value column="Description" original="Copy Fields from other Tab">Copy Fields from other Tab</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Vendor Selection">Výber Dodávateľa</value>
+  <value column="Description" original="Products with more than one vendor">Produkty s viac ako jedným dodávateľom</value>
+  <value column="Help" original="Vendor Selection is initiated when there is a product that is supplied by more than one vendor.  It allows the selection of a specific vendor for a Purchase Order.">Výber dodávateľa je spustený v prípade, že je produkt dodávaný viacerými dodávateľmi. Umožňuje výber konkrétneho dodávateľa pre danú nákupnú objednávku.</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Invoice Print ">Tlač Faktúry</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Delivery Note / Shipment Print ">Delivery Note / Shipment Print </value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Generate Shipments">Generovať Dodací List</value>
+  <value column="Description" original="Generate and print Shipments from open Orders">Generovanie a tlač dodacích listov z otvorených objednávok</value>
+  <value column="Help" original="Shipments for open Orders are created based on the delivery rule of the Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.&lt;br&gt;&#10;If several Orders of a business partner have the same location, the orders can be consolidated into one Shipment.&lt;br&gt;&#10;You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">Dodacie listy pre otvorené objednávky sú vytvorené na základe pravidiel dodania na objednávke a na základe relatívnej priority objednávky. Objednávky s dátum prisľúbenia zvolíte na základe ohraničenia dútumu do. 
+Ak má niekoľko objednávok rovnakého obchodného partnera aj adresu dodania, môžu objednávky vstúpiť do jedného Konsolidačného dodania. 
+Môžete tiež zaradiť objednávky, ktoré majú nevybavené potvrdenie (napr. objednané = 10 - nepotvrdené dodávky = 4 - vytvorí sa nová dodávka na 6ks v prípade dostupnosti).
+</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Generate Invoices">Generovať Faktúry</value>
+  <value column="Description" original="Generate and print Invoices from open Orders">Generovať a tlačiť Faktúry z otvorených Objednávok</value>
+  <value column="Help" original="Invoices for open Orders are created based on the invoice rule of the Order.&#10;If several Orders of a business partner have the same bill location, the orders can be consolidated into one Invoice.">Faktúry z otvorených Objednávok su vytvorené na základe fakturačných pravidiel Objednávok. Ak niekoľko Objednávok obchodného partnera má rovnakú fakturačnú lokáciu/adresu, môžu byť zlučené do jednej Faktúry.
+</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Order Transactions">Transakcie Objednávok, Výroba</value>
+  <value column="Description" original="Order Transactions">Transakcie Objednávok</value>
+  <value column="Help" original="With this report we can verify the detail of every Manufacturing Order transaction executed with a Manufacturing Order including information like document number, quantities, products and the date in which the transactions were made, etc.">With this report we can verify the detail of every Manufacturing Order transaction executed with a Manufacturing Order including information like document number, quantities, products and the date in which the transactions were made, etc.
+
+S touto zostavou môžete kontrolovať detaily každej transakcie Objednávky Výroby s príkazom Objednávka Výroby vrátane informácií, ako je číslom, množstvo produktov, a dátum, v ktorom boli vykonané transakcie, atď</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Open Orders">Otvorené Objednávky</value>
+  <value column="Description" original="Open Order Report">Zostava otvorených objednávok</value>
+  <value column="Help" original="Orders with quantities to deliver (Backordered) or quantities to invoice">Objednávky s množstvami k dodaniu, alebo s množstvami k fakturácii.
+</value>
+ </row>
+ <row id="122" trl="Y">
+  <value column="Name" original="Process Movements">Spracovanie Pohybu Zásob</value>
+  <value column="Description" original="Process Inventory Movements">Spracovanie Pohybu Zásob</value>
+  <value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">Spracovanie Pohybu Zásob bude aktualizovať množstvo zásob na základe definovaných presunov medzi skladmi alebo lokáciami.</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Generate Commission">Generovať Provízie</value>
+  <value column="Description" original="Generate Commission">Generovať Provízie</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Product Transaction Summary">Sumár Transakcií Produktov</value>
+  <value column="Description" original="Product Transaction Summary">Sumár Transakcií Produktov</value>
+  <value column="Help" original="The report shows transaction summary for stored products">Táto zostava zobrazuje sumár transakcií pre produkty na sklade.</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Replenish Report">Zostava Doplnenia</value>
+  <value column="Description" original="Inventory Replenish Report">Zostava Doplnenia Zásob</value>
+  <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[Zostava zobrazuje zoznam produktov, ktoré sa majú doplniť. Nezabudnite, že produkt môže mať len jedného aktuálneho dodávateľa. Ak patria k produktu viacerí dodávatelia, obidva záznamy sa vyresetujú. Musíte vybrať súčasného dodávateľa manuálne.<br>
+Pohyby sú vytvorené len vtedy, ak sa zdrojový sklad definuje pre sklad, do ktorého sa má doplniť.]]></value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Order Drilldown">Order Drilldown</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Invoice Transactions (Acct)">Fakturované Transakcie (Účt.)</value>
+  <value column="Description" original="Invoice Transactions by Accounting Date">Zostava faktúr podľa dátumu účtovania</value>
+  <value column="Help" original="The report lists the invoice transactions by accounting date">Zostava zobrazuje fakturačné transakcie zoradené podľa dátumu zaúčtovania</value>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Daily Invoice">Denník Faktúr</value>
+  <value column="Description" original="Invoice Report per Day">Zostava Denník Faktúr</value>
+  <value column="Help" original="Invoiced amount by Organization and Sales Rep">Fakturovaná suma podľa organizácie a obchodníka</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Monthly Invoice">Mesačná fakturácia</value>
+  <value column="Description" original="Invoice Report per Month">Prehľad mesačnej fakturácie</value>
+  <value column="Help" original="Invoiced amount by Organization and Sales Rep">Fakturovaná suma podľa organizácie a obchodníka</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Weekly Invoice">Týždenná Fakturácia</value>
+  <value column="Description" original="Invoice Report per Week">Týždenný výkaz faktúr</value>
+  <value column="Help" original="Invoiced amount by Organization and Sales Rep">Fakturovaná suma podľa organizácie a obchodníka</value>
+ </row>
+ <row id="131" trl="Y">
+  <value column="Name" original="Weekly Invoice Prod Cat">Týždenná Fakturácia za Produkty</value>
+  <value column="Description" original="Invoice Report by Product Category per Week">Prehľad týždennej fakturácie podľa produktových skupín</value>
+  <value column="Help" original="Invoiced Amount by Product Category">Fakturovaná suma podľa produktových kategórií</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Monthly Invoice Prod Cat">Mesačná Fakt. za produkt skupiny</value>
+  <value column="Description" original="Invoice Report by Product Category per Month">Prehľad mesačnej fakturácie poďla produktvých skupín</value>
+  <value column="Help" original="Invoiced Amount by Product Category">Fakturovaná suma podľa produktových kategórií</value>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Monthly Invoice Vendor">Mesačná Fakturácia Dodávatelia</value>
+  <value column="Description" original="Invoice Report by Product Vendor per Month">Mesačná fakturácia podľa Produktov Dodávateľa</value>
+  <value column="Help" original="Invoiced Amount by Vendor and Product Category">Fakturovaná suma podľa dodávateľa a produktovej kategórie</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Generate Invoices (manual) ">Generovať Faktúry (manuálne)</value>
+  <value column="Description" original="Generate and print Invoices manually">Generate and print Invoices manually</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="Copy Lines">Kopírovať Riadky</value>
+  <value column="Description" original="Copy Lines from other Import Format">Kopírovať Riadky</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="136" trl="Y">
+  <value column="Name" original="Verify BOM">Verify BOM</value>
+  <value column="Description" original="Verify BOM Structure and Update Low Level">Verify BOM Structure and Update Low Level</value>
+  <value column="Help" original="The Verify BOM Structure checks the elements and steps which comprise a Bill of Materials.">The Verify BOM Structure checks the elements and steps which comprise a Bill of Materials.</value>
+ </row>
+ <row id="137" trl="Y">
+  <value column="Name" original="Create/Post Production">Vytvoriť/Zapísať výrobu</value>
+  <value column="Description" original="Create production lines, if not created - otherwise process the production">Create production lines, if not created - otherwise process the production</value>
+  <value column="Help" original="Create/Post Production will generate the production lines and process the production.  If the production lines already exists, the production will be processed">Create/Post Production will generate the production lines and process the production.  If the production lines already exists, the production will be processed</value>
+ </row>
+ <row id="138" trl="Y">
+  <value column="Name" original="Quarterly Invoice Customer by Product">Štvrťročná Fakt. za Odb. a Prod. skupiny</value>
+  <value column="Description" original="Invoice Report by Customer and Product Category per Quarter">Štvrťročná Fakt. za Odb. a produkt</value>
+  <value column="Help" original="Invoiced Amount by Customer and Product Category">Fakturovaná čiastka podľa Zákazníkov a Kategórie Produktu.</value>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Quarterly Invoice Customer by Vendor">Štvrťročná Fakt. podľa Dodávateľa</value>
+  <value column="Description" original="Invoice Report by Customer and Product Vendor per Quarter">Štvrťročná fakturácia za dodávateľa a produkt</value>
+  <value column="Help" original="Invoiced Amount by Customer and Vendor (what customer bought from which vendor)">Fakturovaná suma podľa zákazníka dodávateľa (čo zákazník kúpil a od ktorého dodávateľa)</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="Copy Accounts">Kopírovať Účty</value>
+  <value column="Description" original="Copy and overwrite Accounts to Products of this category">Copy and overwrite Accounts to Products of this category</value>
+  <value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the revenue account, ...). If no Accounting Schema is selected all Accounting Schemas will be updated / inserted for products of this category.">If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the revenue account, ...). If no Accounting Schema is selected all Accounting Schemas will be updated / inserted for products of this category.</value>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Generate Receipt from Invoice">Generovanie Príjemky z Faktúry</value>
+  <value column="Description" original="Create and process delivery Receipt from this invoice.">Vytvorí a spracuje dodací príjem z tejto faktúry.</value>
+  <value column="Help" original="The invoice should be correct and completed.">Faktúra by mala byť správna a kompletná.</value>
+ </row>
+ <row id="144" trl="Y">
+  <value column="Name" original="Process Cash">Process Cash</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="145" trl="Y">
+  <value column="Name" original="Open Items">Otvorené Položky</value>
+  <value column="Description" original="Open Item (Invoice) List">Zoznam Otvorených Faktúr</value>
+  <value column="Help" original="Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed.">Zobrazí všetky neuhradené faktúry pre daného obchodného partnera a časové obdobie. Faktúry platené v hotovosti budú viditeľné v Otvorených Položkách kým sa záznam Penažného Denníka nezkompletizuje.</value>
+ </row>
+ <row id="146" trl="Y">
+  <value column="Name" original="UnReconciled Payments">Nevypárované Platby</value>
+  <value column="Description" original="Payments not reconciled with Bank Statement">Nevypárované Platby na Bankových Výpisoch</value>
+  <value column="Help" original="The report lists payments which are not reconciled with a bank statement. Payments with a zero payment amount are not listed.">Zostava zobrazuje platby, ktoré neboli vypárované s bankovým výpisom. Platby s nulovou hodnotou sa nezobrazujú.</value>
+ </row>
+ <row id="147" trl="Y">
+  <value column="Name" original="Process Statement">Process Statement</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="Allocation">Alokácia</value>
+  <value column="Description" original="Payment - Invoice - Allocation">Platba - Faktúra - Alokácia</value>
+  <value column="Help" original="The report displays invoice allocations to payments and cash journals.  Previous allocations are displayed as reversed.">Zostava zobrazuje alokácie faktúr k platbám a peňažnému denníku. Predošlé alokácie sú zobrazené ako reverzné.</value>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="Process Payment">Process Payment</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="150" trl="Y">
+  <value column="Name" original="Process Allocation">Proces Alokácie</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Invoice Transactions (Doc)">Denník Faktúr (Dokl.)</value>
+  <value column="Description" original="Invoice Transactions by Invoice Date">Zostava faktúr podľa dátumu vystavenia</value>
+  <value column="Help" original="The report lists the invoice transactiobs by invoice date">Zostava zobrazuje fakturačné transakcie zoradené podľa dátumu vystavenia</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Invoice Detail &amp; Margin">Detaily Fakturovaných Marží</value>
+  <value column="Description" original="Invoice (Line) Detail and Margin Report">Detaily riadkov faktúr a marží</value>
+  <value column="Help" original="The Report lists Customer and Vendor Invoice Details with Margines.">Zostava zobrazuje detaily zákazníckych a dodávateľských faktúr s maržami.</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Online Process">Online Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="154" trl="Y">
+  <value column="Name" original="Generate Invoice from Receipt">Generovanie Faktúry z Príjemky</value>
+  <value column="Description" original="Create and process Invoice from this receipt.  The receipt should be correct and completed.">Vytvori a spracuje Faktúry z tejto príjemky. Príjemka musí byť korektná a kompletná.</value>
+  <value column="Help" original="Generate Invoice from Receipt will create an invoice based on the selected receipt and match the invoice to that receipt. You can set the document number only if the invoice document type allows to set the document number manually.">Generovanie Faktúry z Príjemky vytvorí faktúru na základe vybranej príjemky, priradí faktúru k tejto príjemke. Číslo dokumentu môžete zadať iba ak Typ Dokladu Faktúry povoľuje manuálne zadanie čísla.</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="Prepare Payment">Tvorba Platby</value>
+  <value column="Description" original="Create Prepared Payments (Checks) to be paid">Vytvor Tvorbu platby (kontrola), ktorá sa má zaplatiť</value>
+  <value column="Help" original="You create the actual Payments via Payment Print/Export">Vytvoríte aktuálne platby cez tlač/export platby</value>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Create From ...">Vytvoriť z ...</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Dunning Letter">Dunning Letter</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="Product Transaction Value">Hodnota Transakcií Produktov</value>
+  <value column="Description" original="Product Transaction Value">Hodnota Transakcií Produktov</value>
+  <value column="Help" original="The report shows product transactions with current vendor prices">Táto zostava zobrazuje transakcie produktov s aktuálnými dodávateľskými cenami.</value>
+ </row>
+ <row id="162" trl="Y">
+  <value column="Name" original="Project Status Summary">Sumár statusu projektu</value>
+  <value column="Description" original="Project Status of Project Cycle">Status cyklov projektu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Generate Order">Generovať Objednávku</value>
+  <value column="Description" original="Generate Order from Project">Generovať Objednávku z Projektu</value>
+  <value column="Help" original="The Generate Order process will generate a new Order document based on the project phase. A price list and warehouse/service point must be defined on the project.">Proces Generovať Objednávku bude generovať doklad - novú Objednávku - na zálade Fázy projektu. Cenník a sklad/servisné stredisko musí byť definovaný na projekte.</value>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Copy Lines">Kopírovať Riadky</value>
+  <value column="Description" original="Copy Commission Lines from other Commission">Copy Commission Lines from other Commission</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Create Invoice">Vytvoriť Fakturu</value>
+  <value column="Description" original="Create Invoice from Commission Calculation">Vytvoriť Faktúru z výpočtu provízií</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Open/Close All">Otvoriť / Uzatvoriť všetko</value>
+  <value column="Description" original="Change Period Status for all Period Controls of this Period">Otvoriť / Uzatvoriť všetky základné typy dokladov pre toto obdobie </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="168" trl="Y">
+  <value column="Name" original="Open/Close">Otvoriť / Uzatvoriť</value>
+  <value column="Description" original="Change Period Status">Zmena Stavu Obdobia</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Process Journal">Process Journal</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Cash Journal Detail">Prehľad Peňažného Denníka</value>
+  <value column="Description" original="Detail Cash Journal Information">Detailné Informacie o Peňažnom Denníku</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="171" trl="Y">
+  <value column="Name" original="Receivables Write-Off">Odpis Pohľadávok</value>
+  <value column="Description" original="Write off open receivables">Odpis otvorených pohľadávok</value>
+  <value column="Help" original="Write-off receivables causes the invoices selected by the criteria to be marked as paid and the open invoice amount to be written off.  Alternatively you can create payments.">Odpis pohľadávokk spôsobí, že faktúry vybrané podľa ktirérií sú oznacené ako zaplatené a otvorené čiastky faktúr sú odpísané do nákladov. Alternatívne môžete vytvoriť platby.
+</value>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Synchronize Terminology">Synchronizácia Terminológie</value>
+  <value column="Description" original="Synchronize the terminology within the system.">Synchronizovanie definovanej terminológie v systéme</value>
+  <value column="Help" original="Based on the entries in Window Element, the fields in windows, parameters, etc. are synchronized, if they are centrally maintained.  Also synchronizes Language Translation.">Na základe vstupov v Oknách Elementov, polí v oknách, parametrov, atď. bude synchronizovaná terminológia. Podmienkou je označenie centrálneho spracovania. Ďalej sa synchronizuje aj Preklad Jazyka.
+</value>
+ </row>
+ <row id="173" trl="Y">
+  <value column="Name" original="Create Columns from DB">Create Columns from DB</value>
+  <value column="Description" original="Create Dictionary Columns of Table not existing as a Column but in the Database">Create Dictionary Columns of Table not existing as a Column but in the Database</value>
+  <value column="Help" original="If you have added columns in the database to this table, this procedure creates the Column records in the Dictionary.  Please be aware, that they may deleted, if the entity type is not set to User.">If you have added columns in the database to this table, this procedure creates the Column records in the Dictionary.  Please be aware, that they may deleted, if the entity type is not set to User.</value>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Create Fields">Create Fields</value>
+  <value column="Description" original="Create Field from Table Column, which do not exist in the Tab yet">Create Field from Table Column, which do not exist in the Tab yet</value>
+  <value column="Help" original="Based on the table columns of this Tab, this procedure creates the missing Fields">Based on the table columns of this Tab, this procedure creates the missing Fields</value>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Resubmit Posting">Oprava Chybných Účtovaní</value>
+  <value column="Description" original="Resubmit posting of documents with posting errors or locked documents">Znovu zaúčtuj doklady s chybou účtovania alebo uzamknuté doklady</value>
+  <value column="Help" original="After resubmitting, the accounting engine will try to post the document again. You resubmit documents, if they are locked or when the document had posting errors - after fixing the cause (e.g. opening period).">Doklady s útovnými chybami sú pripravené k zaúčtovaniu v ďalšiom behu účtovacieho procesu - po odstranení príčiny chyby (napr. otvorenie obdobia)</value>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Reset Accounting">Reset Účtovania</value>
+  <value column="Description" original="Reset Accounting Entries ** Stop Accounting Server before starting **">Reset účtovania ** Zastav účtovný prosecor pred spustením **</value>
+  <value column="Help" original="Delete accounting records of documents to be re-created by the next run of the accounting engine.  This is a dramatic step and you want to do this ONLY after changes of the accounting structure (e.g. different default accounts, etc.) and if fixing via manual Journal entries is not sensible.">Zmazanie účtovných záznamom dokladov a opätovné zaúčtovania pri následujúcom spustení systému. Je to dramatický krok a mali by ste ho vykonať IBA pri zmenách účtovných štruktúr (napr. rôzne základné účty a pod.) v prípade, že riešenie manuálnym vstupom do denníka nie je možné.
+</value>
+ </row>
+ <row id="179" trl="Y">
+  <value column="Name" original="Language Maintenance">Language Maintenance</value>
+  <value column="Description" original="Maintain language translation in system">Maintain language translation in system</value>
+  <value column="Help" original="You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).&#10;Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Syncronize Terminology after importing the translation.">You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).
+Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Syncronize Terminology after importing the translation.</value>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Inventory Valuation Report">Zostava Ocenenia Skladových Zásob</value>
+  <value column="Description" original="Inventory Valuation Report">Zostava Ocenenia Skladových Zásob</value>
+  <value column="Help" original="Report lists products with their on-hand quantity and values at the valuation date. In addition to several prices, standard costs and an optional other cost element is used to calculate the inventory of the particular warehouse.">Zostava zobrazuje produkty s množstvami na-ruke a s hodnotami k dátumu ocenenia. K získaniu ďalších cien, ako štandardné náklady je možné zvoliť ďalšie nákladové elementy, ktoré budú použité k vypočítaniu hodnoty zásob príslušného skladu.</value>
+ </row>
+ <row id="181" trl="Y">
+  <value column="Name" original="Synchronize Column">Synchronize Column</value>
+  <value column="Description" original="Change database table definition from application dictionary">Change database table definition from application dictionary</value>
+  <value column="Help" original="When selected, the database column definition is updated based on your entries in the Column definition of the Application Dictionary. Note that not all changes are supported by the database and may result in an error.">When selected, the database column definition is updated based on your entries in the Column definition of the Application Dictionary. Note that not all changes are supported by the database and may result in an error.</value>
+ </row>
+ <row id="182" trl="Y">
+  <value column="Name" original="Standard Cost Update">Aktualizácia Štandardných Nákladov</value>
+  <value column="Description" original="Set standard and future cost price">Nastavenie štandardnej a budúcej ceny obstarania produktu</value>
+  <value column="Help" original="For Standard Costs you can set/recalculate the current or future cost price (for the cost type of the accounting schema). If the Costing Level of the Accounting Schema is set to Client, missing cost records are created. The historical costs are calculated based on the accumulated amount/quantity of the costing method.">For Standard Costs you can set/recalculate the current or future cost price (for the cost type of the accounting schema). If the Costing Level of the Accounting Schema is set to Client, missing cost records are created. The historical costs are calculated based on the accumulated amount/quantity of the costing method.</value>
+ </row>
+ <row id="184" trl="Y">
+  <value column="Name" original="Process Expenses">Process Expenses</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="185" trl="Y">
+  <value column="Name" original="Recompile DB Objects">Prekompilovanie DB objektov</value>
+  <value column="Description" original="Recompile Database Objects">Prekompilovanie Databázových objektov</value>
+  <value column="Help" original="Recompile Functions, Procedures, Triggers, Views, etc.">Recompile Functions, Procedures, Triggers, Views, etc.</value>
+ </row>
+ <row id="186" trl="Y">
+  <value column="Name" original="Create Sales Orders from Expense">Vytvor P/OBJ z Výdavkov</value>
+  <value column="Description" original="Create Sales Orders for Customers from Expense Reports">Vytvorí predajné objednávky pre zákazníkov z výkazu výdavkov</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="187" trl="Y">
+  <value column="Name" original="Create AP Expense Invoices">Vytvor N/FA z Výdavkov</value>
+  <value column="Description" original="Create AP Invoices from Expenses to be paid to employees">Vytvorí nákupné faktúry s položkami na zaplatenie podľa evidencie záväzkov voči zamestnancom</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="188" trl="Y">
+  <value column="Name" original="Process Batch">Process Batch</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="189" trl="Y">
+  <value column="Name" original="Copy Columns">Kopírovať Stĺpce</value>
+  <value column="Description" original="Copy Report Columns from other Column Set">Copy Report Columns from other Column Set</value>
+  <value column="Help" original="Copy columns at the end of this Column Set. Please note that you need to re-set the calculation operands.">Copy columns at the end of this Column Set. Please note that you need to re-set the calculation operands.</value>
+ </row>
+ <row id="190" trl="Y">
+  <value column="Name" original="Copy Lines">Kopírovať Riadky</value>
+  <value column="Description" original="Copy Report Lines from other Line Set">Copy Report Lines from other Line Set</value>
+  <value column="Help" original="Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.">Copy lines at the end of this Line Set. Please note that you need to re-set the calculation operands.</value>
+ </row>
+ <row id="191" trl="Y">
+  <value column="Name" original="Set Print Format">Set Print Format</value>
+  <value column="Description" original="Set for all Print Formats with same Landscape/Portrait">Set for all Print Formats with same Landscape/Portrait</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="192" trl="Y">
+  <value column="Name" original="Copy/Create">Kopírovať/Vytvoriť</value>
+  <value column="Description" original="Copy existing OR create Print Format from Table">Copy existing OR create Print Format from Table</value>
+  <value column="Help" original="Select either a table to create a print format [creates initial rough layout]&#10;OR a print format to copy into the current print format [copies layout].">Select either a table to create a print format [creates initial rough layout]
+OR a print format to copy into the current print format [copies layout].</value>
+ </row>
+ <row id="193" trl="Y">
+  <value column="Name" original="Generate PO from Sales Order">Generovať N/OBJ z P/OBJ</value>
+  <value column="Description" original="Create Purchase Order from Sales Orders">Vytvorí nákupnú objednávku na základe nevybavených položiek v predajných objednávkach</value>
+  <value column="Help" original="After completing sales orders, you can create one or more purchase orders for each sales order. A purchase order references always only one sales order (i.e. no consolidation of sales orders). &#10;The Organization of the Sales Order is used to create the Purchase Order. If a (default) PO document type is defined on Organization level, that is used instead of the document types defined on Client level.&#10;&#10;POs are created for all sales order lines where the product has a current vendor, the vendor has a Vendor Price List with all Products on the most current Price List Version. The Unit of Measure is copied; PO and SO can have different currencies.&#10;&#10;Once the process is run, you need to synchronize the SO/PO manually (e.g. in case of additional lines and changed lines (product &amp; quantity).">Po kompletizácii predajných objednávok môžete vytvoriť jednu, alebo viac nákupných objednávok. Nákupná objednávka je vždy tvorená iba z jedinej predanej objednávky (t.j. bez konsolidácie). Organizácia predajnej objednávky sa používa k vytvoreniu nákupnej objednávky. Pokiaľ je (prednastavený) typ dokladu - P/OBJ definovaný na úrovni organizácie, je použitý tento doklad namiesto typu dokladov definovaných na urovni klienta. 
+
+Nákupné objednávky su vytvorené pre všetký riadky predajných objednávok, pokiaľ má produkt aktuálneho dodávateľa a dodávateľ má Nákupný Cenník so všetkými produktmi v najnovšiej verzií nákupného cenníka. Merná jednotka je kopirovaná. P/OBJ a N/OBJ môže byť v rôznych menách.</value>
+ </row>
+ <row id="194" trl="Y">
+  <value column="Name" original="Import Business Partners">Import Business Partners</value>
+  <value column="Description" original="Import Business Partners">Import Business Partners</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">The Parameters are default values for null import record values, they do not overwrite any data.</value>
+ </row>
+ <row id="195" trl="Y">
+  <value column="Name" original="Reopen Request">Znovuotvor požiadavku</value>
+  <value column="Description" original="Reopen closed requests">Znovuotvorenie uzatvorených požiadaviek</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="196" trl="Y">
+  <value column="Name" original="Import Products ">Import Produktov</value>
+  <value column="Description" original="Imports products from a file into the application">Imports products from a file into the application</value>
+  <value column="Help" original="Import Products will bring a file of products, in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values, they do not overwrite any data.&lt;p&gt;&#10;If you select an existing price list and you have List, Standard, and Limit Price defined, they are directly created/updated."><![CDATA[Import Products will bring a file of products, in a predefined format into the application.<p>
+The Parameters are default values for null import record values, they do not overwrite any data.<p>
+If you select an existing price list and you have List, Standard, and Limit Price defined, they are directly created/updated.]]></value>
+ </row>
+ <row id="197" trl="Y">
+  <value column="Name" original="Import Accounts">Import Accounts</value>
+  <value column="Description" original="Import Natural Accounts">Import Natural Accounts</value>
+  <value column="Help" original="Import accounts and their hierarchies and optional update the default accounts.  &#10;Updating the Default Accounts changes the natural account segment of the used account, e.g. account 01-240 becomes 01-300).  If you create a new combination, the old account (e.g. 01-240) will remain, otherwise replaced.&#10;If you select this, make sure that you not multiple default accounts using one natural account and HAVE A BACKUP !!&#10;&lt;p&gt;The Parameters are default values for null import record values, they do not overwrite any data."><![CDATA[Import accounts and their hierarchies and optional update the default accounts.  
+Updating the Default Accounts changes the natural account segment of the used account, e.g. account 01-240 becomes 01-300).  If you create a new combination, the old account (e.g. 01-240) will remain, otherwise replaced.
+If you select this, make sure that you not multiple default accounts using one natural account and HAVE A BACKUP !!
+<p>The Parameters are default values for null import record values, they do not overwrite any data.]]></value>
+ </row>
+ <row id="198" trl="Y">
+  <value column="Name" original="Import Report Line Set">Import Riadkovej Zostavy</value>
+  <value column="Description" original="Import Report Line Set information">Import Riadkovej Zostavy</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Tieto parametre sú predvolené hodnoty pre nulové hodnoty importu, nemajú prepísať žiadne dáta.
+</value>
+ </row>
+ <row id="199" trl="Y">
+  <value column="Name" original="Generate Shipments (manual)">Generovať Dodávky (manuálne)</value>
+  <value column="Description" original="Generate and print Shipments">Generate and print Shipments</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200" trl="Y">
+  <value column="Name" original="Print Invoices">Tlač Faktúry</value>
+  <value column="Description" original="Print Invoices to paper or send PDF">Zabezpečí tlač faktúr na tlačiareň alebo odoslanie vo formáte PDF prostredníctvom emailu</value>
+  <value column="Help" original="(Re)Print Invoices or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;&lt;br&gt;&#10;Remark: If you only enter a Document No FROM value, all invoices greater or equal that document number are printed; you can alternatively use the % character as a widcard."><![CDATA[(Znovu) vytlačenie Faktúr alebo ich zaslanie Obchodným Partnerom s platnou mailovou adresou ako prílohy vo formáte PDF. <br>
+Poznámka: ak zadáte len číslo dokumentu "od", všetky hodnoty vyššie alebo rovnajúce sa tomuto číslu dokladu budú vytlačené; resp. môžete použiť znak % ako znak pre alternatívne vyhľadávanie.
+]]></value>
+ </row>
+ <row id="201" trl="Y">
+  <value column="Name" original="Deliver Assets">Dodanie majetku</value>
+  <value column="Description" original="Deliver Customer Assets electronically">Deliver Customer Assets electronically</value>
+  <value column="Help" original="Send Mail to customers and attach new delivery (optional).">Send Mail to customers and attach new delivery (optional).</value>
+ </row>
+ <row id="202" trl="Y">
+  <value column="Name" original="Create Report">Vytvoriť Zostavu</value>
+  <value column="Description" original="Create Financial Report">Vytvoriť Finančnú Zostavu</value>
+  <value column="Help" original="The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.">Je predvolené bežné obdobie. Je možné zadať ďalšie podmienky pre obmedzenie výberu. Ako alternativu môžete vybrať voľbu Hierarchie zostav(y).
+</value>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Update Accounting Balance">Obnov účtovné vyrovnanie</value>
+  <value column="Description" original="Update Daily Accounting Balances">Zmena denného učtovného zostatku</value>
+  <value column="Help" original="This process is run automatically">Tento proces sa spúšťa automaticky</value>
+ </row>
+ <row id="204" trl="Y">
+  <value column="Name" original="Statement of Accounts">Výpis Účtov</value>
+  <value column="Description" original="Report Account Statement Beginning Balance and Transactions">Výpis počiatočného stavu a transakcií účtu.</value>
+  <value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. You can select an alternative Reporting Hierarchy.">Zvoľte Obdobie (prázdne znamená aktuálne obdobie), alebo zadajte Rozsah Dátumu Účtovania. Alternatívne môžete vybrať Hierarchiu Zostavy.</value>
+ </row>
+ <row id="205" trl="Y">
+  <value column="Name" original="Cache Reset">Reset Pamäte</value>
+  <value column="Description" original="Reset Cache of the System ** Close all Windows before proceeding **"> ** Pred spustením je potrebné zatvoriť všetky okná **</value>
+  <value column="Help" original="To increase performance, iDempiere caches repeatedly used data. This process clears the local cache.">Pre zvýšenie výkonu sa opakovane používané dáta ukladajú lokálne. Týmto procesom sa vymaže vyrovnávajúca pamäť.</value>
+ </row>
+ <row id="206" trl="Y">
+  <value column="Name" original="Import Orders">Import Objednávok</value>
+  <value column="Description" original="Import Orders">Import Objednávok</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.&#10;Note that only Prepare and Complete are valid document actions.">The Parameters are default values for null import record values, they do not overwrite any data.
+Note that only Prepare and Complete are valid document actions.</value>
+ </row>
+ <row id="207" trl="Y">
+  <value column="Name" original="Import Invoice">Import Faktúry</value>
+  <value column="Description" original="Import Invoice">Import Faktúry</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.&#10;Note that only Prepare and Complete are valid document actions.">The Parameters are default values for null import record values, they do not overwrite any data.
+Note that only Prepare and Complete are valid document actions.</value>
+ </row>
+ <row id="208" trl="Y">
+  <value column="Name" original="Start Replication Run">Start Replication Run</value>
+  <value column="Description" original="Start Replication with Remote Host">Start Replication with Remote Host</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="209" trl="Y">
+  <value column="Name" original="Send Mail Text">Odošli Text Emailom</value>
+  <value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">Zaslať e-mail aktívnym užívateľom pre konkrétnu oblasť záujmu alebo vybranú skupinu obchodných partnerov z vybraných užívateľov</value>
+  <value column="Help" original="Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.&lt;br&gt;&#10;The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User.">Vyberte oblasť záujmu, v rámci ktorej zašlete e-mail vybraným užívateľom. Dodatočne, môžete zaslať e-mail kontaktným osobám v skupine obchodných partnerov. K zaslaniu e-mailu je potrebný platné emailové konto.
+
+</value>
+ </row>
+ <row id="210" trl="Y">
+  <value column="Name" original="Copy Lines">Kopírovať Riadky</value>
+  <value column="Description" original="Copy Lines from other Invoice">Kopírovať Riadky z inej Faktúry</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="211" trl="Y">
+  <value column="Name" original="Copy Lines">Kopírovať Riadky</value>
+  <value column="Description" original="Copy Lines from other Order">Kopírovať Riadky z Inej Objednávky</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="212" trl="Y">
+  <value column="Name" original="Copy Details">Kopírovať Detaily</value>
+  <value column="Description" original="Copy Lines/Phases/Tasks from other Project">Copy Lines/Phases/Tasks from other Project</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="213" trl="Y">
+  <value column="Name" original="Start Process">Start Process</value>
+  <value column="Description" original="Start Recurring Run">Start Recurring Run</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="214" trl="Y">
+  <value column="Name" original="Copy Details">Kopírovať Detaily</value>
+  <value column="Description" original="Copy Journal/Lines from other Journal Batch">Copy Journal/Lines from other Journal Batch</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="215" trl="Y">
+  <value column="Name" original="Set Project Type">Nastavenie Typu Projektu</value>
+  <value column="Description" original="Set Project Type and for Service Projects copy Phases and Tasks of Project Type into Project">Nastaví typ projektu pre servisné projekty, kopíruje fázy a úlohy typu projektu do projektu</value>
+  <value column="Help" original="&#10;">
+		</value>
+ </row>
+ <row id="216" trl="Y">
+  <value column="Name" original="Generate Order">Generovať Objednávku</value>
+  <value column="Description" original="Generate Order from Project Phase">Generovať Objednávku z Fázy Projektu</value>
+  <value column="Help" original="The Generate Order process will generate a new Order document based on the project phase or tasks. A price list and warehouse/service point must be defined on the project.  If a product is defined on phase level, the Phase information is used as the basis for the Order (milestone invoicing) - otherwise the individual tasks.">Proces Generovania Objednávky bude generovať nový doklad Objednávky - na základe fázy projektu alebo úlohy. Cenník a sklad/servisné stredisko musí byť definovaný na projekte. Ak produkt je definovaný na úrovni fázy, informácie Fázy budú ako podklad pre Objednávku (Milníková Fakturácia) - v opačnom prípade individuálne úlohy.</value>
+ </row>
+ <row id="217" trl="Y">
+  <value column="Name" original="Project Print">Project Print</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="Project Cycle Report">Zostava Projektové Cykly</value>
+  <value column="Description" original="Report Projects based on Project Cycle">Tlačové výstupy na projektové cykly</value>
+  <value column="Help" original="The Project Cycle reports on common project phases of a Cycle Step/Phase. All Report information is weighted by the relative weight of the Cycle Step and converted to the currency of the Project Cycle (e.g. for Sales Funnel Reporting).&lt;p&gt;&#10;The Projects must have a Project Type, Phase and Currency defined. The Phase must be assigned to a Cycle Step."><![CDATA[Zostava projektový cyklus vykazuje spoločné projektové fázy  po fázach. Všetky informácie sú hodnotené vážene relatívnou hodnotou daného cyklu/kroku a sú konvertované do meny projektového cyklu (napr. výkazníctvo predaja).<p>
+Projekty musia mať definovaný typ, fázu a menu. Fáza je priradená kroku cyklu.
+]]></value>
+ </row>
+ <row id="219" trl="Y">
+  <value column="Name" original="Import Inventory">Import Zásob</value>
+  <value column="Description" original="Import Physical Inventory">Import Physical Inventory</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">The Parameters are default values for null import record values, they do not overwrite any data.</value>
+ </row>
+ <row id="220" trl="Y">
+  <value column="Name" original="Import Journal">Import Journal</value>
+  <value column="Description" original="Import General Ledger Batch/Journal/Line">Import General Ledger Batch/Journal/Line</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">The Parameters are default values for null import record values, they do not overwrite any data.</value>
+ </row>
+ <row id="221" trl="Y">
+  <value column="Name" original="Import Bank Statement">Import Bankového Výpisu</value>
+  <value column="Description" original="Import Bank Statement">Import Bankového Výpisu</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">The Parameters are default values for null import record values, they do not overwrite any data.</value>
+ </row>
+ <row id="222" trl="Y">
+  <value column="Name" original="Customer Assets">Aktíva Zákazníkov</value>
+  <value column="Description" original="Report Customer Assets with Delivery Count">Report Customer Assets with Delivery Count</value>
+  <value column="Help" original="The report lists the assets of business partners with the total asset delivery count.">The report lists the assets of business partners with the total asset delivery count.</value>
+ </row>
+ <row id="223" trl="Y">
+  <value column="Name" original="Asset Delivery Details">Detaily Dodania Aktív</value>
+  <value column="Description" original="Report Asset Deliveries Details">Report Asset Deliveries Details</value>
+  <value column="Help" original="The report lists the details of Asset Deliveries for the records selected.">The report lists the details of Asset Deliveries for the records selected.</value>
+ </row>
+ <row id="224" trl="Y">
+  <value column="Name" original="Issue to Project">Výdaj na Projekt</value>
+  <value column="Description" original="Issue Material to Project from Receipt or manual Inventory Location">Výdaj materiálu na projekt z Príjemky alebo manuálnych skladových lokácií</value>
+  <value column="Help" original="Select a Project and either&#10;&lt;br&gt;- Material Receipt&#10;&lt;br&gt;- Expense Report&#10;&lt;br&lt;- Inventory Location and Project Line not issued yet&#10;&lt;br&gt;- Inventory Location, Product and Quantity&#10;The default Movement Date is today's date."><![CDATA[Vyberte projekt a niektorú voľbu z nasledovných
+<br>- Príjem materiálu
+<br>- Pracovný Výkaz
+<br>- Lokátor zásob a "Riadky Projektu ešte nevydané"
+<br>- Lokátor zásob, Produkt a Množstvo. 
+Predvolený Dátum Pohybu bude dnešný dátum.]]></value>
+ </row>
+ <row id="225" trl="Y">
+  <value column="Name" original="Generate PO from Project">Generovať N/OBJ z projektu</value>
+  <value column="Description" original="Generate PO from Project Line(s)">Generovať N/OBJ z riadku/-ov projektu</value>
+  <value column="Help" original="&#10;">
+		</value>
+ </row>
+ <row id="226" trl="Y">
+  <value column="Name" original="Project Detail Accounting Report">Prehľad projektu - účtovný</value>
+  <value column="Description" original="Accounting Fact Details of Project">Účtovné záznamy projektu </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="Close Project">Uzatvorenie Projektu</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="228" trl="Y">
+  <value column="Name" original="Project Lines not Issued">Úlohy nespracované v projekte</value>
+  <value column="Description" original="Lists Project Lines of a Work Order or Asset Project, which are not issued to the Project">Úlohy z objednávok priradené ale nespracované v projekte</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="229" trl="Y">
+  <value column="Name" original="Project POs not Issued">Projektové objednávky nespracované</value>
+  <value column="Description" original="Lists Project Lines with generated Purchase Orders of a Work Order or Asset Project, which are not issued to the Project">Zobrazuje zoznam riadkov projektu generovaný Nákupnými objednávkami, Výkazmi prác alebo majektom, ktoré neboli vydané (naúčtované) na projekt.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="230" trl="Y">
+  <value column="Name" original="Get Price">Získať cenu</value>
+  <value column="Description" original="Get Price for Project Line based on Project Price List">Získať Cenu pre Riadok Projektu na základe cenníka Projektu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="231" trl="Y">
+  <value column="Name" original="Quote convert">Konvertovať Ponuky</value>
+  <value column="Description" original="Convert open Proposal or Quotation to Order">Konvertovať Ponuku na Objednávku</value>
+  <value column="Help" original="You can convert a Proposal or Quotation to any other Order document type. You would use this process, if you want to maintain/keep the Proposal or Quotation. The document status needs to be In Process.">Môžete konvertovať/previesť Obchodnú Ponuku na Objednávku. Stav dokladu musí byť  v stave "spracováva sa".
+Tento proces môžete použiť, ak chcete spravovať/udržať ponuku.
+</value>
+ </row>
+ <row id="232" trl="Y">
+  <value column="Name" original="RePrice Order/Invoice">Precenenie Dokladu</value>
+  <value column="Description" original="Recalculate the price based on the latest price list version of an open order or invoice">Precenenie cien na základe aktuálnej verzie cenníka v otvorených objednávkach a faktúrach</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Verify Document Types">Kontrola Typu Dokladov</value>
+  <value column="Description" original="Verify Document Types and Period Controls">Kontrola zaradenia dokladov a obdobia</value>
+  <value column="Help" original="Makes sure that there is a DocumentType for all Document Base Types&lt;br&gt;&#10;Creates missing Period Controls for Document Type (You may have to open them)"><![CDATA[Uistite sa, že ku všetkým základným typom dokladu patrí aj typ dokladu. <br> 
+Vytvorte kontrola chýbajúceho obdobia pre typ dokladu (odporúčame ich pootvárať).
+
+
+]]></value>
+ </row>
+ <row id="234" trl="Y">
+  <value column="Name" original="Project Margin (Work Order)">Vyhodnotenie marže na projekte</value>
+  <value column="Description" original="Work Order Project Lines (planned revenue) vs. Project Issues (costs)">Work Order Project Lines (planned revenue) vs. Project Issues (costs)</value>
+  <value column="Help" original="The Project Margin Report for Work Orders compares the Project lines (planned revenue) against the Project issues (actual effort and costs). The margin amount is calculated by subtracting the costs (issue) from the revenue (line).&#10;The costs are in the currency of the Accounting Schema - the lines are in the currency of the price list of the project.">Zostava zisk projektu pre objednávky práce porovnáva riadky projektov (plánované výnosy) voči výdajom na projekt (aktuálny výkon a náklady). Výška marže je kalkulovaná odrátaním nákladov (naúčtovaných) od výnosov (na riadkoch). 
+Náklady sú vedené v mene účtovnej schémy - riadky sú v mene cenníka priradeného k projektu.</value>
+ </row>
+ <row id="235" trl="Y">
+  <value column="Name" original="Verify Tree">Overenie Stromu</value>
+  <value column="Description" original="Verify completeness and correctness of Tree">Overte, úplnosť a správnosť Stromu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Storage Detail">Detaily Zásob</value>
+  <value column="Description" original="Storage Detail Report">Podrobná zostava zásob skladu</value>
+  <value column="Help" original="The report shows storage details including product instance (Lot, Serial No) info">Zostava zobrazuje detaily skladu vrátane inštancií produktov (výrobné číslo, sériové číslo)</value>
+ </row>
+ <row id="237" trl="Y">
+  <value column="Name" original="Transaction Detail">Detaily Transakcie</value>
+  <value column="Description" original="Transaction Detail Report">Podrobná zostava transakcií</value>
+  <value column="Help" original="The report shows transaction details (receipts, shipments, inventory, movements, ...) including product instance (Lot, Serial No) info">Zostava zobrazuje detaily transakcie (príjemky, dodávky, inventúry, pohybov,...) vrátane informácií o produktových inštanciách (číslo výrobnej série, sériové číslo)
+
+</value>
+ </row>
+ <row id="238" trl="Y">
+  <value column="Name" original="Aging">Starnutie</value>
+  <value column="Description" original="Aging Report">Zostava Starnutia</value>
+  <value column="Help" original="The aging report allows you to report on Open Items (Invoices). Select the aging buckets, you want to have in your report. If you select a currency, you get only invoices of that currency, otherwise the amounts are converted to your primary accounting currency. If you do not select a Statement Date, the system date is used to calculate the buckets. If you do not list the individual invoices, the Due Date is the earliest due date for the business partner and the Due Days are the average due days of all invoices.&lt;br&gt;&#10;&lt;br&gt;&#10;If you select an Account Date the report will generate the Aging as of that date. The report will exclude documents after the selected date.&lt;br&gt;&#10;&lt;br&gt;&#10;For example: A customer has one invoice for $100 with the Account Date of 03/31/08 and one payment for $100 with the Account Date of 05/01/08. The report will show the following balances based on the Account Date selected: 03/15/08= 0; 04/15/08=100; 05/15/08 = 0.&#10;"><![CDATA[Zostava Starnutie umožnuje reporting Otvorených položiek (faktúr). Vyberte časové úseky starnutia, ktoré chcete mať na zostave. Pri výbere meny, získate len faktúry s danou menou, inak sú sumy prevedené na vašu základnú menu účtovania. Ak sa nešpecifikuje dátum výpisu bude použitý systémový dátum na výpočet úsekov. Ak nezoradíte jednotlivé faktúry, dátum splatnosti je najskorší dátum splatnosti pre obchodného partnera a lehoty splatnosti sú priemerom lehôt každej faktúry.<br>
+<br>
+Pri výbere dátumu účtovania systém vygeneruje vek pohľadávky postupne k tomuto dátumu s vylučením dokumentov po danom dátume.<br>
+<br>
+Napr: zákazník má jednu faktúru v hodnote 100 dolárov s dátumom zaúčtovania 03/31/08 a jednu platbu v hodnote 100 dolárov s dátumom zaúčtovania 05/01/09. Zostava ukáže nasledovné súvahy na základe vybraných dátumov zaúčtovania: 03/15/08 ň= 0; 04/15/09 = 100; 05/15/08 = 0.
+
+]]></value>
+ </row>
+ <row id="239" trl="Y">
+  <value column="Name" original="Clicks Monthy">Kliky za mesiac</value>
+  <value column="Description" original="Clicks per Month">Kliky za mesiac</value>
+  <value column="Help" original="The report shows active advertisement Click Count per Month.">The report shows active advertisement Click Count per Month.</value>
+ </row>
+ <row id="240" trl="Y">
+  <value column="Name" original="Clicks Unprocessed">Nespracované Kliky</value>
+  <value column="Description" original="Unprocessed Clicks">Unprocessed Clicks</value>
+  <value column="Help" original="The Report shows Clicks, which could not be processed (URL not matched to Click Count)">Zostava zobrazuje kliknutia, ktoré nemohli byť spracované (URL nezodpovedá počtu kliknutí)</value>
+ </row>
+ <row id="241" trl="Y">
+  <value column="Name" original="Delete Notices">Vymazanie Správ</value>
+  <value column="Description" original="Delete all Notices">Delete all Notices</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="242" trl="Y">
+  <value column="Name" original="Validate">Validácia</value>
+  <value column="Description" original="Validate Payment Schedule">Validácia / Potvdenie Plánu Platby</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="243" trl="Y">
+  <value column="Name" original="Validate">Overenie</value>
+  <value column="Description" original="Validate Payment Terms and Schedule">Overiť Platobné podmienky a Plány</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="244" trl="Y">
+  <value column="Name" original="Warehouse Organization">Priradenie skladov a organizácii</value>
+  <value column="Description" original="Set and verify Organization ownership of Warehouse">Nastavenie a kontrola priradenia vlastníctva skladu k organizácii</value>
+  <value column="Help" original="The process allows you to change or verify the organization ownership of a warehouse and its dependent entities (Location, Storage).">Tento proces vám umožňuje zmenu a overenie vlastníctva skladu voči organizácií a jeho závislých entít. (Lokácia, Sklad)</value>
+ </row>
+ <row id="245" trl="Y">
+  <value column="Name" original="Product Organization">Organizácia Produktu</value>
+  <value column="Description" original="Set and verify Organization ownership of Products">Nastavenie a kontrola priradenia produktu k organizácii</value>
+  <value column="Help" original="The process allows you to change or verify the organization ownership of Products and its dependent entities (BOM, Substitute, Replenish, Purchasing, Business Partner Info, Costing). &lt;br&gt;&#10;Select either a Product Category ar a specific Product."><![CDATA[Tento proces vám umožňuje zmeniť alebo overiť vlastníctvo produktov voči organizácií a jej súvisiacich entít (BOM, náhrady, doplnky, nákup, informácie o obchodnom partnerovi/dodávateľovi, ocenenie).<br>
+Vyberte buď produktovú kategóriu alebo konkrétny produkt.
+]]></value>
+ </row>
+ <row id="246" trl="Y">
+  <value column="Name" original="Business Partner Organization">Obchodný partner organizácia</value>
+  <value column="Description" original="Set and verify Organization ownership of Business Partners">Set and verify Organization ownership of Business Partners</value>
+  <value column="Help" original="The process allows you to change or verify the organization ownership of Business Partners and its dependent entities (Location, Contact/User, Bank Account, Withholding). &lt;br&gt;&#10;Select either a Business Partner Group ar a specific Business Partner">Tento proces vám umožňuje zmeniť a overiť vlastníctvo organizácie obchodnými partnermi a jej závislých entít (Umiestnenie/Adresa, Kontakt/Užívateľ, Číslo bankového účtu, Withholding). Vyberte buď Skupinu obchodných partnerov alebo konkrétneho Obchodného partnera.</value>
+ </row>
+ <row id="247" trl="Y">
+  <value column="Name" original="Load Bank Statement">Načítanie Bankového Výpisu</value>
+  <value column="Description" original="Load Bank Statement">Načítanie bankového výpisu</value>
+  <value column="Help" original="Load the bank statement into the import table. The parameters used depend on the actual loader.">Načítanie bankového výpisu do importovacej tabuľky. Parametre budú použíté v závislosti na aktuálnych nastaveniach.</value>
+ </row>
+ <row id="248" trl="Y">
+  <value column="Name" original="Delete Import">Zmazanie importu</value>
+  <value column="Description" original="Delete all data in Import Table">Zmazanie všetkých dát importnej tabulky</value>
+  <value column="Help" original="You would delete all data in an import table, if there was a problem with data loading.  The delete does not distinguish between imported and not imported data.">You would delete all data in an import table, if there was a problem with data loading.  The delete does not distinguish between imported and not imported data.</value>
+ </row>
+ <row id="249" trl="Y">
+  <value column="Name" original="Import Conversion Rate">Impot Konverzného Kurzu</value>
+  <value column="Description" original="Import Currency Conversion Rate">Import Kurzu Meny</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="250" trl="Y">
+  <value column="Name" original="Register Now!">Register Now!</value>
+  <value column="Description" original="Registrations help us to better serve the iDempiere User Base.">Registrations help us to better serve the Adempiere User Base.</value>
+  <value column="Help" original="We will NOT make the data available to any third party or use the information for other than statistical purposes.  &#10;It will help us, if you would allow to publish your use of iDempiere. We will contact you directly before we publish any information.&#10;">We will NOT make the data available to any third party or use the information for other than statistical purposes.  
+It will help us, if you would allow to publish your use of Adempiere. We will contact you directly before we publish any information.
+</value>
+ </row>
+ <row id="251" trl="Y">
+  <value column="Name" original="Invoice Tax">Daň Faktúry</value>
+  <value column="Description" original="Invoice Tax Reconciliation">Porovnanie Daní faktúr</value>
+  <value column="Help" original="The Report lists Invoice Tax lines with Business Partner Tax information.">Zostava zobrazuje Riadky Daní Faktúr s Daňovými informáciami Obchodného Partnera</value>
+ </row>
+ <row id="252" trl="Y">
+  <value column="Name" original="Accounting Fact Details">Zostava Účtovný Denník</value>
+  <value column="Description" original="Accounting Fact Details Report">Zostava Detailov Účtovného Denníka</value>
+  <value column="Help" original="Report with detail accounting details.">Zostava zobrazí detaily účtovného denníka.</value>
+ </row>
+ <row id="253" trl="Y">
+  <value column="Name" original="Accounting Fact Daily">Účtovný Denník</value>
+  <value column="Description" original="Accounting Fact Details summarized by Accounting Date">Detaily učtovného denníka podľa dátumu účtovania</value>
+  <value column="Help" original="The report lists the daily summary of accounting transactions">Zostava zobrazuje denný sumár účtovných transakcií</value>
+ </row>
+ <row id="254" trl="Y">
+  <value column="Name" original="Accounting Fact Period">Učtovný Denník - Obdobie</value>
+  <value column="Description" original="Accounting Fact Details summarized by Accounting Period">Detaily učtovného denníka podľa učtovného obdobia</value>
+  <value column="Help" original="The Period is based on the the Calendar defined on Client level.">Obdobie je založené na kalendári definovanom na úrovni klienta.</value>
+ </row>
+ <row id="255" trl="Y">
+  <value column="Name" original="Reopen Order">Znovuotvor objednávku</value>
+  <value column="Description" original="Open previously closed Order">Otvor už ukončenú objednávku</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="256" trl="Y">
+  <value column="Name" original="Match Bank Statement">Párovanie Bankového Výpisu</value>
+  <value column="Description" original="Match Bank Statement Info to Business Partners, Invoices and Payments">Párovanie Bankového Výpisu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="257" trl="Y">
+  <value column="Name" original="Create Payment">Vytvoriť Platbu</value>
+  <value column="Description" original="Create Payment from Bank Statement Info">Vytvoriť Platbu z Informácií na Bankovom Výpise</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="258" trl="Y">
+  <value column="Name" original="Sequence Check">Kontrola číselníkov dokladov</value>
+  <value column="Description" original="Check System and Document Sequences">Check System and Document Sequences</value>
+  <value column="Help" original="Check that System and Document sequences are correct.  Run this process, if you get Duplicate Key error messages.">Check that System and Document sequences are correct.  Run this process, if you get Duplicate Key error messages.</value>
+ </row>
+ <row id="259" trl="Y">
+  <value column="Name" original="Create Orders">Create Orders</value>
+  <value column="Description" original="Create orders based on Distribution List line items">Create orders based on Distribution List line items</value>
+  <value column="Help" original="Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.">Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.</value>
+ </row>
+ <row id="260" trl="Y">
+  <value column="Name" original="Link Organization">Pripojenie Organizácie</value>
+  <value column="Description" original="Link Business Partner to an Organization">Vytvor väzbu Obchodného Partnera a Organizácie</value>
+  <value column="Help" original="If the Business Partner is another Organization, select the Organization or set to empty to create a new Organization.  You link a Business Partner to an Organization to create explicit Documents for Inter-Org transaction.&#10;If you create a new Organization, you may supply a Organization Type.  If you select a Role, the access to the new Organization is limited to that role, otherwise all (non manual) roles of the Client will have access to the new Organization.">If the Business Partner is another Organization, select the Organization or set to empty to create a new Organization.  You link a Business Partner to an Organization to create explicit Documents for Inter-Org transaction.
+If you create a new Organization, you may supply a Organization Type.  If you select a Role, the access to the new Organization is limited to that role, otherwise all (non manual) roles of the Client will have access to the new Organization.</value>
+ </row>
+ <row id="261" trl="Y">
+  <value column="Name" original="Create &amp; Invite"><![CDATA[Create & Invite]]></value>
+  <value column="Description" original="Create RfQ and Invite Vendors">Create RfQ and Invite Vendors</value>
+  <value column="Help" original="Create (missing) RfQ Responses and optionally send EMail Invitation/Reminder to Vendors to respond to RfQ">Create (missing) RfQ Responses and optionally send EMail Invitation/Reminder to Vendors to respond to RfQ</value>
+ </row>
+ <row id="262" trl="Y">
+  <value column="Name" original="Invite &amp; Remind"><![CDATA[Invite & Remind]]></value>
+  <value column="Description" original="EMail Invite or Remind Vendor to answer RfQ">EMail Invite or Remind Vendor to answer RfQ</value>
+  <value column="Help" original="Send Invitation/Reminder to Vendors to respond to RfQ per email">Send Invitation/Reminder to Vendors to respond to RfQ per email</value>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="RfQ Unanswered">Neodpovedané Pož. na Ponuku</value>
+  <value column="Description" original="Outstanding RfQ Responses">Mimoriadne odpovede na dopyt</value>
+  <value column="Help" original="Lists Responses of active RfQs (not closed/processed) where the Response is not marked as complete. ">Zoznam reakcií na aktívne dopyty (neuzatvorené/nespracované), kde odpoveď nie je označená ako kompletná.</value>
+ </row>
+ <row id="264" trl="Y">
+  <value column="Name" original="RfQ Response">RFQ - Odpovede</value>
+  <value column="Description" original="Detail RfQ Responses">Detaily odpovede na dopyt</value>
+  <value column="Help" original="Lists detail Responses of active RfQs (not closed/processed) where the Response is marked as complete. ">Lists detail Responses of active RfQs (not closed/processed) where the Response is marked as complete. </value>
+ </row>
+ <row id="265" trl="Y">
+  <value column="Name" original="Rank Responses">Klasifikácia Odozvy</value>
+  <value column="Description" original="Rank Completed RfQ Responses">Rank Completed RfQ Responses</value>
+  <value column="Help" original="Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is &quot;Quote All Lines&quot; or &quot;Quote Total only&quot;.&#10;&#10;Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.">Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is "Quote All Lines" or "Quote Total only".
+
+Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.</value>
+ </row>
+ <row id="266" trl="Y">
+  <value column="Name" original="Create Purchase Order">Vytvoriť Nákupnú Objednávku</value>
+  <value column="Description" original="Create Purchase Order(s) for RfQ Winner(s)">Create Purchase Order(s) for RfQ Winner(s)</value>
+  <value column="Help" original="Create purchase order(s) for the resonse(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.">Create purchase order(s) for the resonse(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.</value>
+ </row>
+ <row id="267" trl="Y">
+  <value column="Name" original="Create Sales Order">Vytvoriť Predajnú Objednávku</value>
+  <value column="Description" original="Create Sales Order">Vytvoriť Predajnú Objednávku</value>
+  <value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where "Offer Quantity" is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. 
+If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.</value>
+ </row>
+ <row id="268" trl="Y">
+  <value column="Name" original="Copy Lines">Kopírovať Riadky</value>
+  <value column="Description" original="Copy Lines from another RfQ">Kopírovať Riadky z inej RFQ</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="269" trl="Y">
+  <value column="Name" original="Close RfQ">Uzavrenie Dopytu</value>
+  <value column="Description" original="Close RfQ and Responses">Uzavrenie Dopytu a Odpovedi.</value>
+  <value column="Help" original="Close the RfQ and all it's Responses">Close the RfQ and all it's Responses</value>
+ </row>
+ <row id="270" trl="Y">
+  <value column="Name" original="Open Requisitions">Otvorené Nákupné Požiadavky</value>
+  <value column="Description" original="Detail Open Requisition Information">Detailné Informácie o Otvorených Nákupných Požiadavkách</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Create Orders">Create Orders</value>
+  <value column="Description" original="Create orders based on Distribution List line items">Create orders based on Distribution List line items</value>
+  <value column="Help" original="Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.">Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="UnLink Business Partner Org">Zruš väzbu obchodného partnera a organizácie</value>
+  <value column="Description" original="UnLink Business Partner from an Organization">Zruš väzbu obchodného partnera a organizácie</value>
+  <value column="Help" original="UnLink a Business Partner Linked to an Organization (for explicit inter-org documents)">Odpojenie/Zrušenie prepojenia obchodného partnera a organizácie (výhradne pre dokumenty vytvorené medzi organizáciami - inter-org)</value>
+ </row>
+ <row id="273" trl="Y">
+  <value column="Name" original="Process Requisition">Proces Nákupnej Požiadavky</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="274" trl="Y">
+  <value column="Name" original="Asset Delivery Month">Asset Delivery Month</value>
+  <value column="Description" original="Report Asset Deliveries Summary per month">Report Asset Deliveries Summary per month</value>
+  <value column="Help" original="The report lists the Asset and the deliveries per month for the records selected.">The report lists the Asset and the deliveries per month for the records selected.</value>
+ </row>
+ <row id="275" trl="Y">
+  <value column="Name" original="Validate Document Type">Validácia Typu Dokladu</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="276" trl="Y">
+  <value column="Name" original="RfQ Response Print ">RfQ Response Print </value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="277" trl="Y">
+  <value column="Name" original="Check Complete">Vyplniť šek</value>
+  <value column="Description" original="Check if Response is Complete based on RfQ settings">Check if Response is Complete based on RfQ settings</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Manage Activity">Riadenie Aktivít</value>
+  <value column="Description" original="Manage Workflow Activity">Riadenie Aktivít</value>
+  <value column="Help" original="Update or stop Workflow Activity">Aktualizácia alebo zastavenie procesu aktivít</value>
+ </row>
+ <row id="279" trl="Y">
+  <value column="Name" original="Manage Process">Riadenie Procesov</value>
+  <value column="Description" original="Manage Workflow Process">Manage Workflow Process</value>
+  <value column="Help" original="Update or stop Workflow Process">Update or stop Workflow Process</value>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Process Confirmation">Spracovanie Potvrdenia</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="281" trl="Y">
+  <value column="Name" original="Create Confirmation">Vytvoriť Potvrdenie</value>
+  <value column="Description" original="Create Confirmations for the Document">Vytvoriť Potvrdenie pre tento Doklad</value>
+  <value column="Help" original="The confirmations generated need to be processed (confirmed) before you can process this document">Generované potvedenia musia byť spracované (potvrdené), predtým ako budete môcť spracovať tento dokument</value>
+ </row>
+ <row id="282" trl="Y">
+  <value column="Name" original="Create Package">Vytvor balenie</value>
+  <value column="Description" original="Create Package for Shipment">Create Package for Shipmet</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="283" trl="Y">
+  <value column="Name" original="Process RMA">Process RMA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="284" trl="Y">
+  <value column="Name" original="Open Confirmation Details">Detaily Otvorených Potvrdení </value>
+  <value column="Description" original="Open Shipment or Receipt Confirmation Details">Detaily potvrdení otvorených dodávok alebo príjemok</value>
+  <value column="Help" original="The Report lists the open confirmation lines">Zostava zobrazí zoznam riadkov otvorených potvrdení</value>
+ </row>
+ <row id="285" trl="Y">
+  <value column="Name" original="Open Confirmations">Otvorené Potvrdenia</value>
+  <value column="Description" original="Open Shipment or Receipt Confirmations">Potvrdenia Otvorených Dodávok a Príjemok</value>
+  <value column="Help" original="The report lists the open confirmations">Zostava zobrazuje zoznam otvorených potvrdení</value>
+ </row>
+ <row id="286" trl="Y">
+  <value column="Name" original="Process Confirmation">Spracovanie Potvrdenia</value>
+  <value column="Description" original="Process Inventory Movement Confirmation">Process Inventory Movement Confirmation</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="287" trl="Y">
+  <value column="Name" original="Print Format Detail">Detaily Tlačového Formátu </value>
+  <value column="Description" original="Print Format Detail Report">Detaily Tlačového Formátu </value>
+  <value column="Help" original="Print Format with Item details">Tlačový formát s jednotlivými položkami</value>
+ </row>
+ <row id="288" trl="Y">
+  <value column="Name" original="Reset Password">Zmena Hesla</value>
+  <value column="Description" original="Reset Passwords for User">Zmena Hesla pre Užívateľa</value>
+  <value column="Help" original="You can change User Passwords and EMail settings.  You do not need to know/enter the password, if you are an Administrator.">Môžete zmeniť užívateľské heslá a nastavenia e-mailu. Ak ste administrátor, nemusíte poznať / zadať heslo.</value>
+ </row>
+ <row id="289" trl="Y">
+  <value column="Name" original="Create Dunning Run">Vytvor Upomienku</value>
+  <value column="Description" original="Create Dunning Run Entries based on the Dunning Level criteria">Vytvor Upomienku na základe zadaných kritérií</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="290" trl="Y">
+  <value column="Name" original="Inventory Move Print">Inventory Move Print</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original="Create/Copy your own Format and Process">Create/Copy your own Format and Process</value>
+ </row>
+ <row id="291" trl="Y">
+  <value column="Name" original="Physical Inventory Print">Tlač Fyzickej Inventúry</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original="Create/Copy your own Format and Process">Vytvoriť / Kopírovať vlastný formát a proces</value>
+ </row>
+ <row id="292" trl="Y">
+  <value column="Name" original="Shipment Confirmation">Potvrdenie Dodávky</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="293" trl="Y">
+  <value column="Name" original="Material Receipt Details">Detaily Príjemky Materiálu</value>
+  <value column="Description" original="Material Receipt Detail Information">Podrobné informácie o Príjemke Materiálu </value>
+  <value column="Help" original="The report provides Material Repecipt Header and Line with locator information.">Zostava obsahuje podrobnosti hlavičky príjemky a jej riadkov s informáciami o lokátoroch.</value>
+ </row>
+ <row id="294" trl="Y">
+  <value column="Name" original="Shipment Details">Detaily Dodávky</value>
+  <value column="Description" original="Shipment Detail Information">Podrobné informácie o dodávke</value>
+  <value column="Help" original="The report provides Material Shipment Header and Line with locator information.  You can use the report to create a Consolidated Picking List.">Zostava Detaily Dodávky obsahuje hlavičky dodávok vrátane riadkov a lokátorov produktov. Zostava sa môže použiť pre vytvorenie konsolidovaných výdajok.</value>
+ </row>
+ <row id="295" trl="Y">
+  <value column="Name" original="Role Access Update">Aktualizovať Role a Oprávnenia</value>
+  <value column="Description" original="Update the access rights of a role or roles of a client">Aktualizuj oprávnenia pre rolu užívateľa/klienta</value>
+  <value column="Help" original="Update the access rights of a role or all roles of a client to windows, forms, processes and workflows. If run for System, all roles of all clients are updated. Note that a role is only updated if it is not marked as manual.">Aktualizujte oprávnenia pre rolu/-e klienta pre okná, formáty, procesy a workflow/pracovné postupy. Ak je to použité v rámci systému, všetky role 
+klientov budú aktualizované. Všimnite si, že rola je aktualizovaná iba v prípade, že záznam role nie je označený ako Manuálny.</value>
+ </row>
+ <row id="296" trl="Y">
+  <value column="Name" original="Import Confirmations">Import Potvrdení</value>
+  <value column="Description" original="Import Confirmations">Import Potvrdení</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">The Parameters are default values for null import record values, they do not overwrite any data.</value>
+ </row>
+ <row id="297" trl="Y">
+  <value column="Name" original="Capture + Calculate Measures">Zber + Výpočet Merania</value>
+  <value column="Description" original="Capture and Calculate Measures">Capture and Calculate Measures</value>
+  <value column="Help" original="If automatic, capture measures - and calculate/update the actual measure.">If automatic, capture measures - and calculate/update the actual measure.</value>
+ </row>
+ <row id="298" trl="Y">
+  <value column="Name" original="Calculate Measures">Výpočet Merania</value>
+  <value column="Description" original="Calculate the Measure">Calculate the Measure</value>
+  <value column="Help" original="Calculate/update the actual measure.">Calculate/update the actual measure.</value>
+ </row>
+ <row id="299" trl="Y">
+  <value column="Name" original="Verify">Overenie</value>
+  <value column="Description" original="Verify GL Distribution">Verify GL Distribution</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="300" trl="Y">
+  <value column="Name" original="Delete">Vymazať</value>
+  <value column="Description" original="Delete Invoice Matching Record">Delete Invoice Matching Record</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="301" trl="Y">
+  <value column="Name" original="Delete">Vymazať</value>
+  <value column="Description" original="Delete PO Matching Record">Delete PO Matching Record</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Auto Allocation">Auto Alokácia</value>
+  <value column="Description" original="Automatic allocation of invoices to payments">Automatické Alokovanie Faktúr k Platbám</value>
+  <value column="Help" original="Try to allocate invoices to payments for a business partner or group.  You may want to reset existing allocations first.&lt;br&gt;&#10;The allocation is based on (1) payments entered with reference to invoices (2) payment selections (3) business partner balance (4) matching amount of invoice &amp; payment.  Allocation is based on exact amount and includes AP/AR imvoices/payments.&lt;br&gt;&#10;Optionally as (5), you can enable to allocate payments to the oldest invoice. In this case, there might be an unallocated amount remaining."><![CDATA[Skúste alokovať faktúry k platbám na obchodného partnera alebo skupiny. Najprv by ste mali resetovať existujúce alokácie.<br>
+Alokácia je založená na (1) zadaných platbách s odkazom na faktúry (2) výbere platieb (3) zostatkov obchodného partnera (4) zhodnej sumy faktúry a platby. Alokovanie je založené na presnej sume a zahŕňa dodávateľské/zákaznícke faktúry/platby.<br>
+Opcionálne ako (5), môžete zapnúť alokáciu platieb k najstaršej faktúre. V tomto prípade, môže zostať nealokovaná suma.]]></value>
+ </row>
+ <row id="303" trl="Y">
+  <value column="Name" original="Reset Allocation">Zrušenie Alokácie</value>
+  <value column="Description" original="Reset (delete) allocation of invoices to payments">Vymazanie alokácií faktúr k platbám</value>
+  <value column="Help" original="Delete Allocations for a business partner or business partner group, accounting date range or individual allocation. In contrast to &quot;Void&quot; in &quot;View Allocation&quot;, the allocation is deleted (no trace), if the period is open.">Zmazanie Alokácie obchodného partnera alebo skupiny obchodných partnerov, časového rozsahu účtovania alebo individuálnej alokáciu. Na rozdiel od "Zneplatnenia" v "Zobrazenie Alokácie", alokácia bude vymazaná (bez stopy), ak je obdobie otvorené.</value>
+ </row>
+ <row id="304" trl="Y">
+  <value column="Name" original="Validate Workflow">Validate Workflow</value>
+  <value column="Description" original="Validate that the workflow is correct">Validate thet the workflos is correct</value>
+  <value column="Help" original="(limited checking)">(obmedzená kontrola)</value>
+ </row>
+ <row id="305" trl="Y">
+  <value column="Name" original="Document Value based Workflows">Document Value based Workflows</value>
+  <value column="Description" original="*** DO NOT MODIFY ***">*** DO NOT MODIFY ***</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="306" trl="Y">
+  <value column="Name" original="Un-Do Changes">Un-Do Changes</value>
+  <value column="Description" original="Undo changes">Vrátiť zmeny</value>
+  <value column="Help" original="You can undo certain changes.">You can undo certain changes.</value>
+ </row>
+ <row id="307" trl="Y">
+  <value column="Name" original="Re-Do Changes">Re-Do Changes</value>
+  <value column="Description" original="Reapply changes">Reapply changes</value>
+  <value column="Help" original="You can reapply certain changes.">You can reapply certain changes.</value>
+ </row>
+ <row id="308" trl="Y">
+  <value column="Name" original="Reapply Customizations">Znovuaplikuj zmeny</value>
+  <value column="Description" original="If you identified customizations in the Change Log, you can reapply them">If you identified customizations in the Change Log, you can reapply them</value>
+  <value column="Help" original="The migration &quot;resets&quot; the system to the current/original setting.  If selected in the Change Log, you can save the customization and re-apply them.  Please note that you need to check, if your customization has no negative side effect in the new release. &lt;br&gt;&#10;Shut down the Application Server before running this process and set the Trace level (in Preference) higher or equals  WARNING."><![CDATA[The migration "resets" the system to the current/original setting.  If selected in the Change Log, you can save the customization and re-apply them.  Please note that you need to check, if your customization has no negative side effect in the new release. <br>
+Shut down the Application Server before running this process and set the Trace level (in Preference) higher or equals  WARNING.]]></value>
+ </row>
+ <row id="309" trl="Y">
+  <value column="Name" original="Workflow to Client">Workflow na klienta</value>
+  <value column="Description" original="Move custom workflow elements to the current client">Presuň upravené prvky workflow na aktuálneho klienta</value>
+  <value column="Help" original="The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.">The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.</value>
+ </row>
+ <row id="310" trl="Y">
+  <value column="Name" original="Trial Balance">Predvaha</value>
+  <value column="Description" original="Trial Balance for a period or date range">Kontrolná Predvaha za obdobie alebo rozsah</value>
+  <value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. If an account is selected, the balance is calculated based on the account type and the primary calendar of the client (i.e. for revenue/expense accounts from the beginning of the year). If no account is selected, the balance is the sum of all transactions before the selected account range or first day of the period selected. You can select an alternative Reporting Hierarchy.">Vyberte časové obdobie/periódu (prázdne znamená aktuálne obdobie) alebo zadajte rozsah dátumu zaúčtovania. Ak je účet zvolený, zostatok je kalkulovaný na základe typu účtu a primárneho kalendárneho obdobia klienta (napr. pre výnosové/nákladové účty od začiatku roku). Ak nie je vybraný žiadny účet, zostatok je súčtom všetkých transakcií pred vybraným rozsahom účtov resp. prvého dňa účtovného obdobia. Môžete vybrať alternatívnu hierarchiu zostavy.</value>
+ </row>
+ <row id="311" trl="Y">
+  <value column="Name" original="Product UOM Convert">Konverzia MJ Produktov</value>
+  <value column="Description" original="Brack-up or repackage same Products with different UOM">Konvertujte alebo prebaľte rovnaké Produkty s rozličnými MJ</value>
+  <value column="Help" original="Example: &quot;Product EA&quot; has a defined UOM Conversion to &quot;Product 6Pack&quot; and vice versa.  &#10;This is a one-step replacement for defining BOM and creating/processes a Production.">Príklad: "Produkt na kusy" má definovanú konverziu mernej jednotky na "Produkt v 6ks balení" a naopak. Toto je presun v jednom kroku na definovanie štruktúry BOM a vytvorenie/spracovanie výroby.</value>
+ </row>
+ <row id="312" trl="Y">
+  <value column="Name" original="Print Dunning Letters">Tlač Upomienky</value>
+  <value column="Description" original="Print Dunning letters to paper or send PDF">Tlač upomienok na tlačiareň alebo rozoslanie emailom</value>
+  <value column="Help" original="(Re)Print Dunning Letters or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;">(Opätovne) vytlačiť upomienky alebo ich zaslať na platný kontakt obchodných partnerov ako prílohy vo formáte PDF.</value>
+ </row>
+ <row id="313" trl="Y">
+  <value column="Name" original="Payment Print ">Tlač Platby</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="314" trl="Y">
+  <value column="Name" original="Validate Business Partner">Validácia obchodného partnera</value>
+  <value column="Description" original="Check data consistency of Business Partner">Kontrola konzistencie dát Obchodného Partnera</value>
+  <value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Skontruje platby a faktúry obchodného partnera ako aj zostatky otvorených položiek.</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="Order Batch Process">Dávkové spracovanie objednávok</value>
+  <value column="Description" original="Process Orders in Batch">Spracuj objednávky v dávke</value>
+  <value column="Help" original="Based on the selection criteria, the orders are processed using the document action selected.  Make sure that the document action is valid for the documents.">Podľa výberových kritérií su objednávky spracováne s použitím označených akcí v dokladu. Uistite sa, že akcia dokladu je platná pre dané doklady.
+
+</value>
+ </row>
+ <row id="316" trl="Y">
+  <value column="Name" original="UnAllocated Invoices">NeAlokované Faktúry</value>
+  <value column="Description" original="Invoices not allocated to Payments">Nealokované Faktúry k Platbám</value>
+  <value column="Help" original="Report of not allocated Invoices (for partially paid/allocated invoices see Open Item)">Zostava zobrazuje faktúry, ktoré neboli vypárované s platbami.
+(Pre čiastočne zaplatené/alokované faktúry použite zostavu Otvorené Položky)</value>
+ </row>
+ <row id="317" trl="Y">
+  <value column="Name" original="UnAllocated Payments">NeAlokované Platby</value>
+  <value column="Description" original="Payments not allocated to Invoices">Nealokované Platby s Faktúrami</value>
+  <value column="Help" original="Report of not allocated Payments (for partially allocated payments, use Payment Detail)">Zostava zobrazuje platby, ktoré neboli vypárované s faktúrami.
+(Pre čiastočne alokované platby, použite zostavu Detaily Platby)
+</value>
+ </row>
+ <row id="318" trl="Y">
+  <value column="Name" original="Payment Details">Detaily Platby</value>
+  <value column="Description" original="Payment Detail Report">Zostava Detailov Platieb</value>
+  <value column="Help" original="Type adjusted payments (receipts positive, payments negative) with allocated and available amounts">Upravené platby (kladné príjmy, záporné platby) s alokovanými a zostávajúcimi čiastkami.</value>
+ </row>
+ <row id="319" trl="Y">
+  <value column="Name" original="Business Partner Open">Otvorené Saldo Partnera</value>
+  <value column="Description" original="Business Partner Open Amount">Otvorené Saldo partnera</value>
+  <value column="Help" original="The report lists open invoices and payments">Zostava zobrazuje otvorené faktúry a platby na obchodného partnera</value>
+ </row>
+ <row id="320" trl="Y">
+  <value column="Name" original="Commission Run Detail">Spustiť Detail Provízií</value>
+  <value column="Description" original="Commission Run Detail Report">Spustiť Detail Provízií - Tlač</value>
+  <value column="Help" original="Commission Run, Amount Details with Order/Invoice details">Detaily provízie - spustenie provízií, detaily hodnôt s údajmi objednávky/faktúry</value>
+ </row>
+ <row id="321" trl="Y">
+  <value column="Name" original="Synchronize Doc Translation">Synchronizácia Prekladu Dokladu</value>
+  <value column="Description" original="Synchronize Document Translation">Synchronizácia Prekladu Dokladu</value>
+  <value column="Help" original="This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has multi-lingual documents enabled, then the main record is copied to the client language (defined in Client window).  BE CAREFUL as this option can potentially damage data you modified, it is recommended to take a backup and plan carefully what you're doing if this is the first time running this process.&lt;br&gt;&#10;&lt;br&gt;&#10;If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records."><![CDATA[Ak aktuálny klient nemá povolené viacjazyčné dokumenty, preklady pre dokumenty budú synchronizované s hlavným záznamom (tj skopíruje obsah hlavného záznamu do záznamov prekladov). Tento proces je nevyhnutný, ak sa prepína na jedno-jazyčné prostredie, pretože terminológia je udržiavaná - nie je v záznamoch prekladov. <br> 
+To sa týka klientom definovaných prekladov dokumentov, napr. pre MJ, platobné podmienky, informácie o produkte, atď.]]></value>
+ </row>
+ <row id="322" trl="Y">
+  <value column="Name" original="Material Reference">Materiálové Referencie</value>
+  <value column="Description" original="Material Transactions Cross Reference (used/resourced)">Krížové Referencie Materiálových Transakcií (použité/zdrojové)</value>
+  <value column="Help" original="The report displays, e.g. where Material Receipts are used or Customer Shipments are resourced from">Zostava zobrazuje, napr. kde boli použité Príjemky Materiálov alebo odkiaľ sú zásobované Dodávky Zákazníkov</value>
+ </row>
+ <row id="323" trl="Y">
+  <value column="Name" original="Create Invoices">Vytvoriť Faktúry</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="324" trl="Y">
+  <value column="Name" original="Invoice Requests">Fakturácia požiadaviek</value>
+  <value column="Description" original="Create Invoice for Requests">Vytvorenie faktúr z požiadaviek</value>
+  <value column="Help" original="Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.">Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.</value>
+ </row>
+ <row id="325" trl="Y">
+  <value column="Name" original="Storage Cleanup">Vyčistenie Zásob</value>
+  <value column="Description" original="Inventory Storage Cleanup">Vyčistenie Zásob Skladu</value>
+  <value column="Help" original="Create Inventory Movements for unbalanced Inventory Location Storage (i.e. within a warehouse move inventory to locations with negative on hand quantity).">Vytvorí Pohyby Zásob pre nevyrovnané Skladové Lokátory (napr. vrámci skladu presunie zásoby na Lokátor s negatívnymi Množstvami)</value>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Invoice Not Realized Gain/Loss">Nerealizovaná Faktúra Zisk/ Strata</value>
+  <value column="Description" original="Invoice Not Realized Gain &amp; Loss Report">Zostava nezrealizovaných Ziskov a Strát</value>
+  <value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices."><![CDATA[Zostava zobrazuje faktúry neuhradené v plnej výške s otvorenými čiastkami, s hodnotami hlavnej knihy a prepočítanými hodnotami. Ak je faktúra čiastočne zaplatená, percento zvyšnej sumy sa použije sa prepočet zvyšnej sumy. Ak sa vyberie mena, len faktúry s touto menou sú zahrnuté; ak vyberiete Vrátane všetkých mien, zahrnuté sp všetky faktúry a môžete použiť výkaz k vypárovaniu PK/NK. <br>
+Ak vyberiete typ dokladu precenenia HK, vytvorí sa vám záznam v denníku HK.
+ Poznámka: zostava obsahuje len zaúčtované faktúry. 
+]]></value>
+ </row>
+ <row id="327" trl="Y">
+  <value column="Name" original="Test EMail">Test EMail</value>
+  <value column="Description" original="Test EMail Connection">Test EMail Connection</value>
+  <value column="Help" original="Test EMail Connection based on info defined. An EMail is sent from the request user to the request user.  Also, the web store mail settings are tested.">Test EMail Connection based on info defined. An EMail is sent from the request user to the request user.  Also, the web store mail settings are tested.</value>
+ </row>
+ <row id="328" trl="Y">
+  <value column="Name" original="Column Encryption">Column Encryption</value>
+  <value column="Description" original="Test and enable Column Encryption">Test and enable Column Encryption</value>
+  <value column="Help" original="To enable storage encryption or remove encryption is dangerous as you may loose data. You need to verify that the column is big enough to hold the encrypted value.  You can provide your own encryption method, but cannot change it once enabled.  &lt;br&gt;&#10;The default implementation supports US ASCII String conversion (not Unicode, Numbers, Dates)&lt;br&gt;&#10;Note that support is restricted to setup and test, but not data recovery."><![CDATA[To enable storage encryption or remove encryption is dangerous as you may loose data. You need to verify that the column is big enough to hold the encrypted value.  You can provide your own encryption method, but cannot change it once enabled.  <br>
+The default implementation supports US ASCII String conversion (not Unicode, Numbers, Dates)<br>
+Note that support is restricted to setup and test, but not data recovery.]]></value>
+ </row>
+ <row id="329" trl="Y">
+  <value column="Name" original="Product Cost">Náklad Produktu</value>
+  <value column="Description" original="Product Cost Report">Cenová kalkulácia produktu</value>
+  <value column="Help" original="The Product Cost  report lists the product costs for the product, cost type and cost element">Zostava Náklad Produktu zobrazuje náklady na produkt, typy nákladu a prvok nákladu.</value>
+ </row>
+ <row id="330" trl="Y">
+  <value column="Name" original="Product Cost Summary">Sumarizácia Ocenenia Produktu</value>
+  <value column="Description" original="Product Cost Summary Report">Sumarizácia Ocenenie Produktu Report</value>
+  <value column="Help" original="The Product Cost  report lists the summarized product costs for the product">Zostava Sumarizácia Ocenenia Produktu sumarizuje náklady produktu pre daný produkt.
+</value>
+ </row>
+ <row id="331" trl="Y">
+  <value column="Name" original="Product Cost Detail">Detaily Ocenenia Produktu</value>
+  <value column="Description" original="Product Invoice Cost Detail Report">Zostava Náklad Produktov z Faktúr</value>
+  <value column="Help" original="The Product Invoice Cost Detail Report lists the products with the individual invoice cost allocation">The Product Invoice Cost Detail Report lists the products with the individual invoice cost allocation.</value>
+ </row>
+ <row id="332" trl="Y">
+  <value column="Name" original="Distribute Costs">Priradenie Nákladov</value>
+  <value column="Description" original="Distribute costs to Products">Priradenie nákladov k Produktom</value>
+  <value column="Help" original="Distribute costs to Products based on selections - Distribution Base (Quantity, Current Costs, Line, Weight, ..) and Receipt/Line or directly to the product.">Distribute costs to Products based on selections - Distribution Base (Quantity, Current Costs, Line, Weight, ..) and Receipt/Line or directly to the product.</value>
+ </row>
+ <row id="333" trl="Y">
+  <value column="Name" original="Order Detail">Detaily Objednávky</value>
+  <value column="Description" original="Order Detail Report">Detailná zostava objednávok</value>
+  <value column="Help" original="The report includes order detail information including lost sales.  The report can be used for Sales and Purchasing.">Zostava obsahuje podrobné informácie a objednávkach. Zostava môže byť použitá pre nákupné a predajné objednávky.</value>
+ </row>
+ <row id="334" trl="Y">
+  <value column="Name" original="Business Partner Detail">Detaily Obchodného Partnera</value>
+  <value column="Description" original="Business Partner Detail Report">Zostava Detailov Obchodného Partnera</value>
+  <value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">Zostava zobrazí detaily Obchodného Partnera, pre ktoréhokoľvek aktívneho Obchodného Partnera.
+</value>
+ </row>
+ <row id="335" trl="Y">
+  <value column="Name" original="Create Costing Records">Tvorba Záznamov Kalkulácie</value>
+  <value column="Description" original="Create Costing Records">Tvorba Záznamov Kalkulácie</value>
+  <value column="Help" original="The costing records are created when needed or by batch processes. You can force the creation of the costing information here.">The costing records are created when needed or by batch processes. You can force the creation of the costing information here.</value>
+ </row>
+ <row id="336" trl="Y">
+  <value column="Name" original="Create Tax Declaration">Vytvorí Daňovú Deklaráciu</value>
+  <value column="Description" original="Create Tax Declaration from Documents">Vytvorí Daňovú Deklaráciu z Dokladu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="337" trl="Y">
+  <value column="Name" original="Create PO from Requisition">Vytvor N/OBJ z Nákupnej Požiadavky</value>
+  <value column="Description" original="Create Purchase Orders from Requisitions">Vytvoriť Nákupné Objednávky z Nákupných Požiadaviek</value>
+  <value column="Help" original="Create Purchase orders from Purchase Requisitions.">Vytvoriť Nákupné Objednávky z Nákupných Požiadaviek</value>
+ </row>
+ <row id="338" trl="Y">
+  <value column="Name" original="Create GL/Default">Vytvoriť HK / Základnú</value>
+  <value column="Description" original="Copy matching account element values from existing Accounting Schema">Kopírovanie hodnoty rovnakých účtovných elementov  z existujúcej Ůčtovnej schémy.</value>
+  <value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Vytvorenie HK a základných účtov pre túto účtovnú schému a kopírovanie hodnoty rovnakých účtovných elementov.
+
+</value>
+ </row>
+ <row id="339" trl="Y">
+  <value column="Name" original="Report or Update Issue">Report or Update Issue</value>
+  <value column="Description" original="Report Issue to iDempiere">Report Issue to Adempiere</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="340" trl="Y">
+  <value column="Name" original="Monthly Invoice Product">Mesačná Fakturácia za Produkty</value>
+  <value column="Description" original="Invoice Report by Product per Month">Mesačný výkaz faktúr podľa produktu</value>
+  <value column="Help" original="Invoiced Amount by Product and Month">Fakturovaná Čiastka podľa Produktov a Mesiacov</value>
+ </row>
+ <row id="341" trl="Y">
+  <value column="Name" original="Quarter Invoice Product">Štvrťročná Fakturácia za Produkty</value>
+  <value column="Description" original="Invoice Report by Product per Quarter">Štvrťročná fakturácia za produkty</value>
+  <value column="Help" original="Invoiced Amount by Product and Quarter">Fakturovaná Čiastka podľa Produktov a Štvrťroku.</value>
+ </row>
+ <row id="342" trl="Y">
+  <value column="Name" original="Validate Support">Validate Support</value>
+  <value column="Description" original="Validate Support Contract">Validate Support Contract</value>
+  <value column="Help" original="The process connects to the iDempiere Support Services server and validates the support contract.  To sign up for support, please go to http://www.idempiere.org">The process connects to the Adempiere Support Services server and validates the support contract.  To sign up for support, please go to http://www.adempiere.org</value>
+ </row>
+ <row id="343" trl="Y">
+  <value column="Name" original="Import Payments">Import Platieb</value>
+  <value column="Description" original="Import Payments">Import Platieb</value>
+  <value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">The Parameters are default values for null import record values, they do not overwrite any data.</value>
+ </row>
+ <row id="344" trl="Y">
+  <value column="Name" original="Validate">Validácia</value>
+  <value column="Description" original="Validate Staging Area">Validate Staging Area</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Deploy Web Project">Nasadiť Webový Projekt</value>
+  <value column="Description" original="Deploy Web Project">Nasadiť Webový Projekt</value>
+  <value column="Help" original="The process deploys the media to the media server(s) and then copies the stage to the container.">The process deploys the media to the media server(s) and then copies the stage to the container.</value>
+ </row>
+ <row id="346" trl="Y">
+  <value column="Name" original="Verify BOMs">Kontrola kusovníkov</value>
+  <value column="Description" original="Verify BOM Structures">Skontroluje štrukúru kusovníkov</value>
+  <value column="Help" original="The Verify BOM Structures checks the elements and steps which comprise a Bill of Materials.">Funkcia Overenie Kusovnika kontroluje časti a kroky, ktoré tvoria jeden zoznam materiálov. </value>
+ </row>
+ <row id="347" trl="Y">
+  <value column="Name" original="Validate">Validácia</value>
+  <value column="Description" original="Validate Template">Validate Template</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="348" trl="Y">
+  <value column="Name" original="Register Extension">Register Extension</value>
+  <value column="Description" original="Register your extension with iDempiere">Register your extension with Adempiere</value>
+  <value column="Help" original="You can register the four character extension with iDempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact iDempiere for details.">You can register the four character extension with Adempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact Adempiere for details.</value>
+ </row>
+ <row id="349" trl="Y">
+  <value column="Name" original="Validate">Validácia</value>
+  <value column="Description" original="Validate Info Window SQL">Validate Info Window SQL</value>
+  <value column="Help" original="Validate generated Info Window SQL">Validate generated Info Window SQL</value>
+ </row>
+ <row id="350" trl="Y">
+  <value column="Name" original="Rebuild Index">Rebuild Index</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Be carefull, this process will reindex all tables and records which are marked to get indexed. Depending on the number of documents this could take a long time. This should only be run if you have removed stop words, if this is mentioned to be run after migration.">Be carefull, this process will reindex all tables and records which are marked to get indexed. Depending on the number of documents this could take a long time. This should only be run if you have removed stop words, if this is mentioned to be run after migration.</value>
+ </row>
+ <row id="352" trl="Y">
+  <value column="Name" original="Media Direct Deploy">Media Direct Deploy</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="PackRoll">PackRoll</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="PackOut">PackOut</value>
+  <value column="Description" original="Process to create package export">Process to create package export</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="File_Select">File_Select</value>
+  <value column="Description" original="Select a file">Výber Súboru</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="PackIn">PackIn</value>
+  <value column="Description" original="Import Package">Import Package</value>
+  <value column="Help" original="Import a package">Import a package</value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Copy Role">Kopírovanie Role</value>
+  <value column="Description" original="Copy Role">Kopírovanie role</value>
+  <value column="Help" original="Copy role access records from one role to another.  The existing access records for the destination role will be deleted.  This process can be executed just by advanced roles.">Kopírovanie záznamov prístupových rolí z jednej role do druhej. </value>
+ </row>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Copy Columns from Table">Kopírovať Stĺpce Z Tabuľky</value>
+  <value column="Description" original="Create Dictionary Columns for a Table taking another as base">Create Dictionary Columns for a Table taking another as base</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Request EMail Processor">Požiadavkový EMail Proces</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="52000" trl="Y">
+  <value column="Name" original="Create Order From RMA">Vytvor Objednávku z Autorizácie</value>
+  <value column="Description" original="Creates an order based on this RMA Document. The RMA should be correct and completed.">Vytvorí objednávku založenú na tejto Autorizácii. Autorizácia by mala byť správna a dokončená.</value>
+  <value column="Help" original="Generate Order from RMA will create an order based on this RMA document."/>
+ </row>
+ <row id="52001" trl="Y">
+  <value column="Name" original="Generate Shipments for Vendor RMA">Generovanie Dodávok pre reklamáciu od dodávateľa</value>
+  <value column="Description" original="Generate Shipments from open vendor RMA based on selection.">Generate Shipments from open vendor RMA based on selection.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="52002" trl="Y">
+  <value column="Name" original="Generate Invoices for Vendor RMA">Generovanie FA pre vratku Dodávateľovi </value>
+  <value column="Description" original="Generate Invoices from open vendor RMA based on selection.">Generovať faktúry z otvorených autorizácií vratiek dodávateľovi na základe výberu.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="52003" trl="Y">
+  <value column="Name" original="Update Role Menu">Aktualizácia menu role</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53002" trl="Y">
+  <value column="Name" original="Setup Web POS">Nastavenie Internetového POS</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53004" trl="Y">
+  <value column="Name" original="PP_Product_BOM CopyFrom">PP_Product_BOM CopyFrom</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines">This process copies BOM Lines from the Selected BOM to the Current BOM. The BOM being copied to must have any existing BOM Lines</value>
+ </row>
+ <row id="53006" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it."><![CDATA[The BOM & Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it.]]></value>
+ </row>
+ <row id="53008" trl="Y">
+  <value column="Name" original="Mutiple Components Change">Mutiple Components Change</value>
+  <value column="Description" original="This option allows the change of any component into BOM or Formula">This option allows the change of any component into BOM or Formula</value>
+  <value column="Help" original="This option allows the change of any component into BOM or Formula">This option allows the change of any component into BOM or Formula</value>
+ </row>
+ <row id="53010" trl="Y">
+  <value column="Name" original="Create Product Planning">Create Product Planning</value>
+  <value column="Description" original="This process will create the data plannig register for every product">This process will create the data plannig register for every product</value>
+  <value column="Help" original="In order to facilitate to load the data planning of similar products, you can run the process Create product Planning and this process will create the data plannig register for every product which fits the parameters: Product category, Warehouse and Resource.&#10;&#10;You must indicate the planning parameters defined in the last section for every Product category, Warehouse, and Resource set. Every product which fit these three parameters will have a data planning record with the same data planning values you enter in this form.">In order to facilitate to load the data planning of similar products, you can run the process Create product Planning and this process will create the data plannig register for every product which fits the parameters: Product category, Warehouse and Resource.
+
+You must indicate the planning parameters defined in the last section for every Product category, Warehouse, and Resource set. Every product which fit these three parameters will have a data planning record with the same data planning values you enter in this form.</value>
+ </row>
+ <row id="53012" trl="Y">
+  <value column="Name" original="Calculate Low Level">Calculate Low Level</value>
+  <value column="Description" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.</value>
+  <value column="Help" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.</value>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Create Record MRP">Create Record MRP</value>
+  <value column="Description" original="This process recreate the demand, approved and open orders for a product.">This process recreate the demand, approved and open orders for a product.</value>
+  <value column="Help" original="This process recreate the demand, approved and open orders for a product.&#10;&#10;Generally, this process is only performed during the implementation of MRP">This process recreate the demand, approved and open orders for a product.
+
+Generally, this process is only performed during the implementation of MRP</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Calculate Material Plan">Calculate Material Plan</value>
+  <value column="Description" original="This process calcualte the demand, approved and open orders for a product.">This process calcualte the demand, approved and open orders for a product.</value>
+  <value column="Help" original="This process calcualte the demand, approved and open orders for a product.">This process calcualte the demand, approved and open orders for a product.</value>
+ </row>
+ <row id="53018" trl="Y">
+  <value column="Name" original="MRP Details">MRP Details</value>
+  <value column="Description" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+  <value column="Help" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+ </row>
+ <row id="53020" trl="Y">
+  <value column="Name" original="Calculate Capacity Plan">Calculate Capacity Plan</value>
+  <value column="Description" original="Calculate Capacity Plan">Calculate Capacity Plan</value>
+  <value column="Help" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.</value>
+ </row>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Calculate Distribution Plan">Calculate Distribution Plan</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. </value>
+  <value column="Help" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. &#10;&#10;DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.&#10;&#10;DRP uses several variables:&#10;the on-hand inventory at the end of a period.&#10;the backordered demand at the end of a period.&#10;the required quantity of product needed at the beginning of a period.&#10;the constrained quantity of product available at the beginning of a period.&#10;the recommended order quantity at the beginning of a period.&#10;&#10;DRP needs the following information:&#10;the demand in a future period.&#10;the scheduled receipts at the beginning of a period.&#10;the safety stock requirement for a period.&#10;the on-hand inventory at the beginning of a period.&#10;">Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. 
+
+DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.
+
+DRP uses several variables:
+the on-hand inventory at the end of a period.
+the backordered demand at the end of a period.
+the required quantity of product needed at the beginning of a period.
+the constrained quantity of product available at the beginning of a period.
+the recommended order quantity at the beginning of a period.
+
+DRP needs the following information:
+the demand in a future period.
+the scheduled receipts at the beginning of a period.
+the safety stock requirement for a period.
+the on-hand inventory at the beginning of a period.
+</value>
+ </row>
+ <row id="53024" trl="Y">
+  <value column="Name" original="DRP Details">DRP Details</value>
+  <value column="Description" original="Show the detail of DRP calculation">Show the detail of DRP calculation</value>
+  <value column="Help" original="Show the detail of DRP calculation">Show the detail of DRP calculation</value>
+ </row>
+ <row id="53026" trl="Y">
+  <value column="Name" original="Process Manufacturing Order">Process Manufacturing Order</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53028" trl="Y">
+  <value column="Name" original="Manufacturing Order">Objednávka Výroby</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53030" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review  ">Manufacturing Orders Review  </value>
+  <value column="Description" original="It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.">It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.</value>
+  <value column="Help" original="It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.">It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.</value>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Component Check">Component Check</value>
+  <value column="Description" original="Show if  components are available in the warehouse to Manufacturing Order">Show if  components are available in the warehouse to Manufacturing Order</value>
+  <value column="Help" original="Before you complete a MO it is necessary to validate the components are available in the warehouse, in order to track the components availability you get a report which shows among other data: the Required Quantity for the MO, the Reserved Quantity, the On Hand Quantity and the Available Quantity.">Before you complete a MO it is necessary to validate the components are available in the warehouse, in order to track the components availability you get a report which shows among other data: the Required Quantity for the MO, the Reserved Quantity, the On Hand Quantity and the Available Quantity.</value>
+ </row>
+ <row id="53034" trl="Y">
+  <value column="Name" original="Print &amp; Release Order">Tlač a Uvoľni Objednávku</value>
+  <value column="Description" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.">Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.</value>
+  <value column="Help" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture. If you wish to print the warehouse and shop floor documentation you must tick the adequate check box:&#10;&#10;If you tick the Print Pick List check box you will get a report with the required components and quantities to help the warehouse clerk to issue the material to the shop floor. The next report is an example of this:&#10;&#10;If you tick the Print Pack List check box you will get a report with the required components and containing the material with a Component Type of Packing and Tools recorded in the BOM Window.&#10;&#10;Another report which is part of the Manufacturing Order Release Package is the Workflow(Routing). &#10;&#10;You can print this report with tick in the Print Workflow check box and it shows to the shop floor personnel the necessary steps for the manufacture of the product. &#10;&#10;This Report contains the place where the product should be made, the standard times, the tools and necessary devices. &#10;&#10;If you wish to print this report tick the check box Print Workflow.">Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture. If you wish to print the warehouse and shop floor documentation you must tick the adequate check box:
+
+If you tick the Print Pick List check box you will get a report with the required components and quantities to help the warehouse clerk to issue the material to the shop floor. The next report is an example of this:
+
+If you tick the Print Pack List check box you will get a report with the required components and containing the material with a Component Type of Packing and Tools recorded in the BOM Window.
+
+Another report which is part of the Manufacturing Order Release Package is the Workflow(Routing). 
+
+You can print this report with tick in the Print Workflow check box and it shows to the shop floor personnel the necessary steps for the manufacture of the product. 
+
+This Report contains the place where the product should be made, the standard times, the tools and necessary devices. 
+
+If you wish to print this report tick the check box Print Workflow.</value>
+ </row>
+ <row id="53036" trl="Y">
+  <value column="Name" original="Inventory in Process">Inventory in Process</value>
+  <value column="Description" original="This report show the inventory in process">This report show the inventory in process</value>
+  <value column="Help" original="This report show the inventory in process">This report show the inventory in process</value>
+ </row>
+ <row id="53038" trl="Y">
+  <value column="Name" original="Process Cost Collector">Process Cost Collector</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53040" trl="Y">
+  <value column="Name" original="Shop Floor Transaction Details">Detaily Transakcie</value>
+  <value column="Description" original="Show the Shop Floor Transaction Details">Show the Shop Floor Transaction Details</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53042" trl="Y">
+  <value column="Name" original="Process Distribution Order">Spracovanie Distribučnej Objednávky</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53044" trl="Y">
+  <value column="Name" original="Distribution Order Print">Tlač Distribučnej Objednávky</value>
+  <value column="Description" original="** Special ** Do not change **">** Špeciálne ** Nezmeniť **</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53046" trl="Y">
+  <value column="Name" original="Generate Movement">Generovať Pohyb</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Generovanie a tlač Pohybov Zásob z otvorených Distribučných Objednávok</value>
+  <value column="Help" original="Movement for open Distribution Orders are created based on the delivery rule of the Distribution Order and the relative order priority.  If a Promise Date is selected only orders up to (including) the date are selected.&lt;br&gt;&#10;If several Distribution Orders of a business partner have the same location, the Distribution orders can be consolidated into one Movement.&lt;br&gt;&#10;You can also include Distibution orders who have outstanding confirmations (e.g. ordered=10 - not confirmed movements=4 - would create a new movement of 6 if available)."><![CDATA[Pohyby z otvorených distribučných objednávok sa vytvárajú na základe dodacích podmienok distribučných objednávok a priority daných objednávok. Ak je stanovený dátum prisľúbenia, vyberú sa len objednávky do tohto dátumu, vrátane.<br>
+Ak viacero distribučných objednávok obchodného partnera má rovnakú umiestnenie/lokáciu, tieto objednávky je možné konsolidovať do jedného pohybu.<br>
+Môžete zároveň zahrnúť distribučné objednávky so zvyšnými/zostávajúcimi potvrdeniami (napr. objednané = 10 ks – nepotvrdené pohyby = 4 ks - vytvorí nový pohyb so 6 ks, ak sú dostupné).]]></value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="Print Test Results">Print Test Results</value>
+  <value column="Description" original="Process allow print the result of Quality Order">Process allow print the result of Quality Order</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Create Doc Type to Manufacturing">Create Doc Type to Manufacturing</value>
+  <value column="Description" original="Let create the document type to manufacturing">Let create the document type to manufacturing</value>
+  <value column="Help" original="This process only need run one time by client">This process only need run one time by client</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Create Element">Create Element</value>
+  <value column="Description" original="Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type ,Product and Product Attribute Set Instance .">Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type ,Product and Product Attribute Set Instance .</value>
+  <value column="Help" original="With this process is possible to create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.">With this process is possible to create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.</value>
+ </row>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Product Costing">Typ zdroja</value>
+  <value column="Description" original="To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type">To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type</value>
+  <value column="Help" original="To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type.&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;">To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type.												</value>
+ </row>
+ <row id="53056" trl="Y">
+  <value column="Name" original="Copy Price to Standard Cost">Copy Price to Standard Cost</value>
+  <value column="Description" original="This process allow copy a Price from Price list Version to Element Cost">This process allow copy a Price from Price list Version to Element Cost</value>
+  <value column="Help" original="This process allow copy a Price from Price list Version to Element Cost">This process allow copy a Price from Price list Version to Element Cost</value>
+ </row>
+ <row id="53058" trl="Y">
+  <value column="Name" original="Workflow Cost Roll-Up">Workflow Cost Roll-Up</value>
+  <value column="Description" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow ">This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow </value>
+  <value column="Help" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow &#10;&#10;Labor Cost Operation = (Setup Time / Qty Batch Size) * Duration * Labor Rate to this Resource &#10;Overhead Cost Operation =  (Setup Time / Qty Batch Size) * Duration * Overhead Rate to this Resource &#10;&#10;Labor Cost Workflow = Sum of every the Labor Cost Operation&#10;Overhead Cost Workflow = Sum of every the Overhead Cost Operation&#10;&#10;Cost Workflow = Labor Cost Workflow + Overhead Cost Workflow&#10;">This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow 
+
+Labor Cost Operation = (Setup Time / Qty Batch Size) * Duration * Labor Rate to this Resource 
+Overhead Cost Operation =  (Setup Time / Qty Batch Size) * Duration * Overhead Rate to this Resource 
+
+Labor Cost Workflow = Sum of every the Labor Cost Operation
+Overhead Cost Workflow = Sum of every the Overhead Cost Operation
+
+Cost Workflow = Labor Cost Workflow + Overhead Cost Workflow
+</value>
+ </row>
+ <row id="53060" trl="Y">
+  <value column="Name" original="Cost Workflow &amp; Process Details"><![CDATA[Cost Workflow & Process Details]]></value>
+  <value column="Description" original="This report show every cost element to a BOM or Formula ">This report show every cost element to a BOM or Formula </value>
+  <value column="Help" original="This report show every cost element to a BOM or Formula ">This report show every cost element to a BOM or Formula </value>
+ </row>
+ <row id="53062" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP"><![CDATA[Bill of Material & Formula Cost Roll-UP]]></value>
+  <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost"><![CDATA[This Process allow integrate Bill of Material & Formula Cost]]></value>
+  <value column="Help" original="This Process allow integrate Bill of Material &amp; Formula Cost&#10;&#10;Element Cost = Element Cost this level + Element Cost this low level &#10;&#10;Total BOM Cost = Sum every Element Cost"><![CDATA[This Process allow integrate Bill of Material & Formula Cost
+
+Element Cost = Element Cost this level + Element Cost this low level 
+
+Total BOM Cost = Sum every Element Cost]]></value>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="Create Report (Jasper)">Create Report (Jasper)</value>
+  <value column="Description" original="Create Financial Report  (Jasper)">Create Financial Report  (Jasper)</value>
+  <value column="Help" original="The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.">Je predvolené bežné obdobie. Je možné zadať ďalšie podmienky pre obmedzenie výberu. Ako alternativu môžete vybrať voľbu Hierarchie zostav(y).
+</value>
+ </row>
+ <row id="53065" trl="Y">
+  <value column="Name" original="ASP Generate Fields">ASP Generate Fields</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53067" trl="Y">
+  <value column="Name" original="ASP Generate Level">ASP Generate Level</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Update Sequence No">Aktualizácia Čísla Sekvencie</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Apply Migration Scripts">Apply Migration Scripts</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53070" trl="Y">
+  <value column="Name" original="Prepare Migration Scripts">Prepare Migration Scripts</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53072" trl="Y">
+  <value column="Name" original="C_Invoice Calculate Tax">Výpočet Dane Faktúry</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Test Import Model">Test Importného Modelu</value>
+  <value column="Description" original="Test Import of XML files">Test Import of XML files</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53076" trl="Y">
+  <value column="Name" original="Process Payroll">Process Payroll</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53078" trl="Y">
+  <value column="Name" original="Create Concept for Payroll">Create Concept for Payroll</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53080" trl="Y">
+  <value column="Name" original="HRPayroll Create Periods">Vytvoriť Mzdové Obdobie</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53082" trl="Y">
+  <value column="Name" original="Payroll Processing">Payroll Processing</value>
+  <value column="Description" original="The Payroll Processing is used to processing a Payroll, you can calculate for a Employee or All Employees">The Payroll Processing is used to processing a Payroll, you can calculate for a Employee or All Employees</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53084" trl="Y">
+  <value column="Name" original="Payroll Send EMail">Payroll Send EMail</value>
+  <value column="Description" original="This process is use to send the Payroll for each Employee via EMail">This process is use to send the Payroll for each Employee via EMail</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53085" trl="Y">
+  <value column="Name" original="Export Format Generator">Export Format Generator</value>
+  <value column="Description" original="Create multiple Export Format based in a Window">Create multiple Export Format based in a Window</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53089" trl="Y">
+  <value column="Name" original="Test Export Model">Test Exportného Modelu</value>
+  <value column="Description" original="Test Export of XML files">Test Export of XML files</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53091" trl="Y">
+  <value column="Name" original="Import FA Journal">Import FA Journal</value>
+  <value column="Description" original="Import FA Batch/Journal/Line">Import FA Batch/Journal/Line</value>
+  <value column="Help" original="The Parameters are default values for null import record values they do not overwrite any data.">The Parameters are default values for null import record values they do not overwrite any data.</value>
+ </row>
+ <row id="53093" trl="Y">
+  <value column="Name" original="Build Depreciation Forecast File">Vytvorený Súbor Plánov Odpisov</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53095" trl="Y">
+  <value column="Name" original="Process Entry">Process Entry</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53097" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt">Tlač vst. udajov na likv. majetku</value>
+  <value column="Description" original="Used to review Assets Disposed Entry">Used to review Assets Disposed Entry</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53099" trl="Y">
+  <value column="Name" original="Asset Transfer Entry">Asset Transfer Entry</value>
+  <value column="Description" original="Used to review Assets Transfered Entry ">Used to review Assets Transfered Entry </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53101" trl="Y">
+  <value column="Name" original="A_Asset_Split">A_Asset_Split</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53103" trl="Y">
+  <value column="Name" original="A_Asset_Disposal">A_Asset_Disposal</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53105" trl="Y">
+  <value column="Name" original="A_Depreciation_Transfer">Prevod odpisov.</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53107" trl="Y">
+  <value column="Name" original="Asset Split Entry">Asset Split Entry</value>
+  <value column="Description" original="Used to review Assets Split Entry ">Used to review Assets Split Entry </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53109" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry">Náklady Odpisov</value>
+  <value column="Description" original="Used to review Depreciation Expense Entry not yet booked">Používané na kontrolu nezaúčtovaných odpisov</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53111" trl="Y">
+  <value column="Name" original="Build Depreciation Workfile">Build Depreciation Workfile</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53113" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast">Asset Depreciation Forecast</value>
+  <value column="Description" original="Used to review Assets Forecast">Used to review Assets Forecast</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53115" trl="Y">
+  <value column="Name" original="Asset Parent Report">RV_Asset_Parent_Report</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53117" trl="Y">
+  <value column="Name" original="Depreciation Table">RV_Depreciation_Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53119" trl="Y">
+  <value column="Name" original="Spread Report">Spread Report</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53121" trl="Y">
+  <value column="Name" original="Asset Depreciation Method">RV_Asset_Depreciation_Method</value>
+  <value column="Description" original="List Depreciation Methods">List Depreciation Methods</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53123" trl="Y">
+  <value column="Name" original="Create Depreciation Function">Create Depreciation Function</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53125" trl="Y">
+  <value column="Name" original="Asset Convention Report">RV_Asset_Convention_Rpt</value>
+  <value column="Description" original="Asset Convention Report">Asset Convention Report</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53127" trl="Y">
+  <value column="Name" original="A_Depreciation_Entry_Cleanup">Vymazávanie vytvorených odpisov.</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53129" trl="Y">
+  <value column="Name" original="Depreciation Calculation Methods">RV_Depreciation_Calculation_Methods</value>
+  <value column="Description" original="List Depreciation Calculation Methods Available">List Depreciation Calculation Methods Available</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53131" trl="Y">
+  <value column="Name" original="Asset Group Defaults">RV_Asset_Group_Defaults</value>
+  <value column="Description" original="Lists Asset Group Settings &amp; Defaults"><![CDATA[Lists Asset Group Settings & Defaults]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Import Asset ">Import Majetku</value>
+  <value column="Description" original="Imports Asset from a file into the application">Imports Asset from a file into the application</value>
+  <value column="Help" original="Import Asset will bring a file of Asset in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values they do not overwrite any data."><![CDATA[Import Asset will bring a file of Asset in a predefined format into the application.<p>
+The Parameters are default values for null import record values they do not overwrite any data.]]></value>
+ </row>
+ <row id="53144" trl="Y">
+  <value column="Name" original="Forecast Report">Forecast Report</value>
+  <value column="Description" original="Forecast Report">Forecast Report</value>
+  <value column="Help" original="Forecast Report">Forecast Report</value>
+ </row>
+ <row id="53146" trl="Y">
+  <value column="Name" original="Forecast Report by Period">Forecast Report by Period</value>
+  <value column="Description" original="Forecast Report by Period">Forecast Report by Period</value>
+  <value column="Help" original="Forecast Report by Period">Forecast Report by Period</value>
+ </row>
+ <row id="53148" trl="Y">
+  <value column="Name" original="Calculate Forecast">Calculate Forecast</value>
+  <value column="Description" original="Calculate Forecast">Calculate Forecast</value>
+  <value column="Help" original="Calculate Forecast">Calculate Forecast</value>
+ </row>
+ <row id="53150" trl="Y">
+  <value column="Name" original="Distribution Run Orders">Distribution Run Orders</value>
+  <value column="Description" original="Create Distribution Run Orders based on Distribution List or The Quantity Demand the Distribution Order and redistribute the quantity into Distribution Plan line items">Create Distribution Run Orders based on Distribution List or The Quantity Demand the Distribution Order and redistribute the quantity into Distribution Plan line items</value>
+  <value column="Help" original="Based in DRP Demand is selected then the  redistribute the quantity is based in % of Demand&#10;&#10;Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.&#10;&#10;Consolidate to one Document let the distribution in current Documents with ranges dates promised, if do not is selected then a new Order is generate.">Based in DRP Demand is selected then the  redistribute the quantity is based in % of Demand
+
+Please note that due to rounding, the total quantity of the order(s) is likely to be higher then the quantity entered.
+
+Consolidate to one Document let the distribution in current Documents with ranges dates promised, if do not is selected then a new Order is generate.</value>
+ </row>
+ <row id="53151" trl="Y">
+  <value column="Name" original="Distribution Order Detail">Detaily Distribučnej Objednávky</value>
+  <value column="Description" original="Distribution Order Detail Report">Zostava Detailov Distribučnej Objednávky</value>
+  <value column="Help" original="The report includes order detail information Distribution Orders.">Zostava obsahuje detailné informácie distribučnej objednávky.</value>
+ </row>
+ <row id="53152" trl="Y">
+  <value column="Name" original="Immediate Bank Transfer">Okamžitý Bankový Prevod</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53153" trl="Y">
+  <value column="Name" original="Bank/Cash Transfer">Bankový Prevod</value>
+  <value column="Description" original="Bank/Cash Transfer let money tranfer between Banks">Bankový Prevod umožní prevod peňazí medzi Bankami.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53154" trl="Y">
+  <value column="Name" original="HouseKeeping">HouseKeeping</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="House Keeping">House Keeping</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53156" trl="Y">
+  <value column="Name" original="Enable Native Sequence">Enable Native Sequence</value>
+  <value column="Description" original="Enable Native Sequence">Enable Native Sequence</value>
+  <value column="Help" original="This process allows Enable the native sequences based in the current AD_Sequence.&#10;&#10;This process should be implemented when the users are not connected.">This process allows Enable the native sequences based in the current AD_Sequence.
+
+This process should be implemented when the users are not connected.</value>
+ </row>
+ <row id="53159" trl="Y">
+  <value column="Name" original="Cost BOM Multi Level Review">Cost BOM Multi Level Review</value>
+  <value column="Description" original="This report show every cost element to a Multi Level BOM or Formula ">This report show every cost element to a Multi Level BOM or Formula </value>
+  <value column="Help" original="This report show every cost element to a Multi Level BOM or Formula ">This report show every cost element to a Multi Level BOM or Formula </value>
+ </row>
+ <row id="53160" trl="Y">
+  <value column="Name" original="Frozen/UnFrozen Cost">Frozen/UnFrozen Cost</value>
+  <value column="Description" original="Frozen or UnFrozen Cost">Frozen or UnFrozen Cost</value>
+  <value column="Help" original="Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed">Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed</value>
+ </row>
+ <row id="53161" trl="Y">
+  <value column="Name" original="Initial Client Setup Process">Initial Client Setup Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53163" trl="Y">
+  <value column="Name" original="Import Price Lists">Import Cenníkov</value>
+  <value column="Description" original="Imports price lists from a file into the application">Importuje cenníky zo súboru do aplikácie</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53166" trl="Y">
+  <value column="Name" original="Recalculate Cube">Prepočítať Kocku</value>
+  <value column="Description" original="Recalculate summary facts based on report cube definitions.">Prepočítať fakty sumárov na základe definícií dátových kociek.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53176" trl="Y">
+  <value column="Name" original="Order Transactions">Transakcie Objednávok</value>
+  <value column="Description" original="Sales Order Transaction Report">Zostava Transakcií Predajných Objednávok</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53179" trl="Y">
+  <value column="Name" original="Copy From Report and Process">Copy From Report and Process</value>
+  <value column="Description" original="Copy settings from one report and process to another.">Copy settings from one report and process to another.</value>
+  <value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.</value>
+ </row>
+ <row id="53187" trl="Y">
+  <value column="Name" original="Client Accounting Processor">Účtovný Procesor Klienta</value>
+  <value column="Description" original="Client Accounting Processor">Účtovný Procesor Klienta</value>
+  <value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">Účtovný procesor klienta umožňuje užívateľom spúšťať účtovný procesor v zvolenom klientovi. Parametre systémovej konfigurácie CLIENT_ACCOUNTING musia byť povolené.</value>
+ </row>
+ <row id="53189" trl="Y">
+  <value column="Name" original="Storage per Product">Zásoby po Produktoch</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53197" trl="Y">
+  <value column="Name" original="Import Payroll Movement">Import Payroll Movement</value>
+  <value column="Description" original="Import Payroll Movement">Znuluje priradenie faktúr a platieb</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53199" trl="Y">
+  <value column="Name" original="Reset Allocation Direct">Reset Priamej Alokácie</value>
+  <value column="Description" original="Reset (delete) allocation of invoices to payments">Reset (vymazanie) alokácií faktúr k platbám</value>
+  <value column="Help" original="Delete individual allocation. In contrast to &quot;Reverse&quot;, the allocation is deleted (no trace), if the period is open.">Zmazať jednotlivé alokácie. Na rozdiel od "Reverzný", alokácia sa vymaže (bez stopy) v prípade, že obdobie je otvorené.</value>
+ </row>
+ <row id="53200" trl="Y">
+  <value column="Name" original="Import Product Planning and Forecast">Import Product Planning and Forecast</value>
+  <value column="Description" original="Import Product Planning and Forecast">Import Product Planning and Forecast</value>
+  <value column="Help" original="Import and update  product planning data and forecast">Import and update  product planning data and forecast</value>
+ </row>
+ <row id="53202" trl="Y">
+  <value column="Name" original="POS Key Generate">Kopírovanie z Produktu</value>
+  <value column="Description" original="Generate POS Keys from products.">Generovať POS Kľuč z produktov.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53206" trl="Y">
+  <value column="Name" original="Copy from product">Kopírovať z Produktu</value>
+  <value column="Description" original="Copy prices etc from other product">Kopírovať ceny atď. z ostatných produktov</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53207" trl="N">
+  <value column="Name" original="Update depreciation">Update depreciation</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53208" trl="N">
+  <value column="Name" original="Asset Addition Process">Asset Addition Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53210" trl="N">
+  <value column="Name" original="Asset Disposed Process">Asset Disposed Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53211" trl="N">
+  <value column="Name" original="Process Depreciation Expense">Process Depreciation Expense</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53212" trl="N">
+  <value column="Name" original="Asset Transfer Process">Asset Transfer Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53213" trl="N">
+  <value column="Name" original="Asset Reval Process">Asset Reval Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53214" trl="N">
+  <value column="Name" original="Process Depreciation Entry">Process Depreciation Entry</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53215" trl="N">
+  <value column="Name" original="Import Fixed Assets">Import Fixed Assets</value>
+  <value column="Description" original=""/>
+  <value column="Help" original="Import All Fixed Assets">Import All Fixed Assets</value>
+ </row>
+ <row id="53216" trl="Y">
+  <value column="Name" original="ImportInventoryMovement">Prideliť predajné objednávky</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53220" trl="Y">
+  <value column="Name" original="Unreconciled accounting facts">Nevypárované Účtovné Udalosti</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53221" trl="Y">
+  <value column="Name" original="Automatic account reconciliation">Automatické Párovanie Saldokonta</value>
+  <value column="Description" original="Reconcile account transactions according to standard rules">Zosúhlasenie účtovných transakcií na základe štandardných pravidiel</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53226" trl="N">
+  <value column="Name" original="Create Production">Create Production</value>
+  <value column="Description" original="Create production lines">Create production lines</value>
+  <value column="Help" original="Create Production will generate the production lines.">Create Production will generate the production lines.</value>
+ </row>
+ <row id="53227" trl="N">
+  <value column="Name" original="Post Production">Post Production</value>
+  <value column="Description" original="Process the production">Process the production</value>
+  <value column="Help" original="Post Production will process the production.">Post Production will process the production.</value>
+ </row>
+ <row id="53228" trl="N">
+  <value column="Name" original="Validate BOM Flags">Validate BOM Flags</value>
+  <value column="Description" original="Validate BOM Flags">Validate BOM Flags</value>
+  <value column="Help" original="The Validate BOM Flags process checks that all Products with bills of materials are correctly flagged.">The Validate BOM Flags process checks that all Products with bills of materials are correctly flagged.</value>
+ </row>
+ <row id="53229" trl="N">
+  <value column="Name" original="Verify BOM Structure">Verify BOM Structure</value>
+  <value column="Description" original="Verify BOM for correctness">Verify BOM for correctness</value>
+  <value column="Help" original="The Verify BOM process checks for circular BOMs (unsupported).">The Verify BOM process checks for circular BOMs (unsupported).</value>
+ </row>
+ <row id="53230" trl="N">
+  <value column="Name" original="Rollup BOM Cost">Rollup BOM Cost</value>
+  <value column="Description" original="Rollup BOM cost">Rollup BOM cost</value>
+  <value column="Help" original="Rollup BOM costs from the lowest level recursively.">Rollup BOM costs from the lowest level recursively.</value>
+ </row>
+ <row id="53245" trl="Y">
+  <value column="Name" original="Validate">Validácia</value>
+  <value column="Description" original="Validate Payment Schedule">Validácia / Potvdenie Plánu Platby</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53246" trl="N">
+  <value column="Name" original="Copy from Cash Plan">Copy from Cash Plan</value>
+  <value column="Description" original="Copy Lines from other Cash Plan">Copy Lines from other Cash Plan</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53247" trl="N">
+  <value column="Name" original="Generate Periodic Plan">Generate Periodic Plan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53248" trl="Y">
+  <value column="Name" original="Cash Flow Report">Zostava Cash Flow </value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53252" trl="N">
+  <value column="Name" original="UUID Generator">UUID Generator</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53259" trl="N">
+  <value column="Name" original="Convert passwords to hashes">Convert passwords to hashes</value>
+  <value column="Description" original="Convert existing plain text/encrypted user passwords to one way hash">Convert existing plain text/encrypted user passwords to one way hash</value>
+  <value column="Help" original="This process will overwrite existing user passwords with a salted SHA-512 hash of the password so that they cannot be recovered if your database is compromised.&#10;(Note: If your password column is currently encrypted, the hash will also be encrypted.)">This process will overwrite existing user passwords with a salted SHA-512 hash of the password so that they cannot be recovered if your database is compromised.
+(Note: If your password column is currently encrypted, the hash will also be encrypted.)</value>
+ </row>
+ <row id="53264" trl="N">
+  <value column="Name" original="Production Plan">Production Plan</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53265" trl="N">
+  <value column="Name" original="Universal substitution">Universal substitution</value>
+  <value column="Description" original="Substitute one product for another in all BOMs">Substitute one product for another in all BOMs</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53266" trl="N">
+  <value column="Name" original="Indented Bill of Material">Indented Bill of Material</value>
+  <value column="Description" original="Indented BOM report">Indented BOM report</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53267" trl="N">
+  <value column="Name" original="Replenish Report incl. Production">Replenish Report incl. Production</value>
+  <value column="Description" original="Inventory Replenish Report">Inventory Replenish Report</value>
+  <value column="Help" original="Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.&lt;br&gt;&#13;&#10;Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished."><![CDATA[Report lists products to be replenished. Note that a product can have only one current vendor. If there are more then vendor per product, both records are reset.  You need to select a current vendor manually.<br>
+Movements are only created, if a sourcing warehouse is defined for the warehouse to be replenished.]]></value>
+ </row>
+ <row id="53276" trl="Y">
+  <value column="Name" original="Convert Lead">Konvertovať na Zákazníka</value>
+  <value column="Description" original="Convert Lead to BP and Opportunity">Konvertovať Lead na Zákazníka a Obchodnú Príležitosť.</value>
+  <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity">Konvertovať Lead na zákazníka a/alebo na obchodnú príležitosť.</value>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="FA_ProjectCreateAsset">FA_ProjectCreateAsset</value>
+  <value column="Description" original="This process creates asset from project and automatically close the project">This process creates asset from project and automatically close the project</value>
+  <value column="Help" original="There are four parameters:&#10;a. Project, is the Project that will be converted to asset. This project will be closed after this process completes&#10;b. Product, is the asset product that will be act as the base for the newly created asset&#10;c. UseLifeYears, is an optional parameter. Use this if you want a different use life years for the newly created asset, instead of the default uselifeyears from asset group accounting.&#10;d. Transaction Date, will become in-service-date for the newly created asset.">There are four parameters:
+a. Project, is the Project that will be converted to asset. This project will be closed after this process completes
+b. Product, is the asset product that will be act as the base for the newly created asset
+c. UseLifeYears, is an optional parameter. Use this if you want a different use life years for the newly created asset, instead of the default uselifeyears from asset group accounting.
+d. Transaction Date, will become in-service-date for the newly created asset.</value>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Copy Details">Copy Details</value>
+  <value column="Description" original="Copy Journal/Lines from other Journal">Copy Journal/Lines from other Journal</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="OrderLine Create Production">OrderLineCreateProduction</value>
+  <value column="Description" original="Create Production Header and Plan for single ordered product">Create Production Header and Plan for single ordered product</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="OrderLine Create Shipment">OrderLine Create Shipment</value>
+  <value column="Description" original="Create Shipment for single ordered product">Create Shipment for single ordered product</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="Y">
+  <value column="Name" original="Reset Locked Account">Reset Uzamknutého Účtu</value>
+  <value column="Description" original="Reset Locked Account for User">Reset Uzamknutého Účtu užívateľa</value>
+  <value column="Help" original="Select a locked user from the list to unlock it.  Alternatively you can run the process without selecting any user, in this case the process will unlock all locked users from the client applying accordingly the policies configured for &quot;max account lock&quot; and &quot;max inactive period&quot;."/>
+ </row>
+ <row id="200010" trl="N">
+  <value column="Name" original="Generate GL Journal">Generate GL Journal</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Copy Lines">Kopírovať Riadky</value>
+  <value column="Description" original="Copy Lines from other bank statement">Kopírovať Riadky z iného Bankového Výpisu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200014" trl="Y">
+  <value column="Name" original="Void Online Authorization Payment Transaction Process">Proces - Storno platobnej transakcie online autorizácie</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Tab Editor">Tab Editor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Reverse PO Matching">Reverse MatchPO</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="Reverse Invoice Matching">Reverse MatchInv</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="Expire Broadcast Message">Koniec Vysielanej Správy</value>
+  <value column="Description" original="Expire Broadcast Message">Koniec Vysielanej Správy</value>
+  <value column="Help" original="Selecting OK will expire current message. Do you want to expire message?">Koniec Vysielanej Správy</value>
+ </row>
+ <row id="200019" trl="N">
+  <value column="Name" original="Publish Broadcast message">Zverejniť Vysielanú Správu</value>
+  <value column="Description" original="Publish Broadcast message">Zverejniť Vysielanú Správu</value>
+  <value column="Help" original="Selecting ok will publish message.  Do you want to publish message?">Zverejniť Vysielanú Správu</value>
+ </row>
+ <row id="200020" trl="Y">
+  <value column="Name" original="Test Broadcast Message">Testovať Vysielanú Správu</value>
+  <value column="Description" original="Test and verify message before broadcasting">Testovať a kontrolovať Vysielanú Správu pred zverejnením</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200021" trl="N">
+  <value column="Name" original="Kill Current Session">Kill Current Session</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200022" trl="N">
+  <value column="Name" original="Kill All Session">Kill All Session</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200023" trl="Y">
+  <value column="Name" original="Print Shipping Label">Tlač Prepravné štítky</value>
+  <value column="Description" original="Print shipping label">Tlač Prepravné štítky</value>
+  <value column="Help" original="Print shipping label return from online shipping services.">Tlač Prepravné štítky</value>
+ </row>
+ <row id="200024" trl="N">
+  <value column="Name" original="Process Shipment Online">Process Shipment Online</value>
+  <value column="Description" original="Create shipment using web services provided by shipper">Create shipment using web services provided by shipper</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200025" trl="N">
+  <value column="Name" original="Online Shipping Rate Inquiry">Online Shipping Rate Inquiry</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200026" trl="N">
+  <value column="Name" original="Void Shipment Online">Void Shipment Online</value>
+  <value column="Description" original="Void shipment using web services provided by shipper">Void shipment using web services provided by shipper</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200028" trl="N">
+  <value column="Name" original="Shipper Create From ...">Shipper Create From ...</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200029" trl="N">
+  <value column="Name" original="Shipper Copy From ...">Shipper Copy From ...</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200030" trl="Y">
+  <value column="Name" original="Online Shipping Sales Order Rate Inquiry">Online Výpočet Ceny Prepravy</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200031" trl="N">
+  <value column="Name" original="Deposit Batch Close">Deposit Batch Close</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200032" trl="Y">
+  <value column="Name" original="Bank Statement Create From Batch">Vytvoriť Bankový Výpis z Dávky</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200034" trl="N">
+  <value column="Name" original="1099 Extract">1099 Extract</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200035" trl="Y">
+  <value column="Name" original="Bank Register Report">Zostava Výpis Banky</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200036" trl="N">
+  <value column="Name" original="Product/Component Where Used">Product/Component Where Used</value>
+  <value column="Description" original="Product/Component Where Used">Product/Component Where Used</value>
+  <value column="Help" original="Enter a product/component below, and the system will check for BOM(s) that contain that product/component.  This report is non-recursive.  In other words, it will only show one parent level above the product/component.">Enter a product/component below, and the system will check for BOM(s) that contain that product/component.  This report is non-recursive.  In other words, it will only show one parent level above the product/component.</value>
+ </row>
+ <row id="200037" trl="Y">
+  <value column="Name" original="Simple Fact View">Zjednodušený Účtovný Denník</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200038" trl="N">
+  <value column="Name" original="Complex Fact View">Complex Fact View</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200039" trl="N">
+  <value column="Name" original="Verify Language Configuration">Verify Language Configuration</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200040" trl="N">
+  <value column="Name" original="Change Base Language">Change Base Language</value>
+  <value column="Description" original="Change Base Language">Change Base Language</value>
+  <value column="Help" original="In order to enable en_US as a translation you can enable any other language as base language.&#10;If you don't want to have a base language choose a language that won't be used for login.&#10;If all languages are going to be used as login, create a xx_XX language not login and use it as base.&#10;Please note that base language cannot be a system language.">In order to enable en_US as a translation you can enable any other language as base language.
+If you don't want to have a base language choose a language that won't be used for login.
+If all languages are going to be used as login, create a xx_XX language not login and use it as base.</value>
+ </row>
+ <row id="200055" trl="N">
+  <value column="Name" original="Index Validate">Index Validate</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200056" trl="N">
+  <value column="Name" original="View Validate">View Validate</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200057" trl="N">
+  <value column="Name" original="Create Table Index">Create Table Index</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200058" trl="N">
+  <value column="Name" original="Create Foreign Key">Create Foreign Key</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200059" trl="N">
+  <value column="Name" original="Refresh Current Cost">CostAdjustmentLine_RefreshCurrentCost</value>
+  <value column="Description" original="Refresh current cost for cost adjustment line">Refresh current cost for cost adjustment line</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200060" trl="N">
+  <value column="Name" original="Validate Connection">Validate Connection</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200061" trl="N">
+  <value column="Name" original="Validate Address">Validate Address</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200064" trl="N">
+  <value column="Name" original="Captured Process Parameter">Captured Process Parameter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200065" trl="N">
+  <value column="Name" original="Drop Table Index">Drop Table Index</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200066" trl="N">
+  <value column="Name" original="Drop view">Drop view</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200067" trl="N">
+  <value column="Name" original="Copy Info Window Columns">Copy Info Window Columns</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200068" trl="N">
+  <value column="Name" original="Process Production">Process Production</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Recurring Run">Recurring Run</value>
+  <value column="Description" original="Recurring Run">Recurring Run</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200076" trl="N">
+  <value column="Name" original="Import CSV Process">Import CSV Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200077" trl="N">
+  <value column="Name" original="Generate Production from Project">Generate Production from Project</value>
+  <value column="Description" original="Generate Production from Project Line(s)">Generate Production from Project Line(s)</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_Menu">
+ <row id="100" trl="Y">
+  <value column="Name" original="Invoice Inquiry">Informácia o Faktúrach</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Application Dictionary">Aplikačný Slovník</value>
+  <value column="Description" original="Maintain Application Dictionary">Správa aplikačného slovníka</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="General Rules">Všeobecné pravidlá</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Client Rules">Pravidlá klienta</value>
+  <value column="Description" original="Maintain Client Rules">Nastavenia pravidiel pre klienta</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Data">Dáta</value>
+  <value column="Description" original="Maintain Data">Správa Dát</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Performance Measurement">Meranie Výkonu</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Utility">Všeobecné</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Project Management">Správa Projektov</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="System Rules">Systémové pravidlá</value>
+  <value column="Description" original="General System Rules">Všeobecné systémové pravidlá</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Data Import">Import Dát</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Accounting Rules">Účtovné pravidlá</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Business Partner Rules">Pravidlá Obch. Partnerov</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Quote-to-Invoice">Ponuka-až-Faktúra</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Material Management Rules">Pravidlá Riadenia Materiálu</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Organization Rules">Pravidlá organizácie</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Material Management">Manažment Materiálu</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Requisition-to-Invoice">Nákupná Požiadavka-až-Faktúra</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="System Admin">Administrácia Systému</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Open Items">Otvorené Položky</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Partner Relations">Obchodné vzťahy</value>
+  <value column="Description" original="Customer Relations and Partner Management">Customer Relations and Partner Management</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Service">Služby</value>
+  <value column="Description" original="Service Management">Service Management</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Sales and Marketing">Predaj a Marketing</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Performance Analysis">Analýza Výkonu</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Financial Reporting">Finančné Zostavy</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Printing">Tlač</value>
+  <value column="Description" original="Print Definition">Nastavenie tlače</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Assets">Majetok</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="357" trl="Y">
+  <value column="Name" original="Product Attributes">Atribúty Produktu</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Security">Zabezpečenie</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="372" trl="Y">
+  <value column="Name" original="Web">Web</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="392" trl="Y">
+  <value column="Name" original="Knowledge Base">Báza Znalostí</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="456" trl="Y">
+  <value column="Name" original="Server">Server</value>
+  <value column="Description" original="iDempiere Server Maintenance">Adempiere Server Maintenance</value>
+ </row>
+ <row id="457" trl="Y">
+  <value column="Name" original="Sales Orders">Predajné Objednávky</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="458" trl="Y">
+  <value column="Name" original="Sales Invoices">Predajné Faktúry</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="459" trl="Y">
+  <value column="Name" original="Shipments">Dodávky</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="460" trl="Y">
+  <value column="Name" original="Market Place">Aukcie</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="501" trl="Y">
+  <value column="Name" original="Workflow">Workflow</value>
+  <value column="Description" original="iDempiere Workflow">Adempiere Workflow</value>
+ </row>
+ <row id="522" trl="Y">
+  <value column="Name" original="Costing">Nákladové Ocenenie</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="528" trl="Y">
+  <value column="Name" original="Request">Požiadavka</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="566" trl="Y">
+  <value column="Name" original="Collaboration">Spolupráca/komunikácia</value>
+  <value column="Description" original="Collaboration and Content Management">Collaboration and Content Management</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Application Packaging">Aplikačný Balík</value>
+  <value column="Description" original="Import and export packaging">Import a export balenia</value>
+ </row>
+ <row id="52001" trl="Y">
+  <value column="Name" original="Web POS">Web registračná pokladňa </value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Manufacturing Management">Riadenie Výroby</value>
+  <value column="Description" original="Manufacturing">Výroba</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Engineering Management">Engineering Management</value>
+  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.</value>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Resource Manufacturing">Aktualizuj číselníky dokladov</value>
+  <value column="Description" original="Resource Manufacturing">Aktualizuj číselníky dokladov</value>
+ </row>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Manufacturing Workflow">Manufacturing Workflow</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formulas"><![CDATA[Bill of Material & Formulas]]></value>
+  <value column="Description" original="Bill of Material &amp; Formulas"><![CDATA[Bill of Material & Formulas]]></value>
+ </row>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Planning Management">Plánovanie Riadenia</value>
+  <value column="Description" original="Using Planning Management you answer the question: When and How Many products we must get?">Using Planning Management you answer the question: When and How Many products we must get?</value>
+ </row>
+ <row id="53031" trl="Y">
+  <value column="Name" original="Product Planning">Product Planning</value>
+  <value column="Description" original="Product Planning">Product Planning</value>
+ </row>
+ <row id="53034" trl="Y">
+  <value column="Name" original="MRP">MRP</value>
+  <value column="Description" original="Materials Requirements Planning">Materials Requirements Planning</value>
+ </row>
+ <row id="53043" trl="Y">
+  <value column="Name" original="CRP">CRP</value>
+  <value column="Description" original="Capacity Requirements Planning">Načítaj otvorené súbory do importovaných tabuliek</value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="DRP">DRP</value>
+  <value column="Description" original="Distribution Resource Planning">Plánovanie zdrojov distr.</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Production Management">Production Management</value>
+  <value column="Description" original="Production Management">Production Management</value>
+ </row>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Discreet Manufacturing">Prerušovaná Výroba</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Management Maintenance">Management Maintenance</value>
+  <value column="Description" original="Management Maintenance">Management Maintenance</value>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="Activity Control">Activity Control</value>
+  <value column="Description" original="Activity Control">Activity Control</value>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Distribution Management">Manažment Distribúcie</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Plánovanie distribúcie zdrojov (DRP) je metóda používaná v obchodnej administratíve pre plánovanie objednávok v rámci dodávateľského reťazca.</value>
+ </row>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Quality Management">Riadenie Kvality</value>
+  <value column="Description" original="Quality Management">Riadenie Kvality</value>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Standard Costing Management">Standard Costing Management</value>
+  <value column="Description" original="Standard Costing Management">Standard Costing Management</value>
+ </row>
+ <row id="53091" trl="Y">
+  <value column="Name" original="Global Tax Management">Global Tax Management</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Replication Data">Replication Data</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53108" trl="Y">
+  <value column="Name" original="Human Resource &amp; Payroll"><![CDATA[Ľudské Zdroje & Mzdy]]></value>
+  <value column="Description" original="Human Resource &amp; Payroll"><![CDATA[Ľudské Zdroje & Mzdy ]]></value>
+ </row>
+ <row id="53109" trl="Y">
+  <value column="Name" original="Human Resource">Ľudké Zdroje</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53114" trl="Y">
+  <value column="Name" original="Payroll">Mzdy</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53133" trl="Y">
+  <value column="Name" original="Customer Service">Základný Servis</value>
+  <value column="Description" original="Customer Related Assets">Customer Related Assets</value>
+ </row>
+ <row id="53136" trl="Y">
+  <value column="Name" original="Asset Revaluation">Technické Zhodnotenie</value>
+  <value column="Description" original="Process Asset Revaluations">Technické Zhodnotenie</value>
+ </row>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Asset Transactions ">Transakcie Majetku</value>
+  <value column="Description" original="Asset Transactions (Addition, Disposal, Split &amp; Transfer)"><![CDATA[Transakcie Majetku (Zaradenie, Vyradenie, Rozdelenie & Transfer)]]></value>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Depreciation Processing">Spracovanie Odpisov</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">Aplikácie pre spracovanie Odpisov do HK</value>
+ </row>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Reporting">Zostavy</value>
+  <value column="Description" original="Reporting for fixed assets"/>
+ </row>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Setup">Nastavenie Odpisov</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">Applications to setup and maintain depreciation</value>
+ </row>
+ <row id="53180" trl="Y">
+  <value column="Name" original="Forecast Management">Forecast Management</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53242" trl="Y">
+  <value column="Name" original="Returns">Vratky</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="EDI">EDI</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Manufacturing">Výroba</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53363" trl="Y">
+  <value column="Name" original="Sales Management">Riadenie Vzťahov so Zákazníkmi (CRM)</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200095" trl="N">
+  <value column="Name" original="Import Template">Import Template</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_InfoWindow">
+ <row id="200000" trl="Y">
+  <value column="Name" original="Product Info">Info o Produktoch</value>
+  <value column="Description" original="">Okno Info o Produktoch zobrazuje informácie o produktoch</value>
+  <value column="Help" original="">Okno Info o Produktoch zobrazuje základné informácie o produktoch a umožňuje rýchly spôsob vyhľadávania a prezerania na základe zadaných vyhľadávacích kritérií.
+</value>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Business Partner Info">Info o Obchodných Partneroch</value>
+  <value column="Description" original="">Okno Info o Obchodných Partneroch zobrazuje základné informácie o obchodných partneroch</value>
+  <value column="Help" original="">Okno Info o Obchodných Partneroch zobrazuje základné informácie o obchodných partneroch a umožňuje rýchly spôsob vyhľadávania a prezerania.</value>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Order Info">Info o Objednávkach</value>
+  <value column="Description" original="">Okno Info o Objednávkach zobrazuje základné informácie o objednávkach</value>
+  <value column="Help" original="">Okno Info o Objednávkach zobrazuje základné informácie o objednávkach a umožňuje rýchly spôsob vyhľadávania a prezerania na základe zadaných vyhľadávacích kritérií.</value>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Invoice Info">Info o Faktúrach</value>
+  <value column="Description" original="">Okno Info o Faktúrach zobrazuje základné informácie o faktúrach</value>
+  <value column="Help" original="">Okno Info o Faktúrach zobrazuje základné informácie o faktúrach a umožňuje rýchly spôsob vyhľadávania a prezerania na základe vyhľadávacích kritérií.
+</value>
+ </row>
+ <row id="200004" trl="Y">
+  <value column="Name" original="Shipment Info">Info o Dodávkach</value>
+  <value column="Description" original="">Okno Info o Dodávkach zobrazuje základné informácie o dodávkach</value>
+  <value column="Help" original="">Okno Info o Dodávkach zobrazuje základné informácie o dodávkach a umožňuje rýchly spôsob vyhľadávania a prezerania na základe zadaných vyhľadávacích kritérií.
+</value>
+ </row>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Payment Info">Info o Platbách</value>
+  <value column="Description" original="">Okno Info o Platbách zobrazuje základné informácie o platbách</value>
+  <value column="Help" original="">Okno Info o Platbách zobrazuje základné informácie o platbách a umožňuje rýchly spôsob vyhľadávania a prezerania na základe zadaných vyhľadávacích kritérií.
+</value>
+ </row>
+ <row id="200006" trl="Y">
+  <value column="Name" original="Resource Info">Info o Zdrojoch</value>
+  <value column="Description" original="">Okno Info o Zdrojoch zobrazuje základné informácie o zdrojoch</value>
+  <value column="Help" original="">Okno Info o Zdrojoch zobrazuje základné informácie o zdrojoch a umožňuje rýchly spôsob vyhľadávania a prezerania na základe zadaných vyhľadávacích kritérií.
+</value>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Asset Info">Info o Majetku</value>
+  <value column="Description" original="">Okno Info o Majetku zobrazuje základné informácie o majetkoch</value>
+  <value column="Help" original="">Okno Info o Majetku zobrazuje základné informácie o majetkoch a umožňuje rýchly spôsob vyhľadávania a prezerania.</value>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="A_Asset_Group">
+ <row trl="N" uuid="91c86595-6a01-4c55-a02e-a3fc6056211d">
+  <value column="Name" original="Основные фонды">Основные фонды</value>
+  <value column="Description" original="Основные фонды предприятия">Основные фонды предприятия</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="59be4677-f96d-4576-ba37-3ac178234e16">
+  <value column="Name" original="Автомобили клиентов">Автомобили клиентов</value>
+  <value column="Description" original="Автомобили клиентов">Автомобили клиентов</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="7e59527d-bec6-4171-bbae-c0dd202499eb">
+  <value column="Name" original="Сервисные автомобили партнеров">Сервисные автомобили партнеров</value>
+  <value column="Description" original="Сервисные автомобили партнеров">Сервисные автомобили партнеров</value>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>

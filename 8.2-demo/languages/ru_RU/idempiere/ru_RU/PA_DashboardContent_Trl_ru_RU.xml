@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="PA_DashboardContent">
+ <row id="50000" trl="Y">
+  <value column="Name" original="Activities">Активность</value>
+  <value column="Description" original="Workflow activities, notices and requests">Workflow активности, сообщения и запросы</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Favourites">Избранное</value>
+  <value column="Description" original="User favourities">Пользовательские предпочтения</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Views">Информация</value>
+  <value column="Description" original="Info views">Просмотр Информации</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Performance">Производительность</value>
+  <value column="Description" original="Performance meters">Параметры производительности (эффективности)</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200000" trl="Y">
+  <value column="Name" original="Recent Items">Последние элементы</value>
+  <value column="Description" original="Recent items">Последние элементы</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200001" trl="Y">
+  <value column="Name" original="Menu">Меню</value>
+  <value column="Description" original="Menu">Меню</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200002" trl="Y">
+  <value column="Name" original="Running Jobs">Исполняемые задания</value>
+  <value column="Description" original="Running Jobs">Исполняемые задания</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200003" trl="Y">
+  <value column="Name" original="Activities">Активности</value>
+  <value column="Description" original="">Workflow активности, сообщения и запросы</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="5ab2f017-312e-4f7f-9360-613310c81a46">
+  <value column="Name" original="Google Map">Карта Google</value>
+  <value column="Description" original="Google Map">Google Map</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="d161a58b-5d13-4fb6-854b-62e24a1202a3">
+  <value column="Name" original="ServiceRequests">Запросы на сервис</value>
+  <value column="Description" original="NMS service requests">Запросы на сервис системы NMS</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row trl="Y" uuid="398615f5-004d-4106-a561-8c3ec0d50d25">
+  <value column="Name" original="Openlayers Map">Карта Openlayers</value>
+  <value column="Description" original="Openlayers Map">Карта Openlayers</value>
+  <value column="HTML" original=""/>
+ </row>
+</idempiereTrl>

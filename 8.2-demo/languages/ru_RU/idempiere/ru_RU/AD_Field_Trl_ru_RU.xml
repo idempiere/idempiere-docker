@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_Field">
+ <row id="1546" trl="Y">
+  <value column="Name" original="Link Column">Первичный cтолбец</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Связь cтолбца для мульти-родительских таблиц</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">Связь столбца показывает, какой столбец является primary key для данной ситуации , т.е. в ситуации,когда имеется более одного родителя. Определяйте это только тогда, когда таблица имеет более одного родителя для данного столбца (например, AD_User_Roles).</value>
+ </row>
+ <row id="2124" trl="Y">
+  <value column="Name" original="Language">Язык</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Язык для данного бизнес-партнера, если возможна мульти-языковая поддержка</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">Язык, идентифицированный как указанный. Язык используется для отображения и форматирования документов. Это требуется на уровне клиента. Выбираются мульти-языковые документы - вы можете выбрать, а затем вы можете создавать/загружать язык.</value>
+ </row>
+ <row id="3665" trl="Y">
+  <value column="Name" original="Start Node">Начальный узел</value>
+  <value column="Description" original="Workflow Node, step or process">Этап бизнес-процесса, шаг или задача</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Узел wWorkflow показывает уникальный шаг или процесс  в workflow.</value>
+ </row>
+ <row id="4055" trl="Y">
+  <value column="Name" original="Tax Amount">Сумма налога</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">Сумма налога для транзакции с кредитной карточкой</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">Сумма налога показывает итоговую сумму налога. Налоговая сумма используется только для операций с кредитной карточкой.</value>
+ </row>
+ <row id="4121" trl="Y">
+  <value column="Name" original="Account Conversion Date">Учетная дата</value>
+  <value column="Description" original="Accounting Conversion Date">Бухгалтерская дата</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">Бухгалтерская дата показывает даты, которая будет использоваться в записях счетов общей бухгалтерской книги, созданных из этого документа. Она также используется для любых конвертаций валют.</value>
+ </row>
+ <row id="4462" trl="Y">
+  <value column="Name" original="Business Partner / Sales Rep">Бизнес-партнер/Торг Пред</value>
+  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">Идентифицирует бизнес-партнера (Торг представителя), получающего комиссионные</value>
+  <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">Бизнес-партнер, который является поставщиком, и который может быть также Торг представителем</value>
+ </row>
+ <row id="4725" trl="Y">
+  <value column="Name" original="Acknowledge">Подтверждение</value>
+  <value column="Description" original="System Notice acknowledged">Напоминания системы подтвержедены</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Checkbox Подтверждение показывает, если данное напоминание не нужно будет сохранять.</value>
+ </row>
+ <row id="5092" trl="Y">
+  <value column="Name" original="Driving Column">Управляющий столбец</value>
+  <value column="Description" original="Column which controls all tabs in the workbench">Столбец, который контролирует все вкладки в инструментарии</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="5899" trl="Y">
+  <value column="Name" original="System Name">Название системы</value>
+  <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">Название установки вашей Adempiere системы, например, Joe Block, Inc.</value>
+  <value column="Help" original="The name if the system to differentiate support contracts">Название системы для идентификации при покупке поддержки</value>
+ </row>
+ <row id="6344" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Установка атрибутов экземпляра</value>
+  <value column="Description" original="Product Attribute Values">Значения атрибутов товара</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">Фактические значения атрибутов товаров. Атрибуты экземпляров товара, определенные в фактических транзакциях.</value>
+ </row>
+ <row id="8985" trl="Y">
+  <value column="Name" original="Document No">No док-та</value>
+  <value column="Description" original="Document sequence number of the document">Порядковый номер документа для этого документа</value>
+  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)."><![CDATA[The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in "<>".
+
+If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_<TableName>", where TableName is the actual name of the table (e.g. C_Order).]]></value>
+ </row>
+ <row id="9615" trl="N">
+  <value column="Name" original="Representative/Agent">Representative/Agent</value>
+  <value column="Description" original="Sales Representative or Company Agent">Sales Representative or Company Agent</value>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.</value>
+ </row>
+ <row id="10097" trl="Y">
+  <value column="Name" original="Value">Значение</value>
+  <value column="Description" original="Condition Value">Значение условия</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="10769" trl="Y">
+  <value column="Name" original="Schema Type">Тип скидки</value>
+  <value column="Description" original="Type of trade schema calculation">Тип вычисления торговой скидки</value>
+  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">Тип процедуры, использующейся для вычисления процента торговой скидки</value>
+ </row>
+ <row id="10886" trl="Y">
+  <value column="Name" original="Overwrite Project">Переписать проект</value>
+  <value column="Description" original="Overwrite the account segment Project with the value specified">Переписать бухгалтерский сегмент Проект с определенным значением</value>
+  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">Если не переписывать, то используется значение оригинальной бухгалтерской комбинации. Если выбрать этот пункт, но не определять, то сегмент устанавливается в ноль.</value>
+ </row>
+ <row id="11799" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Установка атрибутов экземпляра</value>
+  <value column="Description" original="Product Attribute Values">Значения атрибутов товара</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">Фактические значения атрибутов товаров. Атрибуты экземпляров товара, определенные в фактических транзакциях.</value>
+ </row>
+ <row id="12732" trl="Y">
+  <value column="Name" original="Language">Язык</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Язык для данного бизнес-партнера, если возможна мульти-языковая поддержка</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">Язык, идентифицированный как указанный. Язык используется для отображения и форматирования документов. Это требуется на уровне клиента. Выбираются мульти-языковые документы - вы можете выбрать, а затем вы можете создавать/загружать язык.</value>
+ </row>
+ <row id="13179" trl="Y">
+  <value column="Name" original="UserName">Имя пользователя</value>
+  <value column="Description" original="UserName / Login to use for login">Имя пользователя / Логин -  для входа в систему</value>
+  <value column="Help" original="UserName / Login to use for the login&#10;Email of the responsible person for the system (registered in WebStore)">Имя пользователя / Логин для входа
+Адрес электронной почты ответственного лица для системы (зарегистрировано в WebStore)</value>
+ </row>
+ <row id="13424" trl="Y">
+  <value column="Name" original="Mandatory Overwrite">Переписать обязательное</value>
+  <value column="Description" original="Overwrite Field Mandatory status">Переписать статус обязательного поля</value>
+  <value column="Help" original="The field must have a value for the record to be saved to the database.">Поле должно иметь значение для этой записи для сохранения в базе данных.</value>
+ </row>
+ <row id="13425" trl="Y">
+  <value column="Name" original="Reference Overwrite">Переписать ссылку</value>
+  <value column="Description" original="System Reference - optional Overwrite">Системная ссылка - переписать дополнительно</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">Вы можете переписать тип отображения, но используйте это только если вы знаете чем это закончится.</value>
+ </row>
+ <row id="13755" trl="Y">
+  <value column="Name" original="Search Key">Ключ поиска</value>
+  <value column="Description" original="Search key for the record in the format required">Ключ поиска для записи в требуемом формате</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 бит, нижний регистр буквы и цифры - макс. длина 8 - может быть использовано для имен операционной системы.</value>
+ </row>
+ <row id="50066" trl="Y">
+  <value column="Name" original="AD_Package_Exp_ID">AD_Package_Exp_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50067" trl="Y">
+  <value column="Name" original="Processed">Обработано</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50068" trl="Y">
+  <value column="Name" original="IsActive">Активно</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50069" trl="Y">
+  <value column="Name" original="Client">Клиент</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50070" trl="Y">
+  <value column="Name" original="Organization">Организация</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50071" trl="Y">
+  <value column="Name" original="Name of Package">Название пакета</value>
+  <value column="Description" original="Name of Package">Название пакета</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50075" trl="Y">
+  <value column="Name" original="Creation Directory">Директория для создания</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50076" trl="Y">
+  <value column="Name" original="Created By">Создано</value>
+  <value column="Description" original="User who created the package">Пользователь, который создал пакет</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50077" trl="Y">
+  <value column="Name" original="Create Date">Дата создания</value>
+  <value column="Description" original="Date when Package was created">Дата создания пакета</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50080" trl="Y">
+  <value column="Name" original="Processed By">Обработал</value>
+  <value column="Description" original="User who Processed the package">Пользователь, который обработал пакет</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50081" trl="Y">
+  <value column="Name" original="Processed Date">Дата обработки</value>
+  <value column="Description" original="Date when the package was processed">Дата, когда пакет был обработан</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50082" trl="Y">
+  <value column="Name" original="Description of Package">Описание пакета</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50085" trl="Y">
+  <value column="Name" original="Export Package">Экспорт пакета</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50086" trl="Y">
+  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_Package_Exp_Detail_ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50087" trl="Y">
+  <value column="Name" original="Item Name">Название элемента</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50088" trl="Y">
+  <value column="Name" original="Processing">Обработка</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50089" trl="Y">
+  <value column="Name" original="IsActive">Активно</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50090" trl="Y">
+  <value column="Name" original="Processed">Обработано</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50091" trl="Y">
+  <value column="Name" original="Package Build ID">Идентификатор сборки пакета</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50092" trl="Y">
+  <value column="Name" original="Client">Клиент</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50093" trl="Y">
+  <value column="Name" original="Organization">Организация</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50096" trl="Y">
+  <value column="Name" original="Type">Тип</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50097" trl="Y">
+  <value column="Name" original="Menu">Меню</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50099" trl="Y">
+  <value column="Name" original="Source File Directory">Каталог исходного файла</value>
+  <value column="Description" original="Current location of source file">Текущее расположение исходного файла</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50103" trl="Y">
+  <value column="Name" original="Table">Таблица</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50108" trl="Y">
+  <value column="Name" original="Form">Форма</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50109" trl="Y">
+  <value column="Name" original="Process">Процесс</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50110" trl="Y">
+  <value column="Name" original="Workflow">Рабочий процесс</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50112" trl="Y">
+  <value column="Name" original="Workbench">Инструментарий</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50117" trl="Y">
+  <value column="Name" original="Notes">Заметки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50166" trl="N">
+  <value column="Name" original="Configured Value">Search Key</value>
+  <value column="Description" original="Value for the configuration key">Search key for the record in the format required - must be unique</value>
+  <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)"><![CDATA[A search key allows you a fast method of finding a particular record.
+If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_<TableName>", where TableName is the actual name of the table (e.g. C_Order).]]></value>
+ </row>
+ <row id="53360" trl="Y">
+  <value column="Name" original="Value">Значение</value>
+  <value column="Description" original="Condition Value">Значение условия</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53375" trl="Y">
+  <value column="Name" original="Resource">Ресурс</value>
+  <value column="Description" original="Resource">Ресурс</value>
+  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.</value>
+ </row>
+ <row id="53378" trl="Y">
+  <value column="Name" original="Business Partner ">Бизнес-партнер </value>
+  <value column="Description" original="Identifies a Business Partner to Subcontrating">Identifies a Business Partner to Subcontrating</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Бизнес партнер, все с кем Вы вели сделки. Это может быть поставщики, клиенты, сотрудники или продавцы</value>
+ </row>
+ <row id="53380" trl="Y">
+  <value column="Name" original="Valid from">Действительно с</value>
+  <value column="Description" original="Valid from including this date (first day)">Действительно с этой даты (включительно)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid From date indicates the first day of a date range.
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+ </row>
+ <row id="53381" trl="Y">
+  <value column="Name" original="Valid to">Действительно до</value>
+  <value column="Description" original="Valid to including this date (last day)">Действительно до этой даты (включительно)</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid To date indicates the last day of a date range
+When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+ </row>
+ <row id="53449" trl="Y">
+  <value column="Name" original="Start Node">Начальный узел</value>
+  <value column="Description" original="Workflow Node step or process">Workflow Node step or process</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Узел wWorkflow показывает уникальный шаг или процесс  в workflow.</value>
+ </row>
+ <row id="53480" trl="Y">
+  <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+ </row>
+ <row id="53490" trl="Y">
+  <value column="Name" original="Valid from">Действительно с</value>
+  <value column="Description" original="Valid from including this date (first day)">Действительно с этой даты (включительно)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+
+The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
+ </row>
+ <row id="53512" trl="Y">
+  <value column="Name" original="Warehouse">Склад</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Склад хранения и точка обслуживания</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.
+
+Warehouse place where you locate and control the products</value>
+ </row>
+ <row id="53513" trl="Y">
+  <value column="Name" original="Resource">Ресурс</value>
+  <value column="Description" original="Resource">Ресурс</value>
+  <value column="Help" original="A manufacturing resource is a place where a product will be made.">A manufacturing resource is a place where a product will be made.</value>
+ </row>
+ <row id="53517" trl="Y">
+  <value column="Name" original="BOM &amp; Formula"><![CDATA[BOM & Formula]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product."><![CDATA[The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM & Formula for the entity will be the BOM/Formula which has the same name as the product.]]></value>
+ </row>
+ <row id="53518" trl="Y">
+  <value column="Name" original="Workflow">Рабочий процесс</value>
+  <value column="Description" original="Workflow or combination of tasks">Workflow или комбинация задач</value>
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
+
+The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.</value>
+ </row>
+ <row id="53523" trl="Y">
+  <value column="Name" original="Promised Delivery Time">Обещаное время доставки</value>
+  <value column="Description" original="Promised days between order and delivery">Обещано дней между заказом и доставкой</value>
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.
+
+You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.</value>
+ </row>
+ <row id="53533" trl="Y">
+  <value column="Name" original="Working Time">Рабочее время</value>
+  <value column="Description" original="Workflow Simulation Execution Time">Имитация времени выполнения workflow</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Amount of time the performer of the activity needs to perform the task in Duration Unit
+
+In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.</value>
+ </row>
+ <row id="53653" trl="Y">
+  <value column="Name" original="Acknowledge">Подтверждение</value>
+  <value column="Description" original="System Notice acknowledged">Напоминания системы подтвержедены</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Checkbox Подтверждение показывает, если данное напоминание не нужно будет сохранять.</value>
+ </row>
+ <row id="53742" trl="Y">
+  <value column="Name" original="Accumulated Qty">Накопленное кол-во</value>
+  <value column="Description" original="Total Quantity">Итоговое количество</value>
+  <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">Sum of the quantities
+
+This field shows the sum of the quantities of the product that have had movements.</value>
+ </row>
+ <row id="53744" trl="Y">
+  <value column="Name" original="Accumulated Amt">Накопленная сумма</value>
+  <value column="Description" original="Total Amount">Итоговая сумма</value>
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">Sum of all amounts
+
+This field shows the sum of the amounts of the product that have had movements.</value>
+ </row>
+ <row id="53904" trl="Y">
+  <value column="Name" original="Version No">No версии</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="54035" trl="Y">
+  <value column="Name" original="Ordered Quantity">Заказанное кол-во</value>
+  <value column="Description" original="Ordered Quantity">Заказанное кол-во</value>
+  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">Заказанное кол-во - показывает количесество товара, которое было заказано.</value>
+ </row>
+ <row id="54038" trl="Y">
+  <value column="Name" original="Instance">Экземпляр</value>
+  <value column="Description" original="Product Attribute Set Instance">Установка атрибута экземпляра товара</value>
+  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">Значения для фактических атрибутов экземпляров товара. Уровень атрибутов товара определяется на уровень товара.</value>
+ </row>
+ <row id="54039" trl="Y">
+  <value column="Name" original="Instance To">Instance To</value>
+  <value column="Description" original="Target Product Attribute Set Instance">Установка атрибутов экземплярам целевого продукта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="54133" trl="Y">
+  <value column="Name" original="Resource/Plant">Resource/Plant</value>
+  <value column="Description" original="Resource/Plant">Resource/Plant</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="54139" trl="Y">
+  <value column="Name" original="Date Ordered">Дата заказа</value>
+  <value column="Description" original="Date of Order">Дата заказа</value>
+  <value column="Help" original="Indicates the Date an item was ordered.&#10;Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.">Indicates the Date an item was ordered.
+Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.</value>
+ </row>
+ <row id="54140" trl="Y">
+  <value column="Name" original="Date Promised">Дата обещания</value>
+  <value column="Description" original="Date Order was promised">Заказ был обещан к данной дате</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">The Date Promised indicates the date, if any, that an Order was promised for.
+Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.</value>
+ </row>
+ <row id="54145" trl="Y">
+  <value column="Name" original="Date Start">Дата начала</value>
+  <value column="Description" original="Indicate the real date to start">Indicate the real date to start</value>
+  <value column="Help" original="It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.">It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.</value>
+ </row>
+ <row id="54146" trl="Y">
+  <value column="Name" original="Finish Date">Дата окончания</value>
+  <value column="Description" original="Finish or (planned) completion date">Окончание или (планируемая) дата завершения</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">The finish date is used to indicate when the project is expected to be completed or has been completed.
+
+To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.</value>
+ </row>
+ <row id="54196" trl="Y">
+  <value column="Name" original="Company Agent">Агент компании</value>
+  <value column="Description" original="Company Agent">Агент компании</value>
+  <value column="Help" original="Company Agent to Distribution Order">Company Agent to Distribution Order</value>
+ </row>
+ <row id="54205" trl="Y">
+  <value column="Name" original="Transit Warehouse">Транзитный склад</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Склад хранения и точка обслуживания</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Склад - идентифицирует уникальный склад, где хранятся товары или предоставляется какой-то сервис.</value>
+ </row>
+ <row id="54381" trl="Y">
+  <value column="Name" original="Target Warehouse">Целевой склад</value>
+  <value column="Description" original="Target Warehouse and Service Point">Target Warehouse and Service Point</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Склад - идентифицирует уникальный склад, где хранятся товары или предоставляется какой-то сервис.</value>
+ </row>
+ <row id="55187" trl="Y">
+  <value column="Name" original="Create from a Window">Создать из окна</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56011" trl="N">
+  <value column="Name" original="Current Period">Current Period</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56190" trl="Y">
+  <value column="Name" original="Period 1 %">Период 1%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56191" trl="Y">
+  <value column="Name" original="Period 2 %">Период 2%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56192" trl="Y">
+  <value column="Name" original="Period 3 %">Период 3%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56193" trl="Y">
+  <value column="Name" original="Period 4 %">Период 4%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56194" trl="Y">
+  <value column="Name" original="Period 5 %">Период 5%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56195" trl="Y">
+  <value column="Name" original="Period 6 %">Период 6%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56196" trl="Y">
+  <value column="Name" original="Period 7 %">Период 7%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56197" trl="Y">
+  <value column="Name" original="Period 8 %">Период 8%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56198" trl="Y">
+  <value column="Name" original="Period 9 %">Период 9%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56199" trl="Y">
+  <value column="Name" original="Period 10 %">Период 10%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56200" trl="Y">
+  <value column="Name" original="Period 11 %">Период 11%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56201" trl="Y">
+  <value column="Name" original="Period 12 %">Период 12%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56202" trl="Y">
+  <value column="Name" original="Period 13 %">Период 13%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56203" trl="Y">
+  <value column="Name" original="Period 14 %">Период 14%</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56207" trl="Y">
+  <value column="Name" original="Script">Сценарий</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="56210" trl="Y">
+  <value column="Name" original="Name">Имя</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="57331" trl="Y">
+  <value column="Name" original="Acknowledge">Подтверждение</value>
+  <value column="Description" original="System Notice acknowledged">Напоминания системы подтвержедены</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Checkbox Подтверждение показывает, если данное напоминание не нужно будет сохранять.</value>
+ </row>
+ <row id="57761" trl="N">
+  <value column="Name" original="Customer Return">Shipment/Receipt</value>
+  <value column="Description" original="Customer Return Document">Material Shipment Document</value>
+  <value column="Help" original="The Customer Return">The Material Shipment / Receipt </value>
+ </row>
+ <row id="57900" trl="N">
+  <value column="Name" original="Return to Vendor">Receipt</value>
+  <value column="Description" original="Return to Vendor Document">Material Receipt Document</value>
+  <value column="Help" original="The Return to Vendor">The Material Shipment / Receipt </value>
+ </row>
+ <row id="57987" trl="Y">
+  <value column="Name" original="Search Key">Ключ поиска</value>
+  <value column="Description" original="Search key for the record in the format required">Ключ поиска для записи в требуемом формате</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 бит, нижний регистр буквы и цифры - макс. длина 8 - может быть использовано для имен операционной системы.</value>
+ </row>
+ <row id="58101" trl="Y">
+  <value column="Name" original="Copy BOM Lines From">Copy BOM Lines From</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copy BOM Lines from an exising BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.</value>
+ </row>
+ <row id="58114" trl="Y">
+  <value column="Name" original="Valid from">Действительно с</value>
+  <value column="Description" original="Valid from including this date (first day)">Действительно с этой даты (включительно)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
+
+The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
+ </row>
+ <row id="58771" trl="Y">
+  <value column="Name" original="Import Product Planning Data">Import Product Planning Data</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59028" trl="N">
+  <value column="Name" original="Account Date">Account Date</value>
+  <value column="Description" original="Accounting Date">Accounting Date</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.</value>
+ </row>
+ <row id="59306" trl="N">
+  <value column="Name" original="ID">ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59449" trl="N">
+  <value column="Name" original="Import Inventory Move">Import Inventory Move</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59499" trl="N">
+  <value column="Name" original="Import Fixed Asset">Import Fixed Asset</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="59500" trl="N">
+  <value column="Name" original="Processed">Processed</value>
+  <value column="Description" original="The document has been processed">The document has been processed</value>
+  <value column="Help" original="The Processed checkbox indicates that a document has been processed.">The Processed checkbox indicates that a document has been processed.</value>
+ </row>
+ <row id="59822" trl="N">
+  <value column="Name" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Description" original="Product Attribute Values">Product Attribute Values</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.</value>
+ </row>
+ <row id="60944" trl="N">
+  <value column="Name" original="Copy From Cash Plan">Copy From Cash Plan</value>
+  <value column="Description" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+  <value column="Help" original="Copy From Another Cash Plan">Copy From Another Cash Plan</value>
+ </row>
+ <row id="62015" trl="N">
+  <value column="Name" original="Create/Update Production lines">Create/Update Production lines</value>
+  <value column="Description" original="Process which will create production lines based on BOM, or recreate with an optional adjusted quantity">Process which will create production lines based on BOM, or recreate with an optional adjusted quantity</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="62016" trl="N">
+  <value column="Name" original="Complete Production">Complete Production</value>
+  <value column="Description" original="Complete Production">Complete Production</value>
+  <value column="Help" original="Indication that this is complete">Indication that this is complete</value>
+ </row>
+ <row id="62236" trl="Y">
+  <value column="Name" original="Sales Rep Name">Имя Торгового Представителя</value>
+  <value column="Description" original="Sales Representative Name">Имя Торгового Представителя</value>
+  <value column="Help" original="The name of the sales rep that this dashboard relates to.">The name of the sales rep that this dashboard relates to.</value>
+ </row>
+ <row id="62779" trl="N">
+  <value column="Name" original="Language">Language</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Language for this Business Partner if Multi-Language enabled</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.">The Language identifies the language to use for display and formatting documents. It requires, that on Client level, Multi-Lingual documents are selected and that you have created/loaded the language.</value>
+ </row>
+ <row id="62991" trl="N">
+  <value column="Name" original="Expected Close">Expected Close</value>
+  <value column="Description" original="Expected Close">Expected Close</value>
+  <value column="Help" original="The Expected Close Date indicates the expected last or final date">The Expected Close Date indicates the expected last or final date</value>
+ </row>
+ <row id="200585" trl="N">
+  <value column="Name" original="Only Currency">Only Currency</value>
+  <value column="Description" original="Restrict accepting only this currency">Restrict accepting only this currency</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">The Only Currency field indicates that this bank account accepts only the currency identified here.</value>
+ </row>
+ <row id="200723" trl="N">
+  <value column="Name" original="Void It">Void It</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200816" trl="N">
+  <value column="Name" original="Only Currency">Only Currency</value>
+  <value column="Description" original="Restrict accepting only this currency">Restrict accepting only this currency</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">The Only Currency field indicates that this bank account accepts only the currency identified here.</value>
+ </row>
+ <row id="200858" trl="N">
+  <value column="Name" original="Reference Overwrite">Reference Overwrite</value>
+  <value column="Description" original="System Reference - optional Overwrite">System Reference - optional Overwrite</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">You can overwrite the Display Type, but only use this if you aware of the consequences.</value>
+ </row>
+ <row id="200948" trl="N">
+  <value column="Name" original="Attachment Store">Attachment Store</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201245" trl="N">
+  <value column="Name" original="Ship Date (For FedEx only)">Ship Date (For FedEx only)</value>
+  <value column="Description" original="Shipment Date/Time">Shipment Date/Time</value>
+  <value column="Help" original="Actual Date/Time of Shipment (pick up)">Actual Date/Time of Shipment (pick up)</value>
+ </row>
+ <row id="201255" trl="N">
+  <value column="Name" original="Duties Shipper Account (For FedEx only)">Duties Shipper Account (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201256" trl="N">
+  <value column="Name" original="Partner Location (For UPS only)">Partner Location (For UPS only)</value>
+  <value column="Description" original="Identifies the (ship to) address for this Business Partner">Identifies the (ship to) address for this Business Partner</value>
+  <value column="Help" original="The Partner address indicates the location of a Business Partner">The Partner address indicates the location of a Business Partner</value>
+ </row>
+ <row id="201262" trl="N">
+  <value column="Name" original="Future Day Shipment (For FedEx only)">Future Day Shipment (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201264" trl="N">
+  <value column="Name" original="Home Delivery Premium Type (For FedEx only)">Home Delivery Premium Type (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201265" trl="N">
+  <value column="Name" original="Phone Number (For FedEx only)">Phone Number (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201266" trl="N">
+  <value column="Name" original="Date (For FedEx only)">Date (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201267" trl="N">
+  <value column="Name" original="Hazardous Materials (For FedEx only)">Hazardous Materials (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201268" trl="N">
+  <value column="Name" original="Dot Hazard Class or Division (For FedEx only)">Dot Hazard Class or Division (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201269" trl="N">
+  <value column="Name" original="Cargo Aircraft Only (For FedEx only)">Cargo Aircraft Only (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201270" trl="N">
+  <value column="Name" original="Accessible (For FedEx only)">Accessible (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201271" trl="N">
+  <value column="Name" original="Dry Ice (For FedEx only)">Dry Ice (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201272" trl="N">
+  <value column="Name" original="Dry Ice Weight (For FedEx only)">Dry Ice Weight (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201273" trl="N">
+  <value column="Name" original="Hold At Location (For FedEx only)">Hold At Location (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201274" trl="N">
+  <value column="Name" original="Hold Address (For FedEx only)">Hold Address (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201354" trl="N">
+  <value column="Name" original="Added Handling (For UPS only)">Added Handling (For UPS only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201355" trl="N">
+  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">Delivery Confirmation Type (For FedEx only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="201358" trl="N">
+  <value column="Name" original="Verbal Confirmation (For UPS only)">Verbal Confirmation (For UPS only)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="202210" trl="N">
+  <value column="Name" original="Index Validate">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="202234" trl="Y">
+  <value column="Name" original="Sql WHERE">Sql WHERE</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">Полностью описанный SQL оператор WHERE</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means &quot;tablename.columnname&quot;.">Оператор Where - показывает SQL оператор WHERE, который используется при выборке записей. Оператор WHERE добавляется к запросу. Полностью описанный способ "tablename.columnname".</value>
+ </row>
+ <row id="202235" trl="Y">
+  <value column="Name" original="Sql FROM">Sql FROM</value>
+  <value column="Description" original="SQL FROM clause">SQL слово FROM</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">SQL слово Select - показывает, что SQL слово FROM используется для выборки записи для вычисления измерения. Это может иметь слово JOIN. Не надо включать самого себя FROM.</value>
+ </row>
+ <row id="202252" trl="N">
+  <value column="Name" original="View Validate">Process Now</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="202325" trl="N">
+  <value column="Name" original="Cost Adjustment">Phys.Inventory</value>
+  <value column="Description" original="Inventory Cost Adjustment">Parameters for a Physical Inventory</value>
+  <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">The Physical Inventory indicates a unique parameters for a physical inventory.</value>
+ </row>
+ <row id="202443" trl="N">
+  <value column="Name" original="Purchase Order Line">Purchase Order Line</value>
+  <value column="Description" original="Purchase Order Line">Purchase Order Line</value>
+  <value column="Help" original="The Purchase Order Line is a unique identifier for a line in an order.">The Purchase Order Line is a unique identifier for a line in an order.</value>
+ </row>
+ <row id="203108" trl="N">
+  <value column="Name" original="ViewID Column">ViewID Column</value>
+  <value column="Description" original="Name of unique column in a view. value of this column will save to t_selection table">Name of unique column in a view. value of this column will save to t_selection table</value>
+  <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970</value>
+ </row>
+ <row id="203325" trl="N">
+  <value column="Name" original="Country Group">Country Group</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="203326" trl="N">
+  <value column="Name" original="To">To</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="205154" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="205174" trl="N">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="8c165a47-cce5-490f-b52e-01c60469e42d">
+  <value column="Name" original="Name">Название</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Буквенно-цифровой идентификатор объекта</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Название объекта (записи) используется как опция поиска по умолчанию в добавление к ключу поиска. Название может быть длиной до 60 символов.</value>
+ </row>
+ <row trl="Y" uuid="2121a483-6824-4539-bf04-e8f6e2c40c47">
+  <value column="Name" original="Description">Доп. информация</value>
+  <value column="Description" original="Optional short description of the record">Дополнительная информация по объекту</value>
+  <value column="Help" original="A description is limited to 255 characters.">Описание ограничено по размеру в 255 символов.</value>
+ </row>
+ <row trl="Y" uuid="c3a19119-f43f-4af3-86ce-69e26cabefd7">
+  <value column="Name" original="Asset">Активы</value>
+  <value column="Description" original="Asset used internally or by customers">Активы, использованные внутренне или покупателями</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Активы созжаются как при закупке, так и при получении продукта. Актив может быть использован внутренне или быть активом покупателя?</value>
+ </row>
+ <row trl="Y" uuid="7f148f2b-0475-47d3-919e-9c4e25f561a9">
+  <value column="Name" original="Product">Тип</value>
+  <value column="Description" original="Product, Service, Item">Тип транспортного средства</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
+ </row>
+ <row trl="Y" uuid="c35dec89-6bf5-405a-b7ad-f51ed6fbda0e">
+  <value column="Name" original="Serial No">Гос. номер</value>
+  <value column="Description" original="Product Serial Number ">Государственный номер регистрации</value>
+  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">Государственный номер регистрации транспортного средства</value>
+ </row>
+ <row trl="Y" uuid="10b06f4e-8bd2-40dd-a138-70adcec35fa7">
+  <value column="Name" original="Location comment">Адрес</value>
+  <value column="Description" original="Additional comments or remarks concerning the location">Адрес текущего положения объекта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="a6b1f071-4cc7-426e-ada8-b68ece17b22c">
+  <value column="Name" original="User/Contact">Водитель/контакт</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы - внутренний или контакт бизнес-партнера</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact"/>
+ </row>
+ <row trl="Y" uuid="ebebccce-58a7-4947-a83e-6d9b12f06a90">
+  <value column="Name" original="Attribute Set Instance">Образец установки атрибута</value>
+  <value column="Description" original="Product Attribute Set Instance">Образец набора атрибутов продукта</value>
+  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">Значения действительных примеров атрибутов продукта. Уровень атибутов продукта определяется в уровне продукта.</value>
+ </row>
+ <row trl="Y" uuid="da98a200-32a9-42f2-82cf-80cdd88d7385">
+  <value column="Name" original="Project">Договор</value>
+  <value column="Description" original="Financial Project">Договор предоставления услуги</value>
+  <value column="Help" original="A Project allows you to track and control internal or external activities."/>
+ </row>
+ <row trl="Y" uuid="dbdcb49c-2ef6-4b40-bfb8-b671249928b1">
+  <value column="Name" original="Name">Клиент</value>
+  <value column="Description" original="Alphanumeric identifier of the entity">Источник запроса</value>
+  <value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">Физическое или юридическое лицо источник запроса.</value>
+ </row>
+ <row trl="Y" uuid="c6f0684d-df78-45bf-8ae8-3a98589cd036">
+  <value column="Name" original="Summary">Запрос</value>
+  <value column="Description" original="Textual summary of this request">Информация о запросе</value>
+  <value column="Help" original="The Summary allows free form text entry of a recap of this request.">Позволяет иметь свободную форму текстового содержимого, описывающего этот запрос.</value>
+ </row>
+ <row trl="Y" uuid="9b6d902c-2528-4fad-9c4a-1e14d4b7f532">
+  <value column="Name" original="Business Partner ">Поставщик</value>
+  <value column="Description" original="Identifies a Business Partner">Поставщик услуги</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Физическое или юридическое лицо поставщик запроса</value>
+ </row>
+ <row trl="Y" uuid="d5ad528d-25e1-4221-91c7-f5bd5f522a10">
+  <value column="Name" original="Source Summary">Информация</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="77a42e4f-d1fe-40dd-a1f7-1fd1d63e6de5">
+  <value column="Name" original="S_BPartner_ID">Клиент</value>
+  <value column="Description" original="">Клиент, запросивший услугу</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="c8f823ae-446f-45d3-8066-44d1dfd16ecf">
+  <value column="Name" original="Asset">Машина</value>
+  <value column="Description" original="Asset used internally or by customers">Клиентская машина</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Информация о клиентской машине</value>
+ </row>
+ <row trl="Y" uuid="11dbc709-00e4-42ce-a0e3-eb7ca83e9ae7">
+  <value column="Name" original="Serial No">Гос. номер</value>
+  <value column="Description" original="Product Serial Number ">Гос. номер машины</value>
+  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">Гос. номер машины</value>
+ </row>
+ <row trl="Y" uuid="5ac5b420-f63a-43a1-839c-d8e9bccc66b2">
+  <value column="Name" original="Product Name">Тип</value>
+  <value column="Description" original="">Тип объекта</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d4d1ce23-c037-41a9-944f-88a244186757">
+  <value column="Name" original="Navigation Datetime">Дата</value>
+  <value column="Description" original="">Дата формирования данных</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="571eca8a-af2e-4b11-815b-e2b32ee09336">
+  <value column="Name" original="User/Contact">Водитель/контакт</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Пользователь в рамках системы - внутренний или контакт бизнес-партнера</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Поле Пользователь определяет уникального пользователя в системе. Это может быть внутренний пользователь или контакт Бизнес-партнера</value>
+ </row>
+ <row trl="Y" uuid="88b68fad-97fb-45fa-bd77-d0b6728a9402">
+  <value column="Name" original="Service Object">Сервисная машина</value>
+  <value column="Description" original="Service Object">Сервисная машина назначенная на выезд</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="b1ad687c-a60a-435e-9db5-c88bb891a656">
+  <value column="Name" original="Asset">Объект</value>
+  <value column="Description" original="Asset used internally or by customers">Идентификатор объекта</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset."/>
+ </row>
+ <row trl="Y" uuid="066c8f05-7fbb-4b27-b7d8-6b737dca7e7a">
+  <value column="Name" original="Serial No">Номер машины</value>
+  <value column="Description" original="Product Serial Number ">Номер машины</value>
+  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">Номер машины</value>
+ </row>
+ <row trl="Y" uuid="39342ebd-5409-4b01-aaee-1424065fe5f2">
+  <value column="Name" original="URL">Карта</value>
+  <value column="Description" original="Full URL address - e.g. http://www.idempiere.org">Карта с расположением объектов и пробок</value>
+  <value column="Help" original="The URL defines an fully qualified web address like http://www.idempiere.org">The URL defines an fully qualified web address like http://www.idempiere.org</value>
+ </row>
+ <row trl="Y" uuid="6b02eba4-0c7f-4862-bd3e-c4edeeb74479">
+  <value column="Name" original="Project">Договор</value>
+  <value column="Description" original="Financial Project">Финансовый договор</value>
+  <value column="Help" original="A Project allows you to track and control internal or external activities.">Договор позволяет контролировать внешнюю и внутреннюю активность</value>
+ </row>
+ <row trl="Y" uuid="8a310727-f263-4c57-9770-07b9715d67a8">
+  <value column="Name" original="Source Module">Модуль</value>
+  <value column="Description" original="NMS Source Module">Клиентский модуль навигации</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="26238398-b8dd-4b4e-98cd-0f9c2f1bae1d">
+  <value column="Name" original="Phone1">Телефон</value>
+  <value column="Description" original="">Телефон контакта машины</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="630601f2-c1f3-4355-af4a-024cbd5d3304">
+  <value column="Name" original="Description">Марка</value>
+  <value column="Description" original="Optional short description of the record">Марка автомобиля или доп. описание</value>
+  <value column="Help" original="A description is limited to 255 characters.">Описание ограничено по размеру в 255 символов.</value>
+ </row>
+ <row trl="Y" uuid="281d0747-1095-4e7f-8e6d-02f33bd9c80c">
+  <value column="Name" original="Asset">Машины</value>
+  <value column="Description" original="Asset used internally or by customers">Сервисный автомобиль</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset."/>
+ </row>
+ <row trl="Y" uuid="25a96dbf-24c0-48ac-aa2e-d3bc61ab552d">
+  <value column="Name" original="Product">Тип авто</value>
+  <value column="Description" original="Product, Service, Item">Тип автомобиля</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization."/>
+ </row>
+ <row trl="Y" uuid="a882de91-d5fe-4517-99b8-062e8d0fe24a">
+  <value column="Name" original="Serial No">Гос. Номер</value>
+  <value column="Description" original="Product Serial Number ">Государственный номер</value>
+  <value column="Help" original="The Serial Number identifies a tracked, warranted product.  It can only be used when the quantity is 1.">Серийный номер определяет отслеженный продукт с гарантией. Может быть использован только когда количество равняется 1.</value>
+ </row>
+ <row trl="Y" uuid="729f9bfe-8f47-4d52-87ce-4b5ba4d6aa99">
+  <value column="Name" original="Project">Договор</value>
+  <value column="Description" original="Financial Project">Договор</value>
+  <value column="Help" original="A Project allows you to track and control internal or external activities."/>
+ </row>
+ <row trl="Y" uuid="9ff209e7-01d5-4dc9-ac50-4366397becf8">
+  <value column="Name" original="Manufacturer">Производитель</value>
+  <value column="Description" original="Manufacturer of the Product">Производитель автомобиля</value>
+  <value column="Help" original="The manufacturer of the Product (used if different from the Business Partner / Vendor)"/>
+ </row>
+ <row trl="Y" uuid="0acb3fac-0a84-4303-8bea-fbf4cf67058a">
+  <value column="Name" original="Button Status">Статус кнопки</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="Y" uuid="d0d2f24f-7d4d-46eb-b5e9-f567b54fd7a2">
+  <value column="Name" original="Status">Статус заявки</value>
+  <value column="Description" original="Request Status">Статус заявки</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)"/>
+ </row>
+ <row trl="Y" uuid="177ab665-883f-459b-9d17-e4a04d5dfe76">
+  <value column="Name" original="2nd Phone">Телефон Диспетчера</value>
+  <value column="Description" original="Identifies an alternate telephone number.">Телефон Диспетчера</value>
+  <value column="Help" original="The 2nd Phone field identifies an alternate telephone number.">Телефон Диспетчера</value>
+ </row>
+</idempiereTrl>

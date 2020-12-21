@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="sk_SK" table="AD_Process_Para">
+ <row id="227" trl="Y">
+  <value column="Name" original="Delete existing Accounting Entries">Vymaž existujúce účtovné zápisy</value>
+  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">Vybrané účtovné zápisy budú vymazané! NEBEZPEČNÉ !!!</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Pricelist Version">Verzia cenníka</value>
+  <value column="Description" original="Only used if Price List is used to set future/standard cost price">Only used if Price List is used to set future/standard cost price</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Overwrite Payment Rule">Prepísať Pravidlo Platby</value>
+  <value column="Description" original="Overwrite how to pay the invoice">Overwrite how to pay the invoice</value>
+  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="From User">Od Užívateľa</value>
+  <value column="Description" original="Send EMail from user">EMail zaslaný od užívateľa</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">E-mail je odoslaný od zvoleného užívateľa - V opačnom prípade je odoslaný z e-mailovej adresy požiadavky klienta</value>
+ </row>
+ <row id="452" trl="Y">
+  <value column="Name" original="Maintenance Mode">Postup spravovania</value>
+  <value column="Description" original="Language Maintenance Mode">Postup spravovania jazyka</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="467" trl="Y">
+  <value column="Name" original="Existing Organization">Existing Organization</value>
+  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">Organizational entity within client - set to empty if you want to create a new organization</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">Organizácia je jednotkou klienta alebo právnou jednotkou - príklady sú predajňa, oddelenie. Je možné zdieľať údaje medzi spoločnosťami.</value>
+ </row>
+ <row id="469" trl="Y">
+  <value column="Name" original="Limit Access to Role">Limit Access to Role</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">If no Role is selected, grant access to all (non-manual) roles of the Client</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Roľa stanovuje bezpečnosť a prístup užívateľovi, ktorý bude mať túto roľu v systéme.</value>
+ </row>
+ <row id="493" trl="Y">
+  <value column="Name" original="New User/Contact">New User/Contact</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Užívateľ v rámci systému - Interný, alebo Obchodný Partner Kontakt</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Užívateľ identifikuje unikatného užívateľa v systéme. Môze to byť interný uzívateľ, alebo kontakt obchodného partnera</value>
+ </row>
+ <row id="494" trl="Y">
+  <value column="Name" original="New Workflow Responsible">New Workflow Responsible</value>
+  <value column="Description" original="Responsible for Workflow Execution">Zodpovednosť pri uskutočňovaní workflowu</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Posledná zodpovednosť pre workflow je s aktuálnym užívateľom. Zodpovednosť workflow umožňuje definovať cesty pre nájdenie tohto posledného užívateľa.</value>
+ </row>
+ <row id="496" trl="Y">
+  <value column="Name" original="New User/Contact">New User/Contact</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Užívateľ v rámci systému - Interný, alebo Obchodný Partner Kontakt</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Užívateľ identifikuje unikatného užívateľa v systéme. Môze to byť interný uzívateľ, alebo kontakt obchodného partnera</value>
+ </row>
+ <row id="497" trl="Y">
+  <value column="Name" original="New Workflow Responsible">New Workflow Responsible</value>
+  <value column="Description" original="Responsible for Workflow Execution">Zodpovednosť pri uskutočňovaní workflowu</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Posledná zodpovednosť pre workflow je s aktuálnym užívateľom. Zodpovednosť workflow umožňuje definovať cesty pre nájdenie tohto posledného užívateľa.</value>
+ </row>
+ <row id="523" trl="Y">
+  <value column="Name" original="Default Sales Rep">Predvolený Obchodník</value>
+  <value column="Description" original="If not defined on Business Partner Level">Keď nie je definovaná na úrovni Obchodného Partnera</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="524" trl="Y">
+  <value column="Name" original="Dunning Currency">Mena Upomienky</value>
+  <value column="Description" original="Currency to create Dunning Letters">Mena pre vytvorenie Upomienok</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Role To">Do Role</value>
+  <value column="Description" original="Responsibility Role">Rola s právami</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Rola stanovuje bezpečnosť a prístup užívateľovi, ktorý bude mať túto roľu v systéme.</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Role From">Z Role</value>
+  <value column="Description" original="Responsibility Role">Rola s právami</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Rola stanovuje bezpečnosť a prístup užívateľovi, ktorý bude mať túto roľu v systéme.</value>
+ </row>
+ <row id="50008" trl="N">
+  <value column="Name" original="IMAP Password">IMAP Password</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Request Folder">Požadovaný adresár</value>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder"/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder"/>
+ </row>
+ <row id="50010" trl="N">
+  <value column="Name" original="Inbox Folder">Inbox Folder</value>
+  <value column="Description" original="Mail folder, where process will take email and make request"/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer"/>
+ </row>
+ <row id="50011" trl="N">
+  <value column="Name" original="Error Folder">Error Folder</value>
+  <value column="Description" original="Mail folder to push unsuccess email  "/>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer"/>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Shipment Date">Dátum Dodania</value>
+  <value column="Description" original="Date printed on shipment">Date printed on shipment</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">The Shipment Date indicates the date printed on the shipment.</value>
+ </row>
+ <row id="53011" trl="Y">
+  <value column="Name" original="Print Unprocessed Entries Only">Vytlačiť len nespracované záznamy</value>
+  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">Print the unprocessed (unprinted) entries of the dunning run only.</value>
+  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.</value>
+ </row>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Purchase Price List Version">Purchase Price List Version</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53030" trl="Y">
+  <value column="Name" original="New Product">New Product</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Action">Akcia</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Is Print Pack &amp; Tools List"><![CDATA[Is Print Pack & Tools List]]></value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Is Print Pick List">Is Print Pick List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Is Print Workflow">Úplná obnova</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53127" trl="Y">
+  <value column="Name" original="Generate Fields">Generate Fields</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53131" trl="Y">
+  <value column="Name" original="Scripts Path">Scripts Path</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Includes only the Tabs that Insert records">Includes only the Tabs that Insert records</value>
+  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">Generated Export Format for the Tabs with Insert Record is Yes</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Includes only the mandatory columns">Includes only the mandatory columns</value>
+  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">Generated an Export Format Line  if the column is mandatory </value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53219" trl="Y">
+  <value column="Name" original="Based in DRP Demand">Based in DRP Demand</value>
+  <value column="Description" original="Based in DRP Demand">Based in DRP Demand</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53232" trl="Y">
+  <value column="Name" original="Bank Account From">Bankový účet z</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53233" trl="Y">
+  <value column="Name" original="Bank Account To">Bankový účet do</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53243" trl="Y">
+  <value column="Name" original="Valid from">Platný od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platí od tohto dátumu vrátane (prvého dňa)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">The Valid From date indicates the first day of a date range</value>
+ </row>
+ <row id="53246" trl="Y">
+  <value column="Name" original="Bank Account From">Bankový účet z</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53247" trl="Y">
+  <value column="Name" original="Bank Account To">Bankový účet do</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53263" trl="Y">
+  <value column="Name" original="Account Date">Dátum Účtovania</value>
+  <value column="Description" original="Optional account date range">Optional account date range</value>
+  <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">Only documents within this date range which are also in open periods will be reset.</value>
+ </row>
+ <row id="53282" trl="Y">
+  <value column="Name" original="Client Name">Client Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53284" trl="Y">
+  <value column="Name" original="Administrative User Name">Administrative User Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53285" trl="Y">
+  <value column="Name" original="Normal User Name">Normal User Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53289" trl="Y">
+  <value column="Name" original="City Name">City Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53291" trl="Y">
+  <value column="Name" original="BP Accounting">BP Accounting</value>
+  <value column="Description" original="Use BP accounting dimension">Use BP accounting dimension</value>
+  <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ </row>
+ <row id="53292" trl="Y">
+  <value column="Name" original="Product Accounting">Product Accounting</value>
+  <value column="Description" original="Use Product accounting dimension">Use Product accounting dimension</value>
+  <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ </row>
+ <row id="53293" trl="Y">
+  <value column="Name" original="Project Accounting">Project Accounting</value>
+  <value column="Description" original="Use Project accounting dimension">Use Project accounting dimension</value>
+  <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ </row>
+ <row id="53294" trl="Y">
+  <value column="Name" original="Campaign Accounting">Campaign Accounting</value>
+  <value column="Description" original="Use Campaign accounting dimension">Use Campaign accounting dimension</value>
+  <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ </row>
+ <row id="53295" trl="Y">
+  <value column="Name" original="Sales Region Accounting">Sales Region Accounting</value>
+  <value column="Description" original="Use Sales Region accounting dimension">Use Sales Region accounting dimension</value>
+  <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ </row>
+ <row id="53296" trl="Y">
+  <value column="Name" original="Chart of Accounts File">Chart of Accounts File</value>
+  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53314" trl="Y">
+  <value column="Name" original="Full rebuild">Úplná obnova</value>
+  <value column="Description" original="Delete all existing summary data and recalculate.">Delete all existing summary data and recalculate.</value>
+  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">If not selected, only those periods with recently posted accounting facts will be recalculated.</value>
+ </row>
+ <row id="53316" trl="Y">
+  <value column="Name" original="Force">Vynútenie</value>
+  <value column="Description" original="Force rebuild of cube even if locked.">Force rebuild of cube even if locked.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53485" trl="N">
+  <value column="Name" original="Periodicity">Periodicity</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53486" trl="N">
+  <value column="Name" original="Repetitions">Repetitions</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53516" trl="N">
+  <value column="Name" original="Recreate">Recreate</value>
+  <value column="Description" original="Overwrite existing production lines">Overwrite existing production lines</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53517" trl="Y">
+  <value column="Name" original="Production Quantity">Množstvo Výroby</value>
+  <value column="Description" original="Quantity of products to produce">Quantity of products to produce</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">The Production Quantity identifies the number of products to produce</value>
+ </row>
+ <row id="53526" trl="N">
+  <value column="Name" original="Is Kanban">IsExcludeKanban</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53582" trl="Y">
+  <value column="Name" original="CreateOpportunity">Vytvoriť Príležitosť</value>
+  <value column="Description" original="Create Opportunity">Vytvoriť Príležitosť</value>
+  <value column="Help" original="Create a new Sales Opportunity when converting a lead">Vytvorí sa nová Obchodná Príležitosť keď sa konvertuje Lead</value>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="New EMail Confirm">New EMail Confirm</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200007" trl="Y">
+  <value column="Name" original="Reset Existing Access">Reset Existujúcich Prístupov</value>
+  <value column="Description" original="Reset Existing Access"/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200055" trl="N">
+  <value column="Name" original="Product">Product</value>
+  <value column="Description" original="Please enter the product (component) you wish to search for">Product, Service, Item</value>
+  <value column="Help" original="">Identifies an item which is either purchased or sold in this organization.</value>
+ </row>
+ <row id="200060" trl="N">
+  <value column="Name" original="Financial Year Month">Financial Year Month</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+ </row>
+ <row id="200062" trl="N">
+  <value column="Name" original="Financial Year Month">Financial Year Month</value>
+  <value column="Description" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+  <value column="Help" original="The only valid date format is: YYYY-MM">The only valid date format is: YYYY-MM</value>
+ </row>
+ <row id="200071" trl="N">
+  <value column="Name" original="Document Type">Document Type</value>
+  <value column="Description" original="Inventory Cost Adjustment Document Type">Inventory Cost Adjustment Document Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Administrative User Email">Administrative User Email</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200075" trl="N">
+  <value column="Name" original="Normal User Email">Normal User Email</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200077" trl="N">
+  <value column="Name" original="Created Since">Created Since</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200084" trl="N">
+  <value column="Name" original="Use Default CoA">Use Default CoA</value>
+  <value column="Description" original="Use Default Chart of Accounts">Use Default Chart of Accounts</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200085" trl="N">
+  <value column="Name" original="Activity Accounting">Activity Accounting</value>
+  <value column="Description" original="Use Activity accounting dimension">Use Activity accounting dimension</value>
+  <value column="Help" original="Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use activity accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
+ </row>
+ <row id="200086" trl="N">
+  <value column="Name" original="Inactivate Defaults">Inactivate Defaults</value>
+  <value column="Description" original="Inactivate Defaults after Created">Inactivate Defaults after Created</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200102" trl="N">
+  <value column="Name" original="Cost Adjustment Document Type">Cost Adjustment Document Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200121" trl="N">
+  <value column="Name" original="Inbox As Root Folder">Inbox As Root Folder</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder">True if other folder (request, error,..) occupy in inbox folder</value>
+  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.
+this field define where request, error,.. occupy.</value>
+ </row>
+</idempiereTrl>

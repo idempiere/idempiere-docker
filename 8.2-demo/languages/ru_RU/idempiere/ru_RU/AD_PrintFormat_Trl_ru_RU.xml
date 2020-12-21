@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 5.1_2017-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2016 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ru_RU" table="AD_PrintFormat">
+ <row id="100" trl="N">
+  <value column="Name" original="Order_Header  ** TEMPLATE **">Order_Header  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Order Header">Standard Order Header</value>
+ </row>
+ <row id="101" trl="N">
+  <value column="Name" original="Order_LineTax  ** TEMPLATE **">Order_LineTax  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Order Line&amp;Tax"><![CDATA[Standard Order Line&Tax]]></value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Invoice_Header  ** TEMPLATE **">Invoice_Header  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Invoice Header">Standard Invoice Header</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Invoice_LineTax  ** TEMPLATE **">Invoice_LineTax  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines"><![CDATA[Standard Invoice Line&Tax Lines]]></value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="InOut_Header ** TEMPLATE **">InOut_Header ** TEMPLATE **</value>
+  <value column="Description" original="Standard Shipment Header">Standard Shipment Header</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="InOut_Line  ** TEMPLATE **">InOut_Line  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Shipment Lines">Standard Shipment Lines</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="PaySelection_Check  ** TEMPLATE **">PaySelection_Check  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Check with Remittance Info">Standard Check with Remittance Info</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="PaySelection_Remittance_Lines  ** TEMPLATE **">PaySelection_Remittance_Lines  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Check/Remittance Lines">Standard Check/Remittance Lines</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="PaySelection_Remittance  ** TEMPLATE **">PaySelection_Remittance  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Remittance Header">Standard Remittance Header</value>
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="Statement of Accounts">Statement of Accounts</value>
+  <value column="Description" original="Statement of Accounts">Statement of Accounts</value>
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="Project_Header ** TEMPLATE **">Project_Header ** TEMPLATE **</value>
+  <value column="Description" original="Standard Project">Standard Project</value>
+ </row>
+ <row id="140" trl="N">
+  <value column="Name" original="Project_Details ** TEMPLATE **">Project_Details ** TEMPLATE **</value>
+  <value column="Description" original="Standard Project Detail">Standard Project Detail</value>
+ </row>
+ <row id="142" trl="N">
+  <value column="Name" original="Test Report">Test Report</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="143" trl="N">
+  <value column="Name" original="Test Form">Test Form</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="148" trl="N">
+  <value column="Name" original="RfQResponseLine ** TEMPLATE **">RfQResponseLine ** TEMPLATE **</value>
+  <value column="Description" original="Standard RfQ Response Line">Standard RfQ Response Line</value>
+ </row>
+ <row id="149" trl="N">
+  <value column="Name" original="RfQResponse ** TEMPLATE **">RfQResponse ** TEMPLATE **</value>
+  <value column="Description" original="Standard RfQ Response">Standard RfQ Response</value>
+ </row>
+ <row id="151" trl="N">
+  <value column="Name" original="Dunning_Header ** TEMPLATE **">Dunning_Header ** TEMPLATE **</value>
+  <value column="Description" original="Standard Dunning Letter">Standard Dunning Letter</value>
+ </row>
+ <row id="152" trl="N">
+  <value column="Name" original="Dunning_Line ** TEMPLATE **">Dunning_Line ** TEMPLATE **</value>
+  <value column="Description" original="Standard Dunning Letter Lines">Standard Dunning Letter Lines</value>
+ </row>
+ <row id="153" trl="N">
+  <value column="Name" original="Inventory Move Hdr (Example)">Inventory Move Hdr (Example)</value>
+  <value column="Description" original="Example">Example</value>
+ </row>
+ <row id="154" trl="N">
+  <value column="Name" original="Inventory Move Line (Example)">Inventory Move Line (Example)</value>
+  <value column="Description" original="Example">Example</value>
+ </row>
+ <row id="155" trl="N">
+  <value column="Name" original="Inventory Physical Line (Example)">Inventory Physical Line (Example)</value>
+  <value column="Description" original="Example">Example</value>
+ </row>
+ <row id="156" trl="N">
+  <value column="Name" original="Inventory Physical Hdr (Example)">Inventory Physical Hdr (Example)</value>
+  <value column="Description" original="Example">Example</value>
+ </row>
+ <row id="161" trl="N">
+  <value column="Name" original="Reference List">Reference List</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="162" trl="N">
+  <value column="Name" original="Message">Message</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="167" trl="N">
+  <value column="Name" original="Process">Process</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="MRP Review">MRP Review</value>
+  <value column="Description" original="MRP Detail">MRP Detail</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Manufacturing_Order_Header ** TEMPLATE **">Manufacturing_Order_Header ** TEMPLATE **</value>
+  <value column="Description" original="Manufacturing Order">Manufacturing Order</value>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Manufacturing_Order_BOMLine ** TEMPLATE **">Manufacturing_Order_BOMLine ** TEMPLATE **</value>
+  <value column="Description" original="Manufacturing Order BOM Line">Manufacturing Order BOM Line</value>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Manufacturing Orders Review  ">Manufacturing Orders Review  </value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Manufacturing Orders Review   Copiar registro 4082309">Manufacturing Orders Review   Copiar registro 4082309</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50005" trl="N">
+  <value column="Name" original="Component Check">Component Check</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50006" trl="N">
+  <value column="Name" original="Order Transactions">Order Transactions</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50007" trl="N">
+  <value column="Name" original="Order Transactions Copiar registro 14306576">Order Transactions Copiar registro 14306576</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50008" trl="N">
+  <value column="Name" original="RV_PP_Operation_Activity &amp;Copy Record 4622012"><![CDATA[RV_PP_Operation_Activity &Copy Record 4622012]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50009" trl="N">
+  <value column="Name" original="Operation Activity ** TEMPLATE **">Operation Activity ** TEMPLATE **</value>
+  <value column="Description" original="Operation Activity ** TEMPLATE **">Operation Activity ** TEMPLATE **</value>
+ </row>
+ <row id="50010" trl="N">
+  <value column="Name" original="DistributionOrder_Line  ** TEMPLATE **">DistributionOrder_Line  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Order Line">Standard Order Line</value>
+ </row>
+ <row id="50011" trl="N">
+  <value column="Name" original="DistributionOrder_Header  ** TEMPLATE **">DistributionOrder_Header  ** TEMPLATE **</value>
+  <value column="Description" original="Standard Order Header">Standard Order Header</value>
+ </row>
+ <row id="50012" trl="N">
+  <value column="Name" original="Product Costing">Product Costing</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50013" trl="N">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
+  <value column="Description" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
+ </row>
+ <row id="50014" trl="N">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt &amp;Copy Record 1500673861"><![CDATA[Asset Disposal Expense Entry Rpt &Copy Record 1500673861]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50015" trl="N">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt">Asset Disposal Expense Entry Rpt</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50016" trl="N">
+  <value column="Name" original="Asset Transfer Entry">Asset Transfer Entry</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50017" trl="N">
+  <value column="Name" original="Asset Transfer Entry &amp;Copy Record 733003674"><![CDATA[Asset Transfer Entry &Copy Record 733003674]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50018" trl="N">
+  <value column="Name" original="Asset Split Entry &amp;Copy Record 895559168"><![CDATA[Asset Split Entry &Copy Record 895559168]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50019" trl="N">
+  <value column="Name" original="Asset Split Entry">Asset Split Entry</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Depreciation Expense Entry &amp;Copy Record 1166440766"><![CDATA[Depreciation Expense Entry &Copy Record 1166440766]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50021" trl="N">
+  <value column="Name" original="Depreciation Expense Entry">Depreciation Expense Entry</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50022" trl="N">
+  <value column="Name" original="Asset Depreciation Forecast &amp;Copy Record 1622765813"><![CDATA[Asset Depreciation Forecast &Copy Record 1622765813]]></value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50023" trl="N">
+  <value column="Name" original="Asset Depreciation Forecast">Asset Depreciation Forecast</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50024" trl="N">
+  <value column="Name" original="RV_Asset_Parent_Report">RV_Asset_Parent_Report</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50025" trl="N">
+  <value column="Name" original="RV_Depreciation_Table">RV_Depreciation_Table</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50026" trl="N">
+  <value column="Name" original="Spread Report">Spread Report</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50027" trl="N">
+  <value column="Name" original="RV_Asset_Depreciation_Method">RV_Asset_Depreciation_Method</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50028" trl="N">
+  <value column="Name" original="RV_Asset_Convention_Rpt">RV_Asset_Convention_Rpt</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50029" trl="N">
+  <value column="Name" original="RV_Depreciation_Calculation_Methods">RV_Depreciation_Calculation_Methods</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50030" trl="N">
+  <value column="Name" original="RV_Asset_Group_Defaults">RV_Asset_Group_Defaults</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50031" trl="N">
+  <value column="Name" original="Inbound Charge Entry Report">Inbound Charge Entry Report</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50032" trl="N">
+  <value column="Name" original="Forecast Report">Forecast Report</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50033" trl="N">
+  <value column="Name" original="Forecast Report by Period">Forecast Report by Period</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50037" trl="N">
+  <value column="Name" original="Manufacturing_Order_Node ** TEMPLATE **">Manufacturing_Order_Node ** TEMPLATE **</value>
+  <value column="Description" original="Manufacturing Order Node">Manufacturing Order Node</value>
+ </row>
+ <row id="50038" trl="N">
+  <value column="Name" original="Cost BOM Multi Level Review">Cost BOM Multi Level Review</value>
+  <value column="Description" original="Cost BOM Multi Level Review">Cost BOM Multi Level Review</value>
+ </row>
+ <row id="50040" trl="N">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Component ** TEMPLATE **">Manufacturing_Order_BOMLine_Component ** TEMPLATE **</value>
+  <value column="Description" original="Manufacturing Order BOM Line">Manufacturing Order BOM Line</value>
+ </row>
+ <row id="50041" trl="N">
+  <value column="Name" original="Manufacturing_Order_BOM_Header ** TEMPLATE **">Manufacturing_Order_BOM_Header ** TEMPLATE **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50042" trl="N">
+  <value column="Name" original="Manufacturing_Order_Workflow_Header ** TEMPLATE **">Manufacturing_Order_Workflow_Header ** TEMPLATE **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50043" trl="N">
+  <value column="Name" original="Manufacturing_Order_Node_Product ** TEMPLATE **">Manufacturing_Order_Node_Product ** TEMPLATE **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50044" trl="N">
+  <value column="Name" original="Manufacturing_Order_BOMLine_Packing** TEMPLATE **">Manufacturing_Order_BOMLine_Packing** TEMPLATE **</value>
+  <value column="Description" original="Manufacturing Order BOM Line">Manufacturing Order BOM Line</value>
+ </row>
+ <row id="50045" trl="N">
+  <value column="Name" original="Manufacturing_Order_BOM_Header_Packing ** TEMPLATE **">Manufacturing_Order_BOM_Header_Packing ** TEMPLATE **</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50051" trl="N">
+  <value column="Name" original="Accounting Fact Reconciliation">Accounting Fact Reconciliation</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="50057" trl="N">
+  <value column="Name" original="Indented Bill of Material">Indented Bill of Material</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="BOM Line">BOM Line</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Single Level BOM">Single Level BOM</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="1099 Extract">1099 Extract</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Bank Register Report">Bank Register Report</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Product/Component Where Used">Product/Component Where Used</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Simple Fact View">Simple Fact View</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="Complex Fact View">Complex Fact View</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f726e1f6-043a-42c0-a7f7-55f7a2dc2365">
+  <value column="Name" original="Order_Header  ** 1000000 ** - Копировать запись">Order_Header  ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Order Header">Standard Order Header</value>
+ </row>
+ <row trl="N" uuid="bc176dab-ce2b-42ab-9b3f-0c34805c0031">
+  <value column="Name" original="Order_LineTax  ** 1000000 ** - Копировать запись">Order_LineTax  ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Order Line&amp;Tax"><![CDATA[Standard Order Line&Tax]]></value>
+ </row>
+ <row trl="N" uuid="9af16d16-f692-4d1e-a4f2-d54c681067a1">
+  <value column="Name" original="Invoice_Header  ** 1000000 ** - Копировать запись">Invoice_Header  ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Invoice Header">Standard Invoice Header</value>
+ </row>
+ <row trl="N" uuid="2cd7e7bd-b58a-4ad0-9616-f50a596b8f03">
+  <value column="Name" original="Invoice_LineTax  ** 1000000 ** - Копировать запись">Invoice_LineTax  ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines"><![CDATA[Standard Invoice Line&Tax Lines]]></value>
+ </row>
+ <row trl="N" uuid="0863dd36-1ae5-45d2-91f3-c082ff9045a8">
+  <value column="Name" original="InOut_Header ** 1000000 ** - Копировать запись">InOut_Header ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Shipment Header">Standard Shipment Header</value>
+ </row>
+ <row trl="N" uuid="30838a29-988d-4e53-a821-54c9b391e3c0">
+  <value column="Name" original="InOut_Line  ** 1000000 ** - Копировать запись">InOut_Line  ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Shipment Lines">Standard Shipment Lines</value>
+ </row>
+ <row trl="N" uuid="0317e8c3-32d9-4875-bdc1-c3ef889b4940">
+  <value column="Name" original="PaySelection_Check  ** 1000000 ** - Копировать запись">PaySelection_Check  ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Check with Remittance Info">Standard Check with Remittance Info</value>
+ </row>
+ <row trl="N" uuid="5e17ddeb-ff08-49e6-9521-02631acc1fd7">
+  <value column="Name" original="PaySelection_Remittance_Lines  ** 1000000 ** - Копировать за">PaySelection_Remittance_Lines  ** 1000000 ** - Копировать за</value>
+  <value column="Description" original="Standard Check/Remittance Lines">Standard Check/Remittance Lines</value>
+ </row>
+ <row trl="N" uuid="41934710-c00e-48d4-9059-657e248f2720">
+  <value column="Name" original="PaySelection_Remittance  ** 1000000 ** - Копировать запись">PaySelection_Remittance  ** 1000000 ** - Копировать запись</value>
+  <value column="Description" original="Standard Remittance Header">Standard Remittance Header</value>
+ </row>
+ <row trl="N" uuid="2e680281-fbd3-4d4d-bd67-4392afdfb343">
+  <value column="Name" original="Пользователь">Пользователь</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="f54bce18-6ed0-40ba-92b0-43798e003ee5">
+  <value column="Name" original="Модуль">Модуль</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="fc42ffa2-4673-4460-bc40-f292fb73682b">
+  <value column="Name" original="RV_Asset_Parent_Report - Копировать запись">RV_Asset_Parent_Report - Копировать запись</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b2df054c-b660-45b2-b9e6-6e59ff3b0f4c">
+  <value column="Name" original="Формат печати">Формат печати</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b1dd15c8-6304-4c26-ba78-eac19ae9f86f">
+  <value column="Name" original="Формат печати_20161005013712">Формат печати_20161005013712</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="6b4a65ba-e894-4ada-b49a-0ceebcd58566">
+  <value column="Name" original="Столбец">Столбец</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="c510042e-f3aa-4115-99d1-a8b72e3a8218">
+  <value column="Name" original="Калибровочное значение">Калибровочное значение</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b084e3bd-4055-4138-b461-ced068628995">
+  <value column="Name" original="Таррировка">Таррировка</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="c467df27-6138-456f-b776-3f9d837151b3">
+  <value column="Name" original="Имущество покупателя">Имущество покупателя</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="132a18ec-3274-4942-83bd-74c82c621a4a">
+  <value column="Name" original="Запросы">Запросы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8bb15842-2c4d-4e55-ab6c-d662fa4b93e9">
+  <value column="Name" original="Поле ввода cервиса">Поле ввода cервиса</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="964f6661-10a1-45f1-bc2a-f6e3a94d0b1a">
+  <value column="Name" original="Заказ">Заказ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="0dad367a-071e-4b42-a80b-3709976db6d0">
+  <value column="Name" original="Выбор поставщика">Выбор поставщика</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="a4764228-2aa9-4987-918a-191bfde77c89">
+  <value column="Name" original="Открытые заявки">Открытые заявки</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="48554106-a648-4d31-973e-a5fca05cff14">
+  <value column="Name" original="Открытые заказы">Открытые заказы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="30313852-6cb3-4153-a942-f5ca82b5e879">
+  <value column="Name" original="Транзакции РН">Транзакции РН</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="9b6e2605-faac-40cb-a43a-677212fd25f4">
+  <value column="Name" original="Ответ на запрос цены">Ответ на запрос цены</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="eea2768f-a1d3-4617-83a7-0e0bee4b2388">
+  <value column="Name" original="Неотвеченные RfQ">Неотвеченные RfQ</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="375c4767-d0a1-4e19-afec-ec33090c07ff">
+  <value column="Name" original="Предложение поставщиков">Предложение поставщиков</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="863f2b3b-e8df-4410-be2b-1da384c5856f">
+  <value column="Name" original="Поле">Поле</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="b721a02e-1968-4425-98f8-b4f7e1cc7118">
+  <value column="Name" original="Сводка о себестоимости товара">Сводка о себестоимости товара</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="78f0355b-87e1-4cf8-b379-cee228733d2f">
+  <value column="Name" original="Caller ID">Caller ID</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="816fdcda-ac3d-4496-8da2-9ea3bdca3977">
+  <value column="Name" original="Конфигуратор системы">Конфигуратор системы</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="14b82f9a-62a8-4616-80c8-aee30e5fbfc4">
+  <value column="Name" original="Список оповещения">Список оповещения</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="5b8230f0-0d20-4db5-935f-fa7d0061e885">
+  <value column="Name" original="Кампания">Кампания</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="4b5d87c7-0b73-42d7-9ead-71f54b9e5e3a">
+  <value column="Name" original="NC_Call_Queue">NC_Call_Queue</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="187e4e61-c032-4929-82fb-2eb6eb942e09">
+  <value column="Name" original="NC_Call_Queue_20180406004612">NC_Call_Queue_20180406004612</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="d242e2e1-a76a-4894-b7ea-b3d6224dfa55">
+  <value column="Name" original="NC_Call_Queue_20180406004629">NC_Call_Queue_20180406004629</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="4e5bb516-af25-4fda-b535-95afbde649c6">
+  <value column="Name" original="Call_Queue_V">Call_Queue_V</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="8c238a23-eb2e-443e-b6d8-ef701cea8e3a">
+  <value column="Name" original="Платформа">Платформа</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="12187f0a-6079-47ec-8f2a-ccc6ac9f778f">
+  <value column="Name" original="Бухг. события за день">Бухг. события за день</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="e384c052-bcfa-43b6-9ce0-ea4afe8cae5c">
+  <value column="Name" original="Order_Header  ** 1000001 ** - Copy Record">Order_Header  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Order Header">Standard Order Header</value>
+ </row>
+ <row trl="N" uuid="52b8d96a-40d9-4fc7-96a9-c452da9dddf0">
+  <value column="Name" original="Order_LineTax  ** 1000001 ** - Copy Record">Order_LineTax  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Order Line&amp;Tax"><![CDATA[Standard Order Line&Tax]]></value>
+ </row>
+ <row trl="N" uuid="d3cb0499-a989-4153-906d-d0225ed92434">
+  <value column="Name" original="Invoice_Header  ** 1000001 ** - Copy Record">Invoice_Header  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Invoice Header">Standard Invoice Header</value>
+ </row>
+ <row trl="N" uuid="dd6267b6-2f64-44d5-8618-1c33d76c3667">
+  <value column="Name" original="Invoice_LineTax  ** 1000001 ** - Copy Record">Invoice_LineTax  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines"><![CDATA[Standard Invoice Line&Tax Lines]]></value>
+ </row>
+ <row trl="N" uuid="4bf1a6fc-191f-42c4-afd6-33852c8811e3">
+  <value column="Name" original="InOut_Header ** 1000001 ** - Copy Record">InOut_Header ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Shipment Header">Standard Shipment Header</value>
+ </row>
+ <row trl="N" uuid="c234b3c4-bc95-42f2-a281-ce47f5248820">
+  <value column="Name" original="InOut_Line  ** 1000001 ** - Copy Record">InOut_Line  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Shipment Lines">Standard Shipment Lines</value>
+ </row>
+ <row trl="N" uuid="aec8b894-3086-4e71-916c-ccc94a5d65a4">
+  <value column="Name" original="PaySelection_Check  ** 1000001 ** - Copy Record">PaySelection_Check  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Check with Remittance Info">Standard Check with Remittance Info</value>
+ </row>
+ <row trl="N" uuid="c66a1864-bd92-4594-b119-4e5c637103f4">
+  <value column="Name" original="PaySelection_Remittance_Lines  ** 1000001 ** - Copy Record">PaySelection_Remittance_Lines  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Check/Remittance Lines">Standard Check/Remittance Lines</value>
+ </row>
+ <row trl="N" uuid="4f63441e-664b-464f-9fac-54608cdec73e">
+  <value column="Name" original="PaySelection_Remittance  ** 1000001 ** - Copy Record">PaySelection_Remittance  ** 1000001 ** - Copy Record</value>
+  <value column="Description" original="Standard Remittance Header">Standard Remittance Header</value>
+ </row>
+ <row trl="N" uuid="0def980e-2b30-401d-9477-35ae4c0fb3e8">
+  <value column="Name" original="Notification Variables">Notification Variables</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="dcdf0bc1-a897-45d6-aa8a-f59d3eed0a4a">
+  <value column="Name" original="NC Constant">NC Constant</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="a771e7ea-5292-4262-87c5-dc96688360bf">
+  <value column="Name" original="Client Type">Client Type</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="48b1989c-aab5-4e13-bc78-9947182504ed">
+  <value column="Name" original="Инвойсы за неделю по кат. товара">Инвойсы за неделю по кат. товара</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="647ec126-12f1-4616-9945-ee59c81605e7">
+  <value column="Name" original="ИД">ИД</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="426105ee-b6b9-4abf-b966-de3b33523a40">
+  <value column="Name" original="Order_Header  ** 1000002 ** - Копировать запись">Order_Header  ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Order Header">Standard Order Header</value>
+ </row>
+ <row trl="N" uuid="d3021379-3766-4350-be29-fce1ea02a4ca">
+  <value column="Name" original="Order_LineTax  ** 1000002 ** - Копировать запись">Order_LineTax  ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Order Line&amp;Tax"><![CDATA[Standard Order Line&Tax]]></value>
+ </row>
+ <row trl="N" uuid="3c117d95-69d8-49bb-ba26-7ac8b082603d">
+  <value column="Name" original="Invoice_Header  ** 1000002 ** - Копировать запись">Invoice_Header  ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Invoice Header">Standard Invoice Header</value>
+ </row>
+ <row trl="N" uuid="c8ea477b-36d4-4562-8373-e1a9fe55293a">
+  <value column="Name" original="Invoice_LineTax  ** 1000002 ** - Копировать запись">Invoice_LineTax  ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Invoice Line&amp;Tax Lines"><![CDATA[Standard Invoice Line&Tax Lines]]></value>
+ </row>
+ <row trl="N" uuid="e0011157-e522-4888-905e-26f2c00a45e2">
+  <value column="Name" original="InOut_Header ** 1000002 ** - Копировать запись">InOut_Header ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Shipment Header">Standard Shipment Header</value>
+ </row>
+ <row trl="N" uuid="50556c06-dfd1-4c71-9de2-92bcb60df143">
+  <value column="Name" original="InOut_Line  ** 1000002 ** - Копировать запись">InOut_Line  ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Shipment Lines">Standard Shipment Lines</value>
+ </row>
+ <row trl="N" uuid="4abc9099-41e3-4d1c-a6c0-6f263c8c55d1">
+  <value column="Name" original="PaySelection_Check  ** 1000002 ** - Копировать запись">PaySelection_Check  ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Check with Remittance Info">Standard Check with Remittance Info</value>
+ </row>
+ <row trl="N" uuid="508c69c4-9197-46e4-a278-1f63fc4fa694">
+  <value column="Name" original="PaySelection_Remittance_Lines  ** 1000002 ** - Копировать за">PaySelection_Remittance_Lines  ** 1000002 ** - Копировать за</value>
+  <value column="Description" original="Standard Check/Remittance Lines">Standard Check/Remittance Lines</value>
+ </row>
+ <row trl="N" uuid="95c51524-c679-460a-8085-a591211a7653">
+  <value column="Name" original="PaySelection_Remittance  ** 1000002 ** - Копировать запись">PaySelection_Remittance  ** 1000002 ** - Копировать запись</value>
+  <value column="Description" original="Standard Remittance Header">Standard Remittance Header</value>
+ </row>
+ <row trl="N" uuid="2e806211-2ef5-46c4-9b3a-6337ff1a5000">
+  <value column="Name" original="Налог инвойса">Налог инвойса</value>
+  <value column="Description" original=""/>
+ </row>
+ <row trl="N" uuid="09e2ae98-2c81-48f6-8bbc-1cde7eeb50ab">
+  <value column="Name" original="Пользователь - Копировать запись">Пользователь - Копировать запись</value>
+  <value column="Description" original=""/>
+ </row>
+</idempiereTrl>
