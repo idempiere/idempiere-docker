@@ -24,8 +24,8 @@ Productive iDempiere Environment
 -	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
 -	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/7.1)
 -    [`8.1`](https://github.com/idempiere/idempiere-docker/tree/master/8.1)
--    [`8.2`](https://github.com/idempiere/idempiere-docker/tree/master/8.2)
--    [`8.2-demo`](https://github.com/idempiere/idempiere-docker/tree/master/8.2-demo)
+-    [`8.2`, `phong`](https://github.com/idempiere/idempiere-docker/tree/master/8.2)
+-    [`8.2-demo`, `phong-demo`](https://github.com/idempiere/idempiere-docker/tree/master/8.2-demo)
 
 ## iDempiere Source
 
