@@ -70,6 +70,7 @@ if [[ "$1" == "idempiere" ]]; then
         cd ..
         echo "Signing database..."
         ./sign-database-build.sh
+        nohup /languages/addLanguages.sh > /languages/output.log &
     else
         echo "Database '$DB_NAME' is found..."
         if [[ "$MIGRATE_EXISTING_DATABASE" == "true" ]]; then
