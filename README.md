@@ -71,7 +71,7 @@ Starting containers automatically [here](https://docs.docker.com/config/containe
 
 Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
 
-### Using Docker Commands With an External DB
+### Using Docker Commands With an External DB On Linux
 
 ```bash
 $ docker run -d --name idempiere -p 8080:8080 --network host\
@@ -81,6 +81,18 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
   -e DB_USER=adempiere\
   -e DB_PASS=adempiere\
   -e DB_ADMIN_PASS=postgres\
+  idempiereofficial/idempiere:8.2
+```
+
+### For Windows use the ^ symbol instead of \
+```bash
+$ docker run -d --name idempiere -p 8080:8080 ^
+  -e DB_HOST=192.168.100.169 ^
+  -e DB_PORT=5432 ^
+  -e DB_NAME=idempiere ^
+  -e DB_USER=adempiere ^
+  -e DB_PASS=adempiere ^
+  -e DB_ADMIN_PASS=postgres ^
   idempiereofficial/idempiere:8.2
 ```
 
