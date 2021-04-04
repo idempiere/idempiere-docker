@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.9'
 
 services:
   idempiere:
@@ -12,6 +12,8 @@ services:
     volumes:
       - idempiere_config:/opt/idempiere/configuration
       - idempiere_plugins:/opt/idempiere/plugins
+    networks:
+      idempiere_network:
 
   postgres:
     image: postgres:${POSTGRES_VERSION}
@@ -22,8 +24,13 @@ services:
       - POSTGRES_PASSWORD=postgres
     volumes:
       - idempiere_data:/var/lib/postgresql/data
+    networks:
+      idempiere_network:
 
 volumes:
   idempiere_data:
   idempiere_plugins:
   idempiere_config:
+
+networks:
+  idempiere_network:
