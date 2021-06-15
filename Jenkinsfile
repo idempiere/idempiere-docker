@@ -48,11 +48,11 @@ pipeline {
                 sh 'docker push $PROJECT_NAME:source-master'
             }
         }
-        stage('Publishing source-master-8.2 to dockerhub') {
+        stage('Publishing source-release-8.2 to dockerhub') {
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:source-master-8.2'
-                sh 'docker build --no-cache -t $PROJECT_NAME:source-master-8.2 ./source-master-8.2'
-                sh 'docker push $PROJECT_NAME:source-master-8.2'
+                sh 'docker image rm -f $PROJECT_NAME:source-release-8.2'
+                sh 'docker build --no-cache -t $PROJECT_NAME:source-release-8.2 ./source-release-8.2'
+                sh 'docker push $PROJECT_NAME:source-release-8.2'
             }
         }
     }
