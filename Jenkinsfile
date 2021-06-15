@@ -9,15 +9,20 @@ pipeline {
     }
     environment {
         PROJECT_NAME = 'idempiereofficial/idempiere'
-        REGISTRY_PASS = credentials('idempiereofficial-dockerhub')
+        DOCKERHUB = credentials('idempiereofficial-dockerhub')
     }
     stages {
-        stage('Publish 8.2 to dockerhub') {
+        stage('Login into dockerhub') {
             steps {
-                sh 'docker images'
-                sh 'docker login -u $REGISTRY_USER -p $REGISTRY_PASS'
+                sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
+            }
+        }
+        stage('Publishing 8.2 to dockerhub') {
+            steps {
+                sh 'docker image rm $PROJECT_NAME:8.2'
                 sh 'docker build -t $PROJECT_NAME:8.2 -t $PROJECT_NAME:phong ./8.2'
-                sh 'docker push $PROJECT_NAME --all-tags'
+                sh 'docker push $PROJECT_NAME:8.2'
+                sh 'docker push $PROJECT_NAME:phong'
             }
         }
     }
