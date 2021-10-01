@@ -11,7 +11,7 @@ ENV IDEMPIERE_BUILD https://jenkins.idempiere.org/job/iDempiere/ws/org.idempiere
 WORKDIR $IDEMPIERE_HOME
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends nano postgresql-client && \
+    apt-get install -y --no-install-recommends nano postgresql-client wget && \
     rm -rf /var/lib/apt/lists/*
 
 RUN wget -q $IDEMPIERE_BUILD -O /tmp/idempiere-server2.zip
