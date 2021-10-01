@@ -14,7 +14,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends nano postgresql-client && \
     rm -rf /var/lib/apt/lists/*
 
-RUN wget –no-check-certificate $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip && \
+RUN wget -–no-check-certificate $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip && \
     echo "Hash: $(md5sum /tmp/idempiere-server.zip)" > $IDEMPIERE_HOME/MD5SUMS && \
     echo "Date: $(date)" >> $IDEMPIERE_HOME/MD5SUMS && \
     unzip -q -o /tmp/idempiere-server.zip -d /tmp && \
