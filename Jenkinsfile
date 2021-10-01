@@ -17,12 +17,19 @@ pipeline {
                 sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
             }
         }
-        stage('Publishing daily to dockerhub') {
+        stage('Publishing 8.2-daily to dockerhub') {
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:daily'
-                sh 'docker build --no-cache -t $PROJECT_NAME:latest -t $PROJECT_NAME:daily ./daily'
+                sh 'docker image rm -f $PROJECT_NAME:8.2-daily'
+                sh 'docker build --no-cache -t $PROJECT_NAME:latest -t $PROJECT_NAME:8.2-daily ./8.2-daily'
                 sh 'docker push $PROJECT_NAME:latest'
-                sh 'docker push $PROJECT_NAME:daily'
+                sh 'docker push $PROJECT_NAME:8.2-daily'
+            }
+        }
+        stage('Publishing 8.2-master to dockerhub') {
+            steps {
+                sh 'docker image rm -f $PROJECT_NAME:8.2-master'
+                sh 'docker build --no-cache -t $PROJECT_NAME:latest -t $PROJECT_NAME:8.2-master ./8.2-master'
+                sh 'docker push $PROJECT_NAME:8.2-master'
             }
         }
         stage('Publishing 8.2 to dockerhub') {
@@ -38,7 +45,6 @@ pipeline {
                 sh 'docker image rm -f $PROJECT_NAME:8.2-demo'
                 sh 'docker build --no-cache -t $PROJECT_NAME:8.2-demo -t $PROJECT_NAME:phong-demo ./8.2-demo'
                 sh 'docker push $PROJECT_NAME:8.2-demo'
-                sh 'docker push $PROJECT_NAME:phong-demo'
             }
         }
         stage('Publishing source-master to dockerhub') {
