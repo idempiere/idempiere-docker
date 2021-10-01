@@ -11,10 +11,10 @@ ENV IDEMPIERE_BUILD https://jenkins.idempiere.org/job/iDempiere/ws/org.idempiere
 WORKDIR $IDEMPIERE_HOME
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends nano postgresql-client wget && \
+    apt-get install -y --no-install-recommends nano postgresql-client && \
     rm -rf /var/lib/apt/lists/*
 
-RUN wget -q $IDEMPIERE_BUILD -O /tmp/idempiere-server2.zip
+RUN wget -v $IDEMPIERE_BUILD -O /tmp/idempiere-server2.zip
 
 RUN wget -q $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip && \
     echo "Hash: $(md5sum /tmp/idempiere-server.zip)" > $IDEMPIERE_HOME/MD5SUMS && \
