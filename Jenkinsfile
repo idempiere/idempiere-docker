@@ -47,13 +47,13 @@ pipeline {
                 sh 'docker push $PROJECT_NAME:8.2-demo'
             }
         }
-        stage('Publishing source-master to dockerhub') {
-            steps {
-                sh 'docker image rm -f $PROJECT_NAME:source-master'
-                sh 'docker build --no-cache -t $PROJECT_NAME:source-master ./source-master'
-                sh 'docker push $PROJECT_NAME:source-master'
-            }
-        }
+        //stage('Publishing source-master to dockerhub') {
+        //    steps {
+        //        sh 'docker image rm -f $PROJECT_NAME:source-master'
+        //        sh 'docker build --no-cache -t $PROJECT_NAME:source-master ./source-master'
+        //        sh 'docker push $PROJECT_NAME:source-master'
+        //    }
+        //}
         stage('Publishing source-release-8.2 to dockerhub') {
             steps {
                 sh 'docker image rm -f $PROJECT_NAME:source-release-8.2'
