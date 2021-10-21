@@ -11,7 +11,7 @@ WORKDIR $SOURCE_PATH
 ENV IDEMPIERE_REPOSITORY $SOURCE_PATH/idempiere
 ENV SCAFFOLD_REPOSITORY $SOURCE_PATH/idempiere-plugin-scaffold
 
-RUN apt-get update && apt-get install -y --no-install-recommends make && \
+RUN apt-get update && apt-get install -y --no-install-recommends make wget && \
     rm -rf /var/lib/apt/lists/*
 RUN git clone --depth 1 https://github.com/idempiere/idempiere.git --branch $IDEMPIERE_BRANCH --single-branch $IDEMPIERE_REPOSITORY && \
     cd $IDEMPIERE_REPOSITORY && \
