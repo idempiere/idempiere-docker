@@ -17,19 +17,20 @@ pipeline {
                 sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
             }
         }
-        stage('Publishing 8.2-daily to dockerhub') {
+        stage('Publishing 9-release to dockerhub') {
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:8.2-daily'
-                sh 'docker build --no-cache -t $PROJECT_NAME:latest -t $PROJECT_NAME:8.2-daily ./8.2-daily'
-                sh 'docker push $PROJECT_NAME:latest'
-                sh 'docker push $PROJECT_NAME:8.2-daily'
+                sh 'docker image rm -f $PROJECT_NAME:9'
+                sh 'docker build --no-cache -t $PROJECT_NAME:release -t $PROJECT_NAME:9 ./9'
+                sh 'docker push $PROJECT_NAME:release'
+                sh 'docker push $PROJECT_NAME:9'
             }
         }
-        stage('Publishing 8.2-master to dockerhub') {
+        
+        stage('Publishing 9-master to dockerhub') {
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:8.2-master'
-                sh 'docker build --no-cache -t $PROJECT_NAME:latest -t $PROJECT_NAME:8.2-master ./8.2-master'
-                sh 'docker push $PROJECT_NAME:8.2-master'
+                sh 'docker image rm -f $PROJECT_NAME:9-master'
+                sh 'docker build --no-cache -t $PROJECT_NAME:latest -t $PROJECT_NAME:9-master ./9-master'
+                sh 'docker push $PROJECT_NAME:9-master'
             }
         }
         stage('Publishing 8.2 to dockerhub') {
@@ -40,20 +41,13 @@ pipeline {
                 sh 'docker push $PROJECT_NAME:phong'
             }
         }
-        stage('Publishing 8.2-demo to dockerhub') {
+         stage('Publishing source-release-9 to dockerhub') {
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:8.2-demo'
-                sh 'docker build --no-cache -t $PROJECT_NAME:8.2-demo -t $PROJECT_NAME:phong-demo ./8.2-demo'
-                sh 'docker push $PROJECT_NAME:8.2-demo'
+                sh 'docker image rm -f $PROJECT_NAME:source-release-9'
+                sh 'docker build --no-cache -t $PROJECT_NAME:source-release-9 ./source-release-9'
+                sh 'docker push $PROJECT_NAME:source-release-9'
             }
-        }
-        //stage('Publishing source-master to dockerhub') {
-        //    steps {
-        //        sh 'docker image rm -f $PROJECT_NAME:source-master'
-        //        sh 'docker build --no-cache -t $PROJECT_NAME:source-master ./source-master'
-        //        sh 'docker push $PROJECT_NAME:source-master'
-        //    }
-        //}
+         }
         stage('Publishing source-release-8.2 to dockerhub') {
             steps {
                 sh 'docker image rm -f $PROJECT_NAME:source-release-8.2'
