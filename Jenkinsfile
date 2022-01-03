@@ -26,6 +26,15 @@ pipeline {
             }
         }
         
+        stage('Publishing 9-daily to dockerhub') {
+            steps {
+                sh 'docker image rm -f $PROJECT_NAME:9-daily'
+                sh 'docker build --no-cache -t $PROJECT_NAME:daily -t $PROJECT_NAME:9-daily ./9-daily'
+                sh 'docker push $PROJECT_NAME:9-daily'
+                sh 'docker push $PROJECT_NAME:9-daily'
+            }
+        }
+        
         stage('Publishing 9-master to dockerhub') {
             steps {
                 sh 'docker image rm -f $PROJECT_NAME:9-master'
