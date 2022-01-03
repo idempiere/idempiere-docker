@@ -24,7 +24,7 @@ Productive iDempiere Environment
 -	[`daily`, `latest`](https://github.com/idempiere/idempiere-docker/tree/master/daily)
 -	[`7.1`](https://github.com/idempiere/idempiere-docker/tree/master/7.1)
 - [`8.2`, `phong`](https://github.com/idempiere/idempiere-docker/tree/master/8.2)
-- [`8.2-demo`, `phong-demo`](https://github.com/idempiere/idempiere-docker/tree/master/8.2-demo)
+- [`9`, `Horizon`](https://github.com/idempiere/idempiere-docker/tree/master/9)
 
 ## iDempiere Source
 
@@ -32,7 +32,8 @@ iDempiere's Source Code for Development Environment
 
 -	[`source-master`](https://github.com/idempiere/idempiere-docker/tree/master/source-master)
 -	[`source-release-7.1`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-7.1)
-- [`source-release-8.2`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.2)
+- 	[`source-release-8.2`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-8.2)
+- 	[`source-release-9`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-9)
 
 # What is iDempiere?
 
@@ -57,12 +58,7 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
-$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.2
-```
-or for demo site:
-
-```bash
-$ docker run -d --name idempiere-demo -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.2-demo
+$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:9
 ```
 
 For persistent data see the section [Volumes](#volumes).
@@ -107,7 +103,7 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:8.2
+    image: idempiereofficial/idempiere:9
     volumes:
       - idempiere_config:/opt/idempiere/configuration
       - idempiere_plugins:/opt/idempiere/plugins
@@ -288,7 +284,7 @@ command: idempiere debug
 Or adding to bash command:
 
 ```
-docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:8.2 idempiere debug
+docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:9 idempiere debug
 ```
 
 # Docker Secrets
