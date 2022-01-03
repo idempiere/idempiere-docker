@@ -17,6 +17,14 @@ pipeline {
                 sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
             }
         }
+        stage('Publishing 9-release to dockerhub') {
+            steps {
+                sh 'docker image rm -f $PROJECT_NAME:9'
+                sh 'docker build --no-cache -t $PROJECT_NAME:release -t $PROJECT_NAME:9 ./9'
+                sh 'docker push $PROJECT_NAME:release'
+                sh 'docker push $PROJECT_NAME:9'
+            }
+        }
         stage('Publishing 8.2-daily to dockerhub') {
             steps {
                 sh 'docker image rm -f $PROJECT_NAME:8.2-daily'
