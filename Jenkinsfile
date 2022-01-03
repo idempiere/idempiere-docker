@@ -47,6 +47,7 @@ pipeline {
                 sh 'docker build --no-cache -t $PROJECT_NAME:source-release-9 ./source-release-9'
                 sh 'docker push $PROJECT_NAME:source-release-9'
             }
+         }
         stage('Publishing source-release-8.2 to dockerhub') {
             steps {
                 sh 'docker image rm -f $PROJECT_NAME:source-release-8.2'
