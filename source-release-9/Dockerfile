@@ -3,7 +3,7 @@ FROM maven:3.6-jdk-11
 LABEL maintainer="orlando.curieles@ingeint.com"
 
 ENV IDEMPIERE_BRANCH release-9
-ENV SCAFFOLD_BRANCH 9
+ENV SCAFFOLD_BRANCH master
 
 ENV SOURCE_PATH /source
 WORKDIR $SOURCE_PATH
