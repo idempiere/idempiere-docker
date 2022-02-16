@@ -58,19 +58,21 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
-$ docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:9
+$ docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:9
 ```
 
 For persistent data see the section [Volumes](#volumes).
 
 Starting containers automatically [here](https://docs.docker.com/config/containers/start-containers-automatically/).
 
-Open in the browser: [http://127.0.0.1:8080/webui/](http://127.0.0.1:8080/webui/)
+Open in the browser: [https://127.0.0.1:8443/webui/](https://127.0.0.1:8443/webui/)
+
+Please note: From iDempiere version 9 onwards, direct http access is no longer supported. https://wiki.idempiere.org/en/Migration_Notes#Deprecated_direct_http_usage
 
 ### Using Docker Commands With an External DB On Linux
 
 ```bash
-$ docker run -d --name idempiere -p 8080:8080 --network host\
+$ docker run -d --name idempiere -p 8443:8443 --network host\
   -e DB_HOST=127.0.0.1\
   -e DB_PORT=5432\
   -e DB_NAME=idempiere\
@@ -82,7 +84,7 @@ $ docker run -d --name idempiere -p 8080:8080 --network host\
 
 ### For Windows use the ^ symbol instead of \
 ```bash
-$ docker run -d --name idempiere -p 8080:8080 ^
+$ docker run -d --name idempiere -p 8443:8443 ^
   -e DB_HOST=192.168.100.169 ^
   -e DB_PORT=5432 ^
   -e DB_NAME=idempiere ^
@@ -284,7 +286,7 @@ command: idempiere debug
 Or adding to bash command:
 
 ```
-docker run -d --name idempiere -p 8080:8080 --link postgres:postgres idempiereofficial/idempiere:9 idempiere debug
+docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:9 idempiere debug
 ```
 
 # Docker Secrets
