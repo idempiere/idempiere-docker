@@ -60,7 +60,7 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
-$ docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:9
+$ docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:10
 ```
 
 For persistent data see the section [Volumes](#volumes).
@@ -69,7 +69,7 @@ Starting containers automatically [here](https://docs.docker.com/config/containe
 
 Open in the browser: [https://127.0.0.1:8443/webui/](https://127.0.0.1:8443/webui/)
 
-Please note: From iDempiere version 9 onwards, direct http access is no longer supported. https://wiki.idempiere.org/en/Migration_Notes#Deprecated_direct_http_usage
+Please note: From iDempiere version 9 or higher, direct http access is no longer supported. https://wiki.idempiere.org/en/Migration_Notes#Deprecated_direct_http_usage
 
 ### Using Docker Commands With an External DB On Linux
 
