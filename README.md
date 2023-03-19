@@ -111,7 +111,6 @@ services:
     volumes:
       - idempiere_config:/opt/idempiere/configuration
       - idempiere_plugins:/opt/idempiere/plugins
-      - host:0.0.0.0
     environment:
       - TZ=America/Guayaquil
     ports:
