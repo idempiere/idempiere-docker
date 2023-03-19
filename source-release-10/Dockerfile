@@ -19,4 +19,3 @@ RUN git clone --depth 1 https://github.com/idempiere/idempiere.git --branch $IDE
 RUN git clone --depth 1 https://github.com/ingeint/idempiere-plugin-scaffold.git --branch $SCAFFOLD_BRANCH --single-branch $SCAFFOLD_REPOSITORY && \
     cd $SCAFFOLD_REPOSITORY/idempiere-plugin-template  && \
     ./build
-    
