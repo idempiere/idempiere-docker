@@ -6,7 +6,8 @@ ENV IDEMPIERE_VERSION 10
 ENV IDEMPIERE_HOME /opt/idempiere
 ENV IDEMPIERE_PLUGINS_HOME $IDEMPIERE_HOME/plugins
 ENV IDEMPIERE_LOGS_HOME $IDEMPIERE_HOME/log
-ENV IDEMPIERE_BUILD https://sourceforge.net/projects/idempiere/files/v10/daily-server/idempiereServer10Daily.gtk.linux.x86_64.zip
+ENV IDEMPIERE_BUILD https://sourceforge.net/projects/idempiere/files/v10/server/idempiereServer10.gtk.linux.x86_64.zip
+                    
 
 WORKDIR $IDEMPIERE_HOME
 
