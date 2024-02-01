@@ -187,7 +187,7 @@ The following users and passwords are part of the initial seed database:
 | MAIL_PASS | info | Mail password |
 | MAIL_ADMIN | info@idempiere | Admin e-mail |
 | JAVA_HOME | /usr/local/openjdk-11 | Path to java |
-| JAVA_OPTS |  | Java execution parameters (e.g. `-Xms` and `-Xmx`) |
+| JAVA_OPTIONS |  | Java execution parameters (e.g. `-Xms` and `-Xmx`) |
 | DEBUG_PORT| 4554 | Port for remote debug |
 | TELNET_PORT | 12612 | OSGI port for telnet connection |
 | HOST | 0.0.0.0 
