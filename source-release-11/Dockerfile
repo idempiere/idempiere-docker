@@ -30,3 +30,5 @@ RUN git clone --depth 1 https://github.com/ingeint/idempiere-plugin-scaffold.git
 RUN cd $TARGET_PLATFORM_REPOSITORY && \
     ./plugin-builder ../idempiere-plugin-scaffold/idempiere-plugin-template/com.ingeint.template \
     ../idempiere-plugin-scaffold/idempiere-plugin-template/com.ingeint.template.test
+
+ENTRYPOINT ["/bin/bash"]
