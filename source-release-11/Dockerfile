@@ -28,7 +28,7 @@ RUN git clone --depth 1 https://github.com/ingeint/idempiere-plugin-scaffold.git
     --branch $SCAFFOLD_BRANCH --single-branch $SCAFFOLD_REPOSITORY
 
 RUN cd $TARGET_PLATFORM_REPOSITORY && \
-    ./plugin-builder ../idempiere-plugin-scaffold/idempiere-plugin-template/com.ingeint.template \
-    ../idempiere-plugin-scaffold/idempiere-plugin-template/com.ingeint.template.test
+    ./plugin-builder ../idempiere-plugin-scaffold/plugin-example/com.ingeint.example \
+    ../idempiere-plugin-scaffold/plugin-example/com.ingeint.example.test
 
 ENTRYPOINT ["/bin/bash"]
