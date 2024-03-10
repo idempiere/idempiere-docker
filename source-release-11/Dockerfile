@@ -31,4 +31,4 @@ RUN cd $TARGET_PLATFORM_REPOSITORY && \
     ./plugin-builder ../idempiere-plugin-scaffold/plugin-example/com.ingeint.example \
     ../idempiere-plugin-scaffold/plugin-example/com.ingeint.example.test
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT []
