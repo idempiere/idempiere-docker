@@ -24,6 +24,7 @@ RUN cat $IDEMPIERE_HOME/MD5SUMS
 RUN ln -s $IDEMPIERE_HOME/idempiere-server.sh /usr/bin/idempiere
 
 COPY docker-entrypoint.sh $IDEMPIERE_HOME
+COPY idempiere-server.sh $IDEMPIERE_HOME
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
 CMD ["idempiere"]
