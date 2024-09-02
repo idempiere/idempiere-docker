@@ -8,11 +8,16 @@ ENV IDEMPIERE_PLUGINS_HOME $IDEMPIERE_HOME/plugins
 ENV IDEMPIERE_LOGS_HOME $IDEMPIERE_HOME/log
 ENV IDEMPIERE_BUILD https://sourceforge.net/projects/idempiere/files/v11/daily-server/idempiereServer11Daily.gtk.linux.x86_64.zip
 
-WORKDIR $IDEMPIERE_HOME
-
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends nano postgresql-client openjdk-17-jdk wget unzip && \
+    apt-get install -y --no-install-recommends nano postgresql-client openjdk-17-jdk wget unzip patch && \
     rm -rf /var/lib/apt/lists/*
+
+RUN ln -s $IDEMPIERE_HOME/idempiere-server.sh /usr/bin/idempiere && \
+    useradd -d $IDEMPIERE_HOME idempiere
+
+USER idempiere
+
+WORKDIR $IDEMPIERE_HOME
 
 RUN wget --no-check-certificate $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip && \
     echo "Hash: $(md5sum /tmp/idempiere-server.zip)" > $IDEMPIERE_HOME/MD5SUMS && \
@@ -20,11 +25,16 @@ RUN wget --no-check-certificate $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip &&
     unzip -q -o /tmp/idempiere-server.zip -d /tmp && \
     mv /tmp/idempiere.gtk.linux.x86_64/idempiere-server/* $IDEMPIERE_HOME && \
     rm -rf /tmp/idempiere*
+
+COPY --chown=idempiere idempiere-server.patch /tmp/idempiere-server.patch
+
+RUN patch < /tmp/idempiere-server.patch && \
+    rm /tmp/idempiere-server.patch && \
+    chmod -R g+w $IDEMPIERE_HOME
+
 RUN cat $IDEMPIERE_HOME/MD5SUMS
-RUN ln -s $IDEMPIERE_HOME/idempiere-server.sh /usr/bin/idempiere
 
 COPY docker-entrypoint.sh $IDEMPIERE_HOME
-COPY idempiere-server.sh $IDEMPIERE_HOME
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
 CMD ["idempiere"]
