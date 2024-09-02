@@ -32,8 +32,6 @@ RUN patch < /tmp/idempiere-server.patch && \
     rm /tmp/idempiere-server.patch && \
     chmod -R g+w $IDEMPIERE_HOME
 
-RUN cat $IDEMPIERE_HOME/MD5SUMS
-
 COPY docker-entrypoint.sh $IDEMPIERE_HOME
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
