@@ -13,7 +13,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN ln -s $IDEMPIERE_HOME/idempiere-server.sh /usr/bin/idempiere && \
-    useradd -d $IDEMPIERE_HOME idempiere
+    useradd -d $IDEMPIERE_HOME -mk $IDEMPIERE_HOME idempiere
 
 USER idempiere
 
