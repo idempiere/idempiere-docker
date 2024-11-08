@@ -26,12 +26,6 @@ RUN wget --no-check-certificate $IDEMPIERE_BUILD -O /tmp/idempiere-server.zip &&
     mv /tmp/idempiere.gtk.linux.x86_64/idempiere-server/* $IDEMPIERE_HOME && \
     rm -rf /tmp/idempiere*
 
-COPY --chown=idempiere idempiere-server.patch /tmp/idempiere-server.patch
-
-RUN patch < /tmp/idempiere-server.patch && \
-    rm /tmp/idempiere-server.patch && \
-    chmod -R g+w $IDEMPIERE_HOME
-
 COPY docker-entrypoint.sh $IDEMPIERE_HOME
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
