@@ -1,0 +1,52 @@
+version: '3.9'
+services:
+  idempiere12:
+    image: idempiereofficial/idempiere:12-release
+    hostname: 'idempiere'
+    ports:
+      - 8080:8080
+      - 8443:8443
+      - 12612:12612
+    environment:
+      - TZ=America/Caracas
+      - DB_NAME=idempiere
+      - DB_HOST=host.docker.internal
+      - DB_PORT=5432
+      - DB_USER=adempiere
+      - DB_PASS=adempiere
+      - DB_ADMIN_PASS_FILE=/run/secrets/postgres
+      - JAVA_OPTS=-Xms256M -Xmx12288M
+      - MIGRATE_EXISTING_DATABASE=true
+    volumes:
+      - idempiere_config:/opt/idempiere/configuration
+      - idempiere_plugins:/opt/idempiere/plugins
+      - idempiere_log:/opt/idempiere/log
+    secrets:
+      - postgres
+      - adempiere
+    networks:
+      - network_idempiere
+
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 8096M
+        reservations:
+          cpus: '0.25'
+          memory: 512M
+
+volumes:
+  idempiere_plugins:
+  idempiere_config:
+  idempiere_log:
+
+networks:
+  network_idempiere:
+    external: true
+
+secrets:
+  postgres:
+    external: true
+  adempiere:
+    external: true

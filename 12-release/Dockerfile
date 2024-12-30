@@ -9,7 +9,7 @@ ENV IDEMPIERE_LOGS_HOME $IDEMPIERE_HOME/log
 ENV IDEMPIERE_BUILD https://sourceforge.net/projects/idempiere/files/v12/daily-server/idempiereServer12Daily.gtk.linux.x86_64.zip
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends nano postgresql-client openjdk-17-jdk wget unzip patch && \
+    apt-get install -y --no-install-recommends nano postgresql-client openjdk-17-jdk wget unzip patch libc6 libstdc++6 libgcc1 && \
     rm -rf /var/lib/apt/lists/*
 
 RUN ln -s $IDEMPIERE_HOME/idempiere-server.sh /usr/bin/idempiere && \
