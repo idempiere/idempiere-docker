@@ -27,6 +27,7 @@ Productive iDempiere Environment
 - [`9`, `Horizon`](https://github.com/idempiere/idempiere-docker/tree/master/9)
 - [`10`, `Peace`](https://github.com/idempiere/idempiere-docker/tree/master/10)
 - [`11`, `Synergy`](https://github.com/idempiere/idempiere-docker/tree/master/11)
+- [`12`, `Kudos`](https://github.com/idempiere/idempiere-docker/tree/master/12)
 
 ## iDempiere Source
 
@@ -38,6 +39,7 @@ iDempiere's Source Code for Development Environment
 - [`source-release-9`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-9)
 - [`source-release-10`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-10)
 - [`source-release-11`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-11)
+- [`source-release-12`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-12)
 
 # What is iDempiere?
 
@@ -62,7 +64,7 @@ $ docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres postg
 > You could use any postgres version in the [Prerequisites Page](https://wiki.idempiere.org/en/Install_Development_Prerequisites).
 
 ```bash
-$ docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:11-master
+$ docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:12-master
 ```
 
 For persistent data see the section [Volumes](#volumes).
@@ -83,7 +85,7 @@ $ docker run -d --name idempiere -p 8443:8443 --network host\
   -e DB_USER=adempiere\
   -e DB_PASS=adempiere\
   -e DB_ADMIN_PASS=postgres\
-  idempiereofficial/idempiere:11-master
+  idempiereofficial/idempiere:12-master
 ```
 
 ### For Windows use the ^ symbol instead of \
@@ -95,7 +97,7 @@ $ docker run -d --name idempiere -p 8443:8443 ^
   -e DB_USER=adempiere ^
   -e DB_PASS=adempiere ^
   -e DB_ADMIN_PASS=postgres ^
-  idempiereofficial/idempiere:11-master
+  idempiereofficial/idempiere:12-master
 ```
 
 For secrets see the section [Docker Secrets](#docker-secrets).
@@ -109,12 +111,12 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:11-master
+    image: idempiereofficial/idempiere:12-master
     volumes:
       - idempiere_config:/opt/idempiere/configuration
       - idempiere_plugins:/opt/idempiere/plugins
     environment:
-      - TZ=America/Guayaquil
+      - TZ=America/Caracas
     ports:
       - 8080:8080
       - 8443:8443
@@ -125,7 +127,7 @@ services:
     volumes:
       - idempiere_data:/var/lib/postgresql/data
     environment:
-      - TZ=America/Guayaquil
+      - TZ=America/Caracas
       - POSTGRES_PASSWORD=postgres
     ports:
       - 5432:5432
@@ -291,7 +293,7 @@ command: idempiere debug
 Or adding to bash command:
 
 ```
-docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:9 idempiere debug
+docker run -d --name idempiere -p 8443:8443 --link postgres:postgres idempiereofficial/idempiere:12-release idempiere debug
 ```
 
 # Docker Secrets
@@ -325,9 +327,9 @@ version: '3.7'
 
 services:
   idempiere:
-    image: idempiereofficial/idempiere:11-master
+    image: idempiereofficial/idempiere:12-master
     environment:
-      - TZ=America/Guayaquil
+      - TZ=America/Caracas
       - DB_ADMIN_PASS_FILE=/run/secrets/db_admin_pass
     secrets:
       - db_admin_pass
@@ -339,7 +341,7 @@ services:
   postgres:
     image: postgres:16
     environment:
-      - TZ=America/Guayaquil
+      - TZ=America/Caracas
       - POSTGRES_PASSWORD_FILE=/run/secrets/db_admin_pass
     secrets:
       - db_admin_pass
@@ -366,7 +368,7 @@ Use this images for development purposes.
 source-release-9`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-9) corresponding to [iDempiere release-9.0 brach](https://github.com/idempiere/idempiere/tree/release-9)
 source-release-10`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-10) corresponding to [iDempiere release-10 brach](https://github.com/idempiere/idempiere/tree/release-10)
 source-release-11`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-11) corresponding to [iDempiere release-11 brach](https://github.com/idempiere/idempiere/tree/release-11)
-
+source-release-12`](https://github.com/idempiere/idempiere-docker/tree/master/source-release-12) corresponding to [iDempiere release-12 brach](https://github.com/idempiere/idempiere/tree/release-12)
 
 ### Env Variables
 
