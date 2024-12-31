@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 LABEL maintainer="orlando.curieles@ingeint.com"
 
@@ -6,7 +6,7 @@ ENV IDEMPIERE_VERSION 12
 ENV IDEMPIERE_HOME /opt/idempiere
 ENV IDEMPIERE_PLUGINS_HOME $IDEMPIERE_HOME/plugins
 ENV IDEMPIERE_LOGS_HOME $IDEMPIERE_HOME/log
-ENV IDEMPIERE_BUILD https://sourceforge.net/projects/idempiere/files/v11/server/idempiereServer12.gtk.linux.x86_64.zip
+ENV IDEMPIERE_BUILD https://sourceforge.net/projects/idempiere/files/v12/server/idempiereServer12.gtk.linux.x86_64.zip
 
 WORKDIR $IDEMPIERE_HOME
 
