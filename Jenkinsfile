@@ -8,14 +8,17 @@ pipeline {
     }
 
     environment {
-        REPO_URL        = 'https://github.com/idempiere/idempiere-docker.git'
-        BRANCH_NAME     = 'master'
-        BUILD_DIR       = '13-daily'
-        IMAGE_NAME      = 'idempiereofficial/idempiere'
-        IMAGE_TAG       = '13-daily'
-        DAILY_URL       = 'https://sourceforge.net/projects/idempiere/files/v13/daily-server/idempiereServer13Daily.gtk.linux.x86_64.zip/download'
-        SHA_FILE        = '.last_daily_sha256'
-        ZIP_FILE        = '/tmp/idempiereServer13Daily.zip'
+        REPO_URL    = 'https://github.com/idempiere/idempiere-docker.git'
+        BRANCH_NAME = 'master'
+        BUILD_DIR   = '13-daily'
+        IMAGE_NAME  = 'idempiereofficial/idempiere'
+        IMAGE_TAG   = '13-daily'
+        DAILY_URL   = 'https://sourceforge.net/projects/idempiere/files/v13/daily-server/idempiereServer13Daily.gtk.linux.x86_64.zip/download'
+
+        STATE_DIR   = '.jenkins-state'
+        SHA_FILE    = '.last_daily_sha256'
+        ZIP_NAME    = 'idempiere-server.zip'
+        ZIP_TMP     = '/tmp/idempiereServer13Daily.zip'
     }
 
     triggers {
@@ -27,8 +30,8 @@ pipeline {
         stage('Prepare workspace') {
             steps {
                 sh '''
-                    set -e
-                    mkdir -p .jenkins-state
+                    set -eu
+                    mkdir -p "${STATE_DIR}"
                 '''
             }
         }
@@ -36,21 +39,32 @@ pipeline {
         stage('Download daily and calculate checksum') {
             steps {
                 script {
-                    sh """
+                    sh '''
                         set -eu
-                        curl -L --fail --silent --show-error "${DAILY_URL}" -o "${ZIP_FILE}"
-                        sha256sum "${ZIP_FILE}" | awk '{print \$1}' > ".jenkins-state/${SHA_FILE}.new"
-                    """
+                        rm -f "${ZIP_TMP}"
+
+                        wget -O "${ZIP_TMP}" \
+                             --tries=5 \
+                             --retry-connrefused \
+                             --waitretry=5 \
+                             --read-timeout=60 \
+                             --timeout=60 \
+                             "${DAILY_URL}"
+
+                        test -s "${ZIP_TMP}"
+                        unzip -t "${ZIP_TMP}" >/dev/null
+                        sha256sum "${ZIP_TMP}" | awk '{print $1}' > "${STATE_DIR}/${SHA_FILE}.new"
+                    '''
 
                     env.NEW_SHA = sh(
-                        script: "cat .jenkins-state/${SHA_FILE}.new",
+                        script: "cat ${STATE_DIR}/${SHA_FILE}.new",
                         returnStdout: true
                     ).trim()
 
                     env.OLD_SHA = sh(
                         script: """
-                            if [ -f ".jenkins-state/${SHA_FILE}" ]; then
-                                cat ".jenkins-state/${SHA_FILE}"
+                            if [ -f "${STATE_DIR}/${SHA_FILE}" ]; then
+                                cat "${STATE_DIR}/${SHA_FILE}"
                             fi
                         """,
                         returnStdout: true
@@ -83,19 +97,32 @@ pipeline {
             }
         }
 
+        stage('Inject ZIP into build context') {
+            when {
+                expression { env.SHOULD_BUILD == 'true' }
+            }
+            steps {
+                sh '''
+                    set -eu
+                    cp "${ZIP_TMP}" "repo/${BUILD_DIR}/${ZIP_NAME}"
+                    test -f "repo/${BUILD_DIR}/${ZIP_NAME}"
+                '''
+            }
+        }
+
         stage('Build image') {
             when {
                 expression { env.SHOULD_BUILD == 'true' }
             }
             steps {
                 dir("repo/${env.BUILD_DIR}") {
-                    sh """
+                    sh '''
                         set -eu
-                        docker build --pull --no-cache \\
-                          --build-arg IDEMPIERE_BUILD="${DAILY_URL}" \\
-                          -t ${IMAGE_NAME}:${IMAGE_TAG} \\
+                        docker build --pull --no-cache \
+                          --build-arg IDEMPIERE_ZIP_FILE="${ZIP_NAME}" \
+                          -t ${IMAGE_NAME}:${IMAGE_TAG} \
                           .
-                    """
+                    '''
                 }
             }
         }
@@ -105,13 +132,14 @@ pipeline {
                 expression { env.SHOULD_BUILD == 'true' }
             }
             steps {
-                sh """
+                sh '''
                     set -eu
                     docker run --rm --entrypoint bash ${IMAGE_NAME}:${IMAGE_TAG} -lc '
                         java -version &&
-                        test -f /opt/idempiere/docker-entrypoint.sh
+                        test -f /opt/idempiere/docker-entrypoint.sh &&
+                        test -f /opt/idempiere/MD5SUMS
                     '
-                """
+                '''
             }
         }
 
@@ -126,7 +154,7 @@ pipeline {
                     passwordVariable: 'DOCKER_PASS'
                 )]) {
                     sh '''
-                        set -e
+                        set -eu
                         echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
                     '''
                 }
@@ -138,10 +166,10 @@ pipeline {
                 expression { env.SHOULD_BUILD == 'true' }
             }
             steps {
-                sh """
+                sh '''
                     set -eu
                     docker push ${IMAGE_NAME}:${IMAGE_TAG}
-                """
+                '''
             }
         }
 
@@ -150,10 +178,10 @@ pipeline {
                 expression { env.SHOULD_BUILD == 'true' }
             }
             steps {
-                sh """
+                sh '''
                     set -eu
-                    mv ".jenkins-state/${SHA_FILE}.new" ".jenkins-state/${SHA_FILE}"
-                """
+                    mv "${STATE_DIR}/${SHA_FILE}.new" "${STATE_DIR}/${SHA_FILE}"
+                '''
             }
         }
 
@@ -162,7 +190,7 @@ pipeline {
                 expression { env.SHOULD_BUILD != 'true' }
             }
             steps {
-                echo "Daily ZIP has not changed. Skipping build and push."
+                echo 'Daily ZIP has not changed. Skipping build and push.'
             }
         }
     }
@@ -170,7 +198,8 @@ pipeline {
     post {
         always {
             sh '''
-                rm -f /tmp/idempiereServer13Daily.zip || true
+                rm -f "${ZIP_TMP}" || true
+                rm -f "repo/${BUILD_DIR}/${ZIP_NAME}" || true
                 docker logout || true
                 docker image prune -f || true
             '''
