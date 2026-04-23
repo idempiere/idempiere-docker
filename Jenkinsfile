@@ -1,68 +1,187 @@
 pipeline {
-    agent {
-        docker { 
-            image 'docker:20' 
-        }
+    agent any
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+        buildDiscarder(logRotator(numToKeepStr: '30'))
     }
-    triggers {
-        cron('@daily')
-    }
+
     environment {
-        PROJECT_NAME = 'idempiereofficial/idempiere'
-        DOCKERHUB = credentials('idempiereofficial-dockerhub')
+        REPO_URL        = 'https://github.com/idempiere/idempiere-docker.git'
+        BRANCH_NAME     = 'master'
+        DOCKER_CONTEXT  = '13-daily'
+        IMAGE_NAME      = 'idempiereofficial/idempiere'
+        IMAGE_TAG       = '13-daily'
+        DAILY_URL       = 'https://sourceforge.net/projects/idempiere/files/v13/daily-server/idempiereServer13Daily.gtk.linux.x86_64.zip/download'
+        DOCKER_BUILDKIT = '1'
+        SHA_FILE        = '.last_daily_sha256'
+        ZIP_FILE        = '/tmp/idempiereServer13Daily.zip'
     }
+
+    triggers {
+        cron('H H(1-4) * * *')
+    }
+
     stages {
-        stage('Login into dockerhub') {
+
+        stage('Prepare workspace') {
             steps {
-                sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
+                sh '''
+                    set -e
+                    mkdir -p .jenkins-state
+                '''
             }
         }
-        stage('Publishing 9-release to dockerhub') {
+
+        stage('Download daily and calculate checksum') {
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:9'
-                sh 'docker build --no-cache -t $PROJECT_NAME:release -t $PROJECT_NAME:9 ./9'
-                sh 'docker push $PROJECT_NAME:release'
-                sh 'docker push $PROJECT_NAME:9'
+                script {
+                    sh """
+                        set -euo pipefail
+                        curl -L --fail --silent --show-error "${DAILY_URL}" -o "${ZIP_FILE}"
+                        sha256sum "${ZIP_FILE}" | awk '{print \$1}' > ".jenkins-state/${SHA_FILE}.new"
+                    """
+
+                    env.NEW_SHA = sh(
+                        script: "cat .jenkins-state/${SHA_FILE}.new",
+                        returnStdout: true
+                    ).trim()
+
+                    env.OLD_SHA = sh(
+                        script: """
+                            if [ -f ".jenkins-state/${SHA_FILE}" ]; then
+                                cat ".jenkins-state/${SHA_FILE}"
+                            fi
+                        """,
+                        returnStdout: true
+                    ).trim()
+
+                    if (env.OLD_SHA == env.NEW_SHA && env.OLD_SHA != '') {
+                        env.SHOULD_BUILD = 'false'
+                        currentBuild.description = "No change in daily ZIP (${env.NEW_SHA.take(12)})"
+                    } else {
+                        env.SHOULD_BUILD = 'true'
+                        currentBuild.description = "New daily ZIP detected (${env.NEW_SHA.take(12)})"
+                    }
+
+                    echo "OLD_SHA=${env.OLD_SHA}"
+                    echo "NEW_SHA=${env.NEW_SHA}"
+                    echo "SHOULD_BUILD=${env.SHOULD_BUILD}"
+                }
             }
         }
-        
-        stage('Publishing 9-daily to dockerhub') {
+
+        stage('Checkout repo') {
+            when {
+                expression { env.SHOULD_BUILD == 'true' }
+            }
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:9-daily'
-                sh 'docker build --no-cache -t $PROJECT_NAME:daily -t $PROJECT_NAME:9-daily ./9-daily'
-                sh 'docker push $PROJECT_NAME:9-daily'
-                sh 'docker push $PROJECT_NAME:9-daily'
+                dir('repo') {
+                    deleteDir()
+                    git branch: "${env.BRANCH_NAME}", url: "${env.REPO_URL}"
+                }
             }
         }
-        
-        stage('Publishing 9-master to dockerhub') {
+
+        stage('Build image') {
+            when {
+                expression { env.SHOULD_BUILD == 'true' }
+            }
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:9-master'
-                sh 'docker build --no-cache -t $PROJECT_NAME:latest -t $PROJECT_NAME:9-master ./9-master'
-                sh 'docker push $PROJECT_NAME:9-master'
+                dir("repo/${env.DOCKER_CONTEXT}") {
+                    sh """
+                        set -euo pipefail
+
+                        docker build --pull --no-cache \\
+                          --build-arg IDEMPIERE_BUILD="${DAILY_URL}" \\
+                          -t ${IMAGE_NAME}:${IMAGE_TAG} \\
+                          .
+                    """
+                }
             }
         }
-        stage('Publishing 8.2 to dockerhub') {
+
+        stage('Smoke test') {
+            when {
+                expression { env.SHOULD_BUILD == 'true' }
+            }
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:8.2'
-                sh 'docker build --no-cache -t $PROJECT_NAME:8.2 -t $PROJECT_NAME:phong ./8.2'
-                sh 'docker push $PROJECT_NAME:8.2'
-                sh 'docker push $PROJECT_NAME:phong'
+                sh """
+                    set -euo pipefail
+                    docker run --rm --entrypoint bash ${IMAGE_NAME}:${IMAGE_TAG} -lc '
+                        java -version &&
+                        test -f /opt/idempiere/docker-entrypoint.sh
+                    '
+                """
             }
         }
-         stage('Publishing source-release-9 to dockerhub') {
-            steps {
-                sh 'docker image rm -f $PROJECT_NAME:source-release-9'
-                sh 'docker build --no-cache -t $PROJECT_NAME:source-release-9 ./source-release-9'
-                sh 'docker push $PROJECT_NAME:source-release-9'
+
+        stage('Login Docker Hub') {
+            when {
+                expression { env.SHOULD_BUILD == 'true' }
             }
-         }
-        stage('Publishing source-release-8.2 to dockerhub') {
             steps {
-                sh 'docker image rm -f $PROJECT_NAME:source-release-8.2'
-                sh 'docker build --no-cache -t $PROJECT_NAME:source-release-8.2 ./source-release-8.2'
-                sh 'docker push $PROJECT_NAME:source-release-8.2'
+                withCredentials([usernamePassword(
+                    credentialsId: 'dockerhub-creds',
+                    usernameVariable: 'DOCKER_USER',
+                    passwordVariable: 'DOCKER_PASS'
+                )]) {
+                    sh '''
+                        set -euo pipefail
+                        echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
+                    '''
+                }
             }
+        }
+
+        stage('Push image') {
+            when {
+                expression { env.SHOULD_BUILD == 'true' }
+            }
+            steps {
+                sh """
+                    set -euo pipefail
+                    docker push ${IMAGE_NAME}:${IMAGE_TAG}
+                """
+            }
+        }
+
+        stage('Persist checksum') {
+            when {
+                expression { env.SHOULD_BUILD == 'true' }
+            }
+            steps {
+                sh """
+                    set -euo pipefail
+                    mv ".jenkins-state/${SHA_FILE}.new" ".jenkins-state/${SHA_FILE}"
+                """
+            }
+        }
+
+        stage('Skip info') {
+            when {
+                expression { env.SHOULD_BUILD != 'true' }
+            }
+            steps {
+                echo "Daily ZIP has not changed. Skipping build and push."
+            }
+        }
+    }
+
+    post {
+        always {
+            sh '''
+                rm -f /tmp/idempiereServer13Daily.zip || true
+                docker logout || true
+                docker image prune -f || true
+            '''
+        }
+        success {
+            echo "Pipeline finished successfully"
+        }
+        failure {
+            echo "Pipeline failed"
         }
     }
 }
