@@ -10,11 +10,10 @@ pipeline {
     environment {
         REPO_URL        = 'https://github.com/idempiere/idempiere-docker.git'
         BRANCH_NAME     = 'master'
-        DOCKER_CONTEXT  = '13-daily'
+        BUILD_DIR       = '13-daily'
         IMAGE_NAME      = 'idempiereofficial/idempiere'
         IMAGE_TAG       = '13-daily'
         DAILY_URL       = 'https://sourceforge.net/projects/idempiere/files/v13/daily-server/idempiereServer13Daily.gtk.linux.x86_64.zip/download'
-        DOCKER_BUILDKIT = '1'
         SHA_FILE        = '.last_daily_sha256'
         ZIP_FILE        = '/tmp/idempiereServer13Daily.zip'
     }
@@ -38,7 +37,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                        set -euo pipefail
+                        set -eu
                         curl -L --fail --silent --show-error "${DAILY_URL}" -o "${ZIP_FILE}"
                         sha256sum "${ZIP_FILE}" | awk '{print \$1}' > ".jenkins-state/${SHA_FILE}.new"
                     """
@@ -89,10 +88,9 @@ pipeline {
                 expression { env.SHOULD_BUILD == 'true' }
             }
             steps {
-                dir("repo/${env.DOCKER_CONTEXT}") {
+                dir("repo/${env.BUILD_DIR}") {
                     sh """
-                        set -euo pipefail
-
+                        set -eu
                         docker build --pull --no-cache \\
                           --build-arg IDEMPIERE_BUILD="${DAILY_URL}" \\
                           -t ${IMAGE_NAME}:${IMAGE_TAG} \\
@@ -108,7 +106,7 @@ pipeline {
             }
             steps {
                 sh """
-                    set -euo pipefail
+                    set -eu
                     docker run --rm --entrypoint bash ${IMAGE_NAME}:${IMAGE_TAG} -lc '
                         java -version &&
                         test -f /opt/idempiere/docker-entrypoint.sh
@@ -128,7 +126,7 @@ pipeline {
                     passwordVariable: 'DOCKER_PASS'
                 )]) {
                     sh '''
-                        set -euo pipefail
+                        set -e
                         echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
                     '''
                 }
@@ -141,7 +139,7 @@ pipeline {
             }
             steps {
                 sh """
-                    set -euo pipefail
+                    set -eu
                     docker push ${IMAGE_NAME}:${IMAGE_TAG}
                 """
             }
@@ -153,7 +151,7 @@ pipeline {
             }
             steps {
                 sh """
-                    set -euo pipefail
+                    set -eu
                     mv ".jenkins-state/${SHA_FILE}.new" ".jenkins-state/${SHA_FILE}"
                 """
             }
