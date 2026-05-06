@@ -1,0 +1,151 @@
+name: idempiere-redis-cluster
+
+# Two iDempiere v13 nodes sharing one Postgres and one Redis.
+# Validates the org.idempiere.redis.service distributed-cache backend
+# (IDEMPIERE-6989) end-to-end on a single docker host.
+#
+# The iDempiere image is built locally from Dockerfile.redis and bakes in
+# the redis bundle JAR (staged by build-dropins.sh from your iDempiere
+# fork).  We do NOT bind-mount over /opt/idempiere/plugins — that would
+# shadow every stock OSGi bundle and break the entire framework.
+#
+# Quickstart:
+#   1. Build the bundle JAR:        IDEMPIERE_SRC=~/GitHub/idempiere-fork bash build-dropins.sh
+#   2. Build the runtime image:     docker compose build
+#   3. First-boot (sequenced):      bash scripts/start.sh --seed
+#   4. Subsequent boots:            bash scripts/start.sh
+#   5. Webuis:                      https://localhost:8443/webui (node-a)
+#                                   https://localhost:8444/webui (node-b)
+#
+# Tear down:
+#   bash scripts/stop.sh            keeps DB + redis volumes
+#   bash scripts/stop.sh --wipe     nukes everything
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: idmp-redis
+    command:
+      - redis-server
+      - --notify-keyspace-events
+      - Egx
+      - --appendonly
+      - "yes"
+    ports:
+      # Host 6380 -> container 6379. Host 6379 is taken by a local redis used
+      # by the Eclipse-launched iDempiere dev instance; keep them side-by-side.
+      # The two dockerized iDempiere nodes still reach redis via the internal
+      # docker network as redis://redis:6379 — this mapping only affects
+      # redis-cli access from the host.
+      - "6380:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - idmp-net
+
+  postgres:
+    image: postgres:16
+    container_name: idmp-postgres
+    # Leave POSTGRES_USER unset — the iDempiere image's startup script
+    # connects as the default 'postgres' superuser (DB_ADMIN_USER, hardcoded)
+    # using DB_ADMIN_PASS to create the 'adempiere' role and 'idempiere'
+    # database on first boot. Overriding POSTGRES_USER breaks that bootstrap.
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      TZ: ${TZ:-UTC}
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+    networks:
+      - idmp-net
+
+  idempiere-a: &idempiere-base
+    build:
+      context: .
+      dockerfile: Dockerfile.redis
+      args:
+        IDEMPIERE_IMAGE: ${IDEMPIERE_IMAGE:-idempiereofficial/idempiere:13-release}
+    image: idempiere-redis-cluster:local
+    container_name: idmp-a
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      TZ: ${TZ:-UTC}
+      DB_HOST: postgres
+      DB_NAME: idempiere
+      DB_USER: adempiere
+      DB_PASS: adempiere
+      DB_ADMIN_PASS: ${POSTGRES_PASSWORD:-postgres}
+      JAVA_OPTIONS: "-Didempiere.distributed.backend=redis"
+    volumes:
+      # Single-file bind mounts for runtime config — these don't shadow the
+      # parent dir, so the rest of /opt/idempiere stays intact.
+      - ./config/redis.yaml:/opt/idempiere/redis.yaml:ro
+      - ./config/redis.properties:/opt/idempiere/redis.properties:ro
+      - idempiere-a-config:/opt/idempiere/configuration
+      - idempiere-a-log:/opt/idempiere/log
+    ports:
+      - "8443:8443"
+      - "12612:12612"
+    healthcheck:
+      # Webui returns 200 once iDempiere has finished bootstrapping.
+      # start_period is generous (5 min) because first-boot runs RUN_ImportIdempiere.sh.
+      # Probe with whichever HTTP client is present in the base image.
+      # The 13-release image ships wget; curl is the fallback for variants that don't.
+      test: ["CMD-SHELL", "wget --no-check-certificate -qO- https://localhost:8443/webui/ >/dev/null 2>&1 || curl -fsSk https://localhost:8443/webui/ >/dev/null 2>&1 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 30
+      start_period: 300s
+    restart: unless-stopped
+    networks:
+      - idmp-net
+
+  idempiere-b:
+    <<: *idempiere-base
+    container_name: idmp-b
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      idempiere-a:
+        # Wait for node-a to finish seeding the DB before node-b boots —
+        # otherwise both nodes try to import the schema simultaneously.
+        condition: service_healthy
+    volumes:
+      - ./config/redis.yaml:/opt/idempiere/redis.yaml:ro
+      - ./config/redis.properties:/opt/idempiere/redis.properties:ro
+      - idempiere-b-config:/opt/idempiere/configuration
+      - idempiere-b-log:/opt/idempiere/log
+    ports:
+      - "8444:8443"
+      - "12613:12612"
+
+volumes:
+  redis-data:
+  pg-data:
+  idempiere-a-config:
+  idempiere-a-log:
+  idempiere-b-config:
+  idempiere-b-log:
+
+networks:
+  idmp-net:
+    driver: bridge

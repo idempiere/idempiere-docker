@@ -6,3 +6,6 @@ Desktop.ini
 *.zip
 .idea/
 *.iml
+
+# IDEMPIERE-6989 redis-cluster harness — bundle JARs staged by build-dropins.sh
+redis-cluster/dropins/*.jar

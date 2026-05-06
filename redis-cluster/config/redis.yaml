@@ -1,0 +1,17 @@
+# Redisson connection config for the IDEMPIERE-6989 redis-cluster harness.
+# Mounted into both iDempiere containers at /opt/idempiere/redis.yaml.
+# Both nodes share this file -> same Redis target -> one cluster.
+
+singleServerConfig:
+  address: "redis://redis:6379"
+  password: null
+  database: 0
+
+  connectionMinimumIdleSize: 24
+  connectionPoolSize: 64
+  subscriptionConnectionMinimumIdleSize: 1
+  subscriptionConnectionPoolSize: 50
+
+  timeout: 3000
+  retryAttempts: 3
+  retryInterval: 1500

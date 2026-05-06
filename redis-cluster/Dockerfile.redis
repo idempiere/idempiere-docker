@@ -1,0 +1,47 @@
+# Thin image FROM the public iDempiere v13-release that bakes in our
+# org.idempiere.redis.service bundle and registers it with the Equinox
+# simpleconfigurator so OSGi actually starts it.
+#
+# The bundle JAR comes from ./dropins/, populated by build-dropins.sh.
+# Default redis.yaml and redis.properties are baked in; both can be
+# overridden at runtime via single-file bind mounts in docker-compose.
+#
+# Build:   docker compose build      (or: docker build -f Dockerfile.redis -t idempiere-redis-cluster .)
+# Run:     handled by docker-compose.yml in this folder
+
+ARG IDEMPIERE_IMAGE=idempiereofficial/idempiere:13-release
+FROM ${IDEMPIERE_IMAGE}
+
+USER root
+
+# Bake in the bundle JAR (file glob — exact filename varies with Tycho qualifier).
+COPY dropins/org.idempiere.redis.service-*.jar /tmp/redis-bundle.jar
+
+# Bake in default connection + tuning config (overridable via compose mounts).
+COPY config/redis.yaml /opt/idempiere/redis.yaml
+COPY config/redis.properties /opt/idempiere/redis.properties
+
+# 1) Read Bundle-Version from the JAR's MANIFEST so we don't have to hardcode
+#    the Tycho qualifier (the build timestamp suffix changes every build).
+# 2) Move the JAR into plugins/ using Eclipse naming (sym-name_version.jar)
+#    so it matches the convention of every other entry in bundles.info.
+# 3) Append a registration line so simpleconfigurator starts it at boot.
+#    start-level=4, auto-start=true   (mirrors how org.idempiere.hazelcast.service
+#    is registered, but eager — we want the higher-ranked redis ICacheService
+#    registered before the first cache lookup so it wins over hazelcast).
+RUN VER=$(unzip -p /tmp/redis-bundle.jar META-INF/MANIFEST.MF \
+            | tr -d '\r' \
+            | sed -n 's/^Bundle-Version: //p' \
+            | head -1) \
+ && [ -n "$VER" ] || (echo "Could not read Bundle-Version from redis-bundle.jar" >&2; exit 1) \
+ && BNAME="org.idempiere.redis.service_${VER}.jar" \
+ && mv /tmp/redis-bundle.jar "/opt/idempiere/plugins/$BNAME" \
+ && echo "org.idempiere.redis.service,${VER},plugins/${BNAME},4,true" \
+    >> /opt/idempiere/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info \
+ && chown idempiere:idempiere \
+      "/opt/idempiere/plugins/$BNAME" \
+      /opt/idempiere/redis.yaml \
+      /opt/idempiere/redis.properties \
+      /opt/idempiere/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+
+USER idempiere
